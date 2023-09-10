@@ -4,6 +4,7 @@
 	culture = vathir
 	faith = frontier_creed
 	holding = castle_holding
+	special_building_slot = parliament_hall
 }
 72 = {holding = church_holding}
 73 = {holding = city_holding}
@@ -12,6 +13,7 @@
 	culture = daggerborn
 	faith = akom_pagan
 	holding = castle_holding
+	special_building_slot = dye_factories
 }
 75 = {holding = city_holding}
 ### Bearswood

@@ -153,3 +153,61 @@ morgrave_university = {
 
 	flag = travel_point_of_interest_learning
 }
+
+dye_factories = {
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	can_construct_potential = { building_requirement_tribal = no }
+	show_disabled = yes
+	type = special
+	
+	type_icon = "icon_building_generic_house.dds"
+	
+	county_modifier = {
+		tax_mult = 1
+		development_growth = 0.3
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+parliament_hall = {
+	construction_time = very_slow_construction_time
+	cost_gold = 500
+	can_construct_potential = { building_requirement_tribal = no }
+	show_disabled = yes
+	type = special
+	
+	type_icon = "compostela.dds"
+	
+	province_modifier = {
+		monthly_income = 1
+	}
+	
+	county_modifier = {
+		development_growth = 0.3
+		county_opinion_add = 25
+		monthly_county_control_change_add = 1
+	}
+	
+	character_modifier = {
+		monthly_prestige = 1
+		short_reign_duration_mult = -1
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+	
+	flag = travel_point_of_interest_diplomatic
+}

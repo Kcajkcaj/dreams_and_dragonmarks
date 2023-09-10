@@ -1,0 +1,43 @@
+hostile_scheme_success = {
+	on_actions = {
+		rank_up_whisper_bard
+	}
+}
+
+personal_scheme_success = {
+	on_actions = {
+		rank_up_glamour_bard
+	}
+}
+
+rank_up_glamour_bard = {
+	trigger = {has_trait = poet}
+	effect = {
+		add_trait_xp = {
+			trait = poet
+			track = glamour
+			value = {
+				integer_range = {
+					min = 1
+					max = 7
+				}
+			}
+		}
+	}
+}
+
+rank_up_whisper_bard = {
+	trigger = {has_trait = poet}
+	effect = {
+		add_trait_xp = {
+			trait = poet
+			track = whispers
+			value = {
+				integer_range = {
+					min = 1
+					max = 7
+				}
+			}
+		}
+	}
+}

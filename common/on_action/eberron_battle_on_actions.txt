@@ -1,0 +1,85 @@
+on_combat_end_winner = {
+	on_actions = {
+		gain_valor_xp_on_action
+		gain_veteran_xp_on_action
+	}
+}
+
+on_combat_end_loser = {
+	on_actions = {
+		gain_veteran_xp_on_action
+	}
+}
+
+gain_valor_xp_on_action = {
+	effect = {
+		if = {
+			limit = {
+				exists = side_commander
+			}
+			side_commander = {
+				if = {
+					limit = {has_trait = poet}
+					add_trait_xp = {
+						trait = poet
+						track = valor
+						value = {
+							integer_range = {
+								min = 3
+								max = 5
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+gain_veteran_xp_on_action = {
+	effect = {
+		if = {
+			limit = {exists = side_commander}
+			side_commander = {
+				if = {
+					limit = { culture = {has_cultural_parameter = gain_veteran_trait}}
+					if = {
+						limit = {has_trait = veteran}
+						add_trait_xp = {
+							trait = veteran
+							value = {
+								integer_range = {
+									min = 0
+									max = 10
+								}
+							}
+						}
+					}
+					else = {
+						add_trait = veteran
+					}
+				}
+			}
+		}
+		every_side_knight = {
+			if = {
+				limit = { culture = {has_cultural_parameter = gain_veteran_trait}}
+				if = {
+					limit = {has_trait = veteran}
+					add_trait_xp = {
+						trait = veteran
+						value = {
+							integer_range = {
+								min = 0
+								max = 10
+							}
+						}
+					}
+				}
+				else = {
+					add_trait = veteran
+				}
+			}
+		}
+	}
+}
