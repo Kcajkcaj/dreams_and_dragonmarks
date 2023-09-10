@@ -1,0 +1,15 @@
+rf_draconic = {
+	graphical_faith = "orthodox_gfx"
+	hostility_doctrine = abrahamic_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_christian.dds
+}
+rf_silver_flame = {
+	graphical_faith = "orthodox_gfx"
+	hostility_doctrine = abrahamic_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_christian.dds
+}
+rf_elven = {
+	graphical_faith = "orthodox_gfx"
+	hostility_doctrine = abrahamic_hostility_doctrine
+	doctrine_background_icon = core_tenet_banner_christian.dds
+}

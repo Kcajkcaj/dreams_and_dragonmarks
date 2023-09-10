@@ -1,0 +1,107 @@
+d_sharn = {
+	3400.1.1 = {
+		holder = tasra_malleonid
+	}
+}
+c_central_plateau = {
+	3400.1.1 = {
+		holder = tasra_malleonid
+	}
+}
+c_dura = {
+	3400.1.1 = {
+		holder = tasra_malleonid
+	}
+}
+c_northedge = {
+	3400.1.1 = {
+		holder = tasra_malleonid
+	}
+}
+c_menthis_plateau = {
+	3400.1.1 = {
+		liege = d_sharn
+		holder = halas_tarkanan
+	}
+}
+c_tavicks_landing = {
+	3400.1.1 = {
+		liege = d_sharn
+		holder = halas_tarkanan
+	}
+}
+
+d_silln = {
+	3392.11.8 = {
+		holder = aaspar_of_silln
+	}
+}
+c_yarkuun_draal = {
+	3392.11.8 = {
+		holder = aaspar_of_silln
+	}
+}
+c_lower_silln = {
+	3392.11.8 = {
+		holder = aaspar_of_silln
+	}
+}
+c_flint_keep = {
+	3392.11.8 = {
+		holder = aaspar_of_silln
+	}
+}
+c_zilspar = {
+	3400.1.1 = {
+		liege = d_sharn
+		holder = doran_of_zilspar
+	}
+}
+
+c_moonwatch = {
+	3400.1.1 = {
+		liege = d_sharn
+		holder = kuven_of_moonwatch
+	}
+}
+c_riverside = {
+	3400.1.1 = {
+		liege = d_sharn
+		holder = kuven_of_moonwatch
+	}
+}
+c_ringbriar = {
+	3400.1.1 = {
+		holder = taruuzh_of_ringwood
+	}
+}
+c_ringwood = {
+	3400.1.1 = {
+		holder = taruuzh_of_ringwood
+	}
+}
+d_shadowlock = {
+	3400.1.1 = {
+		holder = daavn_of_shadowlock
+	}
+}
+c_daggerwood_b = {
+	3400.1.1 = {
+		holder = dabrak_of_torch_keep
+	}
+}
+c_torch_keep = {
+	3400.1.1 = {
+		holder = dabrak_of_torch_keep
+	}
+}
+c_daggerwood_a = {
+	3400.1.1 = {
+		holder = krakuul_of_tilorn
+	}
+}
+c_tilorn = {
+	3400.1.1 = {
+		holder = krakuul_of_tilorn
+	}
+}

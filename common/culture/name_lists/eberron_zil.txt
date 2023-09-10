@@ -1,0 +1,26 @@
+name_list_zil = {
+
+	dynasty_names = {
+		"Dannor"
+		"Doras"
+		"Alrene"
+		"Lorridan"
+		"Lyrriman"
+		"Magan"
+		"Santor"
+		"Syrralan"
+		"Torralyn"
+		"Fekk"
+		"Denithki"
+		"Dojurn"
+		"Alyre"
+		"Rapelje"
+		"Dorian"
+		"Lonadar"
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	male_names = { Corvus Doran Nebik Mercantin Prelik Wernor Harlus Rurin Tesser Solirion Odian Tyrin Zander Zellwether Vundry Yeksir Josilian Illivanik Hasal Kidro Pifagor Quinton Roywin Salleon Scaramar Torren Tyrl Jolian}
+	female_names = { Daca Ezala Fara Feralyn Cassia Agraefa Benith Kalva Alina Xarshel Lysse Alimne Kendal Syla Tala Tassi Vi Harkra Jalara Janesta Ridara Valexa Vanira}
+}

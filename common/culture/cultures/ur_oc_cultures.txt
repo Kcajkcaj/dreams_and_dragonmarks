@@ -1,0 +1,92 @@
+rootfolk = { # Live in caves among the roots of trees
+	color = {0.3 0.6 0}
+	
+	ethos = ethos_communal
+	heritage = heritage_ur_oc
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_dhakaani
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_clan_connections
+		tradition_fervent_believers
+		tradition_primal_rangers
+		tradition_wild_tenders
+		# One More
+	}
+	
+	ethnicities = {
+		15 = rhialuun
+		15 = syrk
+		70 = orc
+	}
+}
+
+branchfolk = { # Live in treehouses
+	color = {0 0.4 0}
+	
+	ethos = ethos_communal
+	heritage = heritage_ur_oc
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_dhakaani
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_clan_connections
+		tradition_fervent_believers
+		tradition_primal_rangers
+		tradition_wild_tenders
+		# One More
+	}
+	
+	ethnicities = {
+		15 = rhialuun
+		15 = syrk
+		70 = orc
+	}
+}
+
+trailfolk = { # Nomadic
+	color = {0.4 0.5 0}
+	
+	ethos = ethos_communal
+	heritage = heritage_ur_oc
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_dhakaani
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_clan_connections
+		tradition_fervent_believers
+		tradition_nomadic_gatherers
+		tradition_primal_rangers
+		tradition_wild_tenders
+	}
+	
+	ethnicities = {
+		20 = rhialuun
+		15 = syrk
+		65 = orc
+	}
+}

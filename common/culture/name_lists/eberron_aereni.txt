@@ -1,0 +1,21 @@
+name_list_aereni = {
+
+	dynasty_names = {
+		"Amastacia"
+		"Amakiir"
+		"Galanodel"
+		"Holimion"
+		"Liadon"
+		"Meliamne"
+		"Nailo"
+		"Siannodel"
+		"Ilphukiir"
+		"Xiloscient"
+		"Lantol"
+	}
+	
+	cadet_dynasty_names = dynasty_names
+
+	male_names = { Shaeras Vadallia Fallarond Aramil Aust Enialis Heian Himo Ivellios Laucian Quarion Soverliss Thamior Tharivol }
+	female_names = { Zemella Irian Saeria Luala Minara Minari Eliri Erandis Anastrianna Antinua Drusilia Felosial Ielenia Lia Mialee Qillathe Silaqui Vadania Valanthe Xanaphia }
+}

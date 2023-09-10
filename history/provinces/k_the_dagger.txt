@@ -1,0 +1,257 @@
+##### Wroat
+### Wroat
+71 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+72 = {holding = church_holding}
+73 = {holding = city_holding}
+### Glyphstone
+74 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = castle_holding
+}
+75 = {holding = city_holding}
+### Bearswood
+76 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = castle_holding
+}
+77 = {holding = none}
+78 = {holding = none}
+### Tansend
+79 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = castle_holding
+}
+80 = {holding = none}
+81 = {holding = none}
+82 = {holding = none}
+### Kingswood A
+83 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = tribal_holding
+}
+84 = {holding = none}
+85 = {holding = none}
+86 = {holding = none}
+### Kingswood B
+87 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = tribal_holding
+}
+88 = {holding = none}
+89 = {holding = none}
+### Kingswood C
+90 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = castle_holding
+}
+91 = {holding = none}
+92 = {holding = none}
+93 = {holding = none}
+##### Skyraker
+### Galethspyre
+94 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+95 = {holding = church_holding}
+96 = {holding = city_holding}
+### Shining Valley
+97 = {
+	culture = daggerborn
+	faith = jamori
+	holding = tribal_holding
+}
+98 = {holding = none}
+99 = {holding = none}
+### Skyraker A
+100 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = castle_holding
+}
+101 = {holding = none}
+102 = {holding = none}
+### Skyraker B
+103 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = castle_holding
+}
+104 = {holding = none}
+105 = {holding = none}
+### Skyraker C
+106 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+107 = {holding = none}
+108 = {holding = none}
+##### Bentblade
+### Barans Keep
+109 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+110 = {holding = church_holding}
+111 = {holding = city_holding}
+112 = {holding = none}
+### Bentblade A
+113 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+114 = {holding = none}
+### Bentblade B
+115 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+116 = {holding = none}
+### Bentblade C
+117 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+118 = {holding = none}
+### Bentblade D
+119 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+120 = {holding = none}
+121 = {holding = none}
+##### Ardev
+### Ardev
+122 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+123 = {holding = church_holding}
+124 = {holding = city_holding}
+125 = {holding = none}
+### Threshold
+126 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+127 = {holding = none}
+128 = {holding = none}
+### Arakhain
+129 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+130 = {holding = none}
+131 = {holding = none}
+### Ardev B
+132 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+133 = {holding = none}
+### Ardev C
+134 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+135 = {holding = none}
+136 = {holding = none}
+##### Whitehorn
+### Shavalant
+137 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+138 = {holding = church_holding}
+139 = {holding = city_holding}
+140 = {holding = none}
+### Whitehorn Wood
+141 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+142 = {holding = none}
+143 = {holding = none}
+### Septon Caves
+144 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+145 = {holding = none}
+146 = {holding = none}
+147 = {holding = none}
+### Quickstone
+148 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+149 = {holding = none}
+150 = {holding = none}
+### Orcbone
+151 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+152 = {holding = none}
+153 = {holding = none}
+##### Dragonwood
+### Woodhelm
+154 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = castle_holding
+}
+155 = {holding = none}
+156 = {holding = none}
+### Dragonwood B
+157 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+158 = {holding = none}
+159 = {holding = none}
+160 = {holding = none}
+### Dragonwood C
+161 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+162 = {holding = none}
+163 = {holding = none}
+### Dragonwood D
+164 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+165 = {holding = none}
+166 = {holding = none}

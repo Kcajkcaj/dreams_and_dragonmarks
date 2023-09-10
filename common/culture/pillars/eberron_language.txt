@@ -1,0 +1,125 @@
+﻿language_common = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_common
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_common }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_halfling = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_halfling
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_halfling }
+			multiply = 10
+		}
+	}
+	
+	color = mongolic
+}
+
+language_zil = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_zil
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_zil }
+			multiply = 10
+		}
+	}
+	
+	color = italian
+}
+
+language_goblin = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_goblin
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_goblin }
+			multiply = 10
+		}
+	}
+	
+	color = arabic
+}
+
+language_azhani = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_azhani
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_azhani }
+			multiply = 10
+		}
+	}
+	
+	color = {0 0.5 0.3}
+}
+
+language_thelanian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_thelanian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_thelanian }
+			multiply = 10
+		}
+	}
+	
+	color = persian
+}
+
+language_harpy = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_harpy
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_harpy }
+			multiply = 10
+		}
+	}
+	
+	color = greek
+}

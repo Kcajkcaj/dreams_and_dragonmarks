@@ -1,0 +1,116 @@
+aaspar_of_silln = {
+	name = "Aaspar"
+	culture = daggerborn
+	faith = akom_pagan
+	female = yes
+	
+	trait = education_learning_3
+	
+	trait = zealous
+	trait = ambitious
+	trait = sadistic
+	
+	trait = shrewd
+	
+	3392.11.8 = {
+		birth = yes
+	}
+}
+
+halas_tarkanan = {
+	name = "Halas"
+	dynasty = dynn_tarkanan
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+	
+	trait = education_martial_5
+	
+	trait = ambitious
+	trait = just
+	trait = compassionate
+	
+	trait = intellect_good_2
+	
+	3389.3.5 = {
+		birth = yes
+	}
+}
+
+tasra_malleonid = {
+	name = "Tasra"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+		
+	3384.7.19 = {
+		birth = yes
+	}
+}
+
+doran_of_zilspar = {
+	name = "Doran"
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+		
+	3375.1.12 = {
+		birth = yes
+	}
+}
+
+kuven_of_moonwatch = {
+	name = "Kuven"
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+		
+	3381.3.4 = {
+		birth = yes
+	}
+}
+
+taruuzh_of_ringwood = {
+	name = "Taruuzh"
+	culture = daggerborn
+	faith = khaarani
+	female = no
+	
+	3394.5.9 = {
+		birth = yes
+	}
+}
+
+daavn_of_shadowlock = {
+	name = "Daavn"
+	culture = daggerborn
+	faith = khaarani
+	female = no
+	
+	3394.5.9 = {
+		birth = yes
+	}
+}
+
+krakuul_of_tilorn = {
+	name = "Krakuul"
+	culture = daggerborn
+	faith = khaarani
+	female = no
+	
+	3394.5.9 = {
+		birth = yes
+	}
+}
+
+dabrak_of_torch_keep = {
+	name = "Dabrak"
+	culture = daggerborn
+	faith = khaarani
+	female = no
+	
+	3394.5.9 = {
+		birth = yes
+	}
+}

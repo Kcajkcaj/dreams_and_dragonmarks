@@ -1,0 +1,9 @@
+﻿korranath = {
+	county = c_central_plateau
+
+	character_modifier = {
+		name = korranath
+		stewardship_per_piety_level = 1
+		domain_tax_mult = 0.05
+	}
+}

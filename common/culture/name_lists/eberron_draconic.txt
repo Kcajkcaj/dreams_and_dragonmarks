@@ -1,0 +1,51 @@
+name_list_kobold = {
+
+	dynasty_names = {
+		"Akregon"
+		"Aglaudyx"
+		"Altagos"
+		"Arauthtor"
+		"Arhazel"
+		"Arvis"
+		"Auroxas"
+		"Balagos"
+		"Baurthaglos"
+		"Canthraxis"
+		"Caeruleus"
+		"Cryovain"
+		"Daurgothoth"
+		"Enthranos"
+		"Ferzath"
+		"Garundar"
+		"Glazhael"
+		"Golozz"
+		"Gorthalax"
+		"Ishenalyr"
+		"Idrithkryn"
+		"Karrundax"
+		"Khavalanoth"
+		"Kryonar"
+		"Kuldrak"
+		"Laurathtor" 
+		"Makmahonn"
+		"Malaritheos"
+		"Maldrithor"
+		"Malygris" 
+		"Merothax"
+		"Nevalarich"
+		"Olothontor"
+		"Othimturac"
+		"Raurgoch"
+		"Roraurim"
+		"Sapphirak"
+		"Sharndrel"
+		"Skadaurak"
+		"Tchazar"
+		"Zethrindor"
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	male_names = {Azrnak Draahzin Enga Fazgyn Fazij Jekkajak Kib Kirrok Mirkol Tarka Urkak Varshez Vroklan Zekstikah Zgaz}
+	female_names = {Azrnak Draahzin Enga Fazgyn Fazij Jekkajak Kib Kirrok Mirkol Tarka Urkak Varshez Vroklan Zekstikah Zgaz}
+}

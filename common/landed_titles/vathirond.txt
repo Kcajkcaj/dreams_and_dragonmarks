@@ -1,0 +1,166 @@
+k_vathirond = {
+	color = { 30 181 128 }
+	capital = c_vathirond
+	
+	d_vathirond = {
+		color = { 77 189 117 }
+		capital = c_vathirond
+		
+		c_vathirond = {
+			color = { 81 192 126 }
+			b_vathirond_1 = {province = 167}
+			b_vathirond_2 = {province = 168}
+			b_vathirond_3 = {province = 169}
+			b_vathirond_4 = {province = 170}
+			b_vathirond_5 = {province = 171}
+		}
+		c_kennrun = {
+			color = { 50 200 137 }
+			b_kennrun_1 = {province = 172}
+			b_kennrun_2 = {province = 173}
+			b_kennrun_3 = {province = 174}
+		}
+		c_new_cyre = {
+			color = { 90 200 128 }
+			b_new_cyre_1 = {province = 175}
+			b_new_cyre_2 = {province = 176}
+			b_new_cyre_3 = {province = 177}
+		}
+		c_vathirond_b = {
+			color = { 44 194 134 }
+			b_vathirond_b1 = {province = 178}
+			b_vathirond_b2 = {province = 179}
+			b_vathirond_b3 = {province = 180}
+		}
+		c_vathirond_c = {
+			color = { 75 176 90 }
+			b_vathirond_c1 = {province = 181}
+			b_vathirond_c2 = {province = 182}
+			b_vathirond_c3 = {province = 183}
+			b_vathirond_c4 = {province = 184}
+		}
+	}
+	d_dragons_crown = {
+		color = { 110 160 86 }
+		capital = c_dragons_crown
+		
+		c_dragons_crown = {
+			color = { 100 162 78 }
+			b_dragons_crown_1 = {province = 185}
+			b_dragons_crown_2 = {province = 186}
+			b_dragons_crown_3 = {province = 187}
+		}
+		c_mistmarsh = {
+			color = { 98 153 70 }
+			b_mistmarsh_1 = {province = 188}
+			b_mistmarsh_2 = {province = 189}
+			b_mistmarsh_3 = {province = 190}
+			b_mistmarsh_4 = {province = 191}
+		}
+		c_faded_forest = {
+			color = { 126 171 104 }
+			b_faded_forest_1 = {province = 192}
+			b_faded_forest_2 = {province = 193}
+			b_faded_forest_3 = {province = 194}
+			b_faded_forest_4 = {province = 195}
+			b_faded_forest_5 = {province = 196}
+		}
+		c_nowhere = {
+			color = { 111 173 101 }
+			b_nowhere_1 = {province = 197}
+			b_nowhere_2 = {province = 198}
+			b_nowhere_3 = {province = 199}
+			b_nowhere_4 = {province = 200}
+		}
+		c_sterngate = {
+			color = { 108 163 83 }
+			b_sterngate_1 = {province = 201}
+			b_sterngate_2 = {province = 202}
+			b_sterngate_3 = {province = 203}
+			b_sterngate_4 = {province = 204}
+			b_sterngate_5 = {province = 205}
+		}
+	}
+	d_starilaskur = {
+		color = { 1 197 109 }
+		capital = c_starilaskur
+		
+		c_starilaskur = {
+			color = { 1 195 88 }
+			b_starilaskur_1 = {province = 206}
+			b_starilaskur_2 = {province = 207}
+			b_starilaskur_3 = {province = 208}
+		}
+		c_lurching_tower = {
+			color = { 28 209 119 }
+			b_lurching_tower_1 = {province = 209}
+			b_lurching_tower_2 = {province = 210}
+			b_lurching_tower_3 = {province = 211}
+			b_lurching_tower_4 = {province = 212}
+		}
+		c_rhonewatch = {
+			color = { 1 192 109 }
+			b_rhonewatch_1 = {province = 213}
+			b_rhonewatch_2 = {province = 214}
+			b_rhonewatch_3 = {province = 215}
+		}
+		c_starilaskur_b = {
+			color = { 1 193 121 }
+			b_starilaskur_b1 = {province = 216}
+			b_starilaskur_b2 = {province = 217}
+			b_starilaskur_b3 = {province = 218}
+			b_starilaskur_b4 = {province = 219}
+		}
+		c_starilaskur_c = {
+			color = { 1 192 113 }
+			b_starilaskur_c1 = {province = 220}
+			b_starilaskur_c2 = {province = 221}
+			b_starilaskur_c3 = {province = 222}
+		}
+	}
+	d_hatheril = {
+		color = { 1 178 132 }
+		capital = c_hatheril
+		
+		c_hatheril = {
+			color = { 1 190 132 }
+			b_hatheril_1 = {province = 223}
+			b_hatheril_2 = {province = 224}
+			b_hatheril_3 = {province = 225}
+		}
+		c_yedan = {
+			color = { 43 180 135 }
+			b_yedan_1 = {province = 226}
+			b_yedan_2 = {province = 227}
+			b_yedan_3 = {province = 228}
+			b_yedan_4 = {province = 229}
+			b_yedan_5 = {province = 230}
+		}
+		c_swordmoor = {
+			color = { 15 175 127 }
+			b_swordmoor_1 = {province = 231}
+			b_swordmoor_2 = {province = 232}
+			b_swordmoor_3 = {province = 233}
+			b_swordmoor_4 = {province = 234}
+		}
+		c_cragwar = {
+			color = { 45 186 128 }
+			b_cragwar_1 = {province = 235}
+			b_cragwar_2 = {province = 236}
+			b_cragwar_3 = {province = 237}
+		}
+		c_greenhaunt = {
+			color = { 66 181 136 }
+			b_greenhaunt_1 = {province = 238}
+			b_greenhaunt_2 = {province = 239}
+			b_greenhaunt_3 = {province = 240}
+			b_greenhaunt_4 = {province = 241}
+			b_greenhaunt_5 = {province = 242}
+		}
+		c_fort_light = {
+			color = { 1 180 117 }
+			b_fort_light_1 = {province = 243}
+			b_fort_light_2 = {province = 244}
+		}
+	}
+}

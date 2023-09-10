@@ -1,0 +1,523 @@
+﻿#from 00_bastard_triggers.txt
+bastard_secret_is_criminal = {
+	$TARGET$ = { save_temporary_scope_as = criminal_bastard }
+	$PARTICIPANT$ = { save_temporary_scope_as = criminal_participant }
+	OR = {
+		#Mother if female adultery is criminal
+		scope:criminal_participant = {
+			scope:criminal_bastard = { mother = scope:criminal_participant }
+			trigger_if = {
+				limit = {
+					is_married = no
+					is_concubine = no
+				}
+				OR = {
+					faith = { has_doctrine_parameter = fornication_female_crime }
+					any_liege_or_above = { faith = { has_doctrine_parameter = fornication_female_crime } }
+				}
+			}
+			trigger_else = {
+				OR = {
+					faith = { has_doctrine_parameter = adultery_female_crime }
+					any_liege_or_above = { faith = { has_doctrine_parameter = adultery_female_crime } }
+				}
+			}
+		}
+		#Real father is male adultery is criminal
+		scope:criminal_participant = {
+			scope:criminal_bastard = { real_father = scope:criminal_participant }
+			trigger_if = {
+				limit = {
+					is_married = no
+					is_concubine = no
+				}
+				OR = {
+					faith = { has_doctrine_parameter = fornication_male_crime }
+					any_liege_or_above = { faith = { has_doctrine_parameter = fornication_male_crime } }
+				}
+			}
+			trigger_else = {
+				OR = {
+					faith = { has_doctrine_parameter = adultery_male_crime }
+					any_liege_or_above = { faith = { has_doctrine_parameter = adultery_male_crime } }
+				}
+			}
+		}
+	}
+}
+
+
+bastard_secret_is_shunned = {
+	# FOR DEBUG PURPOSES -- REMOVE ONCE RESOLVED TODO_CD
+	assert_if = {
+		limit = { NOT = { exists = $TARGET$ } }
+		text = "Empty TARGET was passed to bastard_secret_is_shunned!"
+	}
+	assert_if = {
+		limit = { NOT = { exists = $TARGET$ } }
+		text = "Empty PARTICIPANT was passed to bastard_secret_is_shunned!"
+	}
+
+	#Saving bastard & other parent scope
+	$TARGET$ = { save_temporary_scope_as = bastard }
+	$PARTICIPANT$ = { save_temporary_scope_as = participant }
+
+	assert_if = {
+		limit = { NOT = { exists = scope:bastard } }
+		text = "scope:bastard does not exist in bastard_secret_is_shunned!"
+	}
+	assert_if = {
+		limit = { NOT = { exists = scope:participant } }
+		text = "scope:participant does not exist in bastard_secret_is_shunned!"
+	}
+	assert_if = {
+		limit = { NOT = { exists = scope:bastard.mother } }
+		text = "scope:bastard.mother does not exist in bastard_secret_is_shunned!"
+	}
+	assert_if = {
+		limit = { NOT = { exists = scope:bastard.real_father } }
+		text = "scope:bastard.real_father does not exist in bastard_secret_is_shunned!"
+	}
+
+	OR = {
+		#Bastard child: always shunned, never criminal
+		scope:participant = scope:bastard
+		#Mother if female adultery is shunned
+		scope:participant = {
+			exists = scope:bastard.mother
+			this = scope:bastard.mother
+			trigger_if = {
+				limit = {
+					is_married = no
+					is_concubine = no
+				}
+				OR = {
+					faith = { has_doctrine_parameter = fornication_female_shunned }
+					any_liege_or_above = { faith = { has_doctrine_parameter = fornication_female_shunned } }
+				}
+			}
+			trigger_else = {
+				OR = {
+					faith = { has_doctrine_parameter = adultery_female_shunned }
+					any_liege_or_above = { faith = { has_doctrine_parameter = adultery_female_shunned } }
+				}
+			}
+		}
+		#Real father is male adultery is shunned
+		scope:participant = {
+			exists = scope:bastard.real_father
+			this = scope:bastard.real_father
+			trigger_if = {
+				limit = {
+					is_married = no
+					is_concubine = no
+				}
+				OR = {
+					faith = { has_doctrine_parameter = fornication_male_shunned }
+					any_liege_or_above = { faith = { has_doctrine_parameter = fornication_male_shunned } }
+				}
+			}
+			trigger_else = {
+				OR = {
+					faith = { has_doctrine_parameter = adultery_male_shunned }
+					any_liege_or_above = { faith = { has_doctrine_parameter = adultery_male_shunned } }
+				}
+			}
+		}
+		#Either parent if incest is shunned
+		AND = {
+			# Can't have incest with only one parent!
+			exists = scope:bastard.real_father
+			exists = scope:bastard.mother
+
+			# Also the secret participant has to be one of the parents
+			scope:participant = {
+				OR = {
+					this = scope:bastard.mother
+					this = scope:bastard.real_father
+				}
+				trigger_if = {
+					limit = { this = scope:bastard.mother }
+					scope:bastard.real_father = { save_temporary_scope_as = other_parent }
+				}
+				trigger_else = {
+					scope:bastard.mother = { save_temporary_scope_as = other_parent }
+				}
+					
+				# Check if the relation would be incestuous in my faith or my liege's faith
+				relation_with_character_is_incestuous_in_faith_trigger = {
+					CHARACTER = scope:other_parent
+					FAITH = scope:participant.faith
+				}
+				any_liege_or_above = {
+					save_temporary_scope_as = liege_or_above
+					scope:participant = {
+						relation_with_character_is_incestuous_in_faith_trigger = {
+							CHARACTER = scope:other_parent
+							FAITH = scope:liege_or_above.faith
+						}
+					}
+				}
+			}
+		}
+	}
+	NOT = {
+		bastard_secret_is_criminal = {
+			TARGET = scope:bastard
+			PARTICIPANT = scope:participant
+		}
+	}
+}
+
+# secret_triggers
+
+# SECRET LOVER
+
+#Placed ahead of the Shunned trigger, so that the shunned trigger can refer back to this
+secret_lover_is_criminal_trigger = {
+	$TARGET$ = { save_temporary_scope_as = criminal_partner } #Different name to the scope in the shunned trigger, to prevent issues
+	$OWNER$ = {
+		OR = {
+			#Female adultery criminal
+			AND = {
+				is_female = yes
+				AND = {
+					OR = {
+						is_married = yes
+						is_concubine = yes
+					}
+					OR = {
+						faith = { has_doctrine_parameter = adultery_female_crime }
+						any_liege_or_above = { faith = { has_doctrine_parameter = adultery_female_crime } }
+					}
+				}
+			}
+			#Male adultery criminal
+			AND = {
+				is_male = yes
+				AND = {
+					OR = {
+						is_married = yes
+						is_concubine = yes
+					}
+					OR = {
+						faith = { has_doctrine_parameter = adultery_male_crime }
+						any_liege_or_above = { faith = { has_doctrine_parameter = adultery_male_crime } }
+					}
+				}
+			}
+			#Female fornication criminal
+			AND = {
+				is_female = yes
+				AND = {
+					NOR = {
+						is_married = yes
+						is_concubine = yes
+					}
+					OR = {
+						faith = { has_doctrine_parameter = fornication_female_crime }
+						any_liege_or_above = { faith = { has_doctrine_parameter = fornication_female_crime } }
+					}
+				}
+			}
+			#Male fornication criminal
+			AND = {
+				is_male = yes
+				AND = {
+					NOR = {
+						is_married = yes
+						is_concubine = yes
+					}
+					OR = {
+						faith = { has_doctrine_parameter = fornication_male_crime }
+						any_liege_or_above = { faith = { has_doctrine_parameter = fornication_male_crime } }
+					}
+				}
+			}
+			#Sodomy criminal
+			AND = {
+				is_male = yes
+				scope:criminal_partner = { is_male = yes }
+				OR = {
+					faith = { has_doctrine_parameter = homosexuality_illegal }
+					any_liege_or_above = { faith = { has_doctrine_parameter = homosexuality_illegal } }
+				}
+			}
+		}
+	}	
+}
+
+secret_lover_is_shunned_trigger = {
+	$TARGET$ = { save_temporary_scope_as = partner }
+	$OWNER$ = {
+		save_temporary_scope_as = lover_owner
+		OR = {
+			#Female adultery shunned
+			AND = {
+				is_female = yes
+				AND = {
+					OR = {
+						is_married = yes
+						is_concubine = yes
+					}
+					OR = {
+						faith = { has_doctrine_parameter = adultery_female_shunned }
+						any_liege_or_above = { faith = { has_doctrine_parameter = adultery_female_shunned } }
+					}
+				}
+			}
+			#Male adultery shunned
+			AND = {
+				is_male = yes
+				AND = {
+					OR = {
+						is_married = yes
+						is_concubine = yes
+					}
+					OR = {
+						faith = { has_doctrine_parameter = adultery_male_shunned }
+						any_liege_or_above = { faith = { has_doctrine_parameter = adultery_male_shunned } }
+					}
+				}
+			}
+			#Female fornication shunned
+			AND = {
+				is_female = yes
+				AND = {
+					NOR = {
+						is_married = yes
+						is_concubine = yes
+					}
+					OR = {
+						faith = { has_doctrine_parameter = fornication_female_shunned }
+						any_liege_or_above = { faith = { has_doctrine_parameter = fornication_female_shunned } }
+					}
+				}
+			}
+			#Male fornication shunned
+			AND = {
+				is_male = yes
+				AND = {
+					NOR = {
+						is_married = yes
+						is_concubine = yes
+					}
+					OR = {
+						faith = { has_doctrine_parameter = fornication_male_shunned }
+						any_liege_or_above = { faith = { has_doctrine_parameter = fornication_male_shunned } }
+					}
+				}
+			}
+			#Sodomy shunned
+			AND = {
+				is_male = yes
+				scope:partner = { is_male = yes }
+				OR = {
+					faith = { has_doctrine_parameter = homosexuality_shunned }
+					any_liege_or_above = { faith = { has_doctrine_parameter = homosexuality_shunned } }
+				}
+			}
+			#Incest is shunned
+			relation_with_character_is_incestuous_in_faith_trigger = { CHARACTER = scope:partner FAITH = scope:lover_owner.faith }
+			any_liege_or_above = {
+				save_temporary_scope_as = liege_or_above
+				scope:lover_owner = {
+					relation_with_character_is_incestuous_in_faith_trigger = { CHARACTER = scope:partner FAITH = scope:liege_or_above.faith }
+				}
+			}
+		}
+		#And it doesn't fulfill the criminal conditions
+		NOT = {
+			secret_lover_is_criminal_trigger = {
+				OWNER = scope:lover_owner
+				TARGET = scope:partner
+			}	
+		}
+	}	
+}
+# SECRET LOVER - END
+
+#religious_triggers
+
+trait_is_shunned_in_faith_trigger = {
+	save_temporary_scope_value_as = {
+		name = shunned_trait_check
+		value = flag:$TRAIT$
+	}
+	OR = {
+		#INCEST
+		AND = {
+			scope:shunned_trait_check = flag:incestuous
+			$FAITH$ = { NOT = { has_doctrine_parameter = allows_unrestricted_marriage } }
+		}
+		#WITCH
+		AND = {
+			scope:shunned_trait_check = flag:witch	
+			$FAITH$ = { has_doctrine_parameter = witchcraft_shunned }
+		}
+		#SODOMITE
+		AND = {
+			scope:shunned_trait_check = flag:sodomite
+			$FAITH$ = { has_doctrine_parameter = homosexuality_shunned }
+		}
+		#DEVIANT
+		AND = {
+			scope:shunned_trait_check = flag:deviant
+			$FAITH$ = { has_doctrine_parameter = deviancy_shunned }
+		}
+		#ADULTERER
+		AND = {
+			scope:shunned_trait_check = flag:adulterer				
+			OR = {
+				AND = {
+					$FAITH$ = { has_doctrine_parameter = adultery_female_shunned }
+					$GENDER_CHARACTER$ = { is_female = yes }
+				}
+				AND = {
+					$FAITH$ = { has_doctrine_parameter = adultery_male_shunned }
+					$GENDER_CHARACTER$ = { is_male = yes }
+				}
+			}
+		}
+		#FORNICATOR
+		AND = {
+			scope:shunned_trait_check = flag:fornicator
+			OR = {
+				AND = {
+					$FAITH$ = { has_doctrine_parameter = fornication_female_shunned }
+					$GENDER_CHARACTER$ = { is_female = yes }
+				}
+				AND = {
+					$FAITH$ = { has_doctrine_parameter = fornication_male_shunned }
+					$GENDER_CHARACTER$ = { is_male = yes }
+				}
+			}
+		}
+		#KINSLAYER
+		AND = {
+			OR = {
+				scope:shunned_trait_check = flag:kinslayer_1
+				scope:shunned_trait_check = flag:kinslayer_2
+				scope:shunned_trait_check = flag:kinslayer_3
+			}
+			$FAITH$ = { has_doctrine_parameter = kinslaying_shunned }
+		}
+	}
+}
+
+trait_is_criminal_in_faith_trigger = {
+	save_temporary_scope_value_as = {
+		name = criminal_trait_check
+		value = flag:$TRAIT$
+	}
+	OR = {
+		#KINSLAYER
+		AND = {
+			OR = {
+				scope:criminal_trait_check = flag:kinslayer_3
+				scope:criminal_trait_check = flag:kinslayer_2
+				scope:criminal_trait_check = flag:kinslayer_1
+			}
+			$FAITH$ = { has_doctrine_parameter = kinslaying_any_dynasty_member_crime }
+		}
+		AND = {
+			OR = {
+				scope:criminal_trait_check = flag:kinslayer_3
+				scope:criminal_trait_check = flag:kinslayer_2
+			}
+			$FAITH$ = { has_doctrine_parameter = kinslaying_extended_family_crime }
+		}
+		AND = {
+			scope:criminal_trait_check = flag:kinslayer_3
+			$FAITH$ = { has_doctrine_parameter = kinslaying_close_kin_crime }
+		}
+		#WITCH
+		AND = {
+			scope:criminal_trait_check = flag:witch
+			$FAITH$ = { has_doctrine_parameter = witchcraft_illegal }
+		}
+		#CANNIBAL
+		AND = {
+			scope:criminal_trait_check = flag:cannibal
+			NOT = {
+				$FAITH$ = { has_doctrine_parameter = cannibalism_legal }
+			}
+		}
+		#SODOMITE
+		AND = {
+			scope:criminal_trait_check = flag:sodomite
+			$FAITH$ = { has_doctrine_parameter = homosexuality_illegal }
+		}
+		#DEVIANT
+		AND = {
+			scope:criminal_trait_check = flag:deviant
+			$FAITH$ = { has_doctrine_parameter = deviancy_illegal }
+		}
+		#INCEST
+		AND = {
+			scope:criminal_trait_check = flag:incestuous
+			$FAITH$ = { NOT = { has_doctrine_parameter = consanguinity_unrestricted_incest } }
+		}
+		#ADULTERER
+		AND = {
+			scope:criminal_trait_check = flag:adulterer				
+			OR = {
+				AND = {
+					$FAITH$ = { has_doctrine_parameter = adultery_female_crime }
+					$GENDER_CHARACTER$ = { is_female = yes }
+				}
+				AND = {
+					$FAITH$ = { has_doctrine_parameter = adultery_male_crime }
+					$GENDER_CHARACTER$ = { is_male = yes }
+				}
+			}
+		}
+		#FORNICATOR
+		AND = {
+			scope:criminal_trait_check = flag:fornicator
+			OR = {
+				AND = {
+					$FAITH$ = { has_doctrine_parameter = fornication_female_crime }
+					$GENDER_CHARACTER$ = { is_female = yes }
+				}
+				AND = {
+					$FAITH$ = { has_doctrine_parameter = fornication_male_crime }
+					$GENDER_CHARACTER$ = { is_male = yes }
+				}
+			}
+		}
+	}	
+}
+
+#crime_triggers
+
+
+sexual_activity_with_partner_is_criminal_in_faith_trigger = {
+	save_temporary_scope_as = sexual_legality_check
+	OR = {
+		#Incest (currently never illegal so commented out)
+		#AND = {
+		#	relation_with_character_is_incestuous_in_faith_trigger = { CHARACTER = $PARTNER$ FAITH = $FAITH$ }
+		#	trait_is_criminal_in_faith_trigger = { TRAIT = incestuous FAITH = $FAITH$ GENDER_CHARACTER = scope:sexual_legality_check } }
+		#}
+		#Sodomy
+		AND = {
+			relation_with_character_is_sodomy_in_faith_trigger = { CHARACTER = $PARTNER$ FAITH = $FAITH$ }
+			trait_is_criminal_in_faith_trigger = { TRAIT = sodomite FAITH = $FAITH$ GENDER_CHARACTER = scope:sexual_legality_check }
+		}
+		#Adultery/fornication
+		AND = {
+			NOT = { is_consort_of = $PARTNER$ }
+			OR = {
+				AND = {
+					is_married = no
+					trait_is_criminal_in_faith_trigger = { TRAIT = fornicator FAITH = $FAITH$ GENDER_CHARACTER = scope:sexual_legality_check }
+				}
+				AND = {
+					is_married = yes
+					trait_is_criminal_in_faith_trigger = { TRAIT = adulterer FAITH = $FAITH$ GENDER_CHARACTER = scope:sexual_legality_check }
+				}
+			}
+		}
+	}
+}

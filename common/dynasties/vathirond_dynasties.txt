@@ -1,0 +1,48 @@
+dynn_vathir_lantar = {
+	name = "Lantar"
+	culture = vathir
+}
+dynn_vathir_perryn = {
+	name = "Perryn"
+	culture = vathir
+}
+dynn_vathir_colworn = {
+	name = "Colworn"
+	culture = vathir
+}
+dynn_vathir_graccen = {
+	name = "Graccen"
+	culture = vathir
+}
+dynn_vathir_smyth = {
+	name = "Smyth"
+	culture = vathir
+}
+dynn_vathir_devir = {
+	name = "Devir"
+	culture = vathir
+}
+dynn_vathir_zarna = {
+	name = "Zarna"
+	culture = vathir
+}
+dynn_vathir_talan = {
+	name = "Talan"
+	culture = vathir
+}
+dynn_vathir_thadian = {
+	name = "Thadian"
+	culture = vathir
+}
+dynn_vathir_thorn = {
+	name = "Thorn"
+	culture = vathir
+}
+dynn_vathir_shavar = {
+	name = "Shavar"
+	culture = rootfolk
+}
+dynn_vathir_kanaarac = {
+	name = "Kanaarac"
+	culture = daggerborn
+}

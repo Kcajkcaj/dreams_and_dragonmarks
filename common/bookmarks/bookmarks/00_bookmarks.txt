@@ -1,0 +1,25 @@
+﻿bm_3414_wroat = {
+	start_date = 3414.1.1
+	is_playable = yes
+	group = bm_group_3414
+
+	weight = { value = 100 }
+
+	# Guanarigato
+	character = {
+		name = "Breggor Firstking"
+		dynasty = dynn_dain
+		dynasty_splendor_level = 1
+		type = male
+		birth = 3391.12.19
+		title = d_wroat
+		government = feudal_government
+		culture = vathir
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = breggor_dain
+		position = { 250 750 }
+
+		animation = happiness
+	}
+}

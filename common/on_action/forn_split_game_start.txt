@@ -1,0 +1,5 @@
+﻿on_game_start = {
+	on_actions = {	
+		forn_split_seed_religions
+	}
+}

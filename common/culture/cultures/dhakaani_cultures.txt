@@ -1,0 +1,26 @@
+daggerborn = {
+	color = {0.6 0.4 0.0}
+	
+	ethos = ethos_bellicose
+	heritage = heritage_dhakaani
+	language = language_goblin
+	martial_custom = martial_custom_male_only
+	
+	name_list = name_list_dhakaani
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_chattel_slavery
+		tradition_clan_connections
+		tradition_rule_of_the_chibs
+	}
+	
+	ethnicities = {
+		100 = goblinoid
+	}
+}

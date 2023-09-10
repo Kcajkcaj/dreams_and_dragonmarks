@@ -1,0 +1,40 @@
+name_list_dhakaani = {
+
+	dynasty_names = {
+		"Ghaalrac"
+		"Draal"
+		"Hashraac"
+		"Nasaar"
+		"Ruuska"
+		"Shaarat"
+		"Uul"
+		"Volaar"
+		"Khesh"
+		"Mazo"
+		"Khaar"
+		"Atchot"
+		"Aram"
+		"Daash"
+		"Draguus"
+		"Duum"
+		"Haakar"
+		"Guulrac"
+		"Kaanarac"
+		"Karda"
+		"Luat"
+		"Kuur"
+		"Paal"
+		"Raat"
+		"Shavar"
+		"Sehn"
+		"Taarka"
+		"Vanon"
+		"Vusrii"
+		"Tohiish"
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	male_names = { Aaldrash Aruget Azalust Baalo Chetiin Daavn Dabrak Dagli Drevduul Duulan Duurkhat Fenic Gruun Gudruun Haluun Haruuc Imist Kallaad Kamvuul Karbal Khapa Klist Krakuul Kreldo Krootad Kroskul Margaash Mazaan Mograath Munta Nasaar Rakari Reksiit Rorog Ruus Shekath Skakan Subakir Tariic Taruuzh Thaar Thadar Thuun Torkaan Urkhu Vanon Vhuklok Wuudaraj }
+	female_names = { Vanii Valii Wuun Xorlaai Jhazaal Uurvala Ulvoth Tuura Tuneer Taryiia Tajiin Sorghis Shedroor Senen Saakits Rhuka Rekseen Razu Raleen Orduul Ohldru Oguun Nuun Nasree Muul Mulaan Meroe Maargah Kreiia Khaari Kelaal Jheluum Jaliiya Hashak Graal Goroa Garuua Gaduul Eluun Ekhaas Duusha Duulri Duruusk Draraar Denall Daruu Belaluur Astandi Aguuus Aavanli Aaspar Aarue }
+}

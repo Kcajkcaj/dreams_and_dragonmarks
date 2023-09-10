@@ -1,0 +1,187 @@
+##### Vathirond
+### Vathirond
+167 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+168 = {holding = church_holding}
+169 = {holding = city_holding}
+170 = {holding = castle_holding}
+171 = {holding = none}
+### Kennrun
+172 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+173 = {holding = city_holding}
+174 = {holding = none}
+### New Cyre
+175 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+176 = {holding = none}
+177 = {holding = none}
+### Vathirond B
+178 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+179 = {holding = none}
+180 = {holding = none}
+### Vathirond C
+181 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+182 = {holding = none}
+183 = {holding = none}
+184 = {holding = none}
+##### Dragons Crown
+### Dragons Crown
+185 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+186 = {holding = none}
+187 = {holding = none}
+### Mistmarsh
+188 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+189 = {holding = none}
+190 = {holding = none}
+191 = {holding = none}
+### Faded Forest
+192 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+193 = {holding = none}
+194 = {holding = none}
+195 = {holding = none}
+196 = {holding = none}
+### Nowhere
+197 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+198 = {holding = none}
+199 = {holding = none}
+200 = {holding = none}
+### Sterngate
+201 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+202 = {holding = none}
+203 = {holding = none}
+204 = {holding = none}
+205 = {holding = none}
+##### Starilaskur
+### Starilaskur
+206 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+207 = {holding = city_holding}
+208 = {holding = church_holding}
+### Lurching Tower
+209 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+210 = {holding = none}
+211 = {holding = none}
+212 = {holding = none}
+### Rhonewatch
+213 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+214 = {holding = church_holding}
+215 = {holding = none}
+### Starilaskur B
+216 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+217 = {holding = church_holding}
+218 = {holding = none}
+219 = {holding = none}
+### Starilaskur C
+220 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+221 = {holding = city_holding}
+222 = {holding = church_holding}
+##### Hatheril
+### Hatheril
+223 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+224 = {holding = city_holding}
+225 = {holding = church_holding}
+### Yedan
+226 = {
+	culture = daggerborn
+	faith = uulkarda
+	holding = tribal_holding
+}
+227 = {holding = none}
+228 = {holding = none}
+229 = {holding = none}
+230 = {holding = none}
+### Swordmoor
+231 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+232 = {holding = none}
+233 = {holding = none}
+234 = {holding = none}
+### Cragwar
+235 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+236 = {holding = city_holding}
+237 = {holding = church_holding}
+### Greenhaunt
+238 = {
+	culture = branchfolk
+	faith = norse_pagan
+	holding = tribal_holding
+}
+239 = {holding = none}
+240 = {holding = none}
+241 = {holding = none}
+242 = {holding = none}
+### Fort Light
+243 = {
+	culture = vathir
+	faith = frontier_creed
+	holding = castle_holding
+}
+244 = {holding = none}

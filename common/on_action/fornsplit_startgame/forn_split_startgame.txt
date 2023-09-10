@@ -1,0 +1,5 @@
+﻿forn_split_seed_religions = {
+	effect = {
+		forn_split_seed_religions_effect = yes
+	}
+}

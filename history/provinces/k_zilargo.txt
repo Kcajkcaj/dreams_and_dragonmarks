@@ -1,0 +1,242 @@
+##### Trolanport
+### Trolanport
+245 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+246 = {holding = church_holding}
+247 = {holding = castle_holding}
+248 = {holding = city_holding}
+249 = {holding = none}
+### Redcliffs
+250 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+251 = {holding = castle_holding}
+252 = {holding = none}
+253 = {holding = none}
+254 = {holding = none}
+### Shimmerwood A
+255 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = castle_holding
+}
+256 = {holding = none}
+257 = {holding = none}
+258 = {holding = none}
+### Shimmerwood B
+259 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = castle_holding
+}
+260 = {holding = none}
+261 = {holding = none}
+262 = {holding = none}
+263 = {holding = none}
+### Tzanthus
+264 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+265 = {holding = church_holding}
+266 = {holding = none}
+267 = {holding = none}
+268 = {holding = none}
+### Oskilor
+269 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+270 = {holding = church_holding}
+271 = {holding = castle_holding}
+272 = {holding = none}
+### Liugwen
+273 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+274 = {holding = none}
+275 = {holding = none}
+276 = {holding = none}
+### Pylas Pyrial
+277 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = castle_holding
+}
+278 = {holding = city_holding}
+279 = {holding = church_holding}
+280 = {holding = none}
+##### Zolanberg
+### Zolanberg
+281 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+282 = {holding = castle_holding}
+283 = {holding = church_holding}
+### Deep Mines
+284 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+285 = {holding = none}
+286 = {holding = none}
+### Fireflies
+287 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+288 = {holding = church_holding}
+289 = {holding = none}
+290 = {holding = none}
+### Dragonroost
+291 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+292 = {holding = castle_holding}
+293 = {holding = church_holding}
+294 = {holding = none}
+295 = {holding = none}
+### Mistlake
+296 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+297 = {holding = church_holding}
+298 = {holding = none}
+299 = {holding = none}
+### Quesk
+300 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+301 = {holding = church_holding}
+302 = {holding = castle_holding}
+303 = {holding = city_holding}
+### Howlshade
+304 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = castle_holding
+}
+305 = {holding = none}
+306 = {holding = none}
+### Reven
+307 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+308 = {holding = church_holding}
+309 = {holding = castle_holding}
+310 = {holding = none}
+##### Korranberg
+### Korranberg
+311 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+	special_building = library_of_korranberg
+}
+312 = {holding = castle_holding}
+313 = {holding = church_holding}
+314 = {holding = city_holding}
+315 = {holding = city_holding}
+316 = {holding = church_holding}
+317 = {holding = castle_holding}
+### Thurimbar
+318 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+319 = {holding = church_holding}
+320 = {holding = castle_holding}
+### Tarandro
+321 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+322 = {holding = church_holding}
+323 = {holding = none}
+### Tariston
+324 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+325 = {holding = church_holding}
+326 = {holding = none}
+346 = {holding = none}
+### Thurim Bay
+327 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+328 = {holding = none}
+329 = {holding = none}
+330 = {holding = none}
+### Thurim Bay
+331 = {
+	culture = zil
+	faith = korranberg_creed
+	holding = city_holding
+}
+332 = {holding = none}
+333 = {holding = none}
+334 = {holding = none}
+##### Howling Peaks
+### HP-A
+335 = {
+	culture = irmolik
+	faith = ashari
+	holding = tribal_holding
+}
+336 = {holding = none}
+### HP-B
+337 = {
+	culture = irmolik
+	faith = ashari
+	holding = tribal_holding
+}
+338 = {holding = none}
+### HP-C
+339 = {
+	culture = irmolik
+	faith = ashari
+	holding = tribal_holding
+}
+340 = {holding = none}
+### HP-D
+341 = {
+	culture = irmolik
+	faith = ashari
+	holding = tribal_holding
+}
+342 = {holding = none}
+343 = {holding = none}
+### HP-E
+344 = {
+	culture = irmolik
+	faith = ashari
+	holding = tribal_holding
+}
+345 = {holding = none}

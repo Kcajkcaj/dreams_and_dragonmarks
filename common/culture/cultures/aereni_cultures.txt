@@ -1,0 +1,26 @@
+aereni = {
+	color = {0.45 0.6 0.0}
+	
+	ethos = ethos_spiritual
+	heritage = heritage_aerenal
+	language = language_thelanian
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_aereni
+	created = 1.1.1
+	
+	traditions = {
+		tradition_arcane_duelists
+		tradition_clan_connections
+		tradition_lumber_industry
+	}
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		100 = elven
+	}
+}

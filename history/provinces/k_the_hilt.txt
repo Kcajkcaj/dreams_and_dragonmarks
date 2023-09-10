@@ -1,0 +1,265 @@
+##### Sharn
+### Central Plateau
+4 = {
+	culture = shaarati
+	faith = redtide_creed
+	holding = castle_holding
+}
+5 = {
+	holding = church_holding
+}
+### Menthis
+6 = {
+	culture = shaarati
+	faith = redtide_creed
+	holding = castle_holding
+	special_building_slot = morgrave_university
+}
+### Tavick's Landing
+7 = {
+	culture = shaarati
+	faith = redtide_creed
+	holding = castle_holding
+}
+8 = {
+	holding = city_holding
+}
+### Northedge
+9 = {
+	culture = shaarati
+	faith = redtide_creed
+	holding = castle_holding
+}
+### Dura
+10 = {
+	culture = shaarati
+	faith = redtide_creed
+	holding = castle_holding
+}
+11 = {
+	holding = city_holding
+}
+12 = {
+	holding = none
+}
+### First Tower
+13 = {
+	culture = shaarati
+	faith = redtide_creed
+	holding = castle_holding
+}
+
+##### Silln
+### Yarkuun Draal
+14 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = tribal_holding
+}
+15 = {
+	holding = none
+}
+16 = {
+	holding = none
+}
+17 = {
+	holding = none
+}
+### Zilspar
+18 = {
+	culture = shaarati
+	faith = akom_pagan
+	holding = castle_holding
+}
+19 = {
+	holding = city_holding
+}
+20 = {
+	holding = church_holding
+}
+21 = {
+	holding = none
+}
+22 = {
+	holding = none
+}
+### Flint Keep
+23 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = tribal_holding
+}
+24 = {
+	holding = none
+}
+25 = {
+	holding = none
+}
+### Lower Silln
+26 = {
+	culture = daggerborn
+	faith = akom_pagan
+	holding = tribal_holding
+}
+27 = {
+	holding = none
+}
+28 = {
+	holding = none
+}
+29 = {
+	holding = none
+}
+
+##### Greymoon
+### Moonwatch
+33 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = castle_holding
+}
+34 = {
+	holding = city_holding
+}
+35 = {
+	holding = none
+}
+36 = {
+	holding = none
+}
+### Riverside
+37 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = castle_holding
+}
+38 = {
+	holding = none
+}
+39 = {
+	holding = none
+}
+40 = {
+	holding = none
+}
+### Ringbriar
+41 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+42 = {
+	holding = none
+}
+43 = {
+	holding = none
+}
+44 = {
+	holding = none
+}
+### Ringwood
+45 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+46 = {
+	holding = none
+}
+
+##### Shadowlock
+### Shadowlock
+47 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+48 = {
+	holding = none
+}
+49 = {
+	holding = none
+}
+### Shadowlock B
+50 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+51 = {
+	holding = none
+}
+52 = {
+	holding = none
+}
+### Grey Rakes
+53 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+54 = {
+	holding = none
+}
+55 = {
+	holding = none
+}
+56 = {
+	holding = none
+}
+
+##### Daggerwood
+### Torch Keep
+57 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+58 = {
+	holding = none
+}
+59 = {
+	holding = none
+}
+### Tilorn
+60 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+61 = {
+	holding = none
+}
+62 = {
+	holding = none
+}
+63 = {
+	holding = none
+}
+### Daggerwood A
+64 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+65 = {
+	holding = none
+}
+66 = {
+	holding = none
+}
+### Daggerwood B
+67 = {
+	culture = daggerborn
+	faith = khaarani
+	holding = tribal_holding
+}
+68 = {
+	holding = none
+}
+69 = {
+	holding = none
+}
+70 = {
+	holding = none
+}

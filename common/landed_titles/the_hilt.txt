@@ -1,0 +1,305 @@
+﻿@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+k_the_hilt = {
+	color = { 127 0 0 }
+	
+	capital = c_central_plateau
+	
+	d_sharn = {
+		color = { 138 33 1 }
+		capital = c_central_plateau
+		
+		c_central_plateau = {
+			color = { 148 5 1 }
+			
+			b_granite_halls = {
+				province = 4
+			}
+			b_boldreis_heart = {
+				province = 5
+			}
+		}
+		c_menthis_plateau = {
+			color = { 137 39 7 }
+			
+			b_menthis_plateau = {
+				province = 6
+			}
+		}
+		c_tavicks_landing = {
+			color = { 143 48 7 }
+			
+			b_black_arch = {
+				province = 7
+			}
+			b_high_walls = {
+				province = 8
+			}
+		}
+		c_northedge = {
+			color = { 139 39 1 }
+			b_northedge = {
+				province = 9
+			}
+		}
+		c_dura = {
+			color = { 135 34 19 }
+			b_malleons_gate = {
+				province = 10
+			}
+			b_callestan = {
+				province = 11
+			}
+			b_mudcaves = {
+				province = 12
+			}
+		}
+		c_first_tower = {
+			color = { 134 47 21 }
+			b_first_tower = {
+				province = 13
+			}
+		}
+	}
+	d_silln = {
+		color = { 146 1 1 }
+		capital = c_yarkuun_draal
+		
+		c_yarkuun_draal = {
+			color = { 142 1 1 }
+			
+			b_yarkuun_draal_1 = {
+				province = 14
+			}
+			b_yarkuun_draal_2 = {
+				province = 15
+			}
+			b_yarkuun_draal_3 = {
+				province = 16
+			}
+			b_yarkuun_draal_4 = {
+				province = 17
+			}
+		}
+		c_zilspar = {
+			color = { 137 18 14 }
+			
+			b_zilspar_1 = {
+				province = 18
+			}
+			b_zilspar_2 = {
+				province = 19
+			}
+			b_zilspar_3 = {
+				province = 20
+			}
+			b_zilspar_4 = {
+				province = 21
+			}
+			b_zilspar_5 = {
+				province = 22
+			}
+		}
+		c_flint_keep = {
+			color = { 144 25 1 }
+			b_flint_keep_1 = {
+				province = 23
+			}
+			b_flint_keep_2 = {
+				province = 24
+			}
+			b_flint_keep_3 = {
+				province = 25
+			}
+		}
+		c_lower_silln = {
+			color = { 149 1 1 }
+			b_lower_silln_1 = {
+				province = 26
+			}
+			b_lower_silln_2 = {
+				province = 27
+			}
+			b_lower_silln_3 = {
+				province = 28
+			}
+			b_lower_silln_4 = {
+				province = 29
+			}
+		}
+	}
+	d_greymoon = {
+		color = { 127 1 1 }
+		capital = c_moonwatch
+		
+		c_moonwatch = {
+			color = { 119 1 1 }
+			b_moonwatch_1 = {
+				province = 33
+			}
+			b_moonwatch_2 = {
+				province = 34
+			}
+			b_moonwatch_3 = {
+				province = 35
+			}
+			b_moonwatch_4 = {
+				province = 36
+			}
+		}
+		
+		c_riverside = {
+			color = { 125 28 12 }
+			b_riverside_1 = {
+				province = 37
+			}
+			b_riverside_2 = {
+				province = 38
+			}
+			b_riverside_3 = {
+				province = 39
+			}
+			b_riverside_4 = {
+				province = 40
+			}
+		}
+		
+		c_ringbriar = {
+			color = { 127 21 1 }
+			b_ringbriar_1 = {
+				province = 41
+			}
+			b_ringbriar_2 = {
+				province = 42
+			}
+			b_ringbriar_3 = {
+				province = 43
+			}
+			b_ringbriar_4 = {
+				province = 44
+			}
+		}
+		
+		c_ringwood = {
+			color = { 127 1 21 }
+			b_ringwood_1 = {
+				province = 45
+			}
+			b_ringwood_2 = {
+				province = 46
+			}
+		}
+	}
+	
+	d_shadowlock = {
+		color = { 82 1 1 }
+		capital = c_shadowlock
+		
+		c_shadowlock = {
+			color = { 94 12 21 }
+			b_shadowlock_1 = {
+				province = 47
+			}
+			b_shadowlock_2 = {
+				province = 48
+			}
+			b_shadowlock_3 = {
+				province = 49
+			}
+		}
+		c_shadowlock_b = {
+			color = { 79 1 1 }
+			b_shadowlock_b_1 = {
+				province = 50
+			}
+			b_shadowlock_b_2 = {
+				province = 51
+			}
+			b_shadowlock_b_3 = {
+				province = 52
+			}
+		}
+		c_grey_rakes = {
+			color = { 72 12 1 }
+			b_grey_rakes_1 = {
+				province = 53
+			}
+			b_grey_rakes_2 = {
+				province = 54
+			}
+			b_grey_rakes_3 = {
+				province = 55
+			}
+			b_grey_rakes_4 = {
+				province = 56
+			}
+		}
+	}
+	d_daggerwood = {
+		color = { 153 1 4 }
+		capital = c_torch_keep
+		
+		c_torch_keep = {
+			color = { 163 1 11 }
+			b_torch_keep_1 = {
+				province = 57
+			}
+			b_torch_keep_2 = {
+				province = 58
+			}
+			b_torch_keep_3 = {
+				province = 59
+			}
+		}
+		c_tilorn = {
+			color = { 155 28 2 }
+			b_tilorn_1 = {
+				province = 60
+			}
+			b_tilorn_2 = {
+				province = 61
+			}
+			b_tilorn_3 = {
+				province = 62
+			}
+			b_tilorn_4 = {
+				province = 63
+			}
+		}
+		c_daggerwood_a = {
+			color = { 167 1 1 }
+			b_daggerwood_a_1 = {
+				province = 64
+			}
+			b_daggerwood_a_2 = {
+				province = 65
+			}
+			b_daggerwood_a_3 = {
+				province = 66
+			}
+		}
+		c_daggerwood_b = {
+			color = { 158 1 1 }
+			b_daggerwood_b_1 = {
+				province = 67
+			}
+			b_daggerwood_b_2 = {
+				province = 68
+			}
+			b_daggerwood_b_3 = {
+				province = 69
+			}
+			b_daggerwood_b_4 = {
+				province = 70
+			}
+		}
+	}
+}
+
+
+# These titles cut hundreds of errors from logs. 
+e_hre = { landless = yes }
+e_byzantium = { landless = yes }
+e_roman_empire = { landless = yes }

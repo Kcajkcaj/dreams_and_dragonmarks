@@ -1,0 +1,122 @@
+jalara_korran = {
+	name = "Jalara"
+	culture = zil
+	faith = korranberg_creed
+	female = yes
+	dynasty = dynn_korran
+	
+	3370.9.11 = { birth = yes }
+}
+
+salleon_zolan = {
+	name = "Salleon"
+	culture = zil
+	faith = korranberg_creed
+	female = no
+	dynasty = dynn_zolan
+	
+	3348.11.16 = { birth = yes }
+}
+
+roywin_trolan = {
+	name = "Roywin"
+	culture = zil
+	faith = korranberg_creed
+	female = no
+	dynasty = dynn_trolan
+	
+	3364.10.13 = {birth = yes}
+}
+
+zgaz_of_hp = {
+	name = "Zgaz"
+	culture = irmolik
+	faith = ashari
+	female = no
+	
+	3344.2.9 = {birth = yes}
+}
+
+urkak_of_hp = {
+	name = "Urkak"
+	culture = irmolik
+	faith = ashari
+	female = no
+	
+	3352.8.8 = {birth = yes}
+}
+
+zekstikah_of_hp = {
+	name = "Zekstikah"
+	culture = irmolik
+	faith = ashari
+	female = no
+	
+	3332.9.16 = {birth = yes}
+}
+
+vroklan_of_hp = {
+	name = "Vroklan"
+	culture = irmolik
+	faith = ashari
+	female = no
+	
+	3387.8.2 = {birth = yes}
+}
+
+odian_sivis = {
+	name = "Odian"
+	culture = zil
+	faith = korranberg_creed
+	female = no
+	dynasty = dynn_sivis
+	
+	trait = mark_of_scribing
+	
+	3351.5.19 = {birth = yes}
+	
+	3404.5.1 = {death = yes}
+}
+
+lyrriman_sivis = {
+	name = "Lyrriman"
+	culture = zil
+	faith = korranberg_creed
+	female = no
+	dynasty = dynn_sivis
+	
+	trait = mark_of_scribing
+	
+	father = odian_sivis
+	
+	3371.10.15 = {birth = yes}
+	
+}
+
+torralyn_sivis = {
+	name = "Torralyn"
+	culture = zil
+	faith = korranberg_creed
+	female = yes
+	dynasty = dynn_sivis
+	
+	trait = mark_of_scribing
+	
+	father = odian_sivis
+	
+	3376.10.17 = {birth = yes}
+}
+
+syrralan_sivis = {
+	name = "Syrralan"
+	culture = zil
+	faith = korranberg_creed
+	female = yes
+	dynasty = dynn_sivis
+	
+	trait = mark_of_scribing
+	
+	father = odian_sivis
+	
+	3380.9.29 = {birth = yes}
+}

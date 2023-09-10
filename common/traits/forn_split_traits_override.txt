@@ -1,0 +1,49 @@
+﻿fornicator = {
+	fame = yes
+
+	same_opinion = 10
+	
+	ruler_designer_cost = -5
+	
+	culture_modifier = {
+		parameter = adulterer_fornicator_penalties
+		same_culture_opinion = -10
+	}
+
+	triggered_opinion = {
+		parameter = fornication_male_crime
+		male_only = yes
+		opinion_modifier = fornicator_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fornication_male_shunned
+		male_only = yes
+		opinion_modifier = fornicator_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fornication_female_crime
+		female_only = yes
+		opinion_modifier = fornicator_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fornication_female_shunned
+		female_only = yes
+		opinion_modifier = fornicator_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fornicator_desc
+			}
+			desc = trait_fornicator_character_desc
+		}
+	}
+}

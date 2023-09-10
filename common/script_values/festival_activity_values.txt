@@ -1,0 +1,7 @@
+festival_activity_cost = {
+	value = standard_activity_base_cost
+}
+
+hold_festival_cooldown_value = {
+	value = 5
+}

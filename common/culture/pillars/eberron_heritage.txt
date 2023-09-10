@@ -1,0 +1,27 @@
+﻿heritage_human = {
+	type = heritage
+}
+heritage_xendrik = {
+	type = heritage
+}
+heritage_ur_oc = {
+	type = heritage
+}
+heritage_dhakaan = {
+	type = heritage
+}
+heritage_khyber = {
+	type = heritage
+}
+heritage_aerenal = {
+	type = heritage
+}
+heritage_argonessen = {
+	type = heritage
+}
+heritage_talenta = {
+	type = heritage
+}
+heritage_zil = {
+	type = heritage
+}

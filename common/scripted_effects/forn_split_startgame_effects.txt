@@ -1,0 +1,132 @@
+﻿forn_split_seed_religions_effect = {
+	every_religion_global = {		
+		every_faith = {
+			#seed fornication doctrine based on adultery doctrine
+			#Should only be worse than adultery doctrine if Lusrful is more sinful than Deceitful
+			#If lusrful is a sin, should be at least Shunned. If lustful is a virtue, should be at most Shunned.			
+			if = {
+				limit = {
+					NOR = {
+						has_doctrine = doctrine_fornication_men_crime
+						has_doctrine = doctrine_fornication_men_shunned
+						has_doctrine = doctrine_fornication_men_accepted
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { trait_is_virtue = lustful }
+						OR = {
+							has_doctrine = doctrine_adultery_men_crime 							
+							AND = {
+								has_doctrine = doctrine_adultery_men_shunned
+								trait_is_sin = lustful
+								NOT = { trait_is_sin = deceitful }								
+							}
+						}
+					}
+					add_doctrine = doctrine_fornication_men_crime
+				}
+				else_if = {
+					limit = { 
+						NOT = { trait_is_sin = lustful }
+						OR = {
+							AND = {
+								has_doctrine = doctrine_adultery_men_accepted
+								#AND lust is not more sinful than deceit, since that should full through to Shunned
+								NOR = {
+									AND = {
+										NOT = { trait_is_virtue = lustful }
+										trait_is_virtue = deceitful
+									}
+									AND = {
+										trait_is_sin = lustful
+										NOT = { trait_is_sin = deceitful }
+									}
+								}
+							}
+							AND = {
+								has_doctrine = doctrine_adultery_men_shunned		
+								#can we be sure that adultery is shunned more because of the lying? IE, is lust more virtuous than deceit?
+								OR = {
+									AND = {
+										trait_is_virtue = lustful
+										NOT = { trait_is_virtue = deceitful } 
+									}
+									trait_is_sin = deceitful
+								}								
+							}
+						}
+					}
+					add_doctrine = doctrine_fornication_men_accepted
+				}
+				else = {					
+					#all remaining cases should fall through to Shunned
+					add_doctrine = doctrine_fornication_men_shunned
+				}								
+			}
+			if = {
+				limit = {
+					NOR = {
+						has_doctrine = doctrine_fornication_women_crime
+						has_doctrine = doctrine_fornication_women_shunned
+						has_doctrine = doctrine_fornication_women_accepted
+					}
+				}
+				if = {
+					limit = { 
+						NOT = { trait_is_virtue = lustful }
+						OR = {
+							has_doctrine = doctrine_adultery_women_crime 							
+							AND = {
+								has_doctrine = doctrine_adultery_women_shunned
+								trait_is_sin = lustful
+								NOT = { trait_is_sin = deceitful }								
+							}
+						}
+					}
+					add_doctrine = doctrine_fornication_women_crime
+				}
+				else_if = {
+					limit = { 
+						NOT = { trait_is_sin = lustful }
+						OR = {
+							AND = {
+								has_doctrine = doctrine_adultery_women_accepted
+								#AND lust is not more sinful than deceit, since that should full through to Shunned
+								NOR = {
+									AND = {
+										NOT = { trait_is_virtue = lustful }
+										trait_is_virtue = deceitful
+									}
+									AND = {
+										trait_is_sin = lustful
+										NOT = { trait_is_sin = deceitful }
+									}
+								}
+							}
+							AND = {
+								has_doctrine = doctrine_adultery_women_shunned		
+								#can we be sure that adultery is shunned more because of the lying? IE, is lust more virtuous than deceit?
+								OR = {
+									AND = {
+										trait_is_virtue = lustful
+										NOT = { trait_is_virtue = deceitful } 
+									}
+									trait_is_sin = deceitful
+								}								
+							}
+						}
+					}
+					add_doctrine = doctrine_fornication_women_accepted
+				}
+				else = {					
+					#all remaining cases should fall through to Shunned
+					add_doctrine = doctrine_fornication_women_shunned
+				}								
+			}						
+		}	
+	}
+	###TODO: are there any individual faiths that should do something different?
+	#faith:whichever = {
+	#}	
+}

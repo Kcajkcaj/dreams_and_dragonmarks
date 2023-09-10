@@ -1,0 +1,27 @@
+zil = {
+	color = {1 1 0.0}
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_zil
+	language = language_zil
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_zil
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_elemental_binding
+		tradition_trust_the_trust
+		tradition_famed_universities
+		tradition_xenophilia
+	}
+	
+	ethnicities = {
+		100 = zil
+	}
+}

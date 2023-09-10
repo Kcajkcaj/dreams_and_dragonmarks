@@ -1,0 +1,33 @@
+yearly_playable_pulse = {
+	on_actions = {
+		eberron_slavery_pulse
+	}
+}
+
+eberron_slavery_pulse = {
+	trigger = {
+		culture = {has_cultural_parameter = money_from_captives}
+		has_prisoners = yes
+	}
+	effect = {
+		root = {
+			set_variable = {
+				name = slavery_earnings
+				value = 0
+			}
+		}
+		every_prisoner = {
+			root = {
+				change_variable =  {
+					name = slavery_earnings
+					add = 3
+				}
+			}
+		}
+		send_interface_message = {	
+			title = eberron_culture.0001.t
+			add_gold = var:slavery_earnings
+			left_icon = scope:root
+		}
+	}
+}

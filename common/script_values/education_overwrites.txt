@@ -1,0 +1,31 @@
+adult_education_activity_cost = {
+	value = root.massive_gold_value
+	if = {
+		limit = {
+			root = {
+				government_has_flag = government_is_tribal
+			}
+		}
+		multiply = 0.5
+	}
+	if = {
+		limit = {
+			root = {
+				culture = {has_cultural_parameter = cheaper_university_visits}
+			}
+		}
+		multiply = 0.5
+	}
+}
+
+adult_education_cooldown_time = {
+	value = 20
+	if = {
+		limit = {
+			root = {
+				culture = {has_cultural_parameter = more_frequent_university_visits}
+			}
+		}
+		multiply = 0.5
+	}
+}

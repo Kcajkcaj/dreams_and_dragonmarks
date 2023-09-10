@@ -1,0 +1,17 @@
+create_artifact_Redwave_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	create_artifact = {
+		name = "Redwave"
+		description = "Once wielded by Malleon the Reaver, this axe has been bathed in the blood of many a goblin."
+		type = axe
+		visuals = axe
+		rarity = illustrious
+		template = general_unique_template
+		modifier = artifact_raid_speed_10_modifier
+		modifier = artifact_prowess_7_modifier
+		modifier = artifact_dread_baseline_add_4_modifier
+		modifier = artifact_monthly_martial_lifestyle_xp_2_modifier
+	}
+}

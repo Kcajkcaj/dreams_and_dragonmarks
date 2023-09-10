@@ -1,0 +1,19 @@
+dynn_korran = {
+	name = "Korran"
+	culture = zil
+}
+
+dynn_zolan = {
+	name = "Zolan"
+	culture = zil
+}
+
+dynn_trolan = {
+	name = "Trolan"
+	culture = zil
+}
+
+dynn_sivis = {
+	name = "Sivis"
+	culture = zil
+}

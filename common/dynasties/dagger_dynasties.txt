@@ -1,0 +1,20 @@
+dynn_dain = {
+	name = "Dain"
+	culture = vathir
+}
+dynn_medani = {
+	name = "Medani"
+	culture = vathir
+}
+dynn_demell = {
+	name = "Demell"
+	culture = vathir
+}
+dynn_morrus = {
+	name = "Morrus"
+	culture = vathir
+}
+dynn_solaen = {
+	name = "Solaen"
+	culture = aereni
+}

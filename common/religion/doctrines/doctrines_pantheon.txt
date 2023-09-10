@@ -1,0 +1,103 @@
+doctrine_pantheon = {
+	group = "main_group"
+
+	doctrine_pantheon_none = {
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			if = {
+				limit = { has_doctrine = doctrine_pantheon_none }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_doctrine = doctrine_pantheon_sovereigns
+						has_doctrine = doctrine_pantheon_full
+					}
+				}
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+		parameters = {
+			has_pantheon = no
+			no_pantheon_less_heresy = yes
+		}
+	}
+	doctrine_pantheon_small = {
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			if = {
+				limit = { has_doctrine = doctrine_pantheon_small }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_pantheon_full }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+		parameters = {
+			has_pantheon = yes
+		}
+	}
+	doctrine_pantheon_sovereigns = {
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			if = {
+				limit = { has_doctrine = doctrine_pantheon_sovereigns }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = { has_doctrine = doctrine_pantheon_none }
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+		parameters = {
+			has_pantheon = yes
+			arawai = yes
+			aureon = yes
+			balinor = yes
+			boldrei = yes
+			dol_arrah = yes
+			dol_dorn = yes
+			kol_korran = yes
+			olladra = yes
+			onatar = yes
+		}
+	}
+	doctrine_pantheon_full = {
+		piety_cost = {
+			value = faith_doctrine_cost_high
+			if = {
+				limit = { has_doctrine = doctrine_pantheon_full }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+			else_if = {
+				limit = {
+					OR = {
+						has_doctrine = doctrine_pantheon_small
+						has_doctrine = doctrine_pantheon_full
+					}
+				}
+				multiply = faith_changed_doctrine_cost_mult_two_step
+			}
+		}
+		parameters = {
+			has_pantheon = yes
+			arawai = yes
+			aureon = yes
+			balinor = yes
+			boldrei = yes
+			dol_arrah = yes
+			dol_azur = yes
+			dol_dorn = yes
+			kol_korran = yes
+			kol_turrant = yes
+			olladra = yes
+			onatar = yes
+			the_shadow = yes
+			shurkaan = yes
+			szorawai = yes
+			the_traveller = yes
+		}
+	}
+}

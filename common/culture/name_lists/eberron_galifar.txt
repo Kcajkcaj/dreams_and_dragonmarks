@@ -1,0 +1,198 @@
+﻿name_list_aundairi = {
+	dynasty_names = {
+		{"ir'" "Lain"}
+		{"ir'" "Brassek"}
+		{"ir'" "Dayne"}
+		{"ir'" "Trannick"}
+		{"ir'" "Aarland"}
+		{"ir'" "Acker"}
+		{"ir'" "Adriansen"}
+		{"ir'" "Alyea"}
+		{"ir'" "Arendt"}
+		{"ir'" "Bacher"}
+		{"ir'" "Banekert"}
+		{"ir'" "Bartell"}
+		{"ir'" "Bateu"}
+		{"ir'" "Crudaker"}
+		{"ir'" "Caldamus"}
+		{"ir'" "Corleis"}
+		{"ir'" "Dekker"}
+		{"ir'" "Ennes"}
+		{"ir'" "Gerlach"}
+		{"ir'" "Haldron"}
+		{"ir'" "Hugrin"}
+		{"ir'" "Jurians"}
+		{"ir'" "Karch"}
+		{"ir'" "Kendig"}
+		{"ir'" "Maartel"}
+		{"ir'" "Mantanye"}
+		{"ir'" "Merchiot"}
+		{"ir'" "Nagel"}
+		{"ir'" "Ostren"}
+		{"ir'" "Petilom"}
+		{"ir'" "Redeker"}
+		{"ir'" "Rhuli"}
+		{"ir'" "Romhaar"}
+		{"ir'" "Serontain"}
+		{"ir'" "Shreve"}
+		{"ir'" "Sykes"}
+		{"ir'" "Taumen"}
+		{"ir'" "Thiel"}
+		{"ir'" "Toriun"}
+		{"ir'" "Tullier"}
+		{"ir'" "Valleau"}
+		{"ir'" "Veseur"}
+		{"ir'" "Yanger"}
+		{"ir'" "Zenden"}
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	male_names = {Boroman Keiftal Quardov Mordain Dalin Darro Kwanti Rurin Karmos Thuel Raulo Sasik Adal Aurad Jurian Mathas Ari Bokk Breyten Daen Dover Erben Fluin Gavrin Haldren Hagro Herschem Huys Jurian Kamiel Killian Kleris Reng Retief Riaan Saal Sarelo Sithov Tak Tyman Urik}
+	
+	female_names = {Zaeurl Aurala Jorlanna Esravash Hazel Austasia Barvette Aafki Agate Baltia Batrax Beleth Chantal Fientia Flerentia Gwen Hjeltia Juliona Levini Margana Marloes Sanne Sien Tanneken Vilina}
+	
+}
+
+name_list_brelish = {
+
+	dynasty_names = {
+		{"ir'" "Clarn"}
+		{"ir'" "Lantar"}
+		{"ir'" "Laisha"}
+		{"ir'" "Tyran"}
+		{"ir'" "Tonn"}
+		{"ir'" "Zarna"}
+		{"ir'" "Marasha"}
+		{"ir'" "Tain"}
+		{"ir'" "Tunt"}
+		{"ir'" "Demell"}
+		{"ir'" "Talan"}
+		{"ir'" "Kavay"}
+		{"ir'" "Dain"}
+		{"ir'" "Moran"}
+		{"ir'" "Tarrn"}
+		{"ir'" "Thadian"}
+		{"ir'" "Morgrave"}
+		{"ir'" "Aggan"}
+		{"ir'" "Bakker"}
+		{"ir'" "Colworn"}
+		{"ir'" "Devir"}
+		{"ir'" "Ebinor"}
+		{"ir'" "Faldren"}
+		{"ir'" "Graccen"}
+		{"ir'" "Helmworth"}
+		{"ir'" "Jonz"}
+		{"ir'" "Kemble"}
+		{"ir'" "Lanner"}
+		{"ir'" "Lonn"}
+		{"ir'" "Makker"}
+		{"ir'" "Morrus"}
+		{"ir'" "Nelview"}
+		{"ir'" "Perryn"}
+		{"ir'" "Riston"}
+		{"ir'" "Roole"}
+		{"ir'" "Smyth"}
+		{"ir'" "Snarik"}
+		{"ir'" "Thorn"}
+		{"ir'" "Toppe"}
+		{"ir'" "Wrighten"}
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	male_names = {Abraxis Alain Beren Bestan Boranel Boranex Borian Brask Caskar Cord Curlot Creilath Dantian Destir Dane Doran Duran Erix Greykell Hallorek Holt Jairan Javan Jovi Kaine Kandler Kason Keslo Kor Kirant Kolas Kuven Laren Lis Maal Merrix Minyu Molric Nelt Nolan Norn Oarsen Pater Pol Rand Reesir Saal Saidan Saj Sedge Sorik Stend Tars Teesen Thurik Trelib Uthar Verden Vorj Werem Wrogarr Yelfis Zotharr}
+	
+	female_names = {Aanna Alike Alina Asa Brey Cala Channa Chaseva Dabren Dalaina Dania Daphane Elazti Fromm Gersi Glenas Gydd Habra Heeson Ilyra Isti Itlani Joherra Kava Ket Lalia Laruna Lorsanna Maija Magdalora Mala Margu Maril Mazina Mirasandra Monesti Narcy Nebra Nyrielle Penti Riki Sava Solia Shassa Shauranna Soranda Tabin Tasra Tolri Tyrala Wroaan Wroenna}
+}
+
+name_list_karrn = {
+	
+	dynasty_names = {
+		{"ir'" "Hatar"}
+		{"ir'" "Vardikk"}
+		{"ir'" "Kantarros"}
+		{"ir'" "Tennet"}
+		{"ir'" "Omik"}
+		{"ir'" "Altaner"}
+		{"ir'" "Argland"}
+		{"ir'" "Balich"}
+		{"ir'" "Barthus"}
+		{"ir'" "Brand"}
+		{"ir'" "Cerfas"}
+		{"ir'" "Denka"}
+		{"ir'" "Dorn"}
+		{"ir'" "Erdei"}
+		{"ir'" "Eschus"}
+		{"ir'" "Furnau"}
+		{"ir'" "Gaebler"}
+		{"ir'" "Gergus"}
+		{"ir'" "Grogloth"}
+		{"ir'" "Hellekanus"}
+		{"ir'" "Hintram"}
+		{"ir'" "Jaranus"}
+		{"ir'" "Karlach"}
+		{"ir'" "Kessler"}
+		{"ir'" "Kraal"}
+		{"ir'" "Lassinus"}
+		{"ir'" "Losho"}
+		{"ir'" "Maerer"}
+		{"ir'" "Ochem"}
+		{"ir'" "Rangoth"}
+		{"ir'" "Roerith"}
+		{"ir'" "Sattler"}
+		{"ir'" "Senglin"}
+		{"ir'" "Taggert"}
+		{"ir'" "Thul"}
+		{"ir'" "Trothut"}
+		{"ir'" "Vanalan"}
+		{"ir'" "Vedenin"}
+		{"ir'" "Zecklin"}
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	male_names = {Adalstan Alarich Arend Berend Brenius Detlev Drago Evetius Falko Fraedus Garrick Geroldt Gertan Gustavus Halden Leonus Leodegar Maenrad Rochus Rolund Sigor Theoban Vedim Vorik Wultram}
+	
+	female_names = {Adalgisa Alinda Asta Bauin Clotrila Demuth Ebba Ermena Forsindh Gisaul Harika Haedrun Karola Lorelea Mauriana Menelda Oydelis Renilda Syardis Syele Theda Valpaea Vaunn}
+}
+
+name_list_thrane = {
+	
+	dynasty_names = {
+		{"ir'" "Damilek"}
+		{"ir'" "Mallon"}
+		{"ir'" "Aeyliros"}
+		{"ir'" "Askarda"}
+		{"ir'" "Atrelioth"}
+		{"ir'" "Corliostor"}
+		{"ir'" "Corus"}
+		{"ir'" "Desekane"}
+		{"ir'" "Drosin"}
+		{"ir'" "Entarro"}
+		{"ir'" "Eskeliendro"}
+		{"ir'" "Ghastor"}
+		{"ir'" "Hetrion"}
+		{"ir'" "Imaradi"}
+		{"ir'" "Irvallo"}
+		{"ir'" "Karavastar"}
+		{"ir'" "Krayci"}
+		{"ir'" "Lerendazi"}
+		{"ir'" "Marktaros"}
+		{"ir'" "Neskus"}
+		{"ir'" "Ovion"}
+		{"ir'" "Ravadanci"}
+		{"ir'" "Sarhain"}
+		{"ir'" "Talandro"}
+		{"ir'" "Tarravan"}
+		{"ir'" "Teskelyndros"}
+		{"ir'" "Vanatar"}
+		{"ir'" "Vasiraghi"}
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	male_names = {Alestair Arrun Andri Calemi Coref Demodir Drego Drosin Egen Javi Jeffi Kaith Lukar Mizar Ossul Pentar Rave Sercyl Sudro Suthar Syro Taran Tokorin Urdan Valtar Vencyl Verodin Zoder}
+	
+	female_names = {Avaliah Beref Chantalyn Draci Ghanji Hariel Heken Imperi Irulan Jahanah Kahlia Lycia Maradal Margil Melindri Morgana Narvala Norah Nyllestra Sede Suspiria Taris Thradi Varikah}
+}

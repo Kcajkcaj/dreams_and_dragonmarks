@@ -1,0 +1,451 @@
+tradition_chattel_slavery = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = tools.dds
+	}
+	
+	category = realm
+	
+	parameters = {
+		money_from_captives = yes
+		more_captives = yes
+		
+		can_recruit_prisoners_easily = yes
+		pardoning_gives_loyalty = yes
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_clan_connections = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = tools.dds
+	}
+	
+	category = realm
+	
+	parameters = {
+		more_gift_opinion = yes
+		gives_more_gifts = yes
+		landing_house_members_gives_renown = yes
+		close_family_better_councillors = yes
+		close_family_better_court_positions = yes
+		penalty_for_revoking_titles_from_close_family = yes
+		
+		prestige_from_gifts = yes
+	}
+	
+	character_modifier = {
+		dynasty_opinion = 20
+		vassal_opinion = -20
+		monthly_dynasty_prestige_mult = 0.5
+		monthly_prestige_gain_mult = -0.3
+		happy_powerful_vassal_tax_contribution_mult = 0.25
+		happy_powerful_vassal_levy_contribution_mult = 0.25
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_coastal_reavers = {
+	layers = {
+		0 = martial
+		1 = western
+		4 = ship.dds
+	}
+	
+	category = realm
+	
+	parameters = {
+		culture_can_raid_at_sea_even_if_feudal_no_restrictions = yes
+		
+		maritime_mercantilism_coastal_holdings = yes
+		trade_ports_give_control_growth = yes
+		trade_ports_give_levies = yes
+	}
+	
+	character_modifier = {
+		max_loot_mult = 0.5
+		embarkation_cost_mult = -0.25
+		sea_travel_danger = medium_sea_danger_reduction
+		coastal_advantage = 7
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_constitutionalism = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = quill.dds
+	}
+	
+	category = realm
+	
+	parameters = {
+		more_aggressive_negotiations  = yes # New
+		more_parochial_vassals = yes
+		always_oppose_revoking_baronies = yes
+		can_call_parliaments = yes # New
+		
+		cheaper_to_change_laws = yes
+		just_trait_more_common = yes
+	}
+	
+	character_modifier = {
+		title_creation_cost_mult = -0.5
+		domain_limit = -1
+		vassal_limit = 30
+		tyranny_gain_mult = 1
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_embrace_of_industry = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = tools.dds
+	}
+	
+	parameters = {
+		development_gain_on_building_complete = yes
+	}
+	character_modifier = {
+		build_speed = -0.25
+		stress_gain_mult = 0.25
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_famed_universities = {
+	layers = {
+		0 = learning
+		1 = western
+		4 = quill.dds
+	}
+	
+	parameters = {
+		more_frequent_university_visits = yes
+		cheaper_university_visits = yes
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_fierce_independence = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = speech.dds
+	}
+	
+	character_modifier = {
+		opinion_of_liege = -20
+		monthly_county_control_change_factor = -0.2
+		monthly_prestige_gain_mult = 0.2
+		development_growth = 0.2
+	}
+	
+	category = societal
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_frontier_settlers = {
+	layers = {
+		0 = martial
+		1 = western
+		4 = farmland.dds
+	}
+	
+	parameters = {
+		reduced_feudalizing_cost = yes
+		different_heritage_conquest_wars = yes
+		easier_to_promote_culture_different_heritage = yes
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_minority_rule = {
+	layers = {
+		0 = martial
+		1 = western
+		4 = crown.dds
+	}
+	
+	parameters = {
+		peasant_and_populist_factions_less_common = yes
+	}
+	culture_modifier = {
+		cultural_acceptance_gain_mult = -0.5
+	}
+	character_modifier = {
+		opinion_of_different_culture = -15
+		opinion_of_different_faith = -15
+		revolting_siege_morale_loss_mult = 0.5
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_rule_of_the_chibs = {
+	layers = {
+		0 = intrigue
+		1 = western
+		4 = fight.dds
+	}
+	
+	parameters = {
+		has_access_to_trials_by_combat = yes
+		strong_traits_more_feared = yes
+	}
+	character_modifier = {
+		knight_limit = 4
+		men_at_arms_limit = -1
+		accolade_glory_gain_mult = 0.3
+		men_at_arm_maintenance_per_dread_mult = -0.01
+		intimidated_vassal_tax_contribution_mult = 0.15
+		intimidated_vassal_levy_contribution_mult = 0.15
+		cowed_vassal_tax_contribution_mult = 0.3
+		cowed_vassal_levy_contribution_mult = 0.3
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_swashbucklers_pride = {
+	layers = {
+		0 = diplomacy
+		1 = western
+		4 = viking.dds
+	}
+	
+	parameters = {
+		potential_rival_to_rival = yes
+		additional_tournament_slot = yes
+		additional_prestige_for_winning_tournaments = yes
+		
+		can_duel_rivals = yes
+	}
+	
+	character_modifier = {
+		hastiluder_xp_gain_mult = 0.5
+	}
+	
+	category = societal
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_traveling_merchants = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = state_ransoming.dds
+	}
+	
+	parameters = {
+		next_level_trade_ports = yes
+		wanderers_gain_extra_economic_skills = yes
+		more_likely_to_leave_court = yes
+	}
+	
+	character_modifier = {
+		movement_speed = 0.05
+		diplomatic_range_mult = 0.2
+		character_travel_safety_mult = 0.2
+		character_travel_speed_mult = 0.2
+	}
+	
+	category = societal
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_trust_the_trust = {
+	layers = {
+		0 = intrigue
+		1 = western
+		4 = diplomat.dds
+	}
+	
+	parameters = {
+		unlock_trust_outpost = yes # New
+		auto_assign_spymaster = yes
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_xenophilia = {
+	layers = {
+		0 = intrigue
+		1 = western
+		4 = conversation.dds
+	}
+	
+	parameters = {
+		more_easily_converted = yes
+	}
+	culture_modifier = {
+		cultural_acceptance_gain_mult = 0.25
+	}
+	character_modifier = {
+		different_culture_opinion = 10
+		different_faith_opinion = 10
+		ignore_negative_opinion_of_culture = yes
+		ignore_opinion_of_different_faith = yes
+		faith_creation_piety_cost_mult = -0.2
+		faith_conversion_piety_cost_mult = -0.2
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}

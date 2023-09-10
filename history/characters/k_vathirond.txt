@@ -1,0 +1,193 @@
+chaseva_lantar = { # Queen of Vathirond
+	name = "Chaseva"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_vathir_lantar
+	
+	3359.1.10 = { birth = yes }
+}
+
+boranex_perryn = { # Former Duke of Dragonscrown
+	name = "Boranex"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_perryn
+	
+	3342.8.9 = { birth = yes }
+	3387.8.15 = { death = yes }
+}
+
+abraxis_perryn = { # Current Duke of Dragonscrown
+	name = "Abraxis"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_perryn
+	
+	father = boranex_perryn
+	
+	3373.3.13 = { birth = yes }
+}
+
+nyrielle_perryn = { # Count of Nowhere
+	name = "Nyrielle"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_vathir_perryn
+	
+	father = boranex_perryn
+	
+	3379.9.11 = { birth = yes }
+}
+
+uthar_colworn = { # Duke of Starilaskur
+	name = "Uthar"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_colworn
+	
+	3364.10.2 = { birth = yes }
+}
+
+mazina_graccen = { # Count of Rhonewatch
+	name = "Mazina"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_vathir_graccen
+	
+	3373.5.9 = { birth = yes }
+}
+
+kuven_smyth = { # Count of Lurching Tower
+	name = "Kuven"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_smyth
+	
+	3377.7.5 = { birth = yes }
+}
+
+oarsen_devir = { # Count of Starilaskur B
+	name = "Oarsen"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_devir
+	
+	3374.7.17 = { birth = yes }
+}
+
+itlani_zarna = { # Former Duke of Hatheril
+	name = "Itlani"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_vathir_zarna
+	
+	3343.3.13 = { birth = yes }
+	3389.5.16 = { death = yes }
+}
+
+mirasandra_zarna = { # Duke of Hatheril
+	name = "Mirasandra"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_vathir_zarna
+	
+	mother = itlani_zarna
+	
+	3361.2.13 = { birth = yes}
+}
+
+merrix_zarna = { # Count of Swordmoor
+	name = "Merrix"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_zarna
+	
+	mother = itlani_zarna
+	
+	3365.9.12 = { birth = yes}
+}
+
+wrogarr_zarna = { # Count of Cragwar
+	name = "Wrogarr"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_zarna
+	
+	mother = itlani_zarna
+	
+	3363.11.11 = { birth = yes}
+}
+
+tyrala_zarna = { # Count of Fort Light
+	name = "Tyrala"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_vathir_zarna
+	
+	mother = itlani_zarna
+	
+	3367.7.18 = { birth = yes}
+}
+
+erix_talan = { # Count of New Cyre
+	name = "Erix"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_talan
+	
+	3378.2.14 = {birth = yes}
+}
+
+riki_thadian = { # Count of Vathirond C
+	name = "Riki"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_vathir_thadian
+	
+	3382.12.6. = {birth = yes}
+}
+
+hallorek_thorn = { # Count of Mistmarsh
+	name = "Hallorek"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_thorn
+	
+	3364.7.14 = {birth = yes}
+}
+
+jhazaal_shavar = { # Count of Greenhaunt
+	name = "Jhazaal"
+	culture = rootfolk
+	faith = asatru_pagan
+	female = yes
+	dynasty = dynn_vathir_shavar
+	
+	3376.8.1 = {birth = yes}
+}
+
+thaar_kanaarac = { # Count of Yedan
+	name = "Thaar"
+	culture = daggerborn
+	faith = uulkarda
+	female = no
+	dynasty = dynn_vathir_kanaarac
+	
+	3356.8.13 = {birth = yes}
+}

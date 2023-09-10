@@ -1,0 +1,163 @@
+d_wroat = {
+	3386.5.15 = {
+		holder = baran_dain
+	}
+	3409.9.10 = {
+		holder = breggor_dain
+	}
+}
+c_wroat = {
+	3386.5.15 = {
+		holder = baran_dain
+	}
+	3409.9.10 = {
+		holder = breggor_dain
+	}
+}
+c_bearswood = {
+	3386.5.15 = {
+		holder = baran_dain
+	}
+	3409.9.10 = {
+		holder = breggor_dain
+	}
+}
+c_glyphstone = {
+	3400.1.1 = {
+		liege = d_wroat
+		holder = ilyra_medani
+	}
+}
+c_tansend = {
+	3400.1.1 = {
+		holder = daphane_morrus
+	}
+}
+c_barans_keep = {
+	3386.5.15 = {
+		holder = baran_dain
+	}
+	3409.9.10 = {
+		holder = molric_dain
+	}
+}
+c_bentblade_a = {
+	3386.5.15 = {
+		holder = baran_dain
+	}
+	3409.9.10 = {
+		holder = soranda_dain
+	}
+}
+c_bentblade_b = {
+	3386.5.15 = {
+		holder = baran_dain
+	}
+	3409.9.10 = {
+		holder = soranda_dain
+	}
+}
+c_bentblade_c = {
+	3386.5.15 = {
+		holder = baran_dain
+	}
+	3409.9.10 = {
+		holder = molric_dain
+	}
+}
+c_bentblade_d = {
+	3400.1.1 = {
+		holder = galeth_demell
+	}
+}
+c_galethspyre = {
+	3400.1.1 = {
+		holder = galeth_demell
+	}
+}
+c_kingswood_c = {
+	3400.1.1 = {
+		liege = d_wroat
+		holder = magdalora_of_kingswood
+	}
+}
+c_kingswood_b = {
+	3400.1.1 = {
+		holder = valii_of_kingswood
+	}
+}
+c_kingswood_a = {
+	3400.1.1 = {
+		holder = valii_of_kingswood
+	}
+}
+d_dragonwood = {
+	3400.1.1 = {
+		holder = shekath_of_dragonwood
+	}
+}
+c_woodhelm = {
+	3400.1.1 = {
+		holder = thurik_of_woodhelm
+	}
+}
+c_skyraker_a = {
+	3400.1.1 = {
+		holder = duran_of_skyraker_a
+	}
+}
+c_skyraker_b = {
+	3400.1.1 = {
+		holder = nolan_of_skyraker_b
+	}
+}
+c_skyraker_c = {
+	3400.1.1 = {
+		holder = krakuul_of_skyraker
+	}
+}
+c_shining_valley = {
+	3400.1.1 = {
+		holder = krootad_of_shining_valley
+	}
+}
+c_arakhain = {
+	3400.1.1 = {
+		holder = torkhaan_of_arakhain
+	}
+}
+c_threshold = {
+	3400.1.1 = {
+		holder = torkhaan_of_arakhain
+	}
+}
+c_quickstone = {
+	3400.1.1 = {
+		holder = torkhaan_of_arakhain
+	}
+}
+c_ardev = {
+	3400.1.1 = {
+		holder = rand_of_ardev
+	}
+}
+c_ardev_c = {
+	3400.1.1 = {
+		holder = rand_of_ardev
+	}
+}
+c_ardev_b = {
+	3400.1.1 = {
+		holder = dabrak_of_ardev_b
+	}
+}
+c_shavalant = {
+	3400.1.1 = {
+		holder = laren_of_shavalant
+	}
+}
+c_whitehorn_wood = {
+	3400.1.1 = {
+		holder = laren_of_shavalant
+	}
+}

@@ -1,0 +1,97 @@
+tournament_active_phase_count_value = {
+	# 1-5 Phases:
+	value = 1
+	# Extra phases unlocked over time
+	culture = {
+		if = {
+			limit = { has_cultural_era_or_later = culture_era_early_medieval }
+			add = 1
+		}
+		if = {
+			limit = {
+				has_cultural_era_or_later = culture_era_high_medieval
+			}
+			add = 1
+		}
+		if = {
+			limit = { has_cultural_era_or_later = culture_era_late_medieval }
+			add = 2
+		}
+	}
+	# Some cultures like practicing war and words; unlock another slot in High medieval age as opposed to Late
+	culture = {
+		if = {
+			limit = {has_cultural_parameter = additional_tournament_slot}
+			add = 1
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_cultural_era_or_later = culture_era_late_medieval
+				}
+				AND = {
+					has_cultural_era_or_later = culture_era_high_medieval
+					OR = {
+						has_cultural_pillar = heritage_north_germanic
+						has_cultural_pillar = heritage_frankish
+						has_cultural_pillar = heritage_iberian
+						has_cultural_pillar = heritage_latin
+						has_cultural_pillar = heritage_mongolic
+						has_cultural_pillar = heritage_north_germanic
+						has_cultural_pillar = heritage_west_germanic
+						has_cultural_pillar = heritage_central_germanic
+					}
+				}
+			}
+			add = 1
+		}
+	}
+}
+
+tournament_major_prestige_gain = {
+	value = major_prestige_value
+	if = {
+		limit = {culture = {has_cultural_parameter = additional_prestige_for_winning_tournaments}}
+		add = major_prestige_value
+	}
+}
+tournament_medium_prestige_gain = {
+	value = medium_prestige_value
+	if = {
+		limit = {culture = {has_cultural_parameter = additional_prestige_for_winning_tournaments}}
+		add = medium_prestige_value
+	}
+}
+tournament_minor_prestige_gain = {
+	value = minor_prestige_value
+	if = {
+		limit = {culture = {has_cultural_parameter = additional_prestige_for_winning_tournaments}}
+		add = minor_prestige_value
+	}
+}
+tournament_miniscule_prestige_gain = {
+	value = miniscule_prestige_value
+	if = {
+		limit = {culture = {has_cultural_parameter = additional_prestige_for_winning_tournaments}}
+		add = miniscule_prestige_value
+	}
+}
+
+tournament_first_place_reward_prestige_major_value = {value = tournament_major_prestige_gain}
+tournament_first_place_reward_prestige_medium_value = {value = tournament_medium_prestige_gain}
+tournament_first_place_reward_prestige_minor_value = {value = tournament_minor_prestige_gain}
+
+tournament_second_place_reward_prestige_major_value = {value = tournament_medium_prestige_gain}
+tournament_second_place_reward_prestige_medium_value = {value = tournament_minor_prestige_gain}
+tournament_second_place_reward_prestige_minor_value = {value = tournament_miniscule_prestige_gain}
+
+tournament_third_place_reward_prestige_major_value = {value = tournament_minor_prestige_gain}
+tournament_third_place_reward_prestige_medium_value = {value = tournament_miniscule_prestige_gain}
+# Tournament not grand enough for a minor value.
+
+tournament_team_winner_reward_prestige_major_value = {value = tournament_medium_prestige_gain}
+tournament_team_winner_reward_prestige_medium_value = {value = tournament_minor_prestige_gain}
+tournament_team_winner_reward_prestige_minor_value = {value = tournament_miniscule_prestige_gain}
+
+tournament_team_loser_reward_prestige_major_value = {value = tournament_minor_prestige_gain}
+tournament_team_loser_reward_prestige_medium_value = {value = tournament_miniscule_prestige_gain}

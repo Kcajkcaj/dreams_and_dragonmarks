@@ -1,0 +1,13 @@
+on_game_start = {
+	on_actions = {
+		eberron_artifact_assignment
+	}
+}
+
+eberron_artifact_assignment = {
+	effect = {
+		character:tasra_malleonid = {
+			create_artifact_Redwave_effect = { OWNER = this }
+		}
+	}
+}

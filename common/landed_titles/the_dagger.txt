@@ -1,0 +1,224 @@
+k_the_dagger = {
+	color = { 25 75 107 }
+	capital = c_wroat
+	
+	d_wroat = {
+		color = { 1 33 62 }
+		capital = c_wroat
+		
+		c_wroat = {
+			color = { 1 21 54 }
+			b_wroat_1 = {province = 71}
+			b_wroat_2 = {province = 72}
+			b_wroat_3 = {province = 73}
+		}
+		c_glyphstone = {
+			color = { 1 30 63 }
+			b_glyphstone_1 = {province = 74}
+			b_glyphstone_2 = {province = 75}
+		}
+		c_bearswood = {
+			color = { 15 30 55 }
+			b_bearswood_1 = {province = 76}
+			b_bearswood_2 = {province = 77}
+			b_bearswood_3 = {province = 78}
+		}
+		c_tansend = {
+			color = { 1 26 73 }
+			b_tansend_1 = {province = 79}
+			b_tansend_2 = {province = 80}
+			b_tansend_3 = {province = 81}
+			b_tansend_4 = {province = 82}
+		}
+		c_kingswood_a = {
+			color = { 5 29 53 }
+			b_kingswood_a_1 = {province = 83}
+			b_kingswood_a_2 = {province = 84}
+			b_kingswood_a_3 = {province = 85}
+			b_kingswood_a_4 = {province = 86}
+		}
+		c_kingswood_b = {
+			color = { 1 23 49 }
+			b_kingswood_b_1 = {province = 87}
+			b_kingswood_b_2 = {province = 88}
+			b_kingswood_b_3 = {province = 89}
+		}
+		c_kingswood_c = {
+			color = { 5 36 87 }
+			b_kingswood_c_1 = {province = 90}
+			b_kingswood_c_2 = {province = 91}
+			b_kingswood_c_3 = {province = 92}
+			b_kingswood_c_4 = {province = 93}
+		}
+	}
+	d_skyraker = {
+		color = { 77 113 132 }
+		capital = c_galethspyre
+		
+		c_galethspyre = {
+			color = { 63 109 123 }
+			b_galethspyre_1 = {province = 94}
+			b_galethspyre_2 = {province = 95}
+			b_galethspyre_3 = {province = 96}
+		}
+		c_shining_valley = {
+			color = { 81 121 143 }
+			b_shining_valley_1 = {province = 97}
+			b_shining_valley_2 = {province = 98}
+			b_shining_valley_3 = {province = 99}
+		}
+		c_skyraker_a = {
+			color = { 67 123 132 }
+			b_skyraker_a_1 = {province = 100}
+			b_skyraker_a_2 = {province = 101}
+			b_skyraker_a_3 = {province = 102}
+		}
+		c_skyraker_b = {
+			color = { 87 103 132 }
+			b_skyraker_b_1 = {province = 103}
+			b_skyraker_b_2 = {province = 104}
+			b_skyraker_b_3 = {province = 105}
+		}
+		c_skyraker_c = {
+			color = { 78 120 140 }
+			b_skyraker_c_1 = {province = 106}
+			b_skyraker_c_2 = {province = 107}
+			b_skyraker_c_3 = {province = 108}
+		}
+	}
+	d_bentblade = {
+		color = { 1 88 138 }
+		capital = c_baran_keep
+		
+		c_barans_keep = {
+			color = { 37 87 137 }
+			b_barans_keep_1 = {province = 109}
+			b_barans_keep_2 = {province = 110}
+			b_barans_keep_3 = {province = 111}
+			b_barans_keep_4 = {province = 112}
+		}
+		c_bentblade_a = {
+			color = { 1 89 153 }
+			b_bentblade_a1 = {province = 113}
+			b_bentblade_a2 = {province = 114}
+		}
+		c_bentblade_b = {
+			color = { 1 98 161 }
+			b_bentblade_b1 = {province = 115}
+			b_bentblade_b2 = {province = 116}
+		}
+		c_bentblade_c = {
+			color = { 19 94 166 }
+			b_bentblade_c1 = {province = 117}
+			b_bentblade_c2 = {province = 118}
+		}
+		c_bentblade_d = {
+			color = { 1 86 150 }
+			b_bentblade_d1 = {province = 119}
+			b_bentblade_d2 = {province = 120}
+			b_bentblade_d3 = {province = 121}
+		}
+	}
+	d_ardev = {
+		color = { 1 54 141 }
+		capital = c_ardev
+		
+		c_ardev = {
+			color = { 21 64 164 }
+			b_ardev_1 = {province = 122}
+			b_ardev_2 = {province = 123}
+			b_ardev_3 = {province = 124}
+			b_ardev_4 = {province = 125}
+		}
+		c_threshold = {
+			color = { 25 47 157 }
+			b_threshold_1 = {province = 126}
+			b_threshold_2 = {province = 127}
+			b_threshold_3 = {province = 128}
+		}
+		c_arakhain = {
+			color = { 1 40 148 }
+			b_arakhain_1 = {province = 129}
+			b_arakhain_2 = {province = 130}
+			b_arakhain_3 = {province = 131}
+		}
+		c_ardev_b = {
+			color = { 1 56 140 }
+			b_ardev_b1 = {province = 132}
+			b_ardev_b2 = {province = 133}
+		}
+		c_ardev_c = {
+			color = { 6 47 108 }
+			b_ardev_c1 = {province = 134}
+			b_ardev_c2 = {province = 135}
+			b_ardev_c3 = {province = 136}
+		}
+	}
+	d_whitehorn = {
+		color = { 1 74 176 }
+		capital = c_shavalant
+		
+		c_shavalant = {
+			color = { 1 65 158 }
+			b_shavalant_1 = {province = 137}
+			b_shavalant_2 = {province = 138}
+			b_shavalant_3 = {province = 139}
+			b_shavalant_4 = {province = 140}
+		}
+		c_whitehorn_wood = {
+			color = { 1 64 165 }
+			b_whitehorn_wood_1 = {province = 141}
+			b_whitehorn_wood_2 = {province = 142}
+			b_whitehorn_wood_3 = {province = 143}
+		}
+		c_septon_caves = {
+			color = { 3 68 152 }
+			b_septon_caves_1 = {province = 144}
+			b_septon_caves_2 = {province = 145}
+			b_septon_caves_3 = {province = 146}
+			b_septon_caves_4 = {province = 147}
+		}
+		c_quickstone = {
+			color = { 43 75 187 }
+			b_quickstone_1 = {province = 148}
+			b_quickstone_2 = {province = 149}
+			b_quickstone_3 = {province = 150}
+		}
+		c_orcbone = {
+			color = { 45 76 141 }
+			b_orcbone_1 = {province = 151}
+			b_orcbone_2 = {province = 152}
+			b_orcbone_3 = {province = 153}
+		}
+	}
+	d_dragonwood = {
+		color = { 34 112 139 }
+		capital = c_woodhelm
+		
+		c_woodhelm = {
+			color = { 31 103 134 }
+			b_woodhelm_1 = {province = 154}
+			b_woodhelm_2 = {province = 155}
+			b_woodhelm_3 = {province = 156}
+		}
+		c_dragonwood_b = {
+			color = { 44 102 139 }
+			b_dragonwood_b1 = {province = 157}
+			b_dragonwood_b2 = {province = 158}
+			b_dragonwood_b3 = {province = 159}
+			b_dragonwood_b4 = {province = 160}
+		}
+		c_dragonwood_c = {
+			color = { 1 112 133 }
+			b_dragonwood_c1 = {province = 161}
+			b_dragonwood_c2 = {province = 162}
+			b_dragonwood_c3 = {province = 163}
+		}
+		c_dragonwood_d = {
+			color = { 68 116 131 }
+			b_dragonwood_d1 = {province = 164}
+			b_dragonwood_d2 = {province = 165}
+			b_dragonwood_d3 = {province = 166}
+		}
+	}
+}

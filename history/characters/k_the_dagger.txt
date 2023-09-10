@@ -1,0 +1,264 @@
+baran_dain = {
+	name = "Baran"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_dain
+	
+	3368.7.9 = {
+		birth = yes
+	}
+	3409.9.10 = {
+		death = yes
+	}
+}
+
+breggor_dain = {
+	name = "Breggor"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_dain
+	dna = breggor_dain_dna
+	
+	father = baran_dain
+	trait = depressed_genetic
+	trait = education_diplomacy_3
+	trait = intellect_good_3
+	trait = poet
+	trait = lifestyle_traveler
+	trait = organizer
+	trait = inquisitive
+	trait = just
+	trait = compassionate
+	trait = stubborn
+	
+	3391.12.19 = {
+		birth = yes
+	}
+	3408.10.13 = {
+		add_spouse = raela_solaen
+	}
+}
+
+molric_dain = {
+	name = "Molric"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_dain
+	
+	father = baran_dain
+	
+	3394.10.7 = {
+		birth = yes
+	}
+}
+
+soranda_dain = {
+	name = "Soranda"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_dain
+	
+	father = baran_dain
+	
+	3400.3.12 = {
+		birth = yes
+	}
+}
+
+raela_solaen = {
+	name = "Raela"
+	culture = aereni
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_solaen
+	
+	trait = ambitious
+	trait = vengeful
+	trait = wrathful
+	trait = intellect_good_2
+	trait = beauty_good_2
+	trait = education_martial_5
+	trait = holy_warrior
+	trait = military_engineer
+	
+	3387.10.3 = {
+		birth = yes
+	}
+}
+
+ilyra_medani = {
+	name = "Ilyra"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_medani
+	
+	trait = education_intrigue_4
+	trait = mark_of_detection
+	
+	3393.2.17 = {
+		birth = yes
+	}
+}
+
+galeth_demell = {
+	name = "Galeth"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_demell
+	
+	trait = education_stewardship_3
+	
+	3378.9.5 = {
+		birth = yes
+	}
+}
+
+daphane_morrus = {
+	name = "Daphane"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_morrus
+	
+	3389.7.17 = {
+		birth = yes
+	}
+}
+
+magdalora_of_kingswood = {
+	name = "Magdalora"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	
+	3382.5.6 = {
+		birth = yes
+	}
+}
+
+valii_of_kingswood = {
+	name = "Valii"
+	culture = daggerborn
+	faith = akom_pagan
+	female = yes
+	
+	3372.4.4 = {
+		birth = yes
+	}
+}
+
+shekath_of_dragonwood = {
+	name = "Shekath"
+	culture = daggerborn
+	faith = uulkarda
+	female = no
+	
+	3358.10.3 = {
+		birth = yes
+	}
+}
+
+krakuul_of_skyraker = {
+	name = "Krakuul"
+	culture = daggerborn
+	faith = khaarani
+	female = no
+	
+	3358.4.15 = {
+		birth = yes
+	}
+}
+
+krootad_of_shining_valley = {
+	name = "Krootad"
+	culture = daggerborn
+	faith = jamori
+	female = no
+	
+	3337.4.12 = {
+		birth = yes
+	}
+}
+
+torkhaan_of_arakhain = {
+	name = "Torkhaan"
+	culture = daggerborn
+	faith = uulkarda
+	female = no
+	
+	3372.1.6 = {
+		birth = yes
+	}
+}
+
+dabrak_of_ardev_b = {
+	name = "Dabrak"
+	culture = daggerborn
+	faith = uulkarda
+	female = no
+	
+	3345.4.5 = {
+		birth = yes
+	}
+}
+
+rand_of_ardev = {
+	name = "Rand"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	
+	3359.6.18 = {
+		birth = yes
+	}
+}
+
+laren_of_shavalant = {
+	name = "Laren"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	
+	3378.6.2 = {
+		birth = yes
+	}
+}
+
+thurik_of_woodhelm = {
+	name = "Thurik"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	
+	3363.7.27 = {
+		birth = yes
+	}
+}
+
+duran_of_skyraker_a = {
+	name = "Duran"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	
+	3356.11.10 = {
+		birth = yes
+	}
+}
+
+nolan_of_skyraker_b = {
+	name = "Nolan"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	
+	3367.7.16 = {
+		birth = yes
+	}
+}

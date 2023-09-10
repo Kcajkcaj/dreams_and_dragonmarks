@@ -1,0 +1,7 @@
+has_university_building_trigger = {
+	OR = {
+		has_building_or_higher = generic_university
+		has_building_or_higher = library_of_korranberg
+		has_building_or_higher = morgrave_university
+	}
+}

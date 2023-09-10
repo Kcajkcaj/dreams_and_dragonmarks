@@ -1,0 +1,241 @@
+﻿commit_suicide_decision = { #by Linnéa Thimrén
+	picture = "gfx/interface/illustrations/decisions/decision_personal_religious.dds"
+
+		desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { has_variable = mourning_parent }
+				desc = commit_suicide_decision_desc_parent
+			}
+			triggered_desc = {
+				trigger = { has_variable = mourning_soulmate }
+				desc = commit_suicide_decision_desc_soulmate
+			}
+			triggered_desc = {
+				trigger = { has_trait = lunatic }
+				desc = commit_suicide_decision_desc_lunatic
+			}
+			triggered_desc = {
+				trigger = { has_trait = depressed }
+				desc = commit_suicide_decision_desc_depressed
+			}
+			triggered_desc = {
+				trigger = { has_trait = cancer }
+				desc = commit_suicide_decision_desc_cancer
+			}
+			triggered_desc = {
+				trigger = { has_trait = leper }
+				desc = commit_suicide_decision_desc_leper
+			}
+			triggered_desc = {
+				trigger = { has_variable = messy_divorce }
+				desc = commit_suicide_decision_desc_divorce
+			}
+			triggered_desc = {
+				trigger = { has_variable = rank_demoted }
+				desc = commit_suicide_decision_desc_demoted
+			}
+			triggered_desc = {
+				trigger = { has_variable = mourning_friend }
+				desc = commit_suicide_decision_desc_friend
+			}
+			triggered_desc = {
+				trigger = { has_trait = great_pox }
+				desc = commit_suicide_decision_desc_great_pox
+			}
+			triggered_desc = {
+				trigger = { has_trait = incapable }
+				desc = commit_suicide_decision_desc_incapable
+			}
+			triggered_desc = {
+				trigger = { stress >= extremely_high_stress }
+				desc = commit_suicide_decision_desc_stressed
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait = witch 
+					faith = { has_doctrine_parameter = witchcraft_illegal }
+				}
+				desc = commit_suicide_decision_desc_witch
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait = cannibal
+					NOT = { 
+						faith = { has_doctrine_parameter = cannibalism_legal }
+					}
+				}
+				desc = commit_suicide_decision_desc_cannibal
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait = sodomite
+					faith = { has_doctrine_parameter = homosexuality_illegal }
+				}
+				desc = commit_suicide_decision_desc_sodomite
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait = deviant
+					faith = { has_doctrine_parameter = deviancy_illegal }
+				}
+				desc = commit_suicide_decision_desc_deviant
+			}
+			triggered_desc = {
+				trigger = { 
+					OR = {
+						AND = {
+							has_trait = adulterer													
+							OR = {
+								AND = {
+									faith = { has_doctrine_parameter = adultery_female_crime }
+									is_female = yes
+								}
+								AND = {
+									faith = { has_doctrine_parameter = adultery_male_crime }
+									is_male = yes
+								}
+							}
+						}
+						AND = {
+							has_trait = fornicator						
+							OR = {
+								AND = {
+									faith = { has_doctrine_parameter = fornication_female_crime }
+									is_female = yes
+								}
+								AND = {
+									faith = { has_doctrine_parameter = fornication_male_crime }
+									is_male = yes
+								}
+							}
+						}
+					}					
+				}
+				desc = commit_suicide_decision_desc_criminal
+			}
+		}
+	}
+	selection_tooltip = commit_suicide_decision_tooltip
+
+	ai_check_interval = 500
+
+	cooldown = { days = 1825 }
+
+	is_shown = {
+		is_adult = yes
+		NOT = { can_execute_decision = initiate_consolamentum_decision }
+		OR = {
+			has_trait = depressed
+			has_trait = incapable
+			has_trait = cancer
+			has_trait = leper
+			has_trait = great_pox
+			has_trait = lunatic
+			has_character_flag = make_suicide_available
+			stress >= extremely_high_stress
+			AND = { #You have a criminal trait and you are stressed
+				stress >= very_high_stress
+				OR = {
+					AND = {
+						has_trait = witch
+						faith = { has_doctrine_parameter = witchcraft_illegal }
+					}
+					AND = {
+						has_trait = cannibal
+						NOT = {
+							faith = { has_doctrine_parameter = cannibalism_legal }
+						}
+					}
+					AND = {
+						has_trait = sodomite
+						faith = { has_doctrine_parameter = homosexuality_illegal }
+					}
+					AND = {
+						has_trait = deviant
+						faith = { has_doctrine_parameter = deviancy_illegal }
+					}
+					AND = {
+						has_trait = adulterer													
+						OR = {
+							AND = {
+								faith = { has_doctrine_parameter = adultery_female_crime }
+								is_female = yes
+							}
+							AND = {
+								faith = { has_doctrine_parameter = adultery_male_crime }
+								is_male = yes
+							}
+						}
+					}
+					AND = {
+						has_trait = fornicator						
+						OR = {
+							AND = {
+								faith = { has_doctrine_parameter = fornication_female_crime }
+								is_female = yes
+							}
+							AND = {
+								faith = { has_doctrine_parameter = fornication_male_crime }
+								is_male = yes
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_in_an_activity = no
+		is_imprisoned = no
+		is_commanding_army = no
+	}
+
+	effect = {
+		show_as_tooltip = {
+			committed_suicide_effect = yes
+		}
+		
+		custom_tooltip = commit_suicide_decision_effect_tooltip
+		trigger_event = {
+			on_action = commit_suicide
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 30
+			has_trait = depressed
+		}
+		modifier = {
+			add = 25
+			has_trait = incapable
+		}
+		modifier = {
+			add = 10
+			has_trait = cancer
+		}
+		modifier = {
+			add = 10
+			has_trait = leper
+		}
+		modifier = {
+			add = 10
+			has_trait = great_pox
+		}
+		modifier = {
+			add = 10
+			has_trait = lunatic
+		}
+		modifier = {
+			add = 20
+			has_character_flag = make_suicide_available
+		}
+	}
+}

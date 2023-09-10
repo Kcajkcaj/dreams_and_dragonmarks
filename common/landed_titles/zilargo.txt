@@ -1,0 +1,208 @@
+k_zilargo = {
+	color = { 255 216 0 }
+	capital = c_trolanport
+	
+	d_trolanport = {
+		color = { 254 242 78 }
+		capital = c_trolanport
+		
+		c_trolanport = {
+			color = { 241 226 73 }
+			b_trolanport_1 = {province = 245}
+			b_trolanport_2 = {province = 246}
+			b_trolanport_3 = {province = 247}
+			b_trolanport_4 = {province = 248}
+			b_trolanport_5 = {province = 249}
+		}
+		c_redcliffs = {
+			color = { 254 245 81 }
+			b_redcliffs_1 = {province = 250}
+			b_redcliffs_2 = {province = 251}
+			b_redcliffs_3 = {province = 252}
+			b_redcliffs_4 = {province = 253}
+			b_redcliffs_5 = {province = 254}
+		}
+		c_shimmerwood_a = {
+			color = { 245 233 51 }
+			b_shimmerwood_a1 = {province = 255}
+			b_shimmerwood_a2 = {province = 256}
+			b_shimmerwood_a3 = {province = 257}
+			b_shimmerwood_a4 = {province = 258}
+		}
+		c_shimmerwood_b = {
+			color = { 254 249 78 }
+			b_shimmerwood_b1 = {province = 259}
+			b_shimmerwood_b2 = {province = 260}
+			b_shimmerwood_b3 = {province = 261}
+			b_shimmerwood_b4 = {province = 262}
+			b_shimmerwood_b5 = {province = 263}
+		}
+		c_tzanthus = {
+			color = { 253 231 1 }
+			b_tzanthus_1 = {province = 264}
+			b_tzanthus_2 = {province = 265}
+			b_tzanthus_3 = {province = 266}
+			b_tzanthus_4 = {province = 267}
+			b_tzanthus_5 = {province = 268}
+		}
+		c_oskilor = {
+			color = { 254 254 91 }
+			b_oskilor_1 = {province = 269}
+			b_oskilor_2 = {province = 270}
+			b_oskilor_3 = {province = 271}
+			b_oskilor_4 = {province = 272}
+		}
+		c_liugwen = {
+			color = { 254 245 30 }
+			b_liugwen_1 = {province = 273}
+			b_liugwen_2 = {province = 274}
+			b_liugwen_3 = {province = 275}
+			b_liugwen_4 = {province = 276}
+		}
+		c_pylas_pyrial = {
+			color = { 249 240 61 }
+			b_pylas_pyrial_1 = {province = 277}
+			b_pylas_pyrial_2 = {province = 278}
+			b_pylas_pyrial_3 = {province = 279}
+			b_pylas_pyrial_4 = {province = 280}
+		}
+	}
+	d_zolanberg = {
+		color = { 231 204 1 }
+		capital = c_zolanberg
+		
+		c_zolanberg = {
+			color = { 238 199 1 }
+			b_zolanberg_1 = {province = 281}
+			b_zolanberg_2 = {province = 282}
+			b_zolanberg_3 = {province = 283}
+		}
+		c_deep_mine = {
+			color = { 208 187 24 }
+			b_deep_mine_1 = {province = 284}
+			b_deep_mine_2 = {province = 285}
+			b_deep_mine_3 = {province = 286}
+		}
+		c_fireflies = {
+			color = { 212 198 53 }
+			b_fireflies_1 = {province = 287}
+			b_fireflies_2 = {province = 288}
+			b_fireflies_3 = {province = 289}
+			b_fireflies_4 = {province = 290}
+		}
+		c_dragonroost = {
+			color = { 230 206 71 }
+			b_dragonroost_1 = {province = 291}
+			b_dragonroost_2 = {province = 292}
+			b_dragonroost_3 = {province = 293}
+			b_dragonroost_4 = {province = 294}
+			b_dragonroost_5 = {province = 295}
+		}
+		c_mistlake = {
+			color = { 242 218 63 }
+			b_mistlake_1 = {province = 296}
+			b_mistlake_2 = {province = 297}
+			b_mistlake_3 = {province = 298}
+			b_mistlake_4 = {province = 299}
+		}
+		c_quesk = {
+			color = { 245 219 58 }
+			b_quesk_1 = {province = 300}
+			b_quesk_2 = {province = 301}
+			b_quesk_3 = {province = 302}
+			b_quesk_4 = {province = 303}
+		}
+		c_howlshade = {
+			color = { 237 193 1 }
+			b_howlshade_1 = {province = 304}
+			b_howlshade_2 = {province = 305}
+			b_howlshade_3 = {province = 306}
+		}
+		c_reven = {
+			color = { 251 208 53 }
+			b_reven_1 = {province = 307}
+			b_reven_2 = {province = 308}
+			b_reven_3 = {province = 309}
+			b_reven_4 = {province = 310}
+		}
+	}
+	d_korranberg = {
+		color = { 181 180 48 }
+		capital = c_korranberg
+		
+		c_korranberg = {
+			color = { 165 171 64 }
+			b_korranberg_1 = {province = 311}
+			b_korranberg_2 = {province = 312}
+			b_korranberg_3 = {province = 313}
+			b_korranberg_4 = {province = 314}
+			b_korranberg_5 = {province = 315}
+			b_korranberg_6 = {province = 316}
+			b_korranberg_7 = {province = 317}
+		}
+		c_thurimbar = {
+			color = { 176 169 47 }
+			b_thurimbar_1 = {province = 318}
+			b_thurimbar_2 = {province = 319}
+			b_thurimbar_3 = {province = 320}
+		}
+		c_tarandro = {
+			color = { 161 167 45 }
+			b_tarandro_1 = {province = 321}
+			b_tarandro_2 = {province = 322}
+			b_tarandro_3 = {province = 323}
+		}
+		c_tariston = {
+			color = { 166 185 47 }
+			b_tariston_1 = {province = 324}
+			b_tariston_2 = {province = 325}
+			b_tariston_3 = {province = 326}
+			b_tariston_4 = {province = 346}
+		}
+		c_thurim_bay = {
+			color = { 162 175 10 }
+			b_thurim_bay_1 = {province = 327}
+			b_thurim_bay_2 = {province = 328}
+			b_thurim_bay_3 = {province = 329}
+			b_thurim_bay_4 = {province = 330}
+		}
+		c_thurim_point = {
+			color = { 188 181 72 }
+			b_thurim_point_1 = {province = 331}
+			b_thurim_point_2 = {province = 332}
+			b_thurim_point_3 = {province = 333}
+			b_thurim_point_4 = {province = 334}
+		}
+	}
+	d_howling_peaks = {
+		color = { 224 168 1 }
+		capital = c_howling_peaks_a
+		
+		c_howling_peaks_a = {
+			color = { 228 172 1 }
+			b_howling_peaks_a1 = {province = 335}
+			b_howling_peaks_a2 = {province = 336}
+		}
+		c_howling_peaks_b = {
+			color = { 234 166 1 }
+			b_howling_peaks_b1 = {province = 337}
+			b_howling_peaks_b2 = {province = 338}
+		}
+		c_howling_peaks_c = {
+			color = { 203 164 1 }
+			b_howling_peaks_c1 = {province = 339}
+			b_howling_peaks_c2 = {province = 340}
+		}
+		c_howling_peaks_d = {
+			color = { 240 167 24 }
+			b_howling_peaks_d1 = {province = 341}
+			b_howling_peaks_d2 = {province = 342}
+			b_howling_peaks_d3 = {province = 343}
+		}
+		c_howling_peaks_e = {
+			color = { 237 165 1 }
+			b_howling_peaks_e1 = {province = 344}
+			b_howling_peaks_e2 = {province = 345}
+		}
+	}
+}

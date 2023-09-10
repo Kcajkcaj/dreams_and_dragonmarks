@@ -1,0 +1,256 @@
+physique_good_1 = {
+	opposites = {
+		weak
+		spindly
+		physique_bad
+		physique_good_2
+		physique_good_3
+	}
+	
+	prowess = 2
+	health = 0.25
+	
+	birth = 0.5
+	random_creation = 0.5
+	
+	attraction_opinion = 5
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 0.25
+	}
+	
+	culture_modifier = {
+		parameter = strong_traits_more_feared
+		dread_baseline_add = 5
+	}
+
+	group = physique_good
+	level = 1
+	
+	ruler_designer_cost = 60
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_physique_good_1_desc
+			}
+			desc = trait_physique_good_1_character_desc
+		}
+	}
+
+	ai_energy = 10
+	
+	genetic = yes
+	physical = yes
+	good = yes
+}
+
+# Physique (+2) - Robust
+physique_good_2 = {
+	opposites = {
+		weak
+		spindly
+		physique_bad
+		physique_good_1
+		physique_good_3
+	}
+	
+	physical = yes
+	
+	prowess = 4
+	health = 0.5
+	
+	birth = 0.25
+	random_creation = 0.25
+	
+	attraction_opinion = 10
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 0.5
+	}
+	
+	culture_modifier = {
+		parameter = strong_traits_more_feared
+		dread_baseline_add = 15
+	}
+
+	group = physique_good
+	level = 2
+	
+	ruler_designer_cost = 120
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_physique_good_2_desc
+			}
+			desc = trait_physique_good_2_character_desc
+		}
+	}
+
+	ai_energy = 20
+	
+	genetic = yes
+	good = yes
+}
+
+# Physique (+3) - Amazonian (f) / Herculean (m)
+physique_good_3 = {
+	opposites = {
+		weak
+		spindly
+		physique_bad
+		physique_good_1
+		physique_good_2
+	}
+	
+	birth = 0.15
+	random_creation = 0.15
+	
+	prowess = 8
+	health = 1
+	
+	attraction_opinion = 15
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 1
+	}
+	
+	culture_modifier = {
+		parameter = strong_traits_more_feared
+		dread_baseline_add = 25
+	}
+
+	# amazonian if female
+	# herculean if male
+	
+	ruler_designer_cost = 180
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_physique_good_male_3
+			}
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = trait_physique_good_female_3
+			}
+			desc = trait_physique_good_male_3
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_physique_good_3_desc
+			}
+			desc = trait_physique_good_3_character_desc
+		}
+	}
+
+	group = physique_good
+	level = 3
+	
+	ai_energy = 20
+	
+	genetic = yes
+	physical = yes
+	good = yes
+}
+
+strong = {
+	opposites = {
+		weak
+		physique_bad
+	}
+	prowess = 4
+	health = 0.5
+	physical = yes
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 1
+	}
+	
+	culture_modifier = {
+		parameter = strong_traits_more_feared
+		dread_baseline_add = 15
+	}
+
+	
+	ruler_designer_cost = 50
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_strong_desc
+			}
+			desc = trait_strong_character_desc
+		}
+	}
+
+	ai_energy = 20
+}
+
+giant = {
+	opposites = {
+		dwarf
+	}
+
+	prowess = 6
+	health = -0.25
+
+	#inherit_chance = 25
+	#both_parent_has_trait_inherit_chance = 50
+	genetic = yes
+	physical = yes
+
+	enables_inbred = yes
+	birth = 0.5
+	random_creation = 0.5
+	
+	attraction_opinion = -5
+	tribal_government_opinion = 10
+	glory_hound_opinion = 10
+	same_opinion = 20
+	
+	culture_modifier = {
+		parameter = strong_traits_more_valued
+		monthly_prestige = 0.5
+	}
+	
+	culture_modifier = {
+		parameter = strong_traits_more_feared
+		dread_baseline_add = 15
+	}
+	
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_giant_desc
+			}
+			desc = trait_giant_character_desc
+		}
+	}
+}

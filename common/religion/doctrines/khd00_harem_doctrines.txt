@@ -1,0 +1,175 @@
+﻿doctrine_marriage_type = {
+	group = "marriage"
+	
+	#Legacy Doctrines
+	doctrine_concubines = {
+		is_shown = {
+			always = no
+		}
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		parameters = {
+			number_of_spouses = 1
+			number_of_consorts = 5
+			allows_concubinage = yes
+		}
+	}		
+
+	doctrine_polygamy = {
+		is_shown = {
+			always = no
+		}
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		parameters = {
+			number_of_spouses = 4
+			spouse_piety_loss = yes
+			allows_polygamy = yes
+		}
+	}
+	
+	doctrine_monogamy = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		parameters = {
+			number_of_spouses = 1
+		}
+	}
+
+	doctrine_polygamy_few = {
+		can_pick = {
+			always = yes
+		}
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_polygamy_few }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			number_of_spouses = 3
+			spouse_piety_loss = yes
+			allows_polygamy = yes
+		}
+	}
+	
+	doctrine_polygamy_many = {
+		can_pick = {
+			always = yes
+		}
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_polygamy_few }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			number_of_spouses = 100
+			spouse_piety_loss = yes
+			allows_polygamy = yes
+		}
+	}
+}
+
+doctrine_concubinage_type = {
+	group = "marriage"
+	doctrine_concubines_none = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { has_doctrine = doctrine_concubines_none }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			number_of_consorts = 0
+		}
+	}
+	
+	doctrine_concubines_few = {
+		can_pick = {
+			always = yes
+		}
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+			if = {
+				limit = { 
+					OR = { 
+						OR = { 
+							has_doctrine = doctrine_concubines
+							has_doctrine = doctrine_concubines_few
+						}	
+						has_doctrine = doctrine_concubines_few
+					}
+				}
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			number_of_consorts = 5
+			allows_concubinage = yes
+		}
+	}
+
+	doctrine_concubines_many = {
+		piety_cost = {
+			value = faith_doctrine_cost_mid
+		}
+		parameters = {
+			number_of_consorts = 100
+			allows_concubinage = yes
+		}
+	}
+}
+
+doctrine_marriage_realm_celebration = {
+	group = "marriage"
+	doctrine_marriage_realm_celebration_disallowed = {
+		piety_cost = {
+			value = faith_doctrine_cost_low
+			if = {
+				limit = { has_doctrine = doctrine_marriage_realm_celebration_disallowed }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+	}
+	doctrine_marriage_realm_celebration_first = {
+		piety_cost = {
+			if = {
+				limit = { #Monogamy
+					doctrine:doctrine_monogamy = { is_in_list = selected_doctrines }
+					doctrine:doctrine_concubines_none = { is_in_list = selected_doctrines }
+				}
+				value = faith_doctrine_cost_low
+			}
+			else_if = {
+				limit = { #Both
+					NOT = { doctrine:doctrine_monogamy = { is_in_list = selected_doctrines } }
+					NOT = { doctrine:doctrine_concubines_none = { is_in_list = selected_doctrines } }
+				}
+				value = faith_doctrine_cost_massive
+			} 
+			else_if = {
+				limit = { #Polygamy
+					NOT = { doctrine:doctrine_monogamy = { is_in_list = selected_doctrines } }
+				}
+				value = faith_doctrine_cost_high
+			}
+			else = { #Concubinage
+				value = faith_doctrine_cost_mid
+			}
+			if = {
+				limit = { has_doctrine = doctrine_marriage_realm_celebration_first }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			marriage_event = yes
+		}
+	}
+}
