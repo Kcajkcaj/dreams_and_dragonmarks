@@ -1,84 +1,116 @@
 wizard = {
- tracks = {
-  abjuration = {
-   10 = {
-   }
-   30 = {
-   }
-   60 = {
-   }
-   100 = {
-   }
-  }
-  conjuration = {
-   10 = {
-   }
-   30 = {
-   }
-   60 = {
-   }
-   100 = {
-   }
-  }
-  divination = {
-   10 = {
-   }
-   30 = {
-   }
-   60 = {
-   }
-   100 = {
-   }
-  }
-  enchantment = {
-   10 = {
-   }
-   30 = {
-   }
-   60 = {
-   }
-   100 = {
-   }
-  }
-  evocation = {
-   10 = {
-   }
-   30 = {
-   }
-   60 = {
-   }
-   100 = {
-   }
-  }
-  illusion = {
-   10 = {
-   }
-   30 = {
-   }
-   60 = {
-   }
-   100 = {
-   }
-  }
-  necromancy = {
-   10 = {
-   }
-   30 = {
-   }
-   60 = {
-   }
-   100 = {
-   }
-  }
-  transmutation = {
-   10 = {
-   }
-   30 = {
-   }
-   60 = {
-   }
-   100 = {
-   }
-  }
- }
+	tracks = {
+		abjuration = {
+			5 = { # 0th-2nd Level Spell
+			}
+			15 = { # 0th-2nd Level Spell
+			}
+			30 = { # 3rd-5th Level Spell
+			}
+			50 = { # 3rd-5th Level Spell
+			}
+			70 = { # 6th-8th Level Spell
+			}
+			100 = { # 9th Level Spell
+			}
+		}
+		conjuration = {
+			5 = { # 0th-2nd Level Spell
+			}
+			15 = { # 0th-2nd Level Spell
+			}
+			30 = { # 3rd-5th Level Spell
+			}
+			50 = { # 3rd-5th Level Spell
+			}
+			70 = { # 6th-8th Level Spell
+			}
+			100 = { # 9th Level Spell
+			}
+		}
+		divination = {
+			5 = { # 0th-2nd Level Spell
+			}
+			15 = { # 0th-2nd Level Spell
+			}
+			30 = { # 3rd-5th Level Spell
+			}
+			50 = { # 3rd-5th Level Spell
+			}
+			70 = { # 6th-8th Level Spell
+			}
+			100 = { # 9th Level Spell
+			}
+		}
+		enchantment = {
+			5 = { # 0th-2nd Level Spell
+			}
+			15 = { # 0th-2nd Level Spell
+			}
+			30 = { # 3rd-5th Level Spell
+			}
+			50 = { # 3rd-5th Level Spell
+			}
+			70 = { # 6th-8th Level Spell
+			}
+			100 = { # 9th Level Spell
+			}
+		}
+		evocation = {
+			5 = { # 0th-2nd Level Spell
+			}
+			15 = { # 0th-2nd Level Spell
+			}
+			30 = { # 3rd-5th Level Spell
+			}
+			50 = { # 3rd-5th Level Spell
+			}
+			70 = { # 6th-8th Level Spell
+			}
+			100 = { # 9th Level Spell
+			}
+		}
+		illusion = {
+			5 = { # 0th-2nd Level Spell
+			}
+			15 = { # 0th-2nd Level Spell
+			}
+			30 = { # 3rd-5th Level Spell
+			}
+			50 = { # 3rd-5th Level Spell
+			}
+			70 = { # 6th-8th Level Spell
+			}
+			100 = { # 9th Level Spell
+			}
+		}
+		necromancy = {
+			5 = { # 0th-2nd Level Spell
+			}
+			15 = { # 0th-2nd Level Spell
+			}
+			30 = { # 3rd-5th Level Spell
+			}
+			50 = { # 3rd-5th Level Spell
+			}
+			70 = { # 6th-8th Level Spell
+			}
+			100 = { # 9th Level Spell
+			}
+		}
+		transmutatiob = {
+			5 = { # 0th-2nd Level Spell
+			}
+			15 = { # 0th-2nd Level Spell
+			}
+			30 = { # 3rd-5th Level Spell
+			}
+			50 = { # 3rd-5th Level Spell
+			}
+			70 = { # 6th-8th Level Spell
+			}
+			100 = { # 9th Level Spell
+			}
+		}
+	}
 }
