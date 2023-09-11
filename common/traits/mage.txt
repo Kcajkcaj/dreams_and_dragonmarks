@@ -1,4 +1,4 @@
-wizard = {
+mage = {
 	tracks = {
 		abjuration = {
 			5 = { # 0th-2nd Level Spell
@@ -57,22 +57,22 @@ wizard = {
 			}
 		}
 		evocation = {
-			5 = { # 0th-2nd Level Spell — Magic Missile
+			5 = { # 0th-2nd Level Spell - Magic Missile
 				prowess = 5
 			}
-			15 = { # 0th-2nd Level Spell — Shatter
+			15 = { # 0th-2nd Level Spell - Shatter
 				army_siege_value_mult = 0.3
 			}
-			30 = { # 3rd-5th Level Spell – Fireball
+			30 = { # 3rd-5th Level Spell - Fireball
 				advantage = 5
 			}
-			50 = { # 3rd-5th Level Spell — Wall of Fire
+			50 = { # 3rd-5th Level Spell - Wall of Fire
 				levy_pursuit = 10
 			}
-			75 = { # 6th-7th Level Spell — Chain Lightning
+			75 = { # 6th-7th Level Spell - Chain Lightning
 				enemy_hard_casualty_modifier = 0.5
 			}
-			100 = { # 8th-9th Level Spell — Meteor Swarm
+			100 = { # 8th-9th Level Spell - Meteor Swarm
 				# Interaction to send meteors at a target
 			}
 		}
