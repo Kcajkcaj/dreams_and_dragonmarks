@@ -9,9 +9,9 @@ wizard = {
 			}
 			50 = { # 3rd-5th Level Spell
 			}
-			70 = { # 6th-8th Level Spell
+			75 = { # 6th-7th Level Spell
 			}
-			100 = { # 9th Level Spell
+			100 = { # 8th-9th Level Spell
 			}
 		}
 		conjuration = {
@@ -23,9 +23,9 @@ wizard = {
 			}
 			50 = { # 3rd-5th Level Spell
 			}
-			70 = { # 6th-8th Level Spell
+			75 = { # 6th-7th Level Spell
 			}
-			100 = { # 9th Level Spell
+			100 = { # 8th-9th Level Spell
 			}
 		}
 		divination = {
@@ -37,9 +37,9 @@ wizard = {
 			}
 			50 = { # 3rd-5th Level Spell
 			}
-			70 = { # 6th-8th Level Spell
+			75 = { # 6th-7th Level Spell
 			}
-			100 = { # 9th Level Spell
+			100 = { # 8th-9th Level Spell
 			}
 		}
 		enchantment = {
@@ -51,23 +51,29 @@ wizard = {
 			}
 			50 = { # 3rd-5th Level Spell
 			}
-			70 = { # 6th-8th Level Spell
+			75 = { # 6th-7th Level Spell
 			}
-			100 = { # 9th Level Spell
+			100 = { # 8th-9th Level Spell
 			}
 		}
 		evocation = {
-			5 = { # 0th-2nd Level Spell
+			5 = { # 0th-2nd Level Spell — Magic Missile
+				prowess = 5
 			}
-			15 = { # 0th-2nd Level Spell
+			15 = { # 0th-2nd Level Spell — Shatter
+				army_siege_value_mult = 0.3
 			}
-			30 = { # 3rd-5th Level Spell
+			30 = { # 3rd-5th Level Spell – Fireball
+				advantage = 5
 			}
-			50 = { # 3rd-5th Level Spell
+			50 = { # 3rd-5th Level Spell — Wall of Fire
+				levy_pursuit = 10
 			}
-			70 = { # 6th-8th Level Spell
+			75 = { # 6th-7th Level Spell — Chain Lightning
+				enemy_hard_casualty_modifier = 0.5
 			}
-			100 = { # 9th Level Spell
+			100 = { # 8th-9th Level Spell — Meteor Swarm
+				# Interaction to send meteors at a target
 			}
 		}
 		illusion = {
@@ -79,9 +85,9 @@ wizard = {
 			}
 			50 = { # 3rd-5th Level Spell
 			}
-			70 = { # 6th-8th Level Spell
+			75 = { # 6th-7th Level Spell
 			}
-			100 = { # 9th Level Spell
+			100 = { # 8th-9th Level Spell
 			}
 		}
 		necromancy = {
@@ -93,12 +99,12 @@ wizard = {
 			}
 			50 = { # 3rd-5th Level Spell
 			}
-			70 = { # 6th-8th Level Spell
+			75 = { # 6th-7th Level Spell
 			}
-			100 = { # 9th Level Spell
+			100 = { # 8th-9th Level Spell
 			}
 		}
-		transmutatiob = {
+		transmutation = {
 			5 = { # 0th-2nd Level Spell
 			}
 			15 = { # 0th-2nd Level Spell
@@ -107,9 +113,9 @@ wizard = {
 			}
 			50 = { # 3rd-5th Level Spell
 			}
-			70 = { # 6th-8th Level Spell
+			75 = { # 6th-7th Level Spell
 			}
-			100 = { # 9th Level Spell
+			100 = { # 8th-9th Level Spell
 			}
 		}
 	}
