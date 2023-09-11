@@ -116,6 +116,22 @@ activity_festival = {
 					scope:activity = { progress_activity_phase_after = { days = 1 } }
 				}
 			}
+			cost = {
+				gold = {
+					add = {
+						add = {
+							value = festival_phase_cost
+							desc = feast_activity_cost_desc
+						}
+						add = {
+							value = festival_phase_cost
+							multiply = activity_cost_scale_by_era
+							subtract = festival_activity_cost
+							desc = activity_cost_scale_by_era_desc
+						}
+					}
+				}
+			}
 		}
 		festival_phase_parade {
 			can_pick = {always = yes}
@@ -129,6 +145,22 @@ activity_festival = {
 				if = {
 					limit = {this = scope:host}
 					scope:activity = { progress_activity_phase_after = { days = 1 } }
+				}
+			}
+			cost = {
+				gold = {
+					add = {
+						add = {
+							value = festival_phase_cost
+							desc = feast_activity_cost_desc
+						}
+						add = {
+							value = festival_phase_cost
+							multiply = activity_cost_scale_by_era
+							subtract = festival_activity_cost
+							desc = activity_cost_scale_by_era_desc
+						}
+					}
 				}
 			}
 		}
@@ -146,6 +178,22 @@ activity_festival = {
 					scope:activity = { progress_activity_phase_after = { days = 1 } }
 				}
 			}
+			cost = {
+				gold = {
+					add = {
+						add = {
+							value = festival_phase_cost
+							desc = feast_activity_cost_desc
+						}
+						add = {
+							value = festival_phase_cost
+							multiply = activity_cost_scale_by_era
+							subtract = festival_activity_cost
+							desc = activity_cost_scale_by_era_desc
+						}
+					}
+				}
+			}
 		}
 		festival_phase_sacrifice {
 			can_pick = {faith = {has_doctrine_parameter = human_sacrifice_at_festivals}}
@@ -159,6 +207,22 @@ activity_festival = {
 				if = {
 					limit = {this = scope:host}
 					scope:activity = { progress_activity_phase_after = { days = 1 } }
+				}
+			}
+			cost = {
+				gold = {
+					add = {
+						add = {
+							value = festival_phase_cost
+							desc = feast_activity_cost_desc
+						}
+						add = {
+							value = festival_phase_cost
+							multiply = activity_cost_scale_by_era
+							subtract = festival_activity_cost
+							desc = activity_cost_scale_by_era_desc
+						}
+					}
 				}
 			}
 		}
