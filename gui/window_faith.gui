@@ -828,7 +828,7 @@ window = {
 					minimumsize = { 240 0 }
 					visible = "[NotEqualTo_uint32( Faith.GetID, GetPlayer.GetFaith.GetID )]"
 					text = "FAITH_CONVERSION_CONVERT"
-					onclick = "[OpenFaithConversionWindow( Faith.GetID )]"
+					onclick = "[ToggleGameViewData( 'faith_conversion', Faith.GetID )]"
 
 					using = tooltip_nw
 				}
@@ -838,7 +838,7 @@ window = {
 					minimumsize = { 240 0 }
 					visible = "[And( ObjectsEqual(Faith.Self, GetPlayer.GetFaith ), GetVariableSystem.HasValue( 'faith_view_tabs', 'beliefs' ))]"
 					text = "CREATE_REFORM_FAITH_TEXT"
-					onclick = "[OpenFaithCreationWindow( Faith.GetID )]"
+					onclick = "[OpenGameViewData( 'faith_creation', Faith.GetID )]"
 					tooltip = "CREATE_REFORM_FAITH_TOOLTIP"
 
 					using = tooltip_nw

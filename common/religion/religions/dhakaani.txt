@@ -9,6 +9,7 @@ dhakaani_religion = {
 	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_lay_clergy
 	doctrine = doctrine_pantheon_none
+	doctrine = doctrine_pilgrimage_encouraged
 	
 	# Marriage
 	doctrine = doctrine_polygamy_few

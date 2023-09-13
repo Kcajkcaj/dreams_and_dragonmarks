@@ -196,7 +196,7 @@
 418 = {holding = none}
 ### Grellreach
 419 = {
-	culture = khraali
+	culture = ghaaldar
 	faith = baltic_pagan
 	holding = tribal_holding
 }
@@ -245,7 +245,7 @@
 }
 ### Shae Joridal
 437 = {
-	culture = khraali
+	culture = ghaaldar
 	faith = baltic_pagan
 	holding = castle_holding
 }
