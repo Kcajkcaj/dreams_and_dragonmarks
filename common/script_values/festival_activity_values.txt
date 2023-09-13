@@ -5,3 +5,7 @@ festival_activity_cost = {
 hold_festival_cooldown_value = {
 	value = 5
 }
+
+festival_phase_cost = {
+	value = 100
+}

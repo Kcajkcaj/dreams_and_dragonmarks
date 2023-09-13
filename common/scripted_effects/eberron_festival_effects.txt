@@ -1,0 +1,151 @@
+festival_minor_progress = {
+	involved_activity = {
+		custom_tooltip = dungeon.slightly_further
+		activity_special_type_progression_medium = yes
+	}
+}
+
+festival_major_progress = {
+	involved_activity = {
+		custom_tooltip = dungeon.much_further
+		activity_special_type_progression_major = yes
+	}
+}
+
+festival_massive_progress = {
+	involved_activity = {
+		custom_tooltip = dungeon.massively_further
+		activity_special_type_progression_massive = yes
+	}
+}
+
+festival_challenge_toast = {
+	duel = {
+		skill = diplomacy
+		value = 15
+		5 = { # Failure
+		}
+		5 = { # Success
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = 0.5
+			}
+			involved_activity ?= {
+				scope:host = {
+					festival_minor_progress = yes
+				}
+			}
+		}
+		5 = { # Critical Success
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = 1
+			}
+			involved_activity ?= {
+				scope:host = {
+					festival_major_progress = yes
+				}
+			}
+		}
+	}
+}
+
+disburse_festival_rewards = {
+	save_scope_as = root_scope
+	
+	involved_activity ?= {
+		if = {
+			limit = { var:activity_special_type_progression >= 100}
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_piety = 1000
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_piety = 250
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { var:activity_special_type_progression >= 75 }
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_piety = 500
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_piety = 100
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { 
+				var:activity_special_type_progression >= 50
+			} 
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_piety = 250
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_piety = 50
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				var:activity_special_type_progression >= 25
+			}
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_piety = 100
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_piety = 25
+					}
+				}
+			}
+		}
+		else = {
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_piety = 50
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_piety = 10
+					}
+				}
+			}
+		}
+	}
+}

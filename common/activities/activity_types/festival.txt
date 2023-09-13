@@ -28,6 +28,38 @@ activity_festival = {
 		is_available_adult = yes
 	}
 	
+	on_start = {
+		scope:activity ?= {
+			activity_setup_special_type_progression_effect = yes
+			if = {
+				limit = {
+					scope:activity = {
+						has_activity_option = {
+							category = festival_sacrifice_scale
+							option = sacrifice_scale_normal
+						}
+					}
+				}
+				activity_special_type_progression_major = yes
+			}
+			else_if = {
+				limit = {
+					scope:activity = {
+						has_activity_option = {
+							category = festival_sacrifice_scale
+							option = sacrifice_scale_good
+						}
+					}
+				}
+				activity_special_type_progression_massive = yes
+			}
+		}
+	}
+	
+	activity_window_widgets = {
+		activity_special_type_progression = "activity_plugin_widgets_summary"
+	}
+	
 	on_invalidated = {
 		# Finish later
 	}
@@ -82,22 +114,61 @@ activity_festival = {
 	}
 	
 	max_guests = 50
+	
+	travel_entourage_selection = {
+		weight = {
+			value = standard_travel_entourage_additions
+		}
+		max = 18
+		invite_rule_order = 3
+	}
+	
+	guest_join_chance = {
+		base = 10
+		base_activity_modifier = yes
+		
+		# Master of Revels Accolade increasing invite acceptance
+		modifier = {
+   		   scope:host = {
+   		   		any_active_accolade = {
+					has_accolade_parameter = acclaimed_knight_feast_wedding_invite_acceptance_bonus
+				}
+   		   }
+   		   add = accolade_feast_wedding_invite_acceptance_value
+   		}
+	}
 
 	guest_invite_rules = {
-		defaults = {
-			1 = activity_invite_rule_courtiers
-			1 = activity_invite_rule_vassals
-			2 = activity_invite_rule_guests
-		}
 		rules = {
+			# Relations.
+			2 = activity_invite_rule_lovers
+			2 = activity_invite_rule_rivals_if_appropriate
+
+			# Family.
+			3 = activity_invite_rule_extended_family
+
+			# Magnates.
+			4 = activity_invite_neighbouring_rulers
+
+			# Misc landless.
+			5 = activity_invite_rule_knights
+
 			# MP 
 			6 = activity_invite_mp
 		}
+		defaults = {
+			1 = activity_invite_rule_friends
+			1 = activity_invite_rule_close_family
+			1 = activity_invite_rule_liege
+			1 = activity_invite_rule_vassals
+			2 = activity_invite_rule_fellow_vassals
+			3 = activity_invite_rule_courtiers
+			4 = activity_invite_rule_guests
+			1 = activity_invite_spouses
+		}
 	}
 	
-	wait_time_before_start = {
-		months = 3
-	}
+	max_guest_arrival_delay_time = { months = 3 }
 	
 	num_pickable_phases = 3
 	
@@ -108,6 +179,7 @@ activity_festival = {
 				if = {
 					limit = {this = scope:host}
 					scope:activity = { progress_activity_phase_after = { months = 1 } }
+					trigger_event = festival_banquet.0001
 				}
 			}
 			on_end = {
@@ -126,7 +198,7 @@ activity_festival = {
 						add = {
 							value = festival_phase_cost
 							multiply = activity_cost_scale_by_era
-							subtract = festival_activity_cost
+							subtract = festival_phase_cost
 							desc = activity_cost_scale_by_era_desc
 						}
 					}
@@ -157,7 +229,7 @@ activity_festival = {
 						add = {
 							value = festival_phase_cost
 							multiply = activity_cost_scale_by_era
-							subtract = festival_activity_cost
+							subtract = festival_phase_cost
 							desc = activity_cost_scale_by_era_desc
 						}
 					}
@@ -188,7 +260,7 @@ activity_festival = {
 						add = {
 							value = festival_phase_cost
 							multiply = activity_cost_scale_by_era
-							subtract = festival_activity_cost
+							subtract = festival_phase_cost
 							desc = activity_cost_scale_by_era_desc
 						}
 					}
@@ -219,10 +291,27 @@ activity_festival = {
 						add = {
 							value = festival_phase_cost
 							multiply = activity_cost_scale_by_era
-							subtract = festival_activity_cost
+							subtract = festival_phase_cost
 							desc = activity_cost_scale_by_era_desc
 						}
 					}
+				}
+			}
+		}
+		festival_phase_end = {
+			order = 2
+			is_predefined = yes
+			on_phase_active = {
+				if = {
+					limit = {this = scope:host}
+					scope:activity = { progress_activity_phase_after = { days = 1 } }
+				}
+			}
+			on_end = {
+				if = {
+					limit = {this = scope:host}
+					scope:activity = { progress_activity_phase_after = { days = 1 } }
+					disburse_festival_rewards = yes
 				}
 			}
 		}
@@ -239,6 +328,7 @@ activity_festival = {
 				}
 			}
 			sacrifice_scale_normal = {
+				default = yes
 				is_shown = {
 					always = yes
 				}

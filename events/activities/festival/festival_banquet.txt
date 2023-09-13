@@ -1,0 +1,65 @@
+namespace = festival_banquet
+
+festival_banquet.0001 = { # Choose someone to give a toast
+	type = activity_event
+	title = "A Toast"
+	desc = "Choose who you want to give the toast."
+	
+	theme = feast_activity
+	left_portrait = {
+		character = root
+		animation = toast_goblet
+	}
+	center_portrait = {
+		trigger = { exists = scope:chancellor }
+		character = scope:chancellor
+		animation = personality_honorable
+	}
+	right_portrait = {
+		trigger = {exists = scope:my_spouse}
+		character = scope:my_spouse
+		animation = ecstasy
+	}
+	immediate = {
+		involved_activity ?= {
+			random_attending_character ?= {
+				limit = {root.primary_spouse = this}
+				save_scope_as = my_spouse
+			}
+			random_attending_character ?= {
+				limit = {
+					is_councillor_of = root
+					has_council_position = councillor_chancellor
+				}
+				save_scope_as = chancellor
+			}
+		}
+	}
+	option = {
+		name = "Myself, of course!"
+		festival_challenge_toast = yes
+		trigger_event = festival_banquet.0002
+	}
+	option = {
+		name = "My chancellor."
+		trigger = {exists = scope:chancellor}
+		scope:chancellor ?= {
+			festival_challenge_toast = yes
+			trigger_event = festival_banquet.0002
+		}
+	}
+	option = {
+		name = "My spouse."
+		trigger = { exists = scope:my_spouse }
+		scope:my_spouse ?= {
+			festival_challenge_toast = yes
+			trigger_event = festival_banquet.0002
+		}
+	}
+}
+
+festival_banquet.0002 = {
+	type = activity_event
+	title = "A Toast"
+	desc = "."
+}

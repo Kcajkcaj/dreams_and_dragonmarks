@@ -1,0 +1,270 @@
+##### Rhukaan Draal
+### Rhukaan Draal
+347 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+348 = {holding = none}
+349 = {holding = none}
+350 = {holding = none}
+### Broken Tooth
+351 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+352 = {holding = none}
+353 = {holding = none}
+354 = {holding = none}
+### Ghaaltash
+355 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+356 = {holding = none}
+357 = {holding = none}
+358 = {holding = none}
+### Warden Keep
+359 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+360 = {holding = none}
+### Zarrthec
+361 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+362 = {holding = none}
+363 = {holding = none}
+### Zarrthec A
+364 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+365 = {holding = none}
+366 = {holding = none}
+### Zarrthec B
+367 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+368 = {holding = none}
+##### Seawall
+### Kech Volaar
+369 = {
+	culture = dhakaani
+	faith = basque_pagan
+	holding = castle_holding
+}
+370 = {holding = city_holding}
+371 = {holding = none}
+### Kech Nasaar
+372 = {
+	culture = dhakaani
+	faith = basque_pagan
+	holding = castle_holding
+}
+373 = {holding = city_holding}
+### Kech Draal
+374 = {
+	culture = dhakaani
+	faith = basque_pagan
+	holding = castle_holding
+}
+375 = {holding = city_holding}
+376 = {holding = none}
+### Kech Shaarat
+377 = {
+	culture = dhakaani
+	faith = basque_pagan
+	holding = castle_holding
+}
+378 = {holding = city_holding}
+379 = {holding = none}
+### Kech Hashraac
+380 = {
+	culture = dhakaani
+	faith = basque_pagan
+	holding = castle_holding
+}
+381 = {holding = city_holding}
+382 = {holding = none}
+### Kech Ghaalrac
+383 = {
+	culture = dhakaani
+	faith = basque_pagan
+	holding = castle_holding
+}
+384 = {holding = city_holding}
+385 = {holding = none}
+### Marguul Pass
+386 = {
+	culture = marguul
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+387 = {holding = none}
+388 = {holding = none}
+### Seven Caves
+389 = {
+	culture = marguul
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+390 = {holding = none}
+### Skullreave
+391 = {
+	culture = marguul
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+392 = {holding = none}
+##### Gathering Stone
+### Gathering Stone
+393 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+394 = {holding = none}
+395 = {holding = none}
+396 = {holding = none}
+### Gathering Stone B
+397 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+398 = {holding = none}
+399 = {holding = none}
+400 = {holding = none}
+### Gathering Stone C
+401 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+402 = {holding = none}
+403 = {holding = none}
+### Lyrenton
+404 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+405 = {holding = none}
+### Olkhaan
+406 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+407 = {holding = none}
+408 = {holding = none}
+409 = {holding = none}
+### Gorgonhorn
+410 = {
+	culture = ghaaldar
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+411 = {holding = none}
+412 = {holding = none}
+##### Tolraac
+### Wyvernskull
+413 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+414 = {holding = none}
+415 = {holding = none}
+### Arthuun
+416 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+417 = {holding = none}
+418 = {holding = none}
+### Grellreach
+419 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+420 = {holding = none}
+421 = {holding = none}
+422 = {holding = none}
+### Torlaac A
+423 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+424 = {holding = none}
+425 = {holding = none}
+### Torlaac B
+426 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+427 = {holding = none}
+428 = {holding = none}
+### Torlaac C
+429 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+430 = {holding = none}
+431 = {holding = none}
+##### Khraal
+### Rheklor
+432 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+433 = {holding = none}
+434 = {holding = none}
+435 = {holding = none}
+### Dokhaan
+436 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+### Shae Joridal
+437 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = castle_holding
+}
+438 = {holding = none}
+439 = {holding = none}
+### Khraal A
+440 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+441 = {holding = none}
+442 = {holding = none}
+### Khraal B
+443 = {
+	culture = khraali
+	faith = baltic_pagan
+	holding = tribal_holding
+}
+444 = {holding = none}
+445 = {holding = none}
+446 = {holding = none}
