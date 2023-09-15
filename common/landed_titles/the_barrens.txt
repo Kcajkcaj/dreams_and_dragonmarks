@@ -1,0 +1,334 @@
+k_the_barrens = {
+	color = {230 110 25}
+	capital = c_great_crag
+	
+	d_graywall = {
+		color = {0 0 0}
+		capital = c_graywall_a
+		
+		c_graywall_a = {
+			color = {0 0 0}
+			b_graywall_a_1 = {province = 460}
+			b_graywall_a_2 = {province = 461}
+			b_graywall_a_3 = {province = 462}
+			b_graywall_a_4 = {province = 463}
+		}
+		c_graywall_b = {
+			color = {0 0 0}
+			b_graywall_b_1 = {province = 464}
+			b_graywall_b_2 = {province = 465}
+			b_graywall_b_3 = {province = 466}
+		}
+		c_graywall_c = {
+			color = {0 0 0}
+			b_graywall_c_1 = {province = 467}
+			b_graywall_c_2 = {province = 468}
+		}
+		c_graywall_d = {
+			color = {0 0 0}
+			b_graywall_d_1 = {province = 469}
+			b_graywall_d_2 = {province = 470}
+		}
+		c_graywall_e = {
+			color = {0 0 0}
+			b_graywall_e_1 = {province = 471}
+			b_graywall_e_2 = {province = 472}
+			b_graywall_e_3 = {province = 473}
+		}
+		c_graywall_f = {
+			color = {0 0 0}
+			b_graywall_f_1 = {province = 474}
+			b_graywall_f_2 = {province = 475}
+			b_graywall_f_3 = {province = 476}
+		}
+	}
+	d_barrensgate = {
+		color = {0 0 0}
+		capital = c_graywall
+		
+		c_graywall = {
+			color = {0 0 0}
+			b_graywall_1 = {province = 477}
+			b_graywall_2 = {province = 478}
+			b_graywall_3 = {province = 479}
+		}
+		c_six_kings = {
+			color = {0 0 0}
+			b_six_kings_1 = {province = 480}
+			b_six_kings_2 = {province = 481}
+			b_six_kings_3 = {province = 482}
+		}
+		c_the_fist = {
+			color = {0 0 0}
+			b_the_fist_1 = {province = 483}
+			b_the_fist_2 = {province = 484}
+			b_the_fist_3 = {province = 485}
+			b_the_fist_4 = {province = 486}
+		}
+		c_grimstone = {
+			color = {0 0 0}
+			b_grimstone_1 = {province = 487}
+			b_grimstone_2 = {province = 488}
+			b_grimstone_3 = {province = 489}
+		}
+	}
+	d_byeshk = {
+		color = {0 0 0}
+		capital = c_byeshk_a
+		
+		c_byeshk_a = {
+			color = {0 0 0}
+			b_byeshk_a1 = {province = 490}
+			b_byeshk_a2 = {province = 491}
+			b_byeshk_a3 = {province = 492}
+		}
+		c_byeshk_b = {
+			color = {0 0 0}
+			b_byeshk_b1 = {province = 493}
+			b_byeshk_b2 = {province = 494}
+			b_byeshk_b3 = {province = 495}
+		}
+		c_byeshk_c = {
+			color = {0 0 0}
+			b_byeshk_c1 = {province = 496}
+			b_byeshk_c2 = {province = 497}
+			b_byeshk_c3 = {province = 498}
+		}
+		c_byeshk_d = {
+			color = {0 0 0}
+			b_byeshk_d1 = {province = 499}
+			b_byeshk_d2 = {province = 500}
+		}
+		c_byeshk_e = {
+			color = {0 0 0}
+			b_byeshk_e1 = {province = 501}
+			b_byeshk_e2 = {province = 502}
+		}
+		c_byeshk_f = {
+			color = {0 0 0}
+			b_byeshk_f1 = {province = 503}
+			b_byeshk_f2 = {province = 504}
+			b_byeshk_f3 = {province = 505}
+		}
+		c_byeshk_g = {
+			color = {0 0 0}
+			b_byeshk_g1 = {province = 506}
+			b_byeshk_g2 = {province = 507}
+		}
+	}
+	d_great_crag = {
+		color = {0 0 0}
+		capital = c_great_crag
+		
+		c_great_crag = {
+			color = {0 0 0}
+			b_great_crag_1 = {province = 508}
+			b_great_crag_2 = {province = 509}
+			b_great_crag_3 = {province = 510}
+		}
+		c_thrakelorn = {
+			color = {0 0 0}
+			b_thrakelorn_1 = {province = 511}
+			b_thrakelorn_2 = {province = 512}
+			b_thrakelorn_3 = {province = 513}
+		}
+		c_great_crag_b = {
+			color = {0 0 0}
+			b_great_crag_b_1 = {province = 514}
+			b_great_crag_b_2 = {province = 515}
+			b_great_crag_b_3 = {province = 516}
+		}
+		c_great_crag_c = {
+			color = {0 0 0}
+			b_great_crag_c_1 = {province = 517}
+			b_great_crag_c_2 = {province = 518}
+			b_great_crag_c_3 = {province = 519}
+		}
+	}
+	d_znir = {
+		color = {0 0 0}
+		capital = c_znir
+		
+		c_znir = {
+			color = {0 0 0}
+			b_znir_1 = {province = 520}
+			b_znir_2 = {province = 521}
+			b_znir_3 = {province = 522}
+		}
+		c_stonejaw = {
+			color = {0 0 0}
+			b_stonejaw_1 = {province = 523}
+			b_stonejaw_2 = {province = 524}
+			b_stonejaw_3 = {province = 525}
+			b_stonejaw_4 = {province = 526}
+		}
+		c_lost = {
+			color = {0 0 0}
+			b_lost_1 = {province = 527}
+			b_lost_2 = {province = 528}
+		}
+		c_znir_b = {
+			color = {0 0 0}
+			b_znir_b1 = {province = 529}
+			b_znir_b2 = {province = 530}
+		}
+		c_znir_c = {
+			color = {0 0 0}
+			b_znir_c1 = {province = 531}
+			b_znir_c2 = {province = 532}
+			b_znir_c3 = {province = 533}
+		}
+		c_znir_d = {
+			color = {0 0 0}
+			b_znir_d1 = {province = 534}
+			b_znir_d2 = {province = 535}
+		}
+	}
+	d_manta_bay = {
+		color = {0 0 0}
+		capital = c_vralkek
+		
+		c_vralkek = {
+			color = {0 0 0}
+			b_vralkek_1 = {province = 536}
+			b_vralkek_2 = {province = 537}
+		}
+		c_shaarat_kol = {
+			color = {0 0 0}
+			b_shaarat_kol_1 = {province = 538}
+			b_shaarat_kol_2 = {province = 539}
+			b_shaarat_kol_3 = {province = 540}
+		}
+		c_venemous_demesne = {
+			color = {0 0 0}
+			b_venemous_demesne_1 = {province = 541}
+			b_venemous_demesne_2 = {province = 542}
+		}
+		c_tzaryan = {
+			color = {0 0 0}
+			b_tzaryan_1 = {province = 543}
+			b_tzaryan_2 = {province = 544}
+			b_tzaryan_3 = {province = 545}
+		}
+	}
+	d_watching_wood = {
+		color = {0 0 0}
+		capital = c_watching_wood_a
+		
+		c_watching_wood_a = {
+			color = {0 0 0}
+			b_watching_wood_a1 = {province = 546}
+			b_watching_wood_a2 = {province = 547}
+			b_watching_wood_a3 = {province = 548}
+		}
+		c_watching_wood_b = {
+			color = {0 0 0}
+			b_watching_wood_b1 = {province = 549}
+			b_watching_wood_b2 = {province = 550}
+			
+		}
+		c_watching_wood_c = {
+			color = {0 0 0}
+			b_watching_wood_c1 = {province = 551}
+			b_watching_wood_c2 = {province = 552}
+			b_watching_wood_c3 = {province = 553}
+			b_watching_wood_c4 = {province = 554}
+		}
+		c_watching_wood_d = {
+			color = {0 0 0}
+			b_watching_wood_d1 = {province = 555}
+			b_watching_wood_d2 = {province = 556}
+			b_watching_wood_d3 = {province = 557}
+		}
+		c_watching_wood_e = {
+			color = {0 0 0}
+			b_watching_wood_e1 = {province = 558}
+			b_watching_wood_e2 = {province = 559}
+			b_watching_wood_e3 = {province = 560}
+		}
+	}
+	d_stonelands = {
+		color = {0 0 0}
+		capital = c_cazhaak_draal
+		
+		c_cazhaak_draal = {
+			color = {0 0 0}
+			b_cazhaak_draal_1 = {province = 561}
+			b_cazhaak_draal_2 = {province = 562}
+			b_cazhaak_draal_3 = {province = 563}
+		}
+		c_suthar_draal = {
+			color = {0 0 0}
+			b_suthar_draal_1 = {province = 564}
+			b_suthar_draal_2 = {province = 565}
+			b_suthar_draal_3 = {province = 566}
+		}
+		c_stonelands_c = {
+			color = {0 0 0}
+			b_stonelands_c1 = {province = 567}
+			b_stonelands_c2 = {province = 568}
+			b_stonelands_c3 = {province = 569}
+		}
+		c_stonelands_d = {
+			color = {0 0 0}
+			b_stonelands_d1 = {province = 570}
+			b_stonelands_d2 = {province = 571}
+			b_stonelands_d3 = {province = 572}
+		}
+		c_stonelands_e = {
+			color = {0 0 0}
+			b_stonelands_e1 = {province = 573}
+			b_stonelands_e2 = {province = 574}
+			b_stonelands_e3 = {province = 575}
+			b_stonelands_e4 = {province = 576}
+			b_stonelands_e5 = {province = 577}
+		}
+		c_stonelands_f = {
+			color = {0 0 0}
+			b_stonelands_f1 = {province = 578}
+			b_stonelands_f2 = {province = 579}
+			b_stonelands_f3 = {province = 580}
+			b_stonelands_f4 = {province = 581}
+			b_stonelands_f5 = {province = 582}
+		}
+	}
+	d_blackwater = {
+		color = {0 0 0}
+		capital = c_patrahkn
+		
+		c_patrahkn = {
+			color = {0 0 0}
+			b_patrahkn_1 = {province = 583}
+			b_patrahkn_2 = {province = 584}
+			b_patrahkn_3 = {province = 585}
+		}
+		c_blackroot = {
+			color = {0 0 0}
+			b_blackroot_1 = {province = 586}
+			b_blackroot_2 = {province = 587}
+			b_blackroot_3 = {province = 588}
+		}
+		c_dhavins_post = {
+			color = {0 0 0}
+			b_dhavins_post_1 = {province = 589}
+			b_dhavins_post_2 = {province = 590}
+			b_dhavins_post_3 = {province = 591}
+		}
+		c_karthoon_tor = {
+			color = {0 0 0}
+			b_karthoon_tor_1 = {province = 592}
+			b_karthoon_tor_2 = {province = 593}
+		}
+		c_arashuul = {
+			color = {0 0 0}
+			b_arashuul_1 = {province = 594}
+			b_arashuul_2 = {province = 595}
+		}
+		c_blackwater = {
+			color = {0 0 0}
+			b_blackwater_1 = {province = 596}
+			b_blackwater_2 = {province = 597}
+			b_blackwater_3 = {province = 598}
+		}
+	}
+}
