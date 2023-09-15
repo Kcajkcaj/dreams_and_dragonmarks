@@ -149,7 +149,7 @@ k_darguun = {
 			b_gorgonhorn_3 = {province = 412}
 		}
 	}
-	d_tolraac = {
+	d_torlaac = {
 		color = { 105 1 54 }
 		capital = c_wyvernskull
 		

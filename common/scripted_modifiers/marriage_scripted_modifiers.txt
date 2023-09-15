@@ -1663,6 +1663,12 @@
 		}
 		desc = TRADITION_PENALTY_ISOLATIONIST
 	}
+	modifier = {
+		add = -50
+		scope:recipient = {
+			not = {culture = {has_same_culture_heritage = scope:actor.culture}}
+		}
+	}
 	################
 	#  STRUGGLES   #
 	################

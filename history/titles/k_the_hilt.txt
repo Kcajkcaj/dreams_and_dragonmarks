@@ -1,6 +1,7 @@
 d_sharn = {
 	3400.1.1 = {
 		holder = tasra_malleonid
+		change_development_level = 12
 	}
 }
 c_central_plateau = {
@@ -34,6 +35,7 @@ c_tavicks_landing = {
 d_silln = {
 	3392.11.8 = {
 		holder = aaspar_of_silln
+		change_development_level = 6
 	}
 }
 c_yarkuun_draal = {
@@ -83,6 +85,7 @@ c_ringwood = {
 d_shadowlock = {
 	3400.1.1 = {
 		holder = daavn_of_shadowlock
+		change_development_level = 3
 	}
 }
 c_daggerwood_b = {
@@ -105,3 +108,5 @@ c_tilorn = {
 		holder = krakuul_of_tilorn
 	}
 }
+d_greymoon = {3400.1.1 = {change_development_level = 3}}
+d_daggerwood = {3400.1.1 = {change_development_level = 3}}

@@ -126,6 +126,7 @@ dhakaani = {
 	traditions = {
 		tradition_chattel_slavery
 		tradition_clan_connections
+		tradition_heirs_of_old_dhakaan
 	}
 	
 	ethnicities = {

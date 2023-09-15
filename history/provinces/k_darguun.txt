@@ -60,47 +60,77 @@
 ### Kech Volaar
 369 = {
 	culture = dhakaani
-	faith = basque_pagan
+	faith = dhakaani_atheism
 	holding = castle_holding
+	special_building = kech_volaar
+	buildings = {
+		castle_02
+		workshops_04
+	}
 }
 370 = {holding = city_holding}
 371 = {holding = none}
 ### Kech Nasaar
 372 = {
 	culture = dhakaani
-	faith = basque_pagan
+	faith = dhakaani_atheism
 	holding = castle_holding
+	special_building = kech_nasaar
+	buildings = {
+		castle_02
+		workshops_04
+	}
 }
 373 = {holding = city_holding}
 ### Kech Draal
 374 = {
 	culture = dhakaani
-	faith = basque_pagan
+	faith = dhakaani_atheism
 	holding = castle_holding
+	special_building = kech_draal
+	buildings = {
+		castle_02
+		workshops_04
+	}
 }
 375 = {holding = city_holding}
 376 = {holding = none}
 ### Kech Shaarat
 377 = {
 	culture = dhakaani
-	faith = basque_pagan
+	faith = dhakaani_atheism
 	holding = castle_holding
+	special_building = kech_shaarat
+	buildings = {
+		castle_02
+		workshops_04
+	}
 }
 378 = {holding = city_holding}
 379 = {holding = none}
 ### Kech Hashraac
 380 = {
 	culture = dhakaani
-	faith = basque_pagan
+	faith = dhakaani_atheism
 	holding = castle_holding
+	special_building = kech_hashraac
+	buildings = {
+		castle_02
+		workshops_04
+	}
 }
 381 = {holding = city_holding}
 382 = {holding = none}
 ### Kech Ghaalrac
 383 = {
 	culture = dhakaani
-	faith = basque_pagan
+	faith = dhakaani_atheism
 	holding = castle_holding
+	special_building = kech_ghaalrac
+	buildings = {
+		castle_02
+		workshops_04
+	}
 }
 384 = {holding = city_holding}
 385 = {holding = none}
@@ -177,7 +207,7 @@
 }
 411 = {holding = none}
 412 = {holding = none}
-##### Tolraac
+##### torlaac
 ### Wyvernskull
 413 = {
 	culture = khraali

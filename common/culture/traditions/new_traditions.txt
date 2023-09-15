@@ -252,6 +252,33 @@ tradition_frontier_settlers = {
 	}
 }
 
+tradition_heirs_of_old_dhakaan = {
+	layers = {
+		0 = martial
+		1 = western
+		4 = laurel.dds
+	}
+	
+	parameters = {
+		kechs_enabled = yes
+		unlock_maa_ruuskate = yes
+		unlock_maa_thradaask = yes
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_minority_rule = {
 	layers = {
 		0 = martial

@@ -107,3 +107,70 @@ tariic_of_lyrenton = {
 	
 	3380.7.13 = {birth = yes}
 }
+
+muurat_nasaar = {
+	name = "Muurat"
+	culture = dhakaani
+	faith = dhakaani_atheism
+	female = no
+	
+	trait = vampire
+	
+	323.4.10 = {birth = yes}
+}
+
+iraala_nasaar = {
+	name = "Iraala"
+	culture = dhakaani
+	faith = dhakaani_atheism
+	female = yes
+	
+	trait = vampire
+	
+	324.5.18 = {birth = yes}
+}
+
+duulri_volaar = {
+	name = "Duulri"
+	culture = dhakaani
+	faith = dhakaani_atheism
+	female = yes
+	
+	3373.6.10 = {birth = yes}
+}
+
+margaash_draal = {
+	name = "Margaash"
+	culture = dhakaani
+	faith = dhakaani_atheism
+	female = no
+	
+	3371.4.19 = {birth = yes}
+}
+
+imist_shaarat = {
+	name = "Imist"
+	culture = dhakaani
+	faith = dhakaani_atheism
+	female = no
+	
+	3368.9.11 = {birth = yes}
+}
+
+klist_hashraac = {
+	name = "Klist"
+	culture = dhakaani
+	faith = dhakaani_atheism
+	female = no
+	
+	3362.12.12 = {birth = yes}
+}
+
+khaas_ghaalrac = {
+	name = "Khaas"
+	culture = dhakaani
+	faith = dhakaani_atheism
+	female = no
+	
+	3367.5.10 = {birth = yes}
+}

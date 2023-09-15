@@ -1,0 +1,215 @@
+kech_volaar = {
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	can_construct_potential = { building_requirement_tribal = no }
+	show_disabled = yes
+	type = special
+	
+	type_icon = "icon_structure_petra.dds"
+	
+	is_enabled = {
+		scope:holder.culture = {has_cultural_parameter = kechs_enabled}
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+	}
+	
+	county_modifier = {
+		development_growth = 0.25
+	}
+	
+	character_modifier = {
+		diplomacy_per_prestige_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+kech_draal = {
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	can_construct_potential = { building_requirement_tribal = no }
+	show_disabled = yes
+	type = special
+	
+	type_icon = "icon_structure_petra.dds"
+	
+	is_enabled = {
+		scope:holder.culture = {has_cultural_parameter = kechs_enabled}
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+	}
+	
+	county_modifier = {
+		development_growth = 0.25
+	}
+	
+	character_modifier = {
+		stewardship_per_prestige_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+kech_shaarat = {
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	can_construct_potential = { building_requirement_tribal = no }
+	show_disabled = yes
+	type = special
+	
+	type_icon = "icon_structure_petra.dds"
+	
+	is_enabled = {
+		scope:holder.culture = {has_cultural_parameter = kechs_enabled}
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+	}
+	
+	county_modifier = {
+		development_growth = 0.25
+	}
+	
+	character_modifier = {
+		martial_per_prestige_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+kech_nasaar  = {
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	can_construct_potential = { building_requirement_tribal = no }
+	show_disabled = yes
+	type = special
+	
+	type_icon = "icon_structure_petra.dds"
+	
+	is_enabled = {
+		scope:holder.culture = {has_cultural_parameter = kechs_enabled}
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+	}
+	
+	county_modifier = {
+		development_growth = 0.25
+	}
+	
+	character_modifier = {
+		intrigue_per_prestige_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+kech_ghaalrac = {
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	can_construct_potential = { building_requirement_tribal = no }
+	show_disabled = yes
+	type = special
+	
+	type_icon = "icon_structure_petra.dds"
+	
+	is_enabled = {
+		scope:holder.culture = {has_cultural_parameter = kechs_enabled}
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+	}
+	
+	county_modifier = {
+		development_growth = 0.25
+	}
+	
+	character_modifier = {
+		prowess_per_prestige_level = 3
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}
+
+kech_hashraac = {
+	construction_time = very_slow_construction_time
+	cost_gold = 1000
+	can_construct_potential = { building_requirement_tribal = no }
+	show_disabled = yes
+	type = special
+	
+	type_icon = "icon_structure_petra.dds"
+	
+	is_enabled = {
+		scope:holder.culture = {has_cultural_parameter = kechs_enabled}
+	}
+	
+	province_modifier = {
+		monthly_income = 1
+		stationed_maa_damage_mult = 0.5
+		stationed_maa_toughness_mult = 0.5
+	}
+	
+	county_modifier = {
+		development_growth = 0.25
+	}
+	
+	character_modifier = {
+		learning_per_prestige_level = 2
+	}
+	
+	ai_value = {
+		base = 100
+		modifier = { # Fill all building slots before going for special buildings
+			factor = 0
+			free_building_slots > 0
+		}
+	}
+}

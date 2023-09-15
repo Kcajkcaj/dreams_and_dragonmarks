@@ -2,6 +2,7 @@ d_wroat = {
 	3386.5.15 = {
 		holder = baran_dain
 	}
+	3400.1.1 = { change_development_level = 6}
 	3409.9.10 = {
 		holder = breggor_dain
 	}
@@ -94,6 +95,7 @@ c_kingswood_a = {
 d_dragonwood = {
 	3400.1.1 = {
 		holder = shekath_of_dragonwood
+		change_development_level = 3
 	}
 }
 c_woodhelm = {
@@ -161,3 +163,8 @@ c_whitehorn_wood = {
 		holder = laren_of_shavalant
 	}
 }
+
+d_ardev = {3400.1.1 = {change_development_level = 3}}
+d_skyraker = {3400.1.1 = {change_development_level = 3}}
+d_whitehorn = {3400.1.1 = {change_development_level = 6}}
+d_bentblade = {3400.1.1 = {change_development_level = 6}}

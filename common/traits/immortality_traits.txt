@@ -1,0 +1,13 @@
+vampire = {
+	immortal = yes
+	physical = yes
+	monthly_lifestyle_xp_gain_mult = -0.75
+	general_opinion = -25
+	prowess = 7
+	can_have_children = no
+	dread_baseline_add = 25
+	intrigue = 3
+	martial = 1
+	learning = 2
+	flag = blocks_getting_non_epidemic_disease
+}

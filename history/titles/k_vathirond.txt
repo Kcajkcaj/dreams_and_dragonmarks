@@ -6,6 +6,7 @@ k_vathirond = {
 d_vathirond = {
 	3380.1.1 = {
 		holder = chaseva_lantar
+		change_development_level = 9
 	}
 }
 c_vathirond = {
@@ -27,6 +28,7 @@ d_dragons_crown = {
 	3380.1.1 = {
 		liege = k_vathirond
 		holder = boranex_perryn
+		change_development_level = 6
 	}
 	3387.8.15 = {
 		holder = abraxis_perryn
@@ -68,6 +70,7 @@ d_starilaskur = {
 	3400.1.1 = {
 		liege = k_vathirond
 		holder = uthar_colworn
+		change_development_level = 9
 	}
 }
 c_rhonewatch = {
@@ -92,6 +95,7 @@ d_hatheril = {
 	3385.1.1 = {
 		liege = k_vathirond
 		holder = itlani_zarna
+		change_development_level = 3
 	}
 	3389.5.16 = {
 		holder = mirasandra_zarna

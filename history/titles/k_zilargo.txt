@@ -2,6 +2,7 @@ k_zilargo = {
 	3400.1.1 = {
 		government = principality_government
 		holder = roywin_trolan
+		change_development_level = 12
 	}
 }
 
@@ -90,3 +91,5 @@ c_howling_peaks_e = {
 		holder = vroklan_of_hp
 	}
 }
+
+d_howling_peaks = {3400.1.1 = {change_development_level = 3}}

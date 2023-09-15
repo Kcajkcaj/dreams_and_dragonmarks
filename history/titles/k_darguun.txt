@@ -1,3 +1,9 @@
+d_seawall = {3400.1.1 = {change_development_level = 6}}
+d_torlaac = {3400.1.1 = {change_development_level = 3}}
+d_khraal = {3400.1.1 = {change_development_level = 3}}
+d_rhukaan_draal = {3400.1.1 = {change_development_level = 3}}
+d_gathering_stone = {3400.1.1 = {change_development_level = 3}}
+
 c_rhukaan_draal = {3400.1.1 = {holder = ruus_of_rhukaan_draal}}
 c_broken_tooth = {3400.1.1 = {holder = ruus_of_rhukaan_draal}}
 c_ghaaltash = {3400.1.1 = {holder = ruus_of_rhukaan_draal}}
@@ -25,3 +31,45 @@ c_marguul_pass = {3400.1.1 = {holder = kroskul_of_the_marguul}}
 c_seven_caves = {3400.1.1 = {holder = kroskul_of_the_marguul}}
 c_skullreave = {3400.1.1 = {holder = kroskul_of_the_marguul}}
 c_lyrenton = {3400.1.1 = {holder = tariic_of_lyrenton}}
+
+c_kech_nasaar = {
+	400.1.1 = {
+		government = bureaucratic_government
+		holder = muurat_nasaar
+	}
+}
+
+c_kech_volaar = {
+	3400.1.1 = {
+		government = bureaucratic_government
+		holder = duulri_volaar
+	}
+}
+
+c_kech_draal = {
+	3400.1.1 = {
+		government = bureaucratic_government
+		holder = margaash_draal
+	}
+}
+
+c_kech_shaarat = {
+	3400.1.1 = {
+		government = bureaucratic_government
+		holder = imist_shaarat
+	}
+}
+
+c_kech_hashraac = {
+	3400.1.1 = {
+		government = bureaucratic_government
+		holder = klist_hashraac
+	}
+}
+
+c_kech_ghaalrac = {
+	3400.1.1 = {
+		government = bureaucratic_government
+		holder = khaas_ghaalrac
+	}
+}
