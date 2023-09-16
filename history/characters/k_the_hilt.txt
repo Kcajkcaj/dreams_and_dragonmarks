@@ -43,7 +43,13 @@ tasra_malleonid = {
 	culture = shaarati
 	faith = redtide_creed
 	female = yes
-		
+	
+	trait = physique_good_3
+	trait = ambitious
+	trait = stubborn
+	trait = callous
+	trait = education_intrigue_4
+	
 	3384.7.19 = {
 		birth = yes
 	}

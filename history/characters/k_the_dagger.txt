@@ -33,11 +33,22 @@ breggor_dain = {
 	trait = compassionate
 	trait = stubborn
 	
+	learning = 12
+	prowess = 10
+	intrigue = 8
+	diplomacy = 6
+	martial = 4
+	stewardship = 2
+	
 	3391.12.19 = {
 		birth = yes
 	}
 	3408.10.13 = {
 		add_spouse = raela_solaen
+		effect = {
+			set_relation_lover = { reason = lover_history target = character:raela_solaen }
+			set_relation_rival = { target = character:tasra_malleonid reason = rival_historical }
+		}
 	}
 }
 
@@ -87,7 +98,11 @@ raela_solaen = {
 	
 	3387.10.3 = {
 		birth = yes
+		effect = {
+			learn_language = language_common
+		}
 	}
+	
 }
 
 ilyra_medani = {

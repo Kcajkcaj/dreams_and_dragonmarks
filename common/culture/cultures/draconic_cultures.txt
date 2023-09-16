@@ -3,7 +3,32 @@ irmolik = {
 	
 	ethos = ethos_communal
 	heritage = heritage_argonessen
-	language = language_common
+	language = language_draconic
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_kobold
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		
+	}
+	
+	ethnicities = {
+		100 = goblinoid
+	}
+}
+
+khaarpal = {
+	color = {1 0.3 0.6}
+	
+	ethos = ethos_communal
+	heritage = heritage_argonessen
+	language = language_draconic
 	martial_custom = martial_custom_equal
 	
 	name_list = name_list_kobold

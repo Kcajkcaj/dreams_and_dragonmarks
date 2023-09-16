@@ -1,0 +1,542 @@
+##### Graywall
+### A
+460 = {
+	culture = khaarpal
+	faith = akom
+	holding = tribal_holding
+}
+461 = {holding = none}
+462 = {holding = none}
+463 = {holding = none}
+### B
+464 = {
+	culture = khaarpal
+	faith = akom
+	holding = tribal_holding
+}
+465 = {holding = none}
+466 = {holding = none}
+### C
+467 = {
+	culture = khaarpal
+	faith = akom
+	holding = tribal_holding
+}
+468 = {holding = none}
+### D
+469 = {
+	culture = khaarpal
+	faith = akom
+	holding = tribal_holding
+}
+470 = {holding = none}
+### E
+471 = {
+	culture = khaarpal
+	faith = akom
+	holding = tribal_holding
+}
+472 = {holding = none}
+473 = {holding = none}
+### F
+474 = {
+	culture = khaarpal
+	faith = akom
+	holding = tribal_holding
+}
+475 = {holding = none}
+476 = {holding = none}
+##### Barrensgate
+### Graywall
+477 = {
+	culture = minotaur
+	faith = akom
+	holding = tribal_holding
+}
+478 = {holding = none}
+479 = {holding = none}
+### Six Kings
+480 = {
+	culture = minotaur
+	faith = akom
+	holding = tribal_holding
+}
+481 = {holding = none}
+482 = {holding = none}
+### The Fist
+483 = {
+	culture = minotaur
+	faith = akom
+	holding = tribal_holding
+}
+484 = {holding = none}
+485 = {holding = none}
+486 = {holding = none}
+### Grimstone
+487 = {
+	culture = minotaur
+	faith = akom
+	holding = tribal_holding
+}
+488 = {holding = none}
+489 = {holding = none}
+##### Byeshk
+### A
+490 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+491 = {holding = none}
+492 = {holding = none}
+### B
+493 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+494 = {holding = none}
+495 = {holding = none}
+### C
+496 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+497 = {holding = none}
+498 = {holding = none}
+### D
+499 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+500 = {holding = none}
+### E
+501 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+502 = {holding = none}
+### F
+503 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+504 = {holding = none}
+505 = {holding = none}
+### G
+506 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+507 = {holding = none}
+##### Great Crag
+### Great Crag
+508 = {
+	culture = sartan
+	faith = akom
+	holding = tribal_holding
+}
+509 = {holding = none}
+510 = {holding = none}
+### Thrakelorn
+511 = {
+	culture = sartan
+	faith = akom
+	holding = tribal_holding
+}
+512 = {holding = none}
+513 = {holding = none}
+### B
+514 = {
+	culture = sartan
+	faith = akom
+	holding = tribal_holding
+}
+515 = {holding = none}
+516 = {holding = none}
+### C
+517 = {
+	culture = sartan
+	faith = akom
+	holding = tribal_holding
+}
+518 = {holding = none}
+519 = {holding = none}
+##### Znir
+### Znir
+520 = {
+	culture = gnoll
+	faith = akom
+	holding = tribal_holding
+}
+521 = {holding = none}
+522 = {holding = none}
+### Stonejaw
+523 = {
+	culture = gnoll
+	faith = akom
+	holding = tribal_holding
+}
+524 = {holding = none}
+525 = {holding = none}
+526 = {holding = none}
+### Lost
+527 = {
+	culture = gnoll
+	faith = akom
+	holding = church_holding
+}
+528 = {holding = city_holding}
+### B
+529 = {
+	culture = gnoll
+	faith = akom
+	holding = tribal_holding
+}
+530 = {holding = none}
+### C
+531 = {
+	culture = gnoll
+	faith = akom
+	holding = tribal_holding
+}
+532 = {holding = none}
+533 = {holding = none}
+### D
+534 = {
+	culture = gnoll
+	faith = akom
+	holding = tribal_holding
+}
+535 = {holding = none}
+##### Manta Bay
+### Vralkek
+536 = {
+	culture = sartan
+	faith = akom
+	holding = tribal_holding
+}
+537 = {holding = none}
+### Shaarat Kol
+538 = {
+	culture = sartan
+	faith = akom
+	holding = tribal_holding
+}
+539 = {holding = none}
+540 = {holding = none}
+### Venemous Demesne
+541 = {
+	culture = sartan
+	faith = akom
+	holding = city_holding
+}
+542 = {holding = church_holding}
+### Tzaryan
+543 = {
+	culture = sartan
+	faith = akom
+	holding = tribal_holding
+}
+544 = {holding = none}
+545 = {holding = none}
+##### Watching Wood
+### A
+546 = {
+	culture = urhaakar
+	faith = akom
+	holding = tribal_holding
+}
+547 = {holding = none}
+548 = {holding = none}
+### B
+549 = {
+	culture = urhaakar
+	faith = akom
+	holding = tribal_holding
+}
+550 = {holding = none}
+### C
+551 = {
+	culture = urhaakar
+	faith = akom
+	holding = tribal_holding
+}
+552 = {holding = none}
+553 = {holding = none}
+554 = {holding = none}
+### D
+555 = {
+	culture = urhaakar
+	faith = akom
+	holding = tribal_holding
+}
+556 = {holding = none}
+557 = {holding = none}
+### E
+558 = {
+	culture = urhaakar
+	faith = akom
+	holding = tribal_holding
+}
+559 = {holding = none}
+560 = {holding = none}
+##### Stonelands
+### Cazhaak Draal
+561 = {
+	culture = medusa
+	faith = akom
+	holding = castle_holding
+}
+562 = {holding = church_holding}
+563 = {holding = city_holding}
+### Suthar Draal
+564 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+565 = {holding = none}
+566 = {holding = none}
+### C
+567 = {
+	culture = harpy
+	faith = akom
+	holding = tribal_holding
+}
+568 = {holding = none}
+569 = {holding = none}
+### D
+570 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+571 = {holding = none}
+572 = {holding = none}
+### E
+573 = {
+	culture = medusa
+	faith = akom
+	holding = castle_holding
+}
+574 = {holding = church_holding}
+575 = {holding = none}
+576 = {holding = none}
+577 = {holding = none}
+### F
+578 = {
+	culture = medusa
+	faith = akom
+	holding = castle_holding
+}
+579 = {holding = church_holding}
+580 = {holding = none}
+581 = {holding = none}
+582 = {holding = none}
+##### Blackwater
+### Patrahkn
+583 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+584 = {holding = none}
+585 = {holding = none}
+### Blackroot
+586 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+587 = {holding = none}
+588 = {holding = none}
+### Dhavins Post
+589 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+590 = {holding = none}
+591 = {holding = none}
+### Karthoon Tor
+592 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+593 = {holding = none}
+### Arashuul
+594 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+595 = {holding = none}
+### Blackwater
+596 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+597 = {holding = none}
+598 = {holding = none}
+##### Zarash
+### Zarashak
+599 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+600 = {holding = tribal_holding}
+601 = {holding = tribal_holding}
+602 = {holding = none}
+603 = {holding = none}
+### Urthold
+604 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+605 = {holding = none}
+### Glumtown
+606 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+607 = {holding = none}
+608 = {holding = none}
+### Lantern Tower
+609 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+610 = {holding = none}
+### B
+611 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+612 = {holding = none}
+### C
+613 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+614 = {holding = none}
+615 = {holding = none}
+##### Balinor's Sorrow
+### A
+616 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+617 = {holding = none}
+618 = {holding = none}
+### B
+619 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+620 = {holding = none}
+### C
+621 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+622 = {holding = none}
+623 = {holding = none}
+### D
+624 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+625 = {holding = none}
+### E
+626 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+627 = {holding = none}
+628 = {holding = none}
+##### Crawling Swamp
+### Valsharak
+629 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+630 = {holding = none}
+### Slug Keep
+631 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+632 = {holding = none}
+633 = {holding = none}
+634 = {holding = none}
+635 = {holding = none}
+### B
+636 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+637 = {holding = none}
+638 = {holding = none}
+### C
+639 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+640 = {holding = none}
+641 = {holding = none}
+642 = {holding = none}
+##### Deepwood
+### Taarn Draal
+643 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+644 = {holding = none}
+### B
+645 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+646 = {holding = none}
+647 = {holding = none}
+### C
+648 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+649 = {holding = none}
+650 = {holding = none}
+### D
+651 = {
+	culture = azhani
+	faith = akom
+	holding = tribal_holding
+}
+652 = {holding = none}
+653 = {holding = none}

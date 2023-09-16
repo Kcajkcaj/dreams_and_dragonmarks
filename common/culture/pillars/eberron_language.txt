@@ -123,3 +123,39 @@ language_harpy = {
 	
 	color = greek
 }
+
+language_draconic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_draconic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_draconic }
+			multiply = 10
+		}
+	}
+	
+	color = greek
+}
+
+language_gnoll = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_gnoll
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_gnoll }
+			multiply = 10
+		}
+	}
+	
+	color = greek
+}
