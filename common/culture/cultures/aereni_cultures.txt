@@ -10,9 +10,7 @@ aereni = {
 	created = 1.1.1
 	
 	traditions = {
-		tradition_arcane_duelists
 		tradition_clan_connections
-		tradition_lumber_industry
 	}
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }

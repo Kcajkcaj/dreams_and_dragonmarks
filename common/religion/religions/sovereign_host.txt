@@ -265,10 +265,12 @@ sovereign_host_religion = {
 			holy_site = korranath
 			
 			doctrine = doctrine_concubines_many
+			doctrine = doctrine_adultery_men_accepted
+			doctrine = doctrine_adultery_women_shunned
 			
 			# Tenets
 			doctrine = tenet_mendicant_monks
-			doctrine = tenet_bloodstained_liturgy
+			doctrine = tenet_untamed_inhibitions
 			doctrine = tenet_divine_right
 			doctrine = tenet_conclaves
 			doctrine = tenet_pursuit_of_power

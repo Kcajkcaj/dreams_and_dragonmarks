@@ -392,6 +392,38 @@
 		}
 	}
 	
+	tenet_untamed_inhibitions = {
+		icon = core_tenet_polyamory
+		
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = {has_doctrine = tenet_shared_dreams}
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		is_shown = {always = yes}
+		
+		traits = {
+			virtues = {lustful}
+			sins = {chaste}
+		}
+		
+		parameters = {
+			orgies_at_festivals = yes
+			piety_from_feasts_active = yes
+			safer_childbirths_active = yes
+			more_seductions = yes
+			no_unfaithfulness_penalty_active = yes
+		}
+		
+		character_modifier = {
+			stress_gain_mult = 0.5
+			stress_loss_mult = 0.5
+		}
+	}
+	
 	############################
 	# Eberron Syncretic Tenets #
 	############################

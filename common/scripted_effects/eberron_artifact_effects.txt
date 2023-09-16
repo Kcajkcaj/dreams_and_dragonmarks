@@ -15,3 +15,19 @@ create_artifact_Redwave_effect = {
 		modifier = artifact_monthly_martial_lifestyle_xp_2_modifier
 	}
 }
+create_artifact_Mantle_of_the_Bear_effect = {
+	$OWNER$ = {
+		save_scope_as = owner
+	}
+	create_artifact = {
+		name = "Mantle of the Bear"
+		description = "This heavy cloak is made of bulky brown fur, thickest at the shoulders. Its wearer longs stronger, broader, and somehow fiercer."
+		type = armor_laminar
+		visuals = pelt
+		rarity = illustrious
+		template = general_unique_template
+		modifier = artifact_health_gain_3_modifier
+		modifier = artifact_prowess_5_modifier
+		modifier = artifact_court_grandeur_baseline_add_5_modifier
+	}
+}

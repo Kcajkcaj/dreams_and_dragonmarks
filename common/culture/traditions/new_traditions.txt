@@ -1,3 +1,38 @@
+tradition_blades_for_hire = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = battle.dds
+	}
+	
+	category = warfare
+	
+	parameters = {
+		wanderers_gain_extra_combat_skills = yes
+		mercenary_courtiers_gain_extra_skills = yes
+		more_likely_to_leave_court = yes
+	}
+	culture_modifier = {
+		mercenary_count_mult = 2
+	}
+	character_modifier = {
+		same_culture_mercenary_hire_cost_mult = -0.15
+		character_travel_speed_mult = 0.1
+		character_travel_safety_mult = 0.1
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_chattel_slavery = {
 	layers = {
 		0 = steward

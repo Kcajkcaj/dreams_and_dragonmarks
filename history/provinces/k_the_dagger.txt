@@ -13,7 +13,6 @@
 	culture = daggerborn
 	faith = akom_pagan
 	holding = castle_holding
-	special_building_slot = dye_factories
 }
 75 = {holding = city_holding}
 ### Bearswood
@@ -62,9 +61,10 @@
 ##### Skyraker
 ### Galethspyre
 94 = {
-	culture = daggerborn
-	faith = uulkarda
+	culture = vathir
+	faith = frontier_creed
 	holding = castle_holding
+	special_building_slot = dye_factories
 }
 95 = {holding = church_holding}
 96 = {holding = city_holding}

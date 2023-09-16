@@ -19,7 +19,7 @@ shaarati = {
 		tradition_chattel_slavery
 		tradition_minority_rule
 		tradition_swashbucklers_pride
-		tradition_traveling_merchant
+		tradition_traveling_merchants
 	}
 	
 	ethnicities = {
@@ -37,7 +37,7 @@ vathir = {
 	martial_custom = martial_custom_equal
 	
 	name_list = name_list_brelish
-	created 1.1.1
+	created = 1.1.1
 	
 	coa_gfx = { western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -55,5 +55,55 @@ vathir = {
 	ethnicities = {
 		70 = rhialuun
 		30 = syrk
+	}
+}
+
+khaluunite = {
+	color = { 0.25 0.05 0.5}
+	
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_karrn
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx 
+	
+	traditions = {
+		tradition_traveling_merchants
+	}
+	
+	ethnicities = {
+		100 = koralanda
+	}
+}
+
+skindancer = {
+	color = { 0.55 0.35 0.8}
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_karrn
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx 
+	
+	traditions = {
+		
+	}
+	
+	ethnicities = {
+		100 = koralanda
 	}
 }

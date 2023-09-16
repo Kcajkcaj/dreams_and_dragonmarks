@@ -9,5 +9,8 @@ eberron_artifact_assignment = {
 		character:tasra_malleonid = {
 			create_artifact_Redwave_effect = { OWNER = this }
 		}
+		character:breggor_dain = {
+			create_artifact_Mantle_of_the_Bear_effect = {OWNER = this}
+		}
 	}
 }

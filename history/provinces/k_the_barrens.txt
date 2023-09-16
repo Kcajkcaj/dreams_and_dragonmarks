@@ -187,7 +187,7 @@
 526 = {holding = none}
 ### Lost
 527 = {
-	culture = gnoll
+	culture = skindancer
 	faith = akom
 	holding = church_holding
 }
@@ -232,7 +232,7 @@
 540 = {holding = none}
 ### Venemous Demesne
 541 = {
-	culture = sartan
+	culture = khaluunite
 	faith = akom
 	holding = city_holding
 }

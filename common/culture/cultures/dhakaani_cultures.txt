@@ -45,6 +45,7 @@ ghaaldar = {
 		tradition_chattel_slavery
 		tradition_clan_connections
 		tradition_rule_of_the_chibs
+		tradition_blades_for_hire
 	}
 	
 	ethnicities = {
