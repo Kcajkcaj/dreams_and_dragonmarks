@@ -2,7 +2,7 @@
 ### Rhukaan Draal
 347 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 348 = {holding = none}
@@ -11,7 +11,7 @@
 ### Broken Tooth
 351 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 352 = {holding = none}
@@ -20,7 +20,7 @@
 ### Ghaaltash
 355 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 356 = {holding = none}
@@ -29,14 +29,14 @@
 ### Warden Keep
 359 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 360 = {holding = none}
 ### Zarrthec
 361 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 362 = {holding = none}
@@ -44,7 +44,7 @@
 ### Zarrthec A
 364 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 365 = {holding = none}
@@ -52,7 +52,7 @@
 ### Zarrthec B
 367 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 368 = {holding = none}
@@ -137,7 +137,7 @@
 ### Marguul Pass
 386 = {
 	culture = marguul
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 387 = {holding = none}
@@ -145,14 +145,14 @@
 ### Seven Caves
 389 = {
 	culture = marguul
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 390 = {holding = none}
 ### Skullreave
 391 = {
 	culture = marguul
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 392 = {holding = none}
@@ -160,7 +160,7 @@
 ### Gathering Stone
 393 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 394 = {holding = none}
@@ -169,7 +169,7 @@
 ### Gathering Stone B
 397 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 398 = {holding = none}
@@ -178,7 +178,7 @@
 ### Gathering Stone C
 401 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 402 = {holding = none}
@@ -186,14 +186,14 @@
 ### Lyrenton
 404 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 405 = {holding = none}
 ### Olkhaan
 406 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 407 = {holding = none}
@@ -202,7 +202,7 @@
 ### Gorgonhorn
 410 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 411 = {holding = none}
@@ -211,7 +211,7 @@
 ### Wyvernskull
 413 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 414 = {holding = none}
@@ -219,7 +219,7 @@
 ### Arthuun
 416 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 417 = {holding = none}
@@ -227,7 +227,7 @@
 ### Grellreach
 419 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 420 = {holding = none}
@@ -236,7 +236,7 @@
 ### Torlaac A
 423 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 424 = {holding = none}
@@ -244,7 +244,7 @@
 ### Torlaac B
 426 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 427 = {holding = none}
@@ -252,7 +252,7 @@
 ### Torlaac C
 429 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 430 = {holding = none}
@@ -261,7 +261,7 @@
 ### Rheklor
 432 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 433 = {holding = none}
@@ -270,13 +270,13 @@
 ### Dokhaan
 436 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 ### Shae Joridal
 437 = {
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	holding = castle_holding
 }
 438 = {holding = none}
@@ -284,7 +284,7 @@
 ### Khraal A
 440 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 441 = {holding = none}
@@ -292,7 +292,7 @@
 ### Khraal B
 443 = {
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	holding = tribal_holding
 }
 444 = {holding = none}

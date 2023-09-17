@@ -1,7 +1,7 @@
 ruus_of_rhukaan_draal = {
 	name = "Ruus"
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3367.5.10 = {
@@ -12,7 +12,7 @@ ruus_of_rhukaan_draal = {
 mograath_of_the_gathering_stone = {
 	name = "Mograath"
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3359.12.19 = {birth = yes}
@@ -21,7 +21,7 @@ mograath_of_the_gathering_stone = {
 karbal_of_gorgonhorn = {
 	name = "Karbal"
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3376.11.04 = {birth = yes}
@@ -30,7 +30,7 @@ karbal_of_gorgonhorn = {
 imist_of_zarrthec = {
 	name = "Imist"
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3373.10.30 = {birth = yes}
@@ -39,7 +39,7 @@ imist_of_zarrthec = {
 shekath_of_warden_keep = {
 	name = "Shekath"
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3373.3.2 = {birth = yes}
@@ -48,7 +48,7 @@ shekath_of_warden_keep = {
 margaash_of_torlaac = {
 	name = "Margaash"
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3377.1.24 = {birth = yes}
@@ -57,7 +57,7 @@ margaash_of_torlaac = {
 haluun_of_wyvernskull = {
 	name = "Haluun"
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3375.6.5 = {birth = yes}
@@ -66,7 +66,7 @@ haluun_of_wyvernskull = {
 gruun_of_rheklor = {
 	name = "Gruun"
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3373.8.24 = {birth = yes}
@@ -75,7 +75,7 @@ gruun_of_rheklor = {
 klist_of_khraal = {
 	name = "Klist"
 	culture = khraali
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3369.11.05 = {birth = yes}
@@ -84,7 +84,7 @@ klist_of_khraal = {
 khapa_of_grellreach = {
 	name = "Khapa"
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3362.3.16 = {birth = yes}
@@ -93,7 +93,7 @@ khapa_of_grellreach = {
 kroskul_of_the_marguul = {
 	name = "Kroskul"
 	culture = marguul
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3373.10.25 = {birth = yes}
@@ -102,7 +102,7 @@ kroskul_of_the_marguul = {
 tariic_of_lyrenton = {
 	name = "Tariic"
 	culture = ghaaldar
-	faith = baltic_pagan
+	faith = nasaari
 	female = no
 	
 	3380.7.13 = {birth = yes}

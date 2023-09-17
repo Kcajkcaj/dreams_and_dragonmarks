@@ -2800,7 +2800,7 @@ easteregg_tegan_harris = {
 easteregg_wojciech_cywinski = {
 	name = "Wojciech"
 	dynasty = vanity_cywinski
-	religion = "baltic_pagan"
+	religion = "nasaari"
 	culture = "prussian"
 
 	#Skills
@@ -5303,7 +5303,7 @@ easteregg_tomas_versekys = {
     name = "Tomas"
     dna = easteregg_tomas_versekys_dna
     dynasty = vanity_versekys
-    religion = baltic_pagan
+    religion = nasaari
     culture = lithuanian
     #Skills
     diplomacy = 6
