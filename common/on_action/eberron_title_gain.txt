@@ -1,0 +1,11 @@
+on_title_gain = {
+	on_actions = {
+		eberron_on_title_gain
+	}
+}
+
+eberron_on_title_gain = {
+	effect = {
+		update_coa_effect = yes
+	}
+}

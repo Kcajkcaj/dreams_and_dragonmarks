@@ -1,6 +1,7 @@
 on_game_start = {
 	on_actions = {
 		eberron_artifact_assignment
+		eberron_coa_setup
 	}
 }
 
@@ -11,6 +12,14 @@ eberron_artifact_assignment = {
 		}
 		character:breggor_dain = {
 			create_artifact_Mantle_of_the_Bear_effect = {OWNER = this}
+		}
+	}
+}
+
+eberron_coa_setup = {
+	effect = {
+		every_ruler = {
+			update_coa_effect = yes
 		}
 	}
 }

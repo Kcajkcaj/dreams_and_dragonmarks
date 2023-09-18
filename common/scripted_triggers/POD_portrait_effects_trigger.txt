@@ -1,0 +1,8 @@
+POD_portrait_monster_angel_wings_unfolded_trigger = {
+	culture = {
+		OR = {
+			this = culture:harpy
+			any_parent_culture_or_above = {this = culture:harpy}
+		}
+	}
+}

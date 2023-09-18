@@ -64,13 +64,9 @@ seduce_ongoing_milestone_2 = {
 
 seduce_success = {
 	first_valid = {
-		seduce_outcome.2000 # Bedded the Pope!
 		seduce_outcome.2307 # Seduce rival/someone you dislike a lot
 		seduce_outcome.2308 # Seduce close family member
 		seduce_outcome.2306 # Spouse seduction
-	}
-	on_actions = {
-		personal_scheme_success
 	}
 	fallback = seduce_generic_success
 	effect = {
@@ -79,6 +75,7 @@ seduce_success = {
 				VARIABLE = achievement_seductive_variable
 				VALUE = 1
 			}
+			trigger_event = {on_action = personal_scheme_success}
 		}
 	}
 }

@@ -84,7 +84,7 @@
 ### A
 490 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 491 = {holding = none}
@@ -92,7 +92,7 @@
 ### B
 493 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 494 = {holding = none}
@@ -100,7 +100,7 @@
 ### C
 496 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 497 = {holding = none}
@@ -108,21 +108,21 @@
 ### D
 499 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 500 = {holding = none}
 ### E
 501 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 502 = {holding = none}
 ### F
 503 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 504 = {holding = none}
@@ -130,7 +130,7 @@
 ### G
 506 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 507 = {holding = none}
@@ -290,7 +290,7 @@
 ### Cazhaak Draal
 561 = {
 	culture = medusa
-	faith = akom
+	faith = cazhaak_creed
 	holding = castle_holding
 }
 562 = {holding = church_holding}
@@ -298,7 +298,7 @@
 ### Suthar Draal
 564 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 565 = {holding = none}
@@ -306,7 +306,7 @@
 ### C
 567 = {
 	culture = harpy
-	faith = akom
+	faith = first_song
 	holding = tribal_holding
 }
 568 = {holding = none}
@@ -322,7 +322,7 @@
 ### E
 573 = {
 	culture = medusa
-	faith = akom
+	faith = cazhaak_creed
 	holding = castle_holding
 }
 574 = {holding = church_holding}
@@ -332,7 +332,7 @@
 ### F
 578 = {
 	culture = medusa
-	faith = akom
+	faith = cazhaak_creed
 	holding = castle_holding
 }
 579 = {holding = church_holding}

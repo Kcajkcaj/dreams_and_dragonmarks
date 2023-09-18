@@ -1,0 +1,21 @@
+on_birth_child = {
+	on_actions = {
+		eberron_add_dragonmarks
+	}
+}
+
+eberron_add_dragonmarks = {
+	effect = {
+		random = {
+			chance = 20
+			if = {
+				limit = {scope:child.dynasty = dynasty:dynn_Medani}
+				add_trait = mark_of_detection
+			}
+			else_if = {
+				limit = {scope:child.dynasty = dynasty:dynn_Sivis}
+				add_trait = mark_of_scribing
+			}
+		}
+	}
+}

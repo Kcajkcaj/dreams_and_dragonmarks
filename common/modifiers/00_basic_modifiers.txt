@@ -6,6 +6,7 @@
 
 diplomacy_modifier = {
 	ai_amenity_target_baseline = 0.01
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.02
 }
 diplomacy_modifier_with_offset = {
 	monthly_prestige_gain_mult = 0.01
@@ -14,10 +15,12 @@ diplomacy_modifier_with_offset = {
 intrigue_modifier = {
 	scheme_discovery_chance_mult = 0.01
 	owned_hostile_scheme_success_chance_add = 1
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.02
 }
 
 stewardship_modifier = {
 	character_travel_speed = 1
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.02
 }
 stewardship_modifier_with_offset = {
 	domain_tax_mult = 0.02
@@ -27,6 +30,7 @@ stewardship_modifier_with_offset = {
 
 martial_modifier = {
 	character_travel_safety = 1
+	monthly_martial_lifestyle_xp_gain_mult = 0.02
 }
 martial_modifier_with_offset = {
 	levy_reinforcement_rate = 0.025
@@ -37,6 +41,7 @@ martial_modifier_with_offset = {
 
 learning_modifier = {
 	monthly_piety = 0.1
+	monthly_learning_lifestyle_xp_gain_mult = 0.02
 }
 
 prowess_modifier = {
