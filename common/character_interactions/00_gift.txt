@@ -75,6 +75,28 @@ gift_interaction = {
 				gifting_leads_towards_friendship_effect = yes
 			}
 		}
+		scope:actor = {
+			if = {
+				limit = {opinion = {target = scope:recipient value <= -100}}
+				add_stress = 50
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -80}}
+				add_stress = 40
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -60}}
+				add_stress = 30
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -40}}
+				add_stress = 20
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -20}}
+				add_stress = 10
+			}
+		}
 
 		# Warning for multiple gifts
 		if = {

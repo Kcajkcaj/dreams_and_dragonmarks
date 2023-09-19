@@ -1,0 +1,38 @@
+on_16th_birthday = {
+	on_actions = {
+		eberron_education
+	}
+}
+
+eberron_education = {
+	effect = {
+		every_relation = {
+			type = guardian
+			add_to_temporary_list = educators
+		}
+		court_owner ?= {
+			every_court_position_holder = {
+				type = court_tutor_court_position
+				add_to_temporary_list = educators
+			}
+		}
+		if = {
+			limit = {
+				any_in_list = {
+					list = educators
+					has_trait = mage
+				}
+			}
+			add_trait = mage
+		}
+		if = {
+			limit = {
+				any_in_list = {
+					list = educators
+					has_trait = poet
+				}
+			}
+			add_trait = poet
+		}
+	}
+}

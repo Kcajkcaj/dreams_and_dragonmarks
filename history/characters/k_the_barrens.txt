@@ -1,0 +1,167 @@
+khalar_tharashk = {
+	name = "Khalar"
+	culture = azhani
+	faith = akom_pagan
+	female = no
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	3324.1.1 = {birth = yes}
+	
+	3399.3.23 = {death = yes}
+}
+
+veldera_tharashk = {
+	name = "Veldera"
+	culture = azhani
+	faith = akom_pagan
+	female = yes
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	father = khalar_tharashk
+	
+	3345.1.1 = {birth = yes}
+}
+
+orgaal_tharashk = {
+	name = "Orgaal"
+	culture = azhani
+	faith = akom_pagan
+	female = no
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	mother = veldera_tharashk
+	
+	3369.1.1 = {birth = yes}
+}
+
+torshaa_tharashk = {
+	name = "Torshaa"
+	culture = azhani
+	faith = akom_pagan
+	female = yes
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	mother = veldera_tharashk
+	
+	3374.1.1 = {birth = yes}
+}
+
+vaalda_tharashk = {
+	name = "Vaalda"
+	culture = azhani
+	faith = akom_pagan
+	female = yes
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	mother = veldera_tharashk
+	
+	3378.1.1 = {birth = yes}
+}
+
+torrn_tharashk = {
+	name = "Torrn"
+	culture = azhani
+	faith = akom_pagan
+	female = no
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	father = khalar_tharashk
+	
+	3349.1.1 = {birth = yes}
+}
+
+torruk_tharashk = {
+	name = "Torruk"
+	culture = azhani
+	faith = akom_pagan
+	female = no
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	father = torrn_tharashk
+	
+	3377.1.1 = {birth = yes}
+}
+
+brokaa_tharashk = {
+	name = "Brokaa"
+	culture = azhani
+	faith = akom_pagan
+	female = yes
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	father = torrn_tharashk
+	
+	3379.1.1 = {birth = yes}
+}
+
+aashta_tharashk = {
+	name = "Aashta"
+	culture = azhani
+	faith = akom_pagan
+	female = yes
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	father = khalar_tharashk
+	
+	3353.1.1 = {birth = yes}
+}
+
+aarna_tharashk = {
+	name = "Aarna"
+	culture = azhani
+	faith = akom_pagan
+	female = yes
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	mother = aashta_tharashk
+	
+	3374.1.1 = {birth = yes}
+}
+
+istaaran_tharashk = {
+	name = "Istaaran"
+	culture = azhani
+	faith = akom_pagan
+	female = no
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	mother = aashta_tharashk
+	
+	3379.1.1 = {birth = yes}
+}
+
+oorac_tharashk = {
+	name = "Oorac"
+	culture = azhani
+	faith = akom_pagan
+	female = no
+	dynasty = dynn_tharashk
+	
+	trait = mark_of_finding
+	
+	mother = aashta_tharashk
+	
+	3385.1.1 = {birth = yes}
+}

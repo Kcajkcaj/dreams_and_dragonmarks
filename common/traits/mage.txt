@@ -1,121 +1,131 @@
 mage = {
 	tracks = {
 		abjuration = {
-			5 = { # 0th-2nd Level Spell
+			10 = {
+				additional_fort_level = 1
+				enemy_hostile_scheme_success_chance_add = -5
 			}
-			15 = { # 0th-2nd Level Spell
+			30 = {
+				additional_fort_level = 1
+				enemy_hostile_scheme_success_chance_add = -5
 			}
-			30 = { # 3rd-5th Level Spell
+			60 = {
+				additional_fort_level = 1
+				enemy_hostile_scheme_success_chance_add = -5
 			}
-			50 = { # 3rd-5th Level Spell
-			}
-			75 = { # 6th-7th Level Spell
-			}
-			100 = { # 8th-9th Level Spell
+			100 = {
+				additional_fort_level = 1
+				enemy_hostile_scheme_success_chance_add = -5
 			}
 		}
 		conjuration = {
-			5 = { # 0th-2nd Level Spell
+			10 = {
+				character_travel_speed_mult = 0.25
 			}
-			15 = { # 0th-2nd Level Spell
+			30 = {
+				character_travel_speed_mult = 0.25
 			}
-			30 = { # 3rd-5th Level Spell
+			60 = {
+				character_travel_speed_mult = 0.25
 			}
-			50 = { # 3rd-5th Level Spell
-			}
-			75 = { # 6th-7th Level Spell
-			}
-			100 = { # 8th-9th Level Spell
+			100 = {
+				character_travel_speed_mult = 0.25
 			}
 		}
 		divination = {
-			5 = { # 0th-2nd Level Spell
+			10 = {
+				learning = 2
 			}
-			15 = { # 0th-2nd Level Spell
+			30 = {
+				learning = 2
 			}
-			30 = { # 3rd-5th Level Spell
+			60 = {
+				learning = 2
 			}
-			50 = { # 3rd-5th Level Spell
-			}
-			75 = { # 6th-7th Level Spell
-			}
-			100 = { # 8th-9th Level Spell
+			100 = {
+				learning = 2
 			}
 		}
 		enchantment = {
-			5 = { # 0th-2nd Level Spell
+			10 = {
+				diplomacy = 2
 			}
-			15 = { # 0th-2nd Level Spell
+			30 = {
+				diplomacy = 2
 			}
-			30 = { # 3rd-5th Level Spell
+			60 = {
+				diplomacy = 2
 			}
-			50 = { # 3rd-5th Level Spell
-			}
-			75 = { # 6th-7th Level Spell
-			}
-			100 = { # 8th-9th Level Spell
+			100 = {
+				diplomacy = 2
 			}
 		}
 		evocation = {
-			5 = { # 0th-2nd Level Spell - Magic Missile
-				prowess = 5
+			10 = {
+				prowess = 3
+				advantage = 3
 			}
-			15 = { # 0th-2nd Level Spell - Shatter
-				army_siege_value_mult = 0.3
+			30 = {
+				prowess = 3
+				advantage = 3
 			}
-			30 = { # 3rd-5th Level Spell - Fireball
-				advantage = 5
+			60 = {
+				prowess = 3
+				advantage = 3
 			}
-			50 = { # 3rd-5th Level Spell - Wall of Fire
-				levy_pursuit = 10
-			}
-			75 = { # 6th-7th Level Spell - Chain Lightning
-				enemy_hard_casualty_modifier = 0.5
-			}
-			100 = { # 8th-9th Level Spell - Meteor Swarm
-				# Interaction to send meteors at a target
+			100 = {
+				prowess = 3
+				advantage = 3
 			}
 		}
 		illusion = {
-			5 = { # 0th-2nd Level Spell
+			10 = {
+				intrigue = 2
 			}
-			15 = { # 0th-2nd Level Spell
+			30 = {
+				intrigue = 2
 			}
-			30 = { # 3rd-5th Level Spell
+			60 = {
+				intrigue = 2
 			}
-			50 = { # 3rd-5th Level Spell
-			}
-			75 = { # 6th-7th Level Spell
-			}
-			100 = { # 8th-9th Level Spell
+			100 = {
+				intrigue = 2
 			}
 		}
 		necromancy = {
-			5 = { # 0th-2nd Level Spell
+			10 = {
+				dread_baseline_add = 5
+				owned_hostile_scheme_success_chance_add = 5
 			}
-			15 = { # 0th-2nd Level Spell
+			30 = {
+				dread_baseline_add = 5
+				owned_hostile_scheme_success_chance_add = 5
 			}
-			30 = { # 3rd-5th Level Spell
+			60 = {
+				dread_baseline_add = 5
+				owned_hostile_scheme_success_chance_add = 5
 			}
-			50 = { # 3rd-5th Level Spell
-			}
-			75 = { # 6th-7th Level Spell
-			}
-			100 = { # 8th-9th Level Spell
+			100 = {
+				dread_baseline_add = 5
+				owned_hostile_scheme_success_chance_add = 5
 			}
 		}
 		transmutation = {
-			5 = { # 0th-2nd Level Spell
+			10 = {
+				life_expectancy = 5
+				monthly_income_mult = 0.05
 			}
-			15 = { # 0th-2nd Level Spell
+			30 = {
+				life_expectancy = 5
+				monthly_income_mult = 0.05
 			}
-			30 = { # 3rd-5th Level Spell
+			60 = {
+				life_expectancy = 5
+				monthly_income_mult = 0.05
 			}
-			50 = { # 3rd-5th Level Spell
-			}
-			75 = { # 6th-7th Level Spell
-			}
-			100 = { # 8th-9th Level Spell
+			100 = {
+				life_expectancy = 5
+				monthly_income_mult = 0.05
 			}
 		}
 	}

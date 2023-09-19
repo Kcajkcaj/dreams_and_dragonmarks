@@ -1,0 +1,4 @@
+dynn_tharashk = {
+	name = "Tharashk"
+	culture = azhani
+}

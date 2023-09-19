@@ -95,6 +95,7 @@ raela_solaen = {
 	trait = education_martial_5
 	trait = holy_warrior
 	trait = military_engineer
+	trait = mage
 	
 	3387.10.3 = {
 		birth = yes
@@ -102,7 +103,20 @@ raela_solaen = {
 			learn_language = language_common
 		}
 	}
-	
+	3400.1.1 = {
+		effect = {
+			add_trait_xp = {
+				trait = mage
+				track = abjuration
+				value = 10
+			}
+			add_trait_xp = {
+				trait = mage
+				track = evocation
+				value = 50
+			}
+		}
+	}
 }
 
 ilyra_medani = {

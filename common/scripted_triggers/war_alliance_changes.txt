@@ -1,0 +1,87 @@
+can_potentially_call_ally_trigger = {
+	# Can never call vassals to your own wars (their obligations are met via taxes and levies!)
+	custom_description = {
+		text = cannot_call_vassal_to_war
+		trigger_if = {
+			limit = {
+				$WARRIOR$ = { is_attacker_in_war = $WAR$ }
+			}
+			$JOINER$ = {
+				trigger_if = {
+					limit = {
+						# Diarchs can join against other vassals.
+						NOT = { this ?= $WARRIOR$.diarch }
+					}
+					NOT = {
+						target_is_liege_or_above = $WARRIOR$
+					}
+				}
+			}
+		}
+		trigger_else = {
+			always = yes
+		}
+	}
+
+	# Can never call your liege to your own wars (they protect you only from foreign invaders, by being the war target instead of you)
+	custom_description = {
+		text = cannot_call_liege_to_war
+		$JOINER$ = {
+			NOT = {
+				target_is_vassal_or_below = $WARRIOR$
+			}
+		}
+	}
+}
+
+can_join_war_liege_vassal_check_trigger = {
+	custom_description = {
+		text = "basic_ally_can_join_because_liege_or_vassals"
+		subject = $JOINER$
+
+		# actor is defender, attackers do not include recipient's liege or vassals
+		trigger_if = {
+			limit = {
+				$WARRIOR$ = { is_defender_in_war = scope:target }
+			}
+			$JOINER$ = {
+				trigger_if = {
+					limit = {
+						# Diarchs can join against other vassals.
+						NOT = { this ?= $WARRIOR$.diarch }
+					}
+					NOR = {
+						any_liege_or_above = {
+							is_attacker_in_war = scope:target
+						}
+						any_vassal_or_below = {
+							is_attacker_in_war = scope:target
+						}
+					}
+				}
+			}
+		}
+
+		# actor is attacker, defenders do not include recipient's liege or vassals
+		trigger_else_if = {
+			limit = {
+				$WARRIOR$ = { is_attacker_in_war = scope:target }
+			}
+			$JOINER$ = {
+				NOR = {
+					any_liege_or_above = {
+						is_defender_in_war = scope:target
+					}
+					any_vassal_or_below = {
+						is_defender_in_war = scope:target
+					}
+				}
+			}
+		}
+
+		# it's fine, whatever
+		trigger_else = {
+			always = yes
+		}
+	}
+}

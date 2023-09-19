@@ -335,6 +335,28 @@ befriend_interaction = {
 	}
 
 	on_accept = {
+		scope:actor = {
+			if = {
+				limit = {opinion = {target = scope:recipient value <= -100}}
+				add_stress = 50
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -80}}
+				add_stress = 40
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -60}}
+				add_stress = 30
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -40}}
+				add_stress = 20
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -20}}
+				add_stress = 10
+			}
+		}
 		hidden_effect = {
 			scope:actor = {
 				send_interface_toast = {
@@ -848,6 +870,28 @@ seduce_interaction = {
 	desc = scheme_interaction_tt_seduce_approved
 
 	on_accept = {
+		scope:actor = {
+			if = {
+				limit = {opinion = {target = scope:recipient value <= -100}}
+				add_stress = 50
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -80}}
+				add_stress = 40
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -60}}
+				add_stress = 30
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -40}}
+				add_stress = 20
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -20}}
+				add_stress = 10
+			}
+		}
 		seduce_interaction_stress_effect = yes
 
 		hidden_effect = {
@@ -1421,6 +1465,28 @@ court_interaction = {
 
 	on_accept = {
 		scope:actor = {
+			if = {
+				limit = {opinion = {target = scope:recipient value <= -100}}
+				add_stress = 50
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -80}}
+				add_stress = 40
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -60}}
+				add_stress = 30
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -40}}
+				add_stress = 20
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -20}}
+				add_stress = 10
+			}
+		}
+		scope:actor = {
 			# If you already have a soulmate, they get very mad
 			every_relation = {
 				type = soulmate
@@ -1751,6 +1817,28 @@ sway_interaction = {
 	desc = scheme_interaction_tt_sway_approved
 
 	on_accept = {
+		scope:actor = {
+			if = {
+				limit = {opinion = {target = scope:recipient value <= -100}}
+				add_stress = 50
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -80}}
+				add_stress = 40
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -60}}
+				add_stress = 30
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -40}}
+				add_stress = 20
+			}
+			else_if = {
+				limit = {opinion = {target = scope:recipient value <= -20}}
+				add_stress = 10
+			}
+		}
 		hidden_effect = {
 			scope:actor = {
 				send_interface_toast = {
