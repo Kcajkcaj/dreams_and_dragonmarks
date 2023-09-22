@@ -303,6 +303,7 @@ dhakaani_religion = {
 			doctrine = tenet_enchanting_hymns
 			doctrine = tenet_shared_dreams
 			doctrine = tenet_monastic_meditation
+			doctrine = tenet_touched_by_madness
 		}
 	}
 }

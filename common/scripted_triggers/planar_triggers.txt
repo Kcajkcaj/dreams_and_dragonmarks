@@ -1,0 +1,72 @@
+daanvi_is_coterminous = {
+	daanvi_value >= 90
+}
+dolurrh_is_coterminous = {
+	dolurrh_value >= 90
+}
+fernia_is_coterminous = {
+	fernia_value >= 90
+}
+irian_is_coterminous = {
+	irian_value >= 90
+}
+kythri_is_coterminous = {
+	kythri_value >= 90
+}
+lamannia_is_coterminous = {
+	lamannia_value >= 90
+}
+mabar_is_coterminous = {
+	mabar_value >= 90
+}
+risia_is_coterminous = {
+	risia_value >= 90
+}
+shavarath_is_coterminous = {
+	shavarath_value >= 90
+}
+syrania_is_coterminous = {
+	syrania_value >= 90
+}
+thelanis_is_coterminous = {
+	thelanis_value >= 90
+}
+xoriat_is_coterminous = {
+	xoriat_value >= 90
+}
+daanvi_is_remote = {
+	daanvi_value <= 10
+}
+dolurrh_is_remote = {
+	dolurrh_value <= 10
+}
+fernia_is_remote = {
+	fernia_value <= 10
+}
+irian_is_remote = {
+	irian_value <= 10
+}
+kythri_is_remote = {
+	kythri_value <= 10
+}
+lamannia_is_remote = {
+	lamannia_value <= 10
+}
+mabar_is_remote = {
+	mabar_value <= 10
+}
+risia_is_remote = {
+	risia_value <= 10
+}
+shavarath_is_remote = {
+	shavarath_value <= 10
+}
+syrania_is_remote = {
+	syrania_value <= 10
+}
+thelanis_is_remote = {
+	thelanis_value <= 10
+}
+xoriat_is_remote = {
+	xoriat_value <= 10
+}

@@ -1,0 +1,938 @@
+window = {
+	name = "planar_window"
+	movable = no
+	
+	layer = windows_layer
+
+	using = Window_Size_Sidebar
+	using = Window_Background_Sidebar
+	
+	visible = "[GetVariableSystem.Exists( 'planar_window_toggle' )]"
+	
+	state = {
+		name = _show
+		using = Animation_FadeIn_Quick
+		using = Sound_WindowShow_Standard
+		
+		position = {0 0}
+
+		using = Animation_FadeIn_Standard
+		
+		on_start = "[GetVariableSystem.Set( 'hide_bottom_left_HUD', 'true' )]"
+	}
+
+	state = {
+		name = _hide
+		
+		position = { -90 0 }
+
+		using = Animation_FadeOut_Quick
+		using = Sound_WindowHide_Standard
+		
+		on_start = "[GetVariableSystem.Clear( 'hide_bottom_left_HUD' )]"
+	}
+	
+	vbox = {
+		using = Window_Margins_Sidebar
+		
+		header_pattern = {
+			layoutpolicy_horizontal = expanding
+
+			blockoverride "header_text"
+			{
+				text = "Planar Window"
+			}
+
+			blockoverride "button_close"
+			{
+				onclick = "[GetVariableSystem.Toggle( 'planar_window_toggle' )]"
+			}
+		}
+		
+		scrollbox = {
+			name = "Planes"
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			
+			blockoverride "scrollbox_content"
+			{
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_daanvi.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "daanvi: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('daanvi_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('daanvi_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = daanvi_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('daanvi_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('daanvi_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_dolurrh.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "dolurrh: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('dolurrh_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('dolurrh_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = dolurrh_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('dolurrh_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('dolurrh_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_fernia.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "Fernia: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('fernia_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('fernia_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = fernia_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('fernia_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('fernia_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_irian.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "irian: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('irian_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('irian_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = irian_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('irian_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('irian_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_kythri.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "kythri: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('kythri_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('kythri_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = kythri_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('kythri_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('kythri_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_lamannia.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "lamannia: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('lamannia_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('lamannia_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = lamannia_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('lamannia_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('lamannia_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_mabar.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "mabar: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('mabar_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('mabar_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = mabar_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('mabar_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('mabar_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_risia.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "risia: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('risia_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('risia_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = risia_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('risia_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('risia_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_shavarath.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "shavarath: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('shavarath_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('shavarath_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = shavarath_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('shavarath_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('shavarath_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_syrania.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "syrania: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('syrania_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('syrania_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = syrania_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('syrania_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('syrania_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_thelanis.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "thelanis: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('thelanis_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('thelanis_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = thelanis_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('thelanis_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('thelanis_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+				vbox = {
+					spacing = 16
+					hbox = {
+						spacing = 16
+						icon = {
+							size = { 60 60 }
+							texture = "gfx/interface/icons/plane_xoriat.dds"
+						}
+						vbox = {
+							text_label_center = {
+								text = "xoriat: The Sea of Fire"
+								fontsize = 20
+							}
+							progressbar_standard = {
+								progresstexture = "gfx/interface/progressbars/progress_orange.dds"
+								tooltip = "[GetPlayer.MakeScope.ScriptValue('xoriat_value')]"
+								size = { 300 20 }
+								min = 0
+								max = 100
+								value = "[GetPlayer.MakeScope.ScriptValue('xoriat_value')]"
+							}
+						}
+					}
+					hbox = {
+						layoutpolicy_vertical = expanding
+						spacing = 16
+						vbox = {
+							text_label_center = {
+								text = "Remote Effects"
+							}
+							text_multi = {
+								text = xoriat_remote_effects
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('xoriat_remote').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+						divider_light = {
+							layoutpolicy_vertical = growing
+						}
+						vbox = {
+							text_label_center = {
+								text = "Coterminous Effects"
+							}
+							text_multi = {
+								text = "Lorem ipsum dolor."
+								autoresize = yes
+								max_width = 250
+								margin = { 15 10 }
+								margin_top = 0
+							}
+							background = {
+								using = Background_Area
+							}
+							background = {
+								visible = "[GetScriptedGui('xoriat_coterminous').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								using = Status_Bad
+								alpha = 0.5
+								margin = { 0 0 }
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

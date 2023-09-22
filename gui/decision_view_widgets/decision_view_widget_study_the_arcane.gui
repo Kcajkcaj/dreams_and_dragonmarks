@@ -1,0 +1,79 @@
+# Required controller: decision_option_list_controller
+
+vbox = {
+	name = "decision_view_widget_study_the_arcane"
+	layoutpolicy_horizontal = expanding
+	layoutpolicy_vertical = expanding
+	ignoreinvisible = yes
+
+	margin_top = 10
+	spacing = 10
+
+	text_label_center = {
+		text = "recruit_dragonmarked_heir_decision_pick_a_house"
+	}
+
+	hbox = {
+		layoutpolicy_horizontal = expanding
+		layoutpolicy_vertical = expanding		
+
+		scrollbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+
+			blockoverride "scrollbox_content" {
+				vbox = {
+					datamodel = "[DecisionViewWidgetOptionList.GetEntries]"
+					spacing = 6
+
+					item = {
+						MagicSchoolSchools = {}
+					}
+				}
+			}
+
+			blockoverride "scrollbox_background_fade" {}
+		}
+	}
+}
+
+types MagicSchoolTypes
+{
+	type MagicSchoolSchools = button_standard {
+		size = {450 70}
+		margin = {10 10}
+		
+		onclick = "[DecisionViewWidgetOptionList.OnSelect(Entry.Self)]"
+		enabled = "[Entry.IsEnabled]"
+		tooltip = "[Entry.GetTooltip]"
+		down = "[Entry.IsSelected]"
+		
+		hbox = {
+			layoutpolicy_horizontal = expanding
+			layoutpolicy_vertical = expanding
+			spacing = 10
+			margin_left = 10
+			
+			icon = {
+				name = "magic_school_icon"
+				size = { 50 50 }
+				texture = "[Entry.GetIcon]"
+				framesize = { 238 240 }
+				frame = 1
+			}
+			
+			vbox = {
+				name = "magic_school_info"
+
+				text_single = {
+					name = "magic_school_type"
+					text = "[Entry.GetName]"
+					align = nobaseline|left
+					max_width = 250
+				}
+			}
+
+			expand = {}	
+		}
+	}
+}

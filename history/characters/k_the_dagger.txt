@@ -174,7 +174,7 @@ magdalora_of_kingswood = {
 valii_of_kingswood = {
 	name = "Valii"
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	female = yes
 	
 	3372.4.4 = {

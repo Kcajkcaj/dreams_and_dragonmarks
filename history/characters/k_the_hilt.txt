@@ -1,7 +1,7 @@
 aaspar_of_silln = {
 	name = "Aaspar"
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	female = yes
 	
 	trait = education_learning_3

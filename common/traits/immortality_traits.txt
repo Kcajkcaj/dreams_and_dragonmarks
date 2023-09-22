@@ -10,4 +10,5 @@ vampire = {
 	martial = 1
 	learning = 2
 	flag = blocks_getting_non_epidemic_disease
+	flag = immortal_cravings
 }

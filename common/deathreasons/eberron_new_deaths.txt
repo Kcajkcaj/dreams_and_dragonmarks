@@ -1,0 +1,4 @@
+﻿death_succumbed_to_cravings = {
+	public_knowledge = yes
+	icon = "death_natural.dds"
+}

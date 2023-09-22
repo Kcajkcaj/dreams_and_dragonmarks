@@ -25,6 +25,39 @@
 		}
 	}
 	
+	tenet_atheism = {
+		icon = core_tenet_aniconism
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_atheism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
+		parameters = {
+			holy_wars_forbidden = yes
+			monthly_piety_mult = -0.5
+			monthly_prestige_mult = 0.5
+		}
+	}
+	
+	tenet_ascendant_form = {
+		icon = core_tenet_sun_worship
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_ascendant_form }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
+	}
+	
 	tenet_bloodstained_liturgy = {
 		icon = core_tenet_gruesome_festivals
 		
@@ -133,6 +166,34 @@
 		}
 	}
 	
+	tenet_consumptive_evolution = {
+		icon = core_tenet_ritual_cannibalism
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_consumptive_evolution }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
+	}
+	
+	tenet_cult = {
+		icon = core_tenet_ritual_celebrations
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_cult }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
+	}
+	
 	tenet_divine_inspiration = {
 		icon = core_tenet_communion
 		
@@ -204,6 +265,20 @@
 		}
 	}
 	
+	tenet_groves_and_gardens = {
+		icon = core_tenet_sanctity_of_nature
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_groves_and_gardens }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
+	}
+	
 	tenet_holy_matrimony = {
 		icon = core_tenet_ritual_celebrations
 		
@@ -227,10 +302,25 @@
 			better_spouses = yes
 			arawai = yes
 			boldrei = yes
+			cheaper_weddings = yes
 		}
 
 		character_modifier = {
 			spouse_opinion = 10
+		}
+	}
+	
+	tenet_moonwatchers = {
+		icon = core_tenet_astrology
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_moonwatchers }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
 		}
 	}
 	
@@ -392,6 +482,20 @@
 		}
 	}
 	
+	tenet_stormwracked_peaks = {
+		icon = core_tenet_sky_burials
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_stormwracked_peaks }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
+	}
+	
 	tenet_theurgic_arcana = {
 		icon = core_tenet_bhakti
 		
@@ -411,6 +515,20 @@
 		}
 		
 		traits = {virtues = {mage = 2}}
+	}
+	
+	tenet_touched_by_madness = {
+		icon = core_tenet_adorcism
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_touched_by_madness }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
 	}
 	
 	tenet_untamed_inhibitions = {

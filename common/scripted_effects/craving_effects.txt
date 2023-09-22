@@ -1,0 +1,29 @@
+add_craving = {
+	if = {
+		limit = {
+			NOT = { has_variable = craving }
+		}
+		set_variable = {
+			name = craving
+			value = 0
+		}
+	}
+	change_variable = {
+		name = craving
+		add = $VALUE$
+	}
+	if = {
+		limit = {var:craving < 0}
+		set_variable = {
+			name = craving
+			value = 0
+		}
+	}
+	if = {
+		limit = {var:craving >= 100}
+		set_variable = {
+			name = craving
+			value = 100
+		}
+	}
+}

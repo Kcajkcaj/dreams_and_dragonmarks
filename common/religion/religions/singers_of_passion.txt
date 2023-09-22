@@ -25,8 +25,8 @@ first_song_religion = {
 	doctrine = doctrine_fornication_men_accepted
 	doctrine = doctrine_fornication_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
-	doctrine = doctrine_deviancy_celebrated
-	doctrine = doctrine_witchcraft_celebrated
+	doctrine = doctrine_deviancy_virtuous
+	doctrine = doctrine_witchcraft_virtuous
 	
 	# Clerical Functions
 	doctrine = doctrine_clerical_function_alms_and_pacification
@@ -35,8 +35,8 @@ first_song_religion = {
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 	
 	traits = {
-		virtues = {lustful wrathful arrogant}
-		sins = {chaste temperate humble}
+		virtues = {lustful vengeful wrathful}
+		sins = {chaste forgiving calm}
 	}
 	
 	reserved_male_names = {}
@@ -245,6 +245,9 @@ first_song_religion = {
 			#Tenets
 			doctrine = tenet_enchanting_hymns
 			doctrine = tenet_untamed_inhibitions
+			doctrine = tenet_stormwracked_peaks
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_bloodstained_liturgy
 		}
 	}
 }

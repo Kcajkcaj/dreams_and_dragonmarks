@@ -11,14 +11,14 @@
 ### Glyphstone
 74 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = castle_holding
 }
 75 = {holding = city_holding}
 ### Bearswood
 76 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = castle_holding
 }
 77 = {holding = none}
@@ -26,7 +26,7 @@
 ### Tansend
 79 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = castle_holding
 }
 80 = {holding = none}
@@ -35,7 +35,7 @@
 ### Kingswood A
 83 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = tribal_holding
 }
 84 = {holding = none}
@@ -44,7 +44,7 @@
 ### Kingswood B
 87 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = tribal_holding
 }
 88 = {holding = none}
@@ -52,7 +52,7 @@
 ### Kingswood C
 90 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = castle_holding
 }
 91 = {holding = none}

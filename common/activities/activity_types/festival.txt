@@ -298,6 +298,37 @@ activity_festival = {
 				}
 			}
 		}
+		festival_phase_orgy {
+			can_pick = {faith = {has_doctrine_parameter = orgies_at_festivals}}
+			on_phase_active = {
+				if = {
+					limit = {this = scope:host}
+					scope:activity = { progress_activity_phase_after = { months = 1 } }
+				}
+			}
+			on_end = {
+				if = {
+					limit = {this = scope:host}
+					scope:activity = { progress_activity_phase_after = { days = 1 } }
+				}
+			}
+			cost = {
+				gold = {
+					add = {
+						add = {
+							value = festival_phase_cost
+							desc = feast_activity_cost_desc
+						}
+						add = {
+							value = festival_phase_cost
+							multiply = activity_cost_scale_by_era
+							subtract = festival_phase_cost
+							desc = activity_cost_scale_by_era_desc
+						}
+					}
+				}
+			}
+		}
 		festival_phase_end = {
 			order = 2
 			is_predefined = yes

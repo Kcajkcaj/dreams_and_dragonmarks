@@ -171,7 +171,7 @@
 ### Znir
 520 = {
 	culture = gnoll
-	faith = akom
+	faith = znir
 	holding = tribal_holding
 }
 521 = {holding = none}
@@ -179,7 +179,7 @@
 ### Stonejaw
 523 = {
 	culture = gnoll
-	faith = akom
+	faith = znir
 	holding = tribal_holding
 }
 524 = {holding = none}
@@ -195,14 +195,14 @@
 ### B
 529 = {
 	culture = gnoll
-	faith = akom
+	faith = znir
 	holding = tribal_holding
 }
 530 = {holding = none}
 ### C
 531 = {
 	culture = gnoll
-	faith = akom
+	faith = znir
 	holding = tribal_holding
 }
 532 = {holding = none}
@@ -210,7 +210,7 @@
 ### D
 534 = {
 	culture = gnoll
-	faith = akom
+	faith = znir
 	holding = tribal_holding
 }
 535 = {holding = none}
@@ -314,7 +314,7 @@
 ### D
 570 = {
 	culture = azhani
-	faith = akom
+	faith = whisperers
 	holding = tribal_holding
 }
 571 = {holding = none}
@@ -343,7 +343,7 @@
 ### Patrahkn
 583 = {
 	culture = azhani
-	faith = akom
+	faith = whisperers
 	holding = tribal_holding
 }
 584 = {holding = none}
@@ -351,7 +351,7 @@
 ### Blackroot
 586 = {
 	culture = azhani
-	faith = akom
+	faith = whisperers
 	holding = tribal_holding
 }
 587 = {holding = none}
@@ -367,21 +367,21 @@
 ### Karthoon Tor
 592 = {
 	culture = azhani
-	faith = akom
+	faith = whisperers
 	holding = tribal_holding
 }
 593 = {holding = none}
 ### Arashuul
 594 = {
 	culture = azhani
-	faith = akom
+	faith = whisperers
 	holding = tribal_holding
 }
 595 = {holding = none}
 ### Blackwater
 596 = {
 	culture = azhani
-	faith = akom
+	faith = whisperers
 	holding = tribal_holding
 }
 597 = {holding = none}
@@ -519,7 +519,7 @@
 ### B
 645 = {
 	culture = azhani
-	faith = akom
+	faith = whisperers
 	holding = tribal_holding
 }
 646 = {holding = none}
@@ -535,7 +535,7 @@
 ### D
 651 = {
 	culture = azhani
-	faith = akom
+	faith = whisperers
 	holding = tribal_holding
 }
 652 = {holding = none}

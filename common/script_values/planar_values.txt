@@ -1,0 +1,129 @@
+daanvi_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 146000
+		divide = 146000
+		multiply = 200
+	}
+	abs = yes
+}
+
+dolurrh_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 18615
+		divide = 18615
+		multiply = 200
+	}
+	abs = yes
+}
+
+fernia_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 1825
+		divide = 1825
+		multiply = 200
+	}
+	abs = yes
+}
+
+irian_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 1095
+		divide = 1095
+		multiply = 200
+	}
+	abs = yes
+}
+
+kythri_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 12345
+		divide = 12345
+		multiply = 200
+	}
+	abs = yes
+}
+
+lamannia_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 365
+		divide = 365
+		multiply = 200
+	}
+	abs = yes
+}
+
+mabar_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 1825
+		divide = 1825
+		multiply = 200
+	}
+	abs = yes
+}
+
+risia_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 1825
+		divide = 1825
+		multiply = 200
+	}
+	abs = yes
+}
+
+shavarath_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 13140
+		divide = 13140
+		multiply = 200
+	}
+	abs = yes
+}
+
+syrania_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 3650
+		divide = 3650
+		multiply = 200
+	}
+	abs = yes
+}
+thelanis_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 82125
+		divide = 82125
+		multiply = 200
+	}
+	abs = yes
+}
+xoriat_value= {
+	value = 100
+	subtract = {
+		value = current_date
+		modulo = 15330
+		divide = 15330
+		multiply = 200
+	}
+	abs = yes
+}

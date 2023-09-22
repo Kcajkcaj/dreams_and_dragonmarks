@@ -1,0 +1,26 @@
+warmage_attribute = {
+	adjective = "Warmage"
+	noun = "Warmage"
+	accolade_categories = { men_at_arms army_bonus militant leader subtle ranged_fighter }
+	potential >= {
+		prowess >= accolade_prowess_requirement_value
+		has_trait = mage
+	}
+	
+	ranks = {
+		100 = {
+		}
+		300 = {
+		}
+		600 = {
+			men_at_arms = {accolade_maa_warmages}
+		}
+		1000 = {
+		}
+		1500 = {
+			men_at_arms = {accolade_maa_warmages}
+		}
+		2100 = {
+		}
+	}
+}

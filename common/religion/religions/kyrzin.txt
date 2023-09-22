@@ -1,30 +1,30 @@
-cazhaak_creed_religion = {
-	family =  rf_draconic
+kyrzin_religion = {
+	family =  rf_daelkyr
 	doctrine_background_icon = core_tenet_banner_christian.dds
 	doctrine = abrahamic_hostility_doctrine
 	
 	# Main Group
-	doctrine = doctrine_temporal_head
-	doctrine = doctrine_gender_female_dominated
+	doctrine = doctrine_spiritual_head
+	doctrine = doctrine_gender_equal
 	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_lay_clergy
 	doctrine = doctrine_pantheon_small
 	doctrine = doctrine_pilgrimage_encouraged
 	
 	# Marriage
-	doctrine = doctrine_monogamy
-	doctrine = doctrine_concubines_few
+	doctrine = doctrine_polygamy_none
+	doctrine = doctrine_concubines_many
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_none
 	doctrine = doctrine_consanguinity_cousins
 	
 	# Crimes
 	doctrine = doctrine_homosexuality_accepted
-	doctrine = doctrine_adultery_men_shunned
-	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
 	doctrine = doctrine_fornication_men_accepted
 	doctrine = doctrine_fornication_women_accepted
-	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_kinslaying_accepted
 	doctrine = doctrine_deviancy_virtuous
 	doctrine = doctrine_witchcraft_virtuous
 	
@@ -35,8 +35,8 @@ cazhaak_creed_religion = {
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 	
 	traits = {
-		virtues = {inquisitive ambitious arrogant}
-		sins = {lazy content humble}
+		virtues = {gluttonous ambitious inquisitive}
+		sins = {temperate content chaste}
 	}
 	
 	reserved_male_names = {}
@@ -59,120 +59,115 @@ cazhaak_creed_religion = {
 	
 	localization = {
 		#HighGod
-		HighGodName = the_shadow_name
-		HighGodName2 = the_shadow_name
-		HighGodNamePossessive = the_shadow_name_possessive
-		HighGodNameSheHe = CHARACTER_SHEHE_SHE
-		HighGodHerselfHimself = CHARACTER_HERSELF
-		HighGodHerHis = CHARACTER_HERHIS_HER
-		HighGodNameAlternate = the_shadow_name
-		HighGodNameAlternatePossessive = the_shadow_name_possessive
+		HighGodName = kyrzin_name
+		HighGodName2 = kyrzin_name
+		HighGodNamePossessive = kyrzin_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = kyrzin_name
+		HighGodNameAlternatePossessive = kyrzin_name_possessive
 
 		#Creator
 		CreatorName = siberys_name
 		CreatorNamePossessive = siberys_name_possessive
-		CreatorSheHe = CHARACTER_SHEHE_SHE
-		CreatorHerHis = CHARACTER_HERHIS_HER
-		CreatorHerHim = CHARACTER_HERHIM_HER
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod
-		HealthGodName = arawai_name
-		HealthGodNamePossessive = arawai_name_possessive
-		HealthGodSheHe = CHARACTER_SHEHE_SHE
-		HealthGodHerHis = CHARACTER_HERHIS_HER
-		HealthGodHerHim = CHARACTER_HERHIM_HER
+		HealthGodName = kyrzin_name
+		HealthGodNamePossessive = kyrzin_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
-		FertilityGodName = szorawai_name
-		FertilityGodNamePossessive = szorawai_name_possessive
-		FertilityGodSheHe = CHARACTER_SHEHE_SHE
-		FertilityGodHerHis = CHARACTER_HERHIS_HER
-		FertilityGodHerHim = CHARACTER_HERHIM_HER
+		FertilityGodName = kyrzin_name
+		FertilityGodNamePossessive = kyrzin_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_HE
+		FertilityGodHerHis = CHARACTER_HERHIS_HIS
+		FertilityGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WealthGod
-		WealthGodName = kol_turrant_name
-		WealthGodNamePossessive = kol_turrant_name_possessive
+		WealthGodName = kyrzin_name
+		WealthGodNamePossessive = kyrzin_name_possessive
 		WealthGodSheHe = CHARACTER_SHEHE_HE
 		WealthGodHerHis = CHARACTER_HERHIS_HIS
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
 
 		#HouseholdGod
-		HouseholdGodName = boldrei_name
-		HouseholdGodNamePossessive = boldrei_name_possessive
-		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-		HouseholdGodHerHis = CHARACTER_HERHIS_HER
-		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+		HouseholdGodName = kyrzin_name_possessive
+		HouseholdGodNamePossessive = kyrzin_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FateGod
-		FateGodName = aureon_name
-		FateGodNamePossessive = aureon_name_possessive
+		FateGodName = kyrzin_name
+		FateGodNamePossessive = kyrzin_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_HE
 		FateGodHerHis = CHARACTER_HERHIS_HIS
 		FateGodHerHim = CHARACTER_HERHIM_HIM
 
 		#KnowledgeGod
-		KnowledgeGodName = the_shadow_name
-		KnowledgeGodNamePossessive = the_shadow_name_possessive
-		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+		KnowledgeGodName = kyrzin_name
+		KnowledgeGodNamePossessive = kyrzin_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WarGod
-		WarGodName = dol_azur_name
-		WarGodNamePossessive = dol_azur_name_possessive
+		WarGodName = kyrzin_name
+		WarGodNamePossessive = kyrzin_name_possessive
 		WarGodSheHe = CHARACTER_SHEHE_HE
 		WarGodHerHis = CHARACTER_HERHIS_HIS
 		WarGodHerHim = CHARACTER_HERHIM_HIM
 
 		#TricksterGod
-		TricksterGodName = the_traveler_name
-		TricksterGodNamePossessive = the_traveler_name_possessive
+		TricksterGodName = kyrzin_name
+		TricksterGodNamePossessive = kyrzin_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
 		TricksterGodHerHim = CHARACTER_HERHIM_HIM
 
 		#NightGod
-		NightGodName = the_shadow_name
-		NightGodNamePossessive = the_shadow_name_possessive
-		NightGodSheHe = CHARACTER_SHEHE_SHE
-		NightGodHerHis = CHARACTER_HERHIS_HER
-		NightGodHerHim = CHARACTER_HERHIM_HER
+		NightGodName = kyrzin_name
+		NightGodNamePossessive = kyrzin_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WaterGod
-		WaterGodName = shurkaan_name
-		WaterGodNamePossessive = shurkaan_name_possessive
+		WaterGodName = kyrzin_name
+		WaterGodNamePossessive = kyrzin_name_possessive
 		WaterGodSheHe = CHARACTER_SHEHE_HE
 		WaterGodHerHis = CHARACTER_HERHIS_HIS
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 		
 		# DeathGod
-		DeathDeityName = kol_turrant_name
-		DeathDeityNamePossessive = kol_turrant_name_possessive
+		DeathDeityName = kyrzin_name
+		DeathDeityNamePossessive = kyrzin_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
 		
 		# Witch God
-		WitchGodName = the_shadow_name
-		WitchGodNamePossessive = the_shadow_name_possessive
-		WitchGodHerHis = CHARACTER_HERHIS_HER
-		WitchGodSheHe = CHARACTER_SHEHE_SHE
-		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodName = kyrzin_name
+		WitchGodNamePossessive = kyrzin_name_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
 		WitchGodMistressMaster = mistress
 		WitchGodMotherFather = mother
 		
 		#Pantheon
-		PantheonTerm = the_sovereigns
-		PantheonTerm2 = the_sovereigns
-		PantheonTerm3 = the_sovereigns
-		PantheonTermHasHave = pantheon_term_have
+		PantheonTerm = kyrzin_name
+		PantheonTerm2 = kyrzin_name
+		PantheonTerm3 = kyrzin_name
+		PantheonTermHasHave = pantheon_term_has
 		# Good Gods
 		GoodGodNames = {
-			the_shadow_name
-			szorawai_name
-			shurkaan_name
-			kol_turrant_name
-			dol_dorn_name
-			dol_azur_name
+			kyrzin_name
 		}
 		# Evil Gods
 		DevilName = aureon_name
@@ -237,17 +232,18 @@ cazhaak_creed_religion = {
 	}
 	
 	faiths = {
-		cazhaak_creed = {
-			color = { 0.35 0.0 0.5 }
+		whisperers = {
+			color = { 0.25 0.6 0.45 }
 			graphical_faith = "catholic_gfx"
-			
+						
 			holy_site = korranath
 						
 			#Tenets
-			doctrine = tenet_divine_right
-			doctrine = tenet_pursuit_of_power
-			doctrine = tenet_theurgic_arcana
-			doctrine = tenet_untamed_inhibitions
+			doctrine = tenet_bloodstained_liturgy
+			doctrine = tenet_cult
+			doctrine = tenet_enchanting_hymns
+			doctrine = tenet_consumptive_evolution
+			doctrine = tenet_touched_by_madness
 		}
 	}
 }

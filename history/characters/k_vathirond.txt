@@ -8,6 +8,40 @@ chaseva_lantar = { # Queen of Vathirond
 	3359.1.10 = { birth = yes }
 }
 
+beren_lantar = {
+	name = "Beren"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_lantar
+	mother = chaseva_lantar
+	
+	3380.5.4 = {birth = yes}
+}
+
+molric_lantar = {
+	name = "Molric"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_lantar
+	mother = chaseva_lantar
+	
+	3384.6.19 = {birth = yes}
+}
+
+duran_lantar = {
+	name = "Duran"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_lantar
+	mother = chaseva_lantar
+	
+	
+	3385.6.21 = {birth = yes}
+}
+
 boranex_perryn = { # Former Duke of Dragonscrown
 	name = "Boranex"
 	culture = vathir
@@ -90,8 +124,8 @@ itlani_zarna = { # Former Duke of Hatheril
 	female = yes
 	dynasty = dynn_vathir_zarna
 	
-	3343.3.13 = { birth = yes }
-	3389.5.16 = { death = yes }
+	3357.3.13 = { birth = yes }
+	3402.5.16 = { death = yes }
 }
 
 mirasandra_zarna = { # Duke of Hatheril
@@ -103,7 +137,7 @@ mirasandra_zarna = { # Duke of Hatheril
 	
 	mother = itlani_zarna
 	
-	3361.2.13 = { birth = yes}
+	3374.2.13 = { birth = yes}
 }
 
 merrix_zarna = { # Count of Swordmoor
@@ -115,7 +149,7 @@ merrix_zarna = { # Count of Swordmoor
 	
 	mother = itlani_zarna
 	
-	3365.9.12 = { birth = yes}
+	3379.9.12 = { birth = yes}
 }
 
 wrogarr_zarna = { # Count of Cragwar
@@ -127,7 +161,7 @@ wrogarr_zarna = { # Count of Cragwar
 	
 	mother = itlani_zarna
 	
-	3363.11.11 = { birth = yes}
+	3383.11.11 = { birth = yes}
 }
 
 tyrala_zarna = { # Count of Fort Light
@@ -139,7 +173,7 @@ tyrala_zarna = { # Count of Fort Light
 	
 	mother = itlani_zarna
 	
-	3367.7.18 = { birth = yes}
+	3387.7.18 = { birth = yes}
 }
 
 erix_talan = { # Count of New Cyre
@@ -149,7 +183,7 @@ erix_talan = { # Count of New Cyre
 	female = no
 	dynasty = dynn_vathir_talan
 	
-	3378.2.14 = {birth = yes}
+	3383.2.14 = {birth = yes}
 }
 
 riki_thadian = { # Count of Vathirond C

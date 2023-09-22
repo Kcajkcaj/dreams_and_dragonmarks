@@ -1,0 +1,107 @@
+daanvi_coterminous = {
+	scope = character
+	is_shown = {daanvi_is_coterminous = yes}
+}
+daanvi_remote = {
+	scope = character
+	is_shown = {daanvi_is_remote = yes}
+}
+
+dolurrh_coterminous = {
+	scope = character
+	is_shown = {dolurrh_is_coterminous = yes}
+}
+dolurrh_remote = {
+	scope = character
+	is_shown = {dolurrh_is_remote = yes}
+}
+
+fernia_coterminous = {
+	scope = character
+	is_shown = {fernia_is_coterminous = yes}
+}
+fernia_remote = {
+	scope = character
+	is_shown = {fernia_is_remote = yes}
+}
+
+irian_coterminous = {
+	scope = character
+	is_shown = {irian_is_coterminous = yes}
+}
+irian_remote = {
+	scope = character
+	is_shown = {irian_is_remote = yes}
+}
+
+kythri_coterminous = {
+	scope = character
+	is_shown = {kythri_is_coterminous = yes}
+}
+kythri_remote = {
+	scope = character
+	is_shown = {kythri_is_remote = yes}
+}
+
+lamannia_coterminous = {
+	scope = character
+	is_shown = {lamannia_is_coterminous = yes}
+}
+lamannia_remote = {
+	scope = character
+	is_shown = {lamannia_is_remote = yes}
+}
+
+mabar_coterminous = {
+	scope = character
+	is_shown = {mabar_is_coterminous = yes}
+}
+mabar_remote = {
+	scope = character
+	is_shown = {mabar_is_remote = yes}
+}
+
+risia_coterminous = {
+	scope = character
+	is_shown = {risia_is_coterminous = yes}
+}
+risia_remote = {
+	scope = character
+	is_shown = {risia_is_remote = yes}
+}
+
+shavarath_coterminous = {
+	scope = character
+	is_shown = {shavarath_is_coterminous = yes}
+}
+shavarath_remote = {
+	scope = character
+	is_shown = {shavarath_is_remote = yes}
+}
+
+syrania_coterminous = {
+	scope = character
+	is_shown = {syrania_is_coterminous = yes}
+}
+syrania_remote = {
+	scope = character
+	is_shown = {syrania_is_remote = yes}
+}
+
+thelanis_coterminous = {
+	scope = character
+	is_shown = {thelanis_is_coterminous = yes}
+}
+thelanis_remote = {
+	scope = character
+	is_shown = {thelanis_is_remote = yes}
+}
+
+xoriat_coterminous = {
+	scope = character
+	is_shown = {xoriat_is_coterminous = yes}
+}
+xoriat_remote = {
+	scope = character
+	is_shown = {xoriat_is_remote = yes}
+}

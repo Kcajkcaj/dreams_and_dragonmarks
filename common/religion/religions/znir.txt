@@ -1,32 +1,32 @@
-cazhaak_creed_religion = {
-	family =  rf_draconic
+znir_religion = {
+	family =  rf_pagan
 	doctrine_background_icon = core_tenet_banner_christian.dds
 	doctrine = abrahamic_hostility_doctrine
 	
 	# Main Group
-	doctrine = doctrine_temporal_head
+	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_female_dominated
 	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_lay_clergy
-	doctrine = doctrine_pantheon_small
+	doctrine = doctrine_pantheon_none
 	doctrine = doctrine_pilgrimage_encouraged
 	
 	# Marriage
-	doctrine = doctrine_monogamy
-	doctrine = doctrine_concubines_few
+	doctrine = doctrine_polygamy_none
+	doctrine = doctrine_concubines_none
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_none
 	doctrine = doctrine_consanguinity_cousins
 	
 	# Crimes
 	doctrine = doctrine_homosexuality_accepted
-	doctrine = doctrine_adultery_men_shunned
-	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_adultery_men_accepted
+	doctrine = doctrine_adultery_women_accepted
 	doctrine = doctrine_fornication_men_accepted
 	doctrine = doctrine_fornication_women_accepted
-	doctrine = doctrine_kinslaying_close_kin_crime
-	doctrine = doctrine_deviancy_virtuous
-	doctrine = doctrine_witchcraft_virtuous
+	doctrine = doctrine_kinslaying_accepted
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_crime
 	
 	# Clerical Functions
 	doctrine = doctrine_clerical_function_alms_and_pacification
@@ -35,8 +35,8 @@ cazhaak_creed_religion = {
 	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 	
 	traits = {
-		virtues = {inquisitive ambitious arrogant}
-		sins = {lazy content humble}
+		virtues = {just diligent brave}
+		sins = {arbitrary craven }
 	}
 	
 	reserved_male_names = {}
@@ -59,14 +59,14 @@ cazhaak_creed_religion = {
 	
 	localization = {
 		#HighGod
-		HighGodName = the_shadow_name
-		HighGodName2 = the_shadow_name
-		HighGodNamePossessive = the_shadow_name_possessive
+		HighGodName = avassh_name
+		HighGodName2 = avassh_name
+		HighGodNamePossessive = avassh_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_SHE
 		HighGodHerselfHimself = CHARACTER_HERSELF
 		HighGodHerHis = CHARACTER_HERHIS_HER
-		HighGodNameAlternate = the_shadow_name
-		HighGodNameAlternatePossessive = the_shadow_name_possessive
+		HighGodNameAlternate = avassh_name
+		HighGodNameAlternatePossessive = avassh_name_possessive
 
 		#Creator
 		CreatorName = siberys_name
@@ -76,84 +76,84 @@ cazhaak_creed_religion = {
 		CreatorHerHim = CHARACTER_HERHIM_HER
 
 		#HealthGod
-		HealthGodName = arawai_name
-		HealthGodNamePossessive = arawai_name_possessive
+		HealthGodName = avassh_name
+		HealthGodNamePossessive = avassh_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_SHE
 		HealthGodHerHis = CHARACTER_HERHIS_HER
 		HealthGodHerHim = CHARACTER_HERHIM_HER
 		
 		#FertilityGod
-		FertilityGodName = szorawai_name
-		FertilityGodNamePossessive = szorawai_name_possessive
+		FertilityGodName = avassh_name
+		FertilityGodNamePossessive = avassh_name_possessive
 		FertilityGodSheHe = CHARACTER_SHEHE_SHE
 		FertilityGodHerHis = CHARACTER_HERHIS_HER
 		FertilityGodHerHim = CHARACTER_HERHIM_HER
 
 		#WealthGod
-		WealthGodName = kol_turrant_name
-		WealthGodNamePossessive = kol_turrant_name_possessive
-		WealthGodSheHe = CHARACTER_SHEHE_HE
-		WealthGodHerHis = CHARACTER_HERHIS_HIS
-		WealthGodHerHim = CHARACTER_HERHIM_HIM
+		WealthGodName = avassh_name
+		WealthGodNamePossessive = avassh_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_sHE
+		WealthGodHerHis = CHARACTER_HERHIS_HER
+		WealthGodHerHim = CHARACTER_HERHIM_HER
 
 		#HouseholdGod
-		HouseholdGodName = boldrei_name
-		HouseholdGodNamePossessive = boldrei_name_possessive
+		HouseholdGodName = avassh_name_possessive
+		HouseholdGodNamePossessive = avassh_name_possessive
 		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
 		HouseholdGodHerHis = CHARACTER_HERHIS_HER
 		HouseholdGodHerHim = CHARACTER_HERHIM_HER
 		
 		#FateGod
-		FateGodName = aureon_name
-		FateGodNamePossessive = aureon_name_possessive
-		FateGodSheHe = CHARACTER_SHEHE_HE
-		FateGodHerHis = CHARACTER_HERHIS_HIS
-		FateGodHerHim = CHARACTER_HERHIM_HIM
+		FateGodName = avassh_name
+		FateGodNamePossessive = avassh_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_SHE
+		FateGodHerHis = CHARACTER_HERHIS_HER
+		FateGodHerHim = CHARACTER_HERHIM_HER
 
 		#KnowledgeGod
-		KnowledgeGodName = the_shadow_name
-		KnowledgeGodNamePossessive = the_shadow_name_possessive
+		KnowledgeGodName = avassh_name
+		KnowledgeGodNamePossessive = avassh_name_possessive
 		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
 		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
 		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
 
 		#WarGod
-		WarGodName = dol_azur_name
-		WarGodNamePossessive = dol_azur_name_possessive
-		WarGodSheHe = CHARACTER_SHEHE_HE
-		WarGodHerHis = CHARACTER_HERHIS_HIS
-		WarGodHerHim = CHARACTER_HERHIM_HIM
+		WarGodName = avassh_name
+		WarGodNamePossessive = avassh_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_SHE
+		WarGodHerHis = CHARACTER_HERHIS_HER
+		WarGodHerHim = CHARACTER_HERHIM_HER
 
 		#TricksterGod
-		TricksterGodName = the_traveler_name
-		TricksterGodNamePossessive = the_traveler_name_possessive
-		TricksterGodSheHe = CHARACTER_SHEHE_HE
-		TricksterGodHerHis = CHARACTER_HERHIS_HIS
-		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+		TricksterGodName = avassh_name
+		TricksterGodNamePossessive = avassh_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_SHE
+		TricksterGodHerHis = CHARACTER_HERHIS_HER
+		TricksterGodHerHim = CHARACTER_HERHIM_HER
 
 		#NightGod
-		NightGodName = the_shadow_name
-		NightGodNamePossessive = the_shadow_name_possessive
+		NightGodName = avassh_name
+		NightGodNamePossessive = avassh_name_possessive
 		NightGodSheHe = CHARACTER_SHEHE_SHE
 		NightGodHerHis = CHARACTER_HERHIS_HER
 		NightGodHerHim = CHARACTER_HERHIM_HER
 
 		#WaterGod
-		WaterGodName = shurkaan_name
-		WaterGodNamePossessive = shurkaan_name_possessive
-		WaterGodSheHe = CHARACTER_SHEHE_HE
-		WaterGodHerHis = CHARACTER_HERHIS_HIS
-		WaterGodHerHim = CHARACTER_HERHIM_HIM
+		WaterGodName = avassh_name
+		WaterGodNamePossessive = avassh_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
 		
 		# DeathGod
-		DeathDeityName = kol_turrant_name
-		DeathDeityNamePossessive = kol_turrant_name_possessive
-		DeathDeitySheHe = CHARACTER_SHEHE_HE
-		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityName = avassh_name
+		DeathDeityNamePossessive = avassh_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_SHE
+		DeathDeityHerHis = CHARACTER_HERHIS_HER
 		
 		# Witch God
-		WitchGodName = the_shadow_name
-		WitchGodNamePossessive = the_shadow_name_possessive
+		WitchGodName = avassh_name
+		WitchGodNamePossessive = avassh_name_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HER
 		WitchGodSheHe = CHARACTER_SHEHE_SHE
 		WitchGodHerHim = CHARACTER_HERHIM_HER
@@ -161,18 +161,13 @@ cazhaak_creed_religion = {
 		WitchGodMotherFather = mother
 		
 		#Pantheon
-		PantheonTerm = the_sovereigns
-		PantheonTerm2 = the_sovereigns
-		PantheonTerm3 = the_sovereigns
-		PantheonTermHasHave = pantheon_term_have
+		PantheonTerm = avassh_name
+		PantheonTerm2 = avassh_name
+		PantheonTerm3 = avassh_name
+		PantheonTermHasHave = pantheon_term_has
 		# Good Gods
 		GoodGodNames = {
-			the_shadow_name
-			szorawai_name
-			shurkaan_name
-			kol_turrant_name
-			dol_dorn_name
-			dol_azur_name
+			avassh_name
 		}
 		# Evil Gods
 		DevilName = aureon_name
@@ -237,17 +232,18 @@ cazhaak_creed_religion = {
 	}
 	
 	faiths = {
-		cazhaak_creed = {
-			color = { 0.35 0.0 0.5 }
+		znir = {
+			color = {0.6 0.6 0.6}
 			graphical_faith = "catholic_gfx"
-			
+						
 			holy_site = korranath
 						
 			#Tenets
-			doctrine = tenet_divine_right
-			doctrine = tenet_pursuit_of_power
-			doctrine = tenet_theurgic_arcana
-			doctrine = tenet_untamed_inhibitions
+			doctrine = tenet_moonwatchers
+			doctrine = tenet_atheism
+			doctrine = tenet_called_to_battle
+			doctrine = tenet_conclaves
+			doctrine = tenet_consumptive_evolution
 		}
 	}
 }

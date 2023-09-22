@@ -26,7 +26,7 @@ nasaari_religion = {
 	doctrine = doctrine_fornication_women_shunned
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_shunned
-	doctrine = doctrine_witchcraft_celebrated
+	doctrine = doctrine_witchcraft_virtuous
 	
 	# Clerical Functions
 	doctrine = doctrine_clerical_function_alms_and_pacification

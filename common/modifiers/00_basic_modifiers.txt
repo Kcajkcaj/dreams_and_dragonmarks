@@ -43,6 +43,9 @@ learning_modifier = {
 	monthly_piety = 0.1
 	monthly_learning_lifestyle_xp_gain_mult = 0.02
 }
+learning_modifier_with_offset = {
+	mage_xp_gain_mult = 0.05
+}
 
 prowess_modifier = {
 }

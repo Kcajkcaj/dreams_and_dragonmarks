@@ -1,0 +1,17 @@
+birth_plane_trait_check = {
+	random = {
+		chance = 1
+		modifier = {
+			add = 10
+			$PLANE$_is_coterminous = yes
+		}
+		modifier = {
+			add = 10
+			or = {
+				real_father = {has_trait = planetouched_$PLANE$}
+				real_mother = {has_trait = planetouched_$PLANE$}
+			}
+		}
+		add_trait = planetouched_$PLANE$
+	}
+}

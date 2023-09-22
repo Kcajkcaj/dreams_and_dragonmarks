@@ -53,7 +53,7 @@
 ### Yarkuun Draal
 14 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = tribal_holding
 }
 15 = {
@@ -68,7 +68,7 @@
 ### Zilspar
 18 = {
 	culture = shaarati
-	faith = akom_pagan
+	faith = cornucopian
 	holding = castle_holding
 }
 19 = {
@@ -86,7 +86,7 @@
 ### Flint Keep
 23 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = tribal_holding
 }
 24 = {
@@ -98,7 +98,7 @@
 ### Lower Silln
 26 = {
 	culture = daggerborn
-	faith = akom_pagan
+	faith = cornucopian
 	holding = tribal_holding
 }
 27 = {

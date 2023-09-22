@@ -58,6 +58,7 @@ pool_repopulate_prowess = {
 		strong = {}
 		athletic = {}
 		lifestyle_hunter = {}
+		mage = {}
 	}
 	dynasty = none
 	after_creation = {
@@ -515,7 +516,7 @@ pool_repopulate_learning = {
 		education_learning_4 = { weight = { base = 10 } }
 	}
 	random_traits_list = {
-		count = { 0 1 }
+		count = { 0 2 }
 		scholar = {}
 		theologian = {}
 		whole_of_body = {}
@@ -530,6 +531,7 @@ pool_repopulate_learning = {
 		content = {}
 		cynical = {}
 		lazy = {}
+		mage = {}
 	}
 	dynasty = none
 	after_creation = {
@@ -740,6 +742,7 @@ pool_repopulate_local_flavor = {
 		architect = {}
 		diplomat = {}
 		lifestyle_hunter = {}
+		mage = {}
 	}
 	dynasty = none
 	
