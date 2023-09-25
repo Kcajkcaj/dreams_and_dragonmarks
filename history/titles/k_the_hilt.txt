@@ -6,12 +6,14 @@ d_sharn = {
 }
 c_central_plateau = {
 	3400.1.1 = {
-		holder = tasra_malleonid
+		liege = d_sharn
+		holder = hestian_tain
 	}
 }
 c_dura = {
 	3400.1.1 = {
-		holder = tasra_malleonid
+		liege = d_sharn
+		holder = barchan_tyran
 	}
 }
 c_northedge = {
@@ -22,7 +24,7 @@ c_northedge = {
 c_menthis_plateau = {
 	3400.1.1 = {
 		liege = d_sharn
-		holder = halas_tarkanan
+		holder = lareth_morgrave
 	}
 }
 c_tavicks_landing = {

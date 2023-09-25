@@ -1,7 +1,7 @@
 khalar_tharashk = {
 	name = "Khalar"
 	culture = azhani
-	faith = akom_pagan
+	faith = norse_pagan
 	female = no
 	dynasty = dynn_tharashk
 	
@@ -15,7 +15,7 @@ khalar_tharashk = {
 veldera_tharashk = {
 	name = "Veldera"
 	culture = azhani
-	faith = akom_pagan
+	faith = gaaaram
 	female = yes
 	dynasty = dynn_tharashk
 	
@@ -29,7 +29,7 @@ veldera_tharashk = {
 orgaal_tharashk = {
 	name = "Orgaal"
 	culture = azhani
-	faith = akom_pagan
+	faith = gaaaram
 	female = no
 	dynasty = dynn_tharashk
 	
@@ -43,7 +43,7 @@ orgaal_tharashk = {
 torshaa_tharashk = {
 	name = "Torshaa"
 	culture = azhani
-	faith = akom_pagan
+	faith = gaaaram
 	female = yes
 	dynasty = dynn_tharashk
 	
@@ -57,7 +57,7 @@ torshaa_tharashk = {
 vaalda_tharashk = {
 	name = "Vaalda"
 	culture = azhani
-	faith = akom_pagan
+	faith = gaaaram
 	female = yes
 	dynasty = dynn_tharashk
 	
@@ -71,7 +71,7 @@ vaalda_tharashk = {
 torrn_tharashk = {
 	name = "Torrn"
 	culture = azhani
-	faith = akom_pagan
+	faith = norse_pagan
 	female = no
 	dynasty = dynn_tharashk
 	
@@ -85,7 +85,7 @@ torrn_tharashk = {
 torruk_tharashk = {
 	name = "Torruk"
 	culture = azhani
-	faith = akom_pagan
+	faith = norse_pagan
 	female = no
 	dynasty = dynn_tharashk
 	
@@ -99,7 +99,7 @@ torruk_tharashk = {
 brokaa_tharashk = {
 	name = "Brokaa"
 	culture = azhani
-	faith = akom_pagan
+	faith = norse_pagan
 	female = yes
 	dynasty = dynn_tharashk
 	
@@ -113,7 +113,7 @@ brokaa_tharashk = {
 aashta_tharashk = {
 	name = "Aashta"
 	culture = azhani
-	faith = akom_pagan
+	faith = whisperers
 	female = yes
 	dynasty = dynn_tharashk
 	
@@ -127,7 +127,7 @@ aashta_tharashk = {
 aarna_tharashk = {
 	name = "Aarna"
 	culture = azhani
-	faith = akom_pagan
+	faith = whisperers
 	female = yes
 	dynasty = dynn_tharashk
 	
@@ -141,7 +141,7 @@ aarna_tharashk = {
 istaaran_tharashk = {
 	name = "Istaaran"
 	culture = azhani
-	faith = akom_pagan
+	faith = whisperers
 	female = no
 	dynasty = dynn_tharashk
 	
@@ -155,7 +155,7 @@ istaaran_tharashk = {
 oorac_tharashk = {
 	name = "Oorac"
 	culture = azhani
-	faith = akom_pagan
+	faith = whisperers
 	female = no
 	dynasty = dynn_tharashk
 	

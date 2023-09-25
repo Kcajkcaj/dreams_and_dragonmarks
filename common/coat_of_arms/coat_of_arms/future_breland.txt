@@ -251,3 +251,26 @@ dynn_vathir_zarna={
 		}
 	}
 }
+
+dynn_hilt_morgrave ={
+	pattern="pattern_horizontal_split_01.dds"
+	color1=blue
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=white
+		texture="ce_sphinx.dds"
+		instance={
+			position={ 0.790000 0.260000 }
+			scale={ -0.470000 0.470000 }
+		}
+
+		instance={
+			position={ 0.210000 0.260000 }
+			scale={ 0.470000 0.470000 }
+			depth=1.010000
+		}
+
+	}
+
+}

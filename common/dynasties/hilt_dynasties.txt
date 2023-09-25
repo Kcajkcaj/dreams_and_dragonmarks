@@ -1,9 +1,24 @@
 dynn_malleonid = {
-	name = "Malleonid"
+	name = "Kas"
 	culture = shaarati
 }
 
 dynn_tarkanan = {
 	name = "Tarkanan"
+	culture = shaarati
+}
+
+dynn_hilt_morgrave = {
+	name = "Morgrave"
+	culture = shaarati
+}
+
+dynn_hilt_tyran = {
+	name = "Tyran"
+	culture = shaarati
+}
+
+dynn_hilt_tain = {
+	name = "Tain"
 	culture = shaarati
 }

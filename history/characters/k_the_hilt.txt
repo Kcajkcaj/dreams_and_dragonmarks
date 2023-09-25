@@ -55,6 +55,42 @@ tasra_malleonid = {
 	}
 }
 
+lareth_morgrave = {
+	name = "Lareth"
+	dynasty = dynn_hilt_morgrave
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+	
+	trait = intellect_good_2
+	trait = education_learning_4
+	trait = inquisitive
+	
+	3377.9.12 = {birth = yes}
+}
+
+barchan_tyran = {
+	name = "Barchan"
+	dynasty = dynn_hilt_tyran
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+	
+	trait = education_stewardship_3
+	
+	3381.8.7 = {birth = yes}
+}
+
+hestian_tain = {
+	name = "Hestian"
+	dynasty = dynn_hilt_tain
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+	
+	3367.8.6 = {birth = yes}
+}
+
 doran_of_zilspar = {
 	name = "Doran"
 	culture = shaarati

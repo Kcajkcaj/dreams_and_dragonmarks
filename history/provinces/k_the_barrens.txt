@@ -2,7 +2,7 @@
 ### A
 460 = {
 	culture = khaarpal
-	faith = akom
+	faith = muwalladi
 	holding = tribal_holding
 }
 461 = {holding = none}
@@ -11,7 +11,7 @@
 ### B
 464 = {
 	culture = khaarpal
-	faith = akom
+	faith = muwalladi
 	holding = tribal_holding
 }
 465 = {holding = none}
@@ -19,21 +19,21 @@
 ### C
 467 = {
 	culture = khaarpal
-	faith = akom
+	faith = muwalladi
 	holding = tribal_holding
 }
 468 = {holding = none}
 ### D
 469 = {
 	culture = khaarpal
-	faith = akom
+	faith = muwalladi
 	holding = tribal_holding
 }
 470 = {holding = none}
 ### E
 471 = {
 	culture = khaarpal
-	faith = akom
+	faith = muwalladi
 	holding = tribal_holding
 }
 472 = {holding = none}
@@ -41,7 +41,7 @@
 ### F
 474 = {
 	culture = khaarpal
-	faith = akom
+	faith = muwalladi
 	holding = tribal_holding
 }
 475 = {holding = none}
@@ -138,7 +138,7 @@
 ### Great Crag
 508 = {
 	culture = sartan
-	faith = akom
+	faith = gaaran
 	holding = tribal_holding
 }
 509 = {holding = none}
@@ -146,7 +146,7 @@
 ### Thrakelorn
 511 = {
 	culture = sartan
-	faith = akom
+	faith = gaaran
 	holding = tribal_holding
 }
 512 = {holding = none}
@@ -154,7 +154,7 @@
 ### B
 514 = {
 	culture = sartan
-	faith = akom
+	faith = gaaran
 	holding = tribal_holding
 }
 515 = {holding = none}
@@ -162,7 +162,7 @@
 ### C
 517 = {
 	culture = sartan
-	faith = akom
+	faith = gaaran
 	holding = tribal_holding
 }
 518 = {holding = none}
@@ -218,14 +218,14 @@
 ### Vralkek
 536 = {
 	culture = sartan
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 537 = {holding = none}
 ### Shaarat Kol
 538 = {
 	culture = sartan
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 539 = {holding = none}
@@ -240,7 +240,7 @@
 ### Tzaryan
 543 = {
 	culture = sartan
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 544 = {holding = none}
@@ -249,7 +249,7 @@
 ### A
 546 = {
 	culture = urhaakar
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 547 = {holding = none}
@@ -257,14 +257,14 @@
 ### B
 549 = {
 	culture = urhaakar
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 550 = {holding = none}
 ### C
 551 = {
 	culture = urhaakar
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 552 = {holding = none}
@@ -273,7 +273,7 @@
 ### D
 555 = {
 	culture = urhaakar
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 556 = {holding = none}
@@ -281,7 +281,7 @@
 ### E
 558 = {
 	culture = urhaakar
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 559 = {holding = none}
@@ -359,7 +359,7 @@
 ### Dhavins Post
 589 = {
 	culture = azhani
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 590 = {holding = none}
@@ -390,7 +390,7 @@
 ### Zarashak
 599 = {
 	culture = azhani
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 600 = {holding = tribal_holding}
@@ -400,14 +400,14 @@
 ### Urthold
 604 = {
 	culture = azhani
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 605 = {holding = none}
 ### Glumtown
 606 = {
 	culture = azhani
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 607 = {holding = none}
@@ -415,21 +415,21 @@
 ### Lantern Tower
 609 = {
 	culture = azhani
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 610 = {holding = none}
 ### B
 611 = {
 	culture = azhani
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 612 = {holding = none}
 ### C
 613 = {
 	culture = azhani
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 614 = {holding = none}
@@ -438,7 +438,7 @@
 ### A
 616 = {
 	culture = azhani
-	faith = akom
+	faith = inner_sun
 	holding = tribal_holding
 }
 617 = {holding = none}
@@ -446,14 +446,14 @@
 ### B
 619 = {
 	culture = azhani
-	faith = akom
+	faith = inner_sun
 	holding = tribal_holding
 }
 620 = {holding = none}
 ### C
 621 = {
 	culture = azhani
-	faith = akom
+	faith = inner_sun
 	holding = tribal_holding
 }
 622 = {holding = none}
@@ -461,14 +461,14 @@
 ### D
 624 = {
 	culture = azhani
-	faith = akom
+	faith = inner_sun
 	holding = tribal_holding
 }
 625 = {holding = none}
 ### E
 626 = {
 	culture = azhani
-	faith = akom
+	faith = gaaaram
 	holding = tribal_holding
 }
 627 = {holding = none}
@@ -477,14 +477,14 @@
 ### Valsharak
 629 = {
 	culture = azhani
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 630 = {holding = none}
 ### Slug Keep
 631 = {
 	culture = azhani
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 632 = {holding = none}
@@ -494,7 +494,7 @@
 ### B
 636 = {
 	culture = azhani
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 637 = {holding = none}
@@ -502,7 +502,7 @@
 ### C
 639 = {
 	culture = azhani
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 640 = {holding = none}
@@ -512,7 +512,7 @@
 ### Taarn Draal
 643 = {
 	culture = azhani
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 644 = {holding = none}
@@ -527,7 +527,7 @@
 ### C
 648 = {
 	culture = azhani
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 649 = {holding = none}

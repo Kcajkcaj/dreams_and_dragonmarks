@@ -209,7 +209,7 @@ hallorek_thorn = { # Count of Mistmarsh
 jhazaal_shavar = { # Count of Greenhaunt
 	name = "Jhazaal"
 	culture = rootfolk
-	faith = asatru_pagan
+	faith = norse_pagan
 	female = yes
 	dynasty = dynn_vathir_shavar
 	

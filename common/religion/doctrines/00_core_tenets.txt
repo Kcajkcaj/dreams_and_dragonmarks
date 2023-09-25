@@ -39,6 +39,8 @@
 		}
 		parameters = {
 			holy_wars_forbidden = yes
+		}
+		character_modifier = {
 			monthly_piety_mult = -0.5
 			monthly_prestige_mult = 0.5
 		}
@@ -50,6 +52,20 @@
 			value = faith_tenet_cost_mid
 			if = {
 				limit = { has_doctrine = tenet_ascendant_form }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
+	}
+	
+	tenet_blessed_cultivation = {
+		icon = core_tenet_pastoral_isolation
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_blessed_cultivation }
 				multiply = faith_unchanged_doctrine_cost_mult
 			}
 		}
@@ -421,6 +437,38 @@
 		}
 	}
 	
+	tenet_pacifists = {
+		icon = core_tenet_pacifism
+		
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = {has_doctrine = tenet_pacifists}
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		is_shown = {always = yes}
+		
+		parameters = {
+			holy_wars_forbidden = yes
+			pacifist_opinion_active = yes
+			opinion_of_pacifist_opinion_active = 10
+			piety_from_long_peace = 1
+		}
+
+		traits = {
+			virtues = { calm }
+			sins = { wrathful }
+		}
+		
+		character_modifier = {
+			domain_limit = 1
+			ai_war_chance = -0.25
+			ai_war_cooldown = 5
+		}
+	}
+	
 	tenet_pursuit_of_power = {
 		icon = core_tenet_struggle_submission
 		
@@ -459,6 +507,20 @@
 				humble
 				honest
 			}
+		}
+	}
+	
+	tenet_shamanism = {
+		icon = core_tenet_unreformed_syncretism
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_shamanism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
 		}
 	}
 	
@@ -679,6 +741,42 @@
 			can_use_sovereign_artefacts = yes
 			sovereign_syncretic_actor_opinion_active = yes
 			opinion_of_sovereign_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+		}
+	}
+	
+	tenet_druidic_syncretism = {
+		icon = core_tenet_rite
+
+		piety_cost = {
+			if = {
+				limit = { flag:doctrine_pluralism_pluralistic = {is_in_list = selected_doctrines} }
+				value = faith_tenet_cost_low
+			}
+			else_if = {
+				limit = { flag:doctrine_pluralism_fundamentalist = {is_in_list = selected_doctrines} }
+				value = faith_tenet_cost_high
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_druidic_syncretism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {always = yes}
+
+		parameters = {
+			hostility_override_special_doctrine_is_druidic_faith = 2
+			#For loc:
+			is_druidic_faith_bilateral_loc_override = 2
+			# This parameter is empty; the syncretic religious trigger checks against the doctrine, as that's much clearer in tooltips and allows us to use a unified syncretic trigger per-religion rather than having bitty situational triggers.
+			can_use_druidic_artefacts = yes
+			druidic_syncretic_actor_opinion_active = yes
+			opinion_of_druidic_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
 		}
 	}
 	
