@@ -1,0 +1,16 @@
+on_building_completed = {
+	on_actions = {
+		eberron_on_building_completed
+	}
+}
+
+eberron_on_building_completed = {
+	effect = {
+		county.holder = {
+			if = {
+				limit = {faith = {has_doctrine_parameter = new_buildings_grant_piety}}
+				add_piety = minor_piety_value
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+has_same_vassal_stance = {
+	or = {
+		and = {
+			has_vassal_stance = courtly
+			$TARGET$ = {has_vassal_stance = courtly}
+		}
+		and = {
+			has_vassal_stance = glory_hound
+			$TARGET$ = {has_vassal_stance = glory_hound}
+		}
+		and = {
+			has_vassal_stance = zealot
+			$TARGET$ = {has_vassal_stance = zealot}
+		}
+		and = {
+			has_vassal_stance = parochial
+			$TARGET$ = {has_vassal_stance = parochial}
+		}
+		and = {
+			has_vassal_stance = minority
+			$TARGET$ = {has_vassal_stance = minority}
+		}
+		and = {
+			has_vassal_stance = barons_and_minor_landholders
+			$TARGET$ = {has_vassal_stance = barons_and_minor_landholders}
+		}
+	}
+}

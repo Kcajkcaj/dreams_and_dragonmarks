@@ -24,6 +24,25 @@
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
 	flag = government_is_feudal
 	color = hsv{ 0.67 1.00 0.78 }
+	
+	opinion_of_liege = {
+		scope:vassal = {
+			if = {
+				limit = {
+					scope:liege = {
+						not = {
+							any_councillor = {
+								has_same_vassal_stance = {TARGET = scope:vassal}
+							}
+						}
+					}
+				}
+				value = -30
+			}
+		}
+	}
+	
+	opinion_of_liege_desc = "No representation for vassal stance on council"
 }
 
 republic_government = {

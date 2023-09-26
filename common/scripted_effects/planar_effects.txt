@@ -12,6 +12,10 @@ birth_plane_trait_check = {
 				real_mother = {has_trait = planetouched_$PLANE$}
 			}
 		}
+		modifier = {
+			multiply = 2
+			faith = {has_doctrine_parameter = moonwatchers_more_planetouched}
+		}
 		add_trait = planetouched_$PLANE$
 	}
 }
