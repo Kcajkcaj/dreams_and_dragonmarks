@@ -11,6 +11,7 @@ tradition_blades_for_hire = {
 		wanderers_gain_extra_combat_skills = yes
 		mercenary_courtiers_gain_extra_skills = yes
 		more_likely_to_leave_court = yes
+		can_pledge_as_mercenary = yes # New
 	}
 	culture_modifier = {
 		mercenary_count_mult = 2
