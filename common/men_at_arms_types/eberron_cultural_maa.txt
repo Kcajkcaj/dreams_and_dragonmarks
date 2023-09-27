@@ -74,3 +74,35 @@ thradaask = {
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = heavy_infantry
 }
+
+gloomstalkers = {
+	type = archers
+	
+	damage = 50
+	toughness = 20
+	pursuit = 30
+	screen = 10
+	
+	terrain_bonus = {
+		plains = { damage = -25 pursuit = -15 screen = -5 toughness = -10}
+		farmlands = { damage = -25 pursuit = -15 screen = -5 toughness = -10}
+		steppe = { damage = -25 pursuit = -15 screen = -5 toughness = -10}
+	}
+
+	counters = {
+		skirmishers = 1
+		heavy_infantry = 1
+	}
+	
+	can_recruit = {
+		culture = { has_cultural_parameter = unlock_maa_gloomstalkers }
+	}
+
+	buy_cost = { gold = bowmen_recruitment_cost }
+	low_maintenance_cost = { gold = bowmen_low_maint_cost }
+	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = archers
+}

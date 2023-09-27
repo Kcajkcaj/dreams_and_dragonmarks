@@ -11,7 +11,7 @@ tradition_blades_for_hire = {
 		wanderers_gain_extra_combat_skills = yes
 		mercenary_courtiers_gain_extra_skills = yes
 		more_likely_to_leave_court = yes
-		can_pledge_as_mercenary = yes # New
+		can_pledge_as_mercenary = yes
 	}
 	culture_modifier = {
 		mercenary_count_mult = 2
@@ -20,6 +20,41 @@ tradition_blades_for_hire = {
 		same_culture_mercenary_hire_cost_mult = -0.15
 		character_travel_speed_mult = 0.1
 		character_travel_safety_mult = 0.1
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_boundless_aggression = {
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = fight.dds
+	}
+	
+	category = societal
+	
+	parameters = {
+		can_duel_rivals = yes
+		can_use_sparring_duel = yes
+		has_access_to_trials_by_combat = yes
+		blademaster_traits_more_common = yes
+		more_melees_wrestling_and_duels = yes
+	}
+	
+	character_modifier = {
+		prowess = 3
+		knight_limit = 2
 	}
 	
 	is_shown = { always = yes }
@@ -178,6 +213,74 @@ tradition_constitutionalism = {
 	}
 }
 
+tradition_drama_and_poetry = {
+
+	layers = {
+		0 = learning
+		1 = western
+		4 = quill.dds
+	}
+	
+	category = ritual
+	
+	parameters = {
+		unlock_grand_theater = yes # New
+		unlock_performances = yes # New
+	}
+	
+	character_modifier = {
+		poet_xp_gain_mult = 0.25
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_dreadful_stalkers = {
+
+	layers = {
+		0 = intrigue
+		1 = western
+		4 = bow.dds
+	}
+	
+	category = warfare
+	
+	parameters = {
+		unlock_maa_gloomstalkers = yes
+		more_frequent_hunts = yes
+		dreadful_stalkers_hunting_bonuses = yes
+	}
+	
+	character_modifier = {
+		pursue_efficiency = 0.5
+		counter_efficiency = 0.5
+	}
+	
+	province_modifier = {
+		travel_danger = 20
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_embrace_of_industry = {
 	layers = {
 		0 = steward
@@ -194,6 +297,37 @@ tradition_embrace_of_industry = {
 	}
 	
 	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_expert_masons = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = tools.dds
+	}
+	
+	category = realm
+	
+	parameters = {
+		can_build_quarries_in_hills = yes
+		quarries_building_bonuses = yes
+		better_court_architects = yes
+	}
+	
+	character_modifier = {
+		build_speed = -0.3
+	}
 	
 	is_shown = { always = yes }
 	can_pick = { always = yes }
@@ -232,6 +366,42 @@ tradition_famed_universities = {
 		}
 	}
 }
+
+tradition_fervent_ritualists = {
+	layers = {
+		0 = learning
+		1 = western
+		4 = tempert.dds
+	}
+	
+	category = ritual
+	
+	parameters = {
+		zealous_trait_more_common = yes
+		more_zealot_vassals = yes
+		more_frequent_rituals = yes
+		harder_to_convert_character_faith = yes
+		harder_to_convert_county_faith = yes
+		extra_piety_from_temple_construction = yes
+		renown_from_temple_construction = yes
+	}
+	
+	character_modifier = {
+		monthly_piety_from_buildings_mult = 0.5
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 
 tradition_fierce_independence = {
 	layers = {
@@ -348,6 +518,143 @@ tradition_minority_rule = {
 	}
 }
 
+tradition_mountain_flights = {
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = mountain.dds
+	}
+	
+	category = societal
+	
+	parameters = {
+		can_build_eyries = yes # New
+		mountain_trait_bonuses = yes
+		piety_gain_on_building_complete_in_mountains = yes
+	}
+	character_modifier = {
+		mountains_travel_danger = mountains_low_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_low_danger_reduction
+	}
+	province_modifier = {
+		mountains_levy_size = 0.1
+		desert_mountains_levy_size = 0.1
+		mountains_supply_limit_mult = 0.25
+		desert_mountains_supply_limit_mult = 0.25
+		mountains_construction_gold_cost = -0.25
+		desert_mountains_construction_gold_cost = -0.25
+		mountains_holding_construction_gold_cost = -0.25
+		desert_mountains_holding_construction_gold_cost = -0.25
+		desert_mountains_tax_mult = 0.1
+		mountains_tax_mult = 0.1
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_overwhelming_numbers = {
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = soldiers.dds
+	}
+	
+	category = warfare
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	province_modifier = {
+		levy_size = 0.5
+	}
+	
+	character_modifier = {
+		men_at_arms_count = -2
+		knight_limit = -2
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_pillagers = {
+	layers = {
+		0 = martial
+		1 = western
+		4 = fight.dds
+	}
+	
+	category = warfare
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	parameters = {
+		culture_can_raid_over_land_even_if_feudal = yes
+		culture_can_raid_over_land_even_if_feudal_no_restrictions = yes
+	}
+	
+	character_modifier = {
+		movement_speed_land_raiding = 0.3
+		hostile_county_attrition_raiding = -0.5
+		max_loot_mult = 1
+		raid_speed = 0.5
+		monthly_county_control_change_factor = -0.5
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_riparian_settlements = {
+
+	layers = {
+		0 = steward
+		1 = western
+		4 = swamp.dds
+	}
+	
+	category = societal
+	
+	parameters = {
+		coastal_holdings_give_defensive_bonus = yes
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+
+
 tradition_rule_of_the_chibs = {
 	layers = {
 		0 = intrigue
@@ -383,6 +690,66 @@ tradition_rule_of_the_chibs = {
 		}
 	}
 }
+
+tradition_steppe_roamers = {
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = horses.dds
+	}
+	
+	category = warfare
+	
+	parameters = {
+		steppe_hunt_success_chance = yes
+		steppe_cancel_negative_supply = yes
+	}
+	
+	character_modifier = {
+		supply_duration = 1
+		movement_speed = 0.2
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_stone_preserves = {
+
+	layers = {
+		0 = steward
+		1 = western
+		4 = mountain.dds
+	}
+	
+	character_modifier = {
+		life_expectancy = 40
+		years_of_fertility = 20
+	}
+	
+	category = ritual
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 
 tradition_swashbucklers_pride = {
 	layers = {

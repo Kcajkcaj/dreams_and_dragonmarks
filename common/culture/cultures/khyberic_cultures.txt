@@ -15,7 +15,11 @@ minotaur = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
-		
+		tradition_rule_of_the_chibs
+		tradition_clan_connections
+		tradition_chattel_slavery
+		tradition_boundless_aggression
+		tradition_pillagers
 	}
 	
 	ethnicities = {
@@ -40,7 +44,11 @@ gnoll = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
-		
+		tradition_clan_connections
+		tradition_blades_for_hire
+		tradition_dreadful_stalkers
+		tradition_steppe_roamers
+		tradition_boundless_aggression
 	}
 	
 	ethnicities = {
@@ -65,7 +73,11 @@ medusa = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
-		
+		tradition_expert_masons
+		tradition_stone_preserves
+		tradition_dreadful_stalkers
+		tradition_fervent_ritualists
+		tradition_constitutionalism
 	}
 	
 	ethnicities = {

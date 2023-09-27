@@ -505,6 +505,12 @@ zealot = {
 		}
 		if = {
 			limit = {
+				culture = { has_cultural_parameter = more_zealot_vassals }
+			}
+			add = 75
+		}
+		if = {
+			limit = {
 				has_trait = trusting
 			}
 			add = 25

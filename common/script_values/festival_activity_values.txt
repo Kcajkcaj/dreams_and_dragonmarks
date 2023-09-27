@@ -4,6 +4,12 @@ festival_activity_cost = {
 
 hold_festival_cooldown_value = {
 	value = 5
+	if = {
+		limit = {
+			root.culture = { has_cultural_parameter = more_frequent_rituals }
+		}
+		multiply = 0.5
+	}
 }
 
 festival_phase_cost = {

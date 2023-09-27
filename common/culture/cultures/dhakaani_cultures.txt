@@ -18,6 +18,8 @@ daggerborn = {
 		tradition_chattel_slavery
 		tradition_clan_connections
 		tradition_rule_of_the_chibs
+		tradition_embrace_of_industry
+		tradition_riparian_settlements
 	}
 	
 	ethnicities = {
@@ -46,6 +48,7 @@ ghaaldar = {
 		tradition_clan_connections
 		tradition_rule_of_the_chibs
 		tradition_blades_for_hire
+		tradition_embrace_of_industry
 	}
 	
 	ethnicities = {
@@ -73,6 +76,8 @@ marguul = {
 		tradition_chattel_slavery
 		tradition_clan_connections
 		tradition_rule_of_the_chibs
+		tradition_dreadful_stalkers
+		tradition_fierce_independence
 	}
 	
 	ethnicities = {
@@ -101,6 +106,7 @@ khraali = {
 		tradition_clan_connections
 		tradition_rule_of_the_chibs
 		tradition_coastal_reavers
+		tradition_dreadful_stalkers
 	}
 	
 	ethnicities = {
