@@ -1,0 +1,34 @@
+namespace = festival_coronation
+
+festival_coronation.0001 = {
+	type = activity_event
+	title = "Coronation"
+	desc = "Choose a pledge to focus your speech on."
+	
+	theme = feast_activity
+	left_portrait = {
+		character = root
+		animation = personality_honorable
+	}
+	
+	option = {
+		name = ""
+		add_coronation_pledge = {PLEDGE = expansion}
+	}
+	option = {
+		name = ""
+		add_coronation_pledge = {PLEDGE = influence}
+	}
+	option = {
+		name = ""
+		add_coronation_pledge = {PLEDGE = stability}
+	}
+	option = {
+		name = ""
+		add_coronation_pledge = {PLEDGE = unity}
+	}
+	option = {
+		name = ""
+		add_coronation_pledge = {PLEDGE = virtue}
+	}
+}

@@ -137,6 +137,11 @@ mirasandra_zarna = { # Duke of Hatheril
 	
 	mother = itlani_zarna
 	
+	trait = education_stewardship_3
+	trait = just
+	trait = honest
+	trait = zealous
+	
 	3374.2.13 = { birth = yes}
 }
 
@@ -148,6 +153,11 @@ merrix_zarna = { # Count of Swordmoor
 	dynasty = dynn_vathir_zarna
 	
 	mother = itlani_zarna
+	
+	trait = education_martial_3
+	trait = ambitious
+	trait = brave
+	trait = wrathful
 	
 	3379.9.12 = { birth = yes}
 }
@@ -161,6 +171,12 @@ wrogarr_zarna = { # Count of Cragwar
 	
 	mother = itlani_zarna
 	
+	trait = education_intrigue_3
+	trait = mage
+	trait = ambitious
+	trait = deceitful
+	trait = vengeful
+	
 	3383.11.11 = { birth = yes}
 }
 
@@ -172,6 +188,12 @@ tyrala_zarna = { # Count of Fort Light
 	dynasty = dynn_vathir_zarna
 	
 	mother = itlani_zarna
+	
+	trait = education_learning_4
+	trait = mage
+	trait = inquisitive
+	trait = gregarious
+	trait = content
 	
 	3387.7.18 = { birth = yes}
 }

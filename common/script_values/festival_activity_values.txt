@@ -1,5 +1,9 @@
 festival_activity_cost = {
 	value = standard_activity_base_cost
+	if = {
+		limit = {is_ai = yes}
+		multiply = 0.5
+	}
 }
 
 hold_festival_cooldown_value = {
@@ -13,5 +17,6 @@ hold_festival_cooldown_value = {
 }
 
 festival_phase_cost = {
-	value = 100
+	value = standard_activity_base_cost
+	multiply = 0.5
 }

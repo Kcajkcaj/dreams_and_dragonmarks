@@ -38,6 +38,7 @@ festival_banquet.0001 = { # Choose someone to give a toast
 	option = {
 		name = "Myself, of course!"
 		festival_challenge_toast = yes
+		save_scope_as = toast_giver
 		trigger_event = festival_banquet.0002
 	}
 	option = {
@@ -45,6 +46,7 @@ festival_banquet.0001 = { # Choose someone to give a toast
 		trigger = {exists = scope:chancellor}
 		scope:chancellor ?= {
 			festival_challenge_toast = yes
+			save_scope_as = toast_giver
 			trigger_event = festival_banquet.0002
 		}
 	}
@@ -53,13 +55,184 @@ festival_banquet.0001 = { # Choose someone to give a toast
 		trigger = { exists = scope:my_spouse }
 		scope:my_spouse ?= {
 			festival_challenge_toast = yes
+			save_scope_as = toast_giver
 			trigger_event = festival_banquet.0002
 		}
 	}
 }
 
-festival_banquet.0002 = {
+festival_banquet.0002 = { # Actually give the toast
 	type = activity_event
 	title = "A Toast"
 	desc = "."
+	
+	theme = feast_activity
+	left_portrait = {
+		character = root
+		animation = toast_goblet
+	}
+	
+	option = {
+		name = "Popular toast."
+		if = {
+			limit = {not = {this = scope:host}}
+			add_character_modifier = {modifier = festival_popular_toast years = 5}
+		}
+		scope:host = {
+			add_character_modifier = {modifier = festival_popular_toast years = 5}
+		}
+		scope:activity = {
+			every_attending_character = {
+				limit = {not = {this = root}}
+				trigger_event = festival_banquet.0013
+			}
+		}
+	}
+	option = {
+		name = "Personal toast."
+		if = {
+			limit = {not = {this = scope:host}}
+			scope:host = {
+				add_opinion = {
+					target = prev
+					modifier = grateful_opinion
+					opinion = 25
+				}
+			}
+		}
+		scope:host = {
+			add_prestige = 250
+		}
+		scope:activity = {
+			every_attending_character = {
+				limit = {not = {this = root}}
+				trigger_event = festival_banquet.0013
+			}
+		}
+	}
+	option = {
+		name = "Pious toast."
+		if = {
+			limit = {not = {this = scope:host}}
+			add_piety = 250
+		}
+		scope:host = {
+			add_piety = 250
+		}
+		scope:activity = {
+			every_attending_character = {
+				limit = {not = {this = root}}
+				trigger_event = festival_banquet.0013
+			}
+		}
+	}
+}
+
+festival_banquet.0011 = {
+	type = activity_event
+	title = "A popular toast."
+	desc = "."
+	
+	theme = feast_activity
+	right_portrait = {
+		character = scope:toast_giver
+		animation = toast_goblet
+	}
+	
+	option = {
+		name = "Clap."
+		add_character_modifier = {modifier = festival_popular_toast years = 1}
+	}
+	
+	option = {
+		name = "Don't clap."
+		add_prestige = 50
+	}
+}
+
+festival_banquet.0012 = {
+	type = activity_event
+	title = "A personal toast."
+	desc = "."
+	
+	theme = feast_activity
+	right_portrait = {
+		character = scope:toast_giver
+		animation = toast_goblet
+	}
+	
+	option = {
+		name = "Clap."
+		scope:host = {
+			add_opinion = {
+				target = prev
+				modifier = grateful_opinion
+				opinion = 5
+			}
+		}
+	}
+	
+	option = {
+		name = "Don't clap."
+		add_prestige = 50
+	}
+}
+
+festival_banquet.0013 = {
+	type = activity_event
+	title = "A pious toast."
+	desc = "."
+	
+	theme = feast_activity
+	right_portrait = {
+		character = scope:toast_giver
+		animation = toast_goblet
+	}
+	
+	option = {
+		name = "Clap."
+		add_piety = 50
+	}
+	
+	option = {
+		name = "Don't clap."
+		add_prestige = 50
+	}
+}
+
+festival_banquet.1100 = {
+	type = activity_event
+	title = "A secret revealed."
+	desc = "."
+	
+	theme = feast_activity
+	left_portrait = {
+		character = root
+	}
+	right_portrait = {
+		character = scope:secret_recipient
+	}
+	
+	trigger = {
+		any_secret = {
+			exists = this
+		}
+	}
+	
+	immediate = {
+		scope:activity = {
+			random_attending_character = {
+				limit = { feast_default_1008_secret_recipient_trigger = yes }
+				weight = {
+					base = 1
+					interesting_feast_participant_modifier = yes
+				}
+				save_scope_as = secret_recipient
+			}
+		}
+		random_secret = {
+			limit = { NOT = { is_known_by = scope:secret_recipient } }
+			save_scope_as = secret_to_reveal
+		}
+	}
 }

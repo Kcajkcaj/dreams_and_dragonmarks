@@ -72,14 +72,41 @@ activity_festival = {
 		has_holding = yes
 	}
 	
+	is_grand_activity = no
 	is_single_location = yes
+	
+	max_route_deviation_mult = 2.0
 	
 	cooldown = {years = hold_festival_cooldown_value}
 	
 	province_filter = domain
 	ai_province_filter = domain
 	
+	ai_will_select_province = {
+		add = {
+			value = 5
+			desc = "base"
+		}
+	}
+	
 	max_province_icons = 5
+	
+	ui_predicted_cost = {
+		gold = {
+			add = {
+				value = festival_activity_cost
+				multiply = activity_cost_scale_by_era
+			}
+			add = {
+				value = festival_phase_cost
+				multiply = activity_cost_scale_by_era
+				multiply = 2
+			}
+			add = {
+				value = 50
+			}
+		}
+	}
 	
 	cost = {
 		gold = {
@@ -168,13 +195,19 @@ activity_festival = {
 		}
 	}
 	
-	max_guest_arrival_delay_time = { months = 3 }
+	wait_time_before_start = {months = 3}
 	
 	num_pickable_phases = 3
 	
 	phases = {
 		festival_phase_banquet {
 			can_pick = {always = yes}
+			ai_will_do = {
+				add = {
+					value = 50
+					desc = "Base"
+				}
+			}
 			on_phase_active = {
 				if = {
 					limit = {this = scope:host}
@@ -206,6 +239,12 @@ activity_festival = {
 			}
 		}
 		festival_phase_parade {
+			ai_will_do = {
+				add = {
+					value = 50
+					desc = "Base"
+				}
+			}
 			can_pick = {always = yes}
 			on_phase_active = {
 				if = {
@@ -237,6 +276,12 @@ activity_festival = {
 			}
 		}
 		festival_phase_sermon {
+			ai_will_do = {
+				add = {
+					value = 50
+					desc = "Base"
+				}
+			}
 			can_pick = {always = yes}
 			on_phase_active = {
 				if = {
@@ -268,6 +313,12 @@ activity_festival = {
 			}
 		}
 		festival_phase_sacrifice {
+			ai_will_do = {
+				add = {
+					value = 100
+					desc = "Base"
+				}
+			}
 			can_pick = {faith = {has_doctrine_parameter = human_sacrifice_at_festivals}}
 			on_phase_active = {
 				if = {
@@ -299,6 +350,12 @@ activity_festival = {
 			}
 		}
 		festival_phase_orgy {
+			ai_will_do = {
+				add = {
+					value = 100
+					desc = "Base"
+				}
+			}
 			can_pick = {faith = {has_doctrine_parameter = orgies_at_festivals}}
 			on_phase_active = {
 				if = {
@@ -336,6 +393,10 @@ activity_festival = {
 				if = {
 					limit = {this = scope:host}
 					scope:activity = { progress_activity_phase_after = { days = 1 } }
+					if = {
+						limit = {coronation_is_available = yes}
+						trigger_event = festival_coronation.0001
+					}
 				}
 			}
 			on_end = {
@@ -357,6 +418,11 @@ activity_festival = {
 				is_valid = {
 					always = yes
 				}
+				cost = {gold = 25}
+				ai_will_do = {
+					value = 0
+					add = activity_option_likes_cheap_expense_value
+				}
 			}
 			sacrifice_scale_normal = {
 				default = yes
@@ -367,6 +433,10 @@ activity_festival = {
 					always = yes
 				}
 				cost = {gold = 50}
+				ai_will_do = {
+					value = 0
+					add = activity_option_likes_middling_expense_value
+				}
 			}
 			sacrifice_scale_good = {
 				is_shown = {
@@ -376,6 +446,76 @@ activity_festival = {
 					always = yes
 				}
 				cost = {gold = 100}
+				ai_will_do = {
+					value = 0
+					add = activity_option_likes_heavy_expense_value
+				}
+			}
+		}
+	}
+	
+	ai_check_interval = 60
+	
+	ai_will_do = {
+		add = {
+			value = 30
+			desc = "Base"
+		}
+		add = {
+            value = ai_greed
+            multiply = -0.25
+            desc = "ai_greed"
+        }
+        add = {
+        	value = ai_sociability
+        	multiply = 0.5
+        	desc = "ai_sociability"
+        }
+		if = {
+			limit = {
+				ai_energy < 0
+			}
+			add = {
+				add = ai_energy
+				desc = "ai_energy"
+			}
+		}
+		if = {
+			limit = { has_trait = gregarious }
+			add = {
+				value = 10
+				desc = "Is gregarious"
+			}
+		}
+		if = {
+			limit = {has_trait = zealous}
+			add = {
+				value = 20
+				desc = "Is zealous"
+			}
+		}
+		if = {
+			limit = { has_trait = shy }
+			add = {
+				value = -30
+				desc = "Is shy"
+			}
+		}
+		if = {
+			limit = {
+				short_term_gold >= festival_activity_cost
+				short_term_gold >= major_gold_value
+			}
+			add = {
+				value = 30
+				desc = "Got gold to burn"
+			}
+		}
+		if = {
+			limit = { has_trait = lifestyle_reveler }
+			add = {
+				value = 20
+				desc = "Is Reveler"
 			}
 		}
 	}

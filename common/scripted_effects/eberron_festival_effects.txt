@@ -149,3 +149,45 @@ disburse_festival_rewards = {
 		}
 	}
 }
+
+add_coronation_pledge = {
+	add_trait = coronation_pledge_$PLEDGE$
+	involved_activity ?= {
+		if = {
+			limit = { var:activity_special_type_progression >= 100}
+			prev = {
+				add_trait_xp = {
+					trait = coronation_pledge_$PLEDGE$
+					value = 80
+				}
+			}
+		}
+		else_if = {
+			limit = { var:activity_special_type_progression >= 75}
+			prev = {
+				add_trait_xp = {
+					trait = coronation_pledge_$PLEDGE$
+					value = 60
+				}
+			}
+		}
+		else_if = {
+			limit = { var:activity_special_type_progression >= 50}
+			prev = {
+				add_trait_xp = {
+					trait = coronation_pledge_$PLEDGE$
+					value = 40
+				}
+			}
+		}
+		else_if = {
+			limit = { var:activity_special_type_progression >= 25}
+			prev = {
+				add_trait_xp = {
+					trait = coronation_pledge_$PLEDGE$
+					value = 20
+				}
+			}
+		}
+	}
+}

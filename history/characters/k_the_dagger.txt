@@ -97,6 +97,13 @@ raela_solaen = {
 	trait = military_engineer
 	trait = mage
 	
+	martial = 8
+	prowess = 7
+	learning = 6
+	intrigue = 5
+	stewardship = 4
+	diplomacy = 3
+	
 	3387.10.3 = {
 		birth = yes
 		effect = {
@@ -108,7 +115,7 @@ raela_solaen = {
 			add_trait_xp = {
 				trait = mage
 				track = abjuration
-				value = 10
+				value = 15
 			}
 			add_trait_xp = {
 				trait = mage

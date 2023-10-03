@@ -1,0 +1,11 @@
+coronation_is_available = {
+	faith = {has_doctrine_parameter = coronation_activity_active}
+	highest_held_title_tier >= tier_duchy
+	not = {
+		has_trait = coronation_pledge_expansion
+		has_trait = coronation_pledge_influence
+		has_trait = coronation_pledge_virtue
+		has_trait = coronation_pledge_unity
+		has_trait = coronation_pledge_stability
+	}
+}

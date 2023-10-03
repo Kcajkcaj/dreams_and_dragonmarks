@@ -20,16 +20,16 @@ mage = {
 		}
 		conjuration = {
 			10 = {
-				character_travel_speed_mult = 0.25
+				character_travel_speed_mult = 0.3
 			}
 			30 = {
-				character_travel_speed_mult = 0.25
+				character_travel_speed_mult = 0.3
 			}
 			60 = {
-				character_travel_speed_mult = 0.25
+				character_travel_speed_mult = 0.3
 			}
 			100 = {
-				character_travel_speed_mult = 0.25
+				character_travel_speed_mult = 0.3
 			}
 		}
 		divination = {

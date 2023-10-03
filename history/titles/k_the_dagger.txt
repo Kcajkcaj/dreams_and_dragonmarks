@@ -31,6 +31,7 @@ c_glyphstone = {
 }
 c_tansend = {
 	3400.1.1 = {
+		liege = d_wroat
 		holder = daphane_morrus
 	}
 }
@@ -39,6 +40,7 @@ c_barans_keep = {
 		holder = baran_dain
 	}
 	3409.9.10 = {
+		liege = d_wroat
 		holder = molric_dain
 	}
 }
@@ -47,6 +49,7 @@ c_bentblade_a = {
 		holder = baran_dain
 	}
 	3409.9.10 = {
+		liege = d_wroat
 		holder = soranda_dain
 	}
 }
@@ -55,6 +58,7 @@ c_bentblade_b = {
 		holder = baran_dain
 	}
 	3409.9.10 = {
+		liege = d_wroat
 		holder = soranda_dain
 	}
 }
@@ -63,16 +67,19 @@ c_bentblade_c = {
 		holder = baran_dain
 	}
 	3409.9.10 = {
+		liege = d_wroat
 		holder = molric_dain
 	}
 }
 c_bentblade_d = {
 	3400.1.1 = {
+		liege = d_wroat
 		holder = galeth_demell
 	}
 }
 c_galethspyre = {
 	3400.1.1 = {
+		liege = d_wroat
 		holder = galeth_demell
 	}
 }

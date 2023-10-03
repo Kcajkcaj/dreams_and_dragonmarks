@@ -1,0 +1,134 @@
+coronation_pledge_expansion = {
+	glory_hound_opinion = 20
+	parochial_opinion = -20
+	minority_opinion = -20
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.2
+	monthly_martial_lifestyle_xp_gain_mult = 0.2
+	track = {
+		25 = {
+			intrigue = 1
+			martial = 1
+			monthly_dynasty_prestige = 1
+		}
+		50 = {
+			intrigue = 1
+			martial = 1
+			monthly_dynasty_prestige = 1
+		}
+		75 = {
+			intrigue = 1
+			martial = 1
+			monthly_dynasty_prestige = 1
+			vassal_opinion = 10
+		}
+	}
+	monthly_track_xp_degradation = {min = 0 change = 1}
+}
+
+coronation_pledge_influence = {
+	courtly_opinion = 20
+	parochial_opinion = -20
+	zealot_opinion = -20
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.2
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.2
+	track = {
+		25 = {
+			intrigue = 1
+			diplomacy = 1
+			monthly_dynasty_prestige = 1
+		}
+		50 = {
+			intrigue = 1
+			diplomacy = 1
+			monthly_dynasty_prestige = 1
+		}
+		75 = {
+			intrigue = 1
+			diplomacy = 1
+			monthly_dynasty_prestige = 1
+			vassal_opinion = 10
+		}
+	}
+	monthly_track_xp_degradation = {min = 0 change = 1}
+}
+
+coronation_pledge_virtue = {
+	zealot_opinion = 20
+	courtly_opinion = -20
+	minority_opinion = -20
+	monthly_learning_lifestyle_xp_gain_mult = 0.2
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.2
+	track = {
+		25 = {
+			learning = 1
+			diplomacy = 1
+			monthly_dynasty_prestige = 1
+		}
+		50 = {
+			learning = 1
+			diplomacy = 1
+			monthly_dynasty_prestige = 1
+		}
+		75 = {
+			learning = 1
+			diplomacy = 1
+			monthly_dynasty_prestige = 1
+			vassal_opinion = 10
+		}
+	}
+	monthly_track_xp_degradation = {min = 0 change = 1}
+}
+
+coronation_pledge_unity = {
+	minority_opinion = 20
+	glory_hound_opinion = -20
+	zealot_opinion = -20
+	monthly_learning_lifestyle_xp_gain_mult = 0.2
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+	track = {
+		25 = {
+			learning = 1
+			stewardship = 1
+			monthly_dynasty_prestige = 1
+		}
+		50 = {
+			learning = 1
+			stewardship = 1
+			monthly_dynasty_prestige = 1
+		}
+		75 = {
+			learning = 1
+			stewardship = 1
+			monthly_dynasty_prestige = 1
+			vassal_opinion = 10
+		}
+	}
+	monthly_track_xp_degradation = {min = 0 change = 1}
+}
+
+coronation_pledge_stability = {
+	parochial_opinion = 20
+	courtly_opinion = -20
+	glory_hound_opinion = -20
+	monthly_martial_lifestyle_xp_gain_mult = 0.2
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
+	track = {
+		25 = {
+			martial = 1
+			stewardship = 1
+			monthly_dynasty_prestige = 1
+		}
+		50 = {
+			martial = 1
+			stewardship = 1
+			monthly_dynasty_prestige = 1
+		}
+		75 = {
+			martial = 1
+			stewardship = 1
+			monthly_dynasty_prestige = 1
+			vassal_opinion = 10
+		}
+	}
+	monthly_track_xp_degradation = {min = 0 change = 1}
+}

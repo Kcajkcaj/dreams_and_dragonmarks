@@ -1,0 +1,4 @@
+festival_popular_toast = {
+	icon = magic_positive
+	county_opinion_add = 25
+}
