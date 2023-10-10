@@ -1,0 +1,11 @@
+festival_banquet_event_select = {
+	random_on_action = {
+		1 = festival_banquet_recreation_event
+	}
+}
+
+festival_banquet_recreation_event = {
+	random_events = {
+		100 = festival_banquet.1010
+	}
+}

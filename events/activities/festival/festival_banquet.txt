@@ -5,7 +5,7 @@ festival_banquet.0001 = { # Choose someone to give a toast
 	title = "A Toast"
 	desc = "Choose who you want to give the toast."
 	
-	theme = feast_activity
+	theme = eberron_festival
 	left_portrait = {
 		character = root
 		animation = toast_goblet
@@ -84,7 +84,7 @@ festival_banquet.0002 = { # Actually give the toast
 		scope:activity = {
 			every_attending_character = {
 				limit = {not = {this = root}}
-				trigger_event = festival_banquet.0013
+				trigger_event = festival_banquet.0011
 			}
 		}
 	}
@@ -106,7 +106,7 @@ festival_banquet.0002 = { # Actually give the toast
 		scope:activity = {
 			every_attending_character = {
 				limit = {not = {this = root}}
-				trigger_event = festival_banquet.0013
+				trigger_event = festival_banquet.0012
 			}
 		}
 	}
@@ -200,39 +200,80 @@ festival_banquet.0013 = {
 	}
 }
 
-festival_banquet.1100 = {
+festival_banquet.1010 = {
 	type = activity_event
-	title = "A secret revealed."
-	desc = "."
+	title = "A Promised Favor."
+	desc = "You get drunk and promise someone a favor."
 	
 	theme = feast_activity
 	left_portrait = {
 		character = root
 	}
 	right_portrait = {
-		character = scope:secret_recipient
-	}
-	
-	trigger = {
-		any_secret = {
-			exists = this
-		}
+		character = scope:favor_recipient
 	}
 	
 	immediate = {
 		scope:activity = {
 			random_attending_character = {
-				limit = { feast_default_1008_secret_recipient_trigger = yes }
+				limit = {not = {root = this}}
 				weight = {
 					base = 1
-					interesting_feast_participant_modifier = yes
+					modifier = {
+						add = 1
+						is_ai = no
+					}
+					modifier = {
+						add = 1
+						this = scope:host
+					}
 				}
-				save_scope_as = secret_recipient
+				save_scope_as = favor_recipient
 			}
 		}
-		random_secret = {
-			limit = { NOT = { is_known_by = scope:secret_recipient } }
-			save_scope_as = secret_to_reveal
+	}
+	
+	option = {
+		name = "Of course."
+		save_scope_as = favor_giver
+		scope:favor_recipient = { trigger_event = festival_banquet.1011 }
+	}
+	
+	option = {
+		name = "Nevermind."
+		add_prestige = -150
+	}
+}
+
+festival_banquet.1011 = {
+	type = activity_event
+	title = "A Promised Favor"
+	desc = "Someone drunkenly promises you a favor."
+	
+	theme = feast_activity
+	right_portrait = {
+		character = root
+	}
+	left_portrait = {
+		character = scope:favor_giver
+	}
+	
+	option = {
+		name = "Accept the favor."
+		add_hook = {
+			type = favor_hook
+			target = scope:favor_giver
+		}
+	}
+	option = {
+		name = "Reject the favor."
+		add_prestige = 150
+		scope:favor_giver = {
+			add_opinion = {
+				target = root
+				modifier = grateful_opinion
+				opinion = 20
+			}
 		}
 	}
 }

@@ -1,0 +1,52 @@
+councillor_prime_minister = {
+	valid_position = {
+		culture = {has_cultural_parameter = has_prime_minister}
+		highest_held_title_tier >= tier_duchy
+	}
+	
+	valid_character = {
+		highest_held_title_tier >= tier_county
+	}
+	
+	modifier = {
+		name = prime_minister_modifier
+		monthly_income = 1
+		monthly_prestige = 1
+		scale = council_scaled_monthly_income
+	}
+	
+	council_owner_modifier = {
+		name = prime_minister_modifier
+		diplomacy = 1
+		scale = prime_minister_diplomacy_scale
+	}
+	council_owner_modifier = {
+		name = prime_minister_modifier
+		martial = 1
+		scale = prime_minister_martial_scale
+	}
+	council_owner_modifier = {
+		name = prime_minister_modifier
+		stewardship = 1
+		scale = prime_minister_stewardship_scale
+	}
+	council_owner_modifier = {
+		name = prime_minister_modifier
+		learning = 1
+		scale = prime_minister_learning_scale
+	}
+	council_owner_modifier = {
+		name = prime_minister_modifier
+		intrigue = 1
+		scale = prime_minister_intrigue_scale
+	}
+	
+	on_get_position = {
+		got_council_position_effect = yes
+	}
+	on_fired_from_position = {
+		fired_from_council_position_effect = yes
+	}
+	
+	portrait_animation = chancellor
+}

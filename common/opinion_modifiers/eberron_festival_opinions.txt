@@ -1,0 +1,4 @@
+festival_toast_opinion = {
+	years = 10
+	decaying = yes
+}

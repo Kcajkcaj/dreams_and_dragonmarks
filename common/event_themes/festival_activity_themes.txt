@@ -1,0 +1,11 @@
+eberron_festival = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_domain.dds"
+	}
+	sound = {
+		reference = "event:/SFX/Events/Themes/sfx_event_theme_type_social"
+	}
+	background = {
+		reference = eberron_festival
+	}
+}

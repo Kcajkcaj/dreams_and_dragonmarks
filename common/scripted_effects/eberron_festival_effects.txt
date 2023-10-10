@@ -22,17 +22,25 @@ festival_massive_progress = {
 festival_challenge_toast = {
 	duel = {
 		skill = diplomacy
-		value = 15
+		value = 12
 		5 = { # Failure
-		}
-		5 = { # Success
 			compare_modifier = {
 				value = scope:duel_value
-				multiplier = 0.5
+				multiplier = -0.5
 			}
+		}
+		5 = { # Success
 			involved_activity ?= {
 				scope:host = {
 					festival_minor_progress = yes
+				}
+				every_attending_character = {
+					custom = custom.every_attending_character
+					add_opinion = {
+						target = scope:host
+						modifier = festival_toast_opinion
+						opinion = 15
+					}
 				}
 			}
 		}
@@ -44,6 +52,80 @@ festival_challenge_toast = {
 			involved_activity ?= {
 				scope:host = {
 					festival_major_progress = yes
+				}
+				every_attending_character = {
+					custom = custom.every_attending_character
+					add_opinion = {
+						target = scope:host
+						modifier = festival_toast_opinion
+						opinion = 30
+					}
+				}
+			}
+		}
+	}
+}
+
+festival_challenge_parade = {
+	duel = {
+		skill = martial
+		value = 12
+		5 = { # Failure
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = -0.5
+			}
+		}
+		5 = { # Success
+			involved_activity ?= {
+				scope:host = {
+					festival_minor_progress = yes
+					add_prestige = 250
+				}
+			}
+		}
+		5 = { # Critical Success
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = 1
+			}
+			involved_activity ?= {
+				scope:host = {
+					festival_major_progress = yes
+					add_prestige = 500
+				}
+			}
+		}
+	}
+}
+
+festival_challenge_sermon = {
+	duel = {
+		skill = learning
+		value = 12
+		5 = { # Failure
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = -0.5
+			}
+		}
+		5 = { # Success
+			involved_activity ?= {
+				scope:host = {
+					festival_minor_progress = yes
+					add_learning_lifestyle_xp = 250
+				}
+			}
+		}
+		5 = { # Critical Success
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = 1
+			}
+			involved_activity ?= {
+				scope:host = {
+					festival_major_progress = yes
+					add_learning_lifestyle_xp = 500
 				}
 			}
 		}
@@ -66,8 +148,9 @@ disburse_festival_rewards = {
 						add_piety = 1000
 					}
 					every_attending_character = {
+						custom = custom.every_attending_character
 						limit = {not = {this = root}}
-						add_piety = 250
+						add_piety = 750
 					}
 				}
 			}
@@ -81,11 +164,12 @@ disburse_festival_rewards = {
 					show_in_conclusion = yes
 					character = scope:root_scope
 					root = {
-						add_piety = 500
+						add_piety = 750
 					}
 					every_attending_character = {
+						custom = custom.every_attending_character
 						limit = {not = {this = root}}
-						add_piety = 100
+						add_piety = 500
 					}
 				}
 			}
@@ -101,11 +185,12 @@ disburse_festival_rewards = {
 					show_in_conclusion = yes
 					character = scope:root_scope
 					root = {
-						add_piety = 250
+						add_piety = 500
 					}
 					every_attending_character = {
+						custom = custom.every_attending_character
 						limit = {not = {this = root}}
-						add_piety = 50
+						add_piety = 250
 					}
 				}
 			}
@@ -121,11 +206,12 @@ disburse_festival_rewards = {
 					show_in_conclusion = yes
 					character = scope:root_scope
 					root = {
-						add_piety = 100
+						add_piety = 250
 					}
 					every_attending_character = {
+						custom = custom.every_attending_character
 						limit = {not = {this = root}}
-						add_piety = 25
+						add_piety = 100
 					}
 				}
 			}
@@ -138,11 +224,12 @@ disburse_festival_rewards = {
 					show_in_conclusion = yes
 					character = scope:root_scope
 					root = {
-						add_piety = 50
+						add_piety = 100
 					}
 					every_attending_character = {
 						limit = {not = {this = root}}
-						add_piety = 10
+						custom = custom.every_attending_character
+						add_piety = 50
 					}
 				}
 			}
@@ -158,7 +245,7 @@ add_coronation_pledge = {
 			prev = {
 				add_trait_xp = {
 					trait = coronation_pledge_$PLEDGE$
-					value = 80
+					value = 100
 				}
 			}
 		}
@@ -167,7 +254,7 @@ add_coronation_pledge = {
 			prev = {
 				add_trait_xp = {
 					trait = coronation_pledge_$PLEDGE$
-					value = 60
+					value = 80
 				}
 			}
 		}
@@ -176,12 +263,20 @@ add_coronation_pledge = {
 			prev = {
 				add_trait_xp = {
 					trait = coronation_pledge_$PLEDGE$
-					value = 40
+					value = 60
 				}
 			}
 		}
 		else_if = {
 			limit = { var:activity_special_type_progression >= 25}
+			prev = {
+				add_trait_xp = {
+					trait = coronation_pledge_$PLEDGE$
+					value = 40
+				}
+			}
+		}
+		else = {
 			prev = {
 				add_trait_xp = {
 					trait = coronation_pledge_$PLEDGE$

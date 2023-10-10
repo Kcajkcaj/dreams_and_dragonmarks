@@ -1,0 +1,57 @@
+imprisonment_spell = {
+	icon = icon_scheme_learn_language
+	category = interaction_category_spellcasting
+	
+	use_diplomatic_range = yes
+	auto_accept = yes
+	
+	cooldown = {months = spell_cooldown_time}
+	
+	is_shown = {
+		NOT = { scope:recipient = scope:actor }
+		scope:recipient = {is_imprisoned = no}
+		scope:actor = {has_trait_xp = {trait = mage track = abjuration value = 100}}
+	}
+	
+	is_valid = {
+		not = {scope:recipient = {has_trait_xp = {trait = mage track = abjuration value >= 30}}}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			add_stress = spell_stress_cost
+			imprison_character_effect = {
+				TARGET = scope:recipient
+				IMPRISONER = scope:actor
+			}
+		}
+	}
+}
+
+detect_thoughts_spell = {
+	icon = icon_scheme_learn_language
+	category = interaction_category_spellcasting
+	
+	use_diplomatic_range = yes
+	auto_accept = yes
+	
+	cooldown = {months = spell_cooldown_time}
+	
+	is_shown = {
+		NOT = { scope:recipient = scope:actor }
+		scope:actor = {has_trait_xp = {trait = mage track = divination value >= 10}}
+	}
+	
+	is_valid = {
+		not = {scope:recipient = {has_trait_xp = {trait = mage track = abjuration value >= 30}}}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			add_stress = spell_stress_cost
+		}
+		scope:recipient = {
+			every_known_secret = { reveal_to = scope:actor }
+		}
+	}
+}

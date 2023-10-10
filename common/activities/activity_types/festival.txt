@@ -145,6 +145,16 @@ activity_festival = {
 	travel_entourage_selection = {
 		weight = {
 			value = standard_travel_entourage_additions
+			if = {
+				limit = {
+					OR = {
+						has_trait = gregarious
+						has_trait = zealot
+						has_trait = gluttonous
+					}
+				}
+				add = 10
+			}
 		}
 		max = 18
 		invite_rule_order = 3
@@ -214,6 +224,7 @@ activity_festival = {
 					scope:activity = { progress_activity_phase_after = { months = 1 } }
 					trigger_event = festival_banquet.0001
 				}
+				trigger_event = {on_action = festival_banquet_event_select days = {1 20}}
 			}
 			on_end = {
 				if = {
@@ -250,6 +261,7 @@ activity_festival = {
 				if = {
 					limit = {this = scope:host}
 					scope:activity = { progress_activity_phase_after = { months = 1 } }
+					trigger_event = festival_parade.0001
 				}
 			}
 			on_end = {
@@ -287,6 +299,7 @@ activity_festival = {
 				if = {
 					limit = {this = scope:host}
 					scope:activity = { progress_activity_phase_after = { months = 1 } }
+					trigger_event = festival_sermon.0001
 				}
 			}
 			on_end = {
@@ -472,6 +485,12 @@ activity_festival = {
         	desc = "ai_sociability"
         }
 		if = {
+			limit = { coronation_is_available = yes }
+			add = {
+				value = 50
+			}
+		}
+		if = {
 			limit = {
 				ai_energy < 0
 			}
@@ -518,5 +537,11 @@ activity_festival = {
 				desc = "Is Reveler"
 			}
 		}
+	}
+	
+	background = {
+		texture = "gfx/interface/illustrations/event_scenes/ep2_village_festival_western.dds"
+		environment = "environment_village_festival"
+		ambience = "event:/DLC/EP2/SFX/Events/Backgrounds/evn_background_festival_western"
 	}
 }

@@ -1,0 +1,61 @@
+prime_minister_percentage = 25
+
+prime_minister_diplomacy_scale = {
+	value = 0
+	add = diplomacy
+	multiply = {
+		add = prime_minister_percentage
+		divide = 100
+	}
+	floor = yes
+	min = 1
+}
+
+prime_minister_martial_scale = {
+	value = 0
+	add = martial
+	multiply = {
+		add = prime_minister_percentage
+		divide = 100
+	}
+	floor = yes
+	min = 1
+}
+
+prime_minister_stewardship_scale = {
+	value = 0
+	add = stewardship
+	multiply = {
+		add = prime_minister_percentage
+		divide = 100
+	}
+	floor = yes
+	min = 1
+}
+
+prime_minister_intrigue_scale = {
+	value = 0
+	add = intrigue
+	multiply = {
+		add = prime_minister_percentage
+		divide = 100
+	}
+	floor = yes
+	min = 1
+}
+
+prime_minister_learning_scale = {
+	value = 0
+	add = learning
+	multiply = {
+		add = prime_minister_percentage
+		divide = 100
+	}
+	floor = yes
+	min = 1
+}
+
+pm_diplomacy_scale = {
+	value = 0
+	add = diplomacy
+}

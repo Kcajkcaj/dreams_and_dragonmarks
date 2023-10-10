@@ -1,0 +1,7 @@
+eberron_festival = {
+	background = {
+		reference = "gfx/interface/illustrations/event_scenes/ep2_village_festival_western.dds"
+		environment = "environment_village_festival"
+		ambience = "event:/DLC/EP2/SFX/Events/Backgrounds/evn_background_festival_western"
+	}
+}

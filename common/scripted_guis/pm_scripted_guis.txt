@@ -1,0 +1,7 @@
+has_pm = {
+	scope = character
+	is_shown = {
+		culture = {has_cultural_parameter = has_prime_minister}
+		highest_held_title_tier >= tier_duchy
+	}
+}

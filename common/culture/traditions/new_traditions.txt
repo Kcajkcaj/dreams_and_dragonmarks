@@ -188,6 +188,7 @@ tradition_constitutionalism = {
 		more_aggressive_negotiations  = yes # New
 		more_parochial_vassals = yes
 		always_oppose_revoking_baronies = yes
+		has_prime_minister = yes
 		can_call_parliaments = yes # New
 		
 		cheaper_to_change_laws = yes

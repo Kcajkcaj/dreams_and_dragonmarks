@@ -1,0 +1,6 @@
+miniscule_lifestyle_xp = 50
+minor_lifestyle_xp = 100
+medium_lifestyle_xp = 250
+major_lifestyle_xp = 500
+massive_lifestyle_xp = 750		# Half of xp needed for 1 perk point
+monumental_lifestyle_xp = 1000	# Enough for 1 perk point... but why give XP instead of just awarding a full perk?

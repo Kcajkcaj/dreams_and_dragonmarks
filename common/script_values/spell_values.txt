@@ -1,0 +1,3 @@
+spell_stress_cost = {value = 50}
+
+spell_cooldown_time = {value = 36}

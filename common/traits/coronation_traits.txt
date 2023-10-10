@@ -22,7 +22,7 @@ coronation_pledge_expansion = {
 			vassal_opinion = 10
 		}
 	}
-	monthly_track_xp_degradation = {min = 0 change = 1}
+	monthly_track_xp_degradation = {min = 0 change = 0.25}
 }
 
 coronation_pledge_influence = {
@@ -49,7 +49,7 @@ coronation_pledge_influence = {
 			vassal_opinion = 10
 		}
 	}
-	monthly_track_xp_degradation = {min = 0 change = 1}
+	monthly_track_xp_degradation = {min = 0 change = 0.25}
 }
 
 coronation_pledge_virtue = {
@@ -76,7 +76,7 @@ coronation_pledge_virtue = {
 			vassal_opinion = 10
 		}
 	}
-	monthly_track_xp_degradation = {min = 0 change = 1}
+	monthly_track_xp_degradation = {min = 0 change = 0.25}
 }
 
 coronation_pledge_unity = {
@@ -103,7 +103,7 @@ coronation_pledge_unity = {
 			vassal_opinion = 10
 		}
 	}
-	monthly_track_xp_degradation = {min = 0 change = 1}
+	monthly_track_xp_degradation = {min = 0 change = 0.25}
 }
 
 coronation_pledge_stability = {
@@ -130,5 +130,5 @@ coronation_pledge_stability = {
 			vassal_opinion = 10
 		}
 	}
-	monthly_track_xp_degradation = {min = 0 change = 1}
+	monthly_track_xp_degradation = {min = 0 change = 0.25}
 }

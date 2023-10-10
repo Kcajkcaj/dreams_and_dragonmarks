@@ -1,0 +1,34 @@
+pm_task_manage_council = {
+	default_task = yes
+	position = councillor_prime_minister
+	
+	task_type = task_type_general
+	task_progress = task_progress_infinite
+	
+	council_owner_modifier = {
+		name = pm_task_manage_council_opinion_modifier
+		councillor_opinion = 1
+		scale = {
+			value = pm_diplomacy_scale
+			divide = 1.5
+		}
+	}
+}
+
+pm_task_bolster_accolades = {
+	position = councillor_prime_minister
+	
+	is_shown = {
+		has_vassal_stance = glory_hound
+		diplomacy >= 8
+	}
+	
+	task_type = task_type_general
+	task_progress = task_progress_infinite
+	
+	council_owner_modifier = {
+		name = pm_task_bolster_accolade_modifier
+		accolade_glory_gain_mult = 0.05
+		scale = pm_diplomacy_scale
+	}
+}
