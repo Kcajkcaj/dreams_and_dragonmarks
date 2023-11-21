@@ -4,6 +4,7 @@
 	culture = vathir
 	faith = frontier_creed
 	holding = castle_holding
+	buildings = {castle_02}
 }
 168 = {holding = church_holding}
 169 = {holding = city_holding}
@@ -95,6 +96,7 @@
 	culture = vathir
 	faith = frontier_creed
 	holding = castle_holding
+	buildings = {castle_02}
 }
 207 = {holding = city_holding}
 208 = {holding = church_holding}

@@ -274,3 +274,45 @@ dynn_hilt_morgrave ={
 	}
 
 }
+
+dynn_dagger_devir ={
+	pattern="pattern_vertical_split_jagged_01.dds"
+	color1=green
+	color2=blue
+	color3=green
+	colored_emblem={
+		color1=white
+		color2=grey
+		texture="ce_tree.dds"
+		instance={
+			scale={ 0.880000 0.880000 }
+		}
+
+	}
+
+}
+
+dynn_vathir_colworn = {
+	pattern="pattern_checkers_02.dds"
+	color1=blue_light
+	color2=green
+	color3=red
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_castle.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+	}
+}
+
+dynn_vathir_perryn = {
+	pattern="pattern_cross_01.dds"
+	color1=purple
+	color2=blue
+	color3=brown
+	colored_emblem={
+		color1=yellow
+		texture="ce_hive.dds"
+	}
+}

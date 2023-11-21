@@ -162,12 +162,12 @@ c_ardev_b = {
 }
 c_shavalant = {
 	3400.1.1 = {
-		holder = laren_of_shavalant
+		holder = laren_devir
 	}
 }
 c_whitehorn_wood = {
 	3400.1.1 = {
-		holder = laren_of_shavalant
+		holder = laren_devir
 	}
 }
 

@@ -4,6 +4,7 @@
 	culture = zil
 	faith = korranberg_creed
 	holding = city_holding
+	buildings = {city_03}
 }
 246 = {holding = church_holding}
 247 = {holding = castle_holding}
@@ -81,6 +82,7 @@
 	culture = zil
 	faith = korranberg_creed
 	holding = city_holding
+	buildings = {city_03}
 }
 282 = {holding = castle_holding}
 283 = {holding = church_holding}
@@ -153,6 +155,7 @@
 	faith = korranberg_creed
 	holding = city_holding
 	special_building = library_of_korranberg
+	buildings = {city_03}
 }
 312 = {holding = castle_holding}
 313 = {holding = church_holding}

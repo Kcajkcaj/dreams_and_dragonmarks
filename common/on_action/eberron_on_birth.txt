@@ -10,15 +10,15 @@ eberron_add_dragonmarks = {
 		random = {
 			chance = 20
 			if = {
-				limit = {scope:child.dynasty = dynasty:dynn_Medani}
+				limit = {scope:child.dynasty = dynasty:dynn_medani}
 				add_trait = mark_of_detection
 			}
 			else_if = {
-				limit = {scope:child.dynasty = dynasty:dynn_Sivis}
+				limit = {scope:child.dynasty = dynasty:dynn_sivis}
 				add_trait = mark_of_scribing
 			}
 			else_if = {
-				limit = {scope:child.dynasty = dynasty:dynn_Tharashk}
+				limit = {scope:child.dynasty = dynasty:dynn_tharashk}
 				add_trait = mark_of_finding
 			}
 		}

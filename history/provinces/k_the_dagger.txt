@@ -183,8 +183,8 @@
 ##### Whitehorn
 ### Shavalant
 137 = {
-	culture = daggerborn
-	faith = uulkarda
+	culture = vathir
+	faith = frontier_creed
 	holding = castle_holding
 }
 138 = {holding = church_holding}
@@ -193,7 +193,7 @@
 ### Whitehorn Wood
 141 = {
 	culture = daggerborn
-	faith = uulkarda
+	faith = frontier_creed
 	holding = castle_holding
 }
 142 = {holding = none}

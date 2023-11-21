@@ -59,3 +59,19 @@ pm_diplomacy_scale = {
 	value = 0
 	add = diplomacy
 }
+pm_martial_scale = {
+	value = 0
+	add = martial
+}
+pm_stewardship_scale = {
+	value = 0
+	add = stewardship
+}
+pm_learning_scale = {
+	value = 0
+	add = learning
+}
+pm_intrigue_scale = {
+	value = 0
+	add = intrigue
+}

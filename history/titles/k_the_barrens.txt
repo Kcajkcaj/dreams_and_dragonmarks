@@ -67,3 +67,46 @@ c_dhavins_post = {
 		holder = oorac_tharashk
 	}
 }
+c_balinors_sorrow_a = {
+	3400.1.1 = {holder = torkaan_vusrii}
+}
+c_balinors_sorrow_b = {
+	3400.1.1 = {holder = torkaan_vusrii}
+}
+c_balinors_sorrow_c = {
+	3400.1.1 = {holder = torkaan_vusrii}
+}
+c_balinors_sorrow_d = {
+	3400.1.1 = {holder = torkaan_vusrii}
+}
+c_balinors_sorrow_e = {
+	3400.1.1 = {holder = drevduul_vanon}
+}
+
+c_suthar_draal = {3400.1.1 = {holder = xorlaai_harpy}}
+c_stonelands_c = {3400.1.1 = {holder = xorlaai_harpy}}
+c_byeshk_f = {3400.1.1 = {holder = xorlaai_harpy}}
+c_byeshk_g = {3400.1.1 = {holder = xorlaai_harpy}}
+
+c_byeshk_b = {3400.1.1 = {holder = oguun_harpy}}
+c_byeshk_c = {3400.1.1 = {holder = oguun_harpy}}
+c_byeshk_d = {3400.1.1 = {holder = oguun_harpy}}
+
+c_byeshk_a = {3400.1.1 = {holder = duulri_harpy}}
+c_byeshk_e = {3400.1.1 = {holder = duulri_harpy}}
+
+d_stonelands = {3400.1.1 = {holder = xyanta_medusa}}
+c_cazhaak_draal = {3400.1.1 = {holder = xyanta_medusa}}
+c_stonelands_e = {
+	3400.1.1 = {
+		liege = d_stonelands
+		holder = chrixe_medusa
+	}
+}
+c_stonelands_f = {
+	3400.1.1 = {
+		liege = d_stonelands
+		holder = kyane_medusa
+	}
+}
+c_stonelands_d = {3400.1.1 = {holder = thadar_whisperers}}

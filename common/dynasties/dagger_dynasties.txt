@@ -6,15 +6,19 @@ dynn_medani = {
 	name = "Medani"
 	culture = vathir
 }
-dynn_demell = {
+dynn_dagger_demell = {
 	name = "Demell"
 	culture = vathir
 }
-dynn_morrus = {
+dynn_dagger_morrus = {
 	name = "Morrus"
 	culture = vathir
 }
 dynn_solaen = {
 	name = "Solaen"
 	culture = aereni
+}
+dynn_dagger_devir = {
+	name = "Devir"
+	culture = vathir
 }

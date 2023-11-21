@@ -20,7 +20,6 @@ pm_task_bolster_accolades = {
 	
 	is_shown = {
 		has_vassal_stance = glory_hound
-		diplomacy >= 8
 	}
 	
 	task_type = task_type_general
@@ -29,6 +28,107 @@ pm_task_bolster_accolades = {
 	council_owner_modifier = {
 		name = pm_task_bolster_accolade_modifier
 		accolade_glory_gain_mult = 0.05
+		scale = pm_diplomacy_scale
+	}
+}
+
+pm_task_manage_logistics = {
+	position = councillor_prime_minister
+	
+	is_shown = {
+		has_vassal_stance = glory_hound
+	}
+	
+	task_type = task_type_general
+	task_progress = task_progress_infinite
+	
+	council_owner_modifier = {
+		name = pm_task_manage_logistics_modifier
+		men_at_arms_maintenance = -0.025
+		scale = pm_stewardship_scale
+	}
+}
+
+pm_task_drive_recruitment = {
+	position = councillor_prime_minister
+	
+	is_shown = {
+		has_vassal_stance = glory_hound
+	}
+	
+	task_type = task_type_general
+	task_progress = task_progress_infinite
+	
+	council_owner_modifier = {
+		name = pm_task_drive_recruitment_modifier
+		garrison_size = 0.01
+		levy_reinforcement_rate = 0.05
+		scale = pm_martial_scale
+	}
+}
+
+pm_task_fabricate_claim = {
+	position = councillor_prime_minister
+
+	task_type = task_type_county
+	county_target = all
+	ai_county_target = neighbor_land
+	task_progress = task_progress_percentage
+	restart_on_finish = yes
+	
+	is_shown = {
+		has_vassal_stance = glory_hound
+	}
+
+	progress = {
+		value = 3
+		add = {
+			value = pm_intrigue_scale
+			divide = 5
+		}
+	}
+
+	potential_county = {
+		scope:county.holder.top_liege = {
+			in_diplomatic_range = scope:councillor_liege
+		}
+		scope:county = {
+			NOR = {
+				holder = scope:councillor_liege
+				scope:councillor_liege = {
+					has_claim_on = scope:county
+				}
+			}
+		}
+	}
+
+	on_finish_task_county = {
+		scope:county = {
+			holder = {
+				save_scope_as = county_holder
+			}
+		}
+		scope:councillor_liege = {
+			trigger_event = {
+				on_action = task_fabricate_claim_success_effect
+			}
+		}
+	}
+}
+
+pm_task_boost_grandeur = {
+	position = councillor_prime_minister
+	
+	is_shown = {
+		has_vassal_stance = courtly
+	}
+	
+	task_type = task_type_general
+	task_progress = task_progress_infinite
+	
+	council_owner_modifier = {
+		name = pm_task_boost_grandeur_modifier
+		court_grandeur_baseline_add = 1
 		scale = pm_diplomacy_scale
 	}
 }

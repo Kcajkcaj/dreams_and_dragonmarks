@@ -5,6 +5,10 @@ chaseva_lantar = { # Queen of Vathirond
 	female = yes
 	dynasty = dynn_vathir_lantar
 	
+	trait = callous
+	trait = diligent
+	trait = arrogant
+	
 	3359.1.10 = { birth = yes }
 }
 
@@ -16,7 +20,15 @@ beren_lantar = {
 	dynasty = dynn_vathir_lantar
 	mother = chaseva_lantar
 	
+	trait = gregarious
+	trait = eccentric
+	trait = humble
+	
+	trait = education_diplomacy_2
+	
 	3380.5.4 = {birth = yes}
+	3400.1.1 = {effect = {set_relation_rival = { target = character:molric_lantar reason = rival_historical }}}
+	3410.1.1  = {add_spouse = nyrielle_perryn}
 }
 
 molric_lantar = {
@@ -27,7 +39,16 @@ molric_lantar = {
 	dynasty = dynn_vathir_lantar
 	mother = chaseva_lantar
 	
+	trait = deceitful
+	trait = lustful
+	trait = gregarious
+	
+	trait = education_intrigue_3
+	trait = intellect_good_1
+	
 	3384.6.19 = {birth = yes}
+	3400.1.1 = {effect = {set_relation_rival = { target = character:duran_lantar reason = rival_historical }}}
+	3403.1.1 = {add_spouse = tolri_colworn}
 }
 
 duran_lantar = {
@@ -38,8 +59,16 @@ duran_lantar = {
 	dynasty = dynn_vathir_lantar
 	mother = chaseva_lantar
 	
+	trait = arrogant
+	trait = fierce
+	trait = brave
+	
+	trait = education_martial_3
+	trait = lifestyle_blademaster
 	
 	3385.6.21 = {birth = yes}
+	3400.1.1 = {effect = {set_relation_rival = { target = character:beren_lantar reason = rival_historical }}}
+	3410.1.1 = {add_matrilineal_spouse = mirasandra_zarna}
 }
 
 boranex_perryn = { # Former Duke of Dragonscrown
@@ -62,6 +91,10 @@ abraxis_perryn = { # Current Duke of Dragonscrown
 	
 	father = boranex_perryn
 	
+	trait = diligent
+	trait = stubborn
+	trait = humble
+	
 	3373.3.13 = { birth = yes }
 }
 
@@ -74,6 +107,10 @@ nyrielle_perryn = { # Count of Nowhere
 	
 	father = boranex_perryn
 	
+	trait = diligent
+	trait = compassionate
+	trait = generous
+	
 	3379.9.11 = { birth = yes }
 }
 
@@ -84,7 +121,43 @@ uthar_colworn = { # Duke of Starilaskur
 	female = no
 	dynasty = dynn_vathir_colworn
 	
+	trait = patient
+	trait = temperate
+	trait = calm
+	
 	3364.10.2 = { birth = yes }
+}
+
+laren_colworn = {
+	name = "Laren"
+	culture = vathir
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_vathir_colworn
+	
+	father = uthar_colworn
+	
+	trait = greedy
+	trait = stubborn
+	trait = patient
+	
+	3383.8.19 = {birth = yes}
+}
+
+tolri_colworn = {
+	name = "Tolri"
+	culture = vathir
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_vathir_colworn
+	
+	father = uthar_colworn
+	
+	trait = generous
+	trait = temperate
+	trait = shy
+	
+	3386.4.10 = {birth = yes}
 }
 
 mazina_graccen = { # Count of Rhonewatch
@@ -141,6 +214,7 @@ mirasandra_zarna = { # Duke of Hatheril
 	trait = just
 	trait = honest
 	trait = zealous
+	trait = brave
 	
 	3374.2.13 = { birth = yes}
 }
@@ -156,7 +230,7 @@ merrix_zarna = { # Count of Swordmoor
 	
 	trait = education_martial_3
 	trait = ambitious
-	trait = brave
+	trait = fierce
 	trait = wrathful
 	
 	3379.9.12 = { birth = yes}
@@ -178,6 +252,16 @@ wrogarr_zarna = { # Count of Cragwar
 	trait = vengeful
 	
 	3383.11.11 = { birth = yes}
+	
+	3400.1.1 = {
+		effect = {
+			add_trait_xp = {
+				trait = mage
+				track = necromancy
+				value = 60
+			}
+		}
+	}
 }
 
 tyrala_zarna = { # Count of Fort Light
@@ -196,6 +280,21 @@ tyrala_zarna = { # Count of Fort Light
 	trait = content
 	
 	3387.7.18 = { birth = yes}
+	
+	3400.1.1 = {
+		effect = {
+			add_trait_xp = {
+				trait = mage
+				track = abjuration
+				value = 30
+			}
+			add_trait_xp = {
+				trait = mage
+				track = divination
+				value = 30
+			}
+		}
+	}
 }
 
 erix_talan = { # Count of New Cyre
