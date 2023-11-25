@@ -618,6 +618,7 @@ types CouncilWindow
 					direction = vertical
 					spacing = 3
 					alwaystransparent = no
+					ignoreinvisible = yes
 
 					item = {
 						button_standard = {
@@ -766,17 +767,13 @@ types CouncilWindow
 
 				block "regular_task"
 				{
-					fixedgridbox = {
+					flowcontainer = {
 						name = "council_position_tasks"
 						visible = "[Not(CouncilWindow.IsLiegeCouncilShown)]"
 						datamodel = "[GuiCouncilPosition.GetPotentialCouncilTasks]"
-
-						addcolumn = 45
-						addrow = 45
-						datamodel_wrap = 4
-						maxhorizontalslots = 2
-						maxverticalslots = 4
-						layoutanchor = bottomleft
+						direction = vertical
+						
+						ignoreinvisible = yes
 
 						parentanchor = bottom|left
 						position = { 10 0 }
@@ -793,7 +790,7 @@ types CouncilWindow
 
 						item = {
 							container = {
-								visible = "[GuiPotentialCouncilTask.IsVisible]"
+								visible = "[And(GuiPotentialCouncilTask.IsVisible, GuiPotentialCouncilTask.CanSelect)]"
 								widget = {
 									size = { 42 42 }
 

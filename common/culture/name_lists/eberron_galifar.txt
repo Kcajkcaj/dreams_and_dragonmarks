@@ -167,7 +167,7 @@ name_list_thrane = {
 		{"ir'" "Atrelioth"}
 		{"ir'" "Corliostor"}
 		{"ir'" "Corus"}
-		{"ir'" "Desekane"}
+		{"ir'" "Deskane"}
 		{"ir'" "Drosin"}
 		{"ir'" "Entarro"}
 		{"ir'" "Eskeliendro"}

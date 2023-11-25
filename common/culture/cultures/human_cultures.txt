@@ -58,6 +58,31 @@ vathir = {
 	}
 }
 
+sigilan = {
+	color = {0.8 0.6 1}
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_thrane
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+	}
+	
+	ethnicities = {
+		80 = rhialuun
+		20 = koralanda
+	}
+}
+
 khaluunite = {
 	color = { 0.25 0.05 0.5}
 	
@@ -100,10 +125,63 @@ skindancer = {
 	unit_gfx = { western_unit_gfx 
 	
 	traditions = {
-		
+		tradition_fervent_ritualists
+		tradition_xenophilia
+		tradition_steppe_roamers
+		tradition_trickster_heroes
 	}
 	
 	ethnicities = {
 		100 = koralanda
+	}
+}
+
+xand = {
+	color = {0.4 0.6 0.2}
+	
+	ethos = ethos_communal
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_thrane
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+	}
+	
+	ethnicities = {
+		80 = rhialuun
+		20 = syrk
+	}
+}
+
+ghaltic = {
+	color = {0.15 0.45 0.0}
+	
+	ethos = ethos_communal
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_thrane
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+	}
+	
+	ethnicities = {
+		90 = rhialuun
+		10 = koralanda
 	}
 }

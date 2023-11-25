@@ -1,0 +1,134 @@
+##### Blackcaps
+### Xandrar
+732 = {
+	culture = xand
+	faith = frontier_creed
+	holding = castle_holding
+}
+733 = {holding = none}
+734 = {holding = none}
+735 = {holding = none}
+### Drum Keep
+736 = {
+	culture = xand
+	faith = frontier_creed
+	holding = castle_holding
+}
+737 = {holding = none}
+738 = {holding = none}
+739 = {holding = none}
+### Black Pit
+740 = {
+	culture = xand
+	faith = frontier_creed
+	holding = castle_holding
+}
+741 = {holding = none}
+742 = {holding = none}
+### Blackcaps B
+743 = {
+	culture = xand
+	faith = frontier_creed
+	holding = castle_holding
+}
+744 = {holding = none}
+745 = {holding = none}
+##### Marketplace
+### Marketplace
+746 = {
+	culture = xand
+	faith = frontier_creed
+	holding = castle_holding
+}
+747 = {holding = none}
+748 = {holding = none}
+### Vanguard Keep
+749 = {
+	culture = xand
+	faith = frontier_creed
+	holding = castle_holding
+}
+750 = {holding = none}
+751 = {holding = none}
+### Larunor
+752 = {
+	culture = xand
+	faith = frontier_creed
+	holding = castle_holding
+}
+753 = {holding = none}
+754 = {holding = none}
+### Marketplace B
+755 = {
+	culture = xand
+	faith = frontier_creed
+	holding = castle_holding
+}
+756 = {holding = none}
+757 = {holding = none}
+758 = {holding = none}
+##### Arcanix
+### Arcanix
+759 = {
+	culture = ghaltic
+	faith = frontier_creed
+	holding = castle_holding
+}
+760 = {holding = none}
+761 = {holding = none}
+762 = {holding = none}
+### Tower Vigilant
+763 = {
+	culture = ghaltic
+	faith = frontier_creed
+	holding = castle_holding
+}
+764 = {holding = none}
+765 = {holding = none}
+### Arcanix B
+766 = {
+	culture = ghaltic
+	faith = frontier_creed
+	holding = castle_holding
+}
+767 = {holding = none}
+768 = {holding = none}
+##### Eldritch Groves
+### Passage
+769 = {
+	culture = ghaltic
+	faith = frontier_creed
+	holding = castle_holding
+}
+770 = {holding = none}
+### Windshire
+771 = {
+	culture = ghaltic
+	faith = frontier_creed
+	holding = castle_holding
+}
+772 = {holding = none}
+### Ghalt
+773 = {
+	culture = ghaltic
+	faith = frontier_creed
+	holding = castle_holding
+}
+774 = {holding = none}
+775 = {holding = none}
+776 = {holding = none}
+### Lathleer
+777 = {
+	culture = ghaltic
+	faith = frontier_creed
+	holding = castle_holding
+}
+778 = {holding = none}
+### Eldritch Groves B
+779 = {
+	culture = ghaltic
+	faith = frontier_creed
+	holding = castle_holding
+}
+780 = {holding = none}
+781 = {holding = none}

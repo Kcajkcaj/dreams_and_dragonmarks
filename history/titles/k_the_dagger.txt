@@ -74,7 +74,7 @@ c_bentblade_c = {
 c_bentblade_d = {
 	3400.1.1 = {
 		liege = d_wroat
-		holder = galeth_demell
+		holder = duran_of_bentblade_d
 	}
 }
 c_galethspyre = {
@@ -112,12 +112,14 @@ c_woodhelm = {
 }
 c_skyraker_a = {
 	3400.1.1 = {
-		holder = duran_of_skyraker_a
+		liege = d_wroat
+		holder = galeth_demell
 	}
 }
 c_skyraker_b = {
 	3400.1.1 = {
-		holder = nolan_of_skyraker_b
+		liege = d_wroat
+		holder = galeth_demell
 	}
 }
 c_skyraker_c = {

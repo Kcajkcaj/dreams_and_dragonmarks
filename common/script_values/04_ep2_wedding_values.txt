@@ -848,8 +848,8 @@ base_wedding_cost = {
 		add = 75
 	}
 	if = {
-		limit = {faith = {has_doctrine_parameter = cheaper_weddings}
-		add = -50
+		limit = {faith = {has_doctrine_parameter = cheaper_weddings}}
+		factor = 0.6
 	}
 }
 

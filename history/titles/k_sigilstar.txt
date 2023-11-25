@@ -1,0 +1,215 @@
+k_sigilstar = {
+	3350.1.1 = {
+		holder = suthar_atrelioth
+		liege = k_sigilstar
+	}
+	3391.6.2 = {
+		holder = alestair_atrelioth
+	}
+	3413.8.15 = {
+		holder = sora_tasha
+	}
+}
+
+d_sigilstar = {
+	3350.1.1 = {
+		holder = suthar_atrelioth
+		liege = k_sigilstar
+		change_development_level = 12
+	}
+	3391.6.2 = {
+		holder = alestair_atrelioth
+	}
+	3413.8.15 = {
+		holder = sora_tasha
+	}
+}
+
+c_sigilstar = {
+	3350.1.1 = {
+		holder = suthar_atrelioth
+		liege = k_sigilstar
+	}
+	3391.6.2 = {
+		holder = alestair_atrelioth
+	}
+	3413.8.15 = {
+		holder = sora_tasha
+	}
+}
+
+c_avaroth = {
+	3350.1.1 = {
+		holder = suthar_atrelioth
+		liege = k_sigilstar
+	}
+	3391.6.2 = {
+		holder = alestair_atrelioth
+	}
+	3413.8.15 = {
+		holder = hariel_atrelioth
+	}
+}
+
+c_athandra = {
+	3350.1.1 = {
+		holder = suthar_atrelioth
+		liege = k_sigilstar
+	}
+	3391.6.2 = {
+		holder = alestair_atrelioth
+	}
+	3413.8.15 = {
+		holder = irulan_atrelioth
+	}
+}
+
+c_sigilstar_b = {
+	3350.1.1 = {
+		holder = suthar_atrelioth
+		liege = k_sigilstar
+	}
+	3391.6.2 = {
+		holder = alestair_atrelioth
+	}
+	3413.8.15 = {
+		holder = suspiria_atrelioth
+	}
+}
+
+c_sharavacion = {
+	3350.1.1 = {
+		holder = suthar_atrelioth
+		liege = k_sigilstar
+	}
+	3388.1.1 = {
+		holder = pentar_lerendazi
+	}
+	3411.6.7 = {
+		holder = valtar_lerendazi
+	}
+}
+
+d_rhone = {
+	3350.1.1 = {
+		holder = suthar_atrelioth
+		liege = k_sigilstar
+		change_development_level = 9
+	}
+	3391.6.2 = {
+		holder = chantalyn_atrelioth
+	}
+}
+
+c_rellekor = {
+	3400.1.1 = {
+		holder = syro_vanatar
+		liege = d_rhone
+	}
+}
+c_rhone_b = {
+	3400.1.1 = {
+		holder = javi_imaradi
+		liege = d_rhone
+	}
+}
+c_morningcrest = {
+	3400.1.1 = {
+		holder = javi_imaradi
+		liege = d_rhone
+	}
+}
+c_arolan = {
+	3400.1.1 = {
+		holder = javi_imaradi
+		liege = d_rhone
+	}
+}
+
+d_arul = {
+	3350.1.1 = {
+		holder = verodin_karavastar
+		liege = k_sigilstar
+		change_development_level = 9
+	}
+	3406.4.2 = {
+		holder = avaliah_karavastar
+	}
+}
+
+c_lessyk = {
+	3350.1.1 = {
+		holder = sercyl_marktaros
+		liege = d_arul
+	}
+	3397.4.14 = {
+		holder = narvala_marktaros
+	}
+}
+c_angwar = {
+	3350.1.1 = {
+		holder = sercyl_marktaros
+		liege = d_arul
+	}
+	3397.4.14 = {
+		holder = narvala_marktaros
+	}
+}
+c_arul_b = {
+	3350.1.1 = {
+		holder = sercyl_marktaros
+		liege = d_arul
+	}
+	3397.4.14 = {
+		holder = narvala_marktaros
+	}
+}
+c_urguun_draal = {
+	3350.1.1 = {
+		holder = sercyl_marktaros
+		liege = d_arul
+	}
+	3397.4.14 = {
+		holder = narvala_marktaros
+	}
+}
+
+c_nathyrr = {
+	3350.1.1 = {
+		holder = sercyl_marktaros
+		liege = d_arul
+	}
+	3397.4.14 = {
+		holder = nyllestra_marktaros
+	}
+}
+
+c_cairn_hill = {
+	3350.1.1 = {
+		holder = sercyl_marktaros
+		liege = d_arul
+	}
+	3397.4.14 = {
+		holder = nyllestra_marktaros
+	}
+}
+
+c_harrowcrowns = {
+	3350.1.1 = {
+		holder = sercyl_marktaros
+		liege = d_arul
+	}
+	3397.4.14 = {
+		holder = nyllestra_marktaros
+	}
+}
+
+d_burntwood = {
+	3350.1.1 = {
+		holder = melindri_talandro
+		change_development_level = 6
+	}
+	3408.5.14 = {
+		holder = drego_talandro
+	}
+}

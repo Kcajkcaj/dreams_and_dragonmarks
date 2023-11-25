@@ -758,15 +758,6 @@ offer_vassalization_interaction = {
 			desc = DIPLOMATIC_COURT_ACCEPTANCE_INCREASE_REASON
 		}
 
-		modifier = { # AI-only weights, keep the pope from vassalizing too fast
-			trigger = {
-				exists = faith:catholic.religious_head
-				faith:catholic.religious_head = scope:actor
-				scope:actor = { is_ai = yes }
-			}
-			add = -50
-		}
-
 		#ALL these modifiers are also used in impress_intent_vassalization_acceptance_value, keep them synced
 	}
 
@@ -798,19 +789,7 @@ offer_vassalization_interaction = {
 
 	ai_will_do = {
 		base = 100
-
-		# Cynical rulers are happy to offer religious protection to potential vassals, but only when it makes them accept a vassalization offer they would otherwise refuse.
-		# Zealous rulers become increasingly reluctant to offer religious protection, as they want to enforce religious homogeneity in their realm.
-		modifier = {
-			add = {
-				value = ai_zeal
-				multiply = -2
-				max = 1
-			}
-			scope:religious_exemption = yes
-		}
-
-
+		
 		modifier = { # If the recipient is a player, do not bother sending
 			factor = 0
 			scope:recipient = {
@@ -1049,132 +1028,7 @@ offer_fealty_interaction = {
 			opinion_target = scope:actor
 			multiplier = 0.5
 		}
-
-		# CONTRACT OPTIONS
-		modifier = {
-			add = {
-				value = -10
-				if = {
-					limit = { scope:recipient = { has_trait = zealous } }
-					add = -30
-				}
-				else_if = {
-					limit = { scope:recipient = { has_trait = cynical } }
-					add = 30
-				}
-			}
-			scope:actor = {	government_has_flag = government_is_feudal }
-			scope:religious_taxation = yes
-			desc = CONTRACT_RELIGIOUS_TAXATION_REASON
-		}
-		modifier = {
-			add = -40
-			scope:actor = {	government_has_flag = government_is_feudal }
-			scope:low_obligations = yes
-			desc = CONTRACT_LOW_TAXES_REASON
-		}
-		modifier = {
-			add = 40
-			scope:actor = {	government_has_flag = government_is_feudal }
-			scope:high_obligations = yes
-			desc = CONTRACT_HIGH_TAXES_REASON
-		}
-		modifier = {
-			add = {
-				value = -10
-				if = {
-					limit = { scope:recipient = { has_trait = zealous } }
-					add = -30
-				}
-				else_if = {
-					limit = { scope:recipient = { has_trait = cynical } }
-					add = 30
-				}
-			}
-			scope:actor = {	government_has_flag = government_is_clan }
-			scope:religious_exemption_clan = yes
-			desc = CONTRACT_RELIGIOUS_EXEMPTION_REASON
-		}
 	}
-
-	# Low starting obligations
-	send_option = {
-		is_shown = {
-			scope:actor = {
-				government_has_flag = government_is_feudal
-			}
-		}
-		flag = low_obligations
-		localization = low_obligations
-	}
-
-	# Medium starting obligations
-	send_option = {
-		is_shown = {
-			scope:actor = {
-				government_has_flag = government_is_feudal
-			}
-		}
-		flag = normal_obligations
-		localization = normal_obligations
-		starts_enabled = { always = yes	}
-
-	}
-
-	# High starting obligations
-	send_option = {
-		is_shown = {
-			scope:actor = {
-				government_has_flag = government_is_feudal
-			}
-		}
-		flag = high_obligations
-		localization = high_obligations
-	}
-
-	# Medium-high starting obligations + religious protection
-	send_option = {
-		is_shown = {
-			scope:actor = {
-				government_has_flag = government_is_feudal
-			}
-		}
-		is_valid = {
-			NOT = { scope:recipient.faith = scope:actor.faith }
-		}
-		flag = religious_taxation
-		localization = religious_taxation
-	}
-
-	# Religious exemption, for clans
-	send_option = {
-		is_shown = {
-			scope:actor = {
-				government_has_flag = government_is_clan
-			}
-		}
-		is_valid = {
-			NOT = { scope:recipient.faith = scope:actor.faith }
-		}
-		flag = religious_exemption_clan
-		localization = religious_exemption
-	}
-
-	# Nothing, for clans
-	send_option = {
-		is_shown = {
-			scope:actor = {
-				government_has_flag = government_is_clan
-			}
-		}
-		is_valid = {
-			always = yes
-		}
-		flag = no_exemption_clan
-		localization = no_exemption
-	}
-
-	send_options_exclusive = yes
 
 	on_accept = {
 		offer_fealty_interaction_effect = yes

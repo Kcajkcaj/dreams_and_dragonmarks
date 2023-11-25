@@ -176,6 +176,10 @@ galeth_demell = {
 	
 	trait = education_stewardship_3
 	
+	trait = diligent
+	trait = stubborn
+	trait = just
+	
 	3378.9.5 = {
 		birth = yes
 	}
@@ -283,7 +287,7 @@ rand_of_ardev = {
 
 laren_devir = {
 	name = "Laren"
-	culture = vathir
+	culture = xand
 	faith = frontier_creed
 	female = no
 	dynasty = dynn_dagger_devir
@@ -314,24 +318,13 @@ thurik_of_woodhelm = {
 	}
 }
 
-duran_of_skyraker_a = {
+duran_of_bentblade_d = {
 	name = "Duran"
 	culture = vathir
 	faith = frontier_creed
 	female = no
 	
 	3356.11.10 = {
-		birth = yes
-	}
-}
-
-nolan_of_skyraker_b = {
-	name = "Nolan"
-	culture = vathir
-	faith = frontier_creed
-	female = no
-	
-	3367.7.16 = {
 		birth = yes
 	}
 }

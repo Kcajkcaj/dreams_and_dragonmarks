@@ -66,8 +66,8 @@
 	holding = castle_holding
 	special_building_slot = dye_factories
 }
-95 = {holding = church_holding}
-96 = {holding = city_holding}
+95 = {holding = city_holding}
+96 = {holding = church_holding}
 ### Shining Valley
 97 = {
 	culture = daggerborn
@@ -183,7 +183,7 @@
 ##### Whitehorn
 ### Shavalant
 137 = {
-	culture = vathir
+	culture = xand
 	faith = frontier_creed
 	holding = castle_holding
 }

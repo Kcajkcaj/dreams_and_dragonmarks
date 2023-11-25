@@ -1,0 +1,123 @@
+k_lakeside = {
+	color = { 91 127 0 }
+	capital = c_xandrar
+	
+	d_blackcaps = {
+		color = { 104 158 30 }
+		capital = c_xandrar
+		
+		c_xandrar = {
+			color = { 106 157 56 }
+			b_xandrar_1 = {province = 732}
+			b_xandrar_2 = {province = 733}
+			b_xandrar_3 = {province = 734}
+			b_xandrar_4 = {province = 735}
+		}
+		c_drum_keep = {
+			color = { 96 161 1 }
+			b_drum_keep_1 = {province = 736}
+			b_drum_keep_2 = {province = 737}
+			b_drum_keep_3 = {province = 738}
+			b_drum_keep_4 = {province = 739}
+		}
+		c_black_pit = {
+			color = { 73 158 1 }
+			b_black_pit_1 = {province = 740}
+			b_black_pit_2 = {province = 741}
+			b_black_pit_3 = {province = 742}
+		}
+		c_blackcaps_b = {
+			color = { 105 147 20 }
+			b_blackcaps_b1 = {province = 743}
+			b_blackcaps_b2 = {province = 744}
+			b_blackcaps_b3 = {province = 745}
+		}
+	}
+	d_marketplace = {
+		color = { 49 144 1 }
+		capital = c_marketplace
+		
+		c_marketplace = {
+			color = { 14 144 30 }
+			b_marketplace_1 = {province = 746}
+			b_marketplace_2 = {province = 747}
+			b_marketplace_3 = {province = 748}
+		}
+		c_vanguard_keep = {
+			color = { 86 141 27 }
+			b_vanguard_keep_1 = {province = 749}
+			b_vanguard_keep_2 = {province = 750}
+			b_vanguard_keep_3 = {province = 751}
+		}
+		c_larunor = {
+			color = { 1 136 1 }
+			b_larunor_1 = {province = 752}
+			b_larunor_2 = {province = 753}
+			b_larunor_3 = {province = 754}
+		}
+		c_marketplace_b = {
+			color = { 24 150 1 }
+			b_marketplace_b1 = {province = 755}
+			b_marketplace_b2 = {province = 756}
+			b_marketplace_b3 = {province = 757}
+			b_marketplace_b4 = {province = 758}
+		}
+	}
+	d_arcanix = {
+		color = { 103 111 49 }
+		capital = c_arcanix
+		
+		c_arcanix = {
+			color = { 95 101 28 }
+			b_arcanix_1 = {province = 759}
+			b_arcanix_2 = {province = 760}
+			b_arcanix_3 = {province = 761}
+			b_arcanix_4 = {province = 762}
+		}
+		c_tower_vigilant = {
+			color = { 105 105 61 }
+			b_tower_vigilant_1 = {province = 763}
+			b_tower_vigilant_2 = {province = 764}
+			b_tower_vigilant_3 = {province = 765}
+		}
+		c_arcanix_b = {
+			color = { 97 106 46 }
+			b_arcanix_b1 = {province = 766}
+			b_arcanix_b2 = {province = 767}
+			b_arcanix_b3 = {province = 768}
+		}
+	}
+	d_eldritch_groves = {
+		color = { 36 121 1 }
+		capital = c_passage
+		
+		c_passage = {
+			color = { 70 119 9 }
+			b_passage_1 = {province = 769}
+			b_passage_2 = {province = 770}
+		}
+		c_windshire = {
+			color = { 32 133 1 }
+			b_windshire_1 = {province = 771}
+			b_windshire_2 = {province = 772}
+		}
+		c_ghalt = {
+			color = { 38 112 1 }
+			b_ghalt_1 = {province = 773}
+			b_ghalt_2 = {province = 774}
+			b_ghalt_3 = {province = 775}
+			b_ghalt_4 = {province = 776}
+		}
+		c_lathleer = {
+			color = { 1 123 1 }
+			b_lathleer_1 = {province = 777}
+			b_lathleer_2 = {province = 778}
+		}
+		c_eldritch_groves_b = {
+			color = { 1 114 1 }
+			b_eldritch_groves_b1 = {province = 779}
+			b_eldritch_groves_b2 = {province = 780}
+			b_eldritch_groves_b3 = {province = 781}
+		}
+	}
+}

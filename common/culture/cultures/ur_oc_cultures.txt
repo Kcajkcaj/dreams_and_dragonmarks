@@ -165,6 +165,7 @@ sartan = {
 		tradition_clan_connections
 		tradition_chattel_slavery
 		tradition_overwhelming_numbers
+		tradition_trickster_heroes
 	}
 	
 	ethnicities = {

@@ -12,3 +12,14 @@ vampire = {
 	flag = blocks_getting_non_epidemic_disease
 	flag = immortal_cravings
 }
+
+hag = {
+	immortal = yes
+	physical = yes
+	monthly_lifestyle_xp_gain_mult = -0.75
+	general_opinion = -10
+	learning = 5
+	intrigue = 3
+	flag = blocks_getting_non_epidemic_disease
+	flag = immortal_cravings
+}

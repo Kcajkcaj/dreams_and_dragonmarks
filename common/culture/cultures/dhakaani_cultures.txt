@@ -18,7 +18,7 @@ daggerborn = {
 		tradition_chattel_slavery
 		tradition_clan_connections
 		tradition_rule_of_the_chibs
-		tradition_embrace_of_industry
+		tradition_trickster_heroes
 		tradition_riparian_settlements
 	}
 	

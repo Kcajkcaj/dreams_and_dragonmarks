@@ -1,0 +1,49 @@
+norah_tarravan = {
+	name = "Norah"
+	culture = xand
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_lakeside_tarravan
+	
+	3337.4.6 = {birth = yes}
+	3407.12.18 = {death = yes}
+}
+pentar_tarravan = {
+	name = "Pentar"
+	culture = xand
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_lakeside_tarravan
+
+	mother = norah_tarravan
+	3360.9.16 = {birth = yes}
+}
+ossul_tarravan = {
+	name = "Ossul"
+	culture = xand
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_lakeside_tarravan
+	
+	mother = norah_tarravan
+	3364.8.7 = {birth = yes}
+}
+syro_drosin = {
+	name = "Pentar"
+	culture = ghaltic
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_lakeside_drosin
+	
+	3362.5.1 = {birth = yes}
+}
+
+tokorin_orien = {
+	name = "Tokorin"
+	culture = ghaltic
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_orien
+	
+	3376.10.3 = {birth = yes}
+}

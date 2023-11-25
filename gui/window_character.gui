@@ -3570,6 +3570,159 @@ window = {
 
 types CharacterWindow
 {
+	type modifier_item_icon = widget {
+		datacontext = "[ModifierItem.GetStaticModifier]"
+
+		size = { 25 25 }
+
+		# Preview list
+		icon = {
+			# the tag is hard-coded, if you want to change the name or add a new one please contact someone from code team
+			visible = "[ModifierItem.HasTooltipDataByTag('preview_list')]"
+
+			size = { 100% 100% }
+			texture = "[ModifierItem.GetIcon]"
+
+			block "icon_data" {
+				alwaystransparent = no
+			}
+
+			tooltipwidget = {
+				object_tooltip_pop_out = {
+					datacontext = "[ModifierItem.GetPreviewList]"
+
+					blockoverride "header_additions" {
+						hbox = {
+							margin_right = 10
+							margin_top = 8
+							margin_left = -4
+
+							icon = {
+								size = { 32 32 }
+								texture = "[StaticModifier.GetIcon]"
+								tintcolor = "[TooltipInfo.GetTintColor]"
+							}
+						}
+					}
+
+					blockoverride "title_text" {
+						margin = { 0 8 }
+						text = "[StaticModifier.GetName]"
+					}
+
+					blockoverride "concept_link" {
+						text = ""
+					}
+
+					blockoverride "main_description" {
+						vbox = {
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
+
+							text_multi = {
+								autoresize = yes
+								max_width = 350
+								text = "[TimedModifierPreviewList.GetScaledDesc]"
+							}
+
+							vbox = {
+								layoutpolicy_horizontal = expanding
+								layoutpolicy_vertical = expanding
+
+								datamodel = "[TimedModifierPreviewList.GetItems]"
+
+								item = {
+									vbox = {
+										layoutpolicy_horizontal = expanding
+										layoutpolicy_vertical = expanding
+
+										text_single = {
+											layoutpolicy_horizontal = growing
+											text = "[TimedModifierPreviewItem.GetTitle]"
+										}
+
+										text_single = {
+											layoutpolicy_horizontal = growing
+											text = "[TimedModifierPreviewItem.GetExpirationDate]"
+										}
+									}
+								}
+							}
+
+							textbox = {
+								name = "input_info"
+								layoutpolicy_horizontal = expanding
+								margin_top = 10
+								margin_bottom = 20
+								using = DefaultTooltipText
+								multiline = yes
+								block "input_info_text" {}
+								fonttintcolor = "[TooltipInfo.GetTintColor]"
+							}
+						}
+					}
+				}
+			}
+		}
+
+		# Single modifier
+		icon = {
+			# the tag is hard-coded, if you want to change the name or add a new one please contact someone from code team
+			visible = "[ModifierItem.HasTooltipDataByTag('single_modifier')]"
+			size = { 100% 100% }
+			texture = "[ModifierItem.GetIcon]"
+
+			block "icon_data" {
+				alwaystransparent = no
+			}
+
+			tooltipwidget = {
+				static_modifier_tooltip = {
+					datacontext = "[ModifierItem.GetSingleModifierTooltipData]"
+
+					blockoverride "description_text_data" {
+						text = "[TimedModifierSingleItem.GetDesc]"
+					}
+				}
+			}
+		}
+
+		# Scaled single modifier
+		icon = {
+			# the tag is hard-coded, if you want to change the name or add a new one please contact someone from code team
+			visible = "[ModifierItem.HasTooltipDataByTag('scaled_single_modifier')]"
+
+			size = { 100% 100% }
+			texture = "[ModifierItem.GetIcon]"
+
+			block "icon_data" {
+				alwaystransparent = no
+			}
+
+			tooltipwidget = {
+				scaled_static_modifier_tooltip = {
+					datacontext = "[ModifierItem.GetScaledSingleModifierTooltipData]"
+
+					blockoverride "description_text_data" {
+						text = "[TimedModifierScaledSingleItem.GetDesc]"
+					}
+
+					blockoverride "effects_datamodel" {
+						datamodel = "[TimedModifierScaledSingleItem.GetEffectItems]"
+					}
+
+					blockoverride "expiration_date" {
+						text_single = {
+							layoutpolicy_horizontal = growing
+							text = "[TimedModifierScaledSingleItem.GetExpirationDate]"
+						}
+						margin_bottom = 10
+					}
+				}
+			}
+		}
+	}
+	
 	type skill_icon_label_vertical = widget {
 		size = { 40 60 }
 

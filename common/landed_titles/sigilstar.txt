@@ -1,0 +1,182 @@
+k_sigilstar = {
+	color = { 201 155 255 }
+	capital = c_sigilstar
+	
+	d_sigilstar = {
+		color = { 208 154 226 }
+		capital = c_sigilstar
+		
+		c_sigilstar = {
+			color = { 202 151 217 }
+			b_sigilstar_1 = {province = 654}
+			b_sigilstar_2 = {province = 655}
+			b_sigilstar_3 = {province = 656}
+			b_sigilstar_4 = {province = 657}
+		}
+		c_avaroth = {
+			color = { 213 158 227 }
+			b_avaroth_1 = {province = 658}
+			b_avaroth_2 = {province = 659}
+			b_avaroth_3 = {province = 660}
+		}
+		c_athandra = {
+			color = { 207 157 224 }
+			b_athandra_1 = {province = 661}
+			b_athandra_2 = {province = 662}
+			b_athandra_3 = {province = 663}
+		}
+		c_sharavacion = {
+			color = { 218 147 218 }
+			b_sharavacion_1 = {province = 664}
+			b_sharavacion_2 = {province = 665}
+			b_sharavacion_3 = {province = 666}
+		}
+		c_sigilstar_b = {
+			color = { 196 156 221 }
+			b_sigilstar_b1 = {province = 667}
+			b_sigilstar_b2 = {province = 668}
+		}
+	}
+	d_arul = {
+		color = { 183 126 254 }
+		capital = c_aruldusk
+		
+		c_aruldusk = {
+			color = { 175 121 245 }
+			b_aruldusk_1 = {province = 669}
+			b_aruldusk_2 = {province = 670}
+			b_aruldusk_3 = {province = 671}
+		}
+		c_arythawn = {
+			color = { 179 115 254 }
+			b_arythawn_1 = {province = 672}
+			b_arythawn_2 = {province = 673}
+		}
+		c_the_ziggurat = {
+			color = { 206 130 254 }
+			b_the_ziggurat_1 = {province = 674}
+			b_the_ziggurat_2 = {province = 675}
+		}
+		c_cairn_hill = {
+			color = { 164 124 235 }
+			b_cairn_hill_1 = {province = 676}
+			b_cairn_hill_2 = {province = 677}
+		}
+		c_nathyrr = {
+			color = { 188 107 254 }
+			b_nathyrr_1 = {province = 678}
+			b_nathyrr_2 = {province = 679}
+			b_nathyrr_3 = {province = 680}
+			b_nathyrr_4 = {province = 681}
+		}
+		c_harrowcrowns = {
+			color = { 173 129 252 }
+			b_harrowcrowns_1 = {province = 682}
+			b_harrowcrowns_2 = {province = 683}
+			b_harrowcrowns_3 = {province = 684}
+		}
+		c_urguun_draal = {
+			color = { 200 114 254 }
+			b_urguun_draal_1 = {province = 685}
+			b_urguun_draal_2 = {province = 686}
+		}
+		c_lessyk = {
+			color = { 174 129 254 }
+			b_lessyk_1 = {province = 687}
+			b_lessyk_2 = {province = 688}
+		}
+		c_angwar = {
+			color = { 163 131 235 }
+			b_angwar_1 = {province = 689}
+			b_angwar_2 = {province = 690}
+			b_angwar_3 = {province = 691}
+		}
+		c_arul_b = {
+			color = { 192 138 253 }
+			b_arul_b1 = {province = 692}
+			b_arul_b2 = {province = 693}
+			b_arul_b3 = {province = 694}
+			b_arul_b4 = {province = 695}
+		}
+	}
+	d_rhone = {
+		color = { 188 147 212 }
+		capital = c_tellyn
+		
+		c_tellyn = {
+			color = { 190 148 230 }
+			b_tellyn_1 = {province = 696}
+			b_tellyn_2 = {province = 697}
+			b_tellyn_3 = {province = 698}
+		}
+		c_rellekor = {
+			color = { 184 145 222 }
+			b_rellekor_1 = {province = 699}
+			b_rellekor_2 = {province = 700}
+			b_rellekor_3 = {province = 701}
+			b_rellekor_4 = {province = 702}
+		}
+		c_harrowgard = {
+			color = { 198 140 218 }
+			b_harrowgard_1 = {province = 703}
+			b_harrowgard_2 = {province = 704}
+			b_harrowgard_3 = {province = 705}
+		}
+		c_arolan = {
+			color = { 182 136 204 }
+			b_arolan_1 = {province = 706}
+			b_arolan_2 = {province = 707}
+		}
+		c_morningcrest = {
+			color = { 204 146 218 }
+			b_morningcrest_1 = {province = 708}
+			b_morningcrest_2 = {province = 709}
+			b_morningcrest_3 = {province = 710}
+		}
+		c_rhone_b = {
+			color = { 171 145 201 }
+			b_rhone_b1 = {province = 711}
+			b_rhone_b2 = {province = 712}
+		}
+	}
+	d_burntwood = {
+		color = { 198 132 254 }
+		capital = c_shadukar
+		
+		c_shadukar = {
+			color = { 183 134 248 }
+			b_shadukar_1 = {province = 713}
+			b_shadukar_2 = {province = 714}
+			b_shadukar_3 = {province = 715}
+		}
+		c_beacon_island = {
+			color = { 201 114 254 }
+			b_beacon_island_1 = {province = 716}
+			b_beacon_island_2 = {province = 717}
+			b_beacon_island_3 = {province = 718}
+			b_beacon_island_4 = {province = 719}
+		}
+		c_solitude = {
+			color = { 132 1 67 }
+			b_solitude_1 = {province = 720}
+		}
+		c_olath = {
+			color = { 197 116 235 }
+			b_olath_1 = {province = 721}
+			b_olath_2 = {province = 722}
+			b_olath_3 = {province = 723}
+		}
+		c_burntwood_b = {
+			color = { 218 126 254 }
+			b_burntwood_b1 = {province = 724}
+			b_burntwood_b2 = {province = 725}
+			b_burntwood_b3 = {province = 726}
+		}
+		c_burntwood_c = {
+			color = { 215 119 254 }
+			b_burntwood_c1 = {province = 727}
+			b_burntwood_c2 = {province = 728}
+			b_burntwood_c3 = {province = 729}
+		}
+	}
+}

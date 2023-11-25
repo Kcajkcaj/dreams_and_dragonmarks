@@ -19,6 +19,7 @@ zil = {
 		tradition_trust_the_trust
 		tradition_famed_universities
 		tradition_xenophilia
+		tradition_trickster_heroes
 	}
 	
 	ethnicities = {

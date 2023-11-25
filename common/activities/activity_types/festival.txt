@@ -149,7 +149,7 @@ activity_festival = {
 				limit = {
 					OR = {
 						has_trait = gregarious
-						has_trait = zealot
+						has_trait = zealous
 						has_trait = gluttonous
 					}
 				}

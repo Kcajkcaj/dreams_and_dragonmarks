@@ -76,7 +76,7 @@ commander_wounded = {
 			factor = 0
 			has_trait_xp = {
 				trait = mage
-				track = abjurer
+				track = abjuration
 				value >= 10
 			}
 		}
@@ -308,6 +308,14 @@ commander_killed = {
 			has_trait_rank = {
 				trait = wounded
 				rank = 3
+			}
+		}
+		modifier = {
+			factor = 0
+			has_trait_xp = {
+				trait = mage
+				track = abjuration
+				value >= 10
 			}
 		}
 	}

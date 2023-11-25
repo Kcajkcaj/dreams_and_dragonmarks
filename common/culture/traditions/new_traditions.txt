@@ -352,6 +352,7 @@ tradition_famed_universities = {
 	parameters = {
 		more_frequent_university_visits = yes
 		cheaper_university_visits = yes
+		can_appoint_court_scholar = yes
 	}
 	
 	category = realm
@@ -803,6 +804,36 @@ tradition_traveling_merchants = {
 		diplomatic_range_mult = 0.2
 		character_travel_safety_mult = 0.2
 		character_travel_speed_mult = 0.2
+	}
+	
+	category = societal
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_trickster_heroes = {
+	layers = {
+		0 = intrigue
+		1 = western
+		4 = pragmatic_creed.dds
+	}
+	
+	parameters = {
+		prestige_from_antagonizing = yes # New
+		more_likely_to_join_scheme = yes # New
+	}
+	
+	character_modifier = {
+		intrigue_per_prestige_level = 2
 	}
 	
 	category = societal

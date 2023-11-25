@@ -1,0 +1,49 @@
+d_blackcaps = {
+	3350.1.1 = {
+		holder = norah_tarravan
+		change_development_level = 6
+	}
+	3407.12.18 = {
+		holder = pentar_tarravan
+	}
+}
+c_arcanix_b = {
+	3350.1.1 = {
+		holder = norah_tarravan
+		liege = d_blackcaps
+	}
+	3407.12.18 = {
+		holder = pentar_tarravan
+	}
+}
+d_marketplace = {
+	3350.1.1 = {
+		holder = norah_tarravan
+		change_development_level = 9
+	}
+	3407.12.18 = {
+		holder = ossul_tarravan
+	}
+}
+d_arcanix = {
+	3400.1.1 = {
+		holder = syro_drosin
+		change_development_level = 6
+	}
+}
+c_lathleer = {
+	3400.1.1 = {
+		holder = syro_drosin
+	}
+}
+c_eldritch_groves_b = {
+	3400.1.1 = {
+		holder = syro_drosin
+	}
+}
+d_eldritch_groves = {
+	3400.1.1 = {
+		holder = tokorin_orien
+		change_development_level = 9
+	}
+}

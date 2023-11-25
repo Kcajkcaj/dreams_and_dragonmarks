@@ -272,7 +272,7 @@
 			add = {value = 75}
 		}
 		if = {
-			limit = {culture = has_cultural_parameter = more_frequent_university_visits}
+			limit = {culture = {has_cultural_parameter = more_frequent_university_visits}}
 			add = {value = 50}
 		}
 		if = {

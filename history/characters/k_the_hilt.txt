@@ -9,8 +9,14 @@ aaspar_of_silln = {
 	trait = zealous
 	trait = ambitious
 	trait = sadistic
+	trait = brave
+	
+	trait = holy_warrior
+	trait = reaver
+	trait = lifestyle_blademaster
 	
 	trait = shrewd
+	trait = intellect_good_1
 	
 	3392.11.8 = {
 		birth = yes

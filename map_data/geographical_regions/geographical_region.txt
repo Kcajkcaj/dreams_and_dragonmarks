@@ -2,6 +2,7 @@
 	regions = {
 		world_khorvaire_breland
 		world_khorvaire_cyre
+		world_khorvaire_thrane
 	}
 }
 
@@ -40,5 +41,33 @@ world_khorvaire_breland_zilargo = {
 world_khorvaire_cyre_darguun = {
 	duchies = {
 		d_rhukaan_draal d_seawall d_gathering_stone d_torlaac d_khraal
+	}
+}
+
+world_khorvaire_thrane = {
+	regions = {
+		world_khorvaire_thrane_arul
+	}
+}
+
+world_khorvaire_thrane_arul = {
+	duchies = {
+		d_sigilstar
+		d_arul
+		d_rhone
+		d_burntwood
+	}
+}
+
+material_hsb_ivory_native = {
+	regions = {
+		world_khorvaire_cyre
+		world_khorvaire_breland
+	}
+}
+
+material_hsb_ivory_imported = {
+	regions = {
+		world_khorvaire
 	}
 }

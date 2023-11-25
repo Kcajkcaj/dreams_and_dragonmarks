@@ -1,0 +1,261 @@
+suthar_atrelioth = {
+	name = "Suthar"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_atrelioth
+	
+	3342.9.11 = {birth = yes}
+	3391.6.2 = {death = yes}
+}
+
+alestair_atrelioth = {
+	name = "Alestair"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_atrelioth
+	
+	father = suthar_atrelioth
+	
+	trait = adulterer
+	
+	3366.4.1 = {birth = yes}
+	3385.12.3 = {add_spouse = maradal_karavastar}
+	3413.8.15 = {death = yes}
+}
+
+chantalyn_atrelioth = {
+	name = "Chantalyn"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_atrelioth
+	
+	father = suthar_atrelioth
+	
+	3368.7.16 = {birth = yes}
+}
+
+sora_tasha = {
+	name = "Tasha"
+	culture = sigilan
+	faith = shadowtongue
+	female = yes
+	dynasty = dynn_sigilan_atrelioth
+	
+	father = alestair_atrelioth
+	mother = sora_katra
+	
+	trait = education_learning_4
+	trait = beauty_good_3
+	trait = intellect_good_3
+	trait = shrewd
+	trait = planetouched_thelanis
+	trait = legitimized_bastard
+	trait = witch
+	
+	trait = lustful
+	trait = inquisitive
+	trait = deceitful
+	
+	3388.3.18 = {birth = yes}
+}
+
+hariel_atrelioth = {
+	name = "Hariel"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_atrelioth
+	
+	father = alestair_atrelioth
+	mother = maradal_karavastar
+	
+	3389.8.13 = {birth = yes}
+}
+
+irulan_atrelioth = {
+	name = "Irulan"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_atrelioth
+	
+	father = alestair_atrelioth
+	mother = maradal_karavastar
+	
+	3391.5.11 = {birth = yes}
+}
+
+suspiria_atrelioth = {
+	name = "Suspiria"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_atrelioth
+	
+	father = alestair_atrelioth
+	mother = maradal_karavastar
+	
+	3395.8.17 = {birth = yes}
+}
+
+verodin_karavastar = {
+	name = "Verodin"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_karavastar
+	
+	3344.2.11 = {birth = yes}
+	
+	3406.4.2 = {death = yes}
+}
+
+avaliah_karavastar = {
+	name = "Avaliah"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_karavastar
+	
+	father = verodin_karavastar
+	
+	3367.3.10 = {birth = yes}
+}
+
+maradal_karavastar = {
+	name = "Maradal"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_karavastar
+	
+	father = verodin_karavastar
+	
+	3369.8.12 = {birth = yes}
+}
+
+melindri_talandro = {
+	name = "Melindri"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_talandro
+	
+	3339.5.9 = {birth = yes}
+	
+	3408.5.14 = {death = yes}
+}
+
+drego_talandro = {
+	name = "Drego"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_talandro
+	
+	mother = melindri_talandro
+	
+	3367.12.20 = { birth = yes}
+}
+
+kahlia_talandro = {
+	name = "Kahlia"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_talandro
+	
+	father = drego_talandro
+	
+	3388.11.17 = { birth = yes}
+}
+
+pentar_lerendazi = {
+	name = "Pentar"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_lerendazi
+	
+	3368.5.14 = {birth = yes}
+	3411.6.7 = {death = yes}
+}
+
+valtar_lerendazi = {
+	name = "Valtar"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_lerendazi
+	
+	father = pentar_lerendazi
+	
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	
+	trait = lustful
+	trait = gregarious
+	trait = brave
+	trait = ambitious
+	
+	3395.4.12 = {birth = yes}
+}
+
+syro_vanatar = {
+	name = "Syro"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_vanatar
+	
+	3378.4.9 = {birth = yes}
+}
+
+javi_imaradi = {
+	name = "Javi"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_imaradi
+	
+	3365.1.14 = {birth = yes}
+}
+
+sercyl_marktaros = {
+	name = "Sercyl"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_marktaros
+	
+	3349.2.7 = {birth = yes}
+	
+	3397.4.14 = {death = yes}
+}
+
+narvala_marktaros = {
+	name = "Narvala"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_marktaros
+	
+	father = sercyl_marktaros
+	
+	3382.2.13 = {birth = yes}
+}
+
+nyllestra_marktaros = {
+	name = "Nyllestra"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_marktaros
+	
+	father = sercyl_marktaros
+	
+	3384.3.3 = {birth = yes}
+}

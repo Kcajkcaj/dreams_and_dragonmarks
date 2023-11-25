@@ -224,6 +224,7 @@
 		}
 		parameters = {
 			is_cult = yes # New
+			holy_wars_forbidden = yes
 		}
 	}
 	

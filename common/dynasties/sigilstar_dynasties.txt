@@ -1,0 +1,39 @@
+dynn_sigilan_atrelioth = {
+	name = "Atrelioth"
+	culture = Sigilan
+}
+
+dynn_sigilan_karavastar = {
+	name = "Karavastar"
+	culture = sigilan
+}
+
+dynn_sigilan_talandro = {
+	name = "Talandro"
+	culture = sigilan
+}
+
+dynn_sigilan_lerendazi = {
+	name = "Lerendazi"
+	culture = sigilan
+}
+
+dynn_sigilan_vanatar = {
+	name = "Vanatar"
+	culture = sigilan
+}
+
+dynn_sigilan_imaradi = {
+	name = "Imaradi"
+	culture = sigilan
+}
+
+dynn_sigilan_marktaros = {
+	name = "Marktaros"
+	culture = sigilan
+}
+
+dynn_kell = {
+	name = "Kell"
+	culture = sigilan
+}

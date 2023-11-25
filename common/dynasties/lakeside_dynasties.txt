@@ -1,0 +1,14 @@
+dynn_lakeside_tarravan = {
+	name = "Tarravan"
+	culture = sigilan
+}
+
+dynn_lakeside_drosin = {
+	name = "Drosin"
+	culture = sigilan
+}
+
+dynn_orien = {
+	name = "Orien"
+	culture = sigilan
+}

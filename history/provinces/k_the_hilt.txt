@@ -55,6 +55,7 @@
 	culture = daggerborn
 	faith = cornucopian
 	holding = tribal_holding
+	buildings = {tribe_02}
 }
 15 = {
 	holding = none
