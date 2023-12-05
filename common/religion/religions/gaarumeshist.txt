@@ -247,7 +247,7 @@ garuumesha_religion = {
 		gaaran = {
 			color = { 84 124 92 }
 			graphical_faith = "catholic_gfx"
-			reformed_icon = gaarumesha
+			reformed_icon = gaaruumesha
 			
 			doctrine = unreformed_faith_doctrine
 			
@@ -263,7 +263,7 @@ garuumesha_religion = {
 		gaaaram = {
 			color = { 109 124 42}
 			graphical_faith = "catholic_gfx"
-			reformed_icon = gaarumesha
+			reformed_icon = gaaruumesha
 			
 			doctrine = unreformed_faith_doctrine
 			

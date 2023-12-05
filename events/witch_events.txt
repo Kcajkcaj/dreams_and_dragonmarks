@@ -113,7 +113,10 @@ witch.1002 = { #by Mathilda Bjarnehed
 						add = 20
 					}
 					desc = child_witch_conversion_success_effect.desc
-					guardian = {save_scope_as = hierarch}
+					every_relation = {
+						type = guardian
+						save_scope_as = hierarch
+					}
 					child_witch_conversion_success_effect = yes
 				}
 				35 = {

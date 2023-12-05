@@ -1,3 +1,11 @@
+@pos_compat_high = 30
+@pos_compat_medium = 15
+@pos_compat_low = 5
+
+@neg_compat_high = -30
+@neg_compat_medium = -15
+@neg_compat_low = -5
+
 lifestyle_hunter = {
 	icon = hunter.dds
 	category = lifestyle
@@ -72,7 +80,7 @@ lifestyle_hunter = {
 					parameter = dreadful_stalkers_hunting_bonuses
 					monthly_prestige = 0.2
 					advantage = 3
-					owned_hostile_scheme_success_chance = 0.05
+					owned_hostile_scheme_success_chance_add = 0.05
 				}				
 			}
 			100 = {
@@ -103,7 +111,7 @@ lifestyle_hunter = {
 					parameter = dreadful_stalkers_hunting_bonuses
 					monthly_prestige = 0.2
 					advantage = 3
-					owned_hostile_scheme_success_chance = 0.05
+					owned_hostile_scheme_success_chance_add = 0.05
 				}
 			}
 		}
@@ -128,7 +136,7 @@ lifestyle_hunter = {
 					parameter = dreadful_stalkers_hunting_bonuses
 					monthly_prestige = 0.2
 					advantage = 3
-					owned_hostile_scheme_success_chance = 0.05
+					owned_hostile_scheme_success_chance_add = 0.05
 				}
 			}
 			100 = {
@@ -151,7 +159,7 @@ lifestyle_hunter = {
 					parameter = dreadful_stalkers_hunting_bonuses
 					monthly_prestige = 0.2
 					advantage = 3
-					owned_hostile_scheme_success_chance = 0.05
+					owned_hostile_scheme_success_chance_add = 0.05
 				}
 			}
 		}

@@ -2,7 +2,7 @@ warmage_attribute = {
 	adjective = "Warmage"
 	noun = "Warmage"
 	accolade_categories = { men_at_arms army_bonus militant leader subtle ranged_fighter }
-	potential >= {
+	potential = {
 		prowess >= accolade_prowess_requirement_value
 		has_trait = mage
 	}

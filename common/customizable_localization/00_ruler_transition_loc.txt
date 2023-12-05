@@ -420,26 +420,6 @@ DeathMessageOutro = {
 		}
 	}
 	text = {
-		localization_key = SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_MIND_POSSESSED_POSITIVE
-		trigger = {
-			has_trait = possessed
-			faith = { has_doctrine = tenet_adorcism }
-		}
-		weight_multiplier = {
-			base = 3
-		}
-	}
-	text = {
-		localization_key = SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_MIND_POSSESSED_NEGATIVE
-		trigger = {
-			has_trait = possessed
-			NOT = { faith = { has_doctrine = tenet_adorcism } }
-		}
-		weight_multiplier = {
-			base = 3
-		}
-	}
-	text = {
 		localization_key = SUCCESSION_EVENT_WINDOW_DEAD_OUTRO_MIND_DEPRESSED
 		trigger = {
 			has_trait = depressed
@@ -1075,20 +1055,6 @@ HeirMessageInterface = {
 		localization_key = SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_LUNATIC
 		trigger = {
 			has_trait = lunatic
-		}
-	}
-	text = {
-		localization_key = SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_POSSESSED_BAD
-		trigger = {
-			has_trait = possessed
-			NOT = { faith = { has_doctrine = tenet_adorcism } }
-		}
-	}
-	text = {
-		localization_key = SUCCESSION_EVENT_WINDOW_HEIR_TRAIT_POSSESSED_GOOD
-		trigger = {
-			has_trait = possessed
-			faith = { has_doctrine = tenet_adorcism }
 		}
 	}
 	text = {

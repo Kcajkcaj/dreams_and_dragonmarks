@@ -569,7 +569,6 @@
 				possessed = 2
 				scaly = 1
 				giant = 1
-				club_footed = 1
 				hunchbacked = 1
 				wheezing = 1
 				spindly = 1

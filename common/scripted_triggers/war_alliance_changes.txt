@@ -1,27 +1,4 @@
 can_potentially_call_ally_trigger = {
-	# Can never call vassals to your own wars (their obligations are met via taxes and levies!)
-	custom_description = {
-		text = cannot_call_vassal_to_war
-		trigger_if = {
-			limit = {
-				$WARRIOR$ = { is_attacker_in_war = $WAR$ }
-			}
-			$JOINER$ = {
-				trigger_if = {
-					limit = {
-						# Diarchs can join against other vassals.
-						NOT = { this ?= $WARRIOR$.diarch }
-					}
-					NOT = {
-						target_is_liege_or_above = $WARRIOR$
-					}
-				}
-			}
-		}
-		trigger_else = {
-			always = yes
-		}
-	}
 
 	# Can never call your liege to your own wars (they protect you only from foreign invaders, by being the war target instead of you)
 	custom_description = {

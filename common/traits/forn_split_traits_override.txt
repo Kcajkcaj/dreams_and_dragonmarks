@@ -1,5 +1,4 @@
 ﻿fornicator = {
-	fame = yes
 
 	same_opinion = 10
 	

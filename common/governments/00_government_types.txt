@@ -18,7 +18,6 @@
 		war_declaration_rights
 		council_rights
 		title_revocation_rights
-		jizya_special_rights
 	}
 	
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
@@ -27,7 +26,7 @@
 	
 	opinion_of_liege = {
 		scope:vassal = {
-			if = {
+			trigger_if = {
 				limit = { highest_held_title_tier >= tier_county}
 				scope:liege = {
 					not = {
@@ -117,7 +116,7 @@ clan_government = {
 	
 	opinion_of_liege = {
 		scope:vassal = {
-			if = {
+			trigger_if = {
 				limit = {
 					NOT = {
 						is_allied_to = scope:liege
@@ -265,7 +264,6 @@ principality_government = {
 		war_declaration_rights
 		council_rights
 		title_revocation_rights
-		jizya_special_rights
 	}
 	
 	color = hsv{ 0.18 1.00 0.83 }
@@ -298,7 +296,6 @@ bureaucratic_government = {
 		war_declaration_rights
 		council_rights
 		title_revocation_rights
-		jizya_special_rights
 	}
 	
 	color = hsv{ 0.78 1.00 0.78 }

@@ -151,7 +151,7 @@ grayn_tarkanan = {
 	dynasty = dynn_tarkanan
 	
 	3369.2.1 = {birth = yes}
-	3387.3.20 = {add__spouse = ilana_deneith}
+	3387.3.20 = {add_spouse = ilana_deneith}
 }
 
 brenius_deneith = { # Karrlakton

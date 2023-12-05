@@ -184,7 +184,7 @@ elven = {
     }
 	
 	gene_head_top_width = {
-		20 = { name = head_width_pos    range = { @neg2_min @neg1_max }    }
+		20 = { name = head_top_width_neg    range = { @neg2_min @neg1_max }    }
 
         #Beauty Section
         0 = { name = head_top_width_neg    range = { @beauty1min @beauty1max }    traits = { beauty_1 }    }

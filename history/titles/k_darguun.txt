@@ -10,7 +10,6 @@ c_ghaaltash = {3400.1.1 = {holder = ruus_of_rhukaan_draal}}
 c_gathering_stone = {3400.1.1 = {holder = mograath_of_the_gathering_stone}}
 c_gathering_stone_b = {3400.1.1 = {holder = mograath_of_the_gathering_stone}}
 c_gathering_stone_c = {3400.1.1 = {holder = mograath_of_the_gathering_stone}}
-c_gathering_stone_c = {3400.1.1 = {holder = mograath_of_the_gathering_stone}}
 c_gorgonhorn = {3400.1.1 = {holder = karbal_of_gorgonhorn}}
 c_olkhaan = {3400.1.1 = {holder = karbal_of_gorgonhorn}}
 c_zarrthec = {3400.1.1 = {holder = imist_of_zarrthec}}
