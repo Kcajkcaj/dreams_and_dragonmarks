@@ -166,9 +166,6 @@ knight_become_berserker = {
 	type = knight
 
 	is_valid = {
-		faith = {
-			has_doctrine = tenet_warmonger
-		}
 		OR = {
 			culture = { has_cultural_pillar = heritage_north_germanic }
 			religion = religion:germanic_religion

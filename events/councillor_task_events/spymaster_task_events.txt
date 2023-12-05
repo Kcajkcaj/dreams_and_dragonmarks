@@ -157,7 +157,7 @@ spymaster_task.0301 = {
 						save_temporary_scope_as = secret_holder
 					}
 					spymaster_find_secrets_secret_holder_is_interesting_to_me_trigger = yes
-					root.culture = {has_culture_parameter = better_find_secrets}
+					root.culture = {has_cultural_parameter = better_find_secrets}
 				}
 				modifier = {
 					add = 1
@@ -358,7 +358,7 @@ spymaster_task.0302 = {
 						save_temporary_scope_as = secret_holder
 					}
 					spymaster_find_secrets_secret_holder_is_interesting_to_me_trigger = yes
-					root.culture = {has_culture_parameter = better_find_secrets}
+					root.culture = {has_cultural_parameter = better_find_secrets}
 				}
 				modifier = {
 					add = 1

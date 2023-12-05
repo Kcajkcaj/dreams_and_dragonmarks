@@ -325,7 +325,6 @@ concubine_on_accept_effect = {
 						limit = { 
 							OR = {
 								NOT = { accepts_concubinage = yes }
-								NOT = { faith = { has_doctrine = tenet_polyamory } }
 								AND = {
 									allowed_to_marry_same_sex_trigger = no
 									scope:recipient = { sex_same_as = scope:secondary_actor }
@@ -451,7 +450,6 @@ concubine_offer_on_accept_effect = {
 						limit = { 
 							OR = {
 								NOT = { accepts_concubinage = yes }
-								NOT = { faith = { has_doctrine = tenet_polyamory } }
 								AND = {
 									allowed_to_marry_same_sex_trigger = no
 									scope:recipient = { sex_same_as = scope:secondary_actor }
@@ -752,7 +750,6 @@ update_active_consort_opinion_effect = {
 			limit = {
 				is_spouse_of = $PARTNER$
 				$PARTNER$ = { any_consort = { count >= 2 }}
-				NOT = { faith = { has_doctrine = tenet_polyamory }}
 			}
 			if = {
 				limit = {
@@ -879,7 +876,6 @@ downgrade_invalid_consort_opinions_effect = {
 
 				# Or, our Faith/Culture has changed to permit the relationship.
 				accepts_concubinage = yes
-				faith = { has_doctrine = tenet_polyamory }
 			}
 		}
 		remove_opinion = {
@@ -918,7 +914,6 @@ downgrade_invalid_consort_opinions_effect = {
 				# Or, our Faith/Culture has changed to permit the relationship.
 				#accepts_concubinage = yes
 				accepts_polygamy = yes
-				faith = { has_doctrine = tenet_polyamory }
 			}
 		}
 		remove_opinion = {

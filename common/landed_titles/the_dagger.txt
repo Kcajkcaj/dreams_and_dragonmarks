@@ -88,7 +88,7 @@ k_the_dagger = {
 	}
 	d_bentblade = {
 		color = { 1 88 138 }
-		capital = c_baran_keep
+		capital = c_barans_keep
 		
 		c_barans_keep = {
 			color = { 37 87 137 }

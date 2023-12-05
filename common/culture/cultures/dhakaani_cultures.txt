@@ -2,7 +2,7 @@ daggerborn = {
 	color = {0.6 0.4 0.0}
 	
 	ethos = ethos_communal
-	heritage = heritage_dhakaani
+	heritage = heritage_dhakaan
 	language = language_goblin
 	martial_custom = martial_custom_male_only
 	
@@ -31,7 +31,7 @@ ghaaldar = {
 	color = {0.6 0.15 0.15}
 	
 	ethos = ethos_stoic
-	heritage = heritage_dhakaani
+	heritage = heritage_dhakaan
 	language = language_goblin
 	martial_custom = martial_custom_male_only
 	
@@ -60,7 +60,7 @@ marguul = {
 	color = {0.4 0.1 0.1}
 	
 	ethos = ethos_bellicose
-	heritage = heritage_dhakaani
+	heritage = heritage_dhakaan
 	language = language_goblin
 	martial_custom = martial_custom_male_only
 	
@@ -89,7 +89,7 @@ khraali = {
 	color = {0.4 0.1 0.2}
 	
 	ethos = ethos_bellicose
-	heritage = heritage_dhakaani
+	heritage = heritage_dhakaan
 	language = language_goblin
 	martial_custom = martial_custom_male_only
 	
@@ -118,7 +118,7 @@ dhakaani = {
 	color = {0.4 0.0 0.8}
 	
 	ethos = ethos_bureaucratic
-	heritage = heritage_dhakaani
+	heritage = heritage_dhakaan
 	language = language_goblin
 	martial_custom = martial_custom_male_only
 	

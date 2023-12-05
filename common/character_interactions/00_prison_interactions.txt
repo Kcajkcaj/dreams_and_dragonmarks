@@ -3647,7 +3647,6 @@ release_from_prison_interaction = {
 								is_diff_faith_or_culture_trigger = {
 									CHAR = scope:recipient
 									STATUS = involved
-									STRUGGLE_TYPE = iberian_struggle
 								}
 							}
 							add_prestige = medium_prestige_gain
@@ -4943,19 +4942,19 @@ execute_prisoner_interaction = {
 							limit = {scope:recipient = {has_education_martial_trigger = yes}}
 							add_martial_lifestyle_xp = 100
 						}
-						elif = {
+						else_if = {
 							limit = {scope:recipient = {has_education_diplomacy_trigger = yes}}
 							add_diplomacy_lifestyle_xp = 100
 						}
-						elif = {
+						else_if = {
 							limit = {scope:recipient = {has_education_learning_trigger = yes}}
 							add_learning_lifestyle_xp = 100
 						}
-						elif = {
+						else_if = {
 							limit = {scope:recipient = {has_education_stewardship_trigger = yes}}
 							add_stewardship_lifestyle_xp = 100
 						}
-						elif = {
+						else_if = {
 							limit = {scope:recipient = {has_education_intrigue_trigger = yes}}
 							add_intrigue_lifestyle_xp = 100
 						}

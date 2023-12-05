@@ -92,7 +92,7 @@ the_shadow_religion = {
 		#WealthGod
 		WealthGodName = the_shadow_name
 		WealthGodNamePossessive = the_shadow_name_possessive
-		WealthGodSheHe = CHARACTER_SHEHE_HER
+		WealthGodSheHe = CHARACTER_SHEHE_SHE
 		WealthGodHerHis = CHARACTER_HERHIS_HER
 		WealthGodHerHim = CHARACTER_HERHIM_HER
 
@@ -174,7 +174,6 @@ the_shadow_religion = {
 		DevilNamePossessive = aureon_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
-		DevilHerHim = CHARACTER_HERHIM_HIM
 		DevilHerselfHimself = CHARACTER_HIMSELF
 		EvilGodNames = {
 			aureon_name

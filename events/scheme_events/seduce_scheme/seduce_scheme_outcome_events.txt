@@ -2034,7 +2034,7 @@ seduce_outcome.3302 = {
 			limit = {
 				exists = scope:owner.location
 			}
-			scope:owner.location = { save_scope_as foreign_court }
+			scope:owner.location = { save_scope_as = foreign_court }
 		}
 		else = {
 			random_province = {

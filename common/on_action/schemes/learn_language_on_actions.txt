@@ -2,9 +2,6 @@
 	random_events = {
 		100 = learn_language_outcome.1000
 	}
-	on_actions = {
-		lore_scheme_success
-	}
 }
 
 learn_language_failure = {

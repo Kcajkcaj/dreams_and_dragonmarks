@@ -25,7 +25,7 @@ world_khorvaire_cyre = {
 
 world_khorvaire_cyre_metrol = {
 	duchies = {
-		d_metrol d_thronehold d_dollen d_crimson_waters
+		d_metrol d_thronehold d_dollen d_crimson_water
 	}
 }
 

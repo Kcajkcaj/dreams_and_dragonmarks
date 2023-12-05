@@ -92,7 +92,7 @@ first_song_religion = {
 		#WealthGod
 		WealthGodName = szorawai_name
 		WealthGodNamePossessive = szorawai_name_possessive
-		WealthGodSheHe = CHARACTER_SHEHE_sHE
+		WealthGodSheHe = CHARACTER_SHEHE_SHE
 		WealthGodHerHis = CHARACTER_HERHIS_HER
 		WealthGodHerHim = CHARACTER_HERHIM_HER
 
@@ -175,7 +175,6 @@ first_song_religion = {
 		DevilNamePossessive = aureon_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
-		DevilHerHim = CHARACTER_HERHIM_HIM
 		DevilHerselfHimself = CHARACTER_HIMSELF
 		EvilGodNames = {
 			aureon_name

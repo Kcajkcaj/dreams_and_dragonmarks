@@ -746,24 +746,6 @@ minority = {
 						}
 						NOR = {
 							AND = {
-								scope:liege.faith.religion = religion:islam_religion
-								faith = {
-									has_doctrine = tenet_islamic_syncretism
-								}
-							}
-							AND = {
-								scope:liege.faith.religion = religion:judaism_religion
-								faith = {
-									has_doctrine = tenet_jewish_syncretism
-								}
-							}
-							AND = {
-								scope:liege.faith.religion = religion:christianity_religion
-								faith = {
-									has_doctrine = tenet_christian_syncretism
-								}
-							}
-							AND = {
 								scope:liege.faith = {
 									has_doctrine_parameter = unreformed
 								}
@@ -855,24 +837,6 @@ minority = {
 					}
 				}
 				NOR = {
-					AND = {
-						scope:liege.faith.religion = religion:islam_religion
-						faith = {
-							has_doctrine = tenet_islamic_syncretism
-						}
-					}
-					AND = {
-						scope:liege.faith.religion = religion:judaism_religion
-						faith = {
-							has_doctrine = tenet_jewish_syncretism
-						}
-					}
-					AND = {
-						scope:liege.faith.religion = religion:christianity_religion
-						faith = {
-							has_doctrine = tenet_christian_syncretism
-						}
-					}
 					AND = {
 						scope:liege.faith = {
 							has_doctrine_parameter = unreformed

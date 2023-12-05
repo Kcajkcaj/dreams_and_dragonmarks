@@ -15,11 +15,11 @@ zil = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
-		tradition_elemental_binding
 		tradition_trust_the_trust
 		tradition_famed_universities
 		tradition_xenophilia
 		tradition_trickster_heroes
+		# One More
 	}
 	
 	ethnicities = {

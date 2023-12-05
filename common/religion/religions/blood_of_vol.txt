@@ -12,7 +12,7 @@ qabalrin_religion = {
 	doctrine = doctrine_pilgrimage_encouraged
 	
 	# Marriage
-	doctrine = doctrine_polygamy_none
+	doctrine = doctrine_monogamy
 	doctrine = doctrine_concubines_none
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_legitimization
@@ -30,7 +30,7 @@ qabalrin_religion = {
 	
 	# Clerical Functions
 	doctrine = doctrine_clerical_function_alms_and_pacification
-	doctrine = doctrine_clerical_gender_equal
+	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
 	
@@ -182,7 +182,6 @@ qabalrin_religion = {
 		DevilNamePossessive = the_shadow_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_SHE
 		DevilHerHis = CHARACTER_HERHIS_HER
-		DevilHerHim = CHARACTER_HERHIM_HER
 		DevilHerselfHimself = CHARACTER_HERSELF
 		EvilGodNames = {
 			the_shadow_name

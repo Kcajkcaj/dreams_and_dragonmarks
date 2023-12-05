@@ -61,39 +61,6 @@ heresy.0001 = {
 					add = 50
 					is_a_faction_member = yes
 				}
-
-				modifier = {
-					factor = 10
-					has_game_rule = strict_regional_heresy
-					trigger_if = {
-						limit = {
-							faith = faith:catholic
-						}
-						capital_county = {
-							title_province = {
-								OR = {
-									geographical_region = world_europe_west_britannia # Lollard
-									geographical_region = world_europe_west_francia # Cathar
-									geographical_region = world_europe_south_italy # Walddensian
-								}
-							}
-						}
-					}
-					trigger_if = {
-						limit = {
-							faith = faith:orthodox
-						}
-						capital_county = {
-							title_province = {
-								OR = {
-									geographical_region = world_asia_minor # Paulician
-									geographical_region = custom_k_thessalonika # Iconoclast
-									geographical_region = world_europe_south_east # Bogomils
-								}
-							}
-						}
-					}
-				}
 			}
 
 			save_scope_as = heretic_ruler
@@ -279,117 +246,24 @@ heresy.0001 = {
 					}
 
 					# Lollards more likely in England.
-					modifier = {
-						factor = regional_heresy_factor
-						this = faith:lollard
-						scope:heretic_capital = {
-							title_province = {
-								OR = {
-									geographical_region = custom_netherlands
-									geographical_region = world_europe_west_britannia
-								}
-							}
-						}
-					}
+					
 					# Cathars more likely in France
-					modifier = {
-						factor = regional_heresy_factor
-						this = faith:cathar
-						scope:heretic_capital = {
-							title_province = {
-								OR = {
-									geographical_region = world_europe_west_francia
-								}
-							}
-						}
-					}
+					
 					# Waldensians more likely in Italy/South Germany
-					modifier = {
-						factor = regional_heresy_factor
-						this = faith:waldensian
-						scope:heretic_capital = {
-							title_province = {
-								OR = {
-									geographical_region = world_europe_south_italy
-									geographical_region = custom_germany
-									geographical_region = custom_bavaria
-								}
-							}
-						}
-					}
 
 					# Paulicians more likely in Anatolia
-					modifier = {
-						factor = regional_heresy_factor
-						this = faith:paulician
-						scope:heretic_capital = {
-							title_province = {
-								geographical_region = world_asia_minor
-							}
-						}
-					}
+					
 					# Iconoclasts more likely in Constantinople
-					modifier = {
-						factor = regional_heresy_factor
-						this = faith:iconoclast
-						scope:heretic_capital = {
-							title_province = {
-								geographical_region = custom_k_thessalonika
-							}
-						}
-					}
+					
 					# Bogomils more likely in West ERE
-					modifier = {
-						factor = regional_heresy_factor
-						this = faith:bogomilist
-						scope:heretic_capital = {
-							title_province = {
-								geographical_region = world_europe_south_east
-							}
-						}
-					}
+					
 					# Nestorian more likely in the East
-					modifier = {
-						factor = regional_heresy_factor
-						this = faith:nestorian
-						scope:heretic_capital = {
-							title_province = {
-								OR = {
-									geographical_region = world_india
-									geographical_region = world_middle_east
-
-								}
-							}
-						}
-					}
+					
 					# Priscillianism more likely in Egypt or Iberia
-					modifier = {
-						factor = regional_heresy_factor
-						this = faith:priscillianism
-						scope:heretic_capital = {
-							title_province = {						
-								OR = {
-									geographical_region = world_africa_north_east
-									geographical_region = world_europe_west_iberia
-								}
-							}
-						}
-					}
+				
 
 					# Block Mozoarabic church outside of Iberia and North Africa if regional heresy game rule is set to strict
-					modifier = {
-						factor = 0
-						has_game_rule = strict_regional_heresy
-						this = faith:mozarabic_church
-						scope:heretic_capital = {
-							title_province = {
-								NAND = {
-									geographical_region = world_africa_north_east
-									geographical_region = world_europe_west_iberia
-								}
-							}
-						}
-					}
+					
 				}
 
 				save_scope_as = heretic_faith

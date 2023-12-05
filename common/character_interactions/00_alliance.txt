@@ -2922,7 +2922,6 @@ join_war_interaction = {
 		joiner_not_already_in_another_war_with_any_target_war_participants_trigger = {
 			WARRIOR = scope:recipient
 			JOINER = scope:actor
-			WAR = scope:target
 		}
 
 		can_join_war_liege_vassal_check_trigger = { WARRIOR = scope:recipient JOINER = scope:actor }

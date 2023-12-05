@@ -124,15 +124,6 @@ pluralism_fundamentalism_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
-			if = {
-				limit = {
-					$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-				}
-				add = {
-					value = $ASTRAY_BASE_VALUE$
-					multiply = hostility_multiplier_reduction_adaptive
-				}
-			}
 		}
 		NOT = {
 			has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
@@ -173,15 +164,6 @@ pluralism_fundamentalism_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
-			if = {
-				limit = {
-					$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-				}
-				add = {
-					value = $ASTRAY_BASE_VALUE$
-					multiply = hostility_multiplier_reduction_adaptive
-				}
-			}
 		}
 		NOT = {
 			has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
@@ -222,15 +204,6 @@ pluralism_fundamentalism_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
-			if = {
-				limit = {
-					$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-				}
-				add = {
-					value = $ASTRAY_BASE_VALUE$
-					multiply = hostility_multiplier_reduction_adaptive
-				}
-			}
 		}
 		NOT = {
 			has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
@@ -284,18 +257,6 @@ pluralism_fundamentalism_dual_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
-			if = {
-				limit = {
-					OR = {
-						$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-						$TARGET$.diarch.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-					}
-				}
-				add = {
-					value = $ASTRAY_BASE_VALUE$
-					multiply = hostility_multiplier_reduction_adaptive
-				}
-			}
 		}
 		has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
 		OR = {
@@ -351,18 +312,6 @@ pluralism_fundamentalism_dual_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
-			if = {
-				limit = {
-					OR = {
-						$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-						$TARGET$.diarch.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-					}
-				}
-				add = {
-					value = $ASTRAY_BASE_VALUE$
-					multiply = hostility_multiplier_reduction_adaptive
-				}
-			}
 		}
 		has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
 		OR = {
@@ -418,18 +367,6 @@ pluralism_fundamentalism_dual_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
-			if = {
-				limit = {
-					OR = {
-						$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-						$TARGET$.diarch.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
-					}
-				}
-				add = {
-					value = $ASTRAY_BASE_VALUE$
-					multiply = hostility_multiplier_reduction_adaptive
-				}
-			}
 		}
 		has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
 		OR = {
@@ -1354,32 +1291,6 @@ nation_fracturing_faction_blockers = {
 	modifier = {
 		add = -1000
 		$FACTION_TARGET$.primary_title.tier < tier_kingdom
-	}
-
-	## Game ruler specifics
-
-	# Keep it while the Calip is alive
-	modifier = {
-		add = -1000
-		$FACTION_TARGET$ = {
-			this = character:73683
-			any_held_title = {
-				this = title:k_andalusia
-			}
-		}
-		has_game_rule = dissolution_after_caliph_death
-	}
-
-	# Historical time blocker
-	modifier = {
-		add = -1000
-		current_date < 1020.1.1
-		$FACTION_TARGET$ = {
-			any_held_title = {
-				this = title:k_andalusia
-			}
-		}
-		has_game_rule = dissolution_historical_date
 	}
 }
 

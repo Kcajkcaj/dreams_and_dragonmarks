@@ -61,7 +61,7 @@ medusa = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_khyber
-	language = language_dhakaani
+	language = language_goblin
 	martial_custom = martial_custom_female_only
 	
 	name_list = name_list_dhakaani

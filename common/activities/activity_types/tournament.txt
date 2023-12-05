@@ -368,164 +368,6 @@
             	desc = "Work first, play later"
             }
         }
-        # Pacing modifiers
-        if = {
-            limit = {
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_middle_east }
-                NOT = {
-					exists = global_var:tournament_world_middle_east_motivation
-				}
-            }
-            add = {
-            	value = 100
-            	desc = "tournament_world_middle_east_motivation"
-            }
-        }
-        if = {
-            limit = {
-                exists = capital_county
-				capital_county.title_province = {
-					geographical_region = world_europe
-					NOT = { geographical_region = world_europe_west }
-				}
-                NOT = {
-					exists = global_var:tournament_world_europe_motivation
-				}
-            }
-            add = {
-            	value = 100
-            	desc = "tournament_world_europe_motivation"
-            }
-        }
-        if = {
-            limit = {
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_europe_west }
-                NOT = {
-					exists = global_var:tournament_world_europe_west_motivation
-				}
-            }
-            add = {
-            	value = 100
-            	desc = "tournament_world_europe_west_motivation"
-            }
-        }
-        if = {
-            limit = {
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_steppe }
-                NOT = {
-					exists = global_var:tournament_world_steppe_motivation
-				}
-            }
-            add = {
-            	value = 100
-            	desc = "tournament_world_steppe_motivation"
-            }
-        }
-        if = {
-            limit = {
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_africa }
-                NOT = {
-					exists = global_var:tournament_world_africa_motivation
-				}
-            }
-            add = {
-            	value = 100
-            	desc = "tournament_world_africa_motivation"
-            }
-        }
-        if = {
-            limit = {
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_india }
-                NOT = {
-					exists = global_var:tournament_world_india_motivation
-				}
-            }
-            add = {
-            	value = 100
-            	desc = "tournament_world_india_motivation"
-            }
-        }
-        # Negative Pacing modifiers
-        if = {
-            limit = {
-				years_from_game_start > 100
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_middle_east }
-				exists = global_var:tournament_world_middle_east_motivation
-            }
-            add = {
-            	value = -45
-            	desc = "tournament_world_middle_east_demotivation"
-            }
-        }
-        if = {
-            limit = {
-				years_from_game_start > 100
-                exists = capital_county
-				capital_county.title_province = {
-					geographical_region = world_europe
-					NOT = { geographical_region = world_europe_west }
-				}
-                exists = global_var:tournament_world_europe_motivation
-            }
-            add = {
-            	value = -45
-            	desc = "tournament_world_europe_demotivation"
-            }
-        }
-        if = {
-            limit = {
-				years_from_game_start > 100
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_europe_west }
-                exists = global_var:tournament_world_europe_west_motivation
-            }
-            add = {
-            	value = -45
-            	desc = "tournament_world_europe_west_demotivation"
-            }
-        }
-        if = {
-            limit = {
-				years_from_game_start > 100
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_steppe }
-                exists = global_var:tournament_world_steppe_motivation
-            }
-            add = {
-            	value = -45
-            	desc = "tournament_world_steppe_demotivation"
-            }
-        }
-        if = {
-            limit = {
-				years_from_game_start > 100
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_africa }
-                exists = global_var:tournament_world_africa_motivation
-            }
-            add = {
-            	value = -45
-            	desc = "tournament_world_africa_demotivation"
-            }
-        }
-        if = {
-            limit = {
-				years_from_game_start > 100
-                exists = capital_county
-				capital_county.title_province = { geographical_region = world_india }
-                exists = global_var:tournament_world_india_motivation
-            }
-            add = {
-            	value = -45
-            	desc = "tournament_world_india_demotivation"
-            }
-        }
 	}
 
 	ai_check_interval = 60
@@ -1765,15 +1607,7 @@
 		# contest_foot_aptitude_value
 		tournament_phase_melee = {
 			can_pick = { #Should be able to host this basically anywhere in Europe and certain areas outside too
-				NOT = { government_has_flag = government_is_tribal }
-				trigger_if = {
-					limit = {
-						capital_province = { geographical_region = world_europe }
-					}
-				}
-				trigger_else = {
-					culture = { has_cultural_parameter = can_host_joust_contests }
-				}
+				culture = { has_cultural_parameter = can_host_joust_contests }
 			}
 
 			on_enter_phase = {
@@ -2398,15 +2232,7 @@
 			is_shown = {}
 
 			can_pick = {
-				NOT = { government_has_flag = government_is_tribal }
-				trigger_if = {
-					limit = {
-						capital_province = { geographical_region = world_europe }
-					}
-				}
-				trigger_else = {
-					culture = { has_cultural_parameter = can_host_joust_contests }
-				}
+				culture = { has_cultural_parameter = can_host_joust_contests }
 				scope:province = { #Horses do not like big hills or marshes
 					NOR = {
 						terrain = mountains
@@ -4078,96 +3904,6 @@
 						value = scope:tournament_weaponsmith
 					}
 				}
-			}
-		}
-		
-		# Make sure that Tournaments are held roughly every 5 years per major world area
-		if = {
-			limit = {
-				scope:host.location = { geographical_region = world_middle_east }
-				NOT = {
-					exists = global_var:tournament_world_middle_east_motivation
-				}
-			}
-			set_global_variable = {
-				name = tournament_world_middle_east_motivation
-				value = yes
-				days = 1825
-			}
-		}
-		
-		if = {
-			limit = {
-				scope:host.location = {
-					geographical_region = world_europe
-					NOT = {
-						geographical_region = world_europe_west 
-					}
-				}
-				NOT = {
-					exists = global_var:tournament_world_europe_motivation
-				}
-			}
-			set_global_variable = {
-				name = tournament_world_europe_motivation
-				value = yes
-				days = 1825
-			}
-		}
-		
-		if = {
-			limit = {
-				scope:host.location = { geographical_region = world_europe_west }
-				NOT = {
-					exists = global_var:tournament_world_europe_west_motivation
-				}
-			}
-			set_global_variable = {
-				name = tournament_world_europe_west_motivation
-				value = yes
-				days = 1825
-			}
-		}
-		
-		if = {
-			limit = {
-				scope:host.location = { geographical_region = world_steppe }
-				NOT = {
-					exists = global_var:tournament_world_steppe_motivation
-				}
-			}
-			set_global_variable = {
-				name = tournament_world_steppe_motivation
-				value = yes
-				days = 1825
-			}
-		}
-		
-		if = {
-			limit = {
-				scope:host.location = { geographical_region = world_africa }
-				NOT = {
-					exists = global_var:tournament_world_africa_motivation
-				}
-			}
-			set_global_variable = {
-				name = tournament_world_africa_motivation
-				value = yes
-				days = 1825
-			}
-		}
-		
-		if = {
-			limit = {
-				scope:host.location = { geographical_region = world_india }
-				NOT = {
-					exists = global_var:tournament_world_india_motivation
-				}
-			}
-			set_global_variable = {
-				name = tournament_world_india_motivation
-				value = yes
-				days = 1825
 			}
 		}
 	}

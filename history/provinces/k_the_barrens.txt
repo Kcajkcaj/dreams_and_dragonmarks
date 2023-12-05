@@ -50,7 +50,7 @@
 ### Graywall
 477 = {
 	culture = minotaur
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 478 = {holding = none}
@@ -58,7 +58,7 @@
 ### Six Kings
 480 = {
 	culture = minotaur
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 481 = {holding = none}
@@ -66,7 +66,7 @@
 ### The Fist
 483 = {
 	culture = minotaur
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 484 = {holding = none}
@@ -75,7 +75,7 @@
 ### Grimstone
 487 = {
 	culture = minotaur
-	faith = akom
+	faith = norse_pagan
 	holding = tribal_holding
 }
 488 = {holding = none}
@@ -188,7 +188,7 @@
 ### Lost
 527 = {
 	culture = skindancer
-	faith = akom
+	faith = norse_pagan
 	holding = church_holding
 }
 528 = {holding = city_holding}
@@ -233,7 +233,7 @@
 ### Venemous Demesne
 541 = {
 	culture = khaluunite
-	faith = akom
+	faith = norse_pagan
 	holding = city_holding
 }
 542 = {holding = church_holding}

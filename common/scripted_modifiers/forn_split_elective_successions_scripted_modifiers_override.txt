@@ -103,34 +103,6 @@
 		}
 	}
 	#Excommunication
-	modifier = {
-		desc = tooltip_feudal_elector_vote_excommunication
-		NOT = { this = scope:candidate } #Do not judge yourself.
-		faith = { has_doctrine_parameter = excommunication_active }
-		faith = scope:candidate.faith
-		root.faith.religious_head = scope:candidate.faith.religious_head #Must have been excommunicated by the same Pope.
-		OR = {
-			NOT = { has_trait = excommunicated }
-			has_trait = arbitrary #No need for consistency
-		}
-		scope:candidate = { has_trait = excommunicated }
-		add = {
-			subtract = 25
-			if = { #Religious gradients.
-				limit = { ai_zeal > 0 }
-				subtract = {
-					value = ai_zeal
-					multiply = 0.5
-				}
-			}
-			if = { #Princely Elective doubles.
-				limit = {
-					scope:title = { has_title_law = princely_elective_succession_law }
-				}
-				multiply = 2
-			}
-		}
-	}
 	#Illegitimate children (excepting the children of consorts, which filter separately)
 	modifier = {
 		desc = tooltip_feudal_elector_vote_out_of_wedlock

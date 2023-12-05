@@ -1,6 +1,6 @@
 dynn_sigilan_atrelioth = {
 	name = "Atrelioth"
-	culture = Sigilan
+	culture = sigilan
 }
 
 dynn_sigilan_karavastar = {

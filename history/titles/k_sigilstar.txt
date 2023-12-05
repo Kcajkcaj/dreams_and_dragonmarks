@@ -1,7 +1,6 @@
 k_sigilstar = {
 	3350.1.1 = {
 		holder = suthar_atrelioth
-		liege = k_sigilstar
 	}
 	3391.6.2 = {
 		holder = alestair_atrelioth

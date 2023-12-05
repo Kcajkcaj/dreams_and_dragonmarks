@@ -1,6 +1,6 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
 # History database id:breggor_dain
-Breggor Firstking={
+BreggorFirstking={
 	type=male
 	id=183
 	age=0.220000

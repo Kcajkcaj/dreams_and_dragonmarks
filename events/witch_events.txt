@@ -42,7 +42,10 @@ witch.1001 = { #by Mathilda Bjarnehed
 					is_ai = yes
 				}
 			}
-			guardian = {save_scope_as = hierarch}
+			every_relation = {
+				type = guardian
+				save_scope_as = hierarch
+			}
 			child_witch_conversion_success_effect = yes
 		}
 		#For non-covens children and player children, send guardian choice event (AI guardians must chose convert for witch coven player children)

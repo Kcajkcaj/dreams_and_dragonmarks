@@ -1891,33 +1891,6 @@
 		exists = scope:actor.primary_title
 		NOT = { scope:actor.primary_title.tier >= scope:recipient.primary_title.tier }
 	}
-
-
-	#############
-	#  HAROLD   #
-	#############
-	modifier = {
-		add = -5000
-		years_from_game_start <= 5
-		OR = {
-			scope:actor = character:122
-			scope:recipient = character:122
-			scope:secondary_actor = character:122
-			scope:secondary_recipient = character:122
-		}
-		scope:actor = {
-			is_ai = yes
-		}
-		scope:recipient = {
-			is_ai = yes
-		}
-		scope:secondary_actor = {
-			is_ai = yes
-		}
-		scope:secondary_recipient = {
-			is_ai = yes
-		}
-	}
 }
 
 elopment_ai_accept_modifier = { #Should copy marriage_ai_accept_modifier on relevant points, note: there are no secondary targets
@@ -2202,22 +2175,6 @@ divorce_character_ai_accept_modifier = {
 		opinion_target = scope:secondary_recipient
 		multiplier = -1
 		desc = AI_OPINION_REASON
-	}
-
-	modifier = { # Very unlikely if the marriage is between kin and the religion has Divine Marriages
-		add = -100
-		desc = DIVORCE_HOLY
-		scope:actor = {
-			faith = {
-				has_doctrine = tenet_divine_marriage
-			}
-		}
-		scope:actor = {
-			OR = {
-				is_cousin_of = scope:secondary_recipient
-				is_close_or_extended_family_of = scope:secondary_recipient
-			}
-		}
 	}
 		
 	modifier = { # More likely if the spouse is openly incestuous

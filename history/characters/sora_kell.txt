@@ -87,7 +87,7 @@ sora_maenya = {
 	trait = witch
 	trait = mage
 	trait = hag
-	trait = blademaster
+	trait = lifestyle_blademaster
 	
 	trait = sadistic
 	trait = gluttonous

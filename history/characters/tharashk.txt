@@ -205,7 +205,7 @@ istaaran_tharashk = {
 	trait = inquisitive
 	trait = zealous
 	
-	trait = herbalist
+	trait = lifestyle_herbalist
 	
 	mother = aashta_tharashk
 	

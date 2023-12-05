@@ -751,7 +751,7 @@
 	ai_province_filter = holy_sites
 
 	cooldown = {
-		years = adult_education_Cooldown_time
+		years = adult_education_cooldown_time
 	}
 
 	max_route_deviation_mult = 3.0

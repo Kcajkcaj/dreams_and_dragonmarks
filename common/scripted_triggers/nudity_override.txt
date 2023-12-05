@@ -5,9 +5,6 @@ should_be_naked_trigger = {
 
 	# Character must have a valid reasion to be naked.
 	OR = {
-		faith = {
-			has_doctrine_parameter = naked_adherents_active
-		}
 		culture = {
 			OR = {
 				this = culture:harpy

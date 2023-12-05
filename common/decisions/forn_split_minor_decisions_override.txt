@@ -187,7 +187,6 @@
 	}
 
 	is_valid_showing_failures_only = {
-		is_in_an_activity = no
 		is_imprisoned = no
 		is_commanding_army = no
 	}

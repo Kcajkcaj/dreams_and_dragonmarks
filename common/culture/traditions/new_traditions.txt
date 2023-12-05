@@ -945,12 +945,12 @@ tradition_simple_pleasures = {
 	
 	county_modifier = {
 		build_gold_cost = -0.25
-		monthly_piety_gain_mult = 0.25
-		monthly_prestige_gain_mult = -0.2
 	}
 	
 	character_modifier = {
 		court_grandeur_baseline_add = -10
+		monthly_piety_gain_mult = 0.25
+		monthly_prestige_gain_mult = -0.2
 	}
 	
 	is_shown = { always = yes }
@@ -1041,7 +1041,7 @@ tradition_swashbucklers_pride = {
 	}
 	
 	character_modifier = {
-		hastiluder_xp_gain_mult = 0.5
+		tourney_participant_xp_gain_mult = 0.5
 	}
 	
 	category = societal

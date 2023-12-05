@@ -210,7 +210,7 @@ activity_festival = {
 	num_pickable_phases = 3
 	
 	phases = {
-		festival_phase_banquet {
+		festival_phase_banquet = {
 			can_pick = {always = yes}
 			ai_will_do = {
 				add = {
@@ -249,7 +249,7 @@ activity_festival = {
 				}
 			}
 		}
-		festival_phase_parade {
+		festival_phase_parade = {
 			ai_will_do = {
 				add = {
 					value = 50
@@ -287,7 +287,7 @@ activity_festival = {
 				}
 			}
 		}
-		festival_phase_sermon {
+		festival_phase_sermon = {
 			ai_will_do = {
 				add = {
 					value = 50
@@ -325,7 +325,7 @@ activity_festival = {
 				}
 			}
 		}
-		festival_phase_sacrifice {
+		festival_phase_sacrifice = {
 			ai_will_do = {
 				add = {
 					value = 100
@@ -362,7 +362,7 @@ activity_festival = {
 				}
 			}
 		}
-		festival_phase_orgy {
+		festival_phase_orgy = {
 			ai_will_do = {
 				add = {
 					value = 100

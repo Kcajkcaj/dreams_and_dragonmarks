@@ -41,8 +41,8 @@
 			holy_wars_forbidden = yes
 		}
 		character_modifier = {
-			monthly_piety_mult = -0.5
-			monthly_prestige_mult = 0.5
+			monthly_piety_gain_mult = -0.5
+			monthly_prestige_gain_mult = 0.5
 		}
 	}
 	
@@ -133,7 +133,6 @@
 				education_martial_3
 				education_martial_4
 				lifestyle_blademaster
-				paladin
 			}
 		}
 		

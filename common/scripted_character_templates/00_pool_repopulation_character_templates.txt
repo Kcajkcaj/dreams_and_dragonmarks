@@ -535,19 +535,6 @@ pool_repopulate_learning = {
 	}
 	dynasty = none
 	after_creation = {
-		if = {
-			limit = {
-				faith = {
-					has_doctrine = tenet_monasticism
-				}
-			}
-			random_list = {
-				75 = {}
-				25 = {
-					add_trait = devoted
-				}
-			}
-		}
 		random = {
 			chance = 1
 			

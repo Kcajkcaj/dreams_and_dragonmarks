@@ -114,7 +114,7 @@ k_metrol = {
 		
 		c_swoz = {
 			color = { 72 190 82 }
-			b_swoz_1` = {province = 1107}
+			b_swoz_1 = {province = 1107}
 			b_swoz_2 = {province = 1108}
 			b_swoz_3 = {province = 1109}
 		}

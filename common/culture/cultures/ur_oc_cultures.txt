@@ -16,10 +16,8 @@ rootfolk = { # Live in caves among the roots of trees
 	
 	traditions = {
 		tradition_clan_connections
-		tradition_fervent_believers
-		tradition_primal_rangers
-		tradition_wild_tenders
-		# One More
+		tradition_fervent_ritualists
+		# Three More
 	}
 	
 	ethnicities = {
@@ -47,10 +45,8 @@ branchfolk = { # Live in treehouses
 	
 	traditions = {
 		tradition_clan_connections
-		tradition_fervent_believers
-		tradition_primal_rangers
-		tradition_wild_tenders
-		# One More
+		tradition_fervent_ritualists
+		# Two More
 	}
 	
 	ethnicities = {
@@ -78,10 +74,8 @@ trailfolk = { # Nomadic
 	
 	traditions = {
 		tradition_clan_connections
-		tradition_fervent_believers
-		tradition_nomadic_gatherers
-		tradition_primal_rangers
-		tradition_wild_tenders
+		tradition_fervent_ritualists
+		# Three More
 	}
 	
 	ethnicities = {
@@ -96,7 +90,7 @@ urhaakar = {
 	
 	ethos = ethos_bellicose
 	heritage = heritage_ur_oc
-	language = language_dhakaani
+	language = language_goblin
 	martial_custom = martial_custom_equal
 	
 	name_list = name_list_dhakaani
@@ -192,7 +186,7 @@ azhani = {
 	
 	traditions = {
 		tradition_clan_connections
-		tradition_fervent_believers
+		tradition_fervent_ritualists
 	}
 	
 	ethnicities = {
@@ -220,7 +214,7 @@ kaandar = {
 	
 	traditions = {
 		tradition_clan_connections
-		tradition_fervent_believers
+		tradition_fervent_ritualists
 	}
 
 	ethnicities = {
