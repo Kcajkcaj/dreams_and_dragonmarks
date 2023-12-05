@@ -1,0 +1,43 @@
+d_eston = {
+	3300.1.1 = {
+		change_development_level = 12
+	}
+	3350.1.1 = {
+		holder = merrix_cannith
+	}
+	3399.6.13 = {
+		holder = joherra_cannith
+	}
+}
+d_making = {
+	3300.1.1 = {
+		change_development_level = 9
+	}
+	3350.1.1 = {
+		holder = merrix_cannith
+	}
+	3399.6.13 = {
+		holder = lei_cannith
+	}
+}
+d_whitehearth = {
+	3300.1.1 = {
+		change_development_level = 9
+	}
+	3350.1.1 = {
+		holder = merrix_cannith
+	}
+	3399.6.13 = {
+		holder = hadran_cannith
+	}
+}
+d_crystal_river = {
+	3300.1.1 = {
+		change_development_level = 9
+	}
+}
+d_thorn_island = {
+	3300.1.1 = {
+		change_development_level = 6
+	}
+}

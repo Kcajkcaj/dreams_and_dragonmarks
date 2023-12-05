@@ -320,6 +320,17 @@ task_conversion = {
 			}
 		}
 		
+		if = {
+			limit = {
+				scope:councillor.faith = {
+					has_doctrine_parameter = is_cult
+				}
+			}
+			multiply = {
+				value = 0.25
+			}
+		}
+		
 		# Faster conversion for FP2 Hostility ending, if county is in Iberia and faith was involved
 		if = {
 			limit = {

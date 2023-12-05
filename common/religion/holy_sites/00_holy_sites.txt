@@ -7,3 +7,49 @@
 		domain_tax_mult = 0.05
 	}
 }
+
+broken_blade_monastery = {
+	county = c_karrlakton
+	
+	character_modifier = {
+		name = broken_blade_monastery
+		prowess_per_piety_level = 2
+	}
+}
+
+thaliost = {
+	county = c_thaliost
+	
+	character_modifier = {
+		name = thaliost
+		mage_xp_gain_mult = 0.5
+	}
+}
+
+sigilstar = {
+	county = c_sigilstar
+	
+	character_modifier = {
+		name = sigilstar
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+cathedral_on_the_hill = {
+	county = c_metrol
+	
+	character_modifier = {
+		name = cathedral_on_the_hill
+		diplomacy_per_piety_level = 1
+		court_grandeur_baseline_add = 10
+	}
+}
+
+korranberg = {
+	county = c_korranberg
+	
+	character_modifier = {
+		name = korranberg
+		learning_per_piety_level = 2
+	}
+}

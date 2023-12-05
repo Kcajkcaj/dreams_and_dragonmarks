@@ -259,3 +259,46 @@ nyllestra_marktaros = {
 	
 	3384.3.3 = {birth = yes}
 }
+
+lyran_lyrandar = {
+	name = "Lyran"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_lyrandar
+	
+	trait = education_stewardship_4
+	
+	trait = ambitious
+	trait = diligent
+	trait = authoritative
+	trait = generous
+	
+	trait = intellect_good_2
+	trait = beauty_good_2
+	trait = mark_of_storm
+	
+	3389.1.9 = {birth = yes}
+	
+	3405.1.9 = {add_spouse = selavash_lyrandar}
+}
+
+selavash_lyrandar = {
+	name = "Selavash"
+	culture = sigilan
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_sigilan_selavashtar
+	
+	trait = education_learning_4
+	
+	trait = ambitious
+	trait = generous
+	trait = curious
+	
+	trait = intellect_good_2
+	trait = beauty_good_2
+	trait = mark_of_storm
+	
+	3388.9.2 = {birth = yes}
+}

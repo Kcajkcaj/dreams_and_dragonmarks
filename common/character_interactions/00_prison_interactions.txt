@@ -3747,6 +3747,8 @@ release_from_prison_interaction = {
 			NOT = { scope:recipient.faith = scope:actor.faith }
 		}
 		is_valid = {
+			scope:actor = { NOT = { faith = {has_doctrine_parameter = is_cult}}}
+			
 			trigger_if = {
 				limit = {
 					scope:actor = { is_ai = yes }

@@ -1,0 +1,86 @@
+##### Daskaran
+### Daskaran
+782 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+783 = {holding = city_holding}
+784 = {holding = church_holding}
+785 = {holding = church_holding}
+### The Towers
+786 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+787 = {holding = castle_holding}
+### Tower Perilous
+788 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+789 = {holding = none}
+### Traelyn
+790 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+791 = {holding = city_holding}
+792 = {holding = church_holding}
+##### Auxyl
+### Auxylgard
+793 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+794 = {holding = church_holding}
+795 = {holding = none}
+796 = {holding = none}
+### Sentinel Keep
+797 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+798 = {holding = none}
+799 = {holding = none}
+### Bluevine
+800 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+801 = {holding = city_holding}
+802 = {holding = church_holding}
+803 = {holding = none}
+##### Flamekeep
+### Flamekeep
+804 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+805 = {holding = church_holding}
+806 = {holding = city_holding}
+807 = {holding = church_holding}
+### Danthaven
+808 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+809 = {holding = city_holding}
+810 = {holding = church_holding}
+### Tamor
+811 = {
+	culture = daskaran
+	faith = frontier_creed
+	holding = castle_holding
+}
+812 = {holding = church_holding}
+813 = {holding = none}
+814 = {holding = none}

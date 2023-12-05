@@ -2,18 +2,18 @@ birth_plane_trait_check = {
 	random = {
 		chance = 1
 		modifier = {
-			add = 10
+			add = 20
 			$PLANE$_is_coterminous = yes
 		}
 		modifier = {
-			add = 10
+			add = 20
 			or = {
 				real_father = {has_trait = planetouched_$PLANE$}
 				real_mother = {has_trait = planetouched_$PLANE$}
 			}
 		}
 		modifier = {
-			multiply = 2
+			factor = 1.5
 			faith = {has_doctrine_parameter = moonwatchers_more_planetouched}
 		}
 		add_trait = planetouched_$PLANE$

@@ -1,0 +1,24 @@
+dynn_metrol_ghastor = {
+	name = "Ghastor"
+	culture = metroli
+}
+
+dynn_metrol_vanatar = {
+	name = "Vanatar"
+	culture = metroli
+}
+
+dynn_metrol_ravadanci = {
+	name = "Ravadanci"
+	culture = metroli
+}
+
+dynn_metrol_corliostor = {
+	name = "Corliostor"
+	culture = metroli
+}
+
+dynn_cannith = {
+	name = "Cannith"
+	culture = metroli
+}

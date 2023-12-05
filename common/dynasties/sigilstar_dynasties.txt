@@ -37,3 +37,13 @@ dynn_kell = {
 	name = "Kell"
 	culture = sigilan
 }
+
+dynn_lyrandar = {
+	name = "Lyrandar"
+	culture = sigilan
+}
+
+dynn_sigilan_selavashtar = {
+	name = "Selavash"
+	culture = sigilan
+}

@@ -75,6 +75,9 @@ sigilan = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
+		tradition_arcane_duelists
+		tradition_avant_garde
+		# Three More
 	}
 	
 	ethnicities = {
@@ -101,6 +104,8 @@ khaluunite = {
 	
 	traditions = {
 		tradition_traveling_merchants
+		tradition_arcane_duelists
+		# Three More
 	}
 	
 	ethnicities = {
@@ -129,6 +134,7 @@ skindancer = {
 		tradition_xenophilia
 		tradition_steppe_roamers
 		tradition_trickster_heroes
+		# One More
 	}
 	
 	ethnicities = {
@@ -153,6 +159,11 @@ xand = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
+		tradition_expert_masons
+		tradition_traveling_merchants
+		tradition_embrace_of_industry
+		tradition_fierce_independence
+		tradition_constitutionalism
 	}
 	
 	ethnicities = {
@@ -178,10 +189,190 @@ ghaltic = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
+		tradition_famed_universities
+		tradition_overflowing_vineyards
+		tradition_traveling_merchants
+		# Two More
 	}
 	
 	ethnicities = {
 		90 = rhialuun
 		10 = koralanda
+	}
+}
+
+daskaran = {
+	color = {1.0 0.85 0.8}
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_thrane
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_chivalric_codes
+		tradition_crusaders
+		tradition_simple_pleasures
+		# Two More
+	}
+	
+	ethnicities = {
+		100 = rhialuun
+	}
+}
+
+thal = {
+	color = {0.5 0.75 1.0}
+	
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_aundairi
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_famed_universities
+		tradition_swashbucklers_pride
+		tradition_overflowing_vineyards
+		tradition_chivalric_codes
+		tradition_arcane_duelists
+	}
+	
+	ethnicities = {
+		100 = rhialuun
+	}
+}
+
+karrn = {
+	color = {90 1 189}
+	
+	ethos = ethos_bellicose
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_karrn
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_rule_of_the_chibs
+		tradition_lumber_industry
+		tradition_military_service
+		tradition_wargamers
+		tradition_chivalric_codes
+	}
+	
+	ethnicities = {
+		40 = tashanan
+		20 = rhialuun
+		40 = koralanda
+	}
+}
+
+vasfolder = {
+	color = {99 1 115}
+	
+	ethos = ethos_stoic
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_karrn
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_frontier_settlers
+		tradition_lumber_industry
+		tradition_fierce_independence
+		# Two More
+	}
+	
+	ethnicities = {
+		40 = tashanan
+		20 = rhialuun
+		40 = koralanda
+	}
+}
+
+aturi = {
+	color = {127 0 55}
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_karrn
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_drama_and_poetry
+		tradition_avant_garde
+		# Three More
+	}
+	
+	ethnicities = {
+		40 = tashanan
+		20 = rhialuun
+		40 = koralanda
+	}
+}
+
+metroli = {
+	color = { 112 181 52 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_thrane
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_avant_garde
+		tradition_embrace_of_industry
+		# Three More
+	}
+	
+	ethnicities = {
+		40 = rhialuun
+		40 = syrk
+		20 = koralanda
 	}
 }

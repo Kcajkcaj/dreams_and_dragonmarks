@@ -250,6 +250,10 @@ sovereign_host_religion = {
 			graphical_faith = "catholic_gfx"
 			
 			holy_site = korranath
+			holy_site = broken_blade_monastery
+			holy_site = thaliost
+			holy_site = cathedral_on_the_hill
+			holy_site = sigilstar
 						
 			#Tenets
 			doctrine = tenet_mendicant_monks
@@ -263,6 +267,7 @@ sovereign_host_religion = {
 			graphical_faith = "catholic_gfx"
 			
 			holy_site = korranath
+			holy_site = korranberg
 			
 			doctrine = doctrine_concubines_many
 			doctrine = doctrine_adultery_men_accepted
@@ -280,6 +285,7 @@ sovereign_host_religion = {
 			graphical_faith = "catholic_gfx"
 			
 			holy_site = korranath
+			holy_site = korranberg
 			
 			doctrine = doctrine_polygamy_few
 			
@@ -289,6 +295,23 @@ sovereign_host_religion = {
 			doctrine = tenet_holy_matrimony
 			doctrine = tenet_divine_inspiration
 			doctrine = tenet_unreformed_syncretism
+		}
+		conquerors_creed = {
+			color = {0.35 0 0.75}
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = broken_blade_monastery
+			holy_site = thaliost
+			holy_site = cathedral_on_the_hill
+			
+			doctrine = doctrine_gender_male_dominated
+			doctrine = doctrine_concubines_many
+			
+			doctrine = tenet_mendicant_monks
+			doctrine = tenet_conclaves
+			doctrine = tenet_divine_right
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_called_to_battle
 		}
 	}
 }

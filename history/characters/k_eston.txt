@@ -1,0 +1,46 @@
+merrix_cannith = {
+	name = "Merrix"
+	culture = metroli
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_cannith
+	
+	3344.8.16 = { birth = yes }
+	3399.6.13 = { death = yes }
+}
+
+joherra_cannith = {
+	name = "Joherra"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_cannith
+	
+	father = merrix_cannith
+	
+	3368.1.14 = { birth = yes }
+}
+
+lei_cannith = {
+	name = "Lei"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_cannith
+	
+	father = merrix_cannith
+	
+	3370.10.3 = { birth = yes }
+}
+
+hadran_cannith = {
+	name = "Hadran"
+	culture = metroli
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_cannith
+	
+	father = merrix_cannith
+	
+	3374.7.18 = { birth = yes }
+}

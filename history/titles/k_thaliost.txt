@@ -1,0 +1,92 @@
+k_thaliost = {
+	3350.1.1 = {
+		holder = aurad_taumen
+	}
+	3394.2.13 = {
+		holder = juliona_taumen
+	}
+}
+
+d_thaliost = {
+	3350.1.1 = {
+		change_development_level = 12
+		holder = aurad_taumen
+	}
+	3394.2.13 = {
+		liege = k_thaliost
+		holder = juliona_taumen
+	}
+}
+
+c_thaliost = {
+	3350.1.1 = {
+		holder = aurad_taumen
+	}
+	3394.2.13 = {
+		liege = k_thaliost
+		holder = juliona_taumen
+	}
+}
+
+c_silvercliff = {
+	3350.1.1 = {
+		holder = aurad_taumen
+	}
+	3394.2.13 = {
+		liege = k_thaliost
+		holder = juliona_taumen
+	}
+}
+
+c_kerkulin = {
+	3350.1.1 = {
+		holder = aurad_taumen
+	}
+	3394.2.13 = {
+		liege = k_thaliost
+		holder = mathas_taumen
+	}
+}
+
+c_graywood = {
+	3350.1.1 = {
+		holder = aurad_taumen
+	}
+	3394.2.13 = {
+		liege = k_thaliost
+		holder = mathas_taumen
+	}
+}
+
+d_silverwood = {
+	3350.1.1 = {
+		change_development_level = 9
+		holder = aurad_taumen
+	}
+	3394.2.13 = {
+		liege = k_thaliost
+		holder = vilina_taumen
+	}
+}
+
+d_fairhaven = {
+	3400.1.1 = {
+		change_development_level = 6
+		holder = jurian_haldron
+		liege = 0
+	}
+}
+
+c_areksul = {
+	3400.1.1 = {
+		holder = jurian_haldron
+		liege = d_fairhaven
+	}
+}
+
+c_whisperwoods_c = {
+	3400.1.1 = {
+		holder = jurian_haldron
+		liege = d_fairhaven
+	}
+}

@@ -516,7 +516,7 @@ pool_repopulate_learning = {
 		education_learning_4 = { weight = { base = 10 } }
 	}
 	random_traits_list = {
-		count = { 0 2 }
+		count = { 1 3 }
 		scholar = {}
 		theologian = {}
 		whole_of_body = {}

@@ -26,9 +26,12 @@ aaspar_of_silln = {
 halas_tarkanan = {
 	name = "Halas"
 	dynasty = dynn_tarkanan
-	culture = shaarati
+	culture = karrn
 	faith = redtide_creed
 	female = no
+	
+	mother = ilana_deneith
+	father = grayn_tarkanan
 	
 	trait = education_martial_5
 	
@@ -37,6 +40,7 @@ halas_tarkanan = {
 	trait = compassionate
 	
 	trait = intellect_good_2
+	trait = aberrant_mark
 	
 	3389.3.5 = {
 		birth = yes

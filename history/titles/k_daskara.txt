@@ -1,0 +1,37 @@
+k_daskaran = {
+	3375.1.1 = {
+		holder = calemi_vasiraghi
+	}
+}
+d_daskaran = {
+	3375.1.1 = {
+		holder = calemi_vasiraghi
+		change_development_level = 9
+		liege = k_daskaran
+	}
+}
+d_auxyl = {
+	3375.1.1 = {
+		holder = calemi_vasiraghi
+		change_development_level = 9
+		liege = k_daskaran
+	}
+}
+c_sentinel_keep = {
+	3375.1.1 = {
+		holder = egen_askarda
+		liege = d_flamekeep
+	}
+}
+d_flamekeep = {
+	3375.1.1 = {
+		holder = egen_askarda
+		change_development_level = 9
+	}
+}
+c_tamor = {
+	3400.1.1 = {
+		holder = lyran_lyrandar
+		liege = d_burntwood
+	}
+}

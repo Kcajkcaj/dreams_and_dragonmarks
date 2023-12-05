@@ -83,6 +83,7 @@
 	faith = korranberg_creed
 	holding = city_holding
 	buildings = {city_03}
+	special_building = gemstone_mines_01
 }
 282 = {holding = castle_holding}
 283 = {holding = church_holding}
@@ -91,6 +92,7 @@
 	culture = zil
 	faith = korranberg_creed
 	holding = city_holding
+	special_building = platinum_mines_01
 }
 285 = {holding = none}
 286 = {holding = none}

@@ -1,0 +1,9 @@
+child_of_commoner = {
+	category = fame
+	diplomacy = -1
+	
+	vassal_opinion = -10
+	courtly_opinion = -10
+	
+	ai_energy = 15
+}

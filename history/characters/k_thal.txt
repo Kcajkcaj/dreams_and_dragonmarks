@@ -1,0 +1,57 @@
+aurad_taumen = {
+	name = "Aurad"
+	culture = thal
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_thaliost_taumen
+	
+	3332.8.16 = {birth = yes}
+	3394.2.13 = {death = yes}
+}
+
+juliona_taumen = {
+	name = "Juliona"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	father = aurad_taumen
+	
+	3355.11.18 = {birth = yes}
+}
+
+vilina_taumen = {
+	name = "Vilina"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	father = aurad_taumen
+	
+	3357.10.6 = {birth = yes}
+}
+
+mathas_taumen = {
+	name = "Mathas"
+	culture = thal
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_thaliost_taumen
+	
+	father = aurad_taumen
+	
+	3358.5.10 = {birth = yes}
+}
+
+jurian_haldron = {
+	name = "Jurian"
+	culture = thal
+	faith = frontier_creed
+	female = no
+	
+	dynasty = dynn_thaliost_haldron
+	
+	3375.5.18 = {birth = yes}
+}

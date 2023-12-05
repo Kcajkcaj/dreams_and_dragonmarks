@@ -1,0 +1,167 @@
+k_metrol = {
+	color = { 112 181 52 }
+	capital = c_metrol
+	
+	d_metrol = {
+		color = { 98 146 66 }
+		capital = c_metrol
+		
+		c_metrol = {
+			color = { 94 133 57 }
+			b_metrol_1 = {province = 1058}
+			b_metrol_2 = {province = 1059}
+			b_metrol_3 = {province = 1060}
+			b_metrol_4 = {province = 1061}
+			b_metrol_5 = {province = 1062}
+		}
+		c_kalazart = {
+			color = { 108 148 60 }
+			b_kalazart_1 = {province = 1063}
+			b_kalazart_2 = {province = 1064}
+			b_kalazart_3 = {province = 1065}
+			b_kalazart_4 = {province = 1066}
+		}
+		c_metrol_b = {
+			color = { 101 146 82 }
+			b_metrol_b1 = {province = 1067}
+			b_metrol_b2 = {province = 1068}
+			b_metrol_b3 = {province = 1069}
+			b_metrol_b4 = {province = 1070}
+		}
+		c_metrol_c = {
+			color = { 96 159 59 }
+			b_metrol_c1 = {province = 1071}
+			b_metrol_c2 = {province = 1072}
+			b_metrol_c3 = {province = 1073}
+		}
+		c_metrol_d = {
+			color = { 118 146 68 }
+			b_metrol_d1 = {province = 1074}
+			b_metrol_d2 = {province = 1075}
+			b_metrol_d3 = {province = 1076}
+			b_metrol_d4 = {province = 1077}
+		}
+	}
+	d_dollen = {
+		color = { 1 199 49 }
+		capital = c_dollen
+		
+		c_dollen = {
+			color = { 1 203 8 }
+			b_dollen_1 = {province = 1078}
+			b_dollen_2 = {province = 1079}
+			b_dollen_3 = {province = 1080}
+		}
+		c_fort_bright = {
+			color = { 4 200 1 }
+			b_fort_bright_1 = {province = 1081}
+			b_fort_bright_2 = {province = 1082}
+			b_fort_bright_3 = {province = 1083}
+		}
+		c_dollen_b = {
+			color = { 1 194 1 }
+			b_dollen_b1 = {province = 1084}
+			b_dollen_b2 = {province = 1085}
+			b_dollen_b3 = {province = 1086}
+		}
+		c_dollen_c = {
+			color = { 93 192 51 }
+			b_dollen_c1 = {province = 1087}
+			b_dollen_c2 = {province = 1088}
+			b_dollen_c3 = {province = 1089}
+			b_dollen_c4 = {province = 1090}
+		}
+	}
+	d_thronehold = {
+		color = { 145 159 81 }
+		capital = c_thronehold
+		
+		c_thronehold = {
+			color = { 151 164 96 }
+			b_thronehold_1 = {province = 1091}
+			b_thronehold_2 = {province = 1092}
+			b_thronehold_3 = {province = 1093}
+		}
+		c_thronehold_b = {
+			color = { 139 160 96 }
+			b_thronehold_b1 = {province = 1094}
+			b_thronehold_b2 = {province = 1095}
+		}
+		c_thronehold_c = {
+			color = { 161 168 77 }
+			b_thronehold_c1 = {province = 1096}
+			b_thronehold_c2 = {province = 1097}
+			b_thronehold_c3 = {province = 1098}
+		}
+		c_thronehold_d = {
+			color = { 157 173 86 }
+			b_thronehold_d1 = {province = 1099}
+			b_thronehold_d2 = {province = 1100}
+			b_thronehold_d3 = {province = 1101}
+		}
+		c_thronehold_e = {
+			color = { 130 144 61 }
+			b_thronehold_e1 = {province = 1102}
+			b_thronehold_e2 = {province = 1103}
+			b_thronehold_e3 = {province = 1104}
+			b_thronehold_e4 = {province = 1105}
+			b_thronehold_e5 = {province = 1106}
+		}
+	}
+	d_crimson_water = {
+		color = { 92 207 97 }
+		capital = c_swoz
+		
+		c_swoz = {
+			color = { 72 190 82 }
+			b_swoz_1` = {province = 1107}
+			b_swoz_2 = {province = 1108}
+			b_swoz_3 = {province = 1109}
+		}
+		c_tronish = {
+			color = { 1 215 74 }
+			b_tronish_1 = {province = 1110}
+			b_tronish_2 = {province = 1111}
+			b_tronish_3 = {province = 1112}
+		}
+		c_crimson_water_b = {
+			color = { 48 194 90 }
+			b_crimson_water_b1 = {province = 1113}
+			b_crimson_water_b2 = {province = 1114}
+			b_crimson_water_b3 = {province = 1115}
+			b_crimson_water_b4 = {province = 1116}
+		}
+		c_crimson_water_c = {
+			color = { 64 205 107 }
+			b_crimson_water_c1 = {province = 1117}
+			b_crimson_water_c2 = {province = 1118}
+			b_crimson_water_c3 = {province = 1119}
+			b_crimson_water_c4 = {province = 1120}
+		}
+		c_crimson_water_d = {
+			color = { 83 196 90 }
+			b_crimson_water_d1 = {province = 1121}
+			b_crimson_water_d2 = {province = 1122}
+			b_crimson_water_d3 = {province = 1123}
+			b_crimson_water_d4 = {province = 1124}
+		}
+		c_crimson_water_e = {
+			color = { 87 220 106 }
+			b_crimson_water_e1 = {province = 1125}
+			b_crimson_water_e2 = {province = 1126}
+			b_crimson_water_e3 = {province = 1127}
+			b_crimson_water_e4 = {province = 1128}
+		}
+		c_crimson_water_f = {
+			color = { 101 224 121 }
+			b_crimson_water_f1 = {province = 1129}
+			b_crimson_water_f2 = {province = 1130}
+			b_crimson_water_f3 = {province = 1131}
+			b_crimson_water_f4 = {province = 1132}
+		}
+		c_crimson_water_g = {
+			color = { 88 220 116 }
+			b_crimson_water_g1 = {province = 1133}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+verodin_ghastor = {
+	name = "Verodin"
+	culture = metroli
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_metrol_ghastor
+	
+	3384.2.8 = { birth = yes }
+}
+
+morgana_vanatar = {
+	name = "Morgana"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_metrol_vanatar
+	
+	3367.2.11 = {birth = yes}
+}
+
+heken_ravadanci = {
+	name = "Heken"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_metrol_ravadanci
+	
+	3363.6.10 = {birth = yes}
+}
+
+koref_corliostor = {
+	name = "Koref"
+	culture = metroli
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_metrol_corliostor
+	
+	3384.8.14 = {birth = yes}
+}

@@ -1,0 +1,212 @@
+##### Metrol
+### Metrol
+1058 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_02}
+}
+1059 = {holding = city_holding}
+1060 = {holding = church_holding}
+1061 = {holding = city_holding}
+1062 = {holding = castle_holding}
+### Kalazart
+1063 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1064 = {holding = city_holding}
+1065 = {holding = church_holding}
+1066 = {holding = none}
+### B
+1067 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1068 = {holding = none}
+1069 = {holding = none}
+1070 = {holding = none}
+### C
+1071 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1072 = {holding = none}
+1073 = {holding = none}
+### D
+1074 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1075 = {holding = none}
+1076 = {holding = none}
+1077 = {holding = none}
+##### Dollen
+### Dollen
+1078 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1079 = {holding = city_holding}
+1080 = {holding = church_holding}
+### Fort Bright
+1081 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1082 = {holding = church_holding}
+1083 = {holding = none}
+### B
+1084 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1085 = {holding = none}
+1086 = {holding = none}
+### C
+1087 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1088 = {holding = none}
+1089 = {holding = none}
+1090 = {holding = none}
+##### Thronehold
+### Thronehold
+1091 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1092 = {holding = city_holding}
+1093 = {holding = church_holding}
+### B
+1094 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1095 = {holding = none}
+### C
+1096 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1097 = {holding = none}
+1098 = {holding = none}
+### D
+1099 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1100 = {holding = none}
+1101 = {holding = none}
+### E
+1102 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1103 = {holding = none}
+1104 = {holding = none}
+1105 = {holding = none}
+1106 = {holding = none}
+##### Crimson Water
+### Swoz
+1107 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1108 = {holding = city_holding}
+1109 = {holding = church_holding}
+### Tronish
+1110 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1111 = {holding = city_holding}
+1112 = {holding = church_holding}
+### B
+1113 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1114 = {holding = none}
+1115 = {holding = none}
+1116 = {holding = none}
+### C
+1117 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1118 = {holding = none}
+1119 = {holding = none}
+1120 = {holding = none}
+### D
+1121 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1122 = {holding = none}
+1123 = {holding = none}
+1124 = {holding = none}
+### E
+1125 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1126 = {holding = none}
+1127 = {holding = none}
+1128 = {holding = none}
+### F
+1129 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}
+1130 = {holding = none}
+1131 = {holding = none}
+1132 = {holding = none}
+### G
+1133 = {
+	culture = metroli
+	faith = frontier_creed
+	holding = castle_holding
+	buildings = {castle_01}
+}

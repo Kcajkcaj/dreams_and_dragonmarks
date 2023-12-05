@@ -48,6 +48,8 @@ learning_modifier_with_offset = {
 }
 
 prowess_modifier = {
+	advantage = 0.5
+	monthly_prestige = 0.1
 }
 
 # These modifiers are applied to characters of that tier
@@ -60,31 +62,31 @@ baron_modifier = {
 }
 
 count_modifier = {
-	domain_limit = 2
+	domain_limit = 1
 	knight_limit = 5
 }
 
 duke_modifier = {
-	domain_limit = 2
+	domain_limit = 1
 	knight_limit = 6
-	vassal_limit = 20
+	vassal_limit = 10
 
 	mercenary_hire_cost_mult = 0.1
 }
 
 king_modifier = {
-	domain_limit = 3
+	domain_limit = 2
 	knight_limit = 7
-	vassal_limit = 40
+	vassal_limit = 20
 	active_accolades = 1
 
 	mercenary_hire_cost_mult = 0.3
 }
 
 emperor_modifier = {
-	domain_limit = 4
+	domain_limit = 2
 	knight_limit = 8
-	vassal_limit = 60
+	vassal_limit = 30
 	ai_amenity_target_baseline = 0.3
 	active_accolades = 2
 

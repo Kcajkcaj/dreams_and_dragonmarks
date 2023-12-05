@@ -117,12 +117,6 @@
 			}
 		}
 
-		can_potentially_call_ally_trigger = {
-			WARRIOR = scope:actor
-			JOINER = scope:recipient
-			WAR = scope:target
-		}
-
 		# Cannot call a character of the "wrong" religion to a Great Holy War
 		scope:actor = {
 			trigger_if = {

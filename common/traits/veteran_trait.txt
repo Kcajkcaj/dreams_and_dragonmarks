@@ -1,0 +1,24 @@
+veteran = {
+	category = fame
+	same_opinion = 10
+	same_culture_opinion = 10
+	
+	track = {
+		25 = {
+			prowess = 1
+			martial = 1
+		}
+		50 = {
+			prowess = 1
+			martial = 1
+		}
+		75 = {
+			prowess = 1
+			martial = 1
+		}
+		100 = {
+			prowess = 1
+			martial = 1
+		}
+	}
+}

@@ -1,0 +1,56 @@
+dynn_karrnath = {
+	name = "of Karrnath"
+	culture = karrn
+}
+dynn_deneith = {
+	name = "Deneith"
+	culture = karrn
+}
+dynn_karrnath_furnau = {
+	name = "Furnau"
+	culture = karrn
+}
+dynn_karrnath_vanalan = {
+	name = "Vanalan"
+	culture = karrn
+}
+dynn_karrnath_karlach = {
+	name = "Karlach"
+	culture = karrn
+}
+dynn_karrnath_erdei = {
+	name = "Erdei"
+	culture = karrn
+}
+dynn_karrnath_kessler = {
+	name = "Kessler"
+	culture = karrn
+}
+dynn_karrnath_zecklin = {
+	name = "Zecklin"
+	culture = karrn
+}
+dynn_karrnath_thul = {
+	name = "Thul"
+	culture = karrn
+}
+dynn_karrnath_rangoth = {
+	name = "Rangoth"
+	culture = karrn
+}
+dynn_karrnath_dorn = {
+	name = "Dorn"
+	culture = karrn
+}
+dynn_wynarn = {
+	name = "Wynarn"
+	culture = karrn
+}
+dynn_karrnath_grogloth = {
+	name = "Grogloth"
+	culture = karrn
+}
+dynn_karrnath_jaranus = {
+	name = "Jaranus"
+	culture = vasfolder
+}

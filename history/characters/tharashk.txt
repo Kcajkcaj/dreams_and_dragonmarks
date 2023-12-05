@@ -21,6 +21,12 @@ veldera_tharashk = {
 	
 	trait = mark_of_finding
 	
+	trait = education_diplomacy_4
+	trait = gregarious
+	trait = ambitious
+	trait = just
+	trait = inquisitive
+	
 	father = khalar_tharashk
 	
 	3345.1.1 = {birth = yes}
@@ -34,6 +40,11 @@ orgaal_tharashk = {
 	dynasty = dynn_tharashk
 	
 	trait = mark_of_finding
+	
+	trait = education_intrigue_3
+	trait = inquisitive
+	trait = shy
+	trait = humble
 	
 	mother = veldera_tharashk
 	
@@ -49,6 +60,13 @@ torshaa_tharashk = {
 	
 	trait = mark_of_finding
 	
+	trait = education_stewardship_3
+	trait = diligent
+	trait = impatient
+	trait = stubborn
+	trait = forder
+	trait = lifestyle_hunter
+	
 	mother = veldera_tharashk
 	
 	3374.1.1 = {birth = yes}
@@ -62,6 +80,14 @@ vaalda_tharashk = {
 	dynasty = dynn_tharashk
 	
 	trait = mark_of_finding
+	
+	trait = education_intrigue_3
+	trait = fierce
+	trait = sadistic
+	trait = deceitful
+	
+	trait = lifestyle_hunter
+	trait = lifestyle_blademaster
 	
 	mother = veldera_tharashk
 	
@@ -77,6 +103,11 @@ torrn_tharashk = {
 	
 	trait = mark_of_finding
 	
+	trait = education_learning_4
+	trait = calm
+	trait = patient
+	trait = stubborn
+	
 	father = khalar_tharashk
 	
 	3349.1.1 = {birth = yes}
@@ -90,6 +121,13 @@ torruk_tharashk = {
 	dynasty = dynn_tharashk
 	
 	trait = mark_of_finding
+	
+	trait = education_martial_3
+	trait = zealous
+	trait = fierce
+	trait = stubborn
+	
+	trait = holy_warrior
 	
 	father = torrn_tharashk
 	
@@ -105,6 +143,11 @@ brokaa_tharashk = {
 	
 	trait = mark_of_finding
 	
+	trait = education_stewardship_3
+	trait = greedy
+	trait = cynical
+	trait = diligent
+	
 	father = torrn_tharashk
 	
 	3379.1.1 = {birth = yes}
@@ -118,6 +161,11 @@ aashta_tharashk = {
 	dynasty = dynn_tharashk
 	
 	trait = mark_of_finding
+	
+	trait = education_martial_4
+	trait = fierce
+	trait = brave
+	trait = wrathful
 	
 	father = khalar_tharashk
 	
@@ -133,6 +181,11 @@ aarna_tharashk = {
 	
 	trait = mark_of_finding
 	
+	trait = education_intrigue_3
+	trait = deceitful
+	trait = gregarious
+	trait = fierce
+	
 	mother = aashta_tharashk
 	
 	3374.1.1 = {birth = yes}
@@ -147,6 +200,13 @@ istaaran_tharashk = {
 	
 	trait = mark_of_finding
 	
+	trait = education_learning_3
+	trait = diligent
+	trait = inquisitive
+	trait = zealous
+	
+	trait = herbalist
+	
 	mother = aashta_tharashk
 	
 	3379.1.1 = {birth = yes}
@@ -160,6 +220,12 @@ oorac_tharashk = {
 	dynasty = dynn_tharashk
 	
 	trait = mark_of_finding
+	trait = planetouched_lamannia
+	
+	trait = education_learning_3
+	trait = just
+	trait = shy
+	trait = stubborn
 	
 	mother = aashta_tharashk
 	

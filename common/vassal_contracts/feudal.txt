@@ -14,7 +14,6 @@
 		}
 		feudal_tax_low = {
 			parent = feudal_tax_exempt
-			default = yes
 			position = { 1 0 }
 
 			tax = 0.05
@@ -27,6 +26,7 @@
 		feudal_tax_normal = {
 			parent = feudal_tax_low
 			position = { 2 0 }
+			default = yes
 
 			tax = 0.15
 
@@ -45,7 +45,7 @@
 			ai_vassal_desire = 2
 			score = -1
 		}
-		feudal_tax_extortionate = {
+		feudal_tax_very_high = {
 			parent = feudal_tax_high
 			position = { 4 0 }
 			
@@ -55,6 +55,17 @@
 			ai_liege_desire = 5
 			ai_vassal_desire = 1
 			score = -2
+		}
+		feudal_tax_extortionate = {
+			parent = feudal_tax_very_high
+			position = {5 0}
+			tax = 0.6
+			vassal_opinion = -40
+			
+			ai_liege_desire = 6
+			ai_vassal_desire = 0
+			
+			score = -3
 		}
 	}
 }

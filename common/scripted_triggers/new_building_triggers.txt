@@ -1,0 +1,6 @@
+building_vineyards_requirement_terrain = {
+	OR = {
+		terrain = farmlands
+		terrain = hills
+	}
+}

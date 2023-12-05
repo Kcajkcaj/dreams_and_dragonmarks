@@ -1,3 +1,7 @@
 ﻿suggestion_hook = {
 	expiration_days = 365
 }
+
+hierarch_hook = {
+	perpetual = yes
+}

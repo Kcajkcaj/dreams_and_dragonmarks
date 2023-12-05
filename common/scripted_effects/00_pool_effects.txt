@@ -1,4 +1,8 @@
 ﻿set_interesting_traits_and_modifiers_effect = {
+	random = {
+		chance = 10
+		add_trait = mage
+	}
 	random_list = {
 		50 = {
 			trigger = {

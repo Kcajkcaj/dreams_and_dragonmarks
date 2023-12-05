@@ -4,128 +4,160 @@ mage = {
 			10 = {
 				additional_fort_level = 1
 				enemy_hostile_scheme_success_chance_add = -5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			30 = {
 				additional_fort_level = 1
 				enemy_hostile_scheme_success_chance_add = -5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			60 = {
 				additional_fort_level = 1
 				enemy_hostile_scheme_success_chance_add = -5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			100 = {
 				additional_fort_level = 1
 				enemy_hostile_scheme_success_chance_add = -5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 		}
 		conjuration = {
 			10 = {
 				character_travel_speed_mult = 0.5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			30 = {
 				character_travel_speed_mult = 0.5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			60 = {
 				character_travel_speed_mult = 0.5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			100 = {
 				character_travel_speed_mult = 0.5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 		}
 		divination = {
 			10 = {
 				learning = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			30 = {
 				learning = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			60 = {
 				learning = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			100 = {
 				learning = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 		}
 		enchantment = {
 			10 = {
 				diplomacy = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			30 = {
 				diplomacy = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			60 = {
 				diplomacy = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			100 = {
 				diplomacy = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 		}
 		evocation = {
 			10 = {
 				prowess = 3
 				advantage = 3
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			30 = {
 				prowess = 3
 				advantage = 3
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			60 = {
 				prowess = 3
 				advantage = 3
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			100 = {
 				prowess = 3
 				advantage = 3
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 		}
 		illusion = {
 			10 = {
 				intrigue = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			30 = {
 				intrigue = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			60 = {
 				intrigue = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			100 = {
 				intrigue = 2
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 		}
 		necromancy = {
 			10 = {
 				dread_baseline_add = 5
 				owned_hostile_scheme_success_chance_add = 5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			30 = {
 				dread_baseline_add = 5
 				owned_hostile_scheme_success_chance_add = 5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			60 = {
 				dread_baseline_add = 5
 				owned_hostile_scheme_success_chance_add = 5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			100 = {
 				dread_baseline_add = 5
 				owned_hostile_scheme_success_chance_add = 5
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 		}
 		transmutation = {
 			10 = {
 				life_expectancy = 5
 				monthly_income_mult = 0.05
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			30 = {
 				life_expectancy = 5
 				monthly_income_mult = 0.05
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			60 = {
 				life_expectancy = 5
 				monthly_income_mult = 0.05
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 			100 = {
 				life_expectancy = 5
 				monthly_income_mult = 0.05
+				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
 			}
 		}
 	}

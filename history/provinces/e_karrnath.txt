@@ -1,0 +1,515 @@
+####### Kingdom of Karrnath
+##### Korth
+### Korth
+877 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+	buildings = {castle_03}
+}
+878 = {holding = castle_holding}
+879 = {holding = castle_holding}
+880 = {holding = church_holding}
+881 = {holding = city_holding}
+### Loran Rath
+882 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+883 = {holding = none}
+884 = {holding = none}
+### Nightwood
+885 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+886 = {holding = none}
+887 = {holding = none}
+##### Tanar
+### Tanar Rath
+888 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+889 = {holding = none}
+890 = {holding = none}
+### Blackrock
+891 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+### Tanar B
+892 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+893 = {holding = none}
+### Tanar C
+894 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+895 = {holding = none}
+### Tanar D
+896 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+897 = {holding = none}
+##### Rekkenmark
+### Rekkenmark
+898 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+	buildings = {castle_02}
+	special_building = rekkenmark_academy
+}
+899 = {holding = city_holding}
+900 = {holding = church_holding}
+### Rekkenwood
+901 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+902 = {holding = none}
+903 = {holding = none}
+### Jern
+904 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+905 = {holding = city_holding}
+906 = {holding = none}
+907 = {holding = none}
+##### Ashen Spires
+### Atur
+909 = {
+	culture = aturi
+	faith = blood_of_vol
+	holding = city_holding
+	buildings = {city_03}
+	special_building = academy_of_atur
+}
+910 = {
+	holding = church_holding
+}
+911 = {
+	holding = castle_holding
+	special_building = nighthold
+}
+### Ashen Spires B
+912 = {
+	culture = aturi
+	faith = blood_of_vol
+	holding = castle_holding
+	special_building_slot = gemstone_mines_01
+}
+913 = {holding = none}
+### Ashen Spires C
+914 = {
+	culture = aturi
+	faith = blood_of_vol
+	holding = castle_holding
+}
+915 = {holding = none}
+### Ashen Spires D
+916 = {
+	culture = aturi
+	faith = blood_of_vol
+	holding = castle_holding
+}
+917 = {holding = none}
+### Ashen Spires E
+918 = {
+	culture = aturi
+	faith = blood_of_vol
+	holding = castle_holding
+}
+919 = {holding = none}
+920 = {holding = none}
+##### Bastion
+### Bastion
+921 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+922 = {holding = none}
+### Bastion B
+923 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+924 = {holding = none}
+### Bastion C
+925 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+926 = {holding = none}
+##### Loom Keep
+### Loom Keep
+927 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+928 = {holding = none}
+929 = {holding = none}
+### Loom Keep B
+930 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+931 = {holding = none}
+932 = {holding = none}
+####### Karrnwood
+##### Eastern Karrnwood
+### A
+934 = {
+	culture = karrn
+	faith = blood_of_vol
+	holding = castle_holding
+}
+935 = {holding = none}
+936 = {holding = none}
+### B
+937 = {
+	culture = karrn
+	faith = blood_of_vol
+	holding = castle_holding
+}
+938 = {holding = none}
+### C
+939 = {
+	culture = karrn
+	faith = blood_of_vol
+	holding = castle_holding
+}
+940 = {holding = none}
+941 = {holding = none}
+### D
+942 = {
+	culture = karrn
+	faith = blood_of_vol
+	holding = castle_holding
+}
+943 = {holding = none}
+944 = {holding = none}
+945 = {holding = none}
+##### Storm Cliffs
+### Storm Cliffs
+946 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+947 = {holding = none}
+948 = {holding = none}
+### Storm Isles
+949 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+950 = {holding = none}
+951 = {holding = none}
+952 = {holding = none}
+### Taer Syraen
+953 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+954 = {holding = none}
+##### Western Karrnwood
+### Senne
+955 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+956 = {holding = city_holding}
+957 = {holding = none}
+### Trag
+958 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+959 = {holding = city_holding}
+960 = {holding = none}
+961 = {holding = none}
+### Western Karrnwood B
+962 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+963 = {holding = none}
+964 = {holding = none}
+##### Ice Marshes
+### A
+965 = {
+	culture = karrn
+	faith = blood_of_vol
+	holding = castle_holding
+}
+966 = {holding = none}
+967 = {holding = none}
+### B
+968 = {
+	culture = karrn
+	faith = blood_of_vol
+	holding = castle_holding
+}
+969 = {holding = none}
+### C
+970 = {
+	culture = karrn
+	faith = blood_of_vol
+	holding = castle_holding
+}
+971 = {holding = none}
+####### Vedykar
+##### Vedykar
+### Vedykar
+972 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+	buildings = {castle_02}
+}
+973 = {holding = city_holding}
+974 = {holding = church_holding}
+### Vurgenslye
+975 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+976 = {holding = city_holding}
+977 = {holding = none}
+978 = {holding = none}
+### Teryk
+979 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+980 = {holding = city_holding}
+981 = {holding = church_holding}
+982 = {holding = none}
+### Brom
+983 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+984 = {holding = city_holding}
+985 = {holding = none}
+### Vorn
+986 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+987 = {holding = city_holding}
+988 = {holding = none}
+##### Karrlakton
+### Karrlakton
+989 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+	buildings = {castle_02}
+}
+990 = {holding = city_holding}
+991 = {holding = church_holding}
+### Karnel
+992 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+993 = {holding = city_holding}
+### Fort Zombie
+994 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+995 = {holding = none}
+### Karrlakton B
+996 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+997 = {holding = none}
+998 = {holding = none}
+##### Vulyar
+### Vulyar
+999 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+1000 = {holding = none}
+1001 = {holding = none}
+1002 = {holding = none}
+### Fort Bones
+1003 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+1004 = {holding = none}
+### Fort Deepdark
+1005 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+1006 = {holding = none}
+1007 = {holding = none}
+### Lhar
+1008 = {
+	culture = karrn
+	faith = conquerors_creed
+	holding = castle_holding
+}
+1009 = {holding = none}
+1010 = {holding = none}
+####### Vasfold
+##### Icetop
+### Lakeside
+1011 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1012 = {holding = church_holding}
+1013 = {holding = city_holding}
+### Brek
+1014 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+	special_building = iron_mines_01
+}
+1015 = {holding = city_holding}
+1016 = {holding = none}
+### Icetop B
+1017 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1018 = {holding = none}
+### Icetop C
+1019 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+	special_building_slot = iron_mines_01
+}
+1020 = {holding = none}
+##### Irontown
+### Irontown
+1021 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1022 = {holding = church_holding}
+1023 = {holding = city_holding}
+### Irontown B
+1024 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1025 = {holding = none}
+### Irontown C
+1026 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1027 = {holding = none}
+1028 = {holding = none}
+##### Iceflow
+### A
+1029 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1030 = {holding = city_holding}
+1031 = {holding = none}
+### B
+1032 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1033 = {holding = none}
+### C
+1034 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1035 = {holding = none}
+##### Icewood
+### Madstone
+1036 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1037 = {holding = none}
+1038 = {holding = none}
+### Froststone
+1039 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+### B
+1040 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1041 = {holding = none}
+1042 = {holding = none}
+### C
+1043 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1044 = {holding = none}
+### D
+1045 = {
+	culture = vasfolder
+	faith = blood_of_vol
+	holding = castle_holding
+}
+1046 = {holding = none}
+1047 = {holding = none}

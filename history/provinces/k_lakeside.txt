@@ -5,14 +5,15 @@
 	faith = frontier_creed
 	holding = castle_holding
 }
-733 = {holding = none}
-734 = {holding = none}
+733 = {holding = city_holding}
+734 = {holding = church_holding}
 735 = {holding = none}
 ### Drum Keep
 736 = {
 	culture = xand
 	faith = frontier_creed
 	holding = castle_holding
+	special_building_slot = iron_mines_01
 }
 737 = {holding = none}
 738 = {holding = none}
@@ -22,14 +23,16 @@
 	culture = xand
 	faith = frontier_creed
 	holding = castle_holding
+	special_building = silver_mines_01
 }
-741 = {holding = none}
+741 = {holding = city_holding}
 742 = {holding = none}
 ### Blackcaps B
 743 = {
 	culture = xand
 	faith = frontier_creed
 	holding = castle_holding
+	special_building_slot = gemstone_mines_01
 }
 744 = {holding = none}
 745 = {holding = none}
@@ -40,8 +43,8 @@
 	faith = frontier_creed
 	holding = castle_holding
 }
-747 = {holding = none}
-748 = {holding = none}
+747 = {holding = city_holding}
+748 = {holding = church_holding}
 ### Vanguard Keep
 749 = {
 	culture = xand
@@ -56,7 +59,7 @@
 	faith = frontier_creed
 	holding = castle_holding
 }
-753 = {holding = none}
+753 = {holding = city_holding}
 754 = {holding = none}
 ### Marketplace B
 755 = {
@@ -64,7 +67,7 @@
 	faith = frontier_creed
 	holding = castle_holding
 }
-756 = {holding = none}
+756 = {holding = city_holding}
 757 = {holding = none}
 758 = {holding = none}
 ##### Arcanix
@@ -73,10 +76,11 @@
 	culture = ghaltic
 	faith = frontier_creed
 	holding = castle_holding
+	special_building_slot = arcanix_university
 }
-760 = {holding = none}
-761 = {holding = none}
-762 = {holding = none}
+760 = {holding = city_holding}
+761 = {holding = church_holding}
+762 = {holding = castle_holding}
 ### Tower Vigilant
 763 = {
 	culture = ghaltic
@@ -87,7 +91,7 @@
 765 = {holding = none}
 ### Arcanix B
 766 = {
-	culture = ghaltic
+	culture = xand
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -100,7 +104,7 @@
 	faith = frontier_creed
 	holding = castle_holding
 }
-770 = {holding = none}
+770 = {holding = city_holding}
 ### Windshire
 771 = {
 	culture = ghaltic
@@ -114,8 +118,8 @@
 	faith = frontier_creed
 	holding = castle_holding
 }
-774 = {holding = none}
-775 = {holding = none}
+774 = {holding = city_holding}
+775 = {holding = church_holding}
 776 = {holding = none}
 ### Lathleer
 777 = {
@@ -123,7 +127,7 @@
 	faith = frontier_creed
 	holding = castle_holding
 }
-778 = {holding = none}
+778 = {holding = city_holding}
 ### Eldritch Groves B
 779 = {
 	culture = ghaltic

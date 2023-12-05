@@ -6,3 +6,5 @@ ce_eye.dds = { colors = 3 category = animals }
 ce_manticore.dds = {colors = 3 category = animals}
 ce_sphinx.dds = {colors = 1 category = animals}
 ce_book.dds = { colors = 3 category = manmade }
+ce_unicorn_orien.dds = {colors = 3 category = animals}
+ce_dragon_head.dds = {colors = 3 category = animals}

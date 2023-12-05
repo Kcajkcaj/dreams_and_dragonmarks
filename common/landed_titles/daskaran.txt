@@ -1,0 +1,83 @@
+k_daskaran = {
+	color = { 255 217 198 }
+	capital = c_daskaran
+	
+	d_daskaran = {
+		color = { 254 226 166 }
+		capital = c_daskaran
+		
+		c_daskaran = {
+			color = { 247 217 150 }
+			b_daskaran_1 = {province = 782}
+			b_daskaran_2 = {province = 783}
+			b_daskaran_3 = {province = 784}
+			b_daskaran_4 = {province = 785}
+		}
+		c_the_towers = {
+			color = { 254 236 162 }
+			b_the_towers_1 = {province = 786}
+			b_the_towers_2 = {province = 787}
+		}
+		c_tower_perilous = {
+			color = { 254 224 156 }
+			b_tower_perilous_1 = {province = 788}
+			b_tower_perilous_2 = {province = 789}
+		}
+		c_traelyn = {
+			color = { 254 242 184 }
+			b_traelyn_1 = {province = 790}
+			b_traelyn_2 = {province = 791}
+			b_traelyn_3 = {province = 792}
+		}
+	}
+	d_auxyl = {
+		color = { 245 212 161 }
+		capital = c_auxylgard
+		
+		c_auxylgard = {
+			color = { 249 202 145 }
+			b_auxylgard_1 = {province = 793}
+			b_auxylgard_2 = {province = 794}
+			b_auxylgard_3 = {province = 795}
+			b_auxylgard_4 = {province = 796}
+		}
+		c_sentinel_keep = {
+			color = { 254 221 163 }
+			b_sentinel_keep_1 = {province = 797}
+			b_sentinel_keep_2 = {province = 798}
+			b_sentinel_keep_3 = {province = 799}
+		}
+		c_bluevine = {
+			color = { 233 200 153 }
+			b_bluevine_1 = {province = 800}
+			b_bluevine_2 = {province = 801}
+			b_bluevine_3 = {province = 802}
+			b_bluevine_4 = {province = 803}
+		}
+	}
+	d_flamekeep = {
+		color = { 254 204 197 }
+		capital = c_flamekeep
+		
+		c_flamekeep = {
+			color = { 254 208 202 }
+			b_flamekeep_1 = {province = 804}
+			b_flamekeep_2 = {province = 805}
+			b_flamekeep_3 = {province = 806}
+			b_flamekeep_4 = {province = 807}
+		}
+		c_danthaven = {
+			color = { 236 190 185 }
+			b_danthaven_1 = {province = 808}
+			b_danthaven_2 = {province = 809}
+			b_danthaven_3 = {province = 810}
+		}
+		c_tamor = {
+			color = { 253 196 195 }
+			b_tamor_1 = {province = 811}
+			b_tamor_2 = {province = 812}
+			b_tamor_3 = {province = 813}
+			b_tamor_4 = {province = 814}
+		}
+	}
+}

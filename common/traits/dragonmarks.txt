@@ -162,7 +162,8 @@ mark_of_passage = {
 	good = yes
 	
 	martial = 2
-	movement_speed = 0.25
+	stewardship = 1
+	movement_speed = 0.5
 	prowess = 3
 	
 	group = dragonmark

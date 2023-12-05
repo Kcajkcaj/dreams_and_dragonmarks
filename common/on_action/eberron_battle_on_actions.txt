@@ -50,7 +50,7 @@ gain_veteran_xp_on_action = {
 							value = {
 								integer_range = {
 									min = 0
-									max = 10
+									max = 5
 								}
 							}
 						}
@@ -71,7 +71,7 @@ gain_veteran_xp_on_action = {
 						value = {
 							integer_range = {
 								min = 0
-								max = 10
+								max = 5
 							}
 						}
 					}

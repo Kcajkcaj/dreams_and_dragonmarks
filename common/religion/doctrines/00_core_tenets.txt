@@ -666,6 +666,20 @@
 		}
 	}
 	
+	tenet_undead_guardians = {
+		icon = core_tenet_adorcism
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = { has_doctrine = tenet_undead_guardians }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		is_shown = {
+			always = yes
+		}
+	}
+	
 	tenet_untamed_inhibitions = {
 		icon = core_tenet_polyamory
 		

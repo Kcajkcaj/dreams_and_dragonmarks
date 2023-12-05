@@ -1,0 +1,32 @@
+court_mage_study_magic = {
+	default_task = yes
+	
+	position = councillor_court_mage
+	task_type = task_type_general
+	task_progress = task_progress_percentage
+	
+	restart_on_finish = yes
+	
+	progress = {
+		value = 6
+	}
+	
+	on_finish_task = {
+		scope:councillor = {
+			study_magic_effect = yes
+		}
+		scope:councillor_liege = {
+			if = {
+				limit = {has_trait = mage}
+				study_magic_effect = yes
+			}
+			every_courtier = {
+				limit = {
+					has_trait = mage
+					not = {scope:councillor = this}
+				}
+				study_magic_effect = yes
+			}
+		}
+	}
+}

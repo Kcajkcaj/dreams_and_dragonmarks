@@ -1,0 +1,103 @@
+byeshk_mines_01 = {
+	effect_desc = mines_effect_desc
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_mines.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 01 }
+	}
+	cost_gold = expensive_building_tier_3_cost
+	province_modifier = {
+		monthly_income = 3
+	}
+	character_modifier = {
+		tolerance_advantage_mod = 3
+	}
+	next_building = byeshk_mines_02
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_economic
+}
+byeshk_mines_02 = {
+	effect_desc = mines_effect_desc
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_mines.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 02 }
+	}
+	cost_gold = expensive_building_tier_4_cost
+	province_modifier = {
+		monthly_income = 5
+	}
+	character_modifier = {
+		tolerance_advantage_mod = 5
+	}
+	next_building = byeshk_mines_03
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_economic
+}
+byeshk_mines_03 = {
+	effect_desc = mines_effect_desc
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_mines.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 03 }
+	}
+	cost_gold = expensive_building_tier_5_cost
+	province_modifier = {
+		monthly_income = 7
+	}
+	character_modifier = {
+		tolerance_advantage_mod = 7
+	}
+	next_building = byeshk_mines_04
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_economic
+}
+byeshk_mines_04 = {
+	effect_desc = mines_effect_desc
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+	construction_time = slow_construction_time
+	type_icon = "icon_structure_mines.dds"
+	can_construct_potential = {
+		building_requirement_tribal = no
+		building_requirement_castle_city_church = { LEVEL = 04 }
+	}
+	cost_gold = expensive_building_tier_6_cost
+	province_modifier = {
+		monthly_income = 9
+	}
+	character_modifier = {
+		tolerance_advantage_mod = 9
+	}
+	ai_value = {
+		base = 100
+	}
+	type = special
+	flag = travel_point_of_interest_economic
+}

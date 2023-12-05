@@ -3,6 +3,8 @@
 		world_khorvaire_breland
 		world_khorvaire_cyre
 		world_khorvaire_thrane
+		world_khorvaire_aundair
+		world_khorvaire_karrnath
 	}
 }
 
@@ -17,6 +19,13 @@ world_khorvaire_breland = {
 world_khorvaire_cyre = {
 	regions = {
 		world_khorvaire_cyre_darguun
+		world_khorvaire_cyre_metrol
+	}
+}
+
+world_khorvaire_cyre_metrol = {
+	duchies = {
+		d_metrol d_thronehold d_dollen d_crimson_waters
 	}
 }
 
@@ -47,6 +56,8 @@ world_khorvaire_cyre_darguun = {
 world_khorvaire_thrane = {
 	regions = {
 		world_khorvaire_thrane_arul
+		world_khorvaire_thrane_lakeside
+		world_khorvaire_thrane_daskaran
 	}
 }
 
@@ -59,6 +70,54 @@ world_khorvaire_thrane_arul = {
 	}
 }
 
+world_khorvaire_thrane_lakeside = {
+	duchies = {
+		d_arcanix
+		d_marketplace
+		d_blackcaps
+		d_eldritch_groves
+	}
+}
+
+world_khorvaire_thrane_daskaran = {
+	duchies = {
+		d_daskaran
+		d_auxyl
+		d_flamekeep
+	}
+}
+
+world_khorvaire_aundair = {
+	regions = {
+		world_khorvaire_aundair_thaliost
+	}
+}
+
+world_khorvaire_aundair_thaliost = {
+	duchies = {
+		d_thaliost
+		d_stormhome
+		d_silverwood
+		d_whisperwoods
+		d_fairhaven
+	}
+}
+
+world_khorvaire_karrnath = {
+	regions = {
+		world_khorvaire_karrnath_empire
+	}
+}
+
+world_khorvaire_karrnath_empire = {
+	duchies = {
+		d_korth d_tanar d_rekkenmark d_ashen_spires d_bastion d_loom_keep
+		d_eastern_karrnwood d_storm_cliffs d_western_karrnwood d_ice_marshes
+		d_vedykar d_karrlakton d_vulyar
+		d_icetop d_irontown d_iceflow d_icewood
+	}
+}
+
 material_hsb_ivory_native = {
 	regions = {
 		world_khorvaire_cyre
@@ -67,6 +126,24 @@ material_hsb_ivory_native = {
 }
 
 material_hsb_ivory_imported = {
+	regions = {
+		world_khorvaire
+	}
+}
+
+hunt_animal_deer_region = {
+	regions = {
+		world_khorvaire
+	}
+}
+
+hunt_animal_boar_region = {
+	regions = {
+		world_khorvaire
+	}
+}
+
+hunt_animal_bear_region = {
 	regions = {
 		world_khorvaire
 	}

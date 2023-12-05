@@ -1,0 +1,152 @@
+##### Thalisot
+### Thaliost
+816 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+817 = {holding = city_holding}
+818 = {holding = church_holding}
+### Silvercliff
+819 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+820 = {holding = none}
+821 = {holding = none}
+### Kerkulin
+822 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+823 = {holding = church_holding}
+824 = {holding = none}
+### Graywood
+825 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+826 = {holding = none}
+827 = {holding = none}
+828 = {holding = none}
+### Stormhome
+829 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+830 = {holding = city_holding}
+831 = {holding = city_holding}
+### Storm Bay
+832 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+833 = {holding = none}
+834 = {holding = none}
+### Gray Peaks
+835 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+836 = {holding = none}
+##### Silverwood
+### Askelios
+837 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+838 = {holding = church_holding}
+839 = {holding = none}
+### Areksul
+840 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+841 = {holding = church_holding}
+842 = {holding = none}
+### Silverfields
+843 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+844 = {holding = none}
+##### Fairhaven
+### Fairhaven
+845 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+	special_building_slot = university_of_wynarn
+}
+846 = {holding = church_holding}
+847 = {holding = city_holding}
+848 = {holding = none}
+### Tanar
+849 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+850 = {holding = city_holding}
+851 = {holding = church_holding}
+852 = {holding = none}
+### Fairbanks
+853 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+854 = {holding = none}
+855 = {holding = none}
+### Rhenshia
+856 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+857 = {holding = church_holding}
+858 = {holding = none}
+859 = {holding = none}
+##### Whisperwoods
+### Otharaunt
+860 = {
+	culture = kaandar
+	faith = norse_pagan
+	holding = tribal_holding
+}
+861 = {holding = none}
+862 = {holding = none}
+### Whisper Rock
+863 = {
+	culture = kaandar
+	faith = norse_pagan
+	holding = tribal_holding
+}
+864 = {holding = none}
+865 = {holding = none}
+### Whisperwoods B
+866 = {
+	culture = kaandar
+	faith = norse_pagan
+	holding = tribal_holding
+}
+867 = {holding = none}
+868 = {holding = none}
+### Whisperwoods C
+869 = {
+	culture = thal
+	faith = frontier_creed
+	holding = castle_holding
+}
+870 = {holding = none}
+871 = {holding = none}
+872 = {holding = none}

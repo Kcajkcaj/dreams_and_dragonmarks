@@ -45,5 +45,14 @@ tokorin_orien = {
 	female = no
 	dynasty = dynn_orien
 	
+	trait = mark_of_passage
+	trait = intellect_good_2
+	trait = shrewd
+	trait = education_stewardship_4
+	
+	trait = greedy
+	trait = diligent
+	trait = fickle
+	
 	3376.10.3 = {birth = yes}
 }

@@ -213,3 +213,24 @@ d_burntwood = {
 		holder = drego_talandro
 	}
 }
+
+c_shadukar = {
+	3400.1.1 = {
+		holder = lyran_lyrandar
+		liege = d_burntwood
+	}
+}
+
+c_beacon_island = {
+	3400.1.1 = {
+		holder = lyran_lyrandar
+		liege = d_burntwood
+	}
+}
+
+c_solitude = {
+	3400.1.1 = {
+		holder = lyran_lyrandar
+		liege = d_burntwood
+	}
+}

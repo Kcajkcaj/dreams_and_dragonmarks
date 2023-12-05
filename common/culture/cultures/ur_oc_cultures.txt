@@ -201,3 +201,29 @@ azhani = {
 		50 = orc
 	}
 }
+
+kaandar = {
+	color = {0.45 0.3 0.05}
+	
+	ethos = ethos_communal
+	heritage = heritage_ur_oc
+	language = language_azhani
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_dhakaani
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_clan_connections
+		tradition_fervent_believers
+	}
+
+	ethnicities = {
+		100 = syrk
+	}
+}

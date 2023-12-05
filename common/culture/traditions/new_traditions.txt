@@ -1,3 +1,61 @@
+tradition_arcane_duelists = {
+	layers = {
+		0 = learning
+		1 = western
+		4 = fight.dds
+	}
+	
+	category = societal
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	parameters = {
+		unlock_maa_wandslingers = yes # New
+		mage_trait_duelist_bonus = yes
+		mage_trait_more_common = yes # New
+		
+		can_duel_rivals = yes
+		can_use_sparring_duel = yes
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_avant_garde = {
+	layers = {
+		0 = learning
+		1 = western
+		4 = beacon_of_learning.dds
+	}
+	
+	category = societal
+	
+	parameters = {
+		improved_artisan_inspiration = yes
+		improved_weaver_inspiration = yes
+		dynasty_prestige_for_gifting_court_artifacts = yes # New
+		prestige_from_temple_construction = yes
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_blades_for_hire = {
 	layers = {
 		0 = steward
@@ -5,7 +63,7 @@ tradition_blades_for_hire = {
 		4 = battle.dds
 	}
 	
-	category = warfare
+	category = combat
 	
 	parameters = {
 		wanderers_gain_extra_combat_skills = yes
@@ -84,6 +142,45 @@ tradition_chattel_slavery = {
 		
 		can_recruit_prisoners_easily = yes
 		pardoning_gives_loyalty = yes
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_chivalric_codes = {
+	layers = {
+		0 = learning
+		1 = western
+		4 = knight.dds
+	}
+	
+	category = ritual
+	
+	parameters = {
+		can_use_sparring_duel = yes
+		can_host_joust_contests = yes
+		romance_scheme_bonuses = yes
+		romance_scheme_penalty = yes
+		ai_romance_scheme_increase = yes
+		poet_trait_romance_bonuses = yes
+		
+		knightly_oath_system = yes # New
+		more_paladins = yes # New
+	}
+	
+	character_modifier = {
+		accolade_glory_gain_mult = 0.25
+		heavy_cavalry_damage_mult = 0.25
+		heavy_cavalry_toughness_mult = 0.25
 	}
 	
 	is_shown = { always = yes }
@@ -214,6 +311,41 @@ tradition_constitutionalism = {
 	}
 }
 
+tradition_crusaders = {
+
+	layers = {
+		0 = learning
+		1 = western
+		4 = swords.dds
+	}
+	
+	category = combat
+	
+	parameters = {
+		no_limit_to_kingdom_level_holy_wars = yes
+		cb_lower_piety_level_requirement = yes
+	}
+	character_modifier = {
+		diplomacy_per_piety_level = -3
+		martial_per_piety_level = 2
+		prowess_per_piety_level = 2
+		tolerance_advantage_mod = 5
+		different_faith_opinion = -20
+		ai_zeal = 25
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_drama_and_poetry = {
 
 	layers = {
@@ -253,7 +385,7 @@ tradition_dreadful_stalkers = {
 		4 = bow.dds
 	}
 	
-	category = warfare
+	category = combat
 	
 	parameters = {
 		unlock_maa_gloomstalkers = yes
@@ -487,6 +619,78 @@ tradition_heirs_of_old_dhakaan = {
 	}
 }
 
+tradition_lumber_industry = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = forest.dds
+	}
+	
+	parameters = {
+		logging_camps_building_bonuses = yes
+	}
+	
+	character_modifier = {
+		embarkation_cost_mult = -0.5
+		siege_weapon_siege_value_mult = 0.2
+	}
+	
+	county_modifier = {
+		forest_development_growth_factor = 0.15
+		taiga_development_growth_factor = 0.15
+	}
+	province_modifier = {
+		forest_construction_gold_cost = -0.1
+		taiga_construction_gold_cost = -0.1
+		forest_holding_construction_gold_cost = -0.1
+		taiga_holding_construction_gold_cost = -0.1
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_military_service = {
+	layers = {
+		0 = martial
+		1 = western
+		4 = soldiers3.dds
+	}
+	
+	parameters = {
+		gain_veteran_trait = yes
+		wounds_and_scars_give_bonuses = yes
+		guardians_can_transfer_commander_traits = yes
+	}
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.3
+	}
+	
+	category = combat
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_minority_rule = {
 	layers = {
 		0 = martial
@@ -564,6 +768,40 @@ tradition_mountain_flights = {
 	}
 }
 
+tradition_overflowing_vineyards = {
+
+	layers = {
+		0 = diplomacy
+		1 = western
+		4 = food.dds
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	parameters = {
+		unlocks_vineyard_building = yes
+		more_expensive_feasts = yes
+		refined_feasts = yes
+		renown_from_feasts = yes
+		characters_are_better_food_tasters = yes
+		more_frequent_feasts = yes
+		reveler_traits_more_common = yes
+		reveler_traits_more_valued = yes
+		can_gift_vintages = yes # New
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_overwhelming_numbers = {
 
 	layers = {
@@ -572,7 +810,7 @@ tradition_overwhelming_numbers = {
 		4 = soldiers.dds
 	}
 	
-	category = warfare
+	category = combat
 	
 	is_shown = { always = yes }
 	can_pick = { always = yes }
@@ -602,7 +840,7 @@ tradition_pillagers = {
 		4 = fight.dds
 	}
 	
-	category = warfare
+	category = combat
 	
 	is_shown = { always = yes }
 	can_pick = { always = yes }
@@ -637,7 +875,7 @@ tradition_riparian_settlements = {
 		4 = swamp.dds
 	}
 	
-	category = societal
+	category = realm
 	
 	parameters = {
 		coastal_holdings_give_defensive_bonus = yes
@@ -654,8 +892,6 @@ tradition_riparian_settlements = {
 		}
 	}
 }
-
-
 
 tradition_rule_of_the_chibs = {
 	layers = {
@@ -693,6 +929,42 @@ tradition_rule_of_the_chibs = {
 	}
 }
 
+tradition_simple_pleasures = {
+	layers = {
+		0 = diplo
+		1 = western
+		4 = farmland.dds
+	}
+	
+	category = societal
+	
+	parameters = {
+		humble_trait_more_common = yes
+		content_trait_more_common = yes
+	}
+	
+	county_modifier = {
+		build_gold_cost = -0.25
+		monthly_piety_gain_mult = 0.25
+		monthly_prestige_gain_mult = -0.2
+	}
+	
+	character_modifier = {
+		court_grandeur_baseline_add = -10
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_steppe_roamers = {
 
 	layers = {
@@ -701,7 +973,7 @@ tradition_steppe_roamers = {
 		4 = horses.dds
 	}
 	
-	category = warfare
+	category = combat
 	
 	parameters = {
 		steppe_hunt_success_chance = yes
@@ -859,6 +1131,7 @@ tradition_trust_the_trust = {
 	
 	parameters = {
 		unlock_trust_outpost = yes # New
+		better_find_secrets = yes # New
 		auto_assign_spymaster = yes
 	}
 	
@@ -875,6 +1148,42 @@ tradition_trust_the_trust = {
 		}
 	}
 }
+
+tradition_wargamers = {
+	layers = {
+		0 = learning
+		1 = western
+		4 = board_gamers.dds
+	}
+	
+	parameters = {
+		commanders_likelier_to_gain_commander_traits = yes
+		may_challenge_to_board_games = yes
+		may_wager_land_on_board_games = yes
+		
+		learning_gives_martial_and_vice_versa = yes # New
+	}
+	
+	character_modifier = {
+		prowess = -2
+		martial = 2
+		accolade_glory_gain_mult = -0.1
+	}
+	
+	category = combat
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 
 tradition_xenophilia = {
 	layers = {

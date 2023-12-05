@@ -1,0 +1,229 @@
+vorik_furnau = { # Rekkenmark
+	name = "Vorik"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_karrnath_furnau
+	
+	trait = ambitious
+	trait = inquisitive
+	trait = authoritative
+	trait = brave
+	
+	trait = physique_good_1
+	trait = shrewd
+	
+	trait = blademaster
+	trait = scarred
+	trait = education_martial_prowess_4
+	trait = education_martial_2
+	
+	3387.6.13 = {birth = yes}
+}
+
+ermena_vanalan= { # Tanar
+	name = "Ermena"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath_vanalan
+	
+	3371.4.17 = {birth = yes}
+}
+
+wultram_karlach = { # Bastion
+	name = "Wultram"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_karrnath_karlach
+	
+	3392.5.6 = {birth = yes}
+}
+
+rolund_erdei = { # Loom Keep
+	name = "Rolund"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_karrnath_erdei
+	
+	3388.10.4 = {birth = yes}
+}
+
+lorelea_kessler = { # Eastern Karrnwood
+	name = "Lorelea"
+	culture = karrn
+	faith = blood_of_vol
+	female = yes
+	dynasty = dynn_karrnath_kessler
+	
+	3373.12.16 = {birth = yes}
+}
+
+sigor_zecklin = { # Storm Cliffs
+	name = "Sigor"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_karrnath_zecklin
+	
+	3388.12.11 = {birth = yes}
+}
+
+mauriana_thul = { # Western Karrnwood
+	name = "Mauriana"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath_thul
+	
+	3394.2.17 = {birth = yes}
+}
+
+falko_rangoth = { # Ice Marshes
+	name = "Falko"
+	culture = karrn
+	faith = blood_of_vol
+	female = no
+	dynasty = dynn_karrnath_rangoth
+	
+	3365.8.6 = {birth = yes}
+}
+
+garrick_dorn = { # Atur
+	name = "Garrick"
+	culture = aturi
+	faith = blood_of_vol
+	female = no
+	dynasty = dynn_karrnath_dorn
+	
+	3395.6.1 = {birth = yes}
+}
+
+leodegar_wynarn = { # Vedykar
+	name = "Leodegar"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_wynarn
+	
+	trait = authoritative
+	trait = just
+	trait = fierce
+	trait = education_martial_4
+	
+	trait = planetouched_daanvi
+	
+	trait = intellect_good_3
+	
+	3384.3.3 = {birth = yes}
+}
+
+halar_deneith = {
+	name = "Halar"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_deneith
+	
+	3349.1.1 = {birth = yes}
+	3405.11.11 = {death = yes}
+}
+
+ilana_deneith = {
+	name = "Ilana"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_deneith
+	
+	father = halar_deneith
+	
+	3368.12.6 = {birth = yes}
+}
+
+grayn_tarkanan = {
+	name = "Grayn"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_tarkanan
+	
+	3369.2.1 = {birth = yes}
+	3387.3.20 = {add__spouse = ilana_deneith}
+}
+
+brenius_deneith = { # Karrlakton
+	name = "Brenius"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_deneith
+	
+	father = halar_deneith
+	
+	3381.4.4 = {birth = yes}
+}
+
+karola_grogloth = { # Vulyar
+	name = "Korla"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath_grogloth
+	
+	3360.10.5 = {birth = yes}
+}
+
+vorik_jaranus = { # Previous Leader of Vasfold
+	name = "Vorik"
+	culture = vasfolder
+	faith = blood_of_vol
+	female = no
+	dynasty = dynn_karrnath_jaranus
+	
+	3357.2.4 = {birth = yes}
+	
+	3403.11.16 = {death = yes}
+}
+
+syele_jaranus = { # Icetop, Vasfold
+	name = "Syele"
+	culture = vasfolder
+	faith = blood_of_vol
+	female = yes
+	dynasty = dynn_karrnath_jaranus
+	
+	3381.1.5 = {birth = yes}
+}
+
+maenrad_jaranus = { # Irontown
+	name = "Maenrad"
+	culture = vasfolder
+	faith = blood_of_vol
+	female = no
+	dynasty = dynn_karrnath_jaranus
+	
+	3385.2.3 = {birth = yes}
+}
+
+ermena_jaranus = { # Iceflow
+	name = "Ermena"
+	culture = vasfolder
+	faith = blood_of_vol
+	female = yes
+	dynasty = dynn_karrnath_jaranus
+	
+	3386.11.18 = {birth = yes}
+}
+
+alarich_jaranus = { # Icewood
+	name = "Alarich"
+	culture = vasfolder
+	faith = blood_of_vol
+	female = no
+	dynasty = dynn_karrnath_jaranus
+	
+	3390.12.20 = {birth = yes}
+}
