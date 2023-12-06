@@ -99,6 +99,23 @@ garrick_dorn = { # Atur
 	dynasty = dynn_karrnath_dorn
 	
 	3395.6.1 = {birth = yes}
+
+	trait = education_learning_3
+	trait = mage
+
+	trait = rakish
+	trait = confider
+
+	trait = ambitious
+	trait = diligent
+	trait = fierce
+	trait = lustful
+
+	3400.1.1 = {
+		effect = {
+			add_trait_xp = { trait = mage value = 50 track = necromancy }
+		}
+	}
 }
 
 leodegar_wynarn = { # Vedykar

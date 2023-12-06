@@ -136,6 +136,10 @@ pm_task_purge_dissenters = {
 pm_task_increase_control = {
 	position = councillor_prime_minister
 
+	is_shown = {
+		has_vassal_stance = parochial
+	}
+
 	task_type = task_type_county
 	county_target = domain
 	task_progress = task_progress_value

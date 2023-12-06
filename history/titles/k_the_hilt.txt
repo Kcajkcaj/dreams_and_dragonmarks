@@ -1,7 +1,34 @@
 d_sharn = {
-	3400.1.1 = {
-		holder = tasra_malleonid
+	2900.1.1 = {
 		change_development_level = 12
+	}
+	2941.3.19 = {holder = malleon_the_reaver}
+	2970.3.9 = {holder = malleonid_2}
+	2970.10.8 = {holder = malleonid_3}
+	2995.12.15 = {holder = malleonid_4}
+	3015.7.13 = {holder = malleonid_5}
+	3036.5.6 = {holder = malleonid_6}
+	3056.10.15 = {holder = malleonid_7}
+	3085.11.16 = {holder = malleonid_8}
+	3091.1.17 = {holder = malleonid_9}
+	3115.2.13 = {holder = malleonid_10}
+	3124.6.5 = {holder = malleonid_11}
+	3136.3.13 = {holder = malleonid_11a}
+	3175.5.16 = {holder = malleonid_12}
+	3184.7.18 = {holder = malleonid_13}
+	3218.5.14 = {holder = malleonid_14}
+	3228.10.10 = {holder = malleonid_15}
+	3265.2.8 = {holder = malleonid_16}
+	3282.4.6 = {holder = malleonid_17}
+	3301.12.14 = {holder = malleonid_18}
+	3346.6.7 = {holder = malleonid_19}
+	3371.8.6 = {holder = malleonid_20}
+	3382.1.18 = {holder = malleonid_21}
+	3388.7.10 = {
+		holder = malleonid_22
+	}
+	3413.11.11 = {
+		holder = tasra_malleonid
 	}
 }
 c_central_plateau = {

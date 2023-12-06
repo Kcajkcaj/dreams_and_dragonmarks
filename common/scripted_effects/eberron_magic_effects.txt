@@ -2,34 +2,42 @@ study_magic_effect = {
 	random_list = {
 		100 = {
 			trigger = {has_trait_xp = {trait = mage track = abjuration value < 100}}
+			modifier = {has_trait_xp = {trait = mage track = abjuration value > 0 } factor = 3}
 			add_trait_xp = {trait = mage track = abjuration value = 10}
 		}
 		100 = {
 			trigger = {has_trait_xp = {trait = mage track = conjuration value < 100}}
+			modifier = {has_trait_xp = {trait = mage track = conjuration value > 0 } factor = 3}
 			add_trait_xp = {trait = mage track = conjuration value = 10}
 		}
 		100 = {
 			trigger = {has_trait_xp = {trait = mage track = divination value < 100}}
+			modifier = {has_trait_xp = {trait = mage track = divination value > 0 } factor = 3}
 			add_trait_xp = {trait = mage track = divination value = 10}
 		}
 		100 = {
 			trigger = {has_trait_xp = {trait = mage track = evocation value < 100}}
+			modifier = {has_trait_xp = {trait = mage track = evocation value > 0 } factor = 3}
 			add_trait_xp = {trait = mage track = evocation value = 10}
 		}
 		100 = {
 			trigger = {has_trait_xp = {trait = mage track = enchantment value < 100}}
+			modifier = {has_trait_xp = {trait = mage track = enchantment value > 0 } factor = 3}
 			add_trait_xp = {trait = mage track = enchantment value = 10}
 		}
 		100 = {
 			trigger = {has_trait_xp = {trait = mage track = illusion value < 100}}
+			modifier = {has_trait_xp = {trait = mage track = illusion value > 0 } factor = 3}
 			add_trait_xp = {trait = mage track = illusion value = 10}
 		}
 		100 = {
 			trigger = {has_trait_xp = {trait = mage track = necromancy value < 100}}
+			modifier = {has_trait_xp = {trait = mage track = necromancy value > 0 } factor = 3}
 			add_trait_xp = {trait = mage track = necromancy value = 10}
 		}
 		100 = {
 			trigger = {has_trait_xp = {trait = mage track = transmutation value < 100}}
+			modifier = {has_trait_xp = {trait = mage track = transmutation value > 0 } factor = 3}
 			add_trait_xp = {trait = mage track = transmutation value = 10}
 		}
 	}

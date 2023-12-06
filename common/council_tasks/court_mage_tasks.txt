@@ -8,7 +8,7 @@ court_mage_study_magic = {
 	restart_on_finish = yes
 	
 	progress = {
-		value = 6
+		value = 3
 	}
 	
 	on_finish_task = {
@@ -26,6 +26,92 @@ court_mage_study_magic = {
 					not = {scope:councillor = this}
 				}
 				study_magic_effect = yes
+			}
+		}
+	}
+}
+
+court_mage_create_wards = {
+	position = councillor_court_mage
+	task_type = task_type_county
+	task_progress = task_progress_percentage
+
+	is_shown = {
+		has_trait_xp = {trait = mage track = abjuration value >= 10}
+	}
+
+	progress = {
+		value = 1
+		if = {
+			limit = {has_trait_xp = {trait = mage track = abjuration value >= 10}}
+			add = {value = 2}
+		}
+		if = {
+			limit = {has_trait_xp = {trait = mage track = abjuration value >= 30}}
+			add = {value = 2}
+		}
+		if = {
+			limit = {has_trait_xp = {trait = mage track = abjuration value >= 60}}
+			add = {value = 2}
+		}
+		if = {
+			limit = {has_trait_xp = {trait = mage track = abjuration value >= 100}}
+			add = {value = 2}
+		}
+	}
+
+	county_target = realm
+
+	potential_county = {
+		not = {has_county_modifier = arcane_ward}
+	}
+	
+	on_finish_task_county = {
+		scope:county = {add_county_modifier = {modifier = arcane_ward years = 10}}
+	}
+}
+
+# Conjuration - TO DO
+
+court_mage_glean_insights = {
+	position = councillor_court_mage
+	task_type = task_type_general
+	task_progress = task_progress_percentage
+
+	restart_on_finish = yes
+
+	is_shown = {
+		has_trait_xp = {trait = mage track = divination value >= 10}
+	}
+
+	progress = {
+		value = 1
+		if = {
+			limit = {has_trait_xp = {trait = mage track = divination value >= 10}}
+			add = {value = 2}
+		}
+		if = {
+			limit = {has_trait_xp = {trait = mage track = divination value >= 30}}
+			add = {value = 2}
+		}
+		if = {
+			limit = {has_trait_xp = {trait = mage track = divination value >= 60}}
+			add = {value = 2}
+		}
+		if = {
+			limit = {has_trait_xp = {trait = mage track = divination value >= 100}}
+			add = {value = 2}
+		}
+	}
+
+	on_finish_task = {
+		scope:councillor_liege = {
+			random_list = {
+				5 = {add_diplomacy_lifestyle_xp = 250}
+				5 = {add_martial_lifestyle_xp = 250}
+				5 = {add_stewardship_lifestyle_xp = 250}
+				5 = {add_intrigue_lifestyle_xp = 250}
+				5 = {add_learning_lifestyle_xp = 250}
 			}
 		}
 	}

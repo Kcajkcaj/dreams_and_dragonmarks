@@ -867,6 +867,33 @@ tradition_pillagers = {
 	}
 }
 
+tradition_refined_hedonism = {
+
+	layers = {
+		0 = intrigue
+		1 = western
+		4 = food.dds
+	}
+	
+	category = societal
+	
+	parameters = {
+		reveler_traits_more_valued = yes
+		gain_prestige_on_gaining_lovers = yes # New
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_riparian_settlements = {
 
 	layers = {
@@ -1136,6 +1163,32 @@ tradition_trust_the_trust = {
 	}
 	
 	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_undead_workforce = {
+	layers = {
+		0 = intrigue
+		1 = western
+		4 = battle.dds
+	}
+	
+	parameters = {
+		necromancy_trait_bonuses = yes
+		better_animate_skeletons = yes
+	}
+	
+	category = societal
 	
 	is_shown = { always = yes }
 	can_pick = { always = yes }

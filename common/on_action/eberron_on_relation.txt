@@ -1,0 +1,14 @@
+on_set_relation_lover = {
+    on_actions = {
+        eberron_on_set_relation_lover
+    }
+}
+
+eberron_on_set_relation_lover = {
+    effect = {
+        if = {
+            limit = {culture = {has_cultural_parameter = gain_prestige_on_gaining_lovers}}
+            add_prestige = 250
+        }
+    }
+}

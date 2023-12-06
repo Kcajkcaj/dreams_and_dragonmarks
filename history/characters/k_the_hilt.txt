@@ -59,6 +59,8 @@ tasra_malleonid = {
 	trait = stubborn
 	trait = callous
 	trait = education_intrigue_4
+
+	father = malleonid_22
 	
 	3384.7.19 = {
 		birth = yes

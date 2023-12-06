@@ -54,12 +54,21 @@ sora_tasha = {
 	trait = planetouched_thelanis
 	trait = legitimized_bastard
 	trait = witch
+	trait = mage
 	
 	trait = lustful
 	trait = inquisitive
 	trait = deceitful
 	
 	3388.3.18 = {birth = yes}
+	3400.1.1 = {
+		effect = {
+			add_trait_xp = { trait = mage value = 50 track = divination }
+			add_trait_xp = { trait = mage value = 50 track = enchantment }
+			add_trait_xp = { trait = mage value = 50 track = illusion }
+			add_trait_xp = { trait = mage value = 50 track = necromancy }
+		}
+	}
 }
 
 hariel_atrelioth = {

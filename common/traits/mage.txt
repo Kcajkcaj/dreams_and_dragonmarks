@@ -121,21 +121,25 @@ mage = {
 				dread_baseline_add = 5
 				owned_hostile_scheme_success_chance_add = 5
 				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
+				culture_modifier = {parameter = necromancy_trait_bonuses advantage = 2 build_speed = -0.1}
 			}
 			30 = {
 				dread_baseline_add = 5
 				owned_hostile_scheme_success_chance_add = 5
 				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
+				culture_modifier = {parameter = necromancy_trait_bonuses advantage = 2 build_speed = -0.1}
 			}
 			60 = {
 				dread_baseline_add = 5
 				owned_hostile_scheme_success_chance_add = 5
 				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
+				culture_modifier = {parameter = necromancy_trait_bonuses advantage = 2 build_speed = -0.1}
 			}
 			100 = {
 				dread_baseline_add = 5
 				owned_hostile_scheme_success_chance_add = 5
 				culture_modifier = {parameter = mage_trait_duelist_bonus prowess = 1}
+				culture_modifier = {parameter = necromancy_trait_bonuses advantage = 2 build_speed = -0.1}
 			}
 		}
 		transmutation = {

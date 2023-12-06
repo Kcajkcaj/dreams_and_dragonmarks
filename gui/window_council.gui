@@ -697,7 +697,7 @@ types CouncilWindow
 				portrait_opinion = {
 					visible = "[And(Character.IsValid, Not(Character.IsLocalPlayer) )]"
 					parentanchor = bottom|hcenter
-					position = { 0 -2 }
+					position = { 0 -40 }
 
 					blockoverride "opinion_text"
 					{
@@ -775,7 +775,7 @@ types CouncilWindow
 						
 						ignoreinvisible = yes
 
-						parentanchor = top|left
+						parentanchor = bottom|left
 						position = { 10 0 }
 
 						background = {

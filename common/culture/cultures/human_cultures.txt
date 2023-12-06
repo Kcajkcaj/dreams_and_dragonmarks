@@ -336,9 +336,11 @@ aturi = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
-		tradition_drama_and_poetry
 		tradition_avant_garde
-		# Three More
+		tradition_chivalric_codes
+		tradition_undead_workforce
+		tradition_refined_hedonism
+		# One More
 	}
 	
 	ethnicities = {

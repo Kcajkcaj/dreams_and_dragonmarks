@@ -24,9 +24,9 @@
 			score = 1
 		}
 		feudal_tax_normal = {
+			default = yes
 			parent = feudal_tax_low
 			position = { 2 0 }
-			default = yes
 
 			tax = 0.15
 
@@ -47,13 +47,13 @@
 		}
 		feudal_tax_extortionate = {
 			parent = feudal_tax_high
-			position = {4 0}
+			position = { 4 0 }
+			
 			tax = 0.4
 			vassal_opinion = -25
-			
+
 			ai_liege_desire = 5
 			ai_vassal_desire = 1
-			
 			score = -2
 		}
 	}
