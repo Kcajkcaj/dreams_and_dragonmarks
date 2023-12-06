@@ -48,3 +48,28 @@ dynn_orien = {
 	}
 }
 
+dynn_lyrandar={
+	pattern="pattern_solid.dds"
+	color1=rgb { 19 52 84 }
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=blue_light
+		texture="ce_india_small_gammate_cross.dds"
+		instance={
+			depth=1.010000
+			rotation=54
+		}
+		instance={
+			scale={ 0.780000 0.780000 }
+			depth=2.010000
+		}
+	}
+	colored_emblem={
+		color1=white
+		texture="ce_cross_auskelis.dds"
+		instance={
+			scale={ 0.410000 0.410000 }
+		}
+	}
+}

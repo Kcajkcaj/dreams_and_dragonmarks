@@ -16,20 +16,20 @@
 #######
 
 # Base
-@poor_tax_base = 0.25
-@normal_tax_base = 0.35
+@poor_tax_base = 0.3
+@normal_tax_base = 0.4
 @good_tax_base = 0.5
-@excellent_tax_base = 0.7
+@excellent_tax_base = 0.6
 
 @copper_mine_tax_base = 2
 @silver_mine_tax_base = 3
 @special_mine_tax_base = 5
 
 # We have four 'tax classes', each one has a better scale than the others.
-@poor_tax_scale_addition_per_tier = 0.20
-@normal_tax_scale_addition_per_tier = 0.25
+@poor_tax_scale_addition_per_tier = 0.25
+@normal_tax_scale_addition_per_tier = 0.35
 @good_tax_scale_addition_per_tier = 0.4
-@excellent_tax_scale_addition_per_tier = 0.6
+@excellent_tax_scale_addition_per_tier = 0.5
 
 @copper_mine_tax_scale_addition_per_tier = 2.5
 @silver_mine_tax_scale_addition_per_tier = 3
@@ -296,9 +296,9 @@
 @main_cost_base = 400
 @tribal_cost_base = 75
 
-@building_cost_scaling_modifier_cheap = 0.1
-@building_cost_scaling_modifier_normal = 0.1
-@building_cost_scaling_modifier_expensive = 0.1
+@building_cost_scaling_modifier_cheap = 0.3
+@building_cost_scaling_modifier_normal = 0.3
+@building_cost_scaling_modifier_expensive = 0.3
 
 # We have four 'building cost classes', each one has a better scale than the others.
 @cheap_cost_scale_addition_per_tier = 50
@@ -312,9 +312,9 @@
 #####################
 
 # Base
-@very_quick_construction_time_base = 365
-@quick_construction_time_base = 730
-@standard_construction_time_base = 1095
+@very_quick_construction_time_base = 730
+@quick_construction_time_base = 1095
+@standard_construction_time_base = 1460
 @slow_construction_time_base = 1825
 @very_slow_construction_time_base = 2190
 

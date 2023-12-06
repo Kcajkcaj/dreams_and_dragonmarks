@@ -1,0 +1,20 @@
+dynn_cannith = {
+	pattern="pattern_solid.dds"
+	color1=green_light
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=grey
+		color2=black
+		color3=blue_light
+		texture="ce_bull_head.dds"
+	}
+	colored_emblem={
+		color1=rgb { 83 82 82 }
+		color2=black
+		texture="ce_chains.dds"
+		instance={
+			depth=1.010000
+		}
+	}
+}
