@@ -5,7 +5,9 @@ suthar_atrelioth = {
 	female = no
 	dynasty = dynn_sigilan_atrelioth
 	
-	3342.9.11 = {birth = yes}
+	3342.9.11 = {
+		birth = yes
+	}
 	3391.6.2 = {death = yes}
 }
 
@@ -63,6 +65,7 @@ sora_tasha = {
 	3388.3.18 = {birth = yes}
 	3400.1.1 = {
 		effect = {
+			house = {add_house_modifier = ideal_mystique}
 			add_trait_xp = { trait = mage value = 50 track = divination }
 			add_trait_xp = { trait = mage value = 50 track = enchantment }
 			add_trait_xp = { trait = mage value = 50 track = illusion }

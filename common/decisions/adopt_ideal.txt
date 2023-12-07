@@ -1,0 +1,166 @@
+adopt_house_ideal = {
+	is_shown = {
+		is_landed = yes
+		house ?= {house_head = root}
+		not = {house ?= {has_ideal = yes}}
+	}
+	cost = {prestige = 0}
+	ai_check_interval = 60
+	ai_will_do = {base = 100}
+	ai_potential = {always = yes}
+	
+	effect = {
+		random_list = {
+			10 = {
+				trigger = {
+					or = {
+						has_trait = generous
+						has_trait = compassionate
+						has_trait = gregarious
+					}
+				}
+				house = {add_house_modifier = ideal_abundance}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = just
+						has_trait = authoritative
+						has_trait = honest
+					}
+				}
+				house = {add_house_modifier = ideal_order}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = temperate
+						has_trait = stubborn
+						has_trait = fierce
+					}
+				}
+				house = {add_house_modifier = ideal_harmony}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = forgiving
+						has_trait = compassionate
+						has_trait = humble
+					}
+				}
+				house = {add_house_modifier = ideal_unity}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = fierce
+						has_trait = vengeful
+						has_trait = zealous
+					}
+				}
+				house = {add_house_modifier = ideal_honor}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = brave
+						has_trait = wrathful
+						has_trait = fierce
+					}
+				}
+				house = {add_house_modifier = ideal_strength}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = greedy
+						has_trait = wrathful
+						has_trait = sadistic
+					}
+				}
+				house = {add_house_modifier = ideal_prosperity}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = gregarious
+						has_trait = deceitful
+						has_trait = arrogant
+					}
+				}
+				house = {add_house_modifier = ideal_cunning}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = diligent
+						has_trait = patient
+						has_trait = stubborn
+					}
+				}
+				house = {add_house_modifier = ideal_determination}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = greedy
+						has_trait = authoritative
+						has_trait = sadistic
+					}
+				}
+				house = {add_house_modifier = ideal_domination}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = lustful
+						has_trait = wrathful
+						has_trait = fierce
+					}
+				}
+				house = {add_house_modifier = ideal_passion}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = greedy
+						has_trait = ambitious
+						has_trait = stubborn
+					}
+				}
+				house = {add_house_modifier = ideal_avarice}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = ambitious
+						has_trait = callous
+						has_trait = deceitful
+					}
+				}
+				house = {add_house_modifier = ideal_ruthlessness}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = ambitious
+						has_trait = deceitful
+						has_trait = inquisitive
+					}
+				}
+				house = {add_house_modifier = ideal_mystique}
+			}
+			10 = {
+				trigger = {
+					or = {
+						has_trait = inquisitive
+						has_trait = deceitful
+						has_trait = eccentric
+					}
+				}
+				house = {add_house_modifier = ideal_curiosity}
+			}
+		}
+	}
+}

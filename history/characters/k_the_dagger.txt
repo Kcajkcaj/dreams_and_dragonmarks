@@ -42,6 +42,7 @@ breggor_dain = {
 	
 	3391.12.19 = {
 		birth = yes
+		effect = {house = {add_house_modifier = ideal_unity}}
 	}
 	3408.10.13 = {
 		add_spouse = raela_solaen

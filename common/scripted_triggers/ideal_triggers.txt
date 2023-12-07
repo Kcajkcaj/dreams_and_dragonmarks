@@ -1,0 +1,19 @@
+has_ideal = {
+	or = {
+		has_house_modifier = ideal_abundance
+		has_house_modifier = ideal_order
+		has_house_modifier = ideal_harmony
+		has_house_modifier = ideal_unity
+		has_house_modifier = ideal_honor
+		has_house_modifier = ideal_strength
+		has_house_modifier = ideal_prosperity
+		has_house_modifier = ideal_cunning
+		has_house_modifier = ideal_determination
+		has_house_modifier = ideal_domination
+		has_house_modifier = ideal_passion
+		has_house_modifier = ideal_avarice
+		has_house_modifier = ideal_ruthlessness
+		has_house_modifier = ideal_mystique
+		has_house_modifier = ideal_curiosity
+	}
+}

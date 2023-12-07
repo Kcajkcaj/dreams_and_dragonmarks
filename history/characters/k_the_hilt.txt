@@ -64,6 +64,7 @@ tasra_malleonid = {
 	
 	3384.7.19 = {
 		birth = yes
+		effect = {house = {add_house_modifier = ideal_domination}}
 	}
 }
 

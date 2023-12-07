@@ -9,7 +9,10 @@ chaseva_lantar = { # Queen of Vathirond
 	trait = diligent
 	trait = arrogant
 	
-	3359.1.10 = { birth = yes }
+	3359.1.10 = { 
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_cunning}}
+	}
 }
 
 beren_lantar = {
@@ -78,7 +81,9 @@ boranex_perryn = { # Former Duke of Dragonscrown
 	female = no
 	dynasty = dynn_vathir_perryn
 	
-	3342.8.9 = { birth = yes }
+	3342.8.9 = {
+		birth = yes 
+	}
 	3387.8.15 = { death = yes }
 }
 
@@ -95,7 +100,10 @@ abraxis_perryn = { # Current Duke of Dragonscrown
 	trait = stubborn
 	trait = humble
 	
-	3373.3.13 = { birth = yes }
+	3373.3.13 = {
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_determination}}
+	}
 }
 
 nyrielle_perryn = { # Count of Nowhere
@@ -125,7 +133,10 @@ uthar_colworn = { # Duke of Starilaskur
 	trait = temperate
 	trait = calm
 	
-	3364.10.2 = { birth = yes }
+	3364.10.2 = { 
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_determination}}
+	}
 }
 
 laren_colworn = {
@@ -197,7 +208,9 @@ itlani_zarna = { # Former Duke of Hatheril
 	female = yes
 	dynasty = dynn_vathir_zarna
 	
-	3357.3.13 = { birth = yes }
+	3357.3.13 = {
+		birth = yes
+	}
 	3402.5.16 = { death = yes }
 }
 
@@ -216,7 +229,10 @@ mirasandra_zarna = { # Duke of Hatheril
 	trait = zealous
 	trait = brave
 	
-	3374.2.13 = { birth = yes}
+	3374.2.13 = {
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_honor}}
+	}
 }
 
 merrix_zarna = { # Count of Swordmoor

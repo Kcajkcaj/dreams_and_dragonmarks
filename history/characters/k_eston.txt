@@ -5,7 +5,11 @@ merrix_cannith = {
 	female = no
 	dynasty = dynn_cannith
 	
-	3344.8.16 = { birth = yes }
+	trait = mark_of_making
+
+	3344.8.16 = {
+		birth = yes
+	}
 	3399.6.13 = { death = yes }
 }
 
@@ -16,9 +20,14 @@ joherra_cannith = {
 	female = yes
 	dynasty = dynn_cannith
 	
+	trait = mark_of_making
+
 	father = merrix_cannith
 	
-	3368.1.14 = { birth = yes }
+	3368.1.14 = {
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_prosperity}}
+	}
 }
 
 lei_cannith = {
@@ -27,6 +36,8 @@ lei_cannith = {
 	faith = frontier_creed
 	female = yes
 	dynasty = dynn_cannith
+
+	trait = mark_of_making
 	
 	father = merrix_cannith
 	
@@ -39,6 +50,8 @@ hadran_cannith = {
 	faith = frontier_creed
 	female = no
 	dynasty = dynn_cannith
+
+	trait = mark_of_making
 	
 	father = merrix_cannith
 	

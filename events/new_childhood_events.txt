@@ -1,0 +1,497 @@
+namespace = eberron_child_personality
+
+#### Personality Events
+## Fierce, Inquisitive, or Authoritative
+
+eberron_child_personality.0010 = {
+	type = character_event
+	title = eberron_child_personality.0010.t
+	desc = eberron_child_personality.0010.desc
+	
+	theme = education
+	
+	left_portrait = {
+		character = scope:child
+		animation = worry
+	}
+	
+	trigger = {
+		is_available_child_allow_travel = yes
+		NAND = {
+			has_trait = fierce
+			has_trait = inquisitive
+			has_trait = authoritative
+		}
+	}
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 2
+			any_relation = {
+				type = guardian
+				OR = {
+					has_trait = fierce
+					has_trait = inquisitive
+					has_trait = authoritative
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		save_scope_as = child
+	}
+	option = {
+		name = "Fierce"
+		add_trait = fierce
+		trigger = {not = {has_trait = fierce}}
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			random_relation = {
+				type = guardian
+				trigger_event = eberron_child_personality.0011
+			}
+		}
+	}
+	option = {
+		name = "Inquisitive"
+		add_trait = inquisitive
+		trigger = {not = {has_trait = inquisitive}}
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			random_relation = {
+				type = guardian
+				trigger_event = eberron_child_personality.0012
+			}
+		}
+	}
+	option = {
+		name = "Authoritative"
+		add_trait = authoritative
+		trigger = {not = {has_trait = authoritative}}
+		if = {
+			limit = {
+				is_ai = yes
+			}
+			random_relation = {
+				type = guardian
+				trigger_event = eberron_child_personality.0013
+			}
+		}
+	}
+}
+
+eberron_child_personality.0011 = {
+	type = character_event
+	title = eberron_child_personality.0010.t
+	desc = eberron_child_personality.0010.desc
+	
+	theme = education
+	
+	left_portrait = {
+		character = scope:child
+		animation = worry
+	}
+	
+	option = {
+		name = "Keep."
+	}
+	option = {
+		name = "Change to Inquisitive."
+		ai_chance = {
+			base = 0
+		}
+		stress_impact = {
+			base = child_trait_change_stress_penalty
+		}
+		scope:child = {
+			remove_trait = fierce
+			add_trait_force_tooltip = inquisitive
+		}
+		trigger = {
+			not = {scope:child = {has_trait = inquisitive}}
+		}
+	}
+	option = {
+		name = "Change to Authoritative."
+		ai_chance = {
+			base = 0
+		}
+		stress_impact = {
+			base = child_trait_change_stress_penalty
+		}
+		scope:child = {
+			remove_trait = fierce
+			add_trait_force_tooltip = authoritative
+		}
+		trigger = {
+			not = {scope:child = {has_trait = authoritative}}
+		}
+	}
+}
+
+eberron_child_personality.0012 = {
+	type = character_event
+	title = eberron_child_personality.0010.t
+	desc = eberron_child_personality.0010.desc
+	
+	theme = education
+	
+	left_portrait = {
+		character = scope:child
+		animation = worry
+	}
+	
+	option = {
+		name = "Keep."
+	}
+	option = {
+		name = "Change to Fierce."
+		ai_chance = {
+			base = 0
+		}
+		stress_impact = {
+			base = child_trait_change_stress_penalty
+		}
+		scope:child = {
+			remove_trait = inquisitive
+			add_trait_force_tooltip = fierce
+		}
+		trigger = {
+			not = {scope:child = {has_trait = fierce}}
+		}
+	}
+	option = {
+		name = "Change to Authoritative."
+		ai_chance = {
+			base = 0
+		}
+		stress_impact = {
+			base = child_trait_change_stress_penalty
+		}
+		scope:child = {
+			remove_trait = inquisitive
+			add_trait_force_tooltip = authoritative
+		}
+		trigger = {
+			not = {scope:child = {has_trait = authoritative}}
+		}
+	}
+}
+
+eberron_child_personality.0013 = {
+	type = character_event
+	title = eberron_child_personality.0010.t
+	desc = eberron_child_personality.0010.desc
+	
+	theme = education
+	
+	left_portrait = {
+		character = scope:child
+		animation = worry
+	}
+	
+	option = {
+		name = "Keep."
+	}
+	option = {
+		name = "Change to Inquisitive."
+		ai_chance = {
+			base = 0
+		}
+		stress_impact = {
+			base = child_trait_change_stress_penalty
+		}
+		scope:child = {
+			remove_trait = authoritative
+			add_trait_force_tooltip = inquisitive
+		}
+		trigger = {
+			not = {scope:child = {has_trait = inquisitive}}
+		}
+	}
+	option = {
+		name = "Change to Fierce."
+		ai_chance = {
+			base = 0
+		}
+		stress_impact = {
+			base = child_trait_change_stress_penalty
+		}
+		scope:child = {
+			remove_trait = authoritative
+			add_trait_force_tooltip = fierce
+		}
+		trigger = {
+			not = {scope:child = {has_trait = fierce}}
+		}
+	}
+}
+
+eberron_child_personality.1000 = {
+	type = character_event
+	title = eberron_child_personality.1000.t
+	desc = eberron_child_personality.1000.desc
+	
+	theme = education
+	
+	left_portrait = {
+		character = root
+		animation = worry
+	}
+	
+	option = { # Brave
+		name = "Brave"
+		trigger = {house = {has_house_modifier = ideal_strength}}
+		add_trait = brave
+	}
+	option = { # Wrathful
+		name = "Wrathful"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_strength}
+				house = {has_house_modifier = ideal_passion}
+			}
+		}
+		add_trait = wrathful
+	}
+	option = { # Lustful
+		name = "Lustful"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_passion}
+			}
+		}
+		add_trait = lustful
+	}
+	option = { # Ambitious
+		name = "Ambitious"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_ruthlessness}
+				house = {has_house_modifier = ideal_mystique}
+				house = {has_house_modifier = ideal_avarice}
+			}
+		}
+		add_trait = ambitious
+	}
+	option = { # Diligent
+		name = "Diligent"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_determination}
+			}
+		}
+		add_trait = diligent
+	}
+	option = { # Forgiving
+		name = "Forgiving"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_unity}
+			}
+		}
+		add_trait = forgiving
+	}
+	option = { # Vengeful
+		name = "Vengeful"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_honor}
+			}
+		}
+		add_trait = vengeful
+	}
+	option = { # Generous
+		name = "Generous"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_abundance}
+			}
+		}
+		add_trait = generous
+	}
+	option = { # Greedy
+		name = "Greedy"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_prosperity}
+				house = {has_house_modifier = ideal_domination}
+				house = {has_house_modifier = ideal_avarice}
+			}
+		}
+		add_trait = greedy
+	}
+	option = { # Gregarious
+		name = "Gregarious"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_abundance}
+				house = {has_house_modifier = ideal_cunning}
+			}
+		}
+		add_trait = gregarious
+	}
+	option = { # Honest
+		name = "Honest"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_order}
+			}
+		}
+		add_trait = honest
+	}
+	option = { # Deceitful
+		name = "Deceitful"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_cunning}
+				house = {has_house_modifier = ideal_ruthlessness}
+				house = {has_house_modifier = ideal_mystique}
+				house = {has_house_modifier = ideal_curiosity}
+			}
+		}
+		add_trait = deceitful
+	}
+	option = { # Humble
+		name = "Humble"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_unity}
+			}
+		}
+		add_trait = humble
+	}
+	option = { # Arrogant
+		name = "Arrogant"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_cunning}
+			}
+		}
+		add_trait = arrogant
+	}
+	option = { # Just
+		name = "Just"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_order}
+			}
+		}
+		add_trait = just
+	}
+	option = { # Patient
+		name = "Patient"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_determination}
+			}
+		}
+		add_trait = patient
+	}
+	option = { # Temperate
+		name = "Temperate"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_prosperity}
+				house = {has_house_modifier = ideal_harmony}
+			}
+		}
+		add_trait = temperate
+	}
+	option = { # Zealous
+		name = "Zealous"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_honor}
+			}
+		}
+		add_trait = zealous
+	}
+	option = { # Compassionate
+		name = "Compassionate"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_abundance}
+				house = {has_house_modifier = ideal_unity}
+			}
+		}
+		add_trait = compassionate
+	}
+	option = { # Callous
+		name = "Callous"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_ruthlessness}
+			}
+		}
+		add_trait = callous
+	}
+	option = { # Sadistic
+		name = "Sadistic"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_domination}
+			}
+		}
+		add_trait = sadistic
+	}
+	option = { # Stubborn
+		name = "Stubborn"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_avarice}
+				house = {has_house_modifier = ideal_prosperity}
+				house = {has_house_modifier = ideal_determination}
+				house = {has_house_modifier = ideal_harmony}
+			}
+		}
+		add_trait = stubborn
+	}
+	option = { # Eccentric
+		name = "Eccentric"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_curiosity}
+			}
+		}
+		add_trait = eccentric
+	}
+	option = { # Fierce
+		name = "Fierce"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_honor}
+				house = {has_house_modifier = ideal_harmony}
+				house = {has_house_modifier = ideal_strength}
+				house = {has_house_modifier = ideal_passion}
+			}
+		}
+		add_trait = fierce
+	}
+	option = { # Inquisitive
+		name = "Inquisitive"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_mystique}
+				house = {has_house_modifier = ideal_curiosity}
+			}
+		}
+		add_trait = inquisitive
+	}
+	option = { # Authoritative
+		name = "Authoritative"
+		trigger = {
+			OR = {
+				house = {has_house_modifier = ideal_order}
+				house = {has_house_modifier = ideal_domination}
+			}
+		}
+		add_trait = authoritative
+	}
+}

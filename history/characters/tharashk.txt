@@ -7,7 +7,9 @@ khalar_tharashk = {
 	
 	trait = mark_of_finding
 	
-	3324.1.1 = {birth = yes}
+	3324.1.1 = {
+		birth = yes
+	}
 	
 	3399.3.23 = {death = yes}
 }
@@ -29,7 +31,10 @@ veldera_tharashk = {
 	
 	father = khalar_tharashk
 	
-	3345.1.1 = {birth = yes}
+	3345.1.1 = {
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_harmony}}
+	}
 }
 
 orgaal_tharashk = {

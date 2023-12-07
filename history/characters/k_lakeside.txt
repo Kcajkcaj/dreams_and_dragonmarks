@@ -54,5 +54,8 @@ tokorin_orien = {
 	trait = diligent
 	trait = fickle
 	
-	3376.10.3 = {birth = yes}
+	3376.10.3 = {
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_curiosity}}
+	}
 }

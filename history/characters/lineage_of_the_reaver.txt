@@ -14,7 +14,9 @@ malleon_the_reaver = {
     trait = sadistic
     trait = authoritative
 
-    2909.1.1 = {birth = yes}
+    2909.1.1 = {
+		birth = yes
+	}
 
     2970.3.9 = {death = yes}
 }

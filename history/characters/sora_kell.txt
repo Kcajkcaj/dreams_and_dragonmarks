@@ -17,7 +17,9 @@ sora_kell = {
 	trait = ambitious
 	trait = patient
 	
-	1.1.1 = {birth = yes}
+	1.1.1 = {
+		birth = yes
+	}
 	3200.1.1 = {
 		effect = {
 			set_immortal_age = 40
@@ -57,7 +59,10 @@ sora_teraza = {
 	trait = patient
 	trait = calm
 	
-	2800.1.1 = {birth = yes}
+	2800.1.1 = {
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_mystique}}
+	}
 	3200.1.1 = {
 		effect = {
 			set_immortal_age = 100

@@ -1,0 +1,45 @@
+ideal_abundance = {
+	icon = feast_positive
+}
+ideal_order = {
+	icon = county_modifier_control_positive
+}
+ideal_harmony = {
+	icon = social_positive
+}
+ideal_unity = {
+	icon = love_positive
+}
+ideal_honor = {
+	icon = prestige_positive
+}
+ideal_strength = {
+	icon = prowess_positive
+}
+ideal_prosperity = {
+	icon = economy_positive
+}
+ideal_cunning = {
+	icon = intrigue_positive
+}
+ideal_determination = {
+	icon = rock_positive
+}
+ideal_domination = {
+	icon = dread_positive
+}
+ideal_passion = {
+	icon = love_positive
+}
+ideal_avarice = {
+	icon = economy_positive
+}
+ideal_ruthlessness = {
+	icon = dread_positive
+}
+ideal_mystique = {
+	icon = magic_positive
+}
+ideal_curiosity = {
+	icon = learning_positive
+}
