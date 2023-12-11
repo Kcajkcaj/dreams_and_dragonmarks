@@ -83,7 +83,7 @@ window = {
 
 			blockoverride "illustration_texture"
 			{
-				texture = "[Illustration.GetTextureForFaith( FaithWindow.GetFaith )]"
+				texture = "[Illustration.GetTexture( FaithWindow.GetFaith.MakeScope )]"
 				spriteType = stretched
 				fittype = centercrop
 				alpha = 0.35
@@ -894,7 +894,7 @@ window = {
 			background = {
 				alpha = 0.5
 				fittype = end
-				texture = "[Illustration.GetTextureForFaith( FaithWindow.GetFaith )]"
+				texture = "[Illustration.GetTexture( FaithWindow.GetFaith.MakeScope )]"
 
 				modify_texture = {
 					mirror = vertical

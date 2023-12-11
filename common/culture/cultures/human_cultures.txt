@@ -358,7 +358,7 @@ metroli = {
 	language = language_common
 	martial_custom = martial_custom_equal
 	
-	name_list = name_list_thrane
+	name_list = name_list_brelish
 	created = 1.1.1
 	
 	coa_gfx = { western_coa_gfx }
@@ -376,5 +376,30 @@ metroli = {
 		40 = rhialuun
 		40 = syrk
 		20 = koralanda
+	}
+}
+
+khunanite = {
+	color = {219 67 173}
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_human
+	language = language_common
+	
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_thrane
+	created = 1.1.1
+	
+	coa_gfx = { indo_aryan_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { indian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	traditions = {
+	}
+	
+	ethnicities = {
+		100 = syrk
 	}
 }

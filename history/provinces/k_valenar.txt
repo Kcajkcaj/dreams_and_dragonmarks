@@ -1,0 +1,244 @@
+##### Valaestas
+### Taer Valaestas
+1227 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1228 = {holding = city_holding}
+1229 = {holding = church_holding}
+1230 = {holding = none}
+### The Edge
+1231 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+### B
+1232 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1233 = {holding = none}
+1234 = {holding = none}
+### C
+1235 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1236 = {holding = none}
+1237 = {holding = none}
+1238 = {holding = none}
+##### Maradal
+### Pylas Maradal
+1239 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1240 = {holding = none}
+1241 = {holding = none}
+### Jal Paeridor
+1242 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1243 = {holding = none}
+1244 = {holding = none}
+### Kasserine
+1245 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1246 = {holding = none}
+### B
+1247 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1248 = {holding = none}
+1249 = {holding = none}
+##### Ravar Orioth
+### A
+1250 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1251 = {holding = none}
+1252 = {holding = none}
+### B
+1253 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1254 = {holding = none}
+1255 = {holding = none}
+### C
+1256 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1257 = {holding = none}
+1258 = {holding = none}
+### D
+1259 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1260 = {holding = none}
+1261 = {holding = none}
+### E
+1262 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1263 = {holding = none}
+##### Dawnpeaks
+### Norinath
+1264 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1265 = {holding = none}
+1266 = {holding = none}
+1267 = {holding = none}
+### Aerie
+1268 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1269 = {holding = none}
+### Moonshadow
+1270 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1271 = {holding = none}
+1272 = {holding = none}
+1273 = {holding = none}
+### B
+1274 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1275 = {holding = none}
+1276 = {holding = none}
+### C
+1277 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1278 = {holding = none}
+1279 = {holding = none}
+##### South Blade Desert
+### Keth
+1280 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1281 = {holding = none}
+1282 = {holding = none}
+### Shivairn
+1283 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1284 = {holding = none}
+1285 = {holding = none}
+### Shantara
+1286 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1287 = {holding = none}
+1288 = {holding = none}
+### Ariolan
+1289 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1290 = {holding = none}
+### Starhaunt
+1291 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1292 = {holding = none}
+1293 = {holding = none}
+### Zanathar
+1294 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1295 = {holding = none}
+1296 = {holding = none}
+### Stonefeather
+1297 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1298 = {holding = none}
+1299 = {holding = none}
+##### North Blade Desert
+### Zephyr
+1300 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1301 = {holding = none}
+1314 = {holding = none}
+### Griffonclaw
+1302 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1303 = {holding = none}
+1304 = {holding = none}
+### Elladorn
+1305 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1306 = {holding = none}
+1307 = {holding = none}
+### A
+1308 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1309 = {holding = none}
+1310 = {holding = none}
+### B
+1311 = {
+	culture = khunanite
+	faith = waywalkers
+	holding = castle_holding
+}
+1312 = {holding = none}
+1313 = {holding = none}

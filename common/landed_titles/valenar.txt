@@ -1,0 +1,213 @@
+k_valenar = {
+	color = { 211 174 129 }
+	capital = c_taer_valaestas
+	
+	d_valaestas = {
+		color = { 232 190 116 }
+		capital = c_taer_valaestas
+		
+		c_taer_valaestas = {
+			color = { 218 180 121 }
+			b_taer_valaestas_1 = {province = 1227}
+			b_taer_valaestas_2 = {province = 1228}
+			b_taer_valaestas_3 = {province = 1229}
+			b_taer_valaestas_4 = {province = 1230}
+		}
+		c_the_edge = {
+			color = { 216 190 126 }
+			b_the_edge = {province = 1231}
+		}
+		c_valaestas_b = {
+			color = { 241 183 101 }
+			b_valaestas_b1 = {province = 1232}
+			b_valaestas_b2 = {province = 1233}
+			b_valaestas_b3 = {province = 1234}
+		}
+		c_valaestas_c = {
+			color = { 224 177 95 }
+			b_valaestas_c1 = {province = 1235}
+			b_valaestas_c2 = {province = 1236}
+			b_valaestas_c3 = {province = 1237}
+			b_valaestas_c4 = {province = 1238}
+		}
+	}
+	d_maradal = {
+		color = { 230 173 90 }
+		capital = c_pylas_maradal
+		
+		c_pylas_maradal = {
+			color = { 233 169 57 }
+			b_pylas_maradal_1 = {province = 1239}
+			b_pylas_maradal_2 = {province = 1240}
+			b_pylas_maradal_3 = {province = 1241}
+		}
+		c_jal_paeridor = {
+			color = { 229 183 97 }
+			b_jal_paeridor_1 = {province = 1242}
+			b_jal_paeridor_2 = {province = 1243}
+			b_jal_paeridor_4 = {province = 1244}
+		}
+		c_kasserine = {
+			color = { 215 165 67 }
+			b_kasserine_1 = {province = 1245}
+			b_kasserine_2 = {province = 1246}
+		}
+		c_maradal_b = {
+			color = { 219 168 102 }
+			b_maradal_b1 = {province = 1247}
+			b_maradal_b2 = {province = 1248}
+			b_maradal_b3 = {province = 1249}
+		}
+	}
+	d_ravar_orioth = {
+		color = { 211 140 101 }
+		capital = c_ravar_orioth_a
+		
+		c_ravar_orioth_a = {
+			color = { 227 134 95 }
+			b_ravar_orioth_a1 = {province = 1250}
+			b_ravar_orioth_a2 = {province = 1251}
+			b_ravar_orioth_a3 = {province = 1252}
+		}
+		c_ravar_orioth_b = {
+			color = { 204 137 89 }
+			b_ravar_orioth_b1 = {province = 1253}
+			b_ravar_orioth_b2 = {province = 1254}
+			b_ravar_orioth_b3 = {province = 1255}
+		}
+		c_ravar_orioth_c = {
+			color = { 195 139 104 }
+			b_ravar_orioth_c1 = {province = 1256}
+			b_ravar_orioth_c2 = {province = 1257}
+			b_ravar_orioth_c3 = {province = 1258}
+		}
+		c_ravar_orioth_d = {
+			color = { 208 137 91 }
+			b_ravar_orioth_d1 = {province = 1259}
+			b_ravar_orioth_d2 = {province = 1260}
+			b_ravar_orioth_d3 = {province = 1261}
+		}
+		c_ravar_orioth_e = {
+			color = { 192 140 112 }
+			b_ravar_orioth_e1 = {province = 1262}
+			b_ravar_orioth_e2 = {province = 1263}
+		}
+	}
+	d_dawnpeaks = {
+		color = { 234 173 142 }
+		capital = c_norinath
+		
+		c_norinath = {
+			color = { 249 171 130 }
+			b_norinath_1 = {province = 1264}
+			b_norinath_2 = {province = 1265}
+			b_norinath_3 = {province = 1266}
+			b_norinath_4 = {province = 1267}
+		}
+		c_aerie = {
+			color = { 244 184 148 }
+			b_aerie_1 = {province = 1268}
+			b_aerie_2 = {province = 1269}
+		}
+		c_moonshadow = {
+			color = { 248 164 122 }
+			b_moonshadow_1 = {province = 1270}
+			b_moonshadow_2 = {province = 1271}
+			b_moonshadow_3 = {province = 1272}
+			b_moonshadow_4 = {province = 1273}
+		}
+		c_dawnpeaks_b = {
+			color = { 250 180 158 }
+			b_dawnpeaks_b1 = {province = 1274}
+			b_dawnpeaks_b2 = {province = 1275}
+			b_dawnpeaks_b3 = {province = 1276}
+		}
+		c_dawnpeaks_c = {
+			color = { 219 166 128 }
+			b_dawnpeaks_c1 = {province = 1277}
+			b_dawnpeaks_c2 = {province = 1278}
+			b_dawnpeaks_c3 = {province = 1279}
+		}
+	}
+	d_south_blade_desert = {
+		color = { 222 150 95 }
+		capital = c_keth
+		
+		c_keth = {
+			color = { 225 137 64 }
+			b_keth_1 = {province = 1280}
+			b_keth_2 = {province = 1281}
+			b_keth_3 = {province = 1282}
+		}
+		c_shivairn = {
+			color = { 211 147 79 }
+			b_shivairn_1 = {province = 1283}
+			b_shivairn_2 = {province = 1284}
+			b_shivairn_3 = {province = 1285}
+		}
+		c_shantara = {
+			color = { 204 149 95 }
+			b_shantara_1 = {province = 1286}
+			b_shantara_2 = {province = 1287}
+			b_shantara_3 = {province = 1288}
+		}
+		c_ariolan = {
+			color = { 209 150 103 }
+			b_ariolan_1 = {province = 1289}
+			b_ariolan_2 = {province = 1290}
+		}
+		c_starhaunt = {
+			color = { 239 153 102 }
+			b_starhaunt_1 = {province = 1291}
+			b_starhaunt_2 = {province = 1292}
+			b_starhaunt_3 = {province = 1293}
+		}
+		c_zanathar = {
+			color = { 209 137 88 }
+			b_zanathar_1 = {province = 1294}
+			b_zanathar_2 = {province = 1295}
+			b_zanathar_3 = {province = 1296}
+		}
+		c_stonefeather = {
+			color = { 216 151 96 }
+			b_stonefeather_1 = {province = 1297}
+			b_stonefeather_2 = {province = 1298}
+			b_stonefeather_3 = {province = 1299}
+		}
+	}
+	d_north_blade_desert = {
+		color = { 254 191 159 }
+		capital = c_zephyr
+		
+		c_zephyr = {
+			color = { 252 189 152 }
+			b_zephyr_1 = {province = 1300}
+			b_zephyr_2 = {province = 1301}
+			b_zephyr_3 = {province = 1314}
+		}
+		c_griffonclaw = {
+			color = { 249 191 162 }
+			b_griffonclaw_1 = {province = 1302}
+			b_griffonclaw_2 = {province = 1303}
+			b_griffonclaw_3 = {province = 1304}
+		}
+		c_elladorn = {
+			color = { 254 194 161 }
+			b_elladorn_1 = {province = 1305}
+			b_elladorn_2 = {province = 1306}
+			b_elladorn_3 = {province = 1307}
+		}
+		c_north_blade_desert_a = {
+			color = { 254 181 138 }
+			b_north_blade_desert_a1 = {province = 1308}
+			b_north_blade_desert_a2 = {province = 1309}
+			b_north_blade_desert_a3 = {province = 1310}
+		}
+		c_north_blade_desert_b = {
+			color = { 254 208 170 }
+			b_north_blade_desert_b1 = {province = 1311}
+			b_north_blade_desert_b2 = {province = 1312}
+			b_north_blade_desert_b3 = {province = 1313}
+		}
+	}
+}

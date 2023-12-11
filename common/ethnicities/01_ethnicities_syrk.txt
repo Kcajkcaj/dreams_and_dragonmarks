@@ -39,7 +39,7 @@ syrk = {
 	using = "bedouin"
 	
 	skin_color = {
-		10 = { 0.45 0.75 0.55 0.9 }
+		10 = { 0.48 0.65 0.6 0.85 }
 	}
 	eye_color = {
 		# Brown

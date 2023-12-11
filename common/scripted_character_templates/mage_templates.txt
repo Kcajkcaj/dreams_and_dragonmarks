@@ -1,0 +1,33 @@
+court_mage_template = {
+	age = {20 70}
+	random_traits = yes
+	trait = mage
+	culture = scope:ruler.culture
+	faith = scope:ruler.faith
+	random_traits_list = {
+		inquisitive = {}
+		ambitious = {}
+		diligent = {}
+	}
+	random_traits_list = {
+		education_learning_1 = {}
+		education_learning_2 = {}
+		education_learning_3 = {}
+		education_learning_4 = {}
+		education_intrigue_4 = {}
+		education_stewardship_4 = {}
+	}
+	gender_female_chance = 50
+	after_creation = {
+		random_list = {
+			100 = {add_trait_xp = {trait = mage	track = abjuration	value = 30}}
+			100 = {add_trait_xp = {trait = mage	track = conjuration	value = 30}}
+			100 = {add_trait_xp = {trait = mage	track = divination	value = 30}}
+			100 = {add_trait_xp = {trait = mage	track = enchantment	value = 30}}
+			100 = {add_trait_xp = {trait = mage	track = evocation	value = 30}}
+			100 = {add_trait_xp = {trait = mage	track = illusion	value = 30}}
+			100 = {add_trait_xp = {trait = mage	track = necromancy	value = 30}}
+			100 = {add_trait_xp = {trait = mage	track = transmutation	value = 30}}
+		}
+	}
+}

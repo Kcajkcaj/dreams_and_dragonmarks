@@ -17,3 +17,12 @@ has_ideal = {
 		has_house_modifier = ideal_curiosity
 	}
 }
+
+can_challenge_rival_to_single_combat_trigger = {
+	# Enabling perks.
+	OR = {
+		has_perk = stalwart_leader_perk
+		culture = { has_cultural_parameter = can_duel_rivals }
+		house ?= { has_house_modifier = ideal_honor}
+	}
+}

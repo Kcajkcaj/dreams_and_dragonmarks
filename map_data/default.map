@@ -21,6 +21,7 @@ sea_zones = RANGE {447 459}
 sea_zones = RANGE {730 731}
 sea_zones = RANGE {873 876}
 sea_zones = RANGE {1049 1057}
+sea_zones = RANGE {1224 1226}
 
 ###############
 # MAJOR RIVERS

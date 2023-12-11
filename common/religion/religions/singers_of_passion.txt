@@ -44,7 +44,7 @@ first_song_religion = {
 	reserved_female_names = {}
 	
 	custom_faith_icons = {
-		sovereign_custom_1 sovereign_custom_2 sovereign_custom_3 sovereign_custom_4 sovereign_custom_5 sovereign_custom_6 sovereign_custom_7
+		sovereign_custom_1 sovereign_custom_2 sovereign_custom_3 sovereign_custom_4 sovereign_custom_5 sovereign_custom_6
 	}
 	
 	holy_order_names = {

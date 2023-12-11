@@ -12,9 +12,6 @@ court_mage_study_magic = {
 	}
 	
 	on_finish_task = {
-		scope:councillor = {
-			study_magic_effect = yes
-		}
 		scope:councillor_liege = {
 			if = {
 				limit = {has_trait = mage}
@@ -23,7 +20,6 @@ court_mage_study_magic = {
 			every_courtier = {
 				limit = {
 					has_trait = mage
-					not = {scope:councillor = this}
 				}
 				study_magic_effect = yes
 			}
@@ -63,7 +59,7 @@ court_mage_create_wards = {
 	county_target = realm
 
 	potential_county = {
-		not = {has_county_modifier = arcane_ward}
+		scope:county = {not = {has_county_modifier = arcane_ward}}
 	}
 	
 	on_finish_task_county = {

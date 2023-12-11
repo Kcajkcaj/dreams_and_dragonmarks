@@ -6,6 +6,17 @@
 			position = { 0 0 }
 
 			tax = 0
+			vassal_opinion = 15
+
+			ai_liege_desire = 0
+			ai_vassal_desire = 6
+			score = 3
+		}
+		feudal_tax_very_low = {
+			parent = feudal_tax_exempt
+			position = { 1 0 }
+
+			tax = 0.05
 			vassal_opinion = 10
 
 			ai_liege_desire = 1
@@ -13,10 +24,11 @@
 			score = 2
 		}
 		feudal_tax_low = {
-			parent = feudal_tax_exempt
-			position = { 1 0 }
+			default = yes
+			parent = feudal_tax_very_low
+			position = { 2 0 }
 
-			tax = 0.05
+			tax = 0.1
 			vassal_opinion = 5
 
 			ai_liege_desire = 2
@@ -24,9 +36,8 @@
 			score = 1
 		}
 		feudal_tax_normal = {
-			default = yes
 			parent = feudal_tax_low
-			position = { 2 0 }
+			position = { 3 0 }
 
 			tax = 0.15
 
@@ -36,7 +47,7 @@
 		}
 		feudal_tax_high = {
 			parent = feudal_tax_normal
-			position = { 3 0 }
+			position = { 4 0 }
 			
 			tax = 0.25
 			vassal_opinion = -15
@@ -45,9 +56,9 @@
 			ai_vassal_desire = 2
 			score = -1
 		}
-		feudal_tax_extortionate = {
+		feudal_tax_very_high = {
 			parent = feudal_tax_high
-			position = { 4 0 }
+			position = { 5 0 }
 			
 			tax = 0.4
 			vassal_opinion = -25
@@ -55,6 +66,17 @@
 			ai_liege_desire = 5
 			ai_vassal_desire = 1
 			score = -2
+		}
+		feudal_tax_extortionate = {
+			parent = feudal_tax_very_high
+			position = { 6 0 }
+			
+			tax = 0.5
+			vassal_opinion = -40
+
+			ai_liege_desire = 6
+			ai_vassal_desire = 0
+			score = -3
 		}
 	}
 }

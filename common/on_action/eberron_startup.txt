@@ -2,6 +2,7 @@ on_game_start = {
 	on_actions = {
 		eberron_artifact_assignment
 		eberron_coa_setup
+		eberron_create_court_mages
 	}
 }
 
@@ -20,6 +21,23 @@ eberron_coa_setup = {
 	effect = {
 		every_ruler = {
 			update_coa_effect = yes
+		}
+	}
+}
+
+eberron_create_court_mages = {
+	effect = {
+		every_ruler = {
+			save_scope_as = ruler
+			create_character = {
+				template = court_mage_template
+				employer = scope:ruler
+				save_scope_as = court_mage
+			}
+			assign_councillor_type = {
+				type = councillor_court_mage
+				target = scope:court_mage
+			}
 		}
 	}
 }

@@ -134,7 +134,10 @@ leodegar_wynarn = { # Vedykar
 	
 	trait = intellect_good_3
 	
-	3384.3.3 = {birth = yes}
+	3384.3.3 = {
+		birth = yes
+		effect = {house = {add_house_modifier = ideal_order}}
+	}
 }
 
 halar_deneith = {

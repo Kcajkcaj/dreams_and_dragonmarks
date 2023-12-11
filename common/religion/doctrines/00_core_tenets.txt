@@ -341,12 +341,6 @@
 		
 		is_shown = {always = yes}
 		
-		can_pick = {
-			NOT = {flag:doctrine_divorce_allowed = { is_in_list = selected_doctrines } }
-			flag:doctrine_adultery_men_crime = { is_in_list = selected_doctrines}
-			flag:doctrine_adultery_women_crime = { is_in_list = selected_doctrines}
-		}
-		
 		parameters = {
 			better_spouses = yes
 			arawai = yes
@@ -718,17 +712,7 @@
 	tenet_unreformed_syncretism = {
 		icon = core_tenet_unreformed_syncretism 
 		piety_cost = {
-			if = {
-				limit = { flag:doctrine_pluralism_pluralistic = {is_in_list = selected_doctrines} }
-				value = faith_tenet_cost_low
-			}
-			else_if = {
-				limit = { flag:doctrine_pluralism_fundamentalist = {is_in_list = selected_doctrines} }
-				value = faith_tenet_cost_high
-			}
-			else = {
-				value = faith_tenet_cost_mid
-			}
+			value = faith_tenet_cost_mid
 
 			# Multiplier for keeping same tenet
 			if = {
@@ -756,17 +740,7 @@
 		icon = core_tenet_sun_worship
 
 		piety_cost = {
-			if = {
-				limit = { flag:doctrine_pluralism_pluralistic = {is_in_list = selected_doctrines} }
-				value = faith_tenet_cost_low
-			}
-			else_if = {
-				limit = { flag:doctrine_pluralism_fundamentalist = {is_in_list = selected_doctrines} }
-				value = faith_tenet_cost_high
-			}
-			else = {
-				value = faith_tenet_cost_mid
-			}
+			value = faith_tenet_cost_mid
 
 			# Multiplier for keeping same tenet
 			if = {
@@ -797,17 +771,7 @@
 		icon = core_tenet_rite
 
 		piety_cost = {
-			if = {
-				limit = { flag:doctrine_pluralism_pluralistic = {is_in_list = selected_doctrines} }
-				value = faith_tenet_cost_low
-			}
-			else_if = {
-				limit = { flag:doctrine_pluralism_fundamentalist = {is_in_list = selected_doctrines} }
-				value = faith_tenet_cost_high
-			}
-			else = {
-				value = faith_tenet_cost_mid
-			}
+			value = faith_tenet_cost_mid
 
 			# Multiplier for keeping same tenet
 			if = {
@@ -833,17 +797,7 @@
 		icon = core_tenet_rite
 
 		piety_cost = {
-			if = {
-				limit = { flag:doctrine_pluralism_pluralistic = {is_in_list = selected_doctrines} }
-				value = faith_tenet_cost_low
-			}
-			else_if = {
-				limit = { flag:doctrine_pluralism_fundamentalist = {is_in_list = selected_doctrines} }
-				value = faith_tenet_cost_high
-			}
-			else = {
-				value = faith_tenet_cost_mid
-			}
+			value = faith_tenet_cost_mid
 
 			# Multiplier for keeping same tenet
 			if = {

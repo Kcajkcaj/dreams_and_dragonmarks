@@ -112,9 +112,9 @@
 ############
 
 # Base
-@low_tax_mult_base = 0.02
-@normal_tax_mult_base = 0.04
-@good_tax_mult_base = 0.06
+@low_tax_mult_base = 0.03
+@normal_tax_mult_base = 0.06
+@good_tax_mult_base = 0.09
 
 # Scaling Increase
 @low_tax_mult_addition_per_tier = 0.02
@@ -296,15 +296,15 @@
 @main_cost_base = 400
 @tribal_cost_base = 75
 
-@building_cost_scaling_modifier_cheap = 0.3
-@building_cost_scaling_modifier_normal = 0.3
-@building_cost_scaling_modifier_expensive = 0.3
+@building_cost_scaling_modifier_cheap = 0.15
+@building_cost_scaling_modifier_normal = 0.15
+@building_cost_scaling_modifier_expensive = 0.15
 
 # We have four 'building cost classes', each one has a better scale than the others.
-@cheap_cost_scale_addition_per_tier = 50
-@normal_cost_scale_addition_per_tier = 100
-@expensive_cost_scale_addition_per_tier = 150
-@main_cost_scale_addition_per_tier = 150
+@cheap_cost_scale_addition_per_tier = 100
+@normal_cost_scale_addition_per_tier = 150
+@expensive_cost_scale_addition_per_tier = 200
+@main_cost_scale_addition_per_tier = 250
 @tribal_cost_scale_addition_per_tier = 25
 
 #####################
