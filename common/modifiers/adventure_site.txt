@@ -1,0 +1,5 @@
+dhakaani_ruin = {
+	icon = outdoors_positive
+	holding_build_speed = -0.25
+	holding_build_gold_cost = -0.25
+}

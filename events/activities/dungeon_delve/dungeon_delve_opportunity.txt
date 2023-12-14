@@ -1,0 +1,257 @@
+namespace = dungeon_delve_opportunity
+
+dungeon_delve_opportunity.0100 = { # Ancient Altar
+	type = activity_event
+	title = opportunity.0100.t
+	desc = opportunity.0100.desc
+	
+	theme = dungeon_delve_activity
+	
+	left_portrait = root
+	
+	weight_multiplier = {
+		base = 1
+	}
+	
+	option = {
+		name = opportunity.0100.desecrate
+		dungeon_zeal_effect = yes
+		add_character_modifier = ancient_curse
+	}
+	
+	option = {
+		name = opportunity.0100.steal
+		add_gold = 100
+		add_character_modifier = ancient_curse
+	}
+	
+	option = {
+		name = opportunity.1010.pray
+		add_piety = -100
+		duel = {
+			skill = learning
+			value = 10
+			5 = { # Critical Failure
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -0.5
+				}
+				add_character_modifier = ancient_curse
+			}
+			5 = { # Failure
+			}
+			5 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+				ancient_lore_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = opportunity.press_on
+		dungeon_delve_minor_progress = yes
+	}
+}
+
+dungeon_delve_opportunity.0200 = { # Bookshelves
+	type = activity_event
+	title = opportunity.0200.t
+	desc = opportunity.0200.desc
+	
+	theme = dungeon_delve_activity
+	
+	left_portrait = root
+	
+	weight_multiplier = {
+		base = 1
+	}
+	
+	option = {
+		name = opportunity.0200.read_the_books
+		ancient_lore_effect = yes
+	}
+	
+	option = {
+		name = opportunity.0200.find_valuable_books
+		appraise_artifacts_effect = yes
+	}
+	
+	option = {
+		name = opportunity.press_on
+		dungeon_delve_minor_progress = yes
+	}
+}
+
+dungeon_delve_opportunity.0300 = { # Alchemy table
+	type = activity_event
+	title = opportunity.0300.t
+	desc = opportunity.0300.desc
+	
+	theme = dungeon_delve_activity
+	
+	left_portrait = root
+	
+	weight_multiplier = {
+		base = 1
+	}
+	
+	option = {
+		name = opportunity.0300.scavenge_ingredients
+		appraise_artifacts_effect = yes
+		add_alchemical = yes
+	}
+	
+	option = {
+		name = opportunity.0300.transmute
+		trigger = {
+			has_trait_xp = {
+				trait = mage
+				track = transmutation
+				value >= 10
+			}
+		}
+		add_gold = 100
+		add_stress = spell_stress_cost
+	}
+	
+	option = {
+		name = opportunity.press_on
+		dungeon_delve_minor_progress = yes
+	}
+}
+
+dungeon_delve_opportunity.0400 = { # Locked chest
+	type = activity_event
+	title = opportunity.0400.t
+	desc = opportunity.0400.desc
+	
+	theme = dungeon_delve_activity
+	
+	left_portrait = root
+	
+	weight_multiplier = {
+		base = 1
+	}
+	
+	option = {
+		name = opportunity.0400.pick_lock
+		dungeoneering_skill_increase = yes
+		duel = {
+			skills = {learning intrigue}
+			value = 12
+			10 = { # Failure
+			}
+			10 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				add_gold = 80
+			}
+		}
+	}
+	
+	option = {
+		name = opportunity.0400.break_chest
+		add_stress = exertion_stress_cost
+		duel = {
+			skill = prowess
+			value = 8
+			10 = { # Failure
+			}
+			10 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				add_gold = 80
+			}
+		}
+	}
+	
+	option = {
+		name = opportunity.press_on
+		dungeon_delve_minor_progress = yes
+	}
+}
+
+dungeon_delve_opportunity.0500 = { # Ancient Smithy
+	type = activity_event
+	title = opportunity.0500.t
+	desc = opportunity.0500.desc
+	
+	theme = dungeon_delve_activity
+	
+	left_portrait = root
+	
+	weight_multiplier = {
+		base = 1
+	}
+	
+	option = {
+		name = opportunity.0500.collect_ingredients
+		appraise_artifacts_effect = yes
+	}
+	
+	option = {
+		name = opportunity.0500.forge_weapon
+		
+		duel = {
+			skill = stewardship
+			value = 12
+			10 = { # Failure
+			}
+			10 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				create_artifact_weapon_effect = { OWNER = root CREATOR = root SET_WEAPON_TYPE = flag:artifact_weapon_type_sword }
+			}
+		}
+	}
+	
+	option = {
+		name = opportunity.press_on
+		dungeon_delve_minor_progress = yes
+	}
+}
+
+dungeon_delve_opportunity.0600 = { # Secret door
+	type = activity_event
+	title = opportunity.0600.t
+	desc = opportunity.0600.desc
+	
+	theme = dungeon_delve_activity
+	
+	left_portrait = root
+	
+	weight_multiplier = {
+		base = 1
+	}
+	
+	option = {
+		name = opportunity.0600.mundane_search
+		duel = {
+			skill = intrigue
+			value = 20
+			10 = { # Failure
+			}
+			10 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				dungeon_delve_massive_progress = yes
+			}
+		}
+	}
+	
+	option = {
+		name = opportunity.press_on
+		dungeon_delve_minor_progress = yes
+	}
+}

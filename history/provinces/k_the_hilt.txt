@@ -4,6 +4,7 @@
 	culture = shaarati
 	faith = redtide_creed
 	holding = castle_holding
+	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 5 = {
 	holding = church_holding
@@ -23,6 +24,7 @@
 }
 8 = {
 	holding = city_holding
+	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 ### Northedge
 9 = {
@@ -41,6 +43,7 @@
 }
 12 = {
 	holding = none
+	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 ### First Tower
 13 = {
@@ -56,6 +59,7 @@
 	faith = cornucopian
 	holding = tribal_holding
 	buildings = {tribe_02}
+	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 15 = {
 	holding = none
@@ -198,6 +202,7 @@
 	culture = daggerborn
 	faith = khaarani
 	holding = tribal_holding
+	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 54 = {
 	holding = none

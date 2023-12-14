@@ -1,0 +1,86 @@
+adventure_entourage_weighting_value = {
+	if = {
+		limit = {
+			is_designated_diarch = yes
+		}
+		subtract = 10000000
+	}
+	if = {
+		limit = { has_court_position = bodyguard_court_position }
+		add = 1000
+	}
+	if = {
+		limit = {is_consort_of = scope:host}
+		add = 5
+	}
+	if = {
+		limit = { is_councillor = yes }
+		add = 5
+	}
+	if = {
+		limit = {is_acclaimed = yes}
+		add = 5
+	}
+	if = {
+		limit = {is_knight = yes}
+		add = 5
+	}
+	if = {
+		limit = { has_any_good_relationship_with_character_trigger = { CHARACTER = scope:host } }
+		add = 10
+	}
+	if = {
+		limit = {has_trait = fierce}
+		add = 5
+	}
+	if = {
+		limit = {has_trait = curious}
+		add = 5
+	}
+	if = {
+		limit = {has_trait = brave}
+		add = 5
+	}
+	if = {
+		limit = {has_trait = greedy}
+		add = 2
+	}
+	if = {
+		limit = {has_trait = craven}
+		subtract = 2
+	}
+	if = {
+		limit = {has_trait = mage}
+		add = 3
+	}
+	if = {
+		limit = {has_trait = lifestyle_blademaster}
+		add = 3
+	}
+	if = {
+		limit = {has_trait = lifestyle_traveller}
+		add = 5
+	}
+	if = {
+		limit = {has_trait = content}
+		subtract = 2
+	}
+	if = {
+		limit = {has_trait = lazy}
+		subtract = 2
+	}
+	if = {
+		limit = {has_trait = diligent}
+		subtract = 2
+	}
+	if = {
+		limit = {prowess >= high_skill_rating}
+		add = 2
+	}
+	if = {
+		limit = {learning >= high_skill_rating}
+		add = 2
+	}
+}
+
+exertion_stress_cost = {value = 25}

@@ -1,0 +1,304 @@
+dungeon_delve_minor_progress = {
+	involved_activity = {
+		custom_tooltip = dungeon.slightly_further
+		change_variable = {
+			name = activity_special_type_progression
+			add = {5 10}
+		}
+	}
+}
+
+dungeon_delve_major_progress = {
+	involved_activity = {
+		custom_tooltip = dungeon.much_further
+		change_variable = {
+			name = activity_special_type_progression
+			add = {10 20}
+		}
+	}
+}
+
+dungeon_delve_massive_progress = {
+	involved_activity = {
+		custom_tooltip = dungeon.massively_further
+		change_variable = {
+			name = activity_special_type_progression
+			add = {20 40}
+		}
+	}
+}
+
+disburse_dungeon_delve_rewards = {
+	save_scope_as = root_scope
+	
+	involved_activity ?= {
+		if = {
+			limit = { var:activity_special_type_progression >= 100}
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_gold = 500
+						add_prestige = 1000
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_gold = 100
+						add_prestige = 250
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { var:activity_special_type_progression >= 75 }
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_gold = 250
+						add_prestige = 500
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_gold = 50
+						add_prestige = 100
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = { 
+				var:activity_special_type_progression >= 50
+			} 
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_gold = 100
+						add_prestige = 250
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_gold = 25
+						add_prestige = 50
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				var:activity_special_type_progression >= 25
+			}
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_gold = 50
+						add_prestige = 100
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_gold = 10
+						add_prestige = 25
+					}
+				}
+			}
+		}
+		else = {
+			scope:activity = {
+				add_activity_log_entry = {
+					key = "."
+					tags = { good major completed }
+					show_in_conclusion = yes
+					character = scope:root_scope
+					root = {
+						add_prestige = 50
+					}
+					every_attending_character = {
+						limit = {not = {this = root}}
+						add_prestige = 10
+					}
+				}
+			}
+		}
+	}
+}
+
+dungeon_boldness_effect = {
+	add_prestige = 150
+	stress_impact = {
+		brave = minor_stress_impact_loss
+		arrogant = minor_stress_impact_loss
+		reckless = minor_stress_impact_loss
+		fierce = minor_stress_impact_loss
+		craven = minor_stress_impact_gain
+		humble = minor_stress_impact_gain
+	}
+	scope:activity ?= {
+		every_attending_character = {
+			limit = {
+				NOT = {this = root}
+				ai_boldness >= 50
+			}
+			add_opinion = {
+				target = root
+				modifier = friendliness_opinion
+				opinion = 10
+			}
+		}
+	}
+}
+
+dungeon_zeal_effect = {
+	add_piety = 150
+	stress_impact = {
+		zealous = major_stress_impact_loss
+		curious = minor_stress_impact_loss
+		cynical = minor_stress_impact_gain
+	}
+	scope:activity ?= {
+		every_attending_character = {
+			limit = {
+				NOT = {this = root}
+				ai_zeal >= 50
+			}
+			add_opinion = {
+				target = root
+				modifier = friendliness_opinion
+				opinion = 10
+			}
+		}
+	}
+}
+
+dungeoneering_skill_increase = {
+	if = {
+		limit = { has_trait = lifestyle_traveler }
+		add_trait_xp = {
+			trait = lifestyle_traveler
+			track = dungeoneer
+			value = {1 4}
+		}
+	}
+	else = {
+		add_trait = lifestyle_traveler
+	}
+}
+
+long_rest_effect = {
+	add_stress = -10
+	add_character_modifier = {
+		modifier = long_rest 
+		months = 1
+	}
+}
+
+herb_lore_effect = {
+	if = {
+		limit = {has_trait = lifestyle_herbalist}
+		random_list = {
+			100 = {
+				add_trait_xp = {
+					trait = lifestyle_herbalist
+					track = poisoner
+					value = {3 5}
+				}
+			}
+			100 = {
+				add_trait_xp = {
+					trait = lifestyle_herbalist
+					track = healer
+					value = {3 5}
+				}
+			}
+		}
+	}
+	else = {
+		add_trait = lifestyle_herbalist
+	}
+}
+
+ancient_lore_effect = {
+	if = {
+		limit = {has_trait = mage}
+		study_magic_effect = yes
+	}
+	else = {
+		duel = {
+			skill = learning
+			value = 0
+			100 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -1
+				}
+			}
+			0 = {
+				compare_modifier = {
+					value = scope:duel_value
+				}
+				add_trait = trait_mage
+			}
+		}
+	}
+	if = {
+		limit = {has_trait = poet}
+		add_trait_xp = {
+			trait = poet
+			track = lore
+			value = {5 10}
+		}
+	}
+}
+
+appraise_artifacts_effect = {
+	duel = {
+		skills = {learning stewardship}
+		value = 12
+		10 = {
+			compare_modifier = {
+				value = scope:duel_value
+			}
+		}
+		12 = {
+			add_gold = 50
+		}
+		12 = {
+			compare_modifier = {
+				value = scope:duel_value
+				multiplier = 0.5
+			}
+			add_gold = 100
+		}
+	}
+}
+
+add_alchemical = {
+	custom_tooltip = dungeon.add_alchemical
+	if = {
+		limit = {has_variable = alchemicals}
+		change_variable = {
+			name = alchemicals
+			add = 1
+		}
+	}
+	else = {
+		set_variable = {
+			name = alchemicals
+			value = 1
+			days = 365
+		}
+	}
+}

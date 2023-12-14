@@ -1,0 +1,25 @@
+﻿@generic_event_theme_sound = "event:/SFX/Events/Themes/sfx_event_theme_type_generic"
+
+dungeon_delve_activity = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_travel_sea.dds"
+	}
+	sound = {
+		reference = @generic_event_theme_sound
+	}
+	background = {
+		reference = dungeon_delve
+	}
+}
+
+dungeon_long_rest = {
+	icon = {
+		reference = "gfx/interface/icons/event_types/type_travel_sea.dds"
+	}
+	sound = {
+		reference = @generic_event_theme_sound
+	}
+	background = {
+		reference = dungeon_long_rest
+	}
+}

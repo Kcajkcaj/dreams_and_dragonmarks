@@ -1,0 +1,149 @@
+lifestyle_traveler = {
+	icon = "traveler.dds"
+
+	same_opinion = 10
+	diplomacy = 1
+
+	ruler_designer_cost = 20
+
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					trigger_if = {
+						limit = {
+							NOT = { exists = this }
+						}
+					}
+					trigger_else_if = {
+						limit = { has_trait = lifestyle_traveler }
+						has_trait_xp = {
+							trait = lifestyle_traveler
+							track = travel
+							value < 50
+						}
+						has_trait_xp = {
+							trait = lifestyle_traveler
+							track = danger
+							value < 50
+						}
+					}
+					trigger_else = {
+						NOT = { has_trait = lifestyle_traveler }
+					}
+				}
+				desc = trait_traveler_1
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait = lifestyle_traveler
+					OR = {
+						has_trait_xp = {
+							trait = lifestyle_traveler
+							track = travel
+							value = 100
+						}
+						has_trait_xp = {
+							trait = lifestyle_traveler
+							track = danger
+							value = 100
+						}
+					}
+				}
+				desc = trait_traveler_3
+			}
+			desc = trait_traveler_2
+		}
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_traveler_1_desc
+			}
+			triggered_desc = {
+				trigger = {
+					trigger_if = {
+						limit = { has_trait = lifestyle_traveler }
+						has_trait_xp = {
+							trait = lifestyle_traveler
+							track = travel
+							value < 50
+						}
+						has_trait_xp = {
+							trait = lifestyle_traveler
+							track = danger
+							value < 50
+						}
+					}
+				}
+				desc = trait_traveler_1_character_desc
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait = lifestyle_traveler
+					OR = {
+						has_trait_xp = {
+							trait = lifestyle_traveler
+							track = travel
+							value = 100
+						}
+						has_trait_xp = {
+							trait = lifestyle_traveler
+							track = danger
+							value = 100
+						}
+					}
+				}
+				desc = trait_traveler_3_character_desc
+			}
+			desc = trait_traveler_2_character_desc
+		}
+	}
+
+	tracks = {
+		travel = {
+			trait_second_level = {
+				character_travel_speed_mult = 0.05
+				learning = 1
+				diplomacy = 1
+				health = 0.05
+			}
+			trait_third_level = {
+				character_travel_speed_mult = 0.1
+				learning = 1
+				diplomacy = 1
+				health = 0.05
+			}		
+		}
+		danger = {
+			trait_second_level = {
+				character_travel_safety_mult = 0.05
+				prowess = 1
+				stewardship = 1
+				travel_companion_opinion = 5
+			}
+			trait_third_level = {
+				character_travel_safety_mult = 0.1
+				prowess = 1
+				stewardship = 1
+				travel_companion_opinion = 5
+			}
+		}
+		dungeoneer = {
+			trait_second_level = {
+				prowess = 1
+				intrigue = 1
+				learning = 1
+			}
+			trait_third_level = {
+				prowess = 1
+				intrigue = 1
+				learning = 1
+			}
+		}
+	}	
+}

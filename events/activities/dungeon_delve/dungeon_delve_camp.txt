@@ -1,0 +1,428 @@
+﻿namespace = dungeon_delve_camp
+
+dungeon_delve_camp.0100 = { # Reflection
+	type = activity_event
+	title = camp.0100.t
+	desc = camp.0100.desc
+	
+	theme = dungeon_long_rest
+	
+	left_portrait = root
+	
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = journaller
+		}
+	}
+	
+	option = {
+		name = camp.0100.dungeoneering
+		dungeoneering_skill_increase = yes
+	}
+	
+	option = {
+		name = camp.0100.wider_applications
+		random_list = {
+			100 = {add_martial_lifestyle_xp = 250}
+			100 = {add_diplomacy_lifestyle_xp = 250}
+			100 = {add_stewardship_lifestyle_xp = 250}
+			100 = {add_learning_lifestyle_xp = 250}
+			100 = {add_intrigue_lifestyle_xp = 250}
+		}
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}
+
+dungeon_delve_camp.0200 = { # Strange fungi
+	type = activity_event
+	title = camp.0200.t
+	desc = camp.0200.desc
+	
+	theme = dungeon_long_rest
+		
+	left_portrait = root
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = lifestyle_herbalist
+		}
+	}
+	
+	option = {
+		name = camp.0200.study_fungi
+		herb_lore_effect = yes
+	}
+	
+	option = {
+		name = camp.0200.fungal_remedy
+		add_character_modifier = {
+			modifier = fungal_remedy 
+			months = 1
+		}
+	}
+	
+	option = {
+		name = camp.0200.brew_alchemical
+		add_alchemical = yes
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}
+
+dungeon_delve_camp.0300 = { # Weapon calls out to you
+	type = activity_event
+	title = camp.0300.t
+	desc = camp.0300.desc
+	
+	theme = dungeon_long_rest
+		
+	left_portrait = root
+	right_portrait = scope:duelling_partner
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = lifestyle_blademaster
+		}
+	}
+	
+	immediate = {
+		involved_activity = {
+			random_attending_character = {
+				limit = {not = {root = this}}
+				save_scope_as = duelling_partner
+			}
+		}
+	}
+	
+	option = {
+		name = camp.0300.duel
+		
+		duel = {
+			skill = prowess
+			target = scope:duelling_partner
+			
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3
+					min = -49
+				}
+				scope:duelling_partner = {
+					add_prestige = 100
+				}
+				add_stress = exertion_stress_cost
+			}
+			50 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3
+					min = -49
+				}
+				add_prestige = 100
+				scope:duelling_partner = {
+					add_stress = exertion_stress_cost
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = camp.0300.sharpen_weapon
+		
+		add_character_modifier = {
+			modifier = honed_blade 
+			months = 3
+		}
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}
+
+dungeon_delve_camp.0400 = { # Party time
+	type = activity_event
+	title = camp.0400.t
+	desc = camp.0400.desc
+	
+	theme = dungeon_long_rest
+		
+	left_portrait = root
+	right_portrait = scope:revel_partner
+	
+	immediate = {
+		involved_activity = {
+			random_attending_character = {
+				limit = {not = {root = this}}
+				save_scope_as = revel_partner
+			}
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = lifestyle_reveler
+		}
+	}
+	
+	option = {
+		name = camp.0400.drink_with_them
+		duel = {
+			skill = diplomacy
+			value = 12
+			10 = { # Failure
+			}
+			10 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				progress_towards_friend_effect = {
+					REASON = friend_feast_talking_and_laughing
+					CHARACTER = scope:revel_partner
+					OPINION = default_friend_opinion
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = camp.0400.lay_with_them
+		trigger = {
+			matching_gender_and_sexuality_trigger = {CHARACTER_1 = root CHARACTER_2 = scope:revel_partner}
+		}
+		duel = {
+			skill = intrigue
+			value = 12
+			10 = { # Failure
+			}
+			10 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				progress_towards_lover_effect = {
+					REASON = friend_feast_talking_and_laughing
+					CHARACTER = scope:revel_partner
+					OPINION = default_friend_opinion
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}
+
+dungeon_delve_camp.0500 = { # Inspiration strikes
+	type = activity_event
+	title = camp.0500.t
+	desc = camp.0500.desc
+	
+	theme = dungeon_long_rest
+		
+	left_portrait = root
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = poet
+		}
+	}
+	
+	option = {
+		name = camp.0500.gain_poet_trait
+		trigger = {not = {has_trait = poet}}
+		add_trait = poet
+	}
+	
+	option = {
+		name = camp.0500.glamour
+		trigger = {has_trait = poet}
+		add_trait_xp = {
+			add_trait_xp = {
+				trait = poet
+				track = glamour
+				value = {5 10}
+			}
+		}
+	}
+	
+	option = {
+		name = camp.0500.valor
+		trigger = {has_trait = poet}
+		add_trait_xp = {
+			add_trait_xp = {
+				trait = poet
+				track = valor
+				value = {5 10}
+			}
+		}
+	}
+	
+	option = {
+		name = camp.0500.lore
+		trigger = {has_trait = poet}
+		add_trait_xp = {
+			add_trait_xp = {
+				trait = poet
+				track = lore
+				value = {5 10}
+			}
+		}
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}
+
+dungeon_delve_camp.0600 = { # Scouting ahead
+	type = activity_event
+	title = camp.0600.t
+	desc = camp.0600.desc
+	
+	theme = dungeon_long_rest
+		
+	left_portrait = root
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = lifestyle_hunter
+		}
+	}
+	
+	option = {
+		duel = {
+			skill = prowess
+			value = 10
+			10 = { # Failure
+			}
+			10 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 1
+				}
+				dungeon_delve_minor_progress = yes
+			}
+			0 = { # Critical Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 2
+				}
+				dungeon_delve_major_progress = yes
+			}
+		}
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}
+
+dungeon_delve_camp.0700 = { # Strange texts
+	type = activity_event
+	title = camp.0700.t
+	desc = camp.0700.desc
+	
+	theme = dungeon_long_rest
+		
+	left_portrait = root
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = lifestyle_mystic
+		}
+	}
+	
+	option = {
+		camp.0700.study_ancient_texts
+		ancient_lore_effect = yes
+	}
+	
+	option = {
+		camp.0700.do_not_interfere
+		dungeon_zeal_effect = yes
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}
+
+dungeon_delve_camp.0800 = { # Runic Inscriptions
+	type = activity_event
+	title = camp.0800.t
+	desc = camp.0800.desc
+	
+	theme = dungeon_long_rest
+		
+	left_portrait = root
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = mage
+		}
+	}
+	
+	option = {
+		camp.0800.study_runes
+		ancient_lore_effect = yes
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}
+
+dungeon_delve_camp.0900 = { #
+	type = activity_event
+	title = camp.0900.t
+	desc = camp.0900.desc
+	
+	theme = dungeon_long_rest
+		
+	left_portrait = root
+
+	weight_multiplier = {
+		base = 1
+		modifier = {
+			add = 3
+			has_trait = lifestyle_physician
+		}
+	}
+	
+	option = {
+		name = camp.rest
+		long_rest_effect = yes
+	}
+}

@@ -1,0 +1,30 @@
+ancient_curse = {
+	icon = magic_negative
+	stacking = yes
+	enemy_hostile_scheme_success_chance_add	= 10
+	character_travel_safety = -10
+}
+inhaled_toxin = {
+	icon = treatment_negative
+	stacking = yes
+	health = -1
+}
+maddening_insight = {
+	icon = stress_negative
+	stress_gain_mult = 1
+	stress_loss_mult = 0.5
+	learning_per_stress_level = 1
+}
+long_rest = {
+	icon = stress_positive
+	stress_gain_mult = -0.25
+	negate_health_penalty_add = 0.25
+}
+fungal_remedy = {
+	icon = health_positive
+	negate_health_penalty_add = 0.5
+}
+honed_blade = {
+	icon = prowess_positive
+	prowess_no_portrait = 3
+}

@@ -1,0 +1,40 @@
+﻿dungeon_delve_ongoing_events_pulse = {
+	random_on_action = {		
+		3 = dungeon_delve_camp_events_pulse
+		3 = dungeon_delve_hazard_events_pulse
+		3 = dungeon_delve_opportunity_events_pulse
+	}
+}
+
+dungeon_delve_camp_events_pulse = {
+	random_events = {
+		100 = dungeon_delve_camp.0100 # Reflection
+		100 = dungeon_delve_camp.0200 # Strange fungi
+		100 = dungeon_delve_camp.0300 # Weapon calls out to you
+		100 = dungeon_delve_camp.0400 # Party time!
+		100 = dungeon_delve_camp.0500 # Inspiration strikes
+		100 = dungeon_delve_camp.0600 # Scouting ahead
+		100 = dungeon_delve_camp.0700 # Strange texts
+		100 = dungeon_delve_camp.0800 # Runic inscriptions
+	}
+}
+
+dungeon_delve_hazard_events_pulse = {
+	random_events = {
+		100 = dungeon_delve_hazard.0100 # Chasm
+		100 = dungeon_delve_hazard.0200 # Flooded area
+		100 = dungeon_delve_hazard.0300 # Toxic, flammable gas
+		100 = dungeon_delve_hazard.0400 # Locked door
+	}
+}
+
+dungeon_delve_opportunity_events_pulse = {
+	random_events = {
+		100 = dungeon_delve_opportunity.0100 # Ancient Altar
+		100 = dungeon_delve_opportunity.0200 # Bookshelves
+		100 = dungeon_delve_opportunity.0300 # Alchemy table
+		100 = dungeon_delve_opportunity.0400 # Locked chest
+		100 = dungeon_delve_opportunity.0500 # Smithy
+		100 = dungeon_delve_opportunity.0600 # Secret door
+	}
+}

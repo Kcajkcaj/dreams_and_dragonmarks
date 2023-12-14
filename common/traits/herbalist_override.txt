@@ -1,0 +1,76 @@
+lifestyle_herbalist = {
+	index = 256
+	category = lifestyle
+
+	# Modifiers
+	learning = 1
+	intrigue = 1
+	negate_health_penalty_add = 0.5	
+	culture_modifier = {
+		parameter = forest_trait_bonuses
+		forest_attrition_mult = -0.5
+		taiga_attrition_mult = -0.5
+	}	
+	culture_modifier = {
+		parameter = jungle_trait_bonuses
+		jungle_attrition_mult = -0.5
+	}	
+	culture_modifier = {
+		parameter = herbalist_trait_gives_bonuses
+		monthly_prestige_gain_mult = 0.05
+		monthly_learning_lifestyle_xp_gain_mult = 0.05
+		diplomacy = 1
+	}
+
+	ruler_designer_cost = 50
+
+	# AI Values
+	ai_rationality = 10
+	
+	tracks = {
+		poisoner = {
+			trait_second_level = {
+				intrigue = 1
+				owned_hostile_scheme_success_chance_add = 0.1
+			}
+			trait_third_level = {
+				intrigue = 1
+				owned_hostile_scheme_success_chance_add = 0.1
+			}
+		}
+		healer = {
+			trait_second_level = {
+				learning = 1
+				lifestyle_physician_xp_gain_mult = 0.5
+				negate_health_penalty_add = 0.25
+			}
+			trait_third_level = {
+				learning = 1
+				lifestyle_physician_xp_gain_mult = 0.5
+				negate_health_penalty_add = 0.25
+			}
+		}
+	}
+
+	# Loc
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = lifestyle_herbalist_desc
+			}
+			desc = lifestyle_herbalist_character_desc
+		}
+	}
+
+	compatibility = {
+		lifestyle_mystic = @pos_compat_medium
+		whole_of_body = @pos_compat_low
+		scholar = @pos_compat_low
+		theologian = @pos_compat_low
+		zealous = @neg_compat_low
+		lifestyle_gardener = @pos_compat_medium
+	}
+}
