@@ -29,8 +29,8 @@
 		}
 	}
 
-	#HRE Succession
-	princely_elective_succession_law = {
+	#Aerenal Succession
+	aerenal_elective_succession_law = {
 		can_have = {
 			OR = {
 				government_has_flag = government_is_feudal
@@ -42,18 +42,18 @@
 			can_change_title_law_trigger = yes
 		}
 		can_title_have = {
-			this = title:e_hre
+			this = title:e_aerenal
 			can_title_have_law_general_trigger = yes
 		}
 		succession = {
 			order_of_succession = election
-			election_type = princely_elective
+			election_type = aereni_elective
 		}
 		flag = elective_succession_law
-		title_allegiance_opinion = 10
+		title_allegiance_opinion = 20
 		modifier = {
 			vassal_limit = 20
-			minority_opinion = -15
+			minority_opinion = -30
 		}
 		revoke_cost = {
 			prestige = change_hre_title_succession_law_prestige_cost

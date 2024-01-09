@@ -1,0 +1,15 @@
+d_south_blade_desert = {
+	3400.1.1 = {
+		change_development_level = 3
+		holder = andri_irvallo
+		liege = 0
+	}
+}
+
+d_north_blade_desert = {
+	3400.1.1 = {
+		change_development_level = 3
+		holder = suthar_tarravan
+		liege = 0
+	}
+}

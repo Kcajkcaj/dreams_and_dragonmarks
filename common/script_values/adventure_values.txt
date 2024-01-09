@@ -84,3 +84,33 @@ adventure_entourage_weighting_value = {
 }
 
 exertion_stress_cost = {value = 25}
+
+depth_dependent_gold_low = {
+	value = 25
+	if = {
+		limit = {involved_activity ?= {var:activity_special_type_progression >= 25}}
+		add = 25
+	}
+	if = {
+		limit = {involved_activity ?= {var:activity_special_type_progression >= 50}}
+		add = 25
+	}
+	if = {
+		limit = {involved_activity ?= {var:activity_special_type_progression >= 75}}
+		add = 25
+	}
+	if = {
+		limit = {involved_activity ?= {var:activity_special_type_progression >= 100}}
+		add = 25
+	}
+}
+
+depth_dependent_gold = {
+	value = depth_dependent_gold_low
+	multiply = 2
+}
+
+depth_dependent_gold_high = {
+	value = depth_dependent_gold_low
+	multiply = 4
+}

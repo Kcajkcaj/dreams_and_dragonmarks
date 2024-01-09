@@ -273,14 +273,14 @@ appraise_artifacts_effect = {
 			}
 		}
 		12 = {
-			add_gold = 50
+			add_gold = depth_dependent_gold_low
 		}
 		12 = {
 			compare_modifier = {
 				value = scope:duel_value
 				multiplier = 0.5
 			}
-			add_gold = 100
+			add_gold = depth_dependent_gold
 		}
 	}
 }

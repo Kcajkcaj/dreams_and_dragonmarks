@@ -1,5 +1,8 @@
 k_thaliost = {
-	3350.1.1 = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
 		holder = aurad_taumen
 	}
 	3394.2.13 = {
@@ -8,7 +11,10 @@ k_thaliost = {
 }
 
 d_thaliost = {
-	3350.1.1 = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
 		change_development_level = 12
 		holder = aurad_taumen
 	}
@@ -19,7 +25,10 @@ d_thaliost = {
 }
 
 c_thaliost = {
-	3350.1.1 = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
 		holder = aurad_taumen
 	}
 	3394.2.13 = {
@@ -29,7 +38,10 @@ c_thaliost = {
 }
 
 c_silvercliff = {
-	3350.1.1 = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
 		holder = aurad_taumen
 	}
 	3394.2.13 = {
@@ -39,7 +51,10 @@ c_silvercliff = {
 }
 
 c_kerkulin = {
-	3350.1.1 = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
 		holder = aurad_taumen
 	}
 	3394.2.13 = {
@@ -49,7 +64,10 @@ c_kerkulin = {
 }
 
 c_graywood = {
-	3350.1.1 = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
 		holder = aurad_taumen
 	}
 	3394.2.13 = {
@@ -59,13 +77,60 @@ c_graywood = {
 }
 
 d_silverwood = {
-	3350.1.1 = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
 		change_development_level = 9
 		holder = aurad_taumen
 	}
 	3394.2.13 = {
 		liege = k_thaliost
 		holder = vilina_taumen
+	}
+}
+
+d_stormhome = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
+		change_development_level = 12
+		holder = esravash_taumen
+		liege = k_thaliost
+	}
+	3396.7.11 = {
+		holder = baltia_taumen
+	}
+}
+
+c_storm_bay = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
+		change_development_level = 12
+		holder = esravash_taumen
+		liege = k_thaliost
+	}
+	3396.7.11 = {
+		holder = hazel_taumen
+		liege = d_stormhome
+	}
+}
+
+c_gray_peaks = {
+	3330.1.1 = {
+		holder = sarelo_taumen
+	}
+	3372.7.14 = {
+		change_development_level = 12
+		holder = esravash_taumen
+		liege = k_thaliost
+	}
+	3396.7.11 = {
+		holder = rurin_taumen
+		liege = d_stormhome
 	}
 }
 
@@ -81,6 +146,14 @@ c_areksul = {
 	3400.1.1 = {
 		holder = jurian_haldron
 		liege = d_fairhaven
+	}
+}
+
+d_whisperwoods = {
+	3400.1.1 = {
+		change_development_level = 3
+		holder = gwyon_bronzehoof
+		liege = 0
 	}
 }
 

@@ -1,0 +1,415 @@
+####### Kingdom of Cairdal
+##### Duchy of Cairdal
+### Shae Cairdal
+1328 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+	buildings = {castle_03}
+}
+1329 = {holding = city_holding}
+1330 = {holding = church_holding}
+1331 = {holding = church_holding}
+1332 = {holding = castle_holding}
+### Kathuran
+1333 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1334 = {holding = city_holding}
+1335 = {holding = church_holding}
+1336 = {holding = none}
+### Cairdal B
+1337 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1338 = {holding = church_holding}
+1339 = {holding = none}
+1340 = {holding = none}
+1341 = {holding = none}
+##### Madwood
+### A
+1342 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1343 = {holding = church_holding}
+1344 = {holding = none}
+### B
+1345 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1346 = {holding = church_holding}
+1347 = {holding = none}
+### C
+1348 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1349 = {holding = church_holding}
+### D
+1350 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1351 = {holding = church_holding}
+### E
+1352 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1353 = {holding = church_holding}
+1354 = {holding = none}
+1355 = {holding = none}
+### F
+1356 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1357 = {holding = church_holding}
+1358 = {holding = none}
+1359 = {holding = none}
+##### Jaelarthal
+### Zaenya
+1360 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1361 = {holding = church_holding}
+1362 = {holding = city_holding}
+### B
+1363 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1364 = {holding = church_holding}
+1365 = {holding = none}
+1366 = {holding = none}
+### C
+1367 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1368 = {holding = church_holding}
+1369 = {holding = none}
+### D
+1370 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1371 = {holding = church_holding}
+1372 = {holding = none}
+### E
+1373 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1374 = {holding = church_holding}
+1375 = {holding = none}
+1376 = {holding = none}
+##### Dajar
+### Pylas Talaer
+1377 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1378 = {holding = city_holding}
+1379 = {holding = city_holding}
+1380 = {holding = church_holding}
+1381 = {holding = none}
+### Pylas Zirinth
+1382 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1383 = {holding = church_holding}
+1384 = {holding = city_holding}
+### B
+1385 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1386 = {holding = church_holding}
+1387 = {holding = none}
+1388 = {holding = none}
+### C
+1389 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1390 = {holding = church_holding}
+1391 = {holding = none}
+### D
+1392 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1393 = {holding = church_holding}
+1394 = {holding = none}
+1395 = {holding = none}
+### E
+1396 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1397 = {holding = church_holding}
+1398 = {holding = none}
+1399 = {holding = none}
+####### Kingdom of Mordai
+##### Duchy of Mordai
+### Shae Mordai
+1400 = {
+	culture = aereni
+	faith = undying_court
+	holding = church_holding
+}
+1401 = {holding = city_holding}
+1402 = {holding = city_holding}
+1403 = {holding = castle_holding}
+### B
+1404 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1405 = {holding = church_holding}
+1406 = {holding = none}
+### C
+1407 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1408 = {holding = church_holding}
+1409 = {holding = none}
+### D
+1410 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1411 = {holding = church_holding}
+1412 = {holding = none}
+##### Sundering Peaks
+### Kalindal
+1413 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1414 = {holding = church_holding}
+1415 = {holding = city_holding}
+1416 = {holding = none}
+### B
+1417 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1418 = {holding = church_holding}
+1419 = {holding = none}
+### C
+1420 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1421 = {holding = church_holding}
+1422 = {holding = none}
+### D
+1423 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1424 = {holding = church_holding}
+1425 = {holding = none}
+1426 = {holding = none}
+### E
+1427 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1428 = {holding = church_holding}
+1429 = {holding = none}
+1430 = {holding = none}
+### F
+1431 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1432 = {holding = church_holding}
+1433 = {holding = none}
+1434 = {holding = none}
+1435 = {holding = none}
+### G
+1436 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1437 = {holding = church_holding}
+1438 = {holding = none}
+1439 = {holding = none}
+1440 = {holding = none}
+##### Blackwood
+### A
+1441 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1442 = {holding = church_holding}
+1443 = {holding = none}
+1444 = {holding = none}
+1445 = {holding = none}
+### B
+1446 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1447 = {holding = church_holding}
+1448 = {holding = none}
+1449 = {holding = none}
+### C
+1450 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1451 = {holding = church_holding}
+1452 = {holding = none}
+1453 = {holding = none}
+### D
+1454 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1455 = {holding = church_holding}
+1456 = {holding = none}
+1457 = {holding = none}
+##### Deseir
+### Shae Deseir
+1458 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1459 = {holding = church_holding}
+1460 = {holding = city_holding}
+### B
+1461 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1462 = {holding = church_holding}
+1463 = {holding = none}
+### C
+1464 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1465 = {holding = church_holding}
+1466 = {holding = none}
+### D
+1467 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1468 = {holding = church_holding}
+1469 = {holding = none}
+### E
+1470 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1471 = {holding = church_holding}
+1472 = {holding = none}
+### F
+1473 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1474 = {holding = church_holding}
+1475 = {holding = none}
+##### Taluna
+### A
+1476 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1477 = {holding = church_holding}
+1478 = {holding = none}
+1479 = {holding = none}
+### B
+1480 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1481 = {holding = church_holding}
+1482 = {holding = none}
+### C
+1483 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1484 = {holding = church_holding}
+1485 = {holding = none}
+### D
+1486 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1487 = {holding = church_holding}
+1488 = {holding = none}
+1489 = {holding = none}
+### E
+1490 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1491 = {holding = church_holding}
+1492 = {holding = none}
+### F
+1493 = {
+	culture = aereni
+	faith = undying_court
+	holding = castle_holding
+}
+1494 = {holding = church_holding}
+1495 = {holding = none}

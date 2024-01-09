@@ -1,0 +1,38 @@
+manifest_zone_daanvi = {
+	icon = magic_positive
+}
+manifest_zone_dolurrh = {
+	icon = magic_positive
+}
+manifest_zone_fernia = {
+	icon = magic_positive
+}
+manifest_zone_irian = {
+	icon = magic_positive
+}
+manifest_zone_kythri = {
+	icon = magic_positive
+}
+manifest_zone_lamannia = {
+	icon = magic_positive
+}
+manifest_zone_mabar = {
+	icon = magic_positive
+}
+manifest_zone_risia = {
+	icon = magic_positive
+}
+manifest_zone_shavarath = {
+	icon = magic_positive
+}
+manifest_zone_syrania = {
+	icon = magic_positive
+	levy_size = -0.2
+	development_growth_factor = 0.25
+}
+manifest_zone_thelanis = {
+	icon = magic_positive
+}
+manifest_zone_xoriat = {
+	icon = magic_positive
+}

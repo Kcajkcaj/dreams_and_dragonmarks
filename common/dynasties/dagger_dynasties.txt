@@ -14,10 +14,6 @@ dynn_dagger_morrus = {
 	name = "Morrus"
 	culture = vathir
 }
-dynn_solaen = {
-	name = "Solaen"
-	culture = aereni
-}
 dynn_dagger_devir = {
 	name = "Devir"
 	culture = vathir

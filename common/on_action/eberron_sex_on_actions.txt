@@ -1,0 +1,37 @@
+had_sex_on_action = {
+	on_actions = {
+		pillow_talk_on_action
+	}
+}
+
+pillow_talk_on_action = {
+	trigger = {has_perk = pillow_talk_perk}
+	effect = {
+		if = {
+			limit = {
+				scope:had_sex_with_effect_partner = {
+					any_known_secret = {
+						not = {
+							is_known_by = root
+						}
+					}
+				}
+			}
+			scope:had_sex_with_effect_partner = {
+				random_known_secret = {
+					limit = {not = {is_known_by = root}}
+					save_scope_as = secret_to_reveal
+				}
+			}
+			root = {
+				send_interface_toast = {
+					title = intrigue_temptation.2201.a.success
+					
+					scope:secret_to_reveal = {
+						reveal_to = root
+					}
+				}
+			}
+		}
+	}
+}

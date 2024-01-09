@@ -25,6 +25,10 @@ dungeon_delve_hazard_events_pulse = {
 		100 = dungeon_delve_hazard.0200 # Flooded area
 		100 = dungeon_delve_hazard.0300 # Toxic, flammable gas
 		100 = dungeon_delve_hazard.0400 # Locked door
+		100 = dungeon_delve_hazard.0500 # Blocked by rubble
+		100 = dungeon_delve_hazard.0600 # Visibly unstable ground
+		100 = dungeon_delve_hazard.0700 # Brown/Yellow Mold
+		100 = dungeon_delve_hazard.0800 # Green Slime
 	}
 }
 

@@ -1,6 +1,6 @@
 k_daskaran = {
 	3375.1.1 = {
-		holder = calemi_vasiraghi
+		holder = calemi_askarda
 	}
 }
 d_daskaran = {
@@ -12,20 +12,20 @@ d_daskaran = {
 }
 d_auxyl = {
 	3375.1.1 = {
-		holder = calemi_vasiraghi
+		holder = calemi_askarda
 		change_development_level = 9
 		liege = k_daskaran
 	}
 }
 c_sentinel_keep = {
 	3375.1.1 = {
-		holder = egen_askarda
+		holder = egen_vasiraghi
 		liege = d_flamekeep
 	}
 }
 d_flamekeep = {
 	3375.1.1 = {
-		holder = egen_askarda
+		holder = egen_vasiraghi
 		change_development_level = 9
 	}
 }

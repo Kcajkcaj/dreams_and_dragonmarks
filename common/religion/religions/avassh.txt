@@ -244,5 +244,18 @@ avassh_religion = {
 			doctrine = tenet_consumptive_evolution
 			doctrine = tenet_touched_by_madness
 		}
+		gnarled_ones = {
+			color = {0.4 0.4 0.05}
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = korranath
+			
+			# Tenets
+			doctrine = tenet_bloodstained_liturgy
+			doctrine = tenet_groves_and_gardens
+			doctrine = tenet_druidic_syncretism
+			doctrine = tenet_moonwatchers
+			doctrine = tenet_shamanism
+		}
 	}
 }

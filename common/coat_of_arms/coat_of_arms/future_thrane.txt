@@ -73,3 +73,72 @@ dynn_lyrandar={
 		}
 	}
 }
+
+dynn_sigilan_lerendazi ={
+	pattern="pattern_bend_01.dds"
+	color1=blue
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=rgb { 140 25 94 }
+		color2=rgb { 237 37 158 }
+		color3=rgb { 237 37 158 }
+		texture="ce_flower.dds"
+		instance={
+			scale={ 0.990000 0.990000 }
+		}
+	}
+}
+
+dynn_sigilan_karavastar={
+	pattern="pattern_horizontal_stripes_01.dds"
+	color1=red
+	color2=blue
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_star_06.dds"
+	}
+}
+
+dynn_sigilan_talandro={
+	pattern="pattern_waves_01.dds"
+	color1=red
+	color2=blue_light
+	color3=red
+	colored_emblem={
+		color1=yellow
+		texture="ce_anchor.dds"
+		instance={
+			scale={ 0.960000 0.960000 }
+		}
+	}
+}
+
+dynn_daskaran_askarda ={
+	pattern="pattern_horizontal_split_02.dds"
+	color1=purple
+	color2=yellow
+	color3=red
+	colored_emblem={
+		color1=white
+		color2=grey
+		color3=grey
+		texture="ce_boar_passant.dds"
+		instance={
+			position={ 0.500000 0.680000 }
+			scale={ 0.890000 0.890000 }
+			depth=1.010000
+		}
+	}
+	colored_emblem={
+		color1=white
+		color2=grey
+		texture="ce_sword_simple.dds"
+		instance={
+			position={ 0.500000 0.180000 }
+			scale={ 0.800000 -0.800000 }
+			rotation=90
+		}
+	}
+}

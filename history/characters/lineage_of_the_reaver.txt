@@ -1,374 +1,950 @@
-malleon_the_reaver = {
-    name = "Malleon"
-    dynasty = dynn_malleonid
-    female = no
+malleonid_1 = {
+	name = "Malleon"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-    trait = education_martial_4
+	trait = physique_good_3
 
-    trait = reaver
-
-    trait = ambitious
-    trait = sadistic
-    trait = authoritative
-
-    2909.1.1 = {
-		birth = yes
-	}
-
-    2970.3.9 = {death = yes}
+	1976.7.2 = { birth = yes }
+	2046.1.4 = { death = yes }
 }
 
 malleonid_2 = {
-    name = "Abraxis"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_1
+	name = "Ilyra"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleon_the_reaver
+	trait = physique_good_3
 
-    2929.1.1 = {birth = yes}
-
-    2970.10.8 = {death = yes}
+	1999.7.12 = { birth = yes }
+	2028.2.5 = { death = yes }
 }
 
 malleonid_3 = {
-    name = "Boranex"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_2
+	name = "Gersi"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_2
+	trait = physique_good_3
 
-    2948.1.1 = {birth = yes}
-
-    2995.12.15 = {death = yes}
+	2018.10.14 = { birth = yes }
+	2061.11.21 = { death = yes }
 }
 
 malleonid_4 = {
-    name = "Greykell"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_3
+	name = "Bestan"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_3
+	trait = physique_good_3
 
-    2969.1.1 = {birth = yes}
-
-    3015.7.13 = {death = yes}
+	2041.1.1 = { birth = yes }
+	2096.3.25 = { death = yes }
 }
 
 malleonid_5 = {
-    name = "Malleon"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_4
+	name = "Verden"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_4
+	trait = physique_good_3
 
-    2986.1.1 = {birth = yes}
-
-    3036.5.6 = {death = yes}
+	2065.1.25 = { birth = yes }
+	2088.6.2 = { death = yes }
 }
 
 malleonid_6 = {
-    name = "Greykell"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_5
+	name = "Magdalora"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_5
+	trait = physique_good_3
 
-    3003.1.1 = {birth = yes}
-
-    3056.10.15 = {death = yes}
+	2084.5.28 = { birth = yes }
+	2150.9.2 = { death = yes }
 }
 
 malleonid_7 = {
-    name = "Hallorek"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_6
+	name = "Riki"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_6
+	trait = physique_good_3
 
-    3022.1.1 = {birth = yes}
-
-    3085.11.16 = {death = yes}
+	2107.2.13 = { birth = yes }
+	2138.12.2 = { death = yes }
 }
 
 malleonid_8 = {
-    name = "Molric"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_7
+	name = "Maija"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_7
+	trait = physique_good_3
 
-    3040.1.1 = {birth = yes}
-
-    3091.1.17 = {death = yes}
+	2125.3.21 = { birth = yes }
+	2189.9.10 = { death = yes }
 }
 
 malleonid_9 = {
-    name = "Malleon"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_8
+	name = "Teesen"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_8
+	trait = physique_good_3
 
-    3061.1.1 = {birth = yes}
-
-    3115.2.13 = {death = yes}
+	2145.5.1 = { birth = yes }
+	2199.6.25 = { death = yes }
 }
 
 malleonid_10 = {
-    name = "Greykell"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_9
+	name = "Gersi"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_9
+	trait = physique_good_3
 
-    3080.1.1 = {birth = yes}
-
-    3124.6.5 = {death = yes}
+	2169.5.22 = { birth = yes }
+	2235.11.11 = { death = yes }
 }
 
 malleonid_11 = {
-    name = "Nolan"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_10
+	name = "Saj"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_10
+	trait = physique_good_3
 
-    3098.1.1 = {birth = yes}
-
-    3136.3.13 = {death = yes}
-}
-
-malleonid_11a = {
-    name = "Abraxis"
-    dynasty = dynn_malleonid
-    female = no
-	culture = shaarati
-	faith = redtide_creed
-
-    trait = physique_good_3
-   
-    father = malleonid_11
-
-    3116.1.1 = {birth = yes}
-
-    3175.5.16 = {death = yes}
+	2185.12.6 = { birth = yes }
+	2214.5.6 = { death = yes }
 }
 
 malleonid_12 = {
-    name = "Oarsen"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_11
+	name = "Asa"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_11a
+	trait = physique_good_3
 
-    3137.1.1 = {birth = yes}
-
-    3184.7.18 = {death = yes}
+	2207.9.18 = { birth = yes }
+	2228.3.4 = { death = yes }
 }
 
 malleonid_13 = {
-    name = "Thurik"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_12
+	name = "Tasra"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_12
+	trait = physique_good_3
 
-    3166.1.1 = {birth = yes}
-
-    3218.5.14 = {death = yes}
+	2228.6.5 = { birth = yes }
+	2254.2.18 = { death = yes }
 }
 
 malleonid_14 = {
-    name = "Zotharr"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_13
+	name = "Uthar"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_13
+	trait = physique_good_3
 
-    3185.1.1 = {birth = yes}
-
-    3228.10.10 = {death = yes}
+	2246.2.23 = { birth = yes }
+	2298.12.16 = { death = yes }
 }
 
 malleonid_15 = {
-    name = "Malleon"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_14
+	name = "Yelfis"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_14
+	trait = physique_good_3
 
-    3206.1.1 = {birth = yes}
-
-    3265.2.8 = {death = yes}
+	2263.12.23 = { birth = yes }
+	2298.1.26 = { death = yes }
 }
 
 malleonid_16 = {
-    name = "Oarsen"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_15
+	name = "Sedge"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_15
+	trait = physique_good_3
 
-    3230.1.1 = {birth = yes}
-
-    3282.4.6 = {death = yes}
+	2281.2.27 = { birth = yes }
+	2306.2.11 = { death = yes }
 }
 
 malleonid_17 = {
-    name = "Malleon"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_16
+	name = "Magdalora"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_16
+	trait = physique_good_3
 
-    3257.1.1 = {birth = yes}
-
-    3301.12.14 = {death = yes}
+	2301.3.2 = { birth = yes }
+	2355.8.22 = { death = yes }
 }
 
 malleonid_18 = {
-    name = "Merrix"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_17
+	name = "Nebra"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_17
+	trait = physique_good_3
 
-    3288.1.1 = {birth = yes}
-
-    3346.6.7 = {death = yes}
+	2319.4.23 = { birth = yes }
+	2342.10.10 = { death = yes }
 }
 
 malleonid_19 = {
-    name = "Thurik"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_18
+	name = "Dantian"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_18
+	trait = physique_good_3
 
-    3306.1.1 = {birth = yes}
-
-    3371.8.6 = {death = yes}
+	2340.2.12 = { birth = yes }
+	2365.10.12 = { death = yes }
 }
 
 malleonid_20 = {
-    name = "Verden"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_19
+	name = "Penti"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_19
+	trait = physique_good_3
 
-    3331.1.1 = {birth = yes}
-
-    3382.1.8 = {death = yes}
+	2365.1.17 = { birth = yes }
+	2430.6.19 = { death = yes }
 }
 
 malleonid_21 = {
-    name = "Greykell"
-    dynasty = dynn_malleonid
-    female = no
+	mother = malleonid_20
+	name = "Laren"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = no
 
-    trait = physique_good_3
-   
-    father = malleonid_20
+	trait = physique_good_3
 
-    3348.1.1 = {birth = yes}
-
-    3388.7.10 = {death = yes}
+	2384.8.16 = { birth = yes }
+	2427.5.13 = { death = yes }
 }
 
 malleonid_22 = {
-    name = "Malleon"
-    dynasty = dynn_malleonid
-    female = no
+	father = malleonid_21
+	name = "Shauranna"
+	dynasty = dynn_malleonid
 	culture = shaarati
 	faith = redtide_creed
+	female = yes
 
-    trait = physique_good_3
-   
-    father = malleonid_21
+	trait = physique_good_3
 
-    3379.1.1 = {birth = yes}
+	2409.4.24 = { birth = yes }
+	2449.11.28 = { death = yes }
+}
 
-    3413.11.11 = {death = yes}
+malleonid_23 = {
+	mother = malleonid_22
+	name = "Boranel"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2425.8.12 = { birth = yes }
+	2484.12.28 = { death = yes }
+}
+
+malleonid_24 = {
+	father = malleonid_23
+	name = "Gydd"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2450.7.4 = { birth = yes }
+	2488.4.10 = { death = yes }
+}
+
+malleonid_25 = {
+	mother = malleonid_24
+	name = "Soranda"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2469.6.18 = { birth = yes }
+	2513.12.27 = { death = yes }
+}
+
+malleonid_26 = {
+	mother = malleonid_25
+	name = "Nyrielle"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2490.12.15 = { birth = yes }
+	2548.5.15 = { death = yes }
+}
+
+malleonid_27 = {
+	mother = malleonid_26
+	name = "Boranex"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2513.9.1 = { birth = yes }
+	2558.11.12 = { death = yes }
+}
+
+malleonid_28 = {
+	father = malleonid_27
+	name = "Cala"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2535.5.5 = { birth = yes }
+	2567.5.20 = { death = yes }
+}
+
+malleonid_29 = {
+	mother = malleonid_28
+	name = "Shauranna"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2558.9.2 = { birth = yes }
+	2619.5.16 = { death = yes }
+}
+
+malleonid_30 = {
+	mother = malleonid_29
+	name = "Erix"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2576.4.8 = { birth = yes }
+	2632.2.24 = { death = yes }
+}
+
+malleonid_31 = {
+	father = malleonid_30
+	name = "Heeson"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2597.7.27 = { birth = yes }
+	2627.3.22 = { death = yes }
+}
+
+malleonid_32 = {
+	mother = malleonid_31
+	name = "Kason"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2620.12.25 = { birth = yes }
+	2682.11.1 = { death = yes }
+}
+
+malleonid_33 = {
+	father = malleonid_32
+	name = "Wrogarr"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2645.5.21 = { birth = yes }
+	2674.12.18 = { death = yes }
+}
+
+malleonid_34 = {
+	father = malleonid_33
+	name = "Pater"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2666.10.19 = { birth = yes }
+	2714.8.26 = { death = yes }
+}
+
+malleonid_35 = {
+	father = malleonid_34
+	name = "Cord"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2684.9.2 = { birth = yes }
+	2757.9.2 = { death = yes }
+}
+
+malleonid_36 = {
+	father = malleonid_35
+	name = "Destir"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2707.10.20 = { birth = yes }
+	2756.2.5 = { death = yes }
+}
+
+malleonid_37 = {
+	father = malleonid_36
+	name = "Wroaan"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2724.11.11 = { birth = yes }
+	2755.3.4 = { death = yes }
+}
+
+malleonid_38 = {
+	mother = malleonid_37
+	name = "Werem"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2749.3.8 = { birth = yes }
+	2796.11.22 = { death = yes }
+}
+
+malleonid_39 = {
+	father = malleonid_38
+	name = "Tolri"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2766.5.5 = { birth = yes }
+	2805.7.5 = { death = yes }
+}
+
+malleonid_40 = {
+	mother = malleonid_39
+	name = "Lis"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2785.10.27 = { birth = yes }
+	2846.1.17 = { death = yes }
+}
+
+malleonid_41 = {
+	father = malleonid_40
+	name = "Mazina"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2803.11.8 = { birth = yes }
+	2851.9.1 = { death = yes }
+}
+
+malleonid_42 = {
+	mother = malleonid_41
+	name = "Holt"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2820.6.18 = { birth = yes }
+	2846.7.8 = { death = yes }
+}
+
+malleonid_43 = {
+	father = malleonid_42
+	name = "Dania"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2840.12.10 = { birth = yes }
+	2883.7.2 = { death = yes }
+}
+
+malleonid_44 = {
+	mother = malleonid_43
+	name = "Dantian"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2857.7.22 = { birth = yes }
+	2887.4.27 = { death = yes }
+}
+
+malleonid_45 = {
+	father = malleonid_44
+	name = "Fromm"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2882.1.4 = { birth = yes }
+	2919.8.14 = { death = yes }
+}
+
+malleonid_46 = {
+	mother = malleonid_45
+	name = "Beren"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2905.7.10 = { birth = yes }
+	2942.2.18 = { death = yes }
+}
+
+malleonid_47 = {
+	father = malleonid_46
+	name = "Cala"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	2924.8.6 = { birth = yes }
+	2957.6.21 = { death = yes }
+}
+
+malleonid_48 = {
+	mother = malleonid_47
+	name = "Wrogarr"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2948.12.12 = { birth = yes }
+	3007.1.28 = { death = yes }
+}
+
+malleonid_49 = {
+	father = malleonid_48
+	name = "Werem"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2970.5.27 = { birth = yes }
+	3045.8.2 = { death = yes }
+}
+
+malleonid_50 = {
+	father = malleonid_49
+	name = "Stend"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	2995.12.21 = { birth = yes }
+	3051.12.6 = { death = yes }
+}
+
+malleonid_51 = {
+	father = malleonid_50
+	name = "Tars"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	3017.6.5 = { birth = yes }
+	3085.3.2 = { death = yes }
+}
+
+malleonid_52 = {
+	father = malleonid_51
+	name = "Asa"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3037.2.8 = { birth = yes }
+	3104.6.8 = { death = yes }
+}
+
+malleonid_53 = {
+	mother = malleonid_52
+	name = "Habra"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3057.5.19 = { birth = yes }
+	3123.9.7 = { death = yes }
+}
+
+malleonid_54 = {
+	mother = malleonid_53
+	name = "Cord"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	3074.10.7 = { birth = yes }
+	3107.11.15 = { death = yes }
+}
+
+malleonid_55 = {
+	father = malleonid_54
+	name = "Tabin"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3096.7.1 = { birth = yes }
+	3125.7.20 = { death = yes }
+}
+
+malleonid_56 = {
+	mother = malleonid_55
+	name = "Itlani"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3116.1.3 = { birth = yes }
+	3188.8.20 = { death = yes }
+}
+
+malleonid_57 = {
+	mother = malleonid_56
+	name = "Alina"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3140.3.22 = { birth = yes }
+	3189.7.26 = { death = yes }
+}
+
+malleonid_58 = {
+	mother = malleonid_57
+	name = "Nebra"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3159.5.15 = { birth = yes }
+	3184.5.15 = { death = yes }
+}
+
+malleonid_59 = {
+	mother = malleonid_58
+	name = "Trelib"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	3175.3.27 = { birth = yes }
+	3240.2.12 = { death = yes }
+}
+
+malleonid_60 = {
+	father = malleonid_59
+	name = "Heeson"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3193.6.19 = { birth = yes }
+	3258.4.1 = { death = yes }
+}
+
+malleonid_61 = {
+	mother = malleonid_60
+	name = "Keslo"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	3217.6.28 = { birth = yes }
+	3253.4.23 = { death = yes }
+}
+
+malleonid_62 = {
+	father = malleonid_61
+	name = "Norn"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	3236.5.9 = { birth = yes }
+	3270.10.19 = { death = yes }
+}
+
+malleonid_63 = {
+	father = malleonid_62
+	name = "Uthar"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	3258.5.12 = { birth = yes }
+	3314.5.12 = { death = yes }
+}
+
+malleonid_64 = {
+	father = malleonid_63
+	name = "Cala"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3275.11.22 = { birth = yes }
+	3306.5.25 = { death = yes }
+}
+
+malleonid_65 = {
+	mother = malleonid_64
+	name = "Nebra"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3296.1.6 = { birth = yes }
+	3339.6.25 = { death = yes }
+}
+
+malleonid_66 = {
+	mother = malleonid_65
+	name = "Habra"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3317.2.15 = { birth = yes }
+	3374.10.6 = { death = yes }
+}
+
+malleonid_67 = {
+	mother = malleonid_66
+	name = "Brey"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = yes
+
+	trait = physique_good_3
+
+	3333.10.15 = { birth = yes }
+	3368.4.21 = { death = yes }
+}
+
+malleonid_68 = {
+	mother = malleonid_67
+	name = "Saj"
+	dynasty = dynn_malleonid
+	culture = shaarati
+	faith = redtide_creed
+	female = no
+
+	trait = physique_good_3
+
+	3358.11.7 = { birth = yes }
+	3410.7.7 = { death = yes }
 }

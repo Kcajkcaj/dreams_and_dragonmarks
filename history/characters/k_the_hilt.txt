@@ -35,14 +35,42 @@ halas_tarkanan = {
 	
 	trait = education_martial_5
 	
-	trait = ambitious
+	trait = authoritative
 	trait = just
 	trait = compassionate
 	
-	trait = intellect_good_2
+	trait = intellect_good_3
 	trait = aberrant_mark
+	trait = mage
 	
 	3389.3.5 = {
+		birth = yes
+	}
+	
+	3313.1.1 = {
+		add_spouse = lady_of_the_plague
+	}
+}
+
+lady_of_the_plague = {
+	name = "Sara"
+	dynasty = none
+	culture = sigilan
+	faith = redtide_creed
+	female = yes
+	
+	trait = education_learning_5
+	
+	trait = authoritative
+	trait = ambitious
+	trait = compassionate
+	trait = gregarious
+	
+	trait = intellect_good_3
+	trait = aberrant_mark
+	trait = mage
+	
+	3387.4.17 = {
 		birth = yes
 	}
 }
@@ -60,7 +88,7 @@ tasra_malleonid = {
 	trait = callous
 	trait = education_intrigue_4
 
-	father = malleonid_22
+	father = malleonid_68
 	
 	3384.7.19 = {
 		birth = yes

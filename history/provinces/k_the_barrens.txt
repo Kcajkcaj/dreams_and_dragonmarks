@@ -2,7 +2,7 @@
 ### A
 460 = {
 	culture = khaarpal
-	faith = muwalladi
+	faith = irsvern
 	holding = tribal_holding
 }
 461 = {holding = none}
@@ -11,7 +11,7 @@
 ### B
 464 = {
 	culture = khaarpal
-	faith = muwalladi
+	faith = irsvern
 	holding = tribal_holding
 }
 465 = {holding = none}
@@ -19,21 +19,21 @@
 ### C
 467 = {
 	culture = khaarpal
-	faith = muwalladi
+	faith = irsvern
 	holding = tribal_holding
 }
 468 = {holding = none}
 ### D
 469 = {
 	culture = khaarpal
-	faith = muwalladi
+	faith = irsvern
 	holding = tribal_holding
 }
 470 = {holding = none}
 ### E
 471 = {
 	culture = khaarpal
-	faith = muwalladi
+	faith = irsvern
 	holding = tribal_holding
 }
 472 = {holding = none}
@@ -41,7 +41,7 @@
 ### F
 474 = {
 	culture = khaarpal
-	faith = muwalladi
+	faith = irsvern
 	holding = tribal_holding
 }
 475 = {holding = none}
@@ -50,7 +50,7 @@
 ### Graywall
 477 = {
 	culture = minotaur
-	faith = norse_pagan
+	faith = redhoof
 	holding = tribal_holding
 }
 478 = {holding = none}
@@ -58,7 +58,7 @@
 ### Six Kings
 480 = {
 	culture = minotaur
-	faith = norse_pagan
+	faith = onehorn
 	holding = tribal_holding
 }
 481 = {holding = none}
@@ -66,7 +66,7 @@
 ### The Fist
 483 = {
 	culture = minotaur
-	faith = norse_pagan
+	faith = redhoof
 	holding = tribal_holding
 }
 484 = {holding = none}
@@ -75,7 +75,7 @@
 ### Grimstone
 487 = {
 	culture = minotaur
-	faith = norse_pagan
+	faith = dawngorer
 	holding = tribal_holding
 }
 488 = {holding = none}
@@ -477,14 +477,14 @@
 ### Valsharak
 629 = {
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	holding = tribal_holding
 }
 630 = {holding = none}
 ### Slug Keep
 631 = {
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	holding = tribal_holding
 }
 632 = {holding = none}
@@ -494,7 +494,7 @@
 ### B
 636 = {
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	holding = tribal_holding
 }
 637 = {holding = none}
@@ -502,7 +502,7 @@
 ### C
 639 = {
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	holding = tribal_holding
 }
 640 = {holding = none}
@@ -512,7 +512,7 @@
 ### Taarn Draal
 643 = {
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	holding = tribal_holding
 }
 644 = {holding = none}
@@ -527,7 +527,7 @@
 ### C
 648 = {
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	holding = tribal_holding
 }
 649 = {holding = none}

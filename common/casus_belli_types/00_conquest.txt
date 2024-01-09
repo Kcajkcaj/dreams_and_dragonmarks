@@ -19,10 +19,10 @@
 				top_liege = scope:defender.top_liege
 				liege = scope:defender
 			}
-		}
-		OR = {
-			can_use_conquest_cbs_trigger = yes
-			NOT = {culture = {has_same_culture_heritage = scope:defender.culture}}
+			OR = {
+				can_use_conquest_cbs_trigger = yes
+				NOT = {culture = {has_same_culture_heritage = scope:defender.culture}}
+			}
 		}
 	}
 	target_titles = all
@@ -339,10 +339,10 @@ duchy_conquest_cb = {
 				top_liege = scope:defender.top_liege
 				liege = scope:defender
 			}
-		}
-		OR = {
-			can_use_conquest_cbs_trigger = yes
-			NOT = {culture = {has_same_culture_heritage = scope:defender.culture}}
+			OR = {
+				can_use_conquest_cbs_trigger = yes
+				NOT = {culture = {has_same_culture_heritage = scope:defender.culture}}
+			}
 		}
 	}
 	target_titles = all

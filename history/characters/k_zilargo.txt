@@ -31,7 +31,7 @@ roywin_trolan = {
 zgaz_of_hp = {
 	name = "Zgaz"
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	female = no
 	
 	3344.2.9 = {birth = yes}
@@ -40,7 +40,7 @@ zgaz_of_hp = {
 urkak_of_hp = {
 	name = "Urkak"
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	female = no
 	
 	3352.8.8 = {birth = yes}
@@ -49,7 +49,7 @@ urkak_of_hp = {
 zekstikah_of_hp = {
 	name = "Zekstikah"
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	female = no
 	
 	3332.9.16 = {birth = yes}
@@ -58,7 +58,7 @@ zekstikah_of_hp = {
 vroklan_of_hp = {
 	name = "Vroklan"
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	female = no
 	
 	3387.8.2 = {birth = yes}

@@ -1,49 +1,49 @@
 ﻿name_list_aundairi = {
 	dynasty_names = {
-		{"ir'" "Lain"}
-		{"ir'" "Brassek"}
-		{"ir'" "Dayne"}
-		{"ir'" "Trannick"}
-		{"ir'" "Aarland"}
-		{"ir'" "Acker"}
-		{"ir'" "Adriansen"}
-		{"ir'" "Alyea"}
-		{"ir'" "Arendt"}
-		{"ir'" "Bacher"}
-		{"ir'" "Banekert"}
-		{"ir'" "Bartell"}
-		{"ir'" "Bateu"}
-		{"ir'" "Crudaker"}
-		{"ir'" "Caldamus"}
-		{"ir'" "Corleis"}
-		{"ir'" "Dekker"}
-		{"ir'" "Ennes"}
-		{"ir'" "Gerlach"}
-		{"ir'" "Haldron"}
-		{"ir'" "Hugrin"}
-		{"ir'" "Jurians"}
-		{"ir'" "Karch"}
-		{"ir'" "Kendig"}
-		{"ir'" "Maartel"}
-		{"ir'" "Mantanye"}
-		{"ir'" "Merchiot"}
-		{"ir'" "Nagel"}
-		{"ir'" "Ostren"}
-		{"ir'" "Petilom"}
-		{"ir'" "Redeker"}
-		{"ir'" "Rhuli"}
-		{"ir'" "Romhaar"}
-		{"ir'" "Serontain"}
-		{"ir'" "Shreve"}
-		{"ir'" "Sykes"}
-		{"ir'" "Taumen"}
-		{"ir'" "Thiel"}
-		{"ir'" "Toriun"}
-		{"ir'" "Tullier"}
-		{"ir'" "Valleau"}
-		{"ir'" "Veseur"}
-		{"ir'" "Yanger"}
-		{"ir'" "Zenden"}
+		"Lain"
+		"Brassek"
+		"Dayne"
+		"Trannick"
+		"Aarland"
+		"Acker"
+		"Adriansen"
+		"Alyea"
+		"Arendt"
+		"Bacher"
+		"Banekert"
+		"Bartell"
+		"Bateu"
+		"Crudaker"
+		"Caldamus"
+		"Corleis"
+		"Dekker"
+		"Ennes"
+		"Gerlach"
+		"Haldron"
+		"Hugrin"
+		"Jurians"
+		"Karch"
+		"Kendig"
+		"Maartel"
+		"Mantanye"
+		"Merchiot"
+		"Nagel"
+		"Ostren"
+		"Petilom"
+		"Redeker"
+		"Rhuli"
+		"Romhaar"
+		"Serontain"
+		"Shreve"
+		"Sykes"
+		"Taumen"
+		"Thiel"
+		"Toriun"
+		"Tullier"
+		"Valleau"
+		"Veseur"
+		"Yanger"
+		"Zenden"
 	}
 	
 	cadet_dynasty_names = dynasty_names
@@ -57,46 +57,46 @@
 name_list_brelish = {
 
 	dynasty_names = {
-		{"ir'" "Clarn"}
-		{"ir'" "Lantar"}
-		{"ir'" "Laisha"}
-		{"ir'" "Tyran"}
-		{"ir'" "Tonn"}
-		{"ir'" "Zarna"}
-		{"ir'" "Marasha"}
-		{"ir'" "Tain"}
-		{"ir'" "Tunt"}
-		{"ir'" "Demell"}
-		{"ir'" "Talan"}
-		{"ir'" "Kavay"}
-		{"ir'" "Dain"}
-		{"ir'" "Moran"}
-		{"ir'" "Tarrn"}
-		{"ir'" "Thadian"}
-		{"ir'" "Morgrave"}
-		{"ir'" "Aggan"}
-		{"ir'" "Bakker"}
-		{"ir'" "Colworn"}
-		{"ir'" "Devir"}
-		{"ir'" "Ebinor"}
-		{"ir'" "Faldren"}
-		{"ir'" "Graccen"}
-		{"ir'" "Helmworth"}
-		{"ir'" "Jonz"}
-		{"ir'" "Kemble"}
-		{"ir'" "Lanner"}
-		{"ir'" "Lonn"}
-		{"ir'" "Makker"}
-		{"ir'" "Morrus"}
-		{"ir'" "Nelview"}
-		{"ir'" "Perryn"}
-		{"ir'" "Riston"}
-		{"ir'" "Roole"}
-		{"ir'" "Smyth"}
-		{"ir'" "Snarik"}
-		{"ir'" "Thorn"}
-		{"ir'" "Toppe"}
-		{"ir'" "Wrighten"}
+		"Clarn"
+		"Lantar"
+		"Laisha"
+		"Tyran"
+		"Tonn"
+		"Zarna"
+		"Marasha"
+		"Tain"
+		"Tunt"
+		"Demell"
+		"Talan"
+		"Kavay"
+		"Dain"
+		"Moran"
+		"Tarrn"
+		"Thadian"
+		"Morgrave"
+		"Aggan"
+		"Bakker"
+		"Colworn"
+		"Devir"
+		"Ebinor"
+		"Faldren"
+		"Graccen"
+		"Helmworth"
+		"Jonz"
+		"Kemble"
+		"Lanner"
+		"Lonn"
+		"Makker"
+		"Morrus"
+		"Nelview"
+		"Perryn"
+		"Riston"
+		"Roole"
+		"Smyth"
+		"Snarik"
+		"Thorn"
+		"Toppe"
+		"Wrighten"
 	}
 	
 	cadet_dynasty_names = dynasty_names
@@ -109,45 +109,45 @@ name_list_brelish = {
 name_list_karrn = {
 	
 	dynasty_names = {
-		{"ir'" "Hatar"}
-		{"ir'" "Vardikk"}
-		{"ir'" "Kantarros"}
-		{"ir'" "Tennet"}
-		{"ir'" "Omik"}
-		{"ir'" "Altaner"}
-		{"ir'" "Argland"}
-		{"ir'" "Balich"}
-		{"ir'" "Barthus"}
-		{"ir'" "Brand"}
-		{"ir'" "Cerfas"}
-		{"ir'" "Denka"}
-		{"ir'" "Dorn"}
-		{"ir'" "Erdei"}
-		{"ir'" "Eschus"}
-		{"ir'" "Furnau"}
-		{"ir'" "Gaebler"}
-		{"ir'" "Gergus"}
-		{"ir'" "Grogloth"}
-		{"ir'" "Hellekanus"}
-		{"ir'" "Hintram"}
-		{"ir'" "Jaranus"}
-		{"ir'" "Karlach"}
-		{"ir'" "Kessler"}
-		{"ir'" "Kraal"}
-		{"ir'" "Lassinus"}
-		{"ir'" "Losho"}
-		{"ir'" "Maerer"}
-		{"ir'" "Ochem"}
-		{"ir'" "Rangoth"}
-		{"ir'" "Roerith"}
-		{"ir'" "Sattler"}
-		{"ir'" "Senglin"}
-		{"ir'" "Taggert"}
-		{"ir'" "Thul"}
-		{"ir'" "Trothut"}
-		{"ir'" "Vanalan"}
-		{"ir'" "Vedenin"}
-		{"ir'" "Zecklin"}
+		"Hatar"
+		"Vardikk"
+		"Kantarros"
+		"Tennet"
+		"Omik"
+		"Altaner"
+		"Argland"
+		"Balich"
+		"Barthus"
+		"Brand"
+		"Cerfas"
+		"Denka"
+		"Dorn"
+		"Erdei"
+		"Eschus"
+		"Furnau"
+		"Gaebler"
+		"Gergus"
+		"Grogloth"
+		"Hellekanus"
+		"Hintram"
+		"Jaranus"
+		"Karlach"
+		"Kessler"
+		"Kraal"
+		"Lassinus"
+		"Losho"
+		"Maerer"
+		"Ochem"
+		"Rangoth"
+		"Roerith"
+		"Sattler"
+		"Senglin"
+		"Taggert"
+		"Thul"
+		"Trothut"
+		"Vanalan"
+		"Vedenin"
+		"Zecklin"
 	}
 	
 	cadet_dynasty_names = dynasty_names
@@ -160,34 +160,34 @@ name_list_karrn = {
 name_list_thrane = {
 	
 	dynasty_names = {
-		{"ir'" "Damilek"}
-		{"ir'" "Mallon"}
-		{"ir'" "Aeyliros"}
-		{"ir'" "Askarda"}
-		{"ir'" "Atrelioth"}
-		{"ir'" "Corliostor"}
-		{"ir'" "Corus"}
-		{"ir'" "Deskane"}
-		{"ir'" "Drosin"}
-		{"ir'" "Entarro"}
-		{"ir'" "Eskeliendro"}
-		{"ir'" "Ghastor"}
-		{"ir'" "Hetrion"}
-		{"ir'" "Imaradi"}
-		{"ir'" "Irvallo"}
-		{"ir'" "Karavastar"}
-		{"ir'" "Krayci"}
-		{"ir'" "Lerendazi"}
-		{"ir'" "Marktaros"}
-		{"ir'" "Neskus"}
-		{"ir'" "Ovion"}
-		{"ir'" "Ravadanci"}
-		{"ir'" "Sarhain"}
-		{"ir'" "Talandro"}
-		{"ir'" "Tarravan"}
-		{"ir'" "Teskelyndros"}
-		{"ir'" "Vanatar"}
-		{"ir'" "Vasiraghi"}
+		"Damilek"
+		"Mallon"
+		"Aeyliros"
+		"Askarda"
+		"Atrelioth"
+		"Corliostor"
+		"Corus"
+		"Deskane"
+		"Drosin"
+		"Entarro"
+		"Eskeliendro"
+		"Ghastor"
+		"Hetrion"
+		"Imaradi"
+		"Irvallo"
+		"Karavastar"
+		"Krayci"
+		"Lerendazi"
+		"Marktaros"
+		"Neskus"
+		"Ovion"
+		"Ravadanci"
+		"Sarhain"
+		"Talandro"
+		"Tarravan"
+		"Teskelyndros"
+		"Vanatar"
+		"Vasiraghi"
 	}
 	
 	cadet_dynasty_names = dynasty_names

@@ -1,0 +1,52 @@
+dynn_solaen = {
+	name = "Solaen"
+	culture = aereni
+}
+dynn_vol = {
+	name = "Vol"
+	culture = aereni
+}
+dynn_mendyrian = {
+	name = "Mendyrian"
+	culture = aereni
+}
+dynn_tolaen = {
+	name = "Tolaen"
+	culture = aereni
+}
+dynn_melideth = {
+	name = "Melideth"
+	culture = aereni
+}
+dynn_mol = {
+	name = "Mol"
+	culture = aereni
+}
+dynn_alotenthi = {
+	name = "Alotenthi"
+	culture = aereni
+}
+dynn_jholyr = {
+	name = "Jholyr"
+	culture = aereni
+}
+dynn_jhaelian = {
+	name = "Jhaelian"
+	culture = aereni
+}
+dynn_tolarenthi = {
+	name = "Tolarenthi"
+	culture = aereni
+}
+dynn_liadon = {
+	name = "Liadon"
+	culture = aereni
+}
+dynn_lantol = {
+	name = "Lantol"
+	culture = aereni
+}
+dynn_alaraen = {
+	name = "Alaraen"
+	culture = aereni
+}

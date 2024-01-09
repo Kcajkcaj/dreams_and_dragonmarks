@@ -21,7 +21,7 @@ dungeon_delve_opportunity.0100 = { # Ancient Altar
 	
 	option = {
 		name = opportunity.0100.steal
-		add_gold = 100
+		add_gold = depth_dependent_gold
 		add_character_modifier = ancient_curse
 	}
 	
@@ -113,7 +113,7 @@ dungeon_delve_opportunity.0300 = { # Alchemy table
 				value >= 10
 			}
 		}
-		add_gold = 100
+		add_gold = depth_dependent_gold
 		add_stress = spell_stress_cost
 	}
 	
@@ -149,7 +149,7 @@ dungeon_delve_opportunity.0400 = { # Locked chest
 					value = scope:duel_value
 					multiplier = 1
 				}
-				add_gold = 80
+				add_gold = depth_dependent_gold
 			}
 		}
 	}
@@ -167,7 +167,7 @@ dungeon_delve_opportunity.0400 = { # Locked chest
 					value = scope:duel_value
 					multiplier = 1
 				}
-				add_gold = 80
+				add_gold = depth_dependent_gold
 			}
 		}
 	}

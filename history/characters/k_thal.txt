@@ -1,3 +1,14 @@
+sarelo_taumen = {
+	name = "Sarelo"
+	culture = thal
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_thaliost_taumen
+	
+	3311.1.1 = {birth = yes}
+	3372.7.14 = {death = yes}
+}
+
 aurad_taumen = {
 	name = "Aurad"
 	culture = thal
@@ -5,8 +16,59 @@ aurad_taumen = {
 	female = no
 	dynasty = dynn_thaliost_taumen
 	
+	father = sarelo_taumen
+	
 	3332.8.16 = {birth = yes}
 	3394.2.13 = {death = yes}
+}
+
+esravash_taumen = {
+	name = "Esravash"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	father = sarelo_taumen
+	
+	3343.12.20 = {birth = yes}
+	3396.7.11 = {death = yes}
+}
+
+baltia_taumen = {
+	name = "Baltia"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	mother = esravash_taumen
+	
+	3372.6.5 = {birth = yes}
+}
+
+hazel_taumen = {
+	name = "Hazel"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	mother = esravash_taumen
+	
+	3374.3.12 = {birth = yes}
+}
+
+rurin_taumen = {
+	name = "Rurin"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	mother = esravash_taumen
+	
+	3377.10.14 = {birth = yes}
 }
 
 juliona_taumen = {
@@ -21,6 +83,42 @@ juliona_taumen = {
 	3355.11.18 = {birth = yes}
 }
 
+austasia_taumen = {
+	name = "Austasia"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	mother = juliona_taumen
+	
+	3385.11.15 = {birth = yes}
+}
+
+barvette_taumen = {
+	name = "Barvette"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	mother = juliona_taumen
+	
+	3387.3.15 = {birth = yes}
+}
+
+sasik_taumen = {
+	name = "Sasik"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	mother = juliona_taumen
+	
+	3389.12.5 = {birth = yes}
+}
+
 vilina_taumen = {
 	name = "Vilina"
 	culture = thal
@@ -31,6 +129,30 @@ vilina_taumen = {
 	father = aurad_taumen
 	
 	3357.10.6 = {birth = yes}
+}
+
+raulo_taumen = {
+	name = "Raulo"
+	culture = thal
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_thaliost_taumen
+	
+	mother = vilina_taumen
+	
+	3386.2.18 = {birth = yes}
+}
+
+gavrin_taumen = {
+	name = "Gavrin"
+	culture = thal
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_thaliost_taumen
+	
+	mother = vilina_taumen
+	
+	3388.2.10 = {birth = yes}
 }
 
 mathas_taumen = {
@@ -45,6 +167,30 @@ mathas_taumen = {
 	3358.5.10 = {birth = yes}
 }
 
+hjeltia_taumen = {
+	name = "Hjeltia"
+	culture = thal
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_thaliost_taumen
+	
+	father = mathas_taumen
+	
+	3383.2.18 = {birth = yes}
+}
+
+erben_taumen = {
+	name = "Erben"
+	culture = thal
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_thaliost_taumen
+	
+	father = mathas_taumen
+	
+	3385.4.14 = {birth = yes}
+}
+
 jurian_haldron = {
 	name = "Jurian"
 	culture = thal
@@ -54,4 +200,15 @@ jurian_haldron = {
 	dynasty = dynn_thaliost_haldron
 	
 	3375.5.18 = {birth = yes}
+}
+
+gwyon_bronzehoof = {
+	name = "Gwyon"
+	culture = kaandar
+	faith = gnarled_ones
+	female = no
+	
+	dynasty = dynn_thaliost_bronzehoof
+	
+	3363.9.4 = {birth = yes}
 }

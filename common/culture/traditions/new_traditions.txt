@@ -218,7 +218,6 @@ tradition_clan_connections = {
 	character_modifier = {
 		dynasty_opinion = 20
 		vassal_opinion = -20
-		monthly_dynasty_prestige_mult = 0.5
 		monthly_prestige_gain_mult = -0.3
 		happy_powerful_vassal_tax_contribution_mult = 0.25
 		happy_powerful_vassal_levy_contribution_mult = 0.25

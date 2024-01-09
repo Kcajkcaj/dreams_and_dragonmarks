@@ -23,3 +23,17 @@ hag = {
 	flag = blocks_getting_non_epidemic_disease
 	flag = immortal_cravings
 }
+
+undying = {
+	immortal = yes
+	physical = yes
+	monthly_lifestyle_xp_gain_mult = -0.75
+	general_opinion = -10
+	same_faith_opinion = 20
+	can_have_children = no
+	martial = 3
+	learning = 3
+	intrigue = -1
+	flag = blocks_getting_non_epidemic_disease
+	flag = immortal_cravings
+}

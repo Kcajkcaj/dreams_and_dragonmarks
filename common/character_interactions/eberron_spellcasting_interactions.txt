@@ -135,3 +135,37 @@ feeblemind_spell = {
 		}
 	}
 }
+
+friends_spell = {
+	icon = icon_scheme_learn_language
+	category = interaction_category_spellcasting
+	
+	use_diplomatic_range = yes
+	auto_accept = yes
+	
+	cooldown = {months = spell_cooldown_time}
+	
+	is_shown = {
+		NOT = { scope:recipient = scope:actor }
+		scope:actor = {has_perk = friends_perk}
+	}
+	
+	is_valid = {
+		not = {scope:recipient = {has_trait_xp = {trait = mage track = abjuration value >= 30}}}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_opinion = {
+				target = scope:actor
+				modifier = friendliness_opinion
+				opinion = 20
+			}
+			progress_towards_rival_effect = {
+				REASON = friends_spell
+				CHARACTER = scope:actor
+				OPINION = 0
+			}
+		}
+	}
+}

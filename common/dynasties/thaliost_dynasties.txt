@@ -1,0 +1,12 @@
+dynn_thaliost_taumen = {
+	name = "Taumen"
+	culture = thal
+}
+dynn_thaliost_haldron = {
+	name = "Haldron"
+	culture = thal
+}
+dynn_thaliost_bronzehoof = {
+	name = "Bronzehoof"
+	culture = kaandar
+}

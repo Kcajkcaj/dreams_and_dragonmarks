@@ -1,0 +1,4 @@
+dynn_daskaran_askarda= {
+	name = "Askarda"
+	culture = daskaran
+}

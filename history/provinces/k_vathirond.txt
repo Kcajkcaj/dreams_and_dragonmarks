@@ -173,7 +173,7 @@
 ### Greenhaunt
 238 = {
 	culture = branchfolk
-	faith = norse_pagan
+	faith = gatekeeper
 	holding = tribal_holding
 }
 239 = {holding = none}

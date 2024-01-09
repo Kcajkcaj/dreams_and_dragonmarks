@@ -1,7 +1,7 @@
 khalar_tharashk = {
 	name = "Khalar"
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	female = no
 	dynasty = dynn_tharashk
 	
@@ -102,7 +102,7 @@ vaalda_tharashk = {
 torrn_tharashk = {
 	name = "Torrn"
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	female = no
 	dynasty = dynn_tharashk
 	
@@ -121,7 +121,7 @@ torrn_tharashk = {
 torruk_tharashk = {
 	name = "Torruk"
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	female = no
 	dynasty = dynn_tharashk
 	
@@ -142,7 +142,7 @@ torruk_tharashk = {
 brokaa_tharashk = {
 	name = "Brokaa"
 	culture = azhani
-	faith = norse_pagan
+	faith = gatekeeper
 	female = yes
 	dynasty = dynn_tharashk
 	

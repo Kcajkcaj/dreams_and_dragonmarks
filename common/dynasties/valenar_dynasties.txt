@@ -1,0 +1,9 @@
+dynn_valenar_irvallo = {
+	name = "Irvallo"
+	culture = khunanite
+}
+
+dynn_valenar_tarravan = {
+	name = "Tarravan"
+	culture = khunanite
+}

@@ -212,28 +212,28 @@
 ### HP-A
 335 = {
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	holding = tribal_holding
 }
 336 = {holding = none}
 ### HP-B
 337 = {
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	holding = tribal_holding
 }
 338 = {holding = none}
 ### HP-C
 339 = {
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	holding = tribal_holding
 }
 340 = {holding = none}
 ### HP-D
 341 = {
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	holding = tribal_holding
 }
 342 = {holding = none}
@@ -241,7 +241,7 @@
 ### HP-E
 344 = {
 	culture = irmolik
-	faith = ashari
+	faith = iredar
 	holding = tribal_holding
 }
 345 = {holding = none}

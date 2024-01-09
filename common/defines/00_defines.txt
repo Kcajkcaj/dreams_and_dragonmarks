@@ -230,7 +230,7 @@ NCharacter = {
 	MINIMUM_TIER_FOR_REGNAL_NUMBERING = 2	# What tier does someone have to be in order to use regnal numbering? 1 is baron, 5 is emperor
 	
 	PERCENTAGE_HOMOSEXUAL = 5.0				# chance (0-100%) of a randomly created character being homosexual
-	PERCENTAGE_BISEXUAL = 15.0				# chance (0-100%) of a randomly created character being bisexual
+	PERCENTAGE_BISEXUAL = 20.0				# chance (0-100%) of a randomly created character being bisexual
 	PERCENTAGE_ASEXUAL = 1.0				# chance (0-100%) of a randomly created character being asexual
 
 	DESIGNATE_HEIR_DISPLAY_COST = 1000	# Prestige cost for designating heir. Actual cost is handled by the scripter interaction 'designate_heir'
@@ -257,9 +257,9 @@ NCharacter = {
 }
 
 NOldAge = {
-	LOWER_HEALTH_START_AGE = 25 # At this age characters start getting the chance to lose health each year
-	LOWER_HEALTH_BASE_CHANCE = 0.075 # This is the base chance of losing health at the START_AGE
-	LOWER_HEALTH_YEARLY_INCREASE = 0.022 # This is the yearly increase of the chance to lose health
+	LOWER_HEALTH_START_AGE = 30 # At this age characters start getting the chance to lose health each year
+	LOWER_HEALTH_BASE_CHANCE = 0.1 # This is the base chance of losing health at the START_AGE
+	LOWER_HEALTH_YEARLY_INCREASE = 0.025 # This is the yearly increase of the chance to lose health
 	LOWER_HEALTH_AMOUNT = -0.125 # This is the health change on each failed yearly health roll
 	HEALTH_PENALTY_PER_YEAR_IN_POOL = 0.1 # For each year in the pool, your effective health is this much lower. This disappears entirely when you leave the pool
 	
@@ -284,7 +284,7 @@ NChildbirth = {
 	MIN_FEMALE_REPRODUCTION_AGE = 16
 	MAX_FEMALE_REPRODUCTION_AGE = 45
 	MIN_MALE_REPRODUCTION_AGE = 16
-	BASE_NR_OF_CHILDREN_PER_COUPLE = { 2 2 3 4 5 5 } # Based on tier of character or parents; whichever is higher Unlanded, Baron, Count, ..., Emperor
+	BASE_NR_OF_CHILDREN_PER_COUPLE = { 3 3 4 4 5 5 } # Based on tier of character or parents; whichever is higher Unlanded, Baron, Count, ..., Emperor
 	CHANCE_OF_LOWERED_CHILD_LIMIT = 0.5	# Chance that the child limit is lowered by 1
 	EXTRA_CHILDREN_FOR_RULERS = 1 # If either character is a ruler, they get extra children
 	CHARACTER_IN_POOL_CHILD_LIMIT = -1	# If in the pool, child limit is modified by this
@@ -312,7 +312,7 @@ NChildbirth = {
 	IDENTICAL_TWIN_CHANCE = 0.013
 	PREGNANCY_DAYS = 280
 	DAYS_TO_PREGNANCY_REVEAL = 60
-	FEMALE_CHANCE = 49
+	FEMALE_CHANCE = 55
 	NEWBORN_HEALTH_BASE = 4.5
 	NEWBORN_HEALTH_SPAN = 0.5
 	NEWBORN_HEALTH_FEMALE_BONUS = 0.5
@@ -431,16 +431,16 @@ NCharacterOpinion = {
 
 	POWERFUL_VASSAL_WITHOUT_COUNCIL_POSITION = -40
 
-	IS_ON_THE_COUNCIL = 10
+	IS_ON_THE_COUNCIL = 15
 
 	DOMAIN_OVERRUN = 10
 
 	VIRTUOUS_TRAIT = 10
 	SINFUL_TRAIT = -10
 
-	DE_JURE_COUNTY = -25
-	DE_JURE_DUCHY = -25
-	DE_JURE_KINGDOM = -30
+	DE_JURE_COUNTY = -15
+	DE_JURE_DUCHY = -15
+	DE_JURE_KINGDOM = -20
 	EMPIRE_IS_VALID_DE_JURE_LIEGE_FOR_DUCHY = yes 		# Dukes won't be upset as the vassal of their dejure emperor
 	PARTIALLY_NON_RIGHTFUL_LIEGE_TAX_MULT = 0.75 		# Tax mult when partially non-rightful liege (liege doesn't hold dejure liege title of the vassal's primary, or empire for a duke if EMPIRE_IS_VALID_DE_JURE_LIEGE_FOR_DUCHY)
 	PARTIALLY_NON_RIGHTFUL_LIEGE_LEVY_MULT = 0.75 		# Tax mult when partially non-rightful liege
@@ -455,8 +455,8 @@ NCharacterOpinion = {
 	VASSAL_SIZE_ANGER_MIN = -5								# Opinion penalty applied at exact threshold
 	VASSAL_SIZE_ANGER_MULT = -100							# Opinion penalty applied for going 100 percentage points over the threshold (impossible unless the threshold is 0, but makes for simple math)
 
-	PREDECESSOR_OPINION_SCALE_POSITIVE = 0.25			# How we scale the current opinion if positive for calculating predecessor opinion
-	PREDECESSOR_OPINION_SCALE_NEGATIVE = 0.5			# How we scale the current opinion if negative for calculating predecessor opinion
+	PREDECESSOR_OPINION_SCALE_POSITIVE = 0.2			# How we scale the current opinion if positive for calculating predecessor opinion
+	PREDECESSOR_OPINION_SCALE_NEGATIVE = 0.6			# How we scale the current opinion if negative for calculating predecessor opinion
 
 	ACTIVE_ACCLAIMED_KNIGHT = 15						# Opinion bonus for making someone the Acclaimed Knight of an active Accolade
 }
@@ -644,7 +644,7 @@ NScheme = {
 
 NPowerfulVassal = {
 	# The number of vassals that are considered 'powerful' depending on the primary title tier (unlanded, baron, count, duke, king, emperor)
-	NUM_PER_TIER = { 0 0 3 4 5 5 }
+	NUM_PER_TIER = { 0 0 3 4 5 6 }
 
 	# To calculate the value (rank):
 	VALUE_FACTOR = 1.25					# Rubber banding value for current powerful vassals
@@ -868,7 +868,7 @@ NDynasty = {
 	CURRENT_DYNAST_EXTRA_POWER = 0.1		# For determining who should by dynast, the current dynast is considered to be this much more powerful than reality so that it doesn't bounce back and forth. 0.1 means 10%
 
 	NAMING_CHANCE_CULTURE = 25
-	NAMING_CHANCE_TITLE = 50
+	NAMING_CHANCE_TITLE = 0
 
 	CADET_COA_BASE_PATTERN = "pattern_solid.dds" # Pattern used for in the background of a tiled cadet branch CoA
 
@@ -1048,16 +1048,16 @@ NCourt = {
 	# Characters will be spawned at game start and on succession, if no matching characters are available.
 	GENERATED_SPOUSES_BARONY_PER_HOLDING_KEYS = { "castle_holding" }
 	GENERATED_SPOUSES_BARONY_PER_HOLDING_VALUES = { 1 }
-	GENERATED_SPOUSES_COUNTY = 1
-	GENERATED_SPOUSES_DUCHY = 1
-	GENERATED_SPOUSES_KINGDOM = 2
-	GENERATED_SPOUSES_EMPIRE = 2
+	GENERATED_SPOUSES_COUNTY = 2
+	GENERATED_SPOUSES_DUCHY = 2
+	GENERATED_SPOUSES_KINGDOM = 3
+	GENERATED_SPOUSES_EMPIRE = 4
 	GENERATED_COMMANDERS_BARONY_PER_HOLDING_KEYS = {}
 	GENERATED_COMMANDERS_BARONY_PER_HOLDING_VALUES = {}
-	GENERATED_COMMANDERS_COUNTY = 1
-	GENERATED_COMMANDERS_DUCHY = 1
-	GENERATED_COMMANDERS_KINGDOM = 2
-	GENERATED_COMMANDERS_EMPIRE = 2
+	GENERATED_COMMANDERS_COUNTY = 2
+	GENERATED_COMMANDERS_DUCHY = 2
+	GENERATED_COMMANDERS_KINGDOM = 3
+	GENERATED_COMMANDERS_EMPIRE = 4
 
 	# When a courtier has decided to leave, they will stay this much longer to give the liege the opportunity to make them stay
 	COURTIER_MOVE_TO_POOL_DELAY_MONTHS = 2
@@ -1069,7 +1069,7 @@ NCourt = {
 	GUEST_MOVE_TO_POOL_DELAY_MONTHS = 2
 
 	# Maximum number of adult courtiers and guests, per ruler tier. While it won't throw anyone out if the limit is exceeded, no new guests will arrive while at or above the cap. See also: MIN_GUESTS_PER_TIER.
-	MAX_COURTIERS_AND_GUESTS_PER_TIER = { 0 0 6 8 12 20 }
+	MAX_COURTIERS_AND_GUESTS_PER_TIER = { 0 0 10 12 16 20 }
 	# Minimum number of adult guests, per ruler tier. Overrides MAX_COURTIERS_AND_GUESTS_PER_TIER to make sure there are always some guests even if the courtiers have reached the cap.
 	MIN_GUESTS_PER_TIER = { 0 0 1 1 2 3 }
 
@@ -1292,7 +1292,7 @@ NRoyalCourt = {
 	MIN_MONTHS_BETWEEN_COURT_EVENTS = 48 # How many months must pass at a minimum before a new court can be triggered/added as pending
 	RANDOM_MONTHS_BETWEEN_COURT_EVENTS = 16 # Random extra months that must pass before a new court event can be triggered/added as pending
 	MAX_NUM_PENDING_COURT_EVENTS = 3 # How many court events can be added and pending to be triggered
-	MONTHS_FOR_ABSENT_FROM_COURT = 120 # How many months must you have not visited your court to be considered absent
+	MONTHS_FOR_ABSENT_FROM_COURT = 180 # How many months must you have not visited your court to be considered absent
 }
 
 NInspiration = {

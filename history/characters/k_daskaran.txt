@@ -1,19 +1,19 @@
-calemi_vasiraghi = {
+calemi_askarda = {
 	name = "Calemi"
 	culture = daskaran
 	faith = frontier_creed
 	female = no
-	dynasty = dynn_daskaran_vasiraghi
+	dynasty = dynn_daskaran_askarda
 	
 	3361.8.20 = {birth = yes}
 }
 
-egen_askarda = {
+egen_vasiraghi = {
 	name = "Egen"
 	culture = daskaran
 	faith = frontier_creed
 	female = no
-	dynasty = dynn_daskaran_vasiraghi
+	dynasty = dynn_dasakran_vasiraghi
 	
 	3363.9.4 = {birth = yes}
 }

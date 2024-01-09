@@ -1,0 +1,506 @@
+helaeras_mendyrian = {
+	name = "Halaeras"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_mendyrian
+	
+	trait = pure_blooded
+	
+	3311.1.19 = {birth = yes}
+	3369.8.3 = {death = yes}
+}
+
+etrigani_mendyrian = {
+	name = "Etrigani"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_mendyrian
+	father = helaeras_mendyrian
+	
+	trait = pure_blooded
+	
+	3343.9.11 = {birth = yes}
+	3398.2.1 = {death = yes}
+}
+
+varaendyr_mendyrian = {
+	name = "Varaendyr"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_mendyrian
+	father = helaeras_mendyrian
+	
+	trait = pure_blooded
+	
+	3352.8.12 = {birth = yes}
+	3381.2.12 = {add_matrilineal_spouse = etrigani_mendyrian}
+	3405.6.3 = {death = yes}
+}
+
+balareth_mendyrian = {
+	name = "Balareth"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_mendyrian
+	father = varaendyr_mendyrian
+	mother = etrigani_mendyrian
+	
+	trait = twin
+	trait = pure_blooded
+	
+	3383.5.7 = {birth = yes}
+	3402.1.1 = {add_spouse = tezaera_mendyrian}
+}
+
+tezaera_mendyrian = {
+	name = "Tezaera"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_mendyrian
+	father = varaendyr_mendyrian
+	mother = etrigani_mendyrian
+	
+	trait = twin
+	trait = pure_blooded
+	
+	3383.5.7 = {birth = yes}
+}
+
+laucian_mendyrian = {
+	name = "Laucian"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_mendyrian
+	father = varaendyr_mendyrian
+	mother = etrigani_mendyrian
+	
+	trait = pure_blooded
+	
+	3389.5.4 = {birth = yes}
+}
+
+dayne_solaen = {
+	name = "Dayne"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_solaen
+	
+	3351.3.6 = {birth = yes}
+}
+
+serandis_solaen = {
+	name = "Serandis"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_solaen
+	
+	father = dayne_solaen
+	
+	3381.4.11 = {birth = yes}
+	3400.1.1 = {add_matrilineal_spouse = mazareth_solaen}
+}
+
+mazareth_solaen = {
+	name = "Mazareth"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_solaen
+	
+	father = dayne_solaen
+	
+	3383.8.7 = {birth = yes}
+}
+
+mialee_tolaen = {
+	name = "Mialee"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_tolaen
+	
+	3361.3.4 = {birth = yes}
+	3405.7.18 = {death = yes}
+}
+
+erandis_tolaen = {
+	name = "Erandis"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_tolaen
+	
+	mother = mialee_tolaen
+	
+	3393.12.2 = {birth = yes}
+}
+
+thaera_tolaen = {
+	name = "Thaera"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_tolaen
+	
+	mother = mialee_tolaen
+	
+	3395.5.6 = {birth = yes}
+}
+
+xanaphia_tolaen = {
+	name = "Xanaphia"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_tolaen
+	
+	mother = mialee_tolaen
+	
+	3397.11.6 = {birth = yes}
+}
+
+mazalira_melideth = {
+	name = "Mazalira"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_melideth
+	
+	3390.2.12 = {birth = yes}
+}
+
+ashaelyn_jholyr = {
+	name = "Ashaelyn"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_jholyr
+	
+	trait = undying
+	
+	2919.11.11 = {birth = yes}
+	3000.1.1 = {
+		effect = {
+			set_immortal_age = 30
+		}
+	}
+}
+
+varonen_jhaelian = {
+	name = "Varonen"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_jhaelian
+	
+	trait = planetouched_dolurrh
+	
+	3353.11.20 = {birth = yes}
+	3411.9.11 = {death = yes}
+}
+
+shaeras_jhaelian = {
+	name = "Shaeras"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_jhaelian
+	
+	father = varonen_jhaelian
+	
+	trait = planetouched_dolurrh
+	
+	3380.12.10 = {birth = yes}
+	3411.9.12 = {add_concubine = jhaelian_concubine_1}
+	3411.9.13 = {add_concubine = jhaelian_concubine_2}
+	3411.9.14 = {add_concubine = jhaelian_concubine_3}
+	3411.9.15 = {add_concubine = jhaelian_concubine_4}
+	3411.9.16 = {add_concubine = jhaelian_concubine_5}
+}
+
+ielenia_jhaelian = {
+	name = "Ielenia"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_jhaelian
+	
+	father = varonen_jhaelian
+	
+	trait = planetouched_dolurrh
+	
+	3382.1.14 = {birth = yes}
+	3400.1.1 = {add_matrilineal_spouse = shaeras_jhaelian}
+}
+
+jhaelian_concubine_1 = {
+	name = "Saeria"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	
+	trait = education_diplomacy_3
+	trait = beauty_good_3
+	
+	3391.4.19 = {birth = yes}
+}
+
+jhaelian_concubine_2 = {
+	name = "Anastrianna"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	
+	trait = education_intrigue_3
+	trait = beauty_good_3
+	
+	3392.9.6 = {birth = yes}
+}
+
+jhaelian_concubine_3 = {
+	name = "Eliri"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	
+	trait = education_stewardship_3
+	trait = intellect_good_2
+	trait = beauty_good_1
+	
+	3393.9.3 = {birth = yes}
+}
+
+jhaelian_concubine_4 = {
+	name = "Aeren"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	
+	trait = education_martial_3
+	trait = physique_good_2
+	trait = beauty_good_1
+	
+	3394.4.12 = {birth = yes}
+}
+
+jhaelian_concubine_5 = {
+	name = "Riala"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	
+	trait = education_learning_3
+	trait = intellect_good_2
+	trait = beauty_good_1
+	
+	3395.4.20 = {birth = yes}
+}
+
+enialis_mol = {
+	name = "Tolan"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_mol
+	
+	3341.1.14 = {birth = yes}
+	3394.7.20 = {death = yes}
+}
+
+tolan_mol = {
+	name = "Tolan"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_mol
+	
+	father = enialis_mol
+	
+	3364.5.22 = {birth = yes}
+}
+
+heian_mol = {
+	name = "Heian"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_mol
+	
+	father = enialis_mol
+	
+	3366.12.15 = {birth = yes}
+}
+
+carden_mol = {
+	name = "Carden"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_mol
+	
+	3368.7.8 = {birth = yes}
+}
+
+jhalira_alotenthi = {
+	name = "Jhalira"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_alotenthi
+	
+	3385.10.8 = {birth = yes}
+}
+
+fallarond_lantol = {
+	name = "Fallarond"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_lantol
+	
+	3376.7.11 = {birth = yes}
+}
+
+vadallia_alaraen = {
+	name = "Vadallia"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_alaraen
+	
+	3369.7.8 = {birth = yes}
+}
+
+laeren_tolarenthi = {
+	name = "Laeren"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_tolarenthi
+	
+	3365.5.17 = {birth = yes}
+}
+
+maeran_tolarenthi = {
+	name = "Maeran"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_tolarenthi
+	
+	mother = laeren_tolarenthi
+	
+	3387.11.9 = {birth = yes}
+}
+
+eliri_tolarenthi = {
+	name = "Eliri"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_tolarenthi
+	
+	mother = laeren_tolarenthi
+	
+	3389.4.6 = {birth = yes}
+}
+
+valanthe_tolarenthi = {
+	name = "Valanthe"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_tolarenthi
+	
+	mother = laeren_tolarenthi
+	
+	3391.7.17 = {birth = yes}
+}
+
+himo_tolarenthi = {
+	name = "Himo"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_tolarenthi
+	
+	mother = laeren_tolarenthi
+	
+	3393.5.5 = {birth = yes}
+}
+
+minaera_liadon = {
+	name = "Minaera"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_liadon
+	
+	trait = beauty_good_1
+	trait = physique_good_1
+	trait = intellect_good_1
+	trait = planetouched_irian
+	
+	3371.5.23 = {birth = yes}
+	3404.1.8 = {death = yes}
+}
+
+quarion_liadon = {
+	name = "Quarion"
+	culture = aereni
+	faith = undying_court
+	female = no
+	dynasty = dynn_liadon
+	
+	mother = minaera_liadon
+	
+	trait = twin
+	trait = albino
+	trait = mage
+	trait = lifestyle_blademaster
+	trait = education_martial_3
+	trait = beauty_good_1
+	trait = physique_good_1
+	trait = intellect_good_1
+	trait = planetouched_irian
+	
+	trait = fierce
+	trait = brave
+	trait = ambitious
+	trait = inquisitive
+	
+	3395.6.7 = {birth = yes}
+	3413.1.1 = {add_matrilineal_spouse = riala_liadon}
+}
+
+riala_liadon = {
+	name = "Riala"
+	culture = aereni
+	faith = undying_court
+	female = yes
+	dynasty = dynn_liadon
+	
+	mother = minaera_liadon
+	
+	trait = twin
+	trait = mage
+	trait = beauty_good_1
+	trait = physique_good_1
+	trait = intellect_good_1
+	trait = education_intrigue_3
+	
+	trait = beauty_good_1
+	trait = physique_good_1
+	trait = intellect_good_1
+	trait = planetouched_irian
+	
+	3395.6.7 = {birth = yes}
+}

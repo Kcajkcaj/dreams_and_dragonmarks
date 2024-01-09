@@ -154,7 +154,6 @@ dungeon_delve_hazard.0300 = { # Toxic, flammable gas
 		dungeoneering_skill_increase = yes
 		involved_activity = {
 			random_attending_character = {
-				limit = {not = {root = this}}
 				increase_wounds_effect = { REASON = fall }
 			}
 		}
@@ -233,11 +232,11 @@ dungeon_delve_hazard.0400 = { # Locked door
 	
 	option = {
 		name = hazard.0400.break_it_down
+		add_stress = exertion_stress_cost
 		duel = {
 			skill = prowess
 			value = 8
 			5 = { # failure
-				add_stress = exertion_stress_cost
 			}
 			5 = { # Success
 				compare_modifier = {
@@ -284,6 +283,24 @@ dungeon_delve_hazard.0500 = { # Blocked by rubble
 	weight_multiplier = {
 		base = 1
 	}
+
+	option = {
+		name = hazard.0500.clear_rubble
+		add_stress = exertion_stress_cost
+		duel = {
+			skill = prowess
+			value = 10
+			5 = { # failure
+			}
+			5 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+				dungeon_delve_minor_progress = yes
+			}
+		}
+	}
 	
 	option = {
 		name = hazard.backtrack
@@ -302,13 +319,48 @@ dungeon_delve_hazard.0600 = { # Visibly unstable ground
 	weight_multiplier = {
 		base = 1
 	}
+
+	option = {
+		name = hazard.0600.balance
+		duel = {
+			skills = {prowess intrigue}
+			value = 10
+			5 = { # failure
+			}
+			5 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+				dungeon_delve_minor_progress = yes
+			}
+		}
+	}
+
+	option = {
+		name = hazard.0600.jump
+		duel = {
+			skill = prowess
+			value = 10
+			5 = { # failure
+				increase_wounds_effect = { REASON = fall }
+			}
+			5 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+				dungeon_delve_major_progress = yes
+			}
+		}
+	}
 	
 	option = {
 		name = hazard.backtrack
 	}
 }
 
-dungeon_delve_hazard.0700 = { # Brown mold
+dungeon_delve_hazard.0700 = { # Brown/Yellow Mold
 	type = activity_event
 	title = hazard.0700.t
 	desc = hazard.0700.desc
@@ -319,6 +371,53 @@ dungeon_delve_hazard.0700 = { # Brown mold
 	
 	weight_multiplier = {
 		base = 1
+	}
+
+	option = {
+		name = hazard.0700.herbalist_recognize
+		trigger = {has_trait = herbalist}
+		dungeon_delve_major_progress = yes
+		dungeoneering_skill_increase = yes
+	}
+
+	option = {
+		name = hazard.0700.attempt_to_recognize
+		dungeoneering_skill_increase = yes
+		duel = {
+			skill = learning
+			value = 10
+			5 = { # failure
+				scope:activity = {
+					every_attending_character = {
+						add_character_modifier = {
+							modifier = inhaled_toxin 
+							years = 5
+						}
+					}
+				}
+				dungeon_delve_minor_progress = yes
+			}
+			5 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+				dungeon_delve_major_progress = yes
+			}
+		}
+	}
+
+	option = {
+		name = hazard.0700.rush_through
+		scope:activity = {
+			every_attending_character = {
+				add_character_modifier = {
+					modifier = inhaled_toxin 
+					years = 5
+				}
+			}
+		}
+		dungeon_delve_major_progress = yes
 	}
 	
 	option = {
@@ -338,13 +437,37 @@ dungeon_delve_hazard.0800 = { # Green slime
 	weight_multiplier = {
 		base = 1
 	}
+
+	option = {
+		name = hazard.0800.rush_through
+		dungeon_boldness_effect = yes
+		dungeon_delve_major_progress = yes
+		duel = {
+			skill = prowess
+			value = 10
+			5 = { # failure
+				increase_wounds_effect = { REASON = acid }
+			}
+			5 = { # Success
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 0.5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = hazard.0800.burn_away
+		dungeon_delve_minor_progress = yes
+	}
 	
 	option = {
 		name = hazard.backtrack
 	}
 }
 
-dungeon_delve_hazard.0900 = { # Yellow mold
+dungeon_delve_hazard.0900 = { # Golem guardian
 	type = activity_event
 	title = hazard.0900.t
 	desc = hazard.0900.desc
@@ -362,46 +485,10 @@ dungeon_delve_hazard.0900 = { # Yellow mold
 	}
 }
 
-dungeon_delve_hazard.1000 = { # Golem guardian
+dungeon_delve_hazard.1000 = { # Ancient trap
 	type = activity_event
 	title = hazard.1000.t
 	desc = hazard.1000.desc
-	
-	theme = dungeon_delve_activity
-	
-	left_portrait = root
-	
-	weight_multiplier = {
-		base = 1
-	}
-	
-	option = {
-		name = hazard.backtrack
-	}
-}
-
-dungeon_delve_hazard.1100 = { # Ancient trap
-	type = activity_event
-	title = hazard.1100.t
-	desc = hazard.1100.desc
-	
-	theme = dungeon_delve_activity
-	
-	left_portrait = root
-	
-	weight_multiplier = {
-		base = 1
-	}
-	
-	option = {
-		name = hazard.backtrack
-	}
-}
-
-dungeon_delve_hazard.1200 = { # Slick floor
-	type = activity_event
-	title = hazard.1200.t
-	desc = hazard.1200.desc
 	
 	theme = dungeon_delve_activity
 	

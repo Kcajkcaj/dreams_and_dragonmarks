@@ -120,7 +120,7 @@
 ### Otharaunt
 860 = {
 	culture = kaandar
-	faith = norse_pagan
+	faith = gnarled_ones
 	holding = tribal_holding
 }
 861 = {holding = none}
@@ -128,7 +128,7 @@
 ### Whisper Rock
 863 = {
 	culture = kaandar
-	faith = norse_pagan
+	faith = gnarled_ones
 	holding = tribal_holding
 }
 864 = {holding = none}
@@ -136,7 +136,7 @@
 ### Whisperwoods B
 866 = {
 	culture = kaandar
-	faith = norse_pagan
+	faith = gnarled_ones
 	holding = tribal_holding
 }
 867 = {holding = none}

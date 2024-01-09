@@ -45,6 +45,10 @@ pool_trust_agent = {
 			has_education_stewardship_trigger = yes
 		}
 		modifier = {
+			add = 20
+			has_education_learning_trigger = yes
+		}
+		modifier = {
 			add = 50
 			has_education_intrigue_trigger = yes
 		}

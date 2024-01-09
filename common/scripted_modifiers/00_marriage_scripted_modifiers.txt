@@ -584,6 +584,23 @@
 		desc = ARE_SOULMATES_REASON
 	}
 	
+	modifier = {
+		add = -100
+		desc = sibling_available_reason
+		trigger = {
+			OR = {
+				scope:recipient.top_liege = {has_title = title:e_aerenal}
+				scope:recipient = {has_title = title:e_aerenal}
+			}
+			scope:secondary_recipient = {
+				any_sibling = {
+					can_marry_character_trigger = {CHARACTER = scope:secondary_recipient}
+				}
+			}
+			not = {scope:secondary_actor = {is_sibling_of = scope:secondary_recipient}}
+		}
+	}
+	
 	modifier = { # Less likely to marry someone whose spouse misteriously died in the Wedding Night
 		add = -50
 		desc = just_widowed_interaction_reason

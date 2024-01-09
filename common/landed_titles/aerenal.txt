@@ -1,0 +1,387 @@
+e_aerenal = {
+	color = {0 0 0}
+	capital = c_shae_cairdal
+	
+	k_cairdal = {
+		color = {0 0 0}
+		capital = c_shae_cairdal
+		
+		d_cairdal = {
+			color = {0 0 0}
+			capital = c_shae_cairdal
+			
+			c_shae_cairdal = {
+				color = {0 0 0}
+				b_shae_cairdal_1 = {province = 1328}
+				b_shae_cairdal_2 = {province = 1329}
+				b_shae_cairdal_3 = {province = 1330}
+				b_shae_cairdal_4 = {province = 1331}
+				b_shae_cairdal_5 = {province = 1332}
+			}
+			c_kathuran = {
+				color = {0 0 0}
+				b_kathuran_1 = {province = 1333}
+				b_kathuran_2 = {province = 1334}
+				b_kathuran_3 = {province = 1335}
+				b_kathuran_4 = {province = 1336}
+			}
+			c_cairdal_b = {
+				color = {0 0 0}
+				b_cairdal_b1 = {province = 1337}
+				b_cairdal_b2 = {province = 1338}
+				b_cairdal_b3 = {province = 1339}
+				b_cairdal_b4 = {province = 1340}
+				b_cairdal_b5 = {province = 1341}
+			}
+		}
+		d_madwood = {
+			color = {0 0 0}
+			capital = c_madwood_a
+			
+			c_madwood_a = {
+				color = {0 0 0}
+				b_madwood_a1 = {province = 1342}
+				b_madwood_a2 = {province = 1343}
+				b_madwood_a3 = {province = 1344}
+			}
+			c_madwood_b = {
+				color = {0 0 0}
+				b_madwood_b1 = {province = 1345}
+				b_madwood_b2 = {province = 1346}
+				b_madwood_b3 = {province = 1347}
+			}
+			c_madwood_c = {
+				color = {0 0 0}
+				b_madwood_c1 = {province = 1348}
+				b_madwood_c2 = {province = 1349}
+			}
+			c_madwood_d = {
+				color = {0 0 0}
+				b_madwood_d1 = {province = 1350}
+				b_madwood_d2 = {province = 1351}
+			}
+			c_madwood_e = {
+				color = {0 0 0}
+				b_madwood_e1 = {province = 1352}
+				b_madwood_e2 = {province = 1353}
+				b_madwood_e3 = {province = 1354}
+				b_madwood_e4 = {province = 1355}
+			}
+			c_madwood_f = {
+				color = {0 0 0}
+				b_madwood_f1 = {province = 1356}
+				b_madwood_f2 = {province = 1357}
+				b_madwood_f3 = {province = 1358}
+				b_madwood_f4 = {province = 1359}
+			}
+		}
+		d_jaelarthal = {
+			color = {0 0 0}
+			capital = c_zaenya
+			
+			c_zaenya = {
+				color = {0 0 0}
+				b_zaenya_1 = {province = 1360}
+				b_zaenya_2 = {province = 1361}
+				b_zaenya_3 = {province = 1362}
+			}
+			c_jaelarthal_b = {
+				color = {0 0 0}
+				b_jaelarthal_b1 = {province = 1363}
+				b_jaelarthal_b2 = {province = 1364}
+				b_jaelarthal_b3 = {province = 1365}
+				b_jaelarthal_b4 = {province = 1366}
+			}
+			c_jaelarthal_c = {
+				color = {0 0 0}
+				b_jaelarthal_c1 = {province = 1367}
+				b_jaelarthal_c2 = {province = 1368}
+				b_jaelarthal_c3 = {province = 1369}
+			}
+			c_jaelarthal_d = {
+				color = {0 0 0}
+				b_jaelarthal_d1 = {province = 1370}
+				b_jaelarthal_d2 = {province = 1371}
+				b_jaelarthal_d3 = {province = 1372}
+			}
+			c_jaelarthal_e = {
+				color = {0 0 0}
+				b_jaelarthal_e1 = {province = 1373}
+				b_jaelarthal_e2 = {province = 1374}
+				b_jaelarthal_e3 = {province = 1375}
+				b_jaelarthal_e4 = {province = 1376}
+			}
+		}
+		d_dajar = {
+			color = {0 0 0}
+			capital = c_pylas_talaear
+			
+			c_pylas_talaear = {
+				color = {0 0 0}
+				b_pylas_talaear_1 = {province = 1377}
+				b_pylas_talaear_2 = {province = 1378}
+				b_pylas_talaear_3 = {province = 1379}
+				b_pylas_talaear_4 = {province = 1380}
+				b_pylas_talaear_5 = {province = 1381}
+			}
+			c_pylas_zirinth = {
+				color = {0 0 0}
+				b_pylas_zirinth_1 = {province = 1382}
+				b_pylas_zirinth_2 = {province = 1383}
+				b_pylas_zirinth_3 = {province = 1384}
+			}
+			c_dajar_b = {
+				color = {0 0 0}
+				b_dajar_b1 = {province = 1385}
+				b_dajar_b2 = {province = 1386}
+				b_dajar_b3 = {province = 1387}
+				b_dajar_b4 = {province = 1388}
+			}
+			c_dajar_c = {
+				color = {0 0 0}
+				b_dajar_c1 = {province = 1389}
+				b_dajar_c2 = {province = 1390}
+				b_dajar_c3 = {province = 1391}
+			}
+			c_dajar_d = {
+				color = {0 0 0}
+				b_dajar_d1 = {province = 1392}
+				b_dajar_d2 = {province = 1393}
+				b_dajar_d3 = {province = 1394}
+				b_dajar_d4 = {province = 1395}
+			}
+			c_dajar_e = {
+				color = {0 0 0}
+				b_dajar_e1 = {province = 1396}
+				b_dajar_e2 = {province = 1397}
+				b_dajar_e3 = {province = 1398}
+				b_dajar_e4 = {province = 1399}
+			}
+		}
+	}
+	k_mordai = {
+		color = {0 0 0}
+		capital = c_shae_mordai
+		
+		d_mordai = {
+			color = {0 0 0}
+			capital = c_shae_mordai
+			
+			c_shae_mordai = {
+				color = {0 0 0}
+				b_shae_mordai_1 = {province = 1400}
+				b_shae_mordai_2 = {province = 1401}
+				b_shae_mordai_3 = {province = 1402}
+				b_shae_mordai_4 = {province = 1403}
+			}
+			c_mordai_b = {
+				color = {0 0 0}
+				b_mordai_b1 = {province = 1404}
+				b_mordai_b2 = {province = 1405}
+				b_mordai_b3 = {province = 1406}
+			}
+			c_mordai_c = {
+				color = {0 0 0}
+				b_mordai_c1 = {province = 1407}
+				b_mordai_c2 = {province = 1408}
+				b_mordai_c3 = {province = 1409}
+			}
+			c_mordai_d = {
+				color = {0 0 0}
+				b_mordai_d1 = {province = 1410}
+				b_mordai_d2 = {province = 1411}
+				b_mordai_d3 = {province = 1412}
+			}
+		}
+		d_sundering_peaks = {
+			color = {0 0 0}
+			capital = c_kalindal
+			
+			c_kalindal = {
+				color = {0 0 0}
+				b_kalindal_1 = {province = 1413}
+				b_kalindal_2 = {province = 1414}
+				b_kalindal_3 = {province = 1415}
+				b_kalindal_4 = {province = 1416}
+			}
+			c_sundering_peaks_b = {
+				color = {0 0 0}
+				b_sundering_peaks_b1 = {province = 1417}
+				b_sundering_peaks_b2 = {province = 1418}
+				b_sundering_peaks_b3 = {province = 1419}
+			}
+			c_sundering_peaks_c = {
+				color = {0 0 0}
+				b_sundering_peaks_c1 = {province = 1420}
+				b_sundering_peaks_c2 = {province = 1421}
+				b_sundering_peaks_c3 = {province = 1422}
+			}
+			c_sundering_peaks_d = {
+				color = {0 0 0}
+				b_sundering_peaks_d1 = {province = 1423}
+				b_sundering_peaks_d2 = {province = 1424}
+				b_sundering_peaks_d3 = {province = 1425}
+				b_sundering_peaks_d4 = {province = 1426}
+			}
+			c_sundering_peaks_e = {
+				color = {0 0 0}
+				b_sundering_peaks_e1 = {province = 1427}
+				b_sundering_peaks_e2 = {province = 1428}
+				b_sundering_peaks_e3 = {province = 1429}
+				b_sundering_peaks_e4 = {province = 1430}
+			}
+			c_sundering_peaks_f = {
+				color = {0 0 0}
+				b_sundering_peaks_f1 = {province = 1431}
+				b_sundering_peaks_f2 = {province = 1432}
+				b_sundering_peaks_f3 = {province = 1433}
+				b_sundering_peaks_f4 = {province = 1434}
+				b_sundering_peaks_f5 = {province = 1435}
+			}
+			c_sundering_peaks_g = {
+				color = {0 0 0}
+				b_sundering_peaks_g1 = {province = 1436}
+				b_sundering_peaks_g2 = {province = 1437}
+				b_sundering_peaks_g3 = {province = 1438}
+				b_sundering_peaks_g4 = {province = 1439}
+				b_sundering_peaks_g5 = {province = 1440}
+			}
+		}
+		d_blackwood = {
+			color = {0 0 0}
+			capital = c_blackwood_a
+			
+			c_blackwood_a = {
+				color = {0 0 0}
+				b_blackwood_a1 = {province = 1441}
+				b_blackwood_a2 = {province = 1442}
+				b_blackwood_a3 = {province = 1443}
+				b_blackwood_a4 = {province = 1444}
+				b_blackwood_a5 = {province = 1445}
+			}
+			c_blackwood_b = {
+				color = {0 0 0}
+				b_blackwood_b1 = {province = 1446}
+				b_blackwood_b2 = {province = 1447}
+				b_blackwood_b3 = {province = 1448}
+				b_blackwood_b4 = {province = 1449}
+			}
+			c_blackwood_c = {
+				color = {0 0 0}
+				b_blackwood_c1 = {province = 1450}
+				b_blackwood_c2 = {province = 1451}
+				b_blackwood_c3 = {province = 1452}
+				b_blackwood_c4 = {province = 1453}
+			}
+			c_blackwood_d = {
+				color = {0 0 0}
+				b_blackwood_d1 = {province = 1454}
+				b_blackwood_d2 = {province = 1455}
+				b_blackwood_d3 = {province = 1456}
+				b_blackwood_d4 = {province = 1457}
+			}
+		}
+		d_deseir = {
+			color = {0 0 0}
+			capital = c_shae_deseir
+			
+			c_shae_deseir = {
+				color = {0 0 0}
+				b_shae_deseir_1 = {province = 1458}
+				b_shae_deseir_2 = {province = 1459}
+				b_shae_deseir_3 = {province = 1460}
+			}
+			c_deseir_b = {
+				color = {0 0 0}
+				b_deseir_b1 = {province = 1461}
+				b_deseir_b2 = {province = 1462}
+				b_deseir_b3 = {province = 1463}
+			}
+			c_deseir_c = {
+				color = {0 0 0}
+				b_deseir_c1 = {province = 1464}
+				b_deseir_c2 = {province = 1465}
+				b_deseir_c3 = {province = 1466}
+			}
+			c_deseir_d = {
+				color = {0 0 0}
+				b_deseir_d1 = {province = 1467}
+				b_deseir_d2 = {province = 1468}
+				b_deseir_d3 = {province = 1469}
+			}
+			c_deseir_e = {
+				color = {0 0 0}
+				b_deseir_e1 = {province = 1470}
+				b_deseir_e2 = {province = 1471}
+				b_deseir_e3 = {province = 1472}
+			}
+			c_deseir_f = {
+				color = {0 0 0}
+				b_deseir_f1 = {province = 1473}
+				b_deseir_f2 = {province = 1474}
+				b_deseir_f3 = {province = 1475}
+			}
+		}
+		
+		d_taluna = {
+			color = {0 0 0}
+			capital = c_taluna_a
+			
+			c_taluna_a = {
+				color = {0 0 0}
+				b_taluna_a1 = {province = 1476}
+				b_taluna_a2 = {province = 1477}
+				b_taluna_a3 = {province = 1478}
+				b_taluna_a4 = {province = 1479}
+			}
+			c_taluna_b = {
+				color = {0 0 0}
+				b_taluna_b1 = {province = 1480}
+				b_taluna_b2 = {province = 1481}
+				b_taluna_b3 = {province = 1482}
+			}
+			c_taluna_c = {
+				color = {0 0 0}
+				b_taluna_c1 = {province = 1483}
+				b_taluna_c2 = {province = 1484}
+				b_taluna_c3 = {province = 1485}
+			}
+			c_taluna_d = {
+				color = {0 0 0}
+				b_taluna_d1 = {province = 1486}
+				b_taluna_d2 = {province = 1487}
+				b_taluna_d3 = {province = 1488}
+				b_taluna_d4 = {province = 1489}
+			}
+			c_taluna_e = {
+				color = {0 0 0}
+				b_taluna_e1 = {province = 1490}
+				b_taluna_e2 = {province = 1491}
+				b_taluna_e3 = {province = 1492}
+			}
+			c_taluna_f = {
+				color = {0 0 0}
+				b_taluna_f1 = {province = 1493}
+				b_taluna_f2 = {province = 1494}
+				b_taluna_f3 = {province = 1495}
+			}
+		}
+	}
+}
+
+d_undying_court = {
+	color = { 217 153 0}
+	definite_form = yes
+	ruler_uses_title_name = no
+	landless = yes
+
+	capital = c_shae_mordai
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+
+	destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+}

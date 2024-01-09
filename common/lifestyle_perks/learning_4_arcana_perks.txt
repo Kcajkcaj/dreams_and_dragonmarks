@@ -1,0 +1,54 @@
+prestidigitation_perk = {
+	lifestyle = learning_lifestyle
+	tree = arcana
+	position = {1.5 0}
+	icon = node_learning
+	
+	auto_selection_weight = {
+		value = 11
+		if = {
+			limit = {
+				has_education_learning_trigger = yes
+			}
+			add = 1989
+		}
+	}
+}
+firebolt_perk = {
+	lifestyle = learning_lifestyle
+	tree = arcana
+	position = {0 0.8}
+	icon = node_learning
+	
+	parent = prestidigitation_perk
+}
+friends_perk = {
+	lifestyle = learning_lifestyle
+	tree = arcana
+	position = {1.5 0.8}
+	icon = node_learning
+	
+	parent = prestidigitation_perk
+}
+minor_illusion_perk = {
+	lifestyle = learning_lifestyle
+	tree = arcana
+	position = {3 0.8}
+	icon = node_learning
+	
+	parent = prestidigitation_perk
+}
+mage_perk = {
+	lifestyle = learning_lifestyle
+	tree = arcana
+	position = {1.5 1.7}
+	icon = trait_mage
+	
+	parent = firebolt_perk
+	parent = friends_perk
+	parent = minor_illusion_perk
+	
+	effect = {
+		add_trait_force_tooltip = mage
+	}
+}

@@ -139,3 +139,73 @@ alarich_of_karrnath = {
 		effect = {house = {add_house_modifier = ideal_domination}}
 	}
 }
+
+maenrad_of_karrnath = {
+	name = "Maenrad"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_karrnath
+	
+	father = alarich_of_karrnath
+	
+	trait = intellect_good_1
+	
+	3404.12.18 = {birth = yes}
+}
+
+vaunn_of_karrnath = {
+	name = "Vaunn"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath
+	
+	father = alarich_of_karrnath
+	
+	trait = intellect_good_3
+	
+	3406.4.2 = {birth = yes}
+}
+
+theoban_of_karrnath = {
+	name = "Theoban"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_karrnath
+	
+	father = alarich_of_karrnath
+	
+	trait = intellect_good_2
+	
+	3408.8.6 = {birth = yes}
+}
+
+asta_of_karrnath = {
+	name = "Asta"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath
+	
+	father = geroldt_of_karrnath
+	
+	trait = intellect_good_2
+	
+	3387.12.4 = {birth = yes}
+}
+
+syardis_of_karrnath = {
+	name = "Syardis"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath
+	
+	father = geroldt_of_karrnath
+	
+	trait = intellect_good_3
+	
+	3389.1.5 = {birth = yes}
+}

@@ -59,7 +59,7 @@
 			always = yes
 		}
 		character_modifier = {
-			positive_random_genetic_chance = 2
+			positive_random_genetic_chance = 3
 			negative_random_genetic_chance = 1
 		}
 	}
@@ -154,6 +154,36 @@
 			dol_arrah = yes
 			dol_azur = yes
 			dol_dorn = yes
+		}
+	}
+	
+	tenet_centralized_authority = {
+		icon = core_tenet_pentarchy
+		
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = {has_doctrine = tenet_centralized_authority}
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		is_shown = {always = yes}
+		
+		can_pick = {
+			custom_description = {
+				text = doctrine_requires_head_of_faith_trigger
+				NOT = {
+					doctrine:doctrine_no_head = { is_in_list = selected_doctrines }
+				}
+			}
+		}
+		
+		parameters = {
+			seek_indulgences_active = yes
+			seek_indulgences_active_2 = yes
+			excommunication_active = yes
+			theocratic_leases_more_hierarchical = yes # New
 		}
 	}
 	

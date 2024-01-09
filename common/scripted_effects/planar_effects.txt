@@ -13,6 +13,13 @@ birth_plane_trait_check = {
 			}
 		}
 		modifier = {
+			add = 20
+			real_mother = {
+				exists = location
+				location.county = {has_county_modifier = manifest_zone_$PLANE$}
+			}
+		}
+		modifier = {
 			factor = 1.5
 			faith = {has_doctrine_parameter = moonwatchers_more_planetouched}
 		}

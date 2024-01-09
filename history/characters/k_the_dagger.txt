@@ -84,9 +84,11 @@ soranda_dain = {
 raela_solaen = {
 	name = "Raela"
 	culture = aereni
-	faith = frontier_creed
+	faith = undying_court
 	female = yes
 	dynasty = dynn_solaen
+	
+	father = dayne_solaen
 	
 	trait = ambitious
 	trait = vengeful
