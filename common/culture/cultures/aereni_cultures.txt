@@ -39,7 +39,11 @@ tairn = {
 	created = 1.1.1
 	
 	traditions = {
-		tradition_clan_connections
+		tradition_blades_for_hire
+		tradition_boundless_aggression
+		tradition_dreadful_stalkers
+		tradition_military_service
+		tradition_magebred_steeds
 	}
 	
 	coa_gfx = { indo_aryan_group_coa_gfx }

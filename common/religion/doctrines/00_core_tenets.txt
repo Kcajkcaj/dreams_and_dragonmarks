@@ -252,7 +252,7 @@
 			always = yes
 		}
 		parameters = {
-			is_cult = yes # New
+			is_cult = yes
 			holy_wars_forbidden = yes
 		}
 	}

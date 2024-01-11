@@ -348,3 +348,35 @@ c_taluna_f = {
 		holder = valanthe_tolarenthi
 	}
 }
+
+k_silaes = {
+	3400.1.1 = {
+		liege = 0
+		holder = thamior_vadallia
+		government = warband_government
+	}
+}
+d_shalas = {
+	3000.1.1 = {change_development_level = 9}
+	3400.1.1 = {
+		liege = k_silaes
+		holder = thamior_vadallia
+		government = warband_government
+	}
+}
+d_thoridor = {
+	3000.1.1 = {change_development_level = 6}
+	3400.1.1 = {
+		liege = k_silaes
+		holder = soverliss_shol
+		government = warband_government
+	}
+}
+d_shanavar = {
+	3000.1.1 = {change_development_level = 6}
+	3400.1.1 = {
+		liege = k_silaes
+		holder = lia_valraea
+		government = warband_government
+	}
+}

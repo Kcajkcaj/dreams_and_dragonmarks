@@ -77,7 +77,9 @@ sigilan = {
 	traditions = {
 		tradition_arcane_duelists
 		tradition_avant_garde
-		# Three More
+		tradition_chivalric_codes
+		tradition_skilled_orators
+		tradition_breakneck_research
 	}
 	
 	ethnicities = {
@@ -105,7 +107,8 @@ khaluunite = {
 	traditions = {
 		tradition_traveling_merchants
 		tradition_arcane_duelists
-		# Three More
+		tradition_breakneck_research
+		# Two More
 	}
 	
 	ethnicities = {
@@ -309,7 +312,8 @@ vasfolder = {
 		tradition_frontier_settlers
 		tradition_lumber_industry
 		tradition_fierce_independence
-		# Two More
+		tradition_expert_masons
+		tradition_simple_pleasures
 	}
 	
 	ethnicities = {
@@ -369,7 +373,9 @@ metroli = {
 	traditions = {
 		tradition_avant_garde
 		tradition_embrace_of_industry
-		# Three More
+		tradition_skilled_orators
+		tradition_best_and_brightest
+		tradition_breakneck_research
 	}
 	
 	ethnicities = {
@@ -397,6 +403,11 @@ khunanite = {
 	unit_gfx = { indian_unit_gfx }
 	
 	traditions = {
+		tradition_breakneck_research
+		tradition_embrace_of_industry
+		tradition_best_and_brightest
+		tradition_famed_universities
+		# One More
 	}
 	
 	ethnicities = {

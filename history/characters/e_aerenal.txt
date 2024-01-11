@@ -504,3 +504,63 @@ riala_liadon = {
 	
 	3395.6.7 = {birth = yes}
 }
+
+thamior_vadallia = {
+	name = "Thamior"
+	culture = tairn
+	faith = keepers_of_the_past
+	female = no
+	dynasty = dynn_vadallia
+	
+	3381.10.17 = {birth = yes}
+}
+
+zemella_jholareth = {
+	name = "Zemella"
+	culture = tairn
+	faith = keepers_of_the_past
+	female = yes
+	dynasty = dynn_jholareth
+	
+	3379.8.12 = {birth = yes}
+}
+
+erandis_xiloscient = {
+	name = "Erandis"
+	culture = tairn
+	faith = keepers_of_the_past
+	female = yes
+	dynasty = dynn_xiloscient
+	
+	3382.3.11 = {birth = yes}
+}
+
+aust_amastacia = {
+	name = "Aust"
+	culture = tairn
+	faith = keepers_of_the_past
+	female = no
+	dynasty = dynn_amastacia
+	
+	3383.4.18 = {birth = yes}
+}
+
+lia_valraea = {
+	name = "Lia"
+	culture = tairn
+	faith = keepers_of_the_past
+	female = yes
+	dynasty = dynn_valraea
+	
+	3385.8.19 = {birth = yes}
+}
+
+soverliss_shol = {
+	name = "Soverliss"
+	culture = tairn
+	faith = keepers_of_the_past
+	female = no
+	dynasty = dynn_shol
+	
+	3384.1.9 = {birth = yes}
+}

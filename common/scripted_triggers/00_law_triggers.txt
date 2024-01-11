@@ -72,6 +72,7 @@ can_have_confederate_partition_succession_law_trigger = {
 		government_has_flag = government_is_clan
 		government_has_flag = government_is_principality
 		government_has_flag = government_is_bureaucratic
+		government_has_flag = government_is_warband
 	}
 }
 
@@ -98,6 +99,7 @@ can_have_partition_succession_law_trigger = {
 			government_has_flag = government_is_clan
 			government_has_flag = government_is_principality
 			government_has_flag = government_is_bureaucratic
+			government_has_flag = government_is_warband
 		}
 	}
 }
@@ -130,6 +132,7 @@ can_have_high_partition_succession_law_trigger = {
 			government_has_flag = government_is_clan
 			government_has_flag = government_is_principality
 			government_has_flag = government_is_bureaucratic
+			government_has_flag = government_is_warband
 		}
 	}
 }
@@ -160,6 +163,7 @@ can_have_single_heir_succession_law_trigger = {
 			government_has_flag = government_is_clan
 			government_has_flag = government_is_principality
 			government_has_flag = government_is_bureaucratic
+			government_has_flag = government_is_warband
 		}
 	}
 }
@@ -189,6 +193,7 @@ can_have_single_heir_youngest_succession_law_trigger = {
 			government_has_flag = government_is_clan
 			government_has_flag = government_is_principality
 			government_has_flag = government_is_bureaucratic
+			government_has_flag = government_is_warband
 		}
 	}
 }
@@ -233,6 +238,7 @@ can_have_single_heir_dynasty_house_trigger = {
 			government_has_flag = government_is_clan
 			government_has_flag = government_is_principality
 			government_has_flag = government_is_bureaucratic
+			government_has_flag = government_is_warband
 		}
 	}
 }

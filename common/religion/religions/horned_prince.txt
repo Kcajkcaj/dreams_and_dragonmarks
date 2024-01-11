@@ -19,7 +19,7 @@ horned_prince_religion = {
 	doctrine = doctrine_consanguinity_cousins
 	
 	# Crimes
-	doctrine = doctrine_homosexuality_criminal
+	doctrine = doctrine_homosexuality_crime
 	doctrine = doctrine_adultery_men_shunned
 	doctrine = doctrine_adultery_women_shunned
 	doctrine = doctrine_fornication_men_accepted
@@ -239,6 +239,9 @@ horned_prince_religion = {
 		dawngorer = {
 			color = {0.6 0.4 0.15}
 			graphical_faith = "catholic_gfx"
+			reformed_icon = dawngorer
+			
+			doctrine = unreformed_faith_doctrine
 			
 			holy_site = korranath
 			
@@ -252,6 +255,9 @@ horned_prince_religion = {
 		onehorn = {
 			color = {0.6 0.5 0.15}
 			graphical_faith = "catholic_gfx"
+			reformed_icon = onehorn
+			
+			doctrine = unreformed_faith_doctrine
 			
 			holy_site = korranath
 			
@@ -262,6 +268,9 @@ horned_prince_religion = {
 		redhoof = {
 			color = {0.6 0.3 0.15}
 			graphical_faith = "catholic_gfx"
+			reformed_icon = redhoof
+			
+			doctrine = unreformed_faith_doctrine
 			
 			holy_site = korranath
 			

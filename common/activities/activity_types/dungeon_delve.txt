@@ -37,6 +37,7 @@ activity_dungeon_delve = {
 	is_location_valid = {
 		OR = {
 			has_province_modifier = dhakaani_ruin
+			has_province_modifier = vol_ruin
 		}
 	}
 	
@@ -49,7 +50,12 @@ activity_dungeon_delve = {
 	province_score = {
 		value = 0
 		if = {
-			limit = {has_province_modifier = dhakaani_ruin}
+			limit = {
+				OR = {
+					has_province_modifier = dhakaani_ruin
+					has_province_modifier = vol_ruin
+				}
+			}
 			add = 10
 		}
 	}

@@ -179,7 +179,7 @@
 ### Stonejaw
 523 = {
 	culture = gnoll
-	faith = znir
+	faith = ravening_horde
 	holding = tribal_holding
 }
 524 = {holding = none}
@@ -188,14 +188,14 @@
 ### Lost
 527 = {
 	culture = skindancer
-	faith = norse_pagan
+	faith = the_misplaced
 	holding = church_holding
 }
 528 = {holding = city_holding}
 ### B
 529 = {
 	culture = gnoll
-	faith = znir
+	faith = ravening_horde
 	holding = tribal_holding
 }
 530 = {holding = none}
@@ -210,7 +210,7 @@
 ### D
 534 = {
 	culture = gnoll
-	faith = znir
+	faith = ravening_horde
 	holding = tribal_holding
 }
 535 = {holding = none}

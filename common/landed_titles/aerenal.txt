@@ -1,17 +1,17 @@
 e_aerenal = {
-	color = {0 0 0}
+	color = { 200 180 60 }
 	capital = c_shae_cairdal
 	
 	k_cairdal = {
-		color = {0 0 0}
+		color = { 254 178 20 }
 		capital = c_shae_cairdal
 		
 		d_cairdal = {
-			color = {0 0 0}
+			color = { 254 206 119 }
 			capital = c_shae_cairdal
 			
 			c_shae_cairdal = {
-				color = {0 0 0}
+				color = { 254 212 141 }
 				b_shae_cairdal_1 = {province = 1328}
 				b_shae_cairdal_2 = {province = 1329}
 				b_shae_cairdal_3 = {province = 1330}
@@ -19,14 +19,14 @@ e_aerenal = {
 				b_shae_cairdal_5 = {province = 1332}
 			}
 			c_kathuran = {
-				color = {0 0 0}
+				color = { 254 215 116 }
 				b_kathuran_1 = {province = 1333}
 				b_kathuran_2 = {province = 1334}
 				b_kathuran_3 = {province = 1335}
 				b_kathuran_4 = {province = 1336}
 			}
 			c_cairdal_b = {
-				color = {0 0 0}
+				color = { 245 203 98 }
 				b_cairdal_b1 = {province = 1337}
 				b_cairdal_b2 = {province = 1338}
 				b_cairdal_b3 = {province = 1339}
@@ -35,40 +35,40 @@ e_aerenal = {
 			}
 		}
 		d_madwood = {
-			color = {0 0 0}
+			color = { 250 204 1 }
 			capital = c_madwood_a
 			
 			c_madwood_a = {
-				color = {0 0 0}
+				color = { 246 197 43 }
 				b_madwood_a1 = {province = 1342}
 				b_madwood_a2 = {province = 1343}
 				b_madwood_a3 = {province = 1344}
 			}
 			c_madwood_b = {
-				color = {0 0 0}
+				color = { 254 222 33 }
 				b_madwood_b1 = {province = 1345}
 				b_madwood_b2 = {province = 1346}
 				b_madwood_b3 = {province = 1347}
 			}
 			c_madwood_c = {
-				color = {0 0 0}
+				color = { 254 209 1 }
 				b_madwood_c1 = {province = 1348}
 				b_madwood_c2 = {province = 1349}
 			}
 			c_madwood_d = {
-				color = {0 0 0}
+				color = { 254 217 9 }
 				b_madwood_d1 = {province = 1350}
 				b_madwood_d2 = {province = 1351}
 			}
 			c_madwood_e = {
-				color = {0 0 0}
+				color = { 246 192 1 }
 				b_madwood_e1 = {province = 1352}
 				b_madwood_e2 = {province = 1353}
 				b_madwood_e3 = {province = 1354}
 				b_madwood_e4 = {province = 1355}
 			}
 			c_madwood_f = {
-				color = {0 0 0}
+				color = { 254 219 78 }
 				b_madwood_f1 = {province = 1356}
 				b_madwood_f2 = {province = 1357}
 				b_madwood_f3 = {province = 1358}
@@ -76,36 +76,36 @@ e_aerenal = {
 			}
 		}
 		d_jaelarthal = {
-			color = {0 0 0}
+			color = { 254 191 1 }
 			capital = c_zaenya
 			
 			c_zaenya = {
-				color = {0 0 0}
+				color = { 234 175 18 }
 				b_zaenya_1 = {province = 1360}
 				b_zaenya_2 = {province = 1361}
 				b_zaenya_3 = {province = 1362}
 			}
 			c_jaelarthal_b = {
-				color = {0 0 0}
+				color = { 232 183 7 }
 				b_jaelarthal_b1 = {province = 1363}
 				b_jaelarthal_b2 = {province = 1364}
 				b_jaelarthal_b3 = {province = 1365}
 				b_jaelarthal_b4 = {province = 1366}
 			}
 			c_jaelarthal_c = {
-				color = {0 0 0}
+				color = { 254 188 1 }
 				b_jaelarthal_c1 = {province = 1367}
 				b_jaelarthal_c2 = {province = 1368}
 				b_jaelarthal_c3 = {province = 1369}
 			}
 			c_jaelarthal_d = {
-				color = {0 0 0}
+				color = { 252 186 51 }
 				b_jaelarthal_d1 = {province = 1370}
 				b_jaelarthal_d2 = {province = 1371}
 				b_jaelarthal_d3 = {province = 1372}
 			}
 			c_jaelarthal_e = {
-				color = {0 0 0}
+				color = { 254 209 63 }
 				b_jaelarthal_e1 = {province = 1373}
 				b_jaelarthal_e2 = {province = 1374}
 				b_jaelarthal_e3 = {province = 1375}
@@ -113,11 +113,11 @@ e_aerenal = {
 			}
 		}
 		d_dajar = {
-			color = {0 0 0}
+			color = { 211 178 71 }
 			capital = c_pylas_talaear
 			
 			c_pylas_talaear = {
-				color = {0 0 0}
+				color = { 207 170 90 }
 				b_pylas_talaear_1 = {province = 1377}
 				b_pylas_talaear_2 = {province = 1378}
 				b_pylas_talaear_3 = {province = 1379}
@@ -125,33 +125,33 @@ e_aerenal = {
 				b_pylas_talaear_5 = {province = 1381}
 			}
 			c_pylas_zirinth = {
-				color = {0 0 0}
+				color = { 226 187 87 }
 				b_pylas_zirinth_1 = {province = 1382}
 				b_pylas_zirinth_2 = {province = 1383}
 				b_pylas_zirinth_3 = {province = 1384}
 			}
 			c_dajar_b = {
-				color = {0 0 0}
+				color = { 201 176 91 }
 				b_dajar_b1 = {province = 1385}
 				b_dajar_b2 = {province = 1386}
 				b_dajar_b3 = {province = 1387}
 				b_dajar_b4 = {province = 1388}
 			}
 			c_dajar_c = {
-				color = {0 0 0}
+				color = { 224 177 38 }
 				b_dajar_c1 = {province = 1389}
 				b_dajar_c2 = {province = 1390}
 				b_dajar_c3 = {province = 1391}
 			}
 			c_dajar_d = {
-				color = {0 0 0}
+				color = { 203 178 102 }
 				b_dajar_d1 = {province = 1392}
 				b_dajar_d2 = {province = 1393}
 				b_dajar_d3 = {province = 1394}
 				b_dajar_d4 = {province = 1395}
 			}
 			c_dajar_e = {
-				color = {0 0 0}
+				color = { 204 179 26 }
 				b_dajar_e1 = {province = 1396}
 				b_dajar_e2 = {province = 1397}
 				b_dajar_e3 = {province = 1398}
@@ -160,78 +160,78 @@ e_aerenal = {
 		}
 	}
 	k_mordai = {
-		color = {0 0 0}
+		color = { 177 218 1 }
 		capital = c_shae_mordai
 		
 		d_mordai = {
-			color = {0 0 0}
+			color = { 178 232 1 }
 			capital = c_shae_mordai
 			
 			c_shae_mordai = {
-				color = {0 0 0}
+				color = { 168 235 1 }
 				b_shae_mordai_1 = {province = 1400}
 				b_shae_mordai_2 = {province = 1401}
 				b_shae_mordai_3 = {province = 1402}
 				b_shae_mordai_4 = {province = 1403}
 			}
 			c_mordai_b = {
-				color = {0 0 0}
+				color = { 179 219 1 }
 				b_mordai_b1 = {province = 1404}
 				b_mordai_b2 = {province = 1405}
 				b_mordai_b3 = {province = 1406}
 			}
 			c_mordai_c = {
-				color = {0 0 0}
+				color = { 200 244 73 }
 				b_mordai_c1 = {province = 1407}
 				b_mordai_c2 = {province = 1408}
 				b_mordai_c3 = {province = 1409}
 			}
 			c_mordai_d = {
-				color = {0 0 0}
+				color = { 166 233 1 }
 				b_mordai_d1 = {province = 1410}
 				b_mordai_d2 = {province = 1411}
 				b_mordai_d3 = {province = 1412}
 			}
 		}
 		d_sundering_peaks = {
-			color = {0 0 0}
+			color = { 124 218 85 }
 			capital = c_kalindal
 			
 			c_kalindal = {
-				color = {0 0 0}
+				color = { 129 225 77 }
 				b_kalindal_1 = {province = 1413}
 				b_kalindal_2 = {province = 1414}
 				b_kalindal_3 = {province = 1415}
 				b_kalindal_4 = {province = 1416}
 			}
 			c_sundering_peaks_b = {
-				color = {0 0 0}
+				color = { 115 215 110 }
 				b_sundering_peaks_b1 = {province = 1417}
 				b_sundering_peaks_b2 = {province = 1418}
 				b_sundering_peaks_b3 = {province = 1419}
 			}
 			c_sundering_peaks_c = {
-				color = {0 0 0}
+				color = { 146 217 81 }
 				b_sundering_peaks_c1 = {province = 1420}
 				b_sundering_peaks_c2 = {province = 1421}
 				b_sundering_peaks_c3 = {province = 1422}
 			}
 			c_sundering_peaks_d = {
-				color = {0 0 0}
+				color = { 138 237 116 }
 				b_sundering_peaks_d1 = {province = 1423}
 				b_sundering_peaks_d2 = {province = 1424}
 				b_sundering_peaks_d3 = {province = 1425}
 				b_sundering_peaks_d4 = {province = 1426}
 			}
 			c_sundering_peaks_e = {
-				color = {0 0 0}
+				color = { 151 232 82 }
 				b_sundering_peaks_e1 = {province = 1427}
 				b_sundering_peaks_e2 = {province = 1428}
 				b_sundering_peaks_e3 = {province = 1429}
 				b_sundering_peaks_e4 = {province = 1430}
 			}
 			c_sundering_peaks_f = {
-				color = {0 0 0}
+				color = { 124 233 76 }
 				b_sundering_peaks_f1 = {province = 1431}
 				b_sundering_peaks_f2 = {province = 1432}
 				b_sundering_peaks_f3 = {province = 1433}
@@ -239,7 +239,7 @@ e_aerenal = {
 				b_sundering_peaks_f5 = {province = 1435}
 			}
 			c_sundering_peaks_g = {
-				color = {0 0 0}
+				color = { 100 227 97 }
 				b_sundering_peaks_g1 = {province = 1436}
 				b_sundering_peaks_g2 = {province = 1437}
 				b_sundering_peaks_g3 = {province = 1438}
@@ -248,11 +248,11 @@ e_aerenal = {
 			}
 		}
 		d_blackwood = {
-			color = {0 0 0}
+			color = { 193 252 1 }
 			capital = c_blackwood_a
 			
 			c_blackwood_a = {
-				color = {0 0 0}
+				color = { 205 252 54 }
 				b_blackwood_a1 = {province = 1441}
 				b_blackwood_a2 = {province = 1442}
 				b_blackwood_a3 = {province = 1443}
@@ -260,21 +260,21 @@ e_aerenal = {
 				b_blackwood_a5 = {province = 1445}
 			}
 			c_blackwood_b = {
-				color = {0 0 0}
+				color = { 218 254 28 }
 				b_blackwood_b1 = {province = 1446}
 				b_blackwood_b2 = {province = 1447}
 				b_blackwood_b3 = {province = 1448}
 				b_blackwood_b4 = {province = 1449}
 			}
 			c_blackwood_c = {
-				color = {0 0 0}
+				color = { 157 251 1 }
 				b_blackwood_c1 = {province = 1450}
 				b_blackwood_c2 = {province = 1451}
 				b_blackwood_c3 = {province = 1452}
 				b_blackwood_c4 = {province = 1453}
 			}
 			c_blackwood_d = {
-				color = {0 0 0}
+				color = { 185 244 65 }
 				b_blackwood_d1 = {province = 1454}
 				b_blackwood_d2 = {province = 1455}
 				b_blackwood_d3 = {province = 1456}
@@ -282,41 +282,41 @@ e_aerenal = {
 			}
 		}
 		d_deseir = {
-			color = {0 0 0}
+			color = { 129 195 59 }
 			capital = c_shae_deseir
 			
 			c_shae_deseir = {
-				color = {0 0 0}
+				color = { 156 200 67 }
 				b_shae_deseir_1 = {province = 1458}
 				b_shae_deseir_2 = {province = 1459}
 				b_shae_deseir_3 = {province = 1460}
 			}
 			c_deseir_b = {
-				color = {0 0 0}
+				color = { 144 206 91 }
 				b_deseir_b1 = {province = 1461}
 				b_deseir_b2 = {province = 1462}
 				b_deseir_b3 = {province = 1463}
 			}
 			c_deseir_c = {
-				color = {0 0 0}
+				color = { 89 202 43 }
 				b_deseir_c1 = {province = 1464}
 				b_deseir_c2 = {province = 1465}
 				b_deseir_c3 = {province = 1466}
 			}
 			c_deseir_d = {
-				color = {0 0 0}
+				color = { 154 191 78 }
 				b_deseir_d1 = {province = 1467}
 				b_deseir_d2 = {province = 1468}
 				b_deseir_d3 = {province = 1469}
 			}
 			c_deseir_e = {
-				color = {0 0 0}
+				color = { 132 198 86 }
 				b_deseir_e1 = {province = 1470}
 				b_deseir_e2 = {province = 1471}
 				b_deseir_e3 = {province = 1472}
 			}
 			c_deseir_f = {
-				color = {0 0 0}
+				color = { 108 199 55 }
 				b_deseir_f1 = {province = 1473}
 				b_deseir_f2 = {province = 1474}
 				b_deseir_f3 = {province = 1475}
@@ -324,53 +324,146 @@ e_aerenal = {
 		}
 		
 		d_taluna = {
-			color = {0 0 0}
+			color = { 199 234 122 }
 			capital = c_taluna_a
 			
 			c_taluna_a = {
-				color = {0 0 0}
+				color = { 179 222 84 }
 				b_taluna_a1 = {province = 1476}
 				b_taluna_a2 = {province = 1477}
 				b_taluna_a3 = {province = 1478}
 				b_taluna_a4 = {province = 1479}
 			}
 			c_taluna_b = {
-				color = {0 0 0}
+				color = { 180 215 110 }
 				b_taluna_b1 = {province = 1480}
 				b_taluna_b2 = {province = 1481}
 				b_taluna_b3 = {province = 1482}
 			}
 			c_taluna_c = {
-				color = {0 0 0}
+				color = { 191 247 125 }
 				b_taluna_c1 = {province = 1483}
 				b_taluna_c2 = {province = 1484}
 				b_taluna_c3 = {province = 1485}
 			}
 			c_taluna_d = {
-				color = {0 0 0}
+				color = { 223 244 132 }
 				b_taluna_d1 = {province = 1486}
 				b_taluna_d2 = {province = 1487}
 				b_taluna_d3 = {province = 1488}
 				b_taluna_d4 = {province = 1489}
 			}
 			c_taluna_e = {
-				color = {0 0 0}
+				color = { 222 237 129 }
 				b_taluna_e1 = {province = 1490}
 				b_taluna_e2 = {province = 1491}
 				b_taluna_e3 = {province = 1492}
 			}
 			c_taluna_f = {
-				color = {0 0 0}
+				color = { 198 224 139 }
 				b_taluna_f1 = {province = 1493}
 				b_taluna_f2 = {province = 1494}
 				b_taluna_f3 = {province = 1495}
 			}
 		}
 	}
+	k_silaes = {
+		color = { 211 199 58 }
+		capital = c_var_shalas
+		
+		d_shalas = {
+			color = { 232 178 1 }
+			capital = c_var_shalas
+			
+			c_var_shalas = {
+				color = { 232 185 57 }
+				b_var_shalas_1 = {province = 1496}
+				b_var_shalas_2 = {province = 1497}
+				b_var_shalas_3 = {province = 1498}
+				b_var_shalas_4 = {province = 1499}
+				b_var_shalas_5 = {province = 1500}
+			}
+			c_taer_senadal = {
+				color = { 241 177 1 }
+				b_taer_senadal_1 = {province = 1501}
+				b_taer_senadal_2 = {province = 1502}
+				b_taer_senadal_3 = {province = 1503}
+			}
+			c_shalas_b = {
+				color = { 254 194 34 }
+				b_shalas_b1 = {province = 1504}
+				b_shalas_b2 = {province = 1505}
+				b_shalas_b3 = {province = 1506}
+				b_shalas_b4 = {province = 1507}
+			}
+			c_shalas_c = {
+				color = { 244 191 20 }
+				b_shalas_c1 = {province = 1508}
+				b_shalas_c2 = {province = 1509}
+				b_shalas_c3 = {province = 1510}
+				b_shalas_c4 = {province = 1511}
+			}
+		}
+		d_thoridor = {
+			color = { 238 198 41 }
+			capital = c_shae_thoridor
+			
+			c_shae_thoridor = {
+				color = { 224 191 75 }
+				b_shae_thoridor_1 = {province = 1512}
+				b_shae_thoridor_2 = {province = 1513}
+				b_shae_thoridor_3 = {province = 1514}
+			}
+			c_thoridor_b = {
+				color = { 240 202 69 }
+				b_thoridor_b1 = {province = 1515}
+				b_thoridor_b2 = {province = 1516}
+				b_thoridor_b3 = {province = 1517}
+				b_thoridor_b4 = {province = 1518}
+			}
+			c_thoridor_c = {
+				color = { 226 192 77 }
+				b_thoridor_c1 = {province = 1519}
+				b_thoridor_c2 = {province = 1520}
+				b_thoridor_c3 = {province = 1521}
+			}
+		}
+		d_shanavar = {
+			color = { 254 245 106 }
+			capital = c_shanavar_a
+			
+			c_shanavar_a = {
+				color = { 234 230 108 }
+				b_shanavar_a1 = {province = 1522}
+				b_shanavar_a2 = {province = 1523}
+				b_shanavar_a3 = {province = 1524}
+			}
+			c_shanavar_b = {
+				color = { 254 247 95 }
+				b_shanavar_b1 = {province = 1525}
+				b_shanavar_b2 = {province = 1526}
+				b_shanavar_b3 = {province = 1527}
+			}
+			c_shanavar_c = {
+				color = { 239 241 73 }
+				b_shanavar_c1 = {province = 1528}
+				b_shanavar_c2 = {province = 1529}
+				b_shanavar_c3 = {province = 1530}
+				b_shanavar_c4 = {province = 1531}
+				b_shanavar_c5 = {province = 1532}
+			}
+			c_shanavar_d = {
+				color = { 232 240 103 }
+				b_shanavar_d1 = {province = 1533}
+				b_shanavar_d2 = {province = 1534}
+				b_shanavar_d3 = {province = 1535}
+			}
+		}
+	}
 }
 
 d_undying_court = {
-	color = { 217 153 0}
+	color = { 217 153 0 }
 	definite_form = yes
 	ruler_uses_title_name = no
 	landless = yes

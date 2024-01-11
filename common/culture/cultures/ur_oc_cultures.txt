@@ -46,7 +46,7 @@ branchfolk = { # Live in treehouses
 	traditions = {
 		tradition_clan_connections
 		tradition_fervent_ritualists
-		# Two More
+		# Three More
 	}
 	
 	ethnicities = {
@@ -103,6 +103,7 @@ urhaakar = {
 	
 	traditions = {
 		tradition_clan_connections
+		# Four More
 	}
 	
 	ethnicities = {
@@ -131,6 +132,8 @@ harpy = {
 		tradition_clan_connections
 		tradition_mountain_flights
 		tradition_drama_and_poetry
+		tradition_refined_hedonism
+		tradition_trickster_heroes
 	}
 	
 	ethnicities = {
@@ -187,6 +190,8 @@ azhani = {
 	traditions = {
 		tradition_clan_connections
 		tradition_fervent_ritualists
+		tradition_crusaders
+		# Two More
 	}
 	
 	ethnicities = {
@@ -215,6 +220,7 @@ kaandar = {
 	traditions = {
 		tradition_clan_connections
 		tradition_fervent_ritualists
+		# Three More
 	}
 
 	ethnicities = {

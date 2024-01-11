@@ -56,6 +56,37 @@ tradition_avant_garde = {
 	}
 }
 
+tradition_best_and_brightest = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = greeting.dds
+	}
+	
+	category = realm
+
+	parameters = {
+		easier_guest_recruitment = yes # New
+		easier_invite_to_court = yes # New
+	}
+
+	character_modifier = {
+		ignore_negative_opinion_of_culture = yes
+		ignore_opinion_of_different_faith = yes
+	}
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_blades_for_hire = {
 	layers = {
 		0 = steward
@@ -118,6 +149,35 @@ tradition_boundless_aggression = {
 	is_shown = { always = yes }
 	can_pick = { always = yes }
 	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_breakneck_research = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = jirga.dds
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	parameters = {
+		faster_arcane_research = yes # New
+		build_arcane_laboratories = yes # New
+		arcane_experiment_decision = yes # New
+		innovation_from_learning_traits = yes
+		can_appoint_court_scholar = yes
+	}
+
 	cost = {
 		prestige = {
 			add = {
@@ -413,6 +473,27 @@ tradition_dreadful_stalkers = {
 	}
 }
 
+tradition_elemental_binding = {
+	layers = {
+		0 = steward
+		1 = western
+		4 = tools.dds
+	}
+	
+	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
 tradition_embrace_of_industry = {
 	layers = {
 		0 = steward
@@ -646,6 +727,47 @@ tradition_lumber_industry = {
 	}
 	
 	category = realm
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_magebred_steeds = {
+	layers = {
+		0 = martial
+		1 = western
+		4 = horses.dds
+	}
+	
+	category = combat
+	
+	parameters = {
+		unlock_maa_horse_archers = yes
+		can_recruit_open_specialist = yes
+		unlock_horse_pastures_building = yes
+		steppe_hunt_success_chance = yes
+	}
+	
+	character_modifier = {
+		light_cavalry_damage_mult = 0.1
+		light_cavalry_screen_mult = 0.1
+		steppe_cancel_negative_supply = yes
+		supply_duration = 1
+		movement_speed = 0.1
+		character_travel_speed_mult = 0.2
+		character_travel_safety_mult = 0.2
+		steppe_travel_danger = steppe_high_danger_reduction
+		movement_speed_land_raiding = 0.3
+		hostile_county_attrition_raiding = -0.5
+	}
 	
 	is_shown = { always = yes }
 	can_pick = { always = yes }
@@ -981,6 +1103,36 @@ tradition_simple_pleasures = {
 	
 	is_shown = { always = yes }
 	can_pick = { always = yes }
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+			}
+		}
+	}
+}
+
+tradition_skilled_orators = {
+	layers = {
+		0 = learning
+		1 = western
+		4 = jirga.dds
+	}
+	
+	category = societal
+	
+	is_shown = { always = yes }
+	can_pick = { always = yes }
+
+	parameters = {
+		give_political_speech = yes # New Activity
+
+	}
+
+	character_modifier = {
+		poet_xp_gain_mult = 0.25
+	}
 	
 	cost = {
 		prestige = {

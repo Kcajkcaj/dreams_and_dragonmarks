@@ -19,7 +19,7 @@ zil = {
 		tradition_famed_universities
 		tradition_xenophilia
 		tradition_trickster_heroes
-		# One More
+		tradition_elemental_binding
 	}
 	
 	ethnicities = {

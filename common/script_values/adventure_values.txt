@@ -47,7 +47,7 @@ adventure_entourage_weighting_value = {
 	}
 	if = {
 		limit = {has_trait = craven}
-		subtract = 2
+		subtract = 5
 	}
 	if = {
 		limit = {has_trait = mage}

@@ -319,6 +319,7 @@
 	culture = aereni
 	faith = undying_court
 	holding = castle_holding
+	1.1.1 = {effect = {add_province_modifier = vol_ruin}}
 }
 1459 = {holding = church_holding}
 1460 = {holding = city_holding}
@@ -413,3 +414,102 @@
 }
 1494 = {holding = church_holding}
 1495 = {holding = none}
+####### Kingdom of Silaes
+##### Duchy of Shalas
+### Var Shalas
+1496 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1497 = {holding = none}
+1498 = {holding = none}
+1499 = {holding = none}
+1500 = {holding = none}
+### Taer Senadal
+1501 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1502 = {holding = none}
+1503 = {holding = none}
+### Shalas B
+1504 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1505 = {holding = none}
+1506 = {holding = none}
+1507 = {holding = none}
+### Shalas C
+1508 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1509 = {holding = none}
+1510 = {holding = none}
+1511 = {holding = none}
+##### Thoridor
+### Shae Thoridor
+1512 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1513 = {holding = none}
+1514 = {holding = none}
+### Thoridor B
+1515 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1516 = {holding = none}
+1517 = {holding = none}
+1518 = {holding = none}
+### Thoridor C
+1519 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1520 = {holding = none}
+1521 = {holding = none}
+##### Shanavar
+### A
+1522 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1523 = {holding = none}
+1524 = {holding = none}
+### B
+1525 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1526 = {holding = none}
+1527 = {holding = none}
+### C
+1528 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1529 = {holding = none}
+1530 = {holding = none}
+1531 = {holding = none}
+1532 = {holding = none}
+### D
+1533 = {
+	culture = tairn
+	faith = keepers_of_the_past
+	holding = castle_holding
+}
+1534 = {holding = none}
+1535 = {holding = none}

@@ -15,7 +15,7 @@ irmolik = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
-		
+		# Five More
 	}
 	
 	ethnicities = {
@@ -40,7 +40,7 @@ khaarpal = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
-		
+		# Five More
 	}
 	
 	ethnicities = {

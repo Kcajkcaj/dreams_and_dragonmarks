@@ -50,3 +50,27 @@ dynn_alaraen = {
 	name = "Alaraen"
 	culture = aereni
 }
+dynn_vadallia = {
+	name = "Vadallia"
+	culture = tairn
+}
+dynn_jholareth = {
+	name = "Jholareth"
+	culture = tairn
+}
+dynn_xiloscient = {
+	name = "Xiloscient"
+	culture = tairn
+}
+dynn_amastacia = {
+	name = "Amastacia"
+	culture = tairn
+}
+dynn_valraea = {
+	name = "Valraea"
+	culture = tairn
+}
+dynn_shol = {
+	name = "Shol"
+	culture = tairn
+}
