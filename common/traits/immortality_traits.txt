@@ -22,6 +22,7 @@ hag = {
 	intrigue = 3
 	flag = blocks_getting_non_epidemic_disease
 	flag = immortal_cravings
+	flag = can_not_marry
 }
 
 undying = {

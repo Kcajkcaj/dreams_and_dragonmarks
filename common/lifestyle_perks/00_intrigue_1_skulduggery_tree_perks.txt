@@ -27,6 +27,12 @@
 	}
 	
 	can_be_picked = {always = yes}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = covert_operatives_perk_effect
+		}
+	}
 }
 
 truth_is_relative_perk = {
@@ -137,6 +143,12 @@ knife_in_the_back_perk = {
 	can_be_picked = {
 		always = yes
 	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = knife_in_the_back_perk_effect
+		}
+	}
 }
 
 unchecked_manipulation_perk = {
@@ -149,6 +161,12 @@ unchecked_manipulation_perk = {
 	
 	can_be_picked = {
 		always = yes
+	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = unchecked_manipulation_perk_effect
+		}
 	}
 }
 
@@ -175,6 +193,11 @@ trust_no_one_perk = {
 
 	can_be_picked = {
 		always = yes
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = trust_no_one_perk_effect
+		}
 	}
 }
 
@@ -207,6 +230,12 @@ war_of_lies_perk = {
 	parent = twice_schemed_perk
 	
 	can_be_picked = {always = yes}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = war_of_lies_perk
+		}
+	}
 }
 
 schemer_perk = {

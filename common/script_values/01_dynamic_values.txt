@@ -473,6 +473,13 @@ battle_winner_gold_gain = {
 		add = 25
 	}
 	
+	if = {
+		limit = {
+			has_perk = battlefield_scavengers_perk
+		}
+		add = 25
+	}
+	
 	if = { # Bonus for legacy
 		limit = {
 			exists = dynasty

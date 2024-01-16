@@ -5,3 +5,7 @@
 hierarch_hook = {
 	perpetual = yes
 }
+
+broken_spirit_hook = {
+	strong = yes
+}

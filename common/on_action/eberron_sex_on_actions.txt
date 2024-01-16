@@ -1,6 +1,7 @@
 had_sex_on_action = {
 	on_actions = {
 		pillow_talk_on_action
+		passion_renown_on_action
 	}
 }
 
@@ -33,5 +34,12 @@ pillow_talk_on_action = {
 				}
 			}
 		}
+	}
+}
+
+passion_renown_on_action = {
+	trigger = {house ?= { has_house_modifier = ideal_passion}}
+	effect = {
+		dynasty ?= {add_dynasty_prestige = 25}
 	}
 }

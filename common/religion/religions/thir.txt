@@ -1,7 +1,7 @@
 thir_religion = {
 	family =  rf_draconic
 	doctrine_background_icon = core_tenet_banner_christian.dds
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = pagan_hostility_doctrine
 	doctrine = special_doctrine_is_sovereign_faith
 	
 	# Main Group
@@ -9,7 +9,7 @@ thir_religion = {
 	doctrine = doctrine_gender_equal
 	doctrine = doctrine_pluralism_righteous
 	doctrine = doctrine_theocracy_temporal
-	doctrine = doctrine_pantheon_all
+	doctrine = doctrine_pantheon_full
 	doctrine = doctrine_pilgrimage_encouraged
 	
 	# Marriage

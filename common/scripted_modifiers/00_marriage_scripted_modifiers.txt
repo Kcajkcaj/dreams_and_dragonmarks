@@ -1951,7 +1951,7 @@ elopment_ai_accept_modifier = { #Should copy marriage_ai_accept_modifier on rele
 	opinion_modifier = { # More likely to accept if Recipient likes the person the Actor offers for marriage
 		who = scope:recipient
 		opinion_target = scope:actor
-		multiplier = 1
+		multiplier = 1.5
 		desc = AI_OPINION_REASON
 	}
 
@@ -2094,7 +2094,7 @@ elopment_ai_accept_modifier = { #Should copy marriage_ai_accept_modifier on rele
 							}
 						}
 					}
-					subtract = 975
+					subtract = 25
 				}
 			}
 		}

@@ -1,0 +1,7 @@
+﻿agent = {
+	corresponding = handler
+}
+
+handler = {
+	corresponding = agent
+}

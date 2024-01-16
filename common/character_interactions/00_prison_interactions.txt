@@ -5241,6 +5241,41 @@ torture_interaction = {
 				dark_insights_skill_gain_roll_effect = yes
 			}
 		}
+		
+		if = {
+			limit = {
+				scope:actor = {has_perk = broken_spirit_perk}
+			}
+			scope:actor = {
+				duel = {
+					skill = intrigue
+					target = scope:recipient
+					
+					50 = { # No effect
+						compare_modifier = {
+							value = scope:duel_value
+							multiplier = -5
+						}
+						ai_value_modifier = {
+							ai_boldness = 0.5
+						}
+					}
+					50 = {
+						compare_modifier = {
+							value = scope:duel_value
+							multiplier = 5
+						}
+						ai_value_modifier = {
+							ai_boldness = -0.5
+						}
+						add_hook = {
+							type = broken_spirit_hook
+							target = scope:recipient
+						}
+					}
+				}
+			}
+		}
 	}
 
 	auto_accept = yes

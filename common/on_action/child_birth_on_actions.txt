@@ -663,8 +663,8 @@ eberron_add_child_of_commoner = {
 		scope:child = {
 			is_lowborn = no
 			or = {
-				father = {is_lowborn = yes}
-				mother = {is_lowborn = yes}
+				father ?= {is_lowborn = yes}
+				mother ?= {is_lowborn = yes}
 			}
 		}
 	}

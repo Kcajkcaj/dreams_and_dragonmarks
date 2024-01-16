@@ -410,6 +410,10 @@ third_of_defenders_strength = {
 siege_base_capture_chance = {
 	value = 35
 
+	if = {
+		limit = {has_perk = take_them_alive_perk}
+		add = 25
+	}
 	# Dynasty Perk: Practiced Kidnappers
 	if = {
 		limit = {
@@ -452,6 +456,10 @@ raid_base_capture_chance = {
 	if = {
 		limit = { has_trait = viking }
 		add = 5
+	}
+	if = {
+		limit = {has_perk = take_them_alive_perk}
+		add = 25
 	}
 	if = {
 		limit = {culture = {has_cultural_parameter = more_captives}}

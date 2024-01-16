@@ -46,3 +46,143 @@ manipulate_through_sex = {
 		}
 	}
 }
+
+recruit_as_agent = {
+	icon = secret
+	category = interaction_category_friendly
+	
+	is_shown = {
+		scope:actor = {
+			has_perk = covert_operatives_perk
+		}
+		scope:recipient = {
+			OR = {
+				is_courtier_of = scope:actor
+				is_pool_guest_of = scope:actor
+			}
+			is_adult = yes
+			not = {has_relation_handler = scope:actor}
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			set_relation_handler = scope:actor
+		}
+		scope:actor = {
+			if = {
+				limit = {
+					scope:hook = yes
+					scope:recipient = { is_alive = yes }
+				}
+				use_hook = scope:recipient
+			}
+			if = {
+				limit = { always = scope:gift }
+				pay_short_term_gold = {
+					gold = bribe_value
+					target = scope:recipient
+				}
+				stress_impact = {
+					greedy = minor_stress_impact_gain
+				}
+			}
+		}
+	}
+	
+	ai_accept = {
+		base = -30
+		modifier = {
+			scope:hook = yes
+			add = 25
+			desc = SCHEME_WEAK_HOOK_USED
+		}
+		modifier = {
+			scope:gift = yes
+			add = 25
+			desc = SCHEME_AGENT_GOLD
+		}
+		ai_value_modifier = {
+			ai_compassion = -0.25
+			ai_honor = -0.5
+		}
+		opinion_modifier = {
+			opinion_target = scope:actor
+			multiplier = 0.5
+		}
+	}
+	send_option = {
+		is_valid = {
+			scope:actor = {
+				has_usable_hook = scope:recipient
+			}
+		}
+		flag = hook
+		localization = SCHEME_HOOK
+	}
+	send_option = {
+		is_valid = {
+			scope:actor = {
+				gold >= bribe_value
+			}
+		}
+		flag = gift
+		localization = SCHEME_AGENT_GOLD
+	}
+	send_options_exclusive = no
+}
+
+send_agent = {
+	icon = secret
+	category = interaction_category_hostile
+	
+	is_shown = {
+		scope:actor = {
+			any_relation = {
+				type = agent
+				is_at_some_location = scope:actor
+			}
+		}
+		scope:recipient = {
+			is_ruler = yes
+			not = {scope:actor = this}
+		}
+	}
+	
+	populate_actor_list = {
+		scope:actor = {
+			every_relation = {
+				type = agent
+				add_to_list = characters
+			}
+		}
+	}
+	
+	on_accept = {
+		scope:recipient = {
+			add_visiting_courtier = scope:secondary_actor
+		}
+	}
+
+	auto_accept = yes
+}
+
+recall_agent = {
+	icon = secret
+	category = interaction_category_friendly
+	
+	is_shown = {
+		scope:actor = {
+			has_relation_agent = scope:recipient
+			not = {is_at_some_location = scope:recipient}
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			add_visiting_courtier = scope:recipient
+		}
+	}
+
+	auto_accept = yes
+}

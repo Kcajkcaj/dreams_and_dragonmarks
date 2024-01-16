@@ -1,6 +1,7 @@
 ﻿#Controls the can_raid rule.
 can_raid_trigger = {
 	OR = {
+		has_perk = raider_perk
 		# Government logic.
 		government_has_flag = government_can_raid_rule
 		# Faith Logic.
@@ -101,6 +102,7 @@ can_raid_trait_flag_standard_requirements_trigger = {
 
 can_raid_across_water_trigger = {
 	OR = {
+		has_perk = raider_perk
 		# Culture logic.
 		culture = {
 			OR = {

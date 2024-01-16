@@ -93,6 +93,12 @@ broken_spirit_perk = {
 	parent = divine_retribution_perk
 	
 	can_be_picked = {always = yes}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = broken_spirit_perk_effect
+		}
+	}
 }
 
 prison_feudal_complex_perk = {
@@ -183,6 +189,18 @@ hostage_taker_perk = {
 	can_be_picked = {
 		always = yes
 	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = hostage_taker_perk_effect
+		}
+	}
+	character_modifier = {
+		hostage_prestige_mult = 1
+		hostage_piety_mult = 1
+		hostage_renown_mult = 1
+		hostage_income_mult = 1
+	}
 }
 
 fear_tax_perk = {
@@ -213,6 +231,11 @@ irrefusable_offer_perk = {
 	
 	can_be_picked = {
 		always = yes
+	}
+	effect = {
+		custom_description_no_bullet = {
+			text = irrefusable_offer_perk_effect
+		}
 	}
 }
 

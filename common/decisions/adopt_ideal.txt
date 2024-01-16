@@ -75,8 +75,8 @@ adopt_house_ideal = {
 				trigger = {
 					or = {
 						has_trait = greedy
-						has_trait = wrathful
-						has_trait = sadistic
+						has_trait = stubborn
+						has_trait = temperate
 					}
 				}
 				house = {add_house_modifier = ideal_prosperity}

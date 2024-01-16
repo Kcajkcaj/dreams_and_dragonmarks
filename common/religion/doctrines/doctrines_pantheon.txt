@@ -1,4 +1,4 @@
-doctrine_pantheon = {
+﻿doctrine_pantheon = {
 	group = "main_group"
 
 	doctrine_pantheon_none = {

@@ -1,0 +1,23 @@
+bp2_hostage_dread_modifier = {
+	modifier = {
+		add = intimidated_halved_reason_value
+		scope:recipient = {
+			has_dread_level_towards = { target = scope:actor level = 1 }
+		}
+		desc = INTIMIDATED_REASON
+	}
+	modifier = {
+		add = cowed_halved_reason_value
+		scope:recipient = {
+			has_dread_level_towards = { target = scope:actor level = 2 }
+		}
+		desc = COWED_REASON
+	}
+	modifier = {
+		add = 50
+		scope:actor = {
+			has_perk = hostage_taker_perk
+		}
+		desc = HOSTAGE_TAKER_PERK_REASON
+	}
+}

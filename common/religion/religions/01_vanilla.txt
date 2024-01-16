@@ -1408,7 +1408,7 @@ christianity_religion = {
 	family = rf_abrahamic
 
 	doctrine_background_icon = core_tenet_banner_christian.dds
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = pagan_hostility_doctrine
 
 	#Main Group
 	doctrine = doctrine_spiritual_head
@@ -2674,7 +2674,7 @@ dualism_religion = {
 	family = rf_abrahamic
 
 	doctrine = doctrine_monogamy
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = pagan_hostility_doctrine
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_spiritual_head
 	doctrine = doctrine_monogamy
@@ -4759,7 +4759,7 @@ islam_religion = {
 	#STANDARD DOCTRINES:
 
 	#Abrahamic hostiliy group
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = pagan_hostility_doctrine
 	#Polygamous marriages
 	doctrine = doctrine_polygamy
 	#Male dominated
@@ -5810,7 +5810,7 @@ judaism_religion = {
 	graphical_faith = judaism_gfx
 
 	doctrine = doctrine_monogamy
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = pagan_hostility_doctrine
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_consanguinity_cousins
 	doctrine = doctrine_divorce_allowed
@@ -9656,7 +9656,7 @@ yazidi_religion = {
 	#STANDARD DOCTRINES:
 
 	#Abrahamic hostiliy group
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = pagan_hostility_doctrine
 	
 	# Main group
 	doctrine = doctrine_gender_male_dominated

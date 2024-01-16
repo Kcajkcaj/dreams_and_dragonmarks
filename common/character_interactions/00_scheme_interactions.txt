@@ -51,7 +51,12 @@ start_murder_interaction = {
 				target = scope:recipient
 			}
 		}
-		scope:recipient = { NOT = { has_strong_hook = scope:actor } }
+		scope:recipient = {
+			OR = {
+				NOT = { has_strong_hook = scope:actor }
+				has_perk = unchecked_manipulation_perk
+			}
+		}
 	}
 
 	desc = {

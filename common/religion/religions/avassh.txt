@@ -1,7 +1,7 @@
 avassh_religion = {
 	family =  rf_daelkyr
 	doctrine_background_icon = core_tenet_banner_christian.dds
-	doctrine = abrahamic_hostility_doctrine
+	doctrine = pagan_hostility_doctrine
 	
 	# Main Group
 	doctrine = doctrine_spiritual_head

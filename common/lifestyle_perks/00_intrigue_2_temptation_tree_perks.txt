@@ -63,6 +63,12 @@ birth_control_perk = {
 	can_be_picked = {
 		always = yes
 	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = birth_control_perk_effect
+		}
+	}
 }
 
 unshackled_lust_perk = {
@@ -113,6 +119,12 @@ pillow_talk_perk = {
 	parent = birth_control_perk
 	
 	can_be_picked = {always = yes}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = pillow_talk_perk_effect
+		}
+	}
 }
 
 mortal_adoration_perk = {
@@ -143,6 +155,12 @@ seductive_manipulator_perk = {
 	
 	can_be_picked = {
 		always = yes
+	}
+	
+	effect = {
+		custom_description_no_bullet = {
+			text = seductive_manipulator_perk_effect
+		}
 	}
 }
 
