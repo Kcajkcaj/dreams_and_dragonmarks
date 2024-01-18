@@ -90,6 +90,7 @@ city_holding = {
 		workshops_01
 		wind_furnace_01
 		vineyards_01
+		entertainment_district_01
 
 		guild_halls_01
 		

@@ -20,9 +20,9 @@ tulkheshism_religion = {
 	
 	# Crimes
 	doctrine = doctrine_homosexuality_accepted
-	doctrine = doctrine_adultery_men_criminal
+	doctrine = doctrine_adultery_men_crime
 	doctrine = doctrine_adultery_women_accepted
-	doctrine = doctrine_fornication_men_celebrated
+	doctrine = doctrine_fornication_men_accepted
 	doctrine = doctrine_fornication_women_accepted
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_accepted

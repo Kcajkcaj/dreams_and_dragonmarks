@@ -58,7 +58,7 @@ adventure_entourage_weighting_value = {
 		add = 3
 	}
 	if = {
-		limit = {has_trait = lifestyle_traveller}
+		limit = {has_trait = lifestyle_traveler}
 		add = 5
 	}
 	if = {

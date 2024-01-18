@@ -1472,7 +1472,7 @@ guild_halls_01 = {
 	cost_gold = normal_building_tier_1_cost
 	
 	province_modifier = {
-		monthly_income = normal_building_tax_tier_1
+		monthly_income = good_building_tax_tier_1
 	}
 	county_modifier = {
 		development_growth_factor = 0.05
@@ -1514,7 +1514,7 @@ guild_halls_02 = {
 	cost_gold = normal_building_tier_2_cost
 	
 	province_modifier = {
-		monthly_income = normal_building_tax_tier_2
+		monthly_income = good_building_tax_tier_2
 	}
 	county_modifier = {
 		development_growth_factor = 0.1
@@ -1567,7 +1567,7 @@ guild_halls_03 = {
 	cost_gold = normal_building_tier_3_cost
 	
 	province_modifier = {
-		monthly_income = normal_building_tax_tier_3
+		monthly_income = good_building_tax_tier_3
 	}
 	county_modifier = {
 		development_growth_factor = 0.15
@@ -1621,7 +1621,7 @@ guild_halls_04 = {
 	cost_gold = normal_building_tier_4_cost
 	
 	province_modifier = {
-		monthly_income = normal_building_tax_tier_4
+		monthly_income = good_building_tax_tier_4
 	}
 	county_modifier = {
 		development_growth_factor = 0.2
@@ -1674,7 +1674,7 @@ guild_halls_05 = {
 	cost_gold = normal_building_tier_5_cost
 	
 	province_modifier = {
-		monthly_income = normal_building_tax_tier_5
+		monthly_income = good_building_tax_tier_5
 	}
 	county_modifier = {
 		development_growth_factor = 0.25
@@ -1727,7 +1727,7 @@ guild_halls_06 = {
 	cost_gold = normal_building_tier_6_cost
 	
 	province_modifier = {
-		monthly_income = normal_building_tax_tier_6
+		monthly_income = good_building_tax_tier_6
 	}
 	county_modifier = {
 		development_growth_factor = 0.3
@@ -1780,7 +1780,7 @@ guild_halls_07 = {
 	cost_gold = normal_building_tier_7_cost
 	
 	province_modifier = {
-		monthly_income = normal_building_tax_tier_7
+		monthly_income = good_building_tax_tier_7
 	}
 	county_modifier = {
 		development_growth_factor = 0.35
@@ -1833,7 +1833,7 @@ guild_halls_08 = {
 	cost_gold = normal_building_tier_8_cost
 	
 	province_modifier = {
-		monthly_income = normal_building_tax_tier_8
+		monthly_income = good_building_tax_tier_8
 	}
 	county_modifier = {
 		development_growth_factor = 0.4

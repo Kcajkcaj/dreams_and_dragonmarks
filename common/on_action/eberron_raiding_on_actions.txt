@@ -1,0 +1,56 @@
+﻿on_siege_completion = {
+	on_actions = {
+		eberron_on_capture_prisoners
+	}
+}
+
+on_raid_action_completion = {
+	on_actions = {
+		eberron_on_capture_prisoners
+	}
+}
+
+eberron_on_capture_prisoners = {
+	effect = {
+		save_scope_as = capturer
+		scope:raider ?= {save_scope_as = capturer}
+		scope:capturer = {
+			if = {
+				limit = {
+					has_perk = take_them_alive_perk
+					not = {scope:barony.holder.capital_barony = scope:barony}
+				}
+				random_list = {
+					100 = {
+						trigger = {scope:barony.title_province = {has_holding_type = castle_holding}}
+						create_character = {
+							template = captive_courtier
+							employer = scope:barony.holder
+						}
+					}
+					100 = {
+						trigger = {scope:barony.title_province = {has_holding_type = city_holding}}
+						create_character = {
+							template = captive_burgher
+							employer = scope:barony.holder
+						}
+					}
+					100 = {
+						trigger = {scope:barony.title_province = {has_holding_type = church_holding}}
+						create_character = {
+							template = captive_cleric
+							employer = scope:barony.holder
+						}
+					}
+					100 = {
+						trigger = {scope:barony.title_province = {has_holding_type = tribal_holding}}
+						create_character = {
+							template = captive_tribesman
+							employer = scope:barony.holder
+						}
+					}
+				}
+			}
+		}
+	}
+}

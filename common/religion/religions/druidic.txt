@@ -17,7 +17,7 @@ druidic_religion = {
 	doctrine = doctrine_concubines_none
 	doctrine = doctrine_divorce_allowed
 	doctrine = doctrine_bastardry_none
-	doctrine = doctrine_consanguinity_close_kin_taboo
+	doctrine = doctrine_consanguinity_restricted
 	
 	# Crimes
 	doctrine = doctrine_homosexuality_shunned
@@ -25,7 +25,7 @@ druidic_religion = {
 	doctrine = doctrine_adultery_women_shunned
 	doctrine = doctrine_fornication_men_shunned
 	doctrine = doctrine_fornication_women_shunned
-	doctrine = doctrine_kinslaying_house_crime
+	doctrine = doctrine_kinslaying_extended_family_crime
 	doctrine = doctrine_deviancy_shunned
 	doctrine = doctrine_witchcraft_shunned
 	

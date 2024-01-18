@@ -1,0 +1,101 @@
+﻿captive_courtier = { # Castle
+	age = {20 30}
+	culture = scope:county.culture
+	faith = scope:county.faith
+	
+	random_traits_list = {
+		education_intrigue_3 = {}
+		education_diplomacy_3 = {}
+		education_intrigue_4 = {}
+		education_diplomacy_4 = {}
+	}
+	random_traits_list = {
+		inquisitive = {}
+		gregarious = {}
+		deceitful = {}
+	}
+	random_traits = yes
+	trait = shrewd
+	gender_female_chance = 50
+	after_creation = {
+		prisoner_of_war_capture_effect = {
+			TARGET = this
+			IMPRISONER = scope:capturer
+		}
+	}
+}
+
+captive_cleric = { # Church
+	age = {30 60}
+	culture = scope:county.culture
+	faith = scope:county.faith
+	
+	random_traits_list = {
+		education_learning_3 = {}
+		education_learning_4 = {}
+	}
+	random_traits_list = {
+		inquisitive = {}
+		zealous = {}
+		humble = {}
+	}
+	random_traits = yes
+	trait = shrewd
+	gender_female_chance = 50
+	after_creation = {
+		prisoner_of_war_capture_effect = {
+			TARGET = this
+			IMPRISONER = scope:capturer
+		}
+	}
+}
+
+captive_burgher = { # City
+	age = {20 40}
+	culture = scope:county.culture
+	faith = scope:county.faith
+	
+	random_traits_list = {
+		education_stewardship_3 = {}
+		education_stewardship_4 = {}
+	}
+	random_traits_list = {
+		greedy = {}
+		diligent = {}
+		temperate = {}
+	}
+	random_traits = yes
+	trait = shrewd
+	gender_female_chance = 50
+	after_creation = {
+		prisoner_of_war_capture_effect = {
+			TARGET = this
+			IMPRISONER = scope:capturer
+		}
+	}
+}
+
+captive_tribesman = { # Tribe
+	age = {20 40}
+	culture = scope:county.culture
+	faith = scope:county.faith
+	
+	random_traits_list = {
+		education_martial_3 = {}
+		education_martial_4 = {}
+	}
+	random_traits_list = {
+		fierce = {}
+		brave = {}
+		authoritative = {}
+	}
+	random_traits = yes
+	trait = strong
+	gender_female_chance = 50
+	after_creation = {
+		prisoner_of_war_capture_effect = {
+			TARGET = this
+			IMPRISONER = scope:capturer
+		}
+	}
+}

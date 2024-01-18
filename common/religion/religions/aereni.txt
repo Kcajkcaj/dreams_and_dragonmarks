@@ -20,8 +20,8 @@ aereni_religion = {
 	
 	# Crimes
 	doctrine = doctrine_homosexuality_shunned
-	doctrine = doctrine_adultery_men_criminal
-	doctrine = doctrine_adultery_women_criminal
+	doctrine = doctrine_adultery_men_crime
+	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_fornication_men_shunned
 	doctrine = doctrine_fornication_women_shunned
 	doctrine = doctrine_kinslaying_close_kin_crime
