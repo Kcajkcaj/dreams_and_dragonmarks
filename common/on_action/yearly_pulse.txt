@@ -1,6 +1,7 @@
-yearly_playable_pulse = {
+eberron_yearly_playable_pulse = {
 	on_actions = {
 		eberron_slavery_pulse
+		eberron_principality_pulse
 	}
 }
 
@@ -28,6 +29,21 @@ eberron_slavery_pulse = {
 			title = eberron_culture.0001.t
 			add_gold = var:slavery_earnings
 			left_icon = scope:root
+		}
+	}
+}
+
+eberron_principality_pulse = {
+	trigger = {
+		has_government = republic_government
+	}
+	effect = {
+		if = {
+			limit = {liege ?= {has_government = bureaucratic_government}}
+			change_government = bureaucratic_government
+		}
+		else = {
+			change_government = principality_government
 		}
 	}
 }

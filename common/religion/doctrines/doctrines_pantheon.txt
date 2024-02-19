@@ -75,7 +75,7 @@
 				limit = {
 					OR = {
 						has_doctrine = doctrine_pantheon_small
-						has_doctrine = doctrine_pantheon_full
+						has_doctrine = doctrine_pantheon_none
 					}
 				}
 				multiply = faith_changed_doctrine_cost_mult_two_step

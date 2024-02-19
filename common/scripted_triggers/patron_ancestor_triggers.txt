@@ -1,0 +1,10 @@
+has_patron_ancestor = {
+	or = {
+		has_character_modifier = ancestor_vadallia
+		has_character_modifier = ancestor_cardaen
+		has_character_modifier = ancestor_falaen
+		has_character_modifier = ancestor_taeri
+		has_character_modifier = ancestor_vaela
+		has_character_modifier = ancestor_maezan
+	}
+}

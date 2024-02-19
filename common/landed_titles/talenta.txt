@@ -1,0 +1,127 @@
+k_talenta = {
+	color = { 127 111 29 }
+	capital = c_gatherhold
+	
+	d_gatherhold = {
+		color = { 105 109 15 }
+		capital = c_gatherhold
+		
+		c_gatherhold = {
+			color = { 89 102 13 }
+			b_gatherhold_1 = {province = 1536}
+			b_gatherhold_2 = {province = 1537}
+			b_gatherhold_3 = {province = 1538}
+		}
+		c_gatherhold_b = {
+			color = { 97 108 1 }
+			b_gatherhold_b1 = {province = 1539}
+			b_gatherhold_b2 = {province = 1540}
+			b_gatherhold_b3 = {province = 1541}
+			b_gatherhold_b4 = {province = 1542}
+		}
+		c_gatherhold_c = {
+			color = { 98 106 1 }
+			b_gatherhold_c1 = {province = 1543}
+			b_gatherhold_c2 = {province = 1544}
+			b_gatherhold_c3 = {province = 1545}
+		}
+	}
+	d_south_talenta = {
+		color = { 121 95 1 }
+		capital = c_krezent
+		
+		c_krezent = {
+			color = { 124 96 1 }
+			b_krezent_1 = {province = 1546}
+			b_krezent_2 = {province = 1547}
+			b_krezent_3 = {province = 1548}
+			b_krezent_4 = {province = 1549}
+		}
+		c_boneyard = {
+			color = { 122 95 27 }
+			b_boneyard_1 = {province = 1550}
+			b_boneyard_2 = {province = 1551}
+			b_boneyard_3 = {province = 1552}
+		}
+		c_south_talenta_c = {
+			color = { 133 94 1 }
+			b_south_talenta_c1 = {province = 1553}
+			b_south_talenta_c2 = {province = 1554}
+			b_south_talenta_c3 = {province = 1555}
+		}
+		c_south_talenta_d = {
+			color = { 116 87 24 }
+			b_south_talenta_d1 = {province = 1556}
+			b_south_talenta_d2 = {province = 1557}
+			b_south_talenta_d3 = {province = 1558}
+			b_south_talenta_d4 = {province = 1559}
+		}
+	}
+	d_hatra = {
+		color = { 110 111 66 }
+		capital = c_hatra_a
+		
+		c_hatra_a = {
+			color = { 107 115 66 }
+			b_hatra_a1 = {province = 1560}
+			b_hatra_a2 = {province = 1561}
+			b_hatra_a3 = {province = 1562}
+			b_hatra_a4 = {province = 1563}
+		}
+		c_hatra_b = {
+			color = { 120 111 57 }
+			b_hatra_b1 = {province = 1564}
+			b_hatra_b2 = {province = 1565}
+			b_hatra_b3 = {province = 1566}
+		}
+		c_hatra_c = {
+			color = { 105 102 52 }
+			b_hatra_c1 = {province = 1567}
+			b_hatra_c2 = {province = 1568}
+			b_hatra_c3 = {province = 1569}
+		}
+		c_hatra_d = {
+			color = { 109 112 49 }
+			b_hatra_d1 = {province = 1570}
+			b_hatra_d2 = {province = 1571}
+			b_hatra_d3 = {province = 1572}
+		}
+	}
+	d_north_talenta = {
+		color = { 133 102 1 }
+		capital = c_north_talenta_a
+		
+		c_north_talenta_a = {
+			color = { 122 101 10 }
+			b_north_talenta_a1 = {province = 1573}
+			b_north_talenta_a2 = {province = 1574}
+			b_north_talenta_a3 = {province = 1575}
+		}
+		c_north_talenta_b = {
+			color = { 138 105 25 }
+			b_north_talenta_b1 = {province = 1576}
+			b_north_talenta_b2 = {province = 1577}
+			b_north_talenta_b3 = {province = 1578}
+		}
+		c_north_talenta_c = {
+			color = { 135 94 1 }
+			b_north_talenta_c1 = {province = 1579}
+			b_north_talenta_c2 = {province = 1580}
+			b_north_talenta_c3 = {province = 1581}
+			b_north_talenta_c4 = {province = 1582}
+		}
+		c_north_talenta_d = {
+			color = { 138 110 31 }
+			b_north_talenta_d1 = {province = 1583}
+			b_north_talenta_d2 = {province = 1584}
+			b_north_talenta_d3 = {province = 1585}
+		}
+		c_north_talenta_e = {
+			color = { 123 95 1 }
+			b_north_talenta_e1 = {province = 1586}
+			b_north_talenta_e2 = {province = 1587}
+			b_north_talenta_e3 = {province = 1588}
+			b_north_talenta_e4 = {province = 1589}
+		}
+	}
+}

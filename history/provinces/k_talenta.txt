@@ -1,0 +1,138 @@
+##### Gatherhold
+### Gatherhold
+1536 = {
+	culture = talentan
+	faith = maskweaver
+	holding = castle_holding
+}
+1537 = {holding = city_holding}
+1538 = {holding = church_holding}
+### B
+1539 = {
+	culture = talentan
+	faith = maskweaver
+	holding = castle_holding
+}
+1540 = {holding = city_holding}
+1541 = {holding = none}
+1542 = {holding = none}
+### C
+1543 = {
+	culture = talentan
+	faith = maskweaver
+	holding = castle_holding
+}
+1544 = {holding = city_holding}
+1545 = {holding = none}
+##### South Talenta
+### Krezent
+1546 = {
+	culture = shulassakar
+	faith = couatli
+	holding = castle_holding
+}
+1547 = {holding = church_holding}
+1548 = {holding = city_holding}
+1549 = {holding = church_holding}
+### Boneyard
+1550 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1551 = {holding = none}
+1552 = {holding = none}
+### C
+1553 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1554 = {holding = none}
+1555 = {holding = none}
+### D
+1556 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1557 = {holding = none}
+1558 = {holding = none}
+1559 = {holding = none}
+##### Hatra
+### A
+1560 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1561 = {holding = none}
+1562 = {holding = none}
+1563 = {holding = none}
+### B
+1564 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1565 = {holding = none}
+1566 = {holding = none}
+### C
+1567 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1568 = {holding = none}
+1569 = {holding = none}
+### D
+1570 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1571 = {holding = none}
+1572 = {holding = none}
+##### North Talenta
+### A
+1573 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1574 = {holding = none}
+1575 = {holding = none}
+### B
+1576 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1577 = {holding = none}
+1578 = {holding = none}
+### C
+1579 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1580 = {holding = none}
+1581 = {holding = none}
+1582 = {holding = none}
+### D
+1583 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1584 = {holding = none}
+1585 = {holding = none}
+### E
+1586 = {
+	culture = talentan
+	faith = maskweaver
+	holding = tribal_holding
+}
+1587 = {holding = none}
+1588 = {holding = none}
+1589 = {holding = none}

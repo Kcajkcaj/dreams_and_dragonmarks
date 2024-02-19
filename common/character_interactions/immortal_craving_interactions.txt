@@ -1,0 +1,26 @@
+succubus_feed = {
+	icon = icon_scheme_learn_language
+	category = interaction_category_hostile
+	
+	use_diplomatic_range = yes
+	auto_accept = yes
+	
+	is_shown = {
+		scope:actor = {
+			has_trait = succubus
+		}
+		scope:recipient = {
+			has_relation_lover = scope:actor
+			is_capable_adult = yes
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			add_craving = {VALUE = -30}
+		}
+		scope:recipient = {
+			add_trait = incapable
+		}
+	}
+}

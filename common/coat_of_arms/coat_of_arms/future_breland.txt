@@ -327,3 +327,18 @@ dynn_dagger_demell = {
 		texture="ce_tower.dds"
 	}
 }
+
+dynn_trolan={
+	pattern="pattern_solid.dds"
+	color1=rgb { 172 143 100 }
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=green_light
+		texture="ce_shrivatsa.dds"
+		instance={
+			position={ 0.500000 0.480000 }
+			scale={ 0.930000 0.930000 }
+		}
+	}
+}

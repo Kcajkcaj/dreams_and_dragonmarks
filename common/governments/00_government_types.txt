@@ -6,6 +6,8 @@
 
 	primary_holding = castle_holding
 	required_county_holdings = { castle_holding city_holding church_holding }
+	house_unity = clan_house_unity
+	flag = government_has_house_unity
 
 	vassal_contract = {
 		feudal_government_taxes
@@ -102,6 +104,7 @@ clan_government = {
 	dynasty_named_realms = yes
 
 	house_unity = clan_house_unity
+	flag = government_has_house_unity
 	tax_slot_type = clan_tax_slot
 
 	vassal_contract = {
@@ -179,7 +182,10 @@ tribal_government = {
 	valid_holdings = { castle_holding }
 
 	prestige_opinion_override = { -10 0 3 5 10 20 }
-	always_use_patronym = yes	
+	always_use_patronym = yes
+	
+	house_unity = clan_house_unity
+	flag = government_has_house_unity
 
 	vassal_contract = { tribal_government_obligations }
 	
@@ -249,9 +255,12 @@ principality_government = {
 	
 	flag = government_is_principality
 
-	primary_holding = city_holding
-	valid_holdings = { castle_holding }
+	primary_holding = castle_holding
+	valid_holdings = { city_holding }
 	required_county_holdings = { castle_holding city_holding church_holding }
+	
+	house_unity = clan_house_unity
+	flag = government_has_house_unity
 
 	vassal_contract = {
 		feudal_government_taxes
@@ -266,7 +275,7 @@ principality_government = {
 		title_revocation_rights
 	}
 	
-	color = hsv{ 0.18 1.00 0.83 }
+	color = hsv{ 0.00 1.00 0.98 }
 	
 	character_modifier = {
 		domain_tax_mult = 0.25
@@ -284,6 +293,9 @@ bureaucratic_government = {
 	primary_holding = castle_holding
 	valid_holdings = { city_holding }
 	required_county_holdings = { castle_holding city_holding }
+	
+	house_unity = clan_house_unity
+	flag = government_has_house_unity
 	
 	vassal_contract = {
 		feudal_government_taxes
@@ -303,7 +315,7 @@ bureaucratic_government = {
 	character_modifier = {
 		levy_size = -10
 		men_at_arms_cap = 2
-		men_at_arms_maintenance = -0.5
+		men_at_arms_maintenance = -0.3
 	}
 }
 
@@ -315,31 +327,22 @@ warband_government = {
 	flag = government_can_raid_rule
 	
 	primary_holding = castle_holding
-	valid_holdings = { tribal_holding }
 	required_county_holdings = { castle_holding city_holding church_holding}
+	
+	house_unity = clan_house_unity
+	flag = government_has_house_unity
 	
 	regiments_prestige_as_gold = yes
 	supply_limit_mult_for_others = -0.5
 	
-	vassal_contract = {
-		feudal_government_taxes
-		feudal_government_levies
-		special_contract
-		religious_rights
-		fortification_rights
-		coinage_rights
-		succession_rights
-		war_declaration_rights
-		council_rights
-		title_revocation_rights
-	}
+	vassal_contract = { tribal_government_obligations }
 	
 	color = hsv{ 0.0 0.7 0.6 }
 	
 	character_modifier = {
 		levy_size = -10
 		men_at_arms_cap = 2
-		knight_limit = 4
+		knight_limit = 6
 		knight_effectiveness_mult = 1
 	}
 }

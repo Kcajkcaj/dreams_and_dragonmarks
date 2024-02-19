@@ -2,3 +2,14 @@ arcane_ward = {
     icon = magic_positive
     fort_level = 3
 }
+
+undead_hordes = {
+	icon = magic_positive
+	levy_size = 1
+}
+
+undead_laborers = {
+	icon = magic_positive
+	build_gold_cost = -0.25
+	build_speed = -0.25
+}

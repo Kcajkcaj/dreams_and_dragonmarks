@@ -1,0 +1,177 @@
+start_antagonize_interaction = {
+	icon = icon_hostile
+	common_interaction = yes
+	interface_priority = 90
+	category = interaction_category_hostile
+
+	ignores_pending_interaction_block = yes
+
+	scheme = antagonize
+
+	send_name = START_SCHEME
+
+	is_shown = {
+		NOT = { scope:recipient = scope:actor }
+	}
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			can_start_scheme = {
+				type = antagonize
+				target = scope:recipient
+			}
+		}
+		scope:recipient = {
+			OR = {
+				NOT = { has_strong_hook = scope:actor }
+				has_perk = unchecked_manipulation_perk
+			}
+		}
+	}
+
+	on_accept = {
+		scope:actor = {
+			stress_impact = {
+				compassionate = major_stress_impact_gain
+				honest = medium_stress_impact_gain
+				just = medium_stress_impact_gain
+			}
+		}
+		hidden_effect = {
+			scope:actor = {
+				send_interface_toast = {
+					title = start_antagonize_interaction_notification
+
+					left_icon = scope:actor					
+					right_icon = scope:recipient
+
+					start_scheme = {
+						type = antagonize
+						target = scope:recipient
+					}
+
+					show_as_tooltip = {
+						stress_impact = {
+							compassionate = major_stress_impact_gain
+							honest = medium_stress_impact_gain
+							just = medium_stress_impact_gain
+						}
+					}
+				}
+				if = {
+					limit = {
+						has_trait = education_intrigue_5
+					}
+					random_scheme = {
+						limit = {
+							scheme_type = antagonize
+							scheme_target = scope:recipient
+						}
+						add_scheme_progress = 3
+					}
+				}
+			}
+		}
+	}
+	
+	ai_targets = {
+		ai_recipients = liege
+		ai_recipients = neighboring_rulers
+	}
+	ai_targets = {
+		ai_recipients = vassals
+		ai_recipients = peer_vassals
+		chance = 0.25
+	}
+	ai_frequency = 20
+	
+	auto_accept = yes
+	
+	ai_potential = {
+		NOR = {
+			has_trait = shy
+			has_trait = forgiving
+			any_scheme = {
+				OR = {
+					scheme_type = murder
+					scheme_type = antagonize
+				}
+			}
+			AND = { # No one cares about City barons
+				is_lowborn = yes
+				primary_title.tier <= tier_barony
+			}
+		}
+	}
+	
+	ai_will_do = {
+		base = 50
+
+		modifier = {
+			factor = 2
+			scope:recipient.liege = scope:actor
+		}
+
+		modifier = {
+			factor = 1.5
+			NOT = { scope:recipient.faith = scope:actor.faith }
+		}
+		
+		modifier = {
+			factor = 0
+			scope:actor = {
+				opinion = {
+					target = scope:recipient
+					value > 0
+				}
+			}
+		}
+
+		modifier = {
+			factor = 0.25
+			scope:actor = {
+				is_ruler = yes
+				tier_difference = {
+					target = scope:recipient
+					value > 2
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scope:actor = {
+				has_personality_malicious_trigger = yes
+			}
+		}
+		modifier = {
+			factor = 3
+			scope:actor = {
+				OR = {
+					has_trait = vengeful
+					has_trait = callous
+					has_trait = sadistic
+				}
+			}
+		}
+		modifier = {
+			factor = 3
+			scope:actor = { #Enemy of my friend
+				any_relation = {
+					type = friend
+					any_relation = {
+						type = rival
+						this = scope:recipient
+					}
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scope:recipient = {
+				any_claim = {
+					this = scope:actor.primary_title
+				}
+			}
+		}
+	}
+}

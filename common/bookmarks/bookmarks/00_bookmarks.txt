@@ -1,13 +1,12 @@
-﻿bm_3414_wroat = {
+﻿bm_3414_breland = {
 	start_date = 3414.1.1
 	is_playable = yes
 	group = bm_group_3414
 
 	weight = { value = 100 }
 
-	# Guanarigato
 	character = {
-		name = "Breggor Firstking"
+		name = "BreggorFirstking"
 		dynasty = dynn_dain
 		dynasty_splendor_level = 1
 		type = male
@@ -18,8 +17,72 @@
 		religion = "frontier_creed"
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = breggor_dain
-		position = { 250 750 }
+		position = { 600 500 }
 
-		animation = happiness
+		animation = chancellor
+	}
+	character = {
+		name = "TasraKas"
+		dynasty = dynn_malleonid
+		dynasty_splendor_level = 1
+		type = female
+		birth = 3384.7.19
+		title = d_sharn
+		government = feudal_government
+		culture = shaarati
+		religion = "redtide_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = tasra_malleonid
+		position = { 350 650 }
+
+		animation = marshal
+	}
+	character = {
+		name = "Aaspar"
+		dynasty = dynn_of_silln
+		dynasty_splendor_level = 1
+		type = female
+		birth = 3392.11.8
+		title = d_silln
+		government = tribal_government
+		culture = daggerborn
+		religion = "cornucopian"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = aaspar_of_silln
+		position = { 450 850 }
+
+		animation = marshal
+	}
+	character = {
+		name = "ChasevaLantar"
+		dynasty = dynn_vathir_lantar
+		dynasty_splendor_level = 1
+		type = female
+		birth = 3359.1.10
+		title = k_vathirond
+		government = feudal_government
+		culture = vathir
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = chaseva_lantar
+		position = { 1200 300 }
+
+		animation = zeal
+	}
+	character = {
+		name = "RoywinTrolan"
+		dynasty = dynn_trolan
+		dynasty_splendor_level = 10
+		type = male
+		birth = 3364.10.13
+		title = k_zilargo
+		government = principality_government
+		culture = zil
+		religion = "korranberg_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = roywin_trolan
+		position = {950 800}
+		
+		animation = zeal
 	}
 }

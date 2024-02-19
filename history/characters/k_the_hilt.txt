@@ -4,6 +4,8 @@ aaspar_of_silln = {
 	faith = cornucopian
 	female = yes
 	
+	dynasty = dynn_of_silln
+	
 	trait = education_learning_3
 	
 	trait = zealous

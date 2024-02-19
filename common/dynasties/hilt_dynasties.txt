@@ -22,3 +22,8 @@ dynn_hilt_tain = {
 	name = "Tain"
 	culture = shaarati
 }
+
+dynn_of_silln = {
+	name = "of Silln"
+	culture = daggerborn
+}

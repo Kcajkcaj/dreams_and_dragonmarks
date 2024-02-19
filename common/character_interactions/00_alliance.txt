@@ -1224,6 +1224,13 @@ negotiate_alliance_interaction = {
 				}
 			}
 		}
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = minor_unity_gain
+			DESC = clan_unity_alliance.desc
+			REVERSE_NON_HOUSE_TARGET = no
+		}
 	}
 	
 	on_decline = {
@@ -1235,6 +1242,13 @@ negotiate_alliance_interaction = {
 				modifier = refused_alliance_opinion
 				target = scope:recipient
 			}
+		}
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = minor_unity_loss
+			DESC = clan_unity_alliance_refusal.desc
+			REVERSE_NON_HOUSE_TARGET = no
 		}
 	}
 
@@ -2055,6 +2069,13 @@ perk_alliance_interaction = {
 				target = scope:actor
 			}
 		}
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = medium_unity_gain
+			DESC = clan_unity_alliance.desc
+			REVERSE_NON_HOUSE_TARGET = no
+		}
 	}
 	
 	on_decline = {
@@ -2066,6 +2087,13 @@ perk_alliance_interaction = {
 				modifier = refused_alliance_opinion
 				target = scope:recipient
 			}
+		}
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = minor_unity_loss
+			DESC = clan_unity_alliance_refusal.desc
+			REVERSE_NON_HOUSE_TARGET = no
 		}
 	}
 
@@ -2997,6 +3025,36 @@ join_war_interaction = {
 						set_relation_potential_friend = scope:actor
 					}
 				}
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:target
+				scope:target = {
+					OR = {
+						AND = {
+							primary_attacker = scope:recipient
+							scope:recipient.house = scope:actor.house
+							primary_defender = {
+								NOT = { house = scope:actor.house }
+							}
+						}
+						AND = {
+							primary_defender = scope:recipient
+							scope:recipient.house = scope:actor.house
+							primary_attacker = {
+								NOT = { house = scope:actor.house }
+							}
+						}
+					}
+				}
+			}
+			add_clan_unity_interaction_effect = {
+				CHARACTER = scope:actor
+				TARGET = scope:recipient
+				VALUE = medium_unity_gain
+				DESC = clan_unity_join_war.desc
+				REVERSE_NON_HOUSE_TARGET = no
 			}
 		}
 	}

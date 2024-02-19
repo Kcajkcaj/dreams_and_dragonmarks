@@ -77,7 +77,7 @@
 			always = yes
 		}
 		character_modifier = {
-			development_growth_factor = 0.5
+			development_growth_factor = 0.3
 		}
 		parameters = {
 			new_buildings_grant_piety = yes
@@ -132,6 +132,7 @@
 			virtues = {
 				education_martial_3
 				education_martial_4
+				education_martial_5
 				lifestyle_blademaster
 			}
 		}
@@ -204,18 +205,19 @@
 			virtues = {
 				education_learning_3 = 1
 				education_learning_4 = 2
+				education_learning_5 = 3
 				theologian = 3
 			}
 		}
 		
 		character_modifier = {
-			faith_creation_piety_cost_mult = -0.5
+			faith_creation_piety_cost_mult = -0.3
 			monthly_learning_lifestyle_xp_gain_mult = 0.2
 		}
 		
 		parameters = {
 			literalist_debate_enabled = yes
-			conclave_activity_active = yes # New
+			conclave_activity_active = yes # New Activity
 			conclaves_more_heresy = yes
 			aureon = yes
 		}
@@ -490,10 +492,18 @@
 		
 		character_modifier = {
 			ai_honor = 50
+			opinion_of_liege = 10
 		}
 		traits = {
 			virtues = {
-				content
+				content = 2
+				honest = 2
+				humble = 2
+			}
+			sins = {
+				ambitious = 2
+				deceitful = 2
+				arrogant = 2
 			}
 		}
 	}
@@ -527,6 +537,49 @@
 			domain_limit = 1
 			ai_war_chance = -0.25
 			ai_war_cooldown = 5
+		}
+	}
+	
+	tenet_patron_ancestors = {
+		icon = core_tenet_armed_pilgrimages
+		
+		piety_cost = {
+			value = faith_tenet_cost_mid
+			if = {
+				limit = {has_doctrine = tenet_patron_ancestors}
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		
+		is_shown = {always = yes}
+		
+		traits = {
+			virtues = {
+				education_martial_3
+				education_martial_4
+				education_martial_5
+				lifestyle_blademaster
+				strong
+			}
+		}
+		
+		character_modifier = {
+			prowess_per_piety_level = 3
+			accolade_glory_gain_mult = 0.5
+			active_accolades = 2
+			ai_war_cooldown = -0.5
+			ai_war_chance = 3
+		}
+		
+		parameters = {
+			patron_ancestors = yes
+			winning_battles_grants_renown = yes
+			piety_from_long_peace = -2
+			no_offensive_holy_wars = yes
+			has_border_raids = yes
+			dol_arrah = yes
+			dol_azur = yes
+			dol_dorn = yes
 		}
 	}
 	

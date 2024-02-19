@@ -77,3 +77,17 @@ dynn_deneith={
 		}
 	}
 }
+
+dynn_karrnath_jaranus = {
+	pattern="pattern_chevron_01.dds"
+	color1=rgb { 81 81 81 }
+	color2=red
+	color3=red
+	colored_emblem={
+		color1=white
+		texture="ce_eastern_clouds.dds"
+		instance={
+			scale={ 0.790000 0.790000 }
+		}
+	}
+}

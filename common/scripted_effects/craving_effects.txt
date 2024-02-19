@@ -27,3 +27,10 @@ add_craving = {
 		}
 	}
 }
+
+reset_craving = {
+	set_variable = {
+		name = craving
+		value = 0
+	}
+}

@@ -47,7 +47,7 @@ offer_vassalization_interaction = {
 	ai_max_reply_days = 10
 
 	ai_accept = {
-		base = -50
+		base = -100
 		#MAIN
 		#Heretic/Infidel modifier.
 		#Tier difference modifier.
@@ -424,7 +424,7 @@ offer_vassalization_interaction = {
 					value = scope:recipient.max_military_strength # Intended for recipient to use max, to avoid having vassalizations become too easy for weakened realms
 					divide = { value = scope:actor.current_military_strength min = 1 }
 				}
-				multiply = 20
+				multiply = 40
 				ceiling = yes
 	  		}
 		}
@@ -475,7 +475,7 @@ offer_vassalization_interaction = {
 					NOT = { has_relation_best_friend = scope:actor }
 				}
 			}
-			add = 10
+			add = 20
 		}
 		modifier = { #Best Friend modifier.
 			desc = offer_vassalization_interaction_aibehavior_best_friend_tt
@@ -484,7 +484,7 @@ offer_vassalization_interaction = {
 					has_relation_best_friend = scope:actor
 				}
 			}
-			add = 20
+			add = 40
 		}
 		modifier = { #Lover modifier.
 			desc = interaction_lover
@@ -494,7 +494,7 @@ offer_vassalization_interaction = {
 					NOT = { has_relation_soulmate = scope:actor }
 				}
 			}
-			add = 10
+			add = 20
 		}
 		modifier = { #Soulmate modifier.
 			desc = interaction_soulmate
@@ -503,7 +503,7 @@ offer_vassalization_interaction = {
 					has_relation_soulmate = scope:actor
 				}
 			}
-			add = 20
+			add = 40
 		}
 		modifier = { #Rivalry modifier.
 			desc = offer_vassalization_interaction_aibehavior_rival_tt
@@ -540,21 +540,6 @@ offer_vassalization_interaction = {
 			trigger = {
 				scope:actor = {
 					knows_language_of_culture = scope:recipient.culture
-				}
-			}
-		}
-
-		modifier = { # Iberian Struggle, less likely for outsiders to vassalize inside
-			add = -35
-			desc = iberian_struggle_reason_reason
-			trigger = {
-				scope:actor = {
-					NOT = {
-						any_character_struggle = { is_struggle_type = iberian_struggle }
-					}
-				}
-				scope:recipient = {
-					any_character_struggle = { is_struggle_type = iberian_struggle }
 				}
 			}
 		}
@@ -639,7 +624,7 @@ offer_vassalization_interaction = {
 					has_trait = authoritative
 				}
 			}
-			add = 10
+			add = 15
 		}
 
 		modifier = { # Fickle
@@ -703,33 +688,10 @@ offer_vassalization_interaction = {
 			}
 			desc = COWED_REASON
 		}
-		opinion_modifier = { #Compare Opinion modifier - Clans care more about opinion
-			trigger = {
-				scope:actor = {
-					government_has_flag = government_is_clan
-				}
-				scope:recipient = {
-					government_has_flag = government_is_clan
-				}
-			}
-			who = scope:recipient
-			opinion_target = scope:actor
-			multiplier = 0.7
-		}
 		opinion_modifier = { #Compare Opinion modifier.
-			trigger = {
-				OR = {
-					scope:actor = {
-						NOT = { government_has_flag = government_is_clan }
-					}
-					scope:recipient = {
-						NOT = { government_has_flag = government_is_clan }
-					}
-				}
-			}
 			who = scope:recipient
 			opinion_target = scope:actor
-			multiplier = 0.35
+			multiplier = 0.6
 		}
 
 		# DIPLOMATIC COURT GRANDEUR BONUS
@@ -1091,6 +1053,13 @@ force_vote_in_succession_election_interaction = {
 			hidden_effect = {
 				use_hook = scope:recipient
 			}
+		}
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = minor_unity_gain
+			DESC = clan_unity_voted.desc
+			REVERSE_NON_HOUSE_TARGET = no
 		}
 	}
 }
@@ -1454,7 +1423,13 @@ grant_independence_interaction = {
 		}
 
 		# Grant independence to non de_jure
-
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = medium_unity_loss
+			DESC = clan_unity_grant_independence.desc
+			REVERSE_NON_HOUSE_TARGET = no
+		}
 	}
 
 	ai_will_do = {
@@ -1562,6 +1537,13 @@ expose_secret_interaction = {
 				just = medium_stress_impact_loss
 				shy = medium_stress_impact_gain
 			}
+		}
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = major_unity_loss
+			DESC = clan_unity_secret_exposure.desc
+			REVERSE_NON_HOUSE_TARGET = no
 		}
 	}
 

@@ -236,6 +236,17 @@ javi_imaradi = {
 	3365.1.14 = {birth = yes}
 }
 
+jeffi_imaradi = {
+	name = "Jeffi"
+	culture = sigilan
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_sigilan_imaradi
+	father = javi_imaradi
+	
+	3387.10.18 = {birth = yes}
+}
+
 sercyl_marktaros = {
 	name = "Sercyl"
 	culture = sigilan

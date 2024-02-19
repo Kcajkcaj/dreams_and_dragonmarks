@@ -1,0 +1,6 @@
+nick_ancestor_vadallia = {}
+nick_ancestor_cardaen = {}
+nick_ancestor_falaen = {}
+nick_ancestor_taeri = {}
+nick_ancestor_vaela = {}
+nick_ancestor_maezan = {}

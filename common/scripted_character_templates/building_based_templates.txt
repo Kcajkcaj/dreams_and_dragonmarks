@@ -76,7 +76,7 @@ captive_burgher = { # City
 }
 
 captive_tribesman = { # Tribe
-	age = {20 40}
+	age = {20 30}
 	culture = scope:county.culture
 	faith = scope:county.faith
 	

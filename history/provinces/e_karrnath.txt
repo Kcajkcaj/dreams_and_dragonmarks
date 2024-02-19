@@ -98,7 +98,7 @@
 	faith = blood_of_vol
 	holding = city_holding
 	buildings = {city_03}
-	special_building = academy_of_atur
+	special_building = crimson_monastery
 }
 910 = {
 	holding = church_holding

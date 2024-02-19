@@ -470,7 +470,7 @@ battle_winner_gold_gain = {
 				has_cultural_parameter = gain_gold_from_battles
 			}
 		}
-		add = 25
+		add = 50
 	}
 	
 	if = {

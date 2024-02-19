@@ -2,3 +2,8 @@ dynn_daskaran_askarda= {
 	name = "Askarda"
 	culture = daskaran
 }
+
+dynn_daskaran_vasiraghi = {
+	name = "Vasiraghi"
+	culture = daskaran
+}

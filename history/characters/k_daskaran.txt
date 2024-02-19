@@ -1,11 +1,105 @@
+syro_askarda = {
+	name = "Syro"
+	culture = daskaran
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_daskaran_askarda
+	
+	3339.4.3 = {birth = yes}
+	
+	3383.12.17 = {death = yes}
+}
+
 calemi_askarda = {
 	name = "Calemi"
 	culture = daskaran
 	faith = frontier_creed
 	female = no
 	dynasty = dynn_daskaran_askarda
+	father = syro_askarda
+
+	trait = zealous
 	
 	3361.8.20 = {birth = yes}
+}
+
+ghanji_askarda = {
+	name = "Ghanji"
+	culture = daskaran
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_daskaran_askarda
+	father = calemi_askarda
+
+	trait = zealous
+	
+	3385.9.17 = {birth = yes}
+}
+
+morgana_askarda = {
+	name = "Morgana"
+	culture = daskaran
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_daskaran_askarda
+	father = calemi_askarda
+	
+	3387.2.8 = {birth = yes}
+}
+
+suspiria_askarda = {
+	name = "Suspiria"
+	culture = daskaran
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_daskaran_askarda
+	father = syro_askarda
+	
+	3365.9.13 = {birth = yes}
+}
+
+demodir_askarda = {
+	name = "Demodir"
+	culture = daskaran
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_daskaran_askarda
+	mother = suspiria_askarda
+	
+	3385.4.13 = {birth = yes}
+}
+
+jahanah_askarda = {
+	name = "Jahanah"
+	culture = daskaran
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_daskaran_askarda
+	mother = suspiria_askarda
+	
+	3388.11.4 = {birth = yes}
+}
+
+maradal_askarda = {
+	name = "Maradal"
+	culture = daskaran
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_daskaran_askarda
+	father = syro_askarda
+	
+	3368.3.3 = {birth = yes}
+}
+
+lukar_askarda = {
+	name = "Lukar"
+	culture = daskaran
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_daskaran_askarda
+	mother = maradal_askarda
+	
+	3387.3.10 = {birth = yes}
 }
 
 egen_vasiraghi = {
@@ -13,7 +107,7 @@ egen_vasiraghi = {
 	culture = daskaran
 	faith = frontier_creed
 	female = no
-	dynasty = dynn_dasakran_vasiraghi
+	dynasty = dynn_daskaran_vasiraghi
 	
 	3363.9.4 = {birth = yes}
 }

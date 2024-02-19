@@ -15,7 +15,7 @@ tairnadal_religion = {
 	doctrine = doctrine_polygamy_many
 	doctrine = doctrine_concubines_none
 	doctrine = doctrine_divorce_allowed
-	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_bastardry_none
 	doctrine = doctrine_consanguinity_cousins
 	
 	# Crimes
@@ -251,10 +251,10 @@ tairnadal_religion = {
 			
 			#Tenets
 			doctrine = tenet_shamanism
-			doctrine = tenet_called_to_battle
+			doctrine = tenet_patron_ancestors
 			doctrine = tenet_enchanting_hymns
 			doctrine = tenet_untamed_inhibitions
-			# doctrine = tenet_ancestral_spirits
+			# doctrine = ?
 		}
 	}
 }

@@ -2,6 +2,7 @@ on_combat_end_winner = {
 	on_actions = {
 		gain_valor_xp_on_action
 		gain_veteran_xp_on_action
+		gain_renown_for_patron_ancestors
 	}
 }
 
@@ -80,6 +81,21 @@ gain_veteran_xp_on_action = {
 					add_trait = veteran
 				}
 			}
+		}
+	}
+}
+
+gain_renown_for_patron_ancestors = {
+	effect = {
+		side_commander ?= {
+			if = {
+				limit = {faith = {has_doctrine_parameter = winning_battles_grants_renown}}
+				dynasty ?= {add_dynasty_prestige = 25}
+			}
+		}
+		every_side_knight = {
+			limit = {faith = {has_doctrine_parameter = winning_battles_grants_renown}}
+			dynasty ?= {add_dynasty_prestige = 25}
 		}
 	}
 }

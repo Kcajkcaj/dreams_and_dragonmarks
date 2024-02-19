@@ -1,0 +1,19 @@
+﻿action_satiate_craving = {
+	type = alert
+	icon = action_dying
+	is_dangerous = yes
+	priority = 1000
+	
+	check_create_action = {
+		if = {
+			limit = {
+				has_variable = craving
+				var:craving >= 70
+			}
+			try_create_important_action = {
+				important_action_type = action_satiate_craving
+				actor = root
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+inattentive = {
+	birth = 4
+	random_creation = 4
+	genetic = yes
+	category = health
+	
+	stress_gain_mult = 0.5
+	stress_loss_mult = 0.25
+	
+	monthly_lifestyle_xp_gain_mult = -0.25
+	
+	diplomacy = 3
+	martial = 3
+	stewardship = -3
+	intrigue = 3
+	learning = 5
+	
+	parochial_opinion = -10
+}

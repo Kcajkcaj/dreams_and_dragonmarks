@@ -1,0 +1,4 @@
+set_patron_ancestor = {
+	add_character_modifier = ancestor_$ANCESTOR$
+	give_nickname = nick_ancestor_$ANCESTOR$
+}

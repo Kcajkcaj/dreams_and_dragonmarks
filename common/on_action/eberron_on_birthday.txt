@@ -1,0 +1,23 @@
+on_birthday = {
+	on_actions = {
+		on_birthday_patron_ancestor
+	}
+}
+
+on_birthday_patron_ancestor = {
+	trigger = {
+		age >= 25
+		faith = {has_doctrine_parameter = patron_ancestors}
+		not = {has_patron_ancestor = yes}
+	}
+	effect = {
+		random_list = {
+			100 = {set_patron_ancestor = {ANCESTOR = vadallia}}
+			100 = {set_patron_ancestor = {ANCESTOR = cardaen}}
+			100 = {set_patron_ancestor = {ANCESTOR = falaen}}
+			100 = {set_patron_ancestor = {ANCESTOR = taeri}}
+			100 = {set_patron_ancestor = {ANCESTOR = vaela}}
+			100 = {set_patron_ancestor = {ANCESTOR = maezan}}
+		}
+	}
+}

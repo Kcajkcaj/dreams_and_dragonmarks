@@ -1246,6 +1246,14 @@ offer_ward_interaction = {
 				trigger_event = char_interaction.0080
 			}
 		}
+		
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = miniscule_unity_gain
+			DESC = clan_unity_ward_offerage.desc
+			REVERSE_NON_HOUSE_TARGET = yes
+		}
 	}
 
 	on_decline = {
@@ -1254,6 +1262,25 @@ offer_ward_interaction = {
 		}
 		scope:secondary_recipient = { remove_character_flag = under_offer_as_guardian_flag }
 		scope:secondary_actor = { remove_character_flag = under_offer_as_ward_flag }
+		if = {
+			limit = {
+				NOT = {
+					scope:actor = {
+						has_opinion_modifier = {
+							modifier = declined_ward_opinion
+							target = scope:recipient
+						}
+					}
+				}
+			}
+			add_clan_unity_interaction_effect = {
+				CHARACTER = scope:actor
+				TARGET = scope:recipient
+				VALUE = miniscule_unity_loss
+				DESC = clan_unity_ward_decline.desc
+				REVERSE_NON_HOUSE_TARGET = yes
+			}
+		}
 	}
 	
 	auto_accept = {
@@ -2323,6 +2350,13 @@ offer_guardianship_interaction = {
 				}
 			}
 		}
+		add_clan_unity_interaction_effect = {
+			CHARACTER = scope:actor
+			TARGET = scope:recipient
+			VALUE = miniscule_unity_gain
+			DESC = clan_unity_guardianship.desc
+			REVERSE_NON_HOUSE_TARGET = yes
+		}
 	}
 
 	on_decline = {
@@ -2344,6 +2378,26 @@ offer_guardianship_interaction = {
 		}
 		scope:secondary_recipient = { remove_character_flag = under_offer_as_ward_flag }
 		scope:secondary_actor = { remove_character_flag = under_offer_as_guardian_flag }
+		if = {
+			limit = {
+				NOT = {
+					scope:actor = {
+						has_opinion_modifier = {
+							target = scope:recipient
+							modifier = declined_guardianship_opinion
+						}
+					}
+				}
+			}
+			# If we're a clan this interaction affects unity; conditioned by the opinion modifer to avoid exploit
+			add_clan_unity_interaction_effect = {
+				CHARACTER = scope:actor
+				TARGET = scope:recipient
+				VALUE = miniscule_unity_loss
+				DESC = clan_unity_guardianship_decline.desc
+				REVERSE_NON_HOUSE_TARGET = yes
+			}
+		}
 	}
 	
 	auto_accept = {
@@ -3331,6 +3385,23 @@ remove_guardian_interaction = {
 					target = scope:actor
 					opinion = -15
 				}
+			}
+		}
+		if = {
+			limit = {
+				scope:actor = {
+					NOT = {
+						has_character_flag = guardian_unity_block
+					}
+				}
+			}
+			# If we're a clan this interaction affects unity
+			add_clan_unity_interaction_effect = {
+				CHARACTER = scope:actor
+				TARGET = scope:recipient
+				VALUE = minor_unity_loss
+				DESC = clan_unity_removed_guardian.desc
+				REVERSE_NON_HOUSE_TARGET = yes
 			}
 		}
 	}

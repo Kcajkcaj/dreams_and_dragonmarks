@@ -1,0 +1,83 @@
+﻿antagonize = {
+	
+	skill = intrigue
+	desc = antagonize_desc_general
+	icon = icon_scheme_antagonize
+	
+	allow = {
+		is_adult = yes
+		is_imprisoned = no
+		scope:target = {
+			is_adult = yes
+			is_imprisoned = no
+		}
+		NOT = {	this = scope:target }
+	}
+
+	uses_agents = no
+	is_secret = no
+	hostile = yes
+	uses_resistance = no
+
+	power_per_skill_point = 4.0
+	spymaster_power_per_skill_point = 0	
+	resistance_per_skill_point = 0
+	spymaster_resistance_per_skill_point = 0
+	minimum_progress_chance = 1
+	maximum_progress_chance = 95
+
+	
+	valid = {
+		is_incapable = no
+		scope:target = {
+			is_adult = yes
+			is_imprisoned = no
+			exists = location
+		}
+
+		#we're already friends
+		NOT = {
+			custom_description = {
+				text = antagonize_already_rival
+				object = scope:target
+				has_relation_rival = scope:target
+			}
+		}
+	}
+
+	cooldown = { years = 30 }
+
+	on_ready = {
+		#Outcome system by Mathilda Bjarnehed
+		scheme_owner = {
+			trigger_event = antagonize_outcome.0001 #Hidden event rolling success/failure, discover/no discovery and sending on_actions or player choice event
+		}
+	}
+
+	base_success_chance = {
+		base = 20
+		#SCHEME OWNER#
+		opinion_modifier = {
+			desc = SCHEME_ANTAGONIZE_THEIR_OPINION
+			who = scope:target
+			opinion_target = scope:owner
+			max = 50
+			min = -30
+			multiplier = -0.75
+		}
+		#Language
+		modifier = {
+			add = 5
+			desc = YOU_SPEAK_THE_LANGUAGE
+			scope:owner = { knows_language_of_culture = scope:target.culture }
+		}
+	}
+
+	on_invalidated = {
+	}
+
+	on_monthly = {
+	}
+
+	success_desc = "ANTAGONIZE_SUCCESS_DESC"
+}

@@ -32,6 +32,7 @@ breggor_dain = {
 	trait = just
 	trait = compassionate
 	trait = authoritative
+	trait = inattentive
 	
 	learning = 12
 	prowess = 10
@@ -99,6 +100,7 @@ raela_solaen = {
 	trait = holy_warrior
 	trait = military_engineer
 	trait = mage
+	trait = disinherited
 	
 	martial = 8
 	prowess = 7

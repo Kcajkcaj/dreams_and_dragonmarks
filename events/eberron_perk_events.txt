@@ -16,7 +16,7 @@ eberron_perk_events.0001 = {
 			limit = {
 				scope:real_father = {has_perk = birth_control_perk}
 			}
-			scope:father = {
+			scope:real_father = {
 				trigger_event = eberron_perk_events.0002
 			}
 		}
@@ -24,12 +24,14 @@ eberron_perk_events.0001 = {
 }
 
 eberron_perk_events.0002 = {
+	type = character_event
+	
 	title = eberron_perk_events.0002.t
 	desc = eberron_perk_events.0002.d
 	theme = pregnancy
 	
 	option = {
-		title = eberron_perk_events.0002.end_pregnancy
+		name = eberron_perk_events.0002.end_pregnancy
 		scope:mother = {
 			end_pregnancy = yes
 			pregnancy_cleanup_effect = yes
@@ -37,6 +39,6 @@ eberron_perk_events.0002 = {
 	}
 	
 	option = {
-		title = eberron_perk_events.0002.keep_pregnancy
+		name = eberron_perk_events.0002.keep_pregnancy
 	}
 }

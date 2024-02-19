@@ -1,0 +1,56 @@
+﻿# The outcome of an antagonize scheme
+
+namespace = antagonize_outcome
+
+### SETUP ROLLS AND SUCCESS CHECK EVENTS
+
+#Rolls success and discovery, and triggers on_actions (or sends "player's choice" event)
+antagonize_outcome.0001 = {
+	type = character_event
+
+	hidden = yes
+
+	immediate = {
+		#SUCCESS ROLL
+		if = { #Guaranteed success if you're potential rivals already
+			limit = {
+				scope:owner = { has_relation_potential_rival = scope:target }
+			}
+			save_scope_value_as = { #Save scheme success as rivals
+				name = scheme_successful
+				value = flag:rivals
+			}
+		}
+		else = {
+			random = {
+				chance = scope:scheme.scheme_success_chance
+
+				save_scope_value_as = { #Save scheme success as rivals
+					name = scheme_successful
+					value = flag:rivals
+				}
+			}
+		}
+		#Set Failure flag.
+		if = {
+			limit = {
+				NOT = { exists = scope:scheme_successful }
+			}
+			save_scope_value_as = {  #Regular failure
+				name = scheme_failed
+				value = flag:regular
+			}
+		}
+
+		if = {
+			limit = {
+				exists = scope:scheme_successful
+				scope:scheme_successful = flag:rivals
+			}
+			set_relation_rival = scope:target
+		}
+		scope:scheme = {
+			end_scheme = yes
+		}
+	}
+}

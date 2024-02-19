@@ -1,19 +1,36 @@
 k_daskaran = {
-	3375.1.1 = {
+	3359.4.3 = { holder = syro_askarda }
+	3383.12.17 = {
 		holder = calemi_askarda
 	}
 }
 d_daskaran = {
+	3359.4.3 = { holder = syro_askarda }
 	3375.1.1 = {
-		holder = calemi_vasiraghi
+		holder = calemi_askarda
 		change_development_level = 9
 		liege = k_daskaran
 	}
 }
 d_auxyl = {
-	3375.1.1 = {
-		holder = calemi_askarda
+	3359.4.3 = { holder = syro_askarda }
+	3383.12.17 = {
+		holder = suspiria_askarda
 		change_development_level = 9
+		liege = k_daskaran
+	}
+}
+c_traelyn = {
+	3359.4.3 = { holder = syro_askarda }
+	3383.12.17 = {
+		holder = maradal_askarda
+		liege = k_daskaran
+	}
+}
+c_tower_perilous = {
+	3359.4.3 = { holder = syro_askarda }
+	3383.12.17 = {
+		holder = maradal_askarda
 		liege = k_daskaran
 	}
 }

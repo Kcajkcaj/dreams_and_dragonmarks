@@ -1,0 +1,31 @@
+quarterly_playable_pulse = {
+	on_actions = {
+		craving_on_action
+	}
+}
+
+craving_on_action = {
+	trigger = {
+		has_trait_with_flag = immortal_cravings
+	}
+	effect = {
+		if = {
+			limit = {
+				has_variable = craving
+				var:craving >= 100
+			}
+			death = {
+				death_reason = death_succumbed_to_cravings
+			}
+		}
+		else = {
+			if = {
+				limit = {is_ai = no}
+				add_craving = {VALUE = 5}
+			}
+			else = {
+				add_craving = {VALUE = 2}
+			}
+		}
+	}
+}

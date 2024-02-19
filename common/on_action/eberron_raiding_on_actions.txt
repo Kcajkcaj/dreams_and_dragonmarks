@@ -18,9 +18,11 @@ eberron_on_capture_prisoners = {
 			if = {
 				limit = {
 					has_perk = take_them_alive_perk
-					not = {scope:barony.holder.capital_barony = scope:barony}
 				}
 				random_list = {
+					500 = {
+						# None
+					}
 					100 = {
 						trigger = {scope:barony.title_province = {has_holding_type = castle_holding}}
 						create_character = {

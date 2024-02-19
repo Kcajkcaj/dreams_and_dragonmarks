@@ -257,5 +257,20 @@ druidic_religion = {
 			doctrine = tenet_groves_and_gardens
 			doctrine = tenet_theurgic_arcana
 		}
+		maskweaver = {
+			color = {0.5 0.45 0.1}
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = korranath
+			
+			doctrine = doctrine_pantheon_small
+						
+			#Tenets
+			doctrine = tenet_called_to_battle
+			doctrine = tenet_conclaves
+			doctrine = tenet_groves_and_gardens
+			doctrine = tenet_shamanism
+			doctrine = tenet_consumptive_evolution
+		}
 	}
 }

@@ -66,8 +66,8 @@ tradition_best_and_brightest = {
 	category = realm
 
 	parameters = {
-		easier_guest_recruitment = yes # New
-		easier_invite_to_court = yes # New
+		cheaper_guest_recruitment = yes
+		easier_invite_to_court = yes
 	}
 
 	character_modifier = {
@@ -171,8 +171,8 @@ tradition_breakneck_research = {
 	can_pick = { always = yes }
 	
 	parameters = {
-		faster_arcane_research = yes # New
-		build_arcane_laboratories = yes # New
+		faster_arcane_research = yes
+		build_arcane_laboratories = yes
 		arcane_experiment_decision = yes # New
 		innovation_from_learning_traits = yes
 		can_appoint_court_scholar = yes
@@ -202,6 +202,7 @@ tradition_chattel_slavery = {
 		
 		can_recruit_prisoners_easily = yes
 		pardoning_gives_loyalty = yes
+		gain_gold_from_battles = yes
 	}
 	
 	is_shown = { always = yes }
@@ -233,6 +234,7 @@ tradition_chivalric_codes = {
 		ai_romance_scheme_increase = yes
 		poet_trait_romance_bonuses = yes
 		
+		more_holy_orders = yes
 		knightly_oath_system = yes # New
 		more_paladins = yes # New
 	}
@@ -241,6 +243,8 @@ tradition_chivalric_codes = {
 		accolade_glory_gain_mult = 0.25
 		heavy_cavalry_damage_mult = 0.25
 		heavy_cavalry_toughness_mult = 0.25
+		same_culture_holy_order_hire_cost_mult = -0.5
+		holy_order_government_levy_contribution_add = 0.5
 	}
 	
 	is_shown = { always = yes }
@@ -1000,7 +1004,7 @@ tradition_refined_hedonism = {
 	
 	parameters = {
 		reveler_traits_more_valued = yes
-		gain_prestige_on_gaining_lovers = yes # New
+		gain_prestige_on_gaining_lovers = yes
 	}
 	
 	is_shown = { always = yes }
@@ -1309,7 +1313,7 @@ tradition_trust_the_trust = {
 	
 	parameters = {
 		unlock_trust_outpost = yes # New
-		better_find_secrets = yes # New
+		better_find_secrets = yes
 		auto_assign_spymaster = yes
 	}
 	

@@ -1,11 +1,28 @@
 on_title_gain = {
 	on_actions = {
 		eberron_on_title_gain
+		eberron_update_principalities
 	}
 }
 
 eberron_on_title_gain = {
 	effect = {
 		update_coa_effect = yes
+	}
+}
+
+eberron_update_principalities = {
+	trigger = {
+		highest_held_title_tier >= tier_county
+		has_government = republic_government
+	}
+	effect = {
+		if = {
+			limit = {liege ?= {has_government = bureaucratic_government}}
+			change_government = bureaucratic_government
+		}
+		else = {
+			change_government = principality_government
+		}
 	}
 }
