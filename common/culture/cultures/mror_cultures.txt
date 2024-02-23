@@ -1,0 +1,23 @@
+mror = {
+	color = {0.55 0.65 0.75}
+	
+	ethos = ethos_stoic
+	heritage = heritage_mror
+	language = language_dwarvish
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_brelish
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+	}
+	
+	ethnicities = {
+		100 = zil
+	}
+}

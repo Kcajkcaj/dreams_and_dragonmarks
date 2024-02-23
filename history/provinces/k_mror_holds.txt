@@ -1,0 +1,280 @@
+##### Ironroot
+### Krona Peak
+1590 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1591 = {holding = city_holding}
+1592 = {holding = church_holding}
+### Goradra Gap
+1593 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1594 = {holding = city_holding}
+1595 = {holding = none}
+1596 = {holding = none}
+### Noldrunthrone
+1597 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1598 = {holding = city_holding}
+1599 = {holding = none}
+### Noldrunhold B
+1600 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1601 = {holding = city_holding}
+### Mroranonhold B
+1602 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1603 = {holding = city_holding}
+1604 = {holding = none}
+### Mroranonhold C
+1605 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1606 = {holding = city_holding}
+1607 = {holding = none}
+### Korunda Gate
+1608 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1609 = {holding = city_holding}
+1610 = {holding = church_holding}
+1611 = {holding = city_holding}
+### Kundarakhold B
+1612 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1613 = {holding = city_holding}
+1614 = {holding = none}
+1615 = {holding = none}
+### Kundarakhold C
+1616 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1617 = {holding = city_holding}
+1618 = {holding = none}
+1619 = {holding = none}
+##### Fist of Onatar
+### Fist of Onatar
+1620 = {
+	culture = jhorash
+	faith = boneweavers
+	holding = tribal_holding
+}
+1621 = {holding = none}
+1622 = {holding = none}
+1623 = {holding = none}
+1624 = {holding = none}
+1625 = {holding = none}
+### Soldorakhold
+1626 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1627 = {holding = city_holding}
+1628 = {holding = none}
+1629 = {holding = none}
+### Jhorash A
+1630 = {
+	culture = jhorash
+	faith = boneweavers
+	holding = tribal_holding
+}
+1631 = {holding = none}
+### Jhorash B
+1632 = {
+	culture = jhorash
+	faith = boneweavers
+	holding = tribal_holding
+}
+1633 = {holding = none}
+1634 = {holding = none}
+1635 = {holding = none}
+1636 = {holding = none}
+### Jhorash C
+1637 = {
+	culture = jhorash
+	faith = boneweavers
+	holding = tribal_holding
+}
+1638 = {holding = none}
+1639 = {holding = none}
+1640 = {holding = none}
+### Narathunhold A
+1641 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1642 = {holding = city_holding}
+1643 = {holding = none}
+1644 = {holding = none}
+### Narathunhold B
+1645 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1646 = {holding = city_holding}
+1647 = {holding = none}
+### Frostmantle
+1648 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1649 = {holding = city_holding}
+1650 = {holding = church_holding}
+1651 = {holding = city_holding}
+1652 = {holding = castle_holding}
+### Tordannonhold A
+1653 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1654 = {holding = city_holding}
+1655 = {holding = none}
+### Tordannonhold B
+1656 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1657 = {holding = city_holding}
+1658 = {holding = none}
+##### Mirror Lake
+### Lake Home
+1659 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1660 = {holding = city_holding}
+1661 = {holding = church_holding}
+1662 = {holding = city_holding}
+### Larankhold
+1663 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1664 = {holding = city_holding}
+1665 = {holding = none}
+### Londurakhold A
+1666 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1667 = {holding = city_holding}
+1668 = {holding = none}
+### Londurakhold B
+1669 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1670 = {holding = city_holding}
+1671 = {holding = none}
+### Kolkarunhold B
+1672 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1673 = {holding = city_holding}
+1674 = {holding = none}
+### Kundarakhold D
+1675 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1676 = {holding = city_holding}
+1677 = {holding = none}
+1678 = {holding = none}
+1679 = {holding = none}
+##### Hoarfrost
+### Soranathhold A
+1680 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1681 = {holding = city_holding}
+1682 = {holding = church_holding}
+1683 = {holding = none}
+### Soranathhold B
+1684 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1685 = {holding = city_holding}
+1686 = {holding = church_holding}
+1687 = {holding = none}
+### Soranathhold C
+1688 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1689 = {holding = city_holding}
+1690 = {holding = church_holding}
+1691 = {holding = none}
+### Doldarunhold A
+1692 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1693 = {holding = city_holding}
+1694 = {holding = none}
+1695 = {holding = none}
+1696 = {holding = none}
+### Doldarunhold B
+1697 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1698 = {holding = city_holding}
+1699 = {holding = none}
+1700 = {holding = none}
+### Toldorathhold A
+1701 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1702 = {holding = city_holding}
+1703 = {holding = none}
+### Toldorathhold B
+1704 = {
+	culture = mror
+	faith = frontier_creed
+	holding = castle_holding
+}
+1705 = {holding = city_holding}

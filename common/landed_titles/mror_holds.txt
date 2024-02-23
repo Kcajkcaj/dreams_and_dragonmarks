@@ -1,0 +1,237 @@
+k_mror_holds = {
+	color = { 143 169 188 }
+	capital = c_krona_peak
+	
+	d_ironroot = {
+		color = { 86 162 199 }
+		capital = c_krona_peak
+		
+		c_krona_peak = {
+			color = { 117 171 201 }
+			b_krona_peak_1 = {province = 1590}
+			b_krona_peak_2 = {province = 1591}
+			b_krona_peak_3 = {province = 1592}
+		}
+		c_goradra_gap = {
+			color = { 103 173 205 }
+			b_goradra_gap_1 = {province = 1593}
+			b_goradra_gap_2 = {province = 1594}
+			b_goradra_gap_3 = {province = 1595}
+			b_goradra_gap_4 = {province = 1596}
+		}
+		c_noldrunthrone = {
+			color = { 73 152 194 }
+			b_noldrunthrone_1 = {province = 1597}
+			b_noldrunthrone_2 = {province = 1598}
+			b_noldrunthrone_3 = {province = 1599}
+		}
+		c_noldrunhold_b = {
+			color = { 88 160 211 }
+			b_noldrunhold_b1 = {province = 1600}
+			b_noldrunhold_b2 = {province = 1601}
+		}
+		c_mroranonhold_b = {
+			color = { 49 159 205 }
+			b_mroranonhold_b1 = {province = 1602}
+			b_mroranonhold_b2 = {province = 1603}
+			b_mroranonhold_b3 = {province = 1604}
+		}
+		c_mroranonhold_c = {
+			color = { 45 165 214 }
+			b_mroranonhold_c1 = {province = 1605}
+			b_mroranonhold_c2 = {province = 1606}
+			b_mroranonhold_c3 = {province = 1607}
+		}
+		c_korunda_gate = {
+			color = { 100 162 189 }
+			b_korunda_gate_1 = {province = 1608}
+			b_korunda_gate_2 = {province = 1609}
+			b_korunda_gate_3 = {province = 1610}
+			b_korunda_gate_4 = {province = 1611}
+		}
+		c_kundarakhold_b = {
+			color = { 91 163 209 }
+			b_kundarakhold_b1 = {province = 1612}
+			b_kundarakhold_b2 = {province = 1613}
+			b_kundarakhold_b3 = {province = 1614}
+			b_kundarakhold_b4 = {province = 1615}
+		}
+		c_kundarakhold_c = {
+			color = { 62 155 199 }
+			b_kundarakhold_c1 = {province = 1616}
+			b_kundarakhold_c2 = {province = 1617}
+			b_kundarakhold_c3 = {province = 1618}
+			b_kundarakhold_c4 = {province = 1619}
+		}
+	}
+	d_fist_of_onatar = {
+		color = { 145 199 228 }
+		capital = c_fist_of_onatar
+		
+		c_fist_of_onatar = {
+			color = { 166 205 221 }
+			b_fist_of_onatar_1 = {province = 1620}
+			b_fist_of_onatar_2 = {province = 1621}
+			b_fist_of_onatar_3 = {province = 1622}
+			b_fist_of_onatar_4 = {province = 1623}
+			b_fist_of_onatar_5 = {province = 1624}
+			b_fist_of_onatar_6 = {province = 1625}
+		}
+		c_soldorakhold = {
+			color = { 130 191 211 }
+			b_soldorakhold_1 = {province = 1626}
+			b_soldorakhold_2 = {province = 1627}
+			b_soldorakhold_3 = {province = 1628}
+			b_soldorakhold_4 = {province = 1629}
+		}
+		c_jhorash_a = {
+			color = { 120 199 230 }
+			b_jhorash_a1 = {province = 1630}
+			b_jhorash_a2 = {province = 1631}
+		}
+		c_jhorash_b = {
+			color = { 142 197 212 }
+			b_jhorash_b1 = {province = 1632}
+			b_jhorash_b2 = {province = 1633}
+			b_jhorash_b3 = {province = 1634}
+			b_jhorash_b4 = {province = 1635}
+			b_jhorash_b5 = {province = 1636}
+		}
+		c_jhorash_c = {
+			color = { 143 213 243 }
+			b_jhorash_c1 = {province = 1637}
+			b_jhorash_c2 = {province = 1638}
+			b_jhorash_c3 = {province = 1639}
+			b_jhorash_c4 = {province = 1640}
+		}
+		c_narathunhold_a = {
+			color = { 115 191 233 }
+			b_narathunhold_a1 = {province = 1641}
+			b_narathunhold_a2 = {province = 1642}
+			b_narathunhold_a3 = {province = 1643}
+			b_narathunhold_a4 = {province = 1644}
+		}
+		c_narathunhold_b = {
+			color = { 109 198 240 }
+			b_narathunhold_b1 = {province = 1645}
+			b_narathunhold_b2 = {province = 1646}
+			b_narathunhold_b3 = {province = 1647}
+		}
+	}
+	d_mirror_lake = {
+		color = { 156 173 203 }
+		capital = c_frostmantle
+		
+		c_frostmantle = {
+			color = { 118 194 221 }
+			b_frostmantle_1 = {province = 1648}
+			b_frostmantle_2 = {province = 1649}
+			b_frostmantle_3 = {province = 1650}
+			b_frostmantle_4 = {province = 1651}
+			b_frostmantle_5 = {province = 1652}
+		}
+		c_tordannonhold_b = {
+			color = { 163 197 213 }
+			b_tordannonhold_b1 = {province = 1653}
+			b_tordannonhold_b2 = {province = 1654}
+			b_tordannonhold_b3 = {province = 1655}
+		}
+		c_tordannonhold_c = {
+			color = { 147 211 254 }
+			b_tordannonhold_c1 = {province = 1656}
+			b_tordannonhold_c2 = {province = 1657}
+			b_tordannonhold_c3 = {province = 1658}
+		}
+		c_lake_home = {
+			color = { 152 181 211 }
+			b_lake_home_1 = {province = 1659}
+			b_lake_home_2 = {province = 1660}
+			b_lake_home_3 = {province = 1661}
+			b_lake_home_4 = {province = 1662}
+		}
+		c_laranakhold = {
+			color = { 161 171 208 }
+			b_laranakhold_1 = {province = 1663}
+			b_laranakhold_2 = {province = 1664}
+			b_laranakhold_3 = {province = 1665}
+		}
+		c_londurakhold_a = {
+			color = { 1 88 163 }
+			b_londurakhold_a1 = {province = 1666}
+			b_londurakhold_a2 = {province = 1667}
+			b_londurakhold_a3 = {province = 1668}
+		}
+		c_londurakhold_b = {
+			color = { 154 165 185 }
+			b_londurakhold_b1 = {province = 1669}
+			b_londurakhold_b2 = {province = 1670}
+			b_londurakhold_b3 = {province = 1671}
+		}
+		c_kolkarunhold_b = {
+			color = { 88 30 21 }
+			b_kolkarunhold_b1 = {province = 1672}
+			b_kolkarunhold_b2 = {province = 1673}
+			b_kolkarunhold_b3 = {province = 1674}
+		}
+		c_kundarakhold_d = {
+			color = { 160 179 200 }
+			b_kundarakhold_d1 = {province = 1675}
+			b_kundarakhold_d2 = {province = 1676}
+			b_kundarakhold_d3 = {province = 1677}
+			b_kundarakhold_d4 = {province = 1678}
+			b_kundarakhold_d5 = {province = 1679}
+		}
+	}
+	d_hoarfrost = {
+		color = { 160 188 224 }
+		capital = c_soranathhold_a
+		
+		c_soranathhold_a = {
+			color = { 147 174 206 }
+			b_soranathhold_a1 = {province = 1680}
+			b_soranathhold_a2 = {province = 1681}
+			b_soranathhold_a3 = {province = 1682}
+			b_soranathhold_a4 = {province = 1683}
+		}
+		c_soranathhold_b = {
+			color = { 149 186 236 }
+			b_soranathhold_b1 = {province = 1684}
+			b_soranathhold_b2 = {province = 1685}
+			b_soranathhold_b3 = {province = 1686}
+			b_soranathhold_b4 = {province = 1687}
+		}
+		c_soranathhold_c = {
+			color = { 150 182 249 }
+			b_soranathhold_c1 = {province = 1688}
+			b_soranathhold_c2 = {province = 1689}
+			b_soranathhold_c3 = {province = 1690}
+			b_soranathhold_c4 = {province = 1691}
+		}
+		c_doldarunhold_a = {
+			color = { 151 191 252 }
+			b_doldarunhold_a1 = {province = 1692}
+			b_doldarunhold_a2 = {province = 1693}
+			b_doldarunhold_a3 = {province = 1694}
+			b_doldarunhold_a4 = {province = 1695}
+			b_doldarunhold_a5 = {province = 1696}
+		}
+		c_doldarunhold_b = {
+			color = { 142 181 233 }
+			b_doldarunhold_b1 = {province = 1697}
+			b_doldarunhold_b2 = {province = 1698}
+			b_doldarunhold_b3 = {province = 1699}
+			b_doldarunhold_b4 = {province = 1700}
+		}
+		c_toldorathhold_a = {
+			color = { 152 195 240 }
+			b_toldorathhold_a1 = {province = 1701}
+			b_toldorathhold_a2 = {province = 1702}
+			b_toldorathhold_a3 = {province = 1703}
+		}
+		c_toldorathhold_b = {
+			color = { 172 196 228 }
+			b_toldorathhold_b1 = {province = 1704}
+			b_toldorathhold_b2 = {province = 1705}
+		}
+	}
+}
