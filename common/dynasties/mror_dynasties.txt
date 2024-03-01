@@ -1,0 +1,52 @@
+dynn_doldarun = {
+	name = "Doldarun"
+	culture = mror
+}
+dynn_droranath = {
+	name = "Droranath"
+	culture = mror
+}
+dynn_kolkarun = {
+	name = "Kolkarun"
+	culture = mror
+}
+dynn_lanarak = {
+	name = "Lanarak"
+	culture = mror
+}
+dynn_londurak = {
+	name = "Londurak"
+	culture = mror
+}
+dynn_mroranon = {
+	name = "Mroranon"
+	culture = mror
+}
+dynn_narathun = {
+	name = "Narathun"
+	culture = mror
+}
+dynn_soldorak = {
+	name = "Soldorak"
+	culture = mror
+}
+dynn_soranath = {
+	name = "Soranath"
+	culture = mror
+}
+dynn_toldorath = {
+	name = "Toldorath"
+	culture = mror
+}
+dynn_tordannon = {
+	name = "Tordannon"
+	culture = mror
+}
+dynn_kundarak = {
+	name = "Kundarak"
+	culture = mror
+}
+dynn_noldrun = {
+	name = "Noldrun"
+	culture = mror
+}

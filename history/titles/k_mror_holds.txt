@@ -1,0 +1,99 @@
+k_mror_holds = {
+	3390.1.1 = {holder = baern_kundarak}
+}
+d_ironroot = {
+	3000.1.1 = {change_development_level = 12}
+}
+c_krona_peak = {
+	3390.1.1 = { liege = k_mror_holds holder = thordain_mroranon}
+}
+c_mroranonhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = thordain_mroranon}
+}
+c_mroranonhold_c = {
+	3390.1.1 = { liege = k_mror_holds holder = thordain_mroranon}
+}
+c_goradra_gap = {
+	3390.1.1 = { liege = k_mror_holds holder = adrik_droranath}
+}
+c_noldrunthrone = {
+	3390.1.1 = { liege = k_mror_holds holder = harbek_noldrun}
+}
+c_noldrunhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = harbek_noldrun}
+}
+c_korunda_gate = {
+	3390.1.1 = { liege = k_mror_holds holder = baern_kundarak}
+}
+c_kundarakhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = baern_kundarak}
+}
+c_kundarakhold_c = {
+	3390.1.1 = { liege = k_mror_holds holder = baern_kundarak}
+}
+c_kundarakhold_d = {
+	3390.1.1 = { liege = k_mror_holds holder = baern_kundarak}
+}
+d_fist_of_onatar = {
+	3000.1.1 = {change_development_level = 9}
+}
+c_soldorakhold = {
+	3390.1.1 = { liege = k_mror_holds holder = rangrim_soldorak}
+}
+c_narathunhold_a = {
+	3390.1.1 = { liege = k_mror_holds holder = taklinn_narathun}
+}
+c_narathunhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = taklinn_narathun}
+}
+d_mirror_lake = {
+	3000.1.1 = {change_development_level = 12}
+}
+c_frostmantle = {
+	3390.1.1 = { liege = k_mror_holds holder = fargrim_tordannon}
+}
+c_tordannonhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = fargrim_tordannon}
+}
+c_tordannonhold_c = {
+	3390.1.1 = { liege = k_mror_holds holder = fargrim_tordannon}
+}
+c_lake_home = {
+	3390.1.1 = { liege = k_mror_holds holder = kellark_kolkarun}
+}
+c_kolkarunhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = kellark_kolkarun}
+}
+c_laranakhold = {
+	3390.1.1 = {liege = k_mror_holds holder = turanank_laranak}
+}
+c_londurakhold_a = {
+	3390.1.1 = { liege = k_mror_holds holder = turan_londurak}
+}
+c_londurakhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = turan_londurak}
+}
+d_hoarfrost = {
+	3000.1.1 = {change_development_level = 12}
+}
+c_soranathhold_a = {
+	3390.1.1 = { liege = k_mror_holds holder = morgran_soranath}
+}
+c_soranathhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = morgran_soranath}
+}
+c_soranathhold_c = {
+	3390.1.1 = { liege = k_mror_holds holder = morgran_soranath}
+}
+c_doldarunhold_a = {
+	3390.1.1 = { liege = k_mror_holds holder = greddark_doldarun}
+}
+c_doldarunhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = greddark_doldarun}
+}
+c_toldorathhold_a = {
+	3390.1.1 = { liege = k_mror_holds holder = orsik_toldorath}
+}
+c_toldorathhold_b = {
+	3390.1.1 = { liege = k_mror_holds holder = orsik_toldorath}
+}

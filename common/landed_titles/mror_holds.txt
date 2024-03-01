@@ -6,6 +6,10 @@ k_mror_holds = {
 		color = { 86 162 199 }
 		capital = c_krona_peak
 		
+		can_create = {
+			not = {primary_title = title:k_mror_holds}
+		}
+		
 		c_krona_peak = {
 			color = { 117 171 201 }
 			b_krona_peak_1 = {province = 1590}
@@ -68,6 +72,10 @@ k_mror_holds = {
 		color = { 145 199 228 }
 		capital = c_fist_of_onatar
 		
+		can_create = {
+			not = {primary_title = title:k_mror_holds}
+		}
+		
 		c_fist_of_onatar = {
 			color = { 166 205 221 }
 			b_fist_of_onatar_1 = {province = 1620}
@@ -121,6 +129,10 @@ k_mror_holds = {
 	d_mirror_lake = {
 		color = { 156 173 203 }
 		capital = c_frostmantle
+		
+		can_create = {
+			not = {primary_title = title:k_mror_holds}
+		}
 		
 		c_frostmantle = {
 			color = { 118 194 221 }
@@ -185,6 +197,10 @@ k_mror_holds = {
 	d_hoarfrost = {
 		color = { 160 188 224 }
 		capital = c_soranathhold_a
+		
+		can_create = {
+			not = {primary_title = title:k_mror_holds}
+		}
 		
 		c_soranathhold_a = {
 			color = { 147 174 206 }

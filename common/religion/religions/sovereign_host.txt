@@ -45,7 +45,7 @@ sovereign_host_religion = {
 	reserved_female_names = {}
 	
 	custom_faith_icons = {
-		sovereign_custom_1 sovereign_custom_2 sovereign_custom_3 sovereign_custom_4 sovereign_custom_5 sovereign_custom_6
+		sovereign_custom_1 sovereign_custom_2 sovereign_custom_3 sovereign_custom_4 sovereign_custom_5
 	}
 	
 	holy_order_names = {
@@ -294,6 +294,22 @@ sovereign_host_religion = {
 			doctrine = tenet_holy_matrimony
 			doctrine = tenet_divine_inspiration
 			doctrine = tenet_unreformed_syncretism
+		}
+		korunda_creed = {
+			color = {0.55 0.65 0.75}
+			graphical_faith = "catholic_gfx"
+			
+			holy_site = korranath
+			holy_site = korranberg
+			
+			doctrine = doctrine_gender_male_dominated
+			
+			# Tenets
+			doctrine = tenet_conclaves
+			doctrine = tenet_mendicant_monks
+			doctrine = tenet_holy_matrimony
+			doctrine = tenet_divine_inspiration
+			doctrine = tenet_pursuit_of_power
 		}
 		conquerors_creed = {
 			color = {0.35 0 0.75}

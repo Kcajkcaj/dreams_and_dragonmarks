@@ -6,7 +6,7 @@ mror = {
 	language = language_dwarvish
 	martial_custom = martial_custom_equal
 	
-	name_list = name_list_brelish
+	name_list = name_list_mror
 	created = 1.1.1
 	
 	coa_gfx = { western_coa_gfx }
@@ -15,6 +15,9 @@ mror = {
 	unit_gfx = { western_unit_gfx }
 	
 	traditions = {
+		tradition_constitutionalism
+		tradition_embrace_of_industry
+		tradition_traveling_merchants
 	}
 	
 	ethnicities = {

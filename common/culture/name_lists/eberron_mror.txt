@@ -1,0 +1,22 @@
+name_list_mror = {
+
+	dynasty_names = {
+		"Balderk"
+		"Dankil"
+		"Gorunn"
+		"Holderhek"
+		"Loderr"
+		"Lutgehr"
+		"Rumnaheim"
+		"Strakeln"
+		"Torunn"
+		"Ungart"
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	founder_named_dynasties = yes
+	
+	male_names = { Adrik Alberich Baern Barendd Brottor Bruenor Dain Darrak Delg Eberk Einkil Fargrim Flint Gardain Harbek Kildrak Morgran Orsik Oskar Rangrim Rurik Taklinn Thoradin Thorin Tordek Traubon Travok Ulfgar Veit Vondal Bruennen Durnnam Greddark Kellark Turanank }
+	female_names = { Amber Artin Audhild Bardryn Dagnal Diesa Eldeth Falkrunn Finellen Gunnloda Gurdis Helja Hlin Kathra Kristryd Ilde Liftrasa Mardred Riswynn Sannl Torbera Torgga Vistra Annaka Gerthin Karkanna Menna Zranakarak }
+}
