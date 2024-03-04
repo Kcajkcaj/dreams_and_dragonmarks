@@ -124,6 +124,15 @@ pluralism_fundamentalism_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
+			if = {
+				limit = {
+					$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+				}
+				add = {
+					value = $ASTRAY_BASE_VALUE$
+					multiply = hostility_multiplier_reduction_adaptive
+				}
+			}
 		}
 		NOT = {
 			has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
@@ -164,6 +173,15 @@ pluralism_fundamentalism_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
+			if = {
+				limit = {
+					$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+				}
+				add = {
+					value = $ASTRAY_BASE_VALUE$
+					multiply = hostility_multiplier_reduction_adaptive
+				}
+			}
 		}
 		NOT = {
 			has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
@@ -204,6 +222,15 @@ pluralism_fundamentalism_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
+			if = {
+				limit = {
+					$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+				}
+				add = {
+					value = $ASTRAY_BASE_VALUE$
+					multiply = hostility_multiplier_reduction_adaptive
+				}
+			}
 		}
 		NOT = {
 			has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
@@ -257,6 +284,18 @@ pluralism_fundamentalism_dual_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
+			if = {
+				limit = {
+					OR = {
+						$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+						$TARGET$.diarch.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+					}
+				}
+				add = {
+					value = $ASTRAY_BASE_VALUE$
+					multiply = hostility_multiplier_reduction_adaptive
+				}
+			}
 		}
 		has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
 		OR = {
@@ -312,6 +351,18 @@ pluralism_fundamentalism_dual_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
+			if = {
+				limit = {
+					OR = {
+						$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+						$TARGET$.diarch.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+					}
+				}
+				add = {
+					value = $ASTRAY_BASE_VALUE$
+					multiply = hostility_multiplier_reduction_adaptive
+				}
+			}
 		}
 		has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
 		OR = {
@@ -367,6 +418,18 @@ pluralism_fundamentalism_dual_modifier = {
 			}
 
 			#Additional opinion multiplier from adaptive
+			if = {
+				limit = {
+					OR = {
+						$TARGET$.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+						$TARGET$.diarch.faith = { has_doctrine_parameter = reduced_vassal_religion_discontent }
+					}
+				}
+				add = {
+					value = $ASTRAY_BASE_VALUE$
+					multiply = hostility_multiplier_reduction_adaptive
+				}
+			}
 		}
 		has_active_diarch_for_factions_trigger = { TARGET = $TARGET$ }
 		OR = {
@@ -674,6 +737,28 @@ common_faction_modifiers = {
 		POWER =  $POWER$
 		THRESHOLD = $THRESHOLD$
 	}
+	
+	# Unity - House members are less likely to join factions against each other with high levels of unity
+	modifier = { # Friendly unity level
+		desc = "FACTION_REASON_unity_significantly_less_likely_claimant_factions"
+		add = -20
+		exists = root.house
+		exists = $FACTION_TARGET$.house
+		house = $FACTION_TARGET$.house
+		house = {
+			has_house_unity_parameter = unity_less_likely_factions
+		}
+	}
+	modifier = { # Harmonious unity level
+		desc = "FACTION_REASON_unity_significantly_less_likely_claimant_factions"
+		add = -40
+		exists = root.house
+		exists = $FACTION_TARGET$.house
+		house = $FACTION_TARGET$.house
+		house = {
+			has_house_unity_parameter = unity_significantly_less_likely_factions
+		}
+	}
 
 	# Debt: +10 to +60 join chance depending on how far in debt the top liege is
 	liege_debt_modifier = {
@@ -752,6 +837,28 @@ common_faction_modifiers = {
 		add = -50
 		any_home_court_hostage = { warden = $FACTION_TARGET$ }
 	}
+
+	modifier = {
+		desc = "FACTION_REASON_DETRACTORS_STICK_TOGETHER"
+		add = -50
+		has_trait = fp3_struggle_detractor
+		OR = {
+			culture = { has_same_culture_heritage = $FACTION_TARGET$.culture }
+			faith = $FACTION_TARGET$.faith
+		}
+		$FACTION_TARGET$ = {
+			has_trait = fp3_struggle_detractor
+		}
+	}
+
+	#FP3 Strengthern Caliphate
+	modifier = {
+		desc = "FACTION_REASON_FP3_SUPPORTER"
+		add = -50
+		global_var:fp3_struggle_ending ?= flag:fp3_struggle_strengthen_caliphate_ending
+		has_trait = fp3_struggle_supporter
+		$FACTION_TARGET$ = { has_title = title:d_sunni }
+	}
 }
 
 independence_faction_create_blockers = {
@@ -821,10 +928,7 @@ independence_faction_modifiers = {
 		}
 		OR = {
 	 		NOT = {
-				is_rightful_liege_of_trigger = {
-					VASSAL = root
-					LIEGE = $FACTION_TARGET$
-				}
+	 			$FACTION_TARGET$ = { is_rightful_liege_of = root }
 			}
 			any_sub_realm_county = {
 				percent <= 0.5
@@ -861,6 +965,29 @@ independence_faction_modifiers = {
 		highest_held_title_tier = tier_kingdom
 	}
 	
+	
+	modifier = {
+		add = {
+			value = 0
+			if = {
+				limit = {
+					has_royal_court = yes
+					$FACTION_TARGET$ = {
+						has_royal_court = yes
+					}
+					court_grandeur_current_level > $FACTION_TARGET$.court_grandeur_current_level
+				}
+				add = {
+					add = court_grandeur_current_level
+					subtract = $FACTION_TARGET$.court_grandeur_current_level
+					multiply = 15
+				}
+			}
+		}
+		highest_held_title_tier = tier_duchy
+	}
+
+
 	modifier = {
 		add = {
 			value = 0
@@ -979,6 +1106,7 @@ independence_faction_modifiers = {
 				limit = {
 					$FACTION_TARGET$ = {
 						any_character_struggle = {
+							is_struggle_type = iberian_struggle
 							involvement = involved
 							OR = {
 								is_struggle_phase = struggle_iberia_phase_hostility
@@ -991,7 +1119,10 @@ independence_faction_modifiers = {
 			}
 		}
 		$FACTION_TARGET$ = {
-			any_character_struggle = { involvement = involved }
+			any_character_struggle = {
+				is_struggle_type = iberian_struggle
+				involvement = involved
+			}
 		}
 		OR = {
 			is_powerful_vassal_of = $FACTION_TARGET$
@@ -1001,6 +1132,26 @@ independence_faction_modifiers = {
 				}
 			}
 		}
+	}
+	
+	# Less likely for Anglosaxons to want to destroy England
+	modifier = {
+		desc = "FACTION_REASON_ANGLOSAXON"
+		add = -200
+		culture = {
+			has_cultural_pillar = heritage_west_germanic
+		}
+	 	$FACTION_TARGET$.primary_title = title:k_england
+	}
+	
+	# Less likely for French vassals
+	modifier = {
+		desc = "FACTION_REASON_FRENCH_VASSAL"
+		add = -200
+		culture = {
+			has_cultural_pillar = heritage_frankish
+		}
+	 	$FACTION_TARGET$.primary_title = title:k_france
 	}
 	
 	modifier = { # New vassals do not want to join independence factions
@@ -1212,6 +1363,7 @@ nation_fracturing_faction_modifiers = {
 				limit = {
 					$FACTION_TARGET$ = {
 						any_character_struggle = {
+							is_struggle_type = iberian_struggle
 							involvement = involved
 							is_struggle_phase = struggle_iberia_phase_hostility
 						}
@@ -1224,6 +1376,7 @@ nation_fracturing_faction_modifiers = {
 				limit = {
 					$FACTION_TARGET$ = {
 						any_character_struggle = {
+							is_struggle_type = iberian_struggle
 							involvement = involved
 							is_struggle_phase = struggle_iberia_phase_opportunity
 						}
@@ -1233,17 +1386,72 @@ nation_fracturing_faction_modifiers = {
 			}
 		}
 		$FACTION_TARGET$ = {
-			any_character_struggle = { involvement = involved }
+			any_character_struggle = {
+				is_struggle_type = iberian_struggle
+				involvement = involved
+			}
 		}
 	}
 
 	# Less likely for elective title
 	modifier = {
 		desc = "FACTION_REASON_ELECTIVE_PRIMARY"
-		add = -100
+		add = -125
 	 	$FACTION_TARGET$.primary_title = {
 			has_order_of_succession = election
 		}
+	}
+	
+	# Less likely if you have low Crown Authority
+	modifier = {
+		desc = "FACTION_REASON_LOW_CROWN_AUTHORITY"
+		add = -50
+	 	$FACTION_TARGET$ = {
+			OR = {
+				has_realm_law = crown_authority_0
+				has_realm_law = crown_authority_1
+			}
+		}
+	}
+	
+	# Less likely for French vassals
+	modifier = {
+		desc = "FACTION_REASON_FRENCH_VASSAL"
+		add = -200
+		culture = {
+			has_cultural_pillar = heritage_frankish
+		}
+	 	$FACTION_TARGET$.primary_title = title:k_france
+	}
+	
+	# Less likely for Anglosaxons to want to destroy England
+	modifier = {
+		desc = "FACTION_REASON_ANGLOSAXON"
+		add = -200
+		culture = {
+			has_cultural_pillar = heritage_west_germanic
+		}
+	 	$FACTION_TARGET$.primary_title = title:k_england
+	}
+	
+	# Less likely for Normans to want to destroy England
+	modifier = {
+		desc = "FACTION_REASON_NORMAN"
+		add = -200
+		culture = {
+			has_cultural_pillar = heritage_frankish
+		}
+	 	$FACTION_TARGET$.primary_title = title:k_england
+	}
+	
+	# Less likely for Brythonic to want to destroy England
+	modifier = {
+		desc = "FACTION_REASON_BRYTHONIC"
+		add = -200
+		culture = {
+			has_cultural_pillar = heritage_brythonic
+		}
+	 	$FACTION_TARGET$.primary_title = title:k_england
 	}
 
 	# Less likely for vassals with Byzantine Traditions
@@ -1275,6 +1483,14 @@ nation_fracturing_faction_modifiers = {
 			target = $FACTION_TARGET$
 		}
 	}
+
+	modifier = {
+		desc = "FACTION_REASON_PERSIAN_STRUGGLE"
+		add = -100
+		any_character_struggle = {
+			is_struggle_type = persian_struggle
+		}
+	}
 }
 
 nation_fracturing_faction_blockers = {
@@ -1291,6 +1507,32 @@ nation_fracturing_faction_blockers = {
 	modifier = {
 		add = -1000
 		$FACTION_TARGET$.primary_title.tier < tier_kingdom
+	}
+
+	## Game ruler specifics
+
+	# Keep it while the Calip is alive
+	modifier = {
+		add = -1000
+		$FACTION_TARGET$ = {
+			this = character:73683
+			any_held_title = {
+				this = title:k_andalusia
+			}
+		}
+		has_game_rule = dissolution_after_caliph_death
+	}
+
+	# Historical time blocker
+	modifier = {
+		add = -1000
+		current_date < 1020.1.1
+		$FACTION_TARGET$ = {
+			any_held_title = {
+				this = title:k_andalusia
+			}
+		}
+		has_game_rule = dissolution_historical_date
 	}
 }
 
@@ -1501,6 +1743,36 @@ claimant_faction_modifiers = {
 		add = -50
 		$FACTION_CLAIMANT$ = {
 			has_trait = infirm
+		}
+	}
+	
+	# Claimant has low Legitimacy
+	modifier = {
+		desc = "FACTION_REASON_CLAIMANT_LOW_LEGITIMACY"
+		add = -100
+		$FACTION_CLAIMANT$ = {
+			legitimacy >= 0
+			legitimacy_level = 0
+		}
+	}
+	
+	# Claimant has low Legitimacy
+	modifier = {
+		desc = "FACTION_REASON_CLAIMANT_LOW_LEGITIMACY"
+		add = -50
+		$FACTION_CLAIMANT$ = {
+			legitimacy >= 0
+			legitimacy_level = 1
+		}
+	}
+	
+	# Claimant has low Legitimacy
+	modifier = {
+		desc = "FACTION_REASON_CLAIMANT_LOW_LEGITIMACY"
+		add = -25
+		$FACTION_CLAIMANT$ = {
+			legitimacy >= 0
+			legitimacy_level = 2
 		}
 	}
 
@@ -1730,10 +2002,7 @@ claimant_faction_modifiers = {
 	modifier = {
 		desc = "FACTION_REASON_CLAIMANT_IS_RIGHTFUL_LIEGE"
 		add = 100
-		is_rightful_liege_of_trigger = {
-			VASSAL = root
-			LIEGE = $FACTION_CLAIMANT$
-		}
+		$FACTION_CLAIMANT$ = { is_rightful_liege_of = root }
 	}
 
 	# When creating a Faction, primarily care about Claims on Titles de jure above my primary title
@@ -1753,10 +2022,7 @@ claimant_faction_modifiers = {
 		add = -200
 		liege = { is_independent_ruler = yes }
 		NOT = {
-			is_rightful_liege_of_trigger = {
-				VASSAL = root
-				LIEGE = $FACTION_TARGET$
-			}
+			$FACTION_TARGET$ = { is_rightful_liege_of = root }
 		}
 	}
 	
@@ -1764,20 +2030,14 @@ claimant_faction_modifiers = {
 	modifier = {
 		desc = "FACTION_REASON_LIEGE_IS_UNPREFERRED_HEIR"
 		add = 50
-		has_opinion_modifier = {
-			modifier = unpreferred_heir_opinion
-			target = $FACTION_TARGET$
-		}
+		NOT = { was_preferred_heir = $FACTION_TARGET$ }
 	}
 	
 	# If liege is Preferred heir, nudge away from claimant factions
 	modifier = {
 		desc = "FACTION_REASON_LIEGE_IS_PREFERRED_HEIR"
 		add = -50
-		has_opinion_modifier = {
-			modifier = preferred_heir_opinion
-			target = $FACTION_TARGET$
-		}
+		was_preferred_heir = $FACTION_TARGET$
 	}
 
 	# All else being equal, the AI might support a claimant over their current liege just to get better feudal obligations.
@@ -1825,13 +2085,35 @@ claimant_faction_modifiers = {
 		}
 	}
 
-	#More likely to create a claimant faction against a Ruler below their CGLevel
+	# More likely to create a claimant faction against a Ruler below their CGLevel
 	modifier = {
 		desc = "FACTION_REASON_LOWER_COURT_GRANDEUR"
 		add = 50
 		$FACTION_TARGET$.court_grandeur_current_level < $FACTION_TARGET$.court_grandeur_minimum_expected_level
 	}
 	
+	# Unity - House members are more likely to join and create claimant factions with low levels of unity
+	modifier = { # Competitive unity level
+		add = 20
+		desc = "FACTION_REASON_unity_more_likely_claimant_factions"
+		exists = root.house
+		exists = $FACTION_TARGET$.house
+		house = $FACTION_TARGET$.house
+		house = {
+			has_house_unity_parameter = unity_more_likely_claimant_factions
+		}
+	}
+	modifier = { # Antagonistic unity level
+		add = 40
+		desc = "FACTION_REASON_unity_significantly_more_likely_claimant_factions"
+		exists = root.house
+		exists = $FACTION_TARGET$.house
+		house = $FACTION_TARGET$.house
+		house = {
+			has_house_unity_parameter = unity_significantly_more_likely_claimant_factions
+		}
+	}
+
 	modifier = { # Byzantium has extra trouble with Unpreferred Heirs
 		desc = "FACTION_REASON_BYZANTINE"
 		factor = 1.2
@@ -1841,10 +2123,114 @@ claimant_faction_modifiers = {
 	 	$FACTION_TARGET$ = {
 			has_title = title:e_byzantium
 		}
-		has_opinion_modifier = {
-			modifier = unpreferred_heir_opinion
-			target = $FACTION_TARGET$
+		was_preferred_heir = $FACTION_TARGET$
+	}
+	
+	modifier = {
+		desc = "FACTION_REASON_PERSIAN_STRUGGLE"
+		factor = 1.2
+		any_character_struggle = {
+			is_struggle_type = persian_struggle
+		}
+	}
+	
+	# LOW LEGITIMACY
+	modifier = {
+		desc = "FACTION_REASON_LOW_LEGITIMACY"
+		$FACTION_TARGET$ = {
+			OR = {
+				has_legitimacy_flag = increased_factions
+				has_legitimacy_flag = very_increased_factions
+				has_legitimacy_flag = massively_increased_factions
+			}
+		}
+		add = {
+			value = 0
+			if = {
+				limit = { $FACTION_TARGET$ = { has_legitimacy_flag = increased_factions } }
+				add = 10
+			}
+			else_if = {
+				limit = { $FACTION_TARGET$ = { has_legitimacy_flag = very_increased_factions } }
+				add = 20
+			}
+			else_if = {
+				limit = { $FACTION_TARGET$ = { has_legitimacy_flag = massively_increased_factions } }
+				add = 30
+			}
 		}
 	}
 
+	# HIGH LEGITIMACY
+	modifier = {
+		desc = "FACTION_REASON_HIGH_LEGITIMACY"
+		$FACTION_TARGET$ = {
+			OR = {
+				has_legitimacy_flag = increased_factions
+				has_legitimacy_flag = very_increased_factions
+				has_legitimacy_flag = massively_increased_factions
+			}
+		}
+		add = {
+			value = 0
+			if = {
+				limit = { $FACTION_TARGET$ = { has_legitimacy_flag = reduced_factions } }
+				add = -10
+			}
+			else_if = {
+				limit = { $FACTION_TARGET$ = { has_legitimacy_flag = very_reduced_factions } }
+				add = -20
+			}
+			else_if = {
+				limit = { $FACTION_TARGET$ = { has_legitimacy_flag = extra_reduced_factions } }
+				add = -30
+			}
+		}
+	}
+}
+
+struggle_faction_modifiers = {
+	# Struggle Modifiers.
+	## Weight up in general sometimes.
+	modifier = {
+		desc = FACTION_FP3_STRUGGLE_FRICTION
+		has_trait = fp3_struggle_detractor
+		scope:faction = {
+			# Don't weight up dissolution factions unduly.
+			NOT = { faction_is_type = nation_fracturing_faction }
+			# Targeting the caliph uses different logic.
+			faction_target = { fp3_struggle_scoped_is_the_arabian_caliph_trigger = no }
+		}
+		add = {
+			value = 25
+			# Weight up independence factions a little more.
+			if = {
+				limit = {
+					scope:faction = { faction_is_type = independence_faction }
+				}
+				add = 25
+			}
+		}
+	}
+	## Weight up further against specific targets.
+	modifier = {
+		desc = FACTION_FP3_STRUGGLE_FRICTION_CALIPHAL
+		has_trait = fp3_struggle_detractor
+		scope:faction = {
+			# Don't weight up dissolution factions unduly.
+			NOT = { faction_is_type = nation_fracturing_faction }
+			# Targeting the caliph uses different logic.
+			faction_target = { fp3_struggle_scoped_is_the_arabian_caliph_trigger = yes }
+		}
+		add = {
+			value = 35
+			# Weight up independence factions a little more.
+			if = {
+				limit = {
+					scope:faction = { faction_is_type = independence_faction }
+				}
+				add = 35
+			}
+		}
+	}
 }
