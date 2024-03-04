@@ -128,6 +128,9 @@
 	}
 
 	on_victory = {
+
+		add_legitimacy_attacker_victory_effect = yes
+
 		scope:attacker = { show_pow_release_message_effect = yes }
 
 		#EP2 accolade glory gain for winning against higher ranked enemy
@@ -236,6 +239,9 @@
 	}
 
 	on_defeat = {
+
+		add_legitimacy_attacker_defeat_effect = yes
+
 		scope:attacker = { show_pow_release_message_effect = yes }
 
 		#EP2 accolade glory gain for winning against higher ranked enemy
@@ -482,6 +488,9 @@ duchy_conquest_cb = {
 	}
 
 	on_victory = {
+
+		add_legitimacy_attacker_victory_effect = yes
+
 		scope:attacker = { show_pow_release_message_effect = yes }
 
 		#EP2 accolade glory gain for winning against higher ranked enemy
@@ -651,6 +660,9 @@ duchy_conquest_cb = {
 	}
 
 	on_defeat = {
+
+		add_legitimacy_attacker_defeat_effect = yes
+		
 		scope:attacker = { show_pow_release_message_effect = yes }
 
 		#EP2 accolade glory gain for winning against higher ranked enemy
@@ -828,6 +840,9 @@ ducal_conquest_cb = {
 	}
 
 	on_victory = {
+
+		add_legitimacy_attacker_victory_effect = yes
+
 		scope:attacker = { show_pow_release_message_effect = yes }
 
 		#EP2 accolade glory gain for winning against higher ranked enemy
@@ -998,6 +1013,9 @@ ducal_conquest_cb = {
 	}
 
 	on_defeat = {
+
+		add_legitimacy_attacker_defeat_effect = yes
+
 		scope:attacker = { show_pow_release_message_effect = yes }
 
 		#EP2 accolade glory gain for winning against higher ranked enemy

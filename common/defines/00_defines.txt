@@ -254,6 +254,8 @@ NCharacter = {
 
 	OBESE_WEIGHT_VALUE = 50 # Greater than or equal to this and a character is considered obese
 	MALNOURISHED_WEIGHT_VALUE = -50 # Less than or equal to this and a character is considered malnourished
+
+	LEGITIMACY_INHERITED = 0.4
 }
 
 NOldAge = {
@@ -707,11 +709,12 @@ NReligion = {
 NTitle = {
 	CREATE_TITLE_OR_TIER_EMPIRE = { -1 -1 -1 -1 2 1 }
 	CREATE_TITLE_OR_TIER_KINGDOM = { -1 -1 -1 2 1 1 }
-	CREATE_TITLE_COUNTIES_PERCENTAGE = { 0 0 0 0.5 0.5 0.8 }
 	CREATE_TITLE_PRESTIGE_GAIN = { 0 0 0 300 400 500 }
+	CREATE_TITLE_LEGITIMACY_GAIN = { 0 0 0 25 50 75 }
 	CREATE_TITLE_GOLD_COST = { 0 0 0 250 500 1000 } # remember to update values in create_duchy_title_value etc. in 01_dynamic_values.txt!
 	CREATE_TITLE_MIN_COST_FACTOR = 0.2 # creating a title will always cost at least this much in percent of the base cost, ex. 20% of 250 for a duchy
 	DESTROY_TITLE_PRESTIGE_COST = { 0 0 0 400 800 1200 }
+	DESTROY_TITLE_LEGITIMACY_LOSS = { 0 0 0 25 50 75 }
 	DESTROY_TITLE_CLEAR_LAW_MULT = 1	# when destroying a title with title-specifc laws, the cost for clearing laws must be payed, multiplied by this value
 	USURP_TITLE_GOLD_COST = { 0 0 0 250 500 1000 } # remember to update action_can_usurp_title in 00_title_actions.txt!
 	USURP_TITLE_PRESTIGE_GAIN = { 0 0 0 300 400 500 }
@@ -1387,6 +1390,7 @@ NActivity = {
 
 NVassalStance = {
 	NUM_HEIRS_TO_SCORE = 5 # How many heirs in the line of succession to check the heir score for
+	PREFERRED_HEIR_LEGITIMACY_EXPECTATION_YEARS = 30
 }
 
 NAccolade = {
