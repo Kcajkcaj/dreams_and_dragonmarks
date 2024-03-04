@@ -1,0 +1,115 @@
+have_sex_with_prostitute = {
+	icon = icon_scheme_seduce
+	category = interaction_category_friendly
+	interface_priority = 80
+	common_interaction = yes
+	popup_on_receive = yes
+	pause_on_receive = yes
+	
+	cooldown_against_recipient = {years = 5}
+	
+	is_shown = {
+		scope:recipient = { has_trait = lifestyle_courtesan }
+		NOT = { scope:actor = scope:recipient }
+	}
+	
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			is_available = yes
+			short_term_gold >= scope:recipient.minor_gold_value
+		}
+	}
+	
+	on_accept = {
+		scope:actor = {
+			pay_short_term_gold = {
+				target = scope:recipient
+				gold = scope:recipient.minor_gold_value
+			}
+			add_stress = medium_stress_loss
+			had_sex_with_effect = {
+				CHARACTER = scope:recipient
+				PREGNANCY_CHANCE = seduce_pregnancy_chance
+			}
+		}
+	}
+	
+	ai_potential = {
+		or = {
+			has_trait = rakish
+			has_trait = lustful
+		}
+		stress >= 50
+		is_imprisoned = no
+	}
+	
+	ai_target_quick_trigger = {
+		adult = yes
+		attracted_to_owner = yes
+		owner_attracted = yes
+	}
+
+	ai_targets = {
+		ai_recipients = guests
+		ai_recipients = courtiers
+		ai_recipients = neighboring_rulers
+	}
+	ai_targets = {
+		ai_recipients = vassals
+		max = 5
+	}
+	ai_targets = {
+		ai_recipients = peer_vassals
+		max = 5
+	}
+	
+	ai_targets = {
+		ai_recipients = realm_characters
+		max = 10
+	}
+	
+	ai_frequency = 12
+	
+	ai_will_do = {
+		base = -25
+		modifier = {
+			add = 50
+			scope:recipient = {is_ai = no}
+		}
+		opinion_modifier = {
+			opinion_target = scope:recipient
+			multiplier = 1
+		}
+		modifier = {
+			add = {
+				value = scope:recipient.attraction
+				multiply = 2.5
+			}
+		}
+		ai_value_modifier = {
+			ai_greed = -0.5
+			ai_honor = -0.5
+		}
+	}
+	
+	ai_accept = {
+		base = 0
+		opinion_modifier = {
+			opinion_target = scope:actor
+			multiplier = 0.5
+		}
+		ai_value_modifier = {
+			ai_greed = 0.5
+			ai_sociability = 0.25
+			ai_honor = -0.25
+		}
+		modifier = {
+			add = 25
+			has_trait = lustful
+		}
+		modifier = {
+			subtract = 25
+			has_trait = chaste
+		}
+	}
+}

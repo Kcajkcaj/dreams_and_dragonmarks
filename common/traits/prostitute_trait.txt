@@ -1,0 +1,87 @@
+lifestyle_courtesan = {
+	category = lifestyle
+
+	minimum_age = 16
+	
+	# Modifiers
+	intrigue = 1
+	diplomacy = 1
+	attraction_opinion = 10
+	fertility = 0.1
+	
+	triggered_opinion = {
+		parameter = fornication_male_crime
+		male_only = yes
+		opinion_modifier = fornicator_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fornication_male_shunned
+		male_only = yes
+		opinion_modifier = fornicator_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fornication_female_crime
+		female_only = yes
+		opinion_modifier = fornicator_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = fornication_female_shunned
+		female_only = yes
+		opinion_modifier = fornicator_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	tracks = {
+		companionship = {
+			50 = {
+				diplomacy = 1
+			}
+			100 = {
+				diplomacy = 1
+			}
+		}
+		connections = {
+			50 = {
+				intrigue = 1
+			}
+			100 = {
+				intrigue = 1
+			}
+		}
+		presentation = {
+			50 = {
+				attraction_opinion = 10
+			}
+			100 = {
+				attraction_opinion = 10
+			}
+		}
+		sex = {
+			50 = {
+				fertility = 0.1
+			}
+			100 = {
+				fertility = 0.1
+			}
+		}
+	}
+
+	ruler_designer_cost = 0
+
+	ai_greed = medium_positive_ai_value
+	ai_sociability = medium_positive_ai_value
+
+	compatibility = {
+		lustful = @pos_compat_high
+		lifestyle_courtesan = @pos_compat_medium
+		lifestyle_reveler = @pos_compat_low
+		seducer = @pos_compat_medium
+		gregarious = @pos_compat_low
+		shy = @neg_compat_low
+		chaste = @neg_compat_high
+		celibate = @neg_compat_high
+	}
+}
