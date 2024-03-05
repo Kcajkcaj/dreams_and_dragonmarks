@@ -1204,10 +1204,10 @@ nation_fracturing_faction_modifiers = {
 		}
 	}
 
-	# Lower the score if there are claimants of my culture
+	# Lower the score if there are claimants of my culture and faith
 	modifier = {
 		desc = "FACTION_REASON_CLAIMANTS_OF_MY_CULTURE"
-		add = -150
+		add = -50
 		$FACTION_TARGET$ = {
 			primary_title = {
 				any_claimant = {

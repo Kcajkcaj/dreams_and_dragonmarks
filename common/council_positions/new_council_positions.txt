@@ -50,22 +50,3 @@ councillor_prime_minister = {
 	
 	portrait_animation = chancellor
 }
-
-councillor_court_mage = {
-	portrait_animation = chancellor
-	
-	valid_position = {
-		always = yes
-	}
-	
-	valid_character = {
-		has_trait = mage
-	}
-	
-	modifier = {
-		name = court_mage_modifier
-		monthly_income = 1
-		monthly_prestige = 1
-		scale = council_scaled_monthly_income
-	}
-}

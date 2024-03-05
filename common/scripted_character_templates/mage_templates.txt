@@ -1,4 +1,4 @@
-court_mage_template = {
+mage_template = {
 	age = {20 70}
 	random_traits = yes
 	trait = mage

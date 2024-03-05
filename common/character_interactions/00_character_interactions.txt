@@ -47,7 +47,7 @@ offer_vassalization_interaction = {
 	ai_max_reply_days = 10
 
 	ai_accept = {
-		base = -100
+		base = -150
 		#MAIN
 		#Heretic/Infidel modifier.
 		#Tier difference modifier.
