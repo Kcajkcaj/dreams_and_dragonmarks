@@ -466,7 +466,7 @@ bubonic_plague = {
 				}
 				if = {
 					limit = {
-						current_date >= 3800.1.1
+						current_date >= 3650.1.1
 						has_game_rule = bd_occurrence_historical
 						NOT = {
 							has_global_variable = black_death_happened
@@ -492,20 +492,6 @@ bubonic_plague = {
 				if = {
 					limit = { #it can never happen
 						has_game_rule = bd_frequency_never
-					}
-					value = 0
-				}
-
-				#Historical exemption
-				if = {
-					limit = {
-						has_game_rule = bd_occurrence_historical
-						OR = {
-							current_date < 1346.1.1
-							NOT = {
-								geographical_region = world_central_asia
-							}
-						}
 					}
 					value = 0
 				}

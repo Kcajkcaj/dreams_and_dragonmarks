@@ -2,7 +2,10 @@ k_metrol = {
 	3300.1.1 = {
 		liege = e_karrnath
 	}
-	3400.1.1 = {
+	3380.1.1 = {
+		holder = zotharr_ghastor
+	}
+	3408.9.4 = {
 		holder = verodin_ghastor
 	}
 }
@@ -11,7 +14,10 @@ d_metrol = {
 	3300.1.1 = {
 		change_development_level = 12
 	}
-	3400.1.1 = {
+	3380.1.1 = {
+		holder = zotharr_ghastor
+	}
+	3408.9.4 = {
 		holder = verodin_ghastor
 	}
 }

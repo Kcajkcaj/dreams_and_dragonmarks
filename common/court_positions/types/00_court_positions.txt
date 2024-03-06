@@ -75,6 +75,10 @@ court_physician_court_position = {
 				desc = court_position_physician_1_trait
 			}
 		}
+		if = {
+			limit = {has_trait = mark_of_healing}
+			add = 20
+		}
 		# Mystic
 		if = {
 			limit = { has_trait = lifestyle_mystic }
@@ -2038,6 +2042,12 @@ travel_leader_court_position = {
 		}
 		if = {
 			limit = {
+				has_trait = mark_of_passage
+			}
+			add = 20
+		}
+		if = {
+			limit = {
 				has_trait = brave
 			}
 			add = {
@@ -3429,6 +3439,12 @@ master_of_horse_court_position = {
 				value = 10
 				desc = court_position_overseer_trait
 			}
+		}
+		if = {
+			limit = {
+				has_trait = mark_of_handling
+			}
+			add = 20
 		}
 		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_high_penalty_value
@@ -5467,6 +5483,12 @@ court_musician_court_position = {
 		}
 		if = {
 			limit = {
+				has_trait = mark_of_shadow
+			}
+			add = 20
+		}
+		if = {
+			limit = {
 				has_trait = shy
 			}
 			add = {
@@ -5755,6 +5777,12 @@ bodyguard_court_position = {
 				value = -15
 				desc = court_position_craven_trait
 			}
+		}
+		if = {
+			limit = {
+				has_trait = mark_of_sentinel
+			}
+			add = 20
 		}
 		add = court_position_aptitude_family_business_value
 		add = court_position_aptitude_high_penalty_value
@@ -6538,6 +6566,12 @@ court_artificer_court_position = {
 				value = -20
 				desc = local_artisan_modifier
 			}
+		}
+		if = {
+			limit = {
+				has_trait = mark_of_making
+			}
+			add = 20
 		}
 		add = court_position_aptitude_family_business_value
 		#add = court_position_aptitude_high_penalty_value
@@ -7888,5 +7922,3 @@ chronicler_court_position = {
 		add = court_position_debt_considerations_value
 	}
 }
-
-

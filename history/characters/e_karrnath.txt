@@ -17,8 +17,65 @@ vorik_furnau = { # Rekkenmark
 	trait = scarred
 	trait = education_martial_prowess_4
 	trait = education_martial_2
+
+	father = arend_furnau
 	
 	3387.6.13 = {birth = yes}
+}
+
+karola_furnau = {
+	name = "Karola"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath_furnau
+	
+	trait = physique_good_1
+
+	father = arend_furnau
+	
+	3391.7.4 = {birth = yes}
+}
+
+gisaul_furnau = {
+	name = "Gisaul"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath_furnau
+	
+	trait = physique_good_1
+
+	father = arend_furnau
+	
+	3394.3.9 = {birth = yes}
+}
+
+demuth_furnau = {
+	name = "Demuth"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_karrnath_furnau
+	
+	trait = physique_good_1
+
+	father = arend_furnau
+	
+	3399.8.18 = {birth = yes}
+}
+
+arend_furnau = {
+	name = "Arend"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_karrnath_furnau
+	
+	trait = physique_good_2
+	
+	3350.4.6 = {birth = yes}
+	3406.8.12 = {death = yes}
 }
 
 ermena_vanalan= { # Tanar
@@ -133,11 +190,82 @@ leodegar_wynarn = { # Vedykar
 	trait = planetouched_daanvi
 	
 	trait = intellect_good_3
+
+	father = falko_wynarn
 	
 	3384.3.3 = {
 		birth = yes
 		effect = {house = {add_house_modifier = ideal_order}}
 	}
+}
+
+syardis_wynarn = {
+	name = "Syardis"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_wynarn
+	
+	trait = planetouched_daanvi
+	
+	trait = intellect_good_2
+
+	father = falko_wynarn
+	
+	3385.11.11 = {
+		birth = yes
+	}
+}
+
+oydelis_wynarn = {
+	name = "Oydelis"
+	culture = karrn
+	faith = conquerors_creed
+	female = yes
+	dynasty = dynn_wynarn
+	
+	trait = planetouched_daanvi
+	
+	trait = intellect_good_2
+
+	father = falko_wynarn
+	
+	3387.9.10 = {
+		birth = yes
+	}
+}
+
+fraedus_wynarn = {
+	name = "Fraedus"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_wynarn
+	
+	trait = planetouched_daanvi
+	
+	trait = intellect_good_2
+
+	father = falko_wynarn
+	
+	3389.6.15 = {
+		birth = yes
+	}
+}
+
+falko_wynarn = {
+	name = "Falko"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_wynarn
+
+	trait = planetouched_daanvi
+	
+	trait = intellect_good_3
+
+	3359.8.10 = { birth = yes }
+	3409.6.11 = {death = yes}
 }
 
 halar_deneith = {
@@ -146,6 +274,8 @@ halar_deneith = {
 	faith = conquerors_creed
 	female = no
 	dynasty = dynn_deneith
+
+	trait = mark_of_sentinel
 	
 	3349.1.1 = {birth = yes}
 	3405.11.11 = {death = yes}
@@ -157,6 +287,8 @@ ilana_deneith = {
 	faith = conquerors_creed
 	female = yes
 	dynasty = dynn_deneith
+
+	trait = mark_of_sentinel
 	
 	father = halar_deneith
 	
@@ -182,8 +314,38 @@ brenius_deneith = { # Karrlakton
 	dynasty = dynn_deneith
 	
 	father = halar_deneith
+
+	trait = mark_of_sentinel
 	
 	3381.4.4 = {birth = yes}
+}
+
+alinda_deneith = {
+	name = "Alinda"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_deneith
+	
+	father = halar_deneith
+
+	trait = mark_of_sentinel
+	
+	3379.5.2 = {birth = yes}
+}
+
+evetius_deneith = {
+	name = "Evetius"
+	culture = karrn
+	faith = conquerors_creed
+	female = no
+	dynasty = dynn_deneith
+	
+	father = halar_deneith
+
+	trait = mark_of_sentinel
+	
+	3384.5.14 = {birth = yes}
 }
 
 karola_grogloth = { # Vulyar

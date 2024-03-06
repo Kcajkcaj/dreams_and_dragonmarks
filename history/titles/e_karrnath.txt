@@ -40,8 +40,9 @@ d_rekkenmark = {
 	3000.1.1 = {change_development_level = 12}
 	3400.1.1 = {
 		liege = e_karrnath
-		holder = vorik_furnau
+		holder = arend_furnau
 	}
+	3406.8.12 = {holder = vorik_furnau}
 }
 d_ashen_spires = {
 	3000.1.1 = {change_development_level = 12}
@@ -97,6 +98,9 @@ d_vedykar = {
 	3000.1.1 = {change_development_level = 12}
 	3400.1.1 = {
 		liege = e_karrnath
+		holder = falko_wynarn
+	}
+	3409.6.11 = {
 		holder = leodegar_wynarn
 	}
 }

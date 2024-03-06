@@ -8,8 +8,8 @@ settler_adventurer = {
 	}
 	is_valid = {
 		is_landed = yes
-		highest_held_title_tier >= tier_kingdom
-		prestige_level >= high_prestige_level
+		highest_held_title_tier >= tier_duchy
+		prestige_level >= medium_prestige_level
 	}
 	
 	chronicle = great_deed_dynasty

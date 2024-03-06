@@ -6,7 +6,7 @@ lifestyle_courtesan = {
 	# Modifiers
 	intrigue = 1
 	diplomacy = 1
-	attraction_opinion = 10
+	attraction_opinion = 5
 	fertility = 0.1
 	
 	triggered_opinion = {
@@ -53,10 +53,10 @@ lifestyle_courtesan = {
 		}
 		presentation = {
 			50 = {
-				attraction_opinion = 10
+				attraction_opinion = 5
 			}
 			100 = {
-				attraction_opinion = 10
+				attraction_opinion = 5
 			}
 		}
 		sex = {
