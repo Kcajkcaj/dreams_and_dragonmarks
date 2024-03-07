@@ -5,6 +5,7 @@ Talenta_Ghallanda_0 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = no
 	trait = education_diplomacy_4
+	trait = mark_of_hospitality
 	3339.10.21 = { birth = yes }
 	3401.8.21 = { death = yes }
 }
@@ -16,6 +17,7 @@ Talenta_Jorasco_0 = {
 	dynasty = dynn_Talenta_Jorasco
 	female = no
 	trait = education_stewardship_3
+	trait = mark_of_healing
 	3331.5.6 = { birth = yes }
 	3384.2.14 = { death = yes }
 }
@@ -95,13 +97,14 @@ Talenta_Jorasco_1 = {
 	dynasty = dynn_Talenta_Jorasco
 	female = yes
 	trait = education_stewardship_2
+	trait = mark_of_healing
 	father = Talenta_Jorasco_0
 	3357.11.2 = { birth = yes }
 	3403.7.27 = { death = yes }
 }
 
 Talenta_Sindrekel_2 = {
-	name = Yamyra
+	name = Ulara
 	culture = talentan
 	faith = maskweaver
 	dynasty = dynn_Talenta_Sindrekel
@@ -118,6 +121,7 @@ Talenta_Ghallanda_1 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = yes
 	trait = education_learning_3
+	trait = mark_of_hospitality
 	father = Talenta_Ghallanda_0
 	3361.2.23 = { birth = yes }
 	3412.3.8 = { death = yes }
@@ -130,12 +134,13 @@ Talenta_Ghallanda_2 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = yes
 	trait = education_intrigue_2
+	trait = mark_of_hospitality
 	father = Talenta_Ghallanda_0
 	3362.11.10 = { birth = yes }
 }
 
 Talenta_Boromar_1 = {
-	name = Jode
+	name = Saidan
 	culture = talentan
 	faith = maskweaver
 	dynasty = dynn_Talenta_Boromar
@@ -152,6 +157,7 @@ Talenta_Jorasco_2 = {
 	dynasty = dynn_Talenta_Jorasco
 	female = no
 	trait = education_martial_4
+	trait = mark_of_healing
 	father = Talenta_Jorasco_0
 	3365.10.9 = { birth = yes }
 }
@@ -169,7 +175,7 @@ Talenta_Hulrar_1 = {
 }
 
 Talenta_Sindrekel_3 = {
-	name = Yamyra
+	name = Uldra
 	culture = talentan
 	faith = maskweaver
 	dynasty = dynn_Talenta_Sindrekel
@@ -197,6 +203,7 @@ Talenta_Ghallanda_3 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = no
 	trait = education_diplomacy_3
+	trait = mark_of_hospitality
 	father = Talenta_Ghallanda_0
 	3368.5.18 = { birth = yes }
 }
@@ -242,6 +249,7 @@ Talenta_Jorasco_3 = {
 	dynasty = dynn_Talenta_Jorasco
 	female = yes
 	trait = education_learning_2
+	trait = mark_of_healing
 	mother = Talenta_Jorasco_1
 	3374.4.6 = { birth = yes }
 }
@@ -319,6 +327,7 @@ Talenta_Ghallanda_4 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = yes
 	trait = education_diplomacy_2
+	trait = mark_of_hospitality
 	mother = Talenta_Ghallanda_2
 	3384.7.10 = { birth = yes }
 }
@@ -329,7 +338,8 @@ Talenta_Jorasco_4 = {
 	faith = maskweaver
 	dynasty = dynn_Talenta_Jorasco
 	female = no
-	trait = education_diplomacy_5
+	trait = education_diplomacy_4
+	trait = mark_of_healing
 	mother = Talenta_Jorasco_1
 	3385.8.27 = { birth = yes }
 }
@@ -374,6 +384,7 @@ Talenta_Ghallanda_5 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = yes
 	trait = education_diplomacy_4
+	trait = mark_of_hospitality
 	mother = Talenta_Ghallanda_2
 	3387.5.25 = { birth = yes }
 }
@@ -407,6 +418,7 @@ Talenta_Ghallanda_6 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = no
 	trait = education_diplomacy_1
+	trait = mark_of_hospitality
 	father = Talenta_Ghallanda_3
 	3389.2.25 = { birth = yes }
 }
@@ -418,6 +430,7 @@ Talenta_Ghallanda_7 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = no
 	trait = education_learning_4
+	trait = mark_of_hospitality
 	mother = Talenta_Ghallanda_1
 	3390.7.25 = { birth = yes }
 }
@@ -439,7 +452,7 @@ Talenta_Abraman_7 = {
 	faith = maskweaver
 	dynasty = dynn_Talenta_Abraman
 	female = yes
-	trait = education_stewardship_5
+	trait = education_stewardship_4
 	mother = Talenta_Abraman_3
 	3392.2.18 = { birth = yes }
 }
@@ -462,6 +475,7 @@ Talenta_Jorasco_5 = {
 	dynasty = dynn_Talenta_Jorasco
 	female = yes
 	trait = education_learning_4
+	trait = mark_of_healing
 	mother = Talenta_Jorasco_3
 	3393.9.17 = { birth = yes }
 }
@@ -495,6 +509,7 @@ Talenta_Jorasco_6 = {
 	dynasty = dynn_Talenta_Jorasco
 	female = no
 	trait = education_learning_2
+	trait = mark_of_healing
 	father = Talenta_Jorasco_2
 	3396.6.18 = { birth = yes }
 }
@@ -516,7 +531,7 @@ Talenta_Hulrar_4 = {
 	faith = maskweaver
 	dynasty = dynn_Talenta_Hulrar
 	female = no
-	trait = education_diplomacy_5
+	trait = education_diplomacy_4
 	mother = Talenta_Hulrar_1
 	3397.2.12 = { birth = yes }
 }
@@ -550,6 +565,7 @@ Talenta_Jorasco_7 = {
 	dynasty = dynn_Talenta_Jorasco
 	female = yes
 	trait = education_stewardship_3
+	trait = mark_of_healing
 	father = Talenta_Jorasco_2
 	3399.2.16 = { birth = yes }
 }
@@ -560,6 +576,7 @@ Talenta_Jorasco_8 = {
 	faith = maskweaver
 	dynasty = dynn_Talenta_Jorasco
 	female = no
+	trait = mark_of_healing
 	trait = education_intrigue_4
 	mother = Talenta_Jorasco_3
 	3400.12.4 = { birth = yes }
@@ -582,6 +599,7 @@ Talenta_Jorasco_9 = {
 	faith = maskweaver
 	dynasty = dynn_Talenta_Jorasco
 	female = yes
+	trait = mark_of_healing
 	trait = education_intrigue_3
 	father = Talenta_Jorasco_4
 	3401.9.22 = { birth = yes }
@@ -648,6 +666,7 @@ Talenta_Jorasco_10 = {
 	faith = maskweaver
 	dynasty = dynn_Talenta_Jorasco
 	female = no
+	trait = mark_of_healing
 	trait = education_learning_4
 	mother = Talenta_Jorasco_3
 	3405.1.20 = { birth = yes }
@@ -704,6 +723,7 @@ Talenta_Ghallanda_8 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = yes
 	trait = education_learning_2
+	trait = mark_of_hospitality
 	mother = Talenta_Ghallanda_5
 	3406.3.12 = { birth = yes }
 }
@@ -715,6 +735,7 @@ Talenta_Ghallanda_9 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = yes
 	trait = education_martial_3
+	trait = mark_of_hospitality
 	father = Talenta_Ghallanda_6
 	3406.1.13 = { birth = yes }
 }
@@ -725,7 +746,7 @@ Talenta_Boromar_10 = {
 	faith = maskweaver
 	dynasty = dynn_Talenta_Boromar
 	female = yes
-	trait = education_diplomacy_5
+	trait = education_diplomacy_4
 	mother = Talenta_Boromar_3
 	3407.10.16 = { birth = yes }
 }
@@ -814,6 +835,7 @@ Talenta_Ghallanda_10 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = no
 	trait = education_intrigue_3
+	trait = mark_of_hospitality
 	mother = Talenta_Ghallanda_4
 	3409.11.20 = { birth = yes }
 }
@@ -869,6 +891,7 @@ Talenta_Ghallanda_11 = {
 	dynasty = dynn_Talenta_Ghallanda
 	female = yes
 	trait = education_martial_2
+	trait = mark_of_hospitality
 	father = Talenta_Ghallanda_7
 	3412.11.27 = { birth = yes }
 }

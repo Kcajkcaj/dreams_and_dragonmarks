@@ -98,7 +98,7 @@
 1573 = {
 	culture = talentan
 	faith = maskweaver
-	holding = tribal_holding
+	holding = castle_holding
 }
 1574 = {holding = none}
 1575 = {holding = none}
@@ -106,7 +106,7 @@
 1576 = {
 	culture = talentan
 	faith = maskweaver
-	holding = tribal_holding
+	holding = castle_holding
 }
 1577 = {holding = none}
 1578 = {holding = none}
@@ -114,7 +114,7 @@
 1579 = {
 	culture = talentan
 	faith = maskweaver
-	holding = tribal_holding
+	holding = castle_holding
 }
 1580 = {holding = none}
 1581 = {holding = none}
@@ -123,7 +123,7 @@
 1583 = {
 	culture = talentan
 	faith = maskweaver
-	holding = tribal_holding
+	holding = castle_holding
 }
 1584 = {holding = none}
 1585 = {holding = none}
@@ -131,7 +131,7 @@
 1586 = {
 	culture = talentan
 	faith = maskweaver
-	holding = tribal_holding
+	holding = castle_holding
 }
 1587 = {holding = none}
 1588 = {holding = none}
