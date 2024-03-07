@@ -30,6 +30,34 @@ joherra_cannith = {
 	}
 }
 
+aanna_cannith = {
+	name = "Aanna"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_cannith
+
+	trait = mark_of_making
+
+	mother = joherra_cannith
+
+	3386.10.4 = {birth = yes}
+}
+
+thurik_cannith = {
+	name = "Thurik"
+	culture = metroli
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_cannith
+
+	trait = mark_of_making
+
+	mother = joherra_cannith
+
+	3388.7.2 = {birth = yes}
+}
+
 lei_cannith = {
 	name = "Lei"
 	culture = metroli
@@ -44,6 +72,34 @@ lei_cannith = {
 	3370.10.3 = { birth = yes }
 }
 
+monesti_cannith = {
+	name = "Monesti"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_cannith
+
+	trait = mark_of_making
+
+	mother = lei_cannith
+
+	3397.6.5 = {birth = yes}
+}
+
+riki_cannith = {
+	name = "Riki"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_cannith
+
+	trait = mark_of_making
+
+	mother = lei_cannith
+
+	3403.5.19 = {birth = yes}
+}
+
 hadran_cannith = {
 	name = "Hadran"
 	culture = metroli
@@ -56,4 +112,32 @@ hadran_cannith = {
 	father = merrix_cannith
 	
 	3374.7.18 = { birth = yes }
+}
+
+kava_cannith = {
+	name = "Kava"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_cannith
+
+	trait = mark_of_making
+	
+	father = hadran_cannith
+	
+	3400.9.18 = { birth = yes }
+}
+
+tolri_cannith = {
+	name = "Tolri"
+	culture = metroli
+	faith = frontier_creed
+	female = yes
+	dynasty = dynn_cannith
+
+	trait = mark_of_making
+	
+	father = hadran_cannith
+	
+	3403.4.13 = { birth = yes }
 }

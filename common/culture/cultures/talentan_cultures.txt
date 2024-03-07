@@ -6,7 +6,7 @@ talentan = {
 	language = language_halfling
 	martial_custom = martial_custom_equal
 	
-	name_list = name_list_brelish
+	name_list = name_list_talentan
 	created = 1.1.1
 	
 	coa_gfx = { mongol_coa_gfx steppe_coa_gfx } 

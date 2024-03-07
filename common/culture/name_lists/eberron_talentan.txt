@@ -1,0 +1,23 @@
+name_list_talentan = {
+
+	dynasty_names = {
+		"Halavik"
+        "Gragano"
+        "Maranso"
+        "Lufamor"
+        "Borohi"
+        "Esheno"
+        "Hulbar"
+        "Kekolanor"
+        "Ruhar"
+        "Sinderkel"
+        "Temma"
+        "Tenoke"
+        "Tatha"
+	}
+	
+	cadet_dynasty_names = dynasty_names
+	
+	male_names = { Corrash Halpum Lanudo Thak Saidan Keslo Caskar Janasar Alask Andras Diraz Jode Antal Boram Evan Jamir Kaleb Lem Miro Sumak }
+	female_names = { Dovi Hebblu Wytanga Studa Uldra Ilyra Maira Chervina Kurala Ulara Lidda Anafa Bellis Etune Filiu Lissa Marra Rillka Sistra Yamyra }
+}

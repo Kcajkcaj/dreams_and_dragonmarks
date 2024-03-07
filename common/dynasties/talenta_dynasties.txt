@@ -1,0 +1,24 @@
+dynn_Talenta_Abraman = {
+    name = "Abraman"
+    culture = talentan
+}
+dynn_Talenta_Boromar = {
+    name = "Boromar"
+    culture = talentan
+}
+dynn_Talenta_Ghallanda = {
+    name = "Ghallanda"
+    culture = talentan
+}
+dynn_Talenta_Hulrar = {
+    name = "Hulrar"
+    culture = talentan
+}
+dynn_Talenta_Jorasco = {
+    name = "Jorasco"
+    culture = talentan
+}
+dynn_Talenta_Sindrekel = {
+    name = "Sindrekel"
+    culture = talentan
+}
