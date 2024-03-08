@@ -1,0 +1,57 @@
+k_aundair = {
+    4890.1.1 = {
+        holder = Aundair_Ancestor_4
+    }
+    4920.1.1 = {
+        holder = Aundair_Ancestor_3
+    }
+    4923.9.12 = {
+        holder = Aundair_Ancestor_2
+    }
+    4961.1.1 = {
+        holder = Aundair_Ancestor_1
+    }
+    4979.12.22 = {
+        holder = Aundair_Ruler
+    }
+}
+d_fairhaven = {
+    4996.1.1 = {
+        de_jure_liege = k_aundair
+    }
+}
+d_whisperwoods = {
+    4996.1.1 = {
+        de_jure_liege = k_aundair
+    }
+}
+d_silverwood = {
+    4996.1.1 = {
+        de_jure_liege = k_aundair
+    }
+}
+d_thaliost = {
+    4996.1.1 = {
+        de_jure_liege = k_aundair
+    }
+}
+d_stormhome = {
+    4996.1.1 = {
+        de_jure_liege = k_aundair
+    }
+}
+d_eldritch_groves = {
+    4996.1.1 = {
+        de_jure_liege = k_aundair
+    }
+}
+d_arcanix = {
+    4996.1.1 = {
+        de_jure_liege = k_aundair
+    }
+}
+d_marketplace = {
+    4996.1.1 = {
+        de_jure_liege = k_aundair
+    }
+}

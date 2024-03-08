@@ -48,8 +48,9 @@ learning_modifier_with_offset = {
 }
 
 prowess_modifier = {
-	advantage = 0.5
+	advantage = 0.25
 	monthly_prestige = 0.1
+	attraction_opinion = 0.5
 }
 
 # These modifiers are applied to characters of that tier

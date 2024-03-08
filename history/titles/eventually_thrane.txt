@@ -1,0 +1,50 @@
+k_thrane = {
+    4859.1.1 = {
+        holder = Thrane_Ancestor_3
+    }
+    4914.1.1 = {
+        holder = Thrane_Ancestor_2
+    }
+    4945.1.1 = {
+        holder = Thrane_Ancestor_1
+    }
+    4988.1.1 = {
+        holder = Thrane_Ruler
+    }
+}
+
+d_flamekeep = {
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_auxyl = {
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_daskaran = {
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_burntwood = {
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_sigilstar = {
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_rhone = {
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_arul = {
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}

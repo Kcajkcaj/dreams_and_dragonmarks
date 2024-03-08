@@ -58,6 +58,36 @@ vathir = {
 	}
 }
 
+brelish = {
+	color = {0.1 0.5 0.7}
+	
+	ethos = ethos_stoic
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_brelish
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_frontier_settlers
+		tradition_constitutionalism
+		tradition_fierce_independence
+		tradition_embrace_of_industry
+		tradition_traveling_merchants
+	}
+	
+	ethnicities = {
+		70 = rhialuun
+		30 = syrk
+	}
+}
+
 sigilan = {
 	color = {0.8 0.6 1}
 	
@@ -232,7 +262,65 @@ daskaran = {
 	}
 }
 
+thrane = {
+	color = {1.0 0.85 0.8}
+	
+	ethos = ethos_spiritual
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_thrane
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_chivalric_codes
+		tradition_crusaders
+		tradition_simple_pleasures
+		# Two More
+	}
+	
+	ethnicities = {
+		80 = rhialuun
+		20 = syrk
+	}
+}
+
 thal = {
+	color = {0.5 0.75 1.0}
+	
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_aundairi
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_famed_universities
+		tradition_swashbucklers_pride
+		tradition_overflowing_vineyards
+		tradition_chivalric_codes
+		tradition_arcane_duelists
+	}
+	
+	ethnicities = {
+		100 = rhialuun
+	}
+}
+
+aundairi = {
 	color = {0.5 0.75 1.0}
 	
 	ethos = ethos_courtly
@@ -355,6 +443,37 @@ aturi = {
 }
 
 metroli = {
+	color = { 112 181 52 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_human
+	language = language_common
+	martial_custom = martial_custom_equal
+	
+	name_list = name_list_brelish
+	created = 1.1.1
+	
+	coa_gfx = { western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	traditions = {
+		tradition_avant_garde
+		tradition_embrace_of_industry
+		tradition_skilled_orators
+		tradition_best_and_brightest
+		tradition_breakneck_research
+	}
+	
+	ethnicities = {
+		40 = rhialuun
+		40 = syrk
+		20 = koralanda
+	}
+}
+
+cyran = {
 	color = { 112 181 52 }
 	
 	ethos = ethos_courtly

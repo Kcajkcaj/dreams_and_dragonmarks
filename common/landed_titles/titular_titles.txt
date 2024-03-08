@@ -1,0 +1,15 @@
+k_breland = {
+    color = { 25 75 107 }
+    capital = c_wroat
+    landless = yes
+}
+k_aundair = {
+    color = { 96 189 255 }
+    capital = c_fairhaven
+    landless = yes
+}
+k_thrane = {
+    color = { 255 217 198 }
+    capital = c_flamekeep
+    landless = yes
+}

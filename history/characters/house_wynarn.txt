@@ -1,0 +1,886 @@
+Last_Galifar_Ruler = {
+	name = "Jarot"
+	culture = cyran
+	faith = frontier_creed
+	female = no
+	dynasty = dynn_wynarn
+		
+	4820.1.1 = { birth = yes }
+    4894.3.12 = {
+        death = yes
+    }
+}
+
+Cyre_Ruler = {
+    name = "Oargev"
+    culture = cyran
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+    dna = oargev_dna
+
+    mother = Cyre_Ancestor_1
+
+    4972.1.1 = {birth = yes}
+}
+
+Cyre_Ancestor_1 = {
+    name = "Aletta"
+    culture = cyran
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    mother = Cyre_Ancestor_2
+
+    4950.1.1 = {birth = yes}
+    4994.2.20 = { death = { death_reason = death_the_mourning } }
+}
+
+Cyre_Ancestor_1_Sibling_1 = {
+    name = "Brusst"
+    culture = cyran
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Cyre_Ancestor_2
+
+    4948.1.1 = { birth = yes }
+    4949.1.1 = { death = { death_reason = death_sickly } }
+}
+
+Cyre_Ancestor_1_Sibling_2 = {
+    name = "Marhya"
+    culture = cyran
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    mother = Cyre_Ancestor_2
+
+    4953.1.1 = { birth = yes }
+    4994.2.20 = { death = { death_reason = death_the_mourning } }
+}
+
+Cyre_Ancestor_2 = {
+    name = "Dannel"
+    culture = cyran
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Cyre_Ancestor_3
+
+    4925.1.1 = { birth = yes }
+    4994.2.20 = { death = { death_reason = death_the_mourning } }
+}
+
+Cyre_Ancestor_3 = {
+    name = "Connos"
+    culture = cyran
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Cyre_Ancestor_4
+
+    4891.1.1 = { birth = yes }
+    4942.1.1 = { death = { death_reason = death_battle } }
+}
+
+Cyre_Ancestor_3_Sibling_1 = {
+    name = "Deggan"
+    culture = cyran
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Cyre_Ancestor_4
+
+    4894.1.1 = { birth = yes }
+    4923.9.12 = { death = { death_reason = death_murder } }
+}
+
+Cyre_Ancestor_4 = {
+    name = "Brusst"
+    culture = cyran
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Cyre_Ancestor_5
+
+    4863.1.1 = { birth = yes }
+    4913.1.1 = { death = { death_reason = death_murder } }
+}
+
+Cyre_Ancestor_5 = {
+    name = "Mishann"
+    culture = cyran
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Last_Galifar_Ruler
+
+    4840.1.1 = { birth = yes }
+    4908.1.1 = { death = { death_reason = death_murder } }
+}
+
+Karrnath_Ancestor_3 = {
+    name = "Kaius"
+    culture = karrn
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+    dna = kaius_dna
+
+    father = Last_Galifar_Ruler
+
+    4872.1.1. = { birth = yes }
+    4897.12.28 = { faith = blood_of_vol }
+    4910.1.1 = { death = { death_reason = death_disappearance } }
+}
+
+Karrnath_Ancestor_2 = {
+    name = "Kaius"
+    culture = karrn
+    faith = frontier_creed
+    female = no
+    dynasty  dynn_wynarn
+
+    father = Karrnath_Ancestor_3
+
+    4892.1.1 = { birth = yes }
+    4897.12.28 = { faith = blood_of_vol }
+    4960.1.1 = { death = { death_reason = death_depressed }}
+}
+
+Karrnath_Ancestor_1 = {
+    name = "Jaron"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Karrnath_Ancestor_2
+
+    4925.1.1 = { birth = yes }
+    4973.1.9 = { death = { death_reason = death_wounded_2 } }
+}
+
+Karrnath_Ancestor_1_Sibling_1 = {
+    name = "Moranna"
+    culture = karrn
+    faith = blood_of_vol
+    female = yes
+    dynasty = dynn_wynarn
+    dna = moranna_dna
+
+    father = Karrnath_Ancestor_2
+
+    4927.1.1 = { birth = yes }
+    4976.4.10 = { faith = frontier_creed }
+}
+
+Karrnath_Ruler = {
+    name = "Kaius"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_wynarn
+    dna = kaius_dna
+
+    father = Karrnath_Ancestor_1
+    
+    trait = twin
+
+    4970.1.5 = { birth = yes }
+    4976.4.10 = { faith = frontier_creed }
+}
+
+Karrnath_Sibling_1 = {
+    name = "Gaius"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Karrnath_Ancestor_1
+    
+    trait = twin
+
+    4970.1.5 = { birth = yes }
+    4976.4.10 = { faith = frontier_creed }
+}
+
+Karrnath_Sibling_2 = {
+    name = "Drago"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Karrnath_Ancestor_1
+    
+    4954.1.1 = { birth = yes }
+    4972.12.16 = { death = { death_reason = death_battle } }
+}
+
+Karrnath_Sibling_3 = {
+    name = "Haydith"
+    culture = karrn
+    faith = blood_of_vol
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Karrnath_Ancestor_1
+    
+    4973.8.11 = { birth = yes }
+    4976.4.10 = { faith = frontier_creed }
+}
+
+Thrane_Ruler = {
+    name = "Diani"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+    dynasty = dynn_wynarn
+    dna = diani_dna
+
+    father = Thrane_Ancestor_1
+    
+    4969.1.1 = { birth = yes }
+}
+
+Thrane_Ancestor_1 = {
+    name = "Erivon"
+    culture = thrane
+    faith = silver_flame
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Thrane_Ancestor_2
+    
+    4923.1.1 = { birth = yes }
+    4988.1.1 = { death = { death_reason = death_heart_attack } }
+}
+
+Thrane_Ancestor_2 = {
+    name = "Dalsin"
+    culture = thrane
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Thrane_Ancestor_3
+
+    4879.1.1 = { birth = yes }
+    4895.6.20 = { faith = silver_flame }
+    4945.1.1 = { death = { death_reason = death_hunting_accident } }
+}
+
+Thrane_Ancestor_3 = {
+    name = "Thalin"
+    culture = thrane
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Last_Galifar_Ruler
+
+    4843.1.1 = { birth = yes }
+    4895.6.20 = { faith = silver_flame }
+    4914.1.1 = { death = { death_reason = death_old_age } }
+}
+
+Thrane_Ancestor_1_Sibling_1 = { # Noncanon
+    name = "Lycia"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Thrane_Ancestor_2
+    
+    4928.1.1 = { birth = yes }
+    4974.1.1 = { death = yes }
+}
+
+Thrane_Ancestor_1_Sibling_2 = { # Noncanon
+    name = "Alestair"
+    culture = thrane
+    faith = silver_flame
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Thrane_Ancestor_2
+    
+    4938.1.1 = { birth = yes }
+}
+
+Thrane_Cousin_1 = { # Noncanon
+    name = "Mizar"
+    culture = thrane
+    faith = silver_flame
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Thrane_Ancestor_1_Sibling_1
+
+    4965.1.1 = { birth = yes }
+}
+
+Thrane_Cousin_2 = { # Noncanon
+    name = "Suspiria"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+    dynasty = dynn_wynarn
+
+    mother = Thrane_Ancestor_1_Sibling_1
+
+    4968.1.1 = { birth = yes }
+}
+
+Thrane_Cousin_3 = { # Noncanon
+    name = "Melindri"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+    dynasty = dynn_wynarn
+
+    mother = Thrane_Ancestor_1_Sibling_2
+
+    4972.1.1 = { birth = yes }
+}
+
+Thrane_Cousin_4 = { # Noncanon
+    name = "Nyllestra"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+    dynasty = dynn_wynarn
+
+    mother = Thrane_Ancestor_1_Sibling_2
+
+    4976.1.1 = { birth = yes }
+}
+
+Aundair_Ruler = {
+    name = "Aurala"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+    dna = aurala_dna
+
+    mother = Aundair_Ancestor_1
+
+    4959.1.1 = {birth = yes}
+}
+
+Aundair_Ancestor_1 = {
+    name = "Barvette"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Aundair_Ancestor_2
+
+    4941.1.1 = {birth = yes}
+    4979.12.22 = { death = { death_reason = death_murder } }
+}
+
+Aundair_Ancestor_2 = {
+    name = "Aarott"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Aundair_Ancestor_3
+    father = Cyre_Ancestor_3_Sibling_1
+
+    4923.1.1 = {birth = yes}
+    4961.1.1 = { death = { death_reason = death_battle } }
+}
+
+Aundair_Ancestor_3 = {
+    name = "Wrella"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Aundair_Ancestor_4
+
+    4892.1.1 = {birth = yes}
+    4922.1.1 = { add_matrilineal_spouse = Cyre_Ancestor_3_Sibling_1 }
+    4923.9.12 = { death = { death_reason = death_murder } }
+}
+
+Aundair_Ancestor_4 = {
+    name = "Wrogar"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Last_Galifar_Ruler
+
+    trait = twin
+
+    4874.1.1 = { birth = yes }
+    4920.1.1 = { death = { death_reason = death_hunting_accident } }
+}
+
+Aundair_Sibling_1 = {
+    name = "Adal"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Aundair_Ancestor_1
+
+    4961.1.1 = {birth = yes}
+}
+
+Aundair_Sibling_2 = {
+    name = "Aurad"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Aundair_Ancestor_1
+
+    4963.1.1 = {birth = yes}
+}
+
+Aundair_Sibling_3 = {
+    name = "Wrel"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    trait = twin
+
+    mother = Aundair_Ancestor_1
+
+    4967.1.1 = {birth = yes}
+}
+
+Aundair_Sibling_4 = {
+    name = "Wrey"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    trait = twin
+
+    mother = Aundair_Ancestor_1
+
+    4967.1.1 = {birth = yes}
+}
+
+Aundair_Child_1 = {
+    name = "Wrogar"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Aundair_Ruler
+
+    4977.1.1 = { birth = yes }
+}
+
+Aundair_Child_2 = {
+    name = "Jurian"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Aundair_Ruler
+
+    4979.1.1 = { birth = yes }
+}
+
+Aundair_Child_3 = {
+    name = "Corrine"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    mother = Aundair_Ruler
+
+    4981.1.1 = { birth = yes }
+}
+
+Aundair_Sibling_2_Child_1 = {
+    name = "Austasia"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Aundair_Sibling_2
+
+    4984.1.1 = { birth = yes }
+}
+
+Breland_Ruler = {
+    name = "Boranel"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+    dna = boranel_dna
+
+    father = Breland_Ancestor_1
+
+    4939.1.1 = {birth = yes}
+}
+
+Breland_Sibling_1 = {
+    name = "Hayden"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4934.1.1 = {birth = yes}
+    4960.11.15 = { death = { death_reason = death_battle } }
+}
+
+Breland_Sibling_2 = {
+    name = "Rodric"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4936.1.1 = {birth = yes}
+    4960.11.18 = { death = { death_reason = death_battle } }
+}
+
+Breland_Sibling_3 = {
+    name = "Kor"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4941.1.1 = { birth = yes }
+}
+
+Breland_Sibling_4 = {
+    name = "Wroaan"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4943.1.1 = { birth = yes }
+}
+
+Breland_Sibling_5 = {
+    name = "Sava"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4945.1.1 = { birth = yes }
+}
+
+Breland_Sibling_6 = {
+    name = "Brask"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4947.1.1 = { birth = yes }
+}
+
+Breland_Sibling_7 = {
+    name = "Maija"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4950.1.1 = { birth = yes }
+}
+
+Breland_Sibling_8 = {
+    name = "Oarsen"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4952.1.1 = { birth = yes }
+}
+
+Breland_Sibling_9 = {
+    name = "Aanna"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1
+
+    4954.1.1 = { birth = yes }
+}
+
+Breland_Child_1 = {
+    name = "Boramil"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4954.1.1 = { birth = yes }
+    4970.1.1 = { death = { death_reason = death_battle } }
+}
+
+Breland_Child_2 = {
+    name = "Borann"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4956.1.1 = { birth = yes }
+    4994.2.20 = { death = { death_reason = death_the_mourning } }
+}
+
+Breland_Child_3 = {
+    name = "Bortan"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4962.1.1 = { birth = yes }
+}
+
+Breland_Child_4 = {
+    name = "Syra"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4964.1.1 = { birth = yes }
+}
+
+Breland_Child_5 = {
+    name = "Aejar"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4978.1.1 = { birth = yes }
+}
+
+Breland_Child_6 = {
+    name = "Boranex"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4980.1.1 = { birth = yes }
+}
+
+Breland_Child_7 = {
+    name = "Borina"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4982.1.1 = { birth = yes }
+}
+
+Breland_Child_8 = {
+    name = "Halix"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4982.1.1 = { birth = yes }
+}
+
+Breland_Child_9 = {
+    name = "Caskar"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4987.1.1 = { birth = yes }
+}
+
+Breland_Child_10 = {
+    name = "Shassa"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4990.1.1 = { birth = yes }
+}
+
+Breland_Child_11 = {
+    name = "Curlot"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ruler
+
+    4993.1.1 = { birth = yes }
+}
+
+Breland_Sibling_7_Child_1 = {
+    name = "Lujaad"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Sibling_7
+
+    4974.1.1 = { birth = yes }
+}
+
+Breland_Ancestor_1 = {
+    name = "Boranex"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_2
+
+    4910.1.1 = { birth = yes }
+    4960.12.10 = { death = { death_reason = death_depressed } }
+}
+
+Breland_Ancestor_1_Sibling_1 = {
+    name = "Pater"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_2
+
+    4915.1.1 = { birth = yes }
+    4972.1.1 = { death = yes }
+}
+
+Breland_Ancestor_1_Sibling_1_Child_1 = {
+    name = "Beren"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    father = Breland_Ancestor_1_Sibling_1
+
+    4945.1.1 = { birth = yes }
+}
+
+Breland_Ancestor_2 = {
+    name = "Kason"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Breland_Ancestor_3
+
+    4892.1.1 = { birth = yes }
+    4922.1.1 = { death = { death_reason = death_magical_accident } }
+}
+
+Breland_Ancestor_2_Sibling_1 = {
+    name = "Braask"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_wynarn
+
+    mother = Breland_Ancestor_3
+
+    4896.1.1 = { birth = yes }
+    4962.1.1 = { death = yes }
+}
+
+Breland_Ancestor_3 = {
+    name = "Wroann"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_wynarn
+
+    father = Last_Galifar_Ruler
+
+    trait = twin
+
+    4874.1.1 = { birth = yes }
+    4919.1.1 = { death = { death_reason = death_ill } }
+}

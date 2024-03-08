@@ -466,7 +466,7 @@ bubonic_plague = {
 				}
 				if = {
 					limit = {
-						current_date >= 3650.1.1
+						current_date >= 5300.1.1
 						has_game_rule = bd_occurrence_historical
 						NOT = {
 							has_global_variable = black_death_happened

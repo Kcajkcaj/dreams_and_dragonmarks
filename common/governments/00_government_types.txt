@@ -22,6 +22,8 @@
 		council_rights
 		title_revocation_rights
 	}
+
+	flag = may_appoint_viziers
 	
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
 	flag = government_is_feudal
@@ -180,6 +182,7 @@ tribal_government = {
 	primary_holding = tribal_holding
 	required_county_holdings = { tribal_holding }
 	royal_court = yes
+	legitimacy = yes
 
 	valid_holdings = { castle_holding }
 

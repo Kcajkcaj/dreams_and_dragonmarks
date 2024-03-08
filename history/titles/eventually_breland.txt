@@ -1,0 +1,94 @@
+k_breland = {
+    4890.1.1 = {
+        holder = Breland_Ancestor_3
+    }
+    4919.1.1 = {
+        holder = Breland_Ancestor_2
+    }
+    4922.1.1 = {
+        holder = Breland_Ancestor_1
+    }
+    4960.12.10 = {
+        holder = Breland_Ruler
+    }
+}
+d_wroat = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_sharn = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_silln = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_daggerwood = {
+     4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_greymoon = {
+     4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_shadowlock = {
+     4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_skyraker = {
+     4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_bentblade = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_ardev = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_dragonwood = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_whitehorn = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_blackcaps = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_hatheril = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_starilaskur = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_vathirond = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_dragons_crown = {
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
