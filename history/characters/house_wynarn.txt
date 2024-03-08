@@ -21,6 +21,9 @@ Cyre_Ruler = {
 
     mother = Cyre_Ancestor_1
 
+    trait = beauty_good_2
+    trait = intellect_good_1
+
     4972.1.1 = {birth = yes}
 }
 
@@ -196,6 +199,9 @@ Karrnath_Ruler = {
     
     trait = twin
 
+    trait = intellect_good_2
+    trait = physique_good_1
+
     4970.1.5 = { birth = yes }
     4976.4.10 = { faith = frontier_creed }
 }
@@ -211,6 +217,9 @@ Karrnath_Sibling_1 = {
     
     trait = twin
 
+    trait = physique_good_2
+    trait = intellect_good_1
+
     4970.1.5 = { birth = yes }
     4976.4.10 = { faith = frontier_creed }
 }
@@ -223,6 +232,9 @@ Karrnath_Sibling_2 = {
     dynasty = dynn_wynarn
 
     father = Karrnath_Ancestor_1
+
+    trait = physique_good_2
+    trait = intellect_good_1
     
     4954.1.1 = { birth = yes }
     4972.12.16 = { death = { death_reason = death_battle } }
@@ -236,6 +248,9 @@ Karrnath_Sibling_3 = {
     dynasty = dynn_wynarn
 
     father = Karrnath_Ancestor_1
+
+    trait = intellect_good_2
+    trait = beauty_good_1
     
     4973.8.11 = { birth = yes }
     4976.4.10 = { faith = frontier_creed }
@@ -250,6 +265,8 @@ Thrane_Ruler = {
     dna = diani_dna
 
     father = Thrane_Ancestor_1
+
+    trait = beauty_good_3
     
     4969.1.1 = { birth = yes }
 }
@@ -377,6 +394,9 @@ Aundair_Ruler = {
     dna = aurala_dna
 
     mother = Aundair_Ancestor_1
+
+    trait = beauty_good_2
+    trait = intellect_good_2
 
     4959.1.1 = {birth = yes}
 }
@@ -546,6 +566,9 @@ Breland_Ruler = {
     dna = boranel_dna
 
     father = Breland_Ancestor_1
+
+    trait = physique_good_3
+    trait = beauty_good_1
 
     4939.1.1 = {birth = yes}
 }
