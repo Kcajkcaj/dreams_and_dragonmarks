@@ -106,6 +106,12 @@ Tain_Ruler_2 = {
 
     mother = Tain_Ruler_2_Parent
 
+    trait = education_learning_3
+    trait = generous
+    trait = gregarious
+    trait = stubborn
+    trait = poet
+
     4951.1.1 = { birth = yes }
 }
 
@@ -236,6 +242,13 @@ Oeskai_Ruler_2 = {
 
     father = Oeskai_Parent
 
+    trait = fierce
+    trait = compassionate
+    trait = generous
+    trait = education_learning_2
+    trait = lifestyle_blademaster
+    trait = lifestyle_traveler
+
     4967.1.1 = { birth = yes }
 }
 
@@ -337,6 +350,19 @@ Clarn_Ruler = {
     female = no
     dynasty = dynn_clarn
     dna = ruken_dna
+
+    trait = inquisitive
+    trait = fierce
+    trait = ambitious
+    trait = authoritative
+
+    trait = education_intrigue_3
+
+    diplomacy = 11
+    martial = 3
+    stewardship = 9
+    intrigue = 7
+    learning = 5
 
     4963.1.1 = { birth = yes }
 }

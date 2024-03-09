@@ -12,7 +12,7 @@ inquisitive = {
 	glory_hound_opinion = -10
 	minority_opinion = 10
 	
-	ignore_negative_culture_opinion = yes
+	ignore_negative_opinion_of_culture = yes
 }
 
 fierce = {
@@ -30,6 +30,7 @@ fierce = {
 	liege_opinion = -10
 	courtly_opinion = -10
 	opinion_of_liege = -20
+	opinion_of_parents = -20
 	
 	attraction_opinion = 5
 	glory_hound_opinion = 10
@@ -49,4 +50,5 @@ authoritative = {
 	dread_baseline_add = 10
 	vassal_opinion = 10
 	tyranny_gain_mult = -0.25
+	legitimacy_gain_mult = 0.2
 }
