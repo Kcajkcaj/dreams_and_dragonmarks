@@ -7,7 +7,7 @@ k_thrane = {
     }
     4915.1.1 = {
         holder = Keeper_15
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
     4937.1.1 = {
         holder = Keeper_16
@@ -30,7 +30,7 @@ d_flamekeep = {
     }
     4915.1.1 = {
         holder = Keeper_15
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
     4937.1.1 = {
         holder = Keeper_16
@@ -49,7 +49,7 @@ d_auxyl = {
     }
     4971.1.1 = {
         holder = Cardinal_Krozen
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
     4996.1.1 = {
         de_jure_liege = k_thrane
@@ -61,7 +61,7 @@ c_tower_perilous = {
     }
     4971.1.1 = {
         holder = Cardinal_Krozen
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
 }
 c_traelyn = {
@@ -70,7 +70,7 @@ c_traelyn = {
     }
     4971.1.1 = {
         holder = Cardinal_Krozen
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
 }
 d_daskaran = {
@@ -107,7 +107,7 @@ d_burntwood = {
     }
     4915.1.1 = {
         holder = Keeper_15
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
     4937.1.1 = {
         holder = Keeper_16
@@ -126,7 +126,7 @@ d_sigilstar = {
     }
     4978.1.1 = {
         holder = Cardinal_Irulan
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
     4996.1.1 = {
         de_jure_liege = k_thrane
@@ -139,7 +139,7 @@ d_rhone = {
     }
     4979.1.1 = {
         holder = Cardinal_Suspiria
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
     4996.1.1 = {
         de_jure_liege = k_thrane
@@ -152,7 +152,7 @@ d_arul = {
     }
     4992.1.1 = {
         holder = Cardinal_Morgana
-        government = theocracy_government
+        government = flamic_theocracy_government
     }
     4996.1.1 = {
         de_jure_liege = k_thrane
@@ -175,7 +175,7 @@ c_silvercliff = {
 c_thaliost = {
     4940.1.1 = {
         holder = Cardinal_Juliona
-        government = theocracy_government
+        government = flamic_theocracy_government
         liege = k_thrane
     }
     4961.1.1 = {

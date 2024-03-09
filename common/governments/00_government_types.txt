@@ -90,6 +90,24 @@ theocracy_government = {
 	color = hsv{ 0.00 0.00 0.78 }
 }
 
+flamic_theocracy_government = {
+	primary_holding = church_holding
+	valid_holdings = { castle_holding city_holding }
+	religious = yes
+	required_county_holdings = { church_holding castle_holding city_holding }
+	rulers_should_have_dynasty = yes
+	royal_court = yes
+	legitimacy = yes
+
+	vassal_contract = {
+		feudal_government_taxes
+		feudal_government_levies
+	}
+
+	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	color = hsv{ 0.53 0.10 0.80 }
+}
+
 clan_government = {
 	primary_holding = castle_holding
 	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic }
