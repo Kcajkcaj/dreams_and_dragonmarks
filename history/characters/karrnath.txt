@@ -1,0 +1,163 @@
+Shult_Ruler = {
+    name = "Gavyn"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_shult
+
+    father = Shult_Ancestor_1
+
+    4962.1.1 = { birth = yes }
+}
+
+Shult_Ancestor_1 = {
+    name = "Garrick"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_shult
+
+    father = Shult_Ancestor_2
+
+    4938.1.1 = { birth = yes }
+    4984.1.1 = { death = yes }
+}
+
+Shult_Ancestor_2 = {
+    name = "Gustavus"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_shult
+
+    father = Shult_Ancestor_3
+
+    4908.1.1 = { birth = yes }
+    4966.1.1 = { death = yes }
+}
+
+Shult_Ancestor_3 = {
+    name = "Gyrnar"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_shult
+
+    4876.1.1 = { birth = yes }
+    4927.1.1 = { death = yes }
+}
+
+Atur_Ruler = {
+    name = "Syele"
+    culture = aturi
+    faith = blood_of_vol
+    female = yes
+    dynasty = dynn_balich
+
+    4964.1.1 = { birth = yes }
+}
+
+Mira_Ruler = {
+    name = "Olivia"
+    culture = karrn
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_mira
+
+    4960.1.1 = { birth = yes }
+}
+
+Furnau_Ruler = {
+    name = "Vorik"
+    culture = karrn
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_karrnath_furnau
+
+    4973.1.1 = { birth = yes }
+}
+
+Loran_Ruler = {
+    name = "Charl"
+    culture = vasfolder
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_loran
+
+    4952.1.1 = { birth = yes }
+}
+
+Tanar_Ruler_1 = {
+    name = "Renn"
+    culture = karrn
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_tanar
+
+    fathr = Tanar_Ancestor_1
+
+    4944.1.1 = { birth = yes }
+}
+
+Tanar_Ruler_2 = {
+    name = "Asta"
+    culture = karrn
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_tanar
+
+    father = Tanar_Ancestor_1
+
+    4951.1.1 = { birth = yes }
+}
+
+Tanar_Ancestor_1 = {
+    name = "Alarich"
+    culture = karrn
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_tanar
+
+    4903.1.1 = { birth = yes }
+    4964.1.1 = { death = yes }
+}
+
+Jaranus_Ruler = {
+    name = "Falko"
+    culture = vasfolder
+    faith = blood_of_vol
+    female = no
+    dynasty = dynn_karrnath_jaranus
+
+    4959.1.1 = { birth = yes }
+}
+
+Kaser_Ruler = {
+    name = "Nils"
+    culture = karrn
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_kaser
+
+    4948.1.1 = { birth = yes }
+}
+
+Erdei_Ruler = {
+    name = "Gruden"
+    culture = karrn
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_karrnath_erdei
+
+    4959.1.1 = { birth = yes }
+}
+
+Zecklin_Ruler = {
+    name = "Ermena"
+    culture = vasfolder
+    faith = blood_of_vol
+    female = yes
+    dynasty = dynn_karrnath_zecklin
+
+    4960.1.1 = { birth = yes }
+}

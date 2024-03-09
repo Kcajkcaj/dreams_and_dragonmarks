@@ -6,7 +6,19 @@ dynn_thaliost_haldron = {
 	name = "Haldron"
 	culture = thal
 }
-dynn_thaliost_bronzehoof = {
-	name = "Bronzehoof"
-	culture = kaandar
+dynn_ransaldrie = {
+	name = "Ransaldrie"
+	culture = aundairi
+}
+dynn_lain = {
+	name = "Lain"
+	culture = aundairi
+}
+dynn_edar = {
+	name = "Edar"
+	culture = aundairi
+}
+dynn_isen = {
+	name = "Isen"
+	culture = aundairi
 }

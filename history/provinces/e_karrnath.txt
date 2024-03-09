@@ -3,7 +3,7 @@
 ### Korth
 877 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 	buildings = {castle_03}
 }
@@ -14,7 +14,7 @@
 ### Loran Rath
 882 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 883 = {holding = none}
@@ -22,7 +22,7 @@
 ### Nightwood
 885 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 886 = {holding = none}
@@ -31,7 +31,7 @@
 ### Tanar Rath
 888 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 889 = {holding = none}
@@ -39,27 +39,27 @@
 ### Blackrock
 891 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 ### Tanar B
 892 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 893 = {holding = none}
 ### Tanar C
 894 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 895 = {holding = none}
 ### Tanar D
 896 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 897 = {holding = none}
@@ -67,7 +67,7 @@
 ### Rekkenmark
 898 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 	buildings = {castle_02}
 	special_building = rekkenmark_academy
@@ -77,7 +77,7 @@
 ### Rekkenwood
 901 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 902 = {holding = none}
@@ -85,7 +85,7 @@
 ### Jern
 904 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 905 = {holding = city_holding}
@@ -141,21 +141,21 @@
 ### Bastion
 921 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 922 = {holding = none}
 ### Bastion B
 923 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 924 = {holding = none}
 ### Bastion C
 925 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 926 = {holding = none}
@@ -163,7 +163,7 @@
 ### Loom Keep
 927 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 928 = {holding = none}
@@ -171,7 +171,7 @@
 ### Loom Keep B
 930 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 931 = {holding = none}
@@ -214,7 +214,7 @@
 ### Storm Cliffs
 946 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 947 = {holding = none}
@@ -222,7 +222,7 @@
 ### Storm Isles
 949 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 950 = {holding = none}
@@ -231,7 +231,7 @@
 ### Taer Syraen
 953 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 954 = {holding = none}
@@ -239,7 +239,7 @@
 ### Senne
 955 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 956 = {holding = city_holding}
@@ -247,7 +247,7 @@
 ### Trag
 958 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 959 = {holding = city_holding}
@@ -256,7 +256,7 @@
 ### Western Karrnwood B
 962 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 963 = {holding = none}
@@ -289,7 +289,7 @@
 ### Vedykar
 972 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 	buildings = {castle_02}
 }
@@ -298,7 +298,7 @@
 ### Vurgenslye
 975 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 976 = {holding = city_holding}
@@ -307,7 +307,7 @@
 ### Teryk
 979 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 980 = {holding = city_holding}
@@ -316,7 +316,7 @@
 ### Brom
 983 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 984 = {holding = city_holding}
@@ -324,7 +324,7 @@
 ### Vorn
 986 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 987 = {holding = city_holding}
@@ -333,7 +333,7 @@
 ### Karrlakton
 989 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 	buildings = {castle_02}
 }
@@ -342,21 +342,21 @@
 ### Karnel
 992 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 993 = {holding = city_holding}
 ### Fort Zombie
 994 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 995 = {holding = none}
 ### Karrlakton B
 996 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 997 = {holding = none}
@@ -365,7 +365,7 @@
 ### Vulyar
 999 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 1000 = {holding = none}
@@ -374,14 +374,14 @@
 ### Fort Bones
 1003 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 1004 = {holding = none}
 ### Fort Deepdark
 1005 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 1006 = {holding = none}
@@ -389,7 +389,7 @@
 ### Lhar
 1008 = {
 	culture = karrn
-	faith = conquerors_creed
+	faith = frontier_creed
 	holding = castle_holding
 }
 1009 = {holding = none}

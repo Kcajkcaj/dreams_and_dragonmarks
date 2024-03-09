@@ -1,7 +1,7 @@
-##### Thalisot
+##### Thaliost
 ### Thaliost
 816 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -9,7 +9,7 @@
 818 = {holding = church_holding}
 ### Silvercliff
 819 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -17,7 +17,7 @@
 821 = {holding = none}
 ### Kerkulin
 822 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -25,7 +25,7 @@
 824 = {holding = none}
 ### Graywood
 825 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -34,7 +34,7 @@
 828 = {holding = none}
 ### Stormhome
 829 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -42,7 +42,7 @@
 831 = {holding = city_holding}
 ### Storm Bay
 832 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -50,7 +50,7 @@
 834 = {holding = none}
 ### Gray Peaks
 835 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -58,7 +58,7 @@
 ##### Silverwood
 ### Askelios
 837 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -66,7 +66,7 @@
 839 = {holding = none}
 ### Areksul
 840 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -74,7 +74,7 @@
 842 = {holding = none}
 ### Silverfields
 843 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -82,7 +82,7 @@
 ##### Fairhaven
 ### Fairhaven
 845 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 	special_building_slot = university_of_wynarn
@@ -92,7 +92,7 @@
 848 = {holding = none}
 ### Tanar
 849 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -101,7 +101,7 @@
 852 = {holding = none}
 ### Fairbanks
 853 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -109,7 +109,7 @@
 855 = {holding = none}
 ### Rhenshia
 856 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -119,31 +119,31 @@
 ##### Whisperwoods
 ### Otharaunt
 860 = {
-	culture = kaandar
-	faith = gnarled_ones
-	holding = tribal_holding
+	culture = aundairi
+	faith = frontier_creed
+	holding = castle_holding
 }
 861 = {holding = none}
 862 = {holding = none}
 ### Whisper Rock
 863 = {
-	culture = kaandar
-	faith = gnarled_ones
-	holding = tribal_holding
+	culture = aundairi
+	faith = frontier_creed
+	holding = castle_holding
 }
 864 = {holding = none}
 865 = {holding = none}
 ### Whisperwoods B
 866 = {
-	culture = kaandar
-	faith = gnarled_ones
-	holding = tribal_holding
+	culture = aundairi
+	faith = frontier_creed
+	holding = castle_holding
 }
 867 = {holding = none}
 868 = {holding = none}
 ### Whisperwoods C
 869 = {
-	culture = thal
+	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
 }

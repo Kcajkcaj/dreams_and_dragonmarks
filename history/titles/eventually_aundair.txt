@@ -16,41 +16,138 @@ k_aundair = {
     }
 }
 d_fairhaven = {
+    4890.1.1 = {
+        holder = Aundair_Ancestor_4
+    }
+    4894.1.1 = {
+        de_jure_liege = k_aundair
+    }
+    4920.1.1 = {
+        holder = Aundair_Ancestor_3
+    }
+    4923.9.12 = {
+        holder = Aundair_Ancestor_2
+    }
+    4961.1.1 = {
+        holder = Aundair_Ancestor_1
+    }
+    4979.12.22 = {
+        holder = Aundair_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_aundair
     }
 }
 d_whisperwoods = {
+    4894.1.1 = {
+        de_jure_liege = k_aundair
+        liege = k_aundair
+    }
+    4959.1.1 = {
+        holder = Whisperwoods_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_aundair
     }
 }
 d_silverwood = {
+    4894.1.1 = {
+        de_jure_liege = k_aundair
+        liege = k_aundair
+    }
+    4961.1.1 = {
+        holder = Lain_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_aundair
     }
 }
 d_thaliost = {
+    4894.1.1 = {
+        de_jure_liege = k_aundair
+        liege = k_aundair
+    }
+    4961.1.1 = {
+        holder = Lain_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_aundair
     }
 }
 d_stormhome = {
+    4864.1.1 = {
+        holder = Lyrandar_5
+    }
+    4894.1.1 = {
+        de_jure_liege = k_aundair
+        liege = k_aundair
+    }
+    4907.1.1 = {
+        holder = Lyrandar_4
+    }
+    4925.1.1 = {
+        holder = Lyrandar_3
+    }
+    4964.1.1 = {
+        holder = Lyrandar_2
+    }
+    4984.1.1 = {
+        holder = Lyrandar_1
+    }
     4996.1.1 = {
         de_jure_liege = k_aundair
     }
 }
 d_eldritch_groves = {
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4922.1.1 = {
+        liege = k_aundair
+        holder = Edar_Ancestor_1
+    }
+    4957.1.1 = {
+        holder = Edar_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_aundair
     }
 }
 d_arcanix = {
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4922.1.1 = {
+        holder = Aundair_Ancestor_3
+    }
+    4923.9.12 = {
+        holder = Aundair_Ancestor_2
+    }
+    4961.1.1 = {
+        holder = Aundair_Ancestor_1
+    }
+    4979.12.22 = {
+        liege = k_aundair
+        holder = Aundair_Sibling_1
+    }
     4996.1.1 = {
         de_jure_liege = k_aundair
     }
 }
 d_marketplace = {
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4962.1.1 = {
+        liege = k_aundair
+        holder = Isen_Ancestor_1
+    }
+    4994.1.1 = {
+        holder = Isen_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_aundair
     }

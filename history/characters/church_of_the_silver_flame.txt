@@ -1,0 +1,93 @@
+Keeper_17 = {
+    name = "Jaela"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+
+    4986.1.1 = { birth = yes }
+}
+
+Keeper_16 = {
+    name = "Lavira"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+
+    4913.1.1 = { birth = yes }
+    4993.1.1 = { death = yes }
+}
+
+Keeper_15 = {
+    name = "Kaith"
+    culture = thrane
+    faith = silver_flame
+    female = no
+
+    4873.1.1 = { birth = yes }
+    4937.1.1 = { death = yes }
+}
+
+Keeper_14 = {
+    name = "Jovor"
+    culture = thrane
+    faith = silver_flame
+    female = no
+
+    4817.1.1 = { birth = yes }
+    4903.1.1 = { death = yes }
+}
+
+Cardinal_Krozen = {
+    name = "Krozen"
+    culture = thrane
+    faith = silver_flame
+    female = no
+
+    4946.1.1 = { birth = yes }
+}
+
+Cardinal_Solgar_Darzinu = {
+    name = "Solgar"
+    culture = aundairi
+    faith = silver_flame
+    female = no
+
+    4931.1.1 = { birth = yes }
+}
+
+Cardinal_Juliona = {
+    name = "Juliona"
+    culture = aundairi
+    faith = silver_flame
+    female = yes
+
+    4887.1.1 = { birth = yes }
+    4961.1.1 = { death = yes }
+}
+
+Cardinal_Irulan = {
+    name = "Irulan"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+
+    4951.1.1 = { birth = yes }
+}
+
+Cardinal_Suspiria = {
+    name = "Suspiria"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+
+    4949.1.1 = { birth = yes }
+}
+
+Cardinal_Morgana = {
+    name = "Morgana"
+    culture = thrane
+    faith = silver_flame
+    female = yes
+
+    4962.1.1 = { birth = yes }
+}

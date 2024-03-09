@@ -209,8 +209,26 @@ Karrnath_Ruler = {
     
     trait = twin
 
+    martial = 5
+    intrigue = 7
+    stewardship = 11
+    diplomacy = 9
+    learning = 3
+
     trait = intellect_good_2
     trait = physique_good_1
+    trait = education_martial_4
+    trait = education_martial_prowess_3
+    trait = shrewd
+    trait = reclusive
+
+    trait = patient
+    trait = cynical
+    trait = paranoid
+    trait = brave
+
+    trait = veteran
+    trait = coronation_pledge_stability
 
     4970.1.5 = { birth = yes }
     4976.4.10 = { faith = frontier_creed }
@@ -276,7 +294,14 @@ Thrane_Ruler = {
 
     father = Thrane_Ancestor_1
 
+    intrigue = 9
+    diplomacy = 11
+    learning = 7
+    stewardship = 5
+    martial = 3
+
     trait = beauty_good_3
+    trait = education_intrigue_3
     
     4969.1.1 = { birth = yes }
 }
@@ -405,6 +430,12 @@ Aundair_Ruler = {
 
     mother = Aundair_Ancestor_1
 
+    stewardship = 11
+    intrigue = 9
+    diplomacy = 7
+    martial = 5
+    learning = 3
+
     trait = beauty_good_2
     trait = intellect_good_2
 
@@ -416,6 +447,8 @@ Aundair_Ruler = {
     trait = diligent
     trait = shrewd
     trait = confider
+
+    trait = coronation_pledge_expansion
 
     4959.1.1 = {birth = yes}
 }
@@ -611,6 +644,8 @@ Breland_Ruler = {
     trait = athletic
     trait = rakish
     trait = strong
+
+    trait = coronation_pledge_expansion
 
     4939.1.1 = {birth = yes}
 }

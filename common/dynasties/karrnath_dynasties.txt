@@ -54,3 +54,27 @@ dynn_karrnath_jaranus = {
 	name = "Jaranus"
 	culture = vasfolder
 }
+dynn_balich = {
+	name = "Balich"
+	culture = aturi
+}
+dynn_shult = {
+	name = "Shult"
+	culture = karrn
+}
+dynn_mira = {
+	name = "Mira"
+	culture = karrn
+}
+dynn_loran = {
+	name = "Loran"
+	culture = vasfolder
+}
+dynn_tanar = {
+	name = "Tanar"
+	culture = karrn
+}
+dynn_kaser = {
+	name = "Kaser"
+	culture = karrn
+}

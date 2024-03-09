@@ -1,0 +1,75 @@
+Whisperwoods_Ruler = {
+    name = "Egan"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_ransaldrie
+
+    4943.1.1 = { birth = yes }
+}
+
+Lain_Ruler = {
+    name = "Darro"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_lain
+
+    4945.1.1 = { birth = yes }
+}
+
+Edar_Ruler = {
+    name = "Jalnar"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_edar
+
+    mother = Edar_Ancestor_1
+
+    4939.1.1 = { birth = yes }
+}
+
+Edar_Child_1 = {
+    name = "Melys"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_edar
+
+    father = Edar_Ruler
+
+    4968.1.1 = { birth = yes }
+}
+
+Edar_Ancestor_1 = {
+    name = "Melys"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_edar
+
+    4905.1.1 = { birth = yes }
+    4957.1.1 = { death = yes }
+}
+
+Isen_Ruler = {
+    name = "Lauren"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_isen
+
+    4965.1.1 = { birth = yes }
+}
+
+Isen_Ancestor_1 = {
+    name = "Erica"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_isen
+
+    4938.1.1 = { birth = yes }
+    4994.1.1 = { death = yes }
+}

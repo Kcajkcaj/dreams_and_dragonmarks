@@ -13,86 +13,242 @@ k_karrnath = {
     }
 }
 d_korth = {
+    4888.1.1 = {
+        holder = Karrnath_Ancestor_3
+    }
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4910.1.1 = {
+        holder = Karrnath_Ancestor_2
+    }
+    4960.1.1 = {
+        holder = Karrnath_Ancestor_1
+    }
+    4973.1.1 = {
+        holder = Karrnath_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_tanar = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4923.1.1 = {
+        holder = Tanar_Ancestor_1
+    }
+    4964.1.1 = {
+        holder = Tanar_Ruler_2
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_ashen_spires = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4993.1.1 = {
+        holder = Atur_Ruler
+        government = principality_government
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_bastion = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4979.1.1 = {
+        holder = Erdei_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_loom_keep = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4979.1.1 = {
+        holder = Erdei_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_rekkenmark = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4993.1.1 = {
+        holder = Furnau_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_eastern_karrnwood = {
+    4888.1.1 = {
+        holder = Karrnath_Ancestor_3
+    }
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4910.1.1 = {
+        holder = Karrnath_Ancestor_2
+    }
+    4960.1.1 = {
+        holder = Karrnath_Ancestor_1_Sibling_1
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_western_karrnwood = {
+    4888.1.1 = {
+        holder = Karrnath_Ancestor_3
+    }
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4910.1.1 = {
+        holder = Karrnath_Ancestor_2
+    }
+    4960.1.1 = {
+        holder = Karrnath_Ancestor_1_Sibling_1
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_storm_cliffs = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4923.1.1 = {
+        holder = Tanar_Ancestor_1
+    }
+    4964.1.1 = {
+        holder = Tanar_Ruler_1
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_ice_marshes = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4972.1.1 = {
+        holder = Loran_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_iceflow = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4972.1.1 = {
+        holder = Loran_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_icetop = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4979.1.1 = {
+        holder = Jaranus_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_icewood = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4980.1.1 = {
+        holder = Zecklin_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_irontown = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4979.1.1 = {
+        holder = Jaranus_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_karrlakton = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4980.1.1 = {
+        holder = Mira_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_vedykar = {
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4968.1.1 = {
+        holder = Kaser_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }
 }
 d_vulyar = {
+    4892.1.1 = {
+        holder = Shult_Ancestor_3
+    }
+    4894.1.1 = {
+        de_jure_liege = k_karrnath
+        liege = k_karrnath
+    }
+    4927.1.1 = {
+        holder = Shult_Ancestor_2
+    }
+    4966.1.1 = {
+        holder = Shult_Ancestor_1
+    }
+    4984.1.1 = {
+        holder = Shult_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_karrnath
     }

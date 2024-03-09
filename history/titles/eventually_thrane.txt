@@ -5,6 +5,165 @@ k_thrane = {
     4914.1.1 = {
         holder = Thrane_Ancestor_2
     }
+    4915.1.1 = {
+        holder = Keeper_15
+        government = theocracy_government
+    }
+    4937.1.1 = {
+        holder = Keeper_16
+    }
+    4993.1.1 = {
+        holder = Keeper_17
+    }
+}
+
+d_flamekeep = {
+    4859.1.1 = {
+        holder = Thrane_Ancestor_3
+    }
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4914.1.1 = {
+        holder = Thrane_Ancestor_2
+    }
+    4915.1.1 = {
+        holder = Keeper_15
+        government = theocracy_government
+    }
+    4937.1.1 = {
+        holder = Keeper_16
+    }
+    4993.1.1 = {
+        holder = Keeper_17
+    }
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_auxyl = {
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4971.1.1 = {
+        holder = Cardinal_Krozen
+        government = theocracy_government
+    }
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+c_tower_perilous = {
+    4894.1.1 = {
+        liege = k_thrane
+    }
+    4971.1.1 = {
+        holder = Cardinal_Krozen
+        government = theocracy_government
+    }
+}
+c_traelyn = {
+    4894.1.1 = {
+        liege = k_thrane
+    }
+    4971.1.1 = {
+        holder = Cardinal_Krozen
+        government = theocracy_government
+    }
+}
+d_daskaran = {
+    4859.1.1 = {
+        holder = Thrane_Ancestor_3
+    }
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4914.1.1 = {
+        holder = Thrane_Ancestor_2
+    }
+    4945.1.1 = {
+        holder = Thrane_Ancestor_1
+    }
+    4988.1.1 = {
+        holder = Thrane_Ruler
+    }
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_burntwood = {
+    4859.1.1 = {
+        holder = Thrane_Ancestor_3
+    }
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4914.1.1 = {
+        holder = Thrane_Ancestor_2
+    }
+    4915.1.1 = {
+        holder = Keeper_15
+        government = theocracy_government
+    }
+    4937.1.1 = {
+        holder = Keeper_16
+    }
+    4993.1.1 = {
+        holder = Keeper_17
+    }
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_sigilstar = {
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4978.1.1 = {
+        holder = Cardinal_Irulan
+        government = theocracy_government
+    }
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_rhone = {
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4979.1.1 = {
+        holder = Cardinal_Suspiria
+        government = theocracy_government
+    }
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+d_arul = {
+    4894.1.1 = {
+        de_jure_liege = k_thrane
+        liege = k_thrane
+    }
+    4992.1.1 = {
+        holder = Cardinal_Morgana
+        government = theocracy_government
+    }
+    4996.1.1 = {
+        de_jure_liege = k_thrane
+    }
+}
+
+c_silvercliff = {
+    4940.1.1 = {
+        holder = Thrane_Ancestor_2
+        liege = k_thrane
+    }
     4945.1.1 = {
         holder = Thrane_Ancestor_1
     }
@@ -13,38 +172,13 @@ k_thrane = {
     }
 }
 
-d_flamekeep = {
-    4996.1.1 = {
-        de_jure_liege = k_thrane
+c_thaliost = {
+    4940.1.1 = {
+        holder = Cardinal_Juliona
+        government = theocracy_government
+        liege = k_thrane
     }
-}
-d_auxyl = {
-    4996.1.1 = {
-        de_jure_liege = k_thrane
-    }
-}
-d_daskaran = {
-    4996.1.1 = {
-        de_jure_liege = k_thrane
-    }
-}
-d_burntwood = {
-    4996.1.1 = {
-        de_jure_liege = k_thrane
-    }
-}
-d_sigilstar = {
-    4996.1.1 = {
-        de_jure_liege = k_thrane
-    }
-}
-d_rhone = {
-    4996.1.1 = {
-        de_jure_liege = k_thrane
-    }
-}
-d_arul = {
-    4996.1.1 = {
-        de_jure_liege = k_thrane
+    4961.1.1 = {
+        holder = Cardinal_Solgar_Darzinu
     }
 }
