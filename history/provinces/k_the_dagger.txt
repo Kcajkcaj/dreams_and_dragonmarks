@@ -183,7 +183,7 @@
 ##### Whitehorn
 ### Shavalant
 137 = {
-	culture = xand
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -192,7 +192,7 @@
 140 = {holding = none}
 ### Whitehorn Wood
 141 = {
-	culture = xand
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }

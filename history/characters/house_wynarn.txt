@@ -300,6 +300,11 @@ Thrane_Ruler = {
     stewardship = 5
     martial = 3
 
+    trait = gregarious
+    trait = generous
+    trait = patient
+    trait = ambitious
+
     trait = beauty_good_3
     trait = education_intrigue_3
     
@@ -520,11 +525,18 @@ Aundair_Sibling_1 = {
 
     trait = mage
     trait = education_learning_4
+    trait = intellect_good_2
     trait = ambitious
     trait = inquisitive
     trait = callous
     trait = diligent
     trait = confider
+
+    learning = 11
+    stewardship = 9
+    diplomacy = 7
+    intrigue = 5
+    martial = 3
 
     4961.1.1 = {birth = yes}
 }

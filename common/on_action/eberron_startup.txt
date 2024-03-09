@@ -2,17 +2,12 @@ on_game_start = {
 	on_actions = {
 		eberron_artifact_assignment
 		eberron_coa_setup
+		eberron_dynasty_legacies
 	}
 }
 
 eberron_artifact_assignment = {
 	effect = {
-		character:tasra_malleonid = {
-			create_artifact_Redwave_effect = { OWNER = this }
-		}
-		character:breggor_dain = {
-			create_artifact_Mantle_of_the_Bear_effect = {OWNER = this}
-		}
 	}
 }
 
@@ -20,6 +15,37 @@ eberron_coa_setup = {
 	effect = {
 		every_ruler = {
 			update_coa_effect = yes
+		}
+	}
+}
+
+eberron_dynasty_legacies = {
+	effect = {
+		dynasty:dynn_wynarn = {
+			add_dynasty_prestige = 35000
+			add_dynasty_perk = ce1_legitimacy_legacy_1
+			add_dynasty_perk = ce1_legitimacy_legacy_2
+			add_dynasty_perk = ce1_legitimacy_legacy_3
+			add_dynasty_perk = law_legacy_1
+			add_dynasty_perk = law_legacy_2
+			add_dynasty_perk = law_legacy_3
+			add_dynasty_perk = law_legacy_4
+			add_dynasty_perk = law_legacy_5
+			add_dynasty_perk = glory_legacy_1
+			add_dynasty_perk = glory_legacy_2
+			add_dynasty_perk = glory_legacy_3
+			add_dynasty_perk = glory_legacy_4
+		}
+		dynasty:dynn_lyrandar = {
+			add_dynasty_prestige = 16000
+			add_dynasty_perk = fp2_coterie_legacy_1
+			add_dynasty_perk = fp2_coterie_legacy_2
+			add_dynasty_perk = fp2_coterie_legacy_3
+			add_dynasty_perk = fp2_coterie_legacy_4
+			add_dynasty_perk = fp2_coterie_legacy_5
+			add_dynasty_perk = blood_legacy_1
+			add_dynasty_perk = blood_legacy_2
+			add_dynasty_perk = blood_legacy_3
 		}
 	}
 }

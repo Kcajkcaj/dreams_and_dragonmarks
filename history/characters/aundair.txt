@@ -15,6 +15,21 @@ Lain_Ruler = {
     female = no
     dynasty = dynn_lain
 
+    trait = education_martial_5
+    trait = education_martial_prowess_4
+    trait = lifestyle_blademaster
+    trait = mage
+    trait = vengeful
+    trait = ambitious
+    trait = authoritative
+    trait = brave
+
+    martial = 11
+    learning = 9
+    stewardship = 7
+    diplomacy = 5
+    intrigue = 3
+
     4945.1.1 = { birth = yes }
 }
 

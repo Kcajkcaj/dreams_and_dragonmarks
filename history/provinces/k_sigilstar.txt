@@ -1,8 +1,8 @@
 ##### Sigilstar
 ### Sigilstar
 654 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 	buildings = {castle_02}
 }
@@ -11,24 +11,24 @@
 657 = {holding = none}
 ### Avaroth
 658 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 659 = {holding = city_holding}
 660 = {holding = church_holding}
 ### Athandra
 661 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 662 = {holding = city_holding}
 663 = {holding = church_holding}
 ### Sharavacion
 664 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 	buildings = {castle_02}
 }
@@ -36,16 +36,16 @@
 666 = {holding = church_holding}
 ### Sigilstar_B
 667 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 668 = {holding = none}
 ##### Arul
 ### Aruldusk
 669 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 	buildings = {castle_02}
 }
@@ -53,29 +53,29 @@
 671 = {holding = church_holding}
 ### Arythawn
 672 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 673 = {holding = church_holding}
 ### The Ziggurat
 674 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 675 = {holding = none}
 ### Cairn Hill
 676 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 677 = {holding = none}
 ### Nathyrr
 678 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 679 = {holding = city_holding}
@@ -83,38 +83,38 @@
 681 = {holding = none}
 ### Harrowcrowns
 682 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 683 = {holding = none}
 684 = {holding = none}
 ### Urguun Draal
 685 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 686 = {holding = none}
 ### Lessyk
 687 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 688 = {holding = church_holding}
 ### Angwar
 689 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 690 = {holding = none}
 691 = {holding = none}
 ### Arul_B
 692 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 693 = {holding = none}
@@ -123,16 +123,16 @@
 ##### Rhone
 ### Tellyn
 696 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 697 = {holding = city_holding}
 698 = {holding = church_holding}
 ### Rellekor
 699 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 700 = {holding = city_holding}
@@ -140,39 +140,39 @@
 702 = {holding = none}
 ### Harrowgard
 703 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 704 = {holding = none}
 705 = {holding = none}
 ### Arolan
 706 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 707 = {holding = city_holding}
 ### Morningcrest
 708 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 709 = {holding = church_holding}
 710 = {holding = none}
 ### Rhone_B
 711 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 712 = {holding = none}
 ##### Burntwood
 ### Shadukar
 713 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 	buildings = {castle_02}
 }
@@ -180,8 +180,8 @@
 715 = {holding = city_holding}
 ### Beacon Island
 716 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 717 = {holding = castle_holding}
@@ -189,30 +189,30 @@
 719 = {holding = city_holding}
 ### Solitude
 720 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 ### Olath
 721 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 722 = {holding = city_holding}
 723 = {holding = church_holding}
 ### Burntwood_B
 724 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 725 = {holding = none}
 726 = {holding = none}
 ### Burntwood_C
 727 = {
-	culture = sigilan
-	faith = frontier_creed
+	culture = thrane
+	faith = silver_flame
 	holding = castle_holding
 }
 728 = {holding = none}

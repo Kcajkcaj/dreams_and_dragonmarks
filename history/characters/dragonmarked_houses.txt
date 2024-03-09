@@ -7,6 +7,21 @@ Lyrandar_1 = {
 
     mother = Lyrandar_2
 
+    trait = mark_of_storm
+    trait = mage
+    trait = education_stewardship_3
+    trait = ambitious
+    trait = diligent
+    trait = greedy
+    trait = arrogant
+    trait = beauty_good_1
+
+    diplomacy = 11
+    learning = 9
+    stewardship = 7
+    intrigue = 5
+    martial = 3
+
     4969.1.1 = { birth = yes }
 }
 
@@ -18,6 +33,8 @@ Lyrandar_2 = {
     dynasty = dynn_lyrandar
 
     father = Lyrandar_3
+    
+    trait = mark_of_storm
 
     4947.1.1 = { birth = yes }
     4984.1.1 = { death = yes }
@@ -32,6 +49,8 @@ Lyrandar_3 = {
 
     mother = Lyrandar_4
 
+    trait = mark_of_storm
+
     4908.1.1 = { birth = yes }
     4964.1.1 = { death = yes }
 }
@@ -45,6 +64,8 @@ Lyrandar_4 = {
 
     mother = Lyrandar_5
 
+    trait = mark_of_storm
+
     4876.1.1 = { birth = yes }
     4925.1.1 = { death = yes }
 }
@@ -56,6 +77,57 @@ Lyrandar_5 = {
     female = yes
     dynasty = dynn_lyrandar
 
+    trait = mark_of_storm
+
     4848.1.1 = { birth = yes }
     4907.1.1 = { death = yes }
+}
+
+Lyrandar_6 = {
+    name = "Calynden"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_lyrandar
+
+    father = Lyrandar_3
+
+    trait = education_intrigue_5
+    trait = ambitious
+    trait = arrogant
+    trait = callous
+    trait = diligent
+
+    stewardship = 11
+    diplomacy = 9
+    intrigue = 7
+    martial = 5
+    learning = 3
+
+    4949.1.1 = { birth = yes }
+}
+
+Lyrandar_7 = {
+    name = "Vennet"
+    culture = aundairi
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_lyrandar
+
+    mother = Lyrandar_4
+
+    4913.1.1 = { birth = yes }
+    4983.1.1 = { death = yes }
+}
+
+Lyrandar_8 = {
+    name = "Solia"
+    culture = aundairi
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_lyrandar
+
+    father = Lyrandar_7
+
+    4941.1.1 = { birth = yes }
 }

@@ -100,11 +100,11 @@ flamic_theocracy_government = {
 	legitimacy = yes
 
 	vassal_contract = {
-		feudal_government_taxes
-		feudal_government_levies
+		flamic_theocracy_obligations
 	}
 
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	flag = government_is_flamic_theocracy
 	color = hsv{ 0.53 0.10 0.80 }
 }
 
