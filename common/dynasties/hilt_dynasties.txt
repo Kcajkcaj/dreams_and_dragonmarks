@@ -23,7 +23,17 @@ dynn_hilt_tain = {
 	culture = shaarati
 }
 
-dynn_of_silln = {
-	name = "of Silln"
-	culture = daggerborn
+dynn_tajar = {
+	name = "Tajar"
+	culture = brelish
+}
+
+dynn_oeskai = {
+	name = "Oeskai"
+	culture = brelish
+}
+
+dynn_clarn = {
+	name = "Clarn"
+	culture = brelish
 }

@@ -1,7 +1,7 @@
-##### Vathirond
-### Vathirond
+##### brelishond
+### brelishond
 167 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 	buildings = {castle_02}
@@ -12,7 +12,7 @@
 171 = {holding = none}
 ### Kennrun
 172 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -20,23 +20,23 @@
 174 = {holding = none}
 ### New Cyre
 175 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
 176 = {holding = none}
 177 = {holding = none}
-### Vathirond B
+### brelishond B
 178 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
 179 = {holding = none}
 180 = {holding = none}
-### Vathirond C
+### brelishond C
 181 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -46,7 +46,7 @@
 ##### Dragons Crown
 ### Dragons Crown
 185 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -54,7 +54,7 @@
 187 = {holding = none}
 ### Mistmarsh
 188 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -63,7 +63,7 @@
 191 = {holding = none}
 ### Faded Forest
 192 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -73,7 +73,7 @@
 196 = {holding = none}
 ### Nowhere
 197 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -82,7 +82,7 @@
 200 = {holding = none}
 ### Sterngate
 201 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -93,7 +93,7 @@
 ##### Starilaskur
 ### Starilaskur
 206 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 	buildings = {castle_02}
@@ -102,7 +102,7 @@
 208 = {holding = church_holding}
 ### Lurching Tower
 209 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -111,7 +111,7 @@
 212 = {holding = none}
 ### Rhonewatch
 213 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -119,7 +119,7 @@
 215 = {holding = none}
 ### Starilaskur B
 216 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -128,7 +128,7 @@
 219 = {holding = none}
 ### Starilaskur C
 220 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -137,7 +137,7 @@
 ##### Hatheril
 ### Hatheril
 223 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -145,9 +145,9 @@
 225 = {holding = church_holding}
 ### Yedan
 226 = {
-	culture = daggerborn
-	faith = uulkarda
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 227 = {holding = none}
 228 = {holding = none}
@@ -155,7 +155,7 @@
 230 = {holding = none}
 ### Swordmoor
 231 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -164,7 +164,7 @@
 234 = {holding = none}
 ### Cragwar
 235 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }
@@ -172,9 +172,9 @@
 237 = {holding = church_holding}
 ### Greenhaunt
 238 = {
-	culture = branchfolk
+	culture = brelish
 	faith = gatekeeper
-	holding = tribal_holding
+	holding = castle_holding
 }
 239 = {holding = none}
 240 = {holding = none}
@@ -182,7 +182,7 @@
 242 = {holding = none}
 ### Fort Light
 243 = {
-	culture = vathir
+	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
 }

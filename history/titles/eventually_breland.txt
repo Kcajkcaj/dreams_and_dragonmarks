@@ -13,81 +13,254 @@ k_breland = {
     }
 }
 d_wroat = {
+    4890.1.1 = {
+        holder = Breland_Ancestor_3
+    }
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4919.1.1 = {
+        holder = Breland_Ancestor_2
+    }
+    4922.1.1 = {
+        holder = Breland_Ancestor_1
+    }
+    4960.12.10 = {
+        holder = Breland_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_sharn = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4974.1.1 = {
+        holder = Sharn_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_silln = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4986.1.1 = {
+        holder = Silln_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_daggerwood = {
-     4996.1.1 = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4878.1.1 = {
+        holder = Tain_Great_Grandparent
+    }
+    4918.1.1 = {
+        holder = Tain_Grandparent
+    }
+    4948.1.1 = {
+        holder = Tain_Ruler_1_Parent
+    }
+    4979.1.1 = {
+        holder = Tain_Ruler_1
+    }
+    4993.1.1 = {
+        holder = Tain_Child_1
+    }
+    4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_greymoon = {
-     4996.1.1 = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4878.1.1 = {
+        holder = Tain_Great_Grandparent
+    }
+    4918.1.1 = {
+        holder = Tain_Grandparent
+    }
+    4948.1.1 = {
+        holder = Tain_Ruler_2_Parent
+    }
+    4988.1.1 = {
+        holder = Tain_Ruler_2
+    }
+    4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_shadowlock = {
-     4996.1.1 = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4878.1.1 = {
+        holder = Tain_Great_Grandparent
+    }
+    4918.1.1 = {
+        holder = Tain_Grandparent
+    }
+    4948.1.1 = {
+        holder = Tain_Ruler_3_Parent
+    }
+    4991.1.1 = {
+        holder = Tain_Ruler_3
+    }
+    4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_skyraker = {
-     4996.1.1 = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4984.1.1 = {
+        holder = Skyraker_Ruler
+    }
+    4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_bentblade = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4986.1.1 = {
+        holder = Bentblade_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_ardev = {
-    4996.1.1 = {
+    4894.1.1 = {
         de_jure_liege = k_breland
+        liege = k_breland
     }
-}
-d_dragonwood = {
+    4969.1.1 = {
+        holder = Ardev_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_whitehorn = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4933.1.1 = {
+        holder = Oeskai_Grandparent
+    }
+    4965.1.1 = {
+        holder = Oeskai_Parent
+    }
+    4978.1.1 = {
+        holder = Oeskai_Ruler_1
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_blackcaps = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_thrane
+    }
+    4940.1.1 = {
+        liege = k_breland
+        holder = Oeskai_Grandparent
+    }
+    4965.1.1 = {
+        holder = Oeskai_Parent
+    }
+    4978.1.1 = {
+        holder = Oeskai_Ruler_2
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_hatheril = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4974.1.1 = {
+        holder = Zarna_Parent
+    }
+    4992.1.1 = {
+        holder = Zarna_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_starilaskur = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4991.1.1 = {
+        holder = Colworn_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
 d_vathirond = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4987.1.1 = {
+        holder = Lantar_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }
 }
+c_new_cyre = {
+    4995.1.1 = {
+        liege = d_vathirond
+        holder = Cyre_Ruler
+    }
+}
 d_dragons_crown = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4983.1.1 = {
+        holder = Clarn_Ruler
+    }
+    4996.1.1 = {
+        de_jure_liege = k_breland
+    }
+}
+d_dragonwood = {
+    4894.1.1 = {
+        de_jure_liege = k_breland
+        liege = k_breland
+    }
+    4984.1.1 = {
+        holder = Shavar_Ruler
+    }
     4996.1.1 = {
         de_jure_liege = k_breland
     }

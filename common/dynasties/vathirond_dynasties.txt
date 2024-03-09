@@ -40,7 +40,7 @@ dynn_vathir_thorn = {
 }
 dynn_vathir_shavar = {
 	name = "Shavar"
-	culture = rootfolk
+	culture = brelish
 }
 dynn_vathir_kanaarac = {
 	name = "Kanaarac"

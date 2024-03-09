@@ -1,0 +1,352 @@
+Sharn_Ruler = {
+    name = "Cathan"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_dagger_demell
+
+    4945.1.1 = { birth = yes }
+}
+
+Silln_Ruler = {
+    name = "Thanoc"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_dagger_morrus
+
+    4963.1.1 = { birth = yes }
+}
+
+Tain_Child_1 = {
+    name = "Dalas"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Ruler_1
+    mother = Tain_Ruler_2
+
+    4972.1.1 = { birth = yes }
+}
+
+Tain_Child_2 = {
+    name = "Cyra"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Ruler_1
+    mother = Tain_Ruler_2
+
+    4974.1.1 = { birth = yes }
+}
+
+Tain_Child_3 = {
+    name = "Cariana"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Ruler_1
+    mother = Tain_Ruler_2
+
+    4976.1.1 = { birth = yes }
+}
+
+Tain_Child_4 = {
+    name = "Daral"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Ruler_1
+    mother = Tain_Ruler_2
+
+    4979.1.1 = { birth = yes }
+}
+
+Tain_Child_5 = {
+    name = "Riki"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Ruler_1
+    mother = Tain_Ruler_2
+
+    4982.1.1 = { birth = yes }
+}
+
+Tain_Ruler_1 = {
+    name = "Dantian"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_hilt_tain
+
+    mother = Tain_Ruler_1_Parent
+
+    4949.1.1 = { birth = yes }
+    4993.1.1 = { death = { death_reason = death_disappearance } }
+}
+
+Tain_Ruler_2 = {
+    name = "Celyria"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_hilt_tain
+    dna = celyria_dna
+
+    mother = Tain_Ruler_2_Parent
+
+    4951.1.1 = { birth = yes }
+}
+
+Tain_Ruler_3 = {
+    name = "Tasra"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Ruler_3_Parent
+
+    4956.1.1 = { birth = yes }
+}
+
+Tain_Ruler_1_Parent = {
+    name = "Isti"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Grandparent
+
+    4924.1.1 = { birth = yes }
+    4979.1.1 = { death = yes }
+}
+
+Tain_Ruler_2_Parent = {
+    name = "Joherra"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Grandparent
+
+    4925.1.1 = { birth = yes }
+    4988.1.1 = { death = yes }
+}
+
+Tain_Ruler_3_Parent = {
+    name = "Kor"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_hilt_tain
+
+    father = Tain_Grandparent
+
+    4927.1.1 = { birth = yes }
+    4991.1.1 = { death = yes }
+}
+
+Tain_Grandparent = {
+    name = "Dantian"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_hilt_tain
+
+    mother = Tain_Great_Grandparent
+
+    4895.1.1 = { birth = yes }
+    4948.1.1 = { death = yes }
+}
+
+Tain_Great_Grandparent = {
+    name = "Celyria"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_hilt_tain
+
+    4868.1.1 = { birth = yes }
+    4918.1.1 = { death = yes }
+}
+
+Skyraker_Ruler = {
+    name = "Larrian"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_hilt_morgrave
+
+    4966.1.1 = { birth = yes }
+}
+
+Bentblade_Ruler = {
+    name = "Boranex"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_dagger_devir
+
+    4960.1.1 = { birth = yes }
+}
+
+Ardev_Ruler = {
+    name = "Veirnir"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_tajar
+
+    4953.1.1 = { birth = yes }
+}
+
+Oeskai_Ruler_1 = {
+    name = "Oarsen"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_oeskai
+
+    father = Oeskai_Parent
+
+    4961.1.1 = { birth = yes }
+}
+
+Oeskai_Ruler_2 = {
+    name = "Yassiv"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_oeskai
+    dna = yassiv_dna
+
+    father = Oeskai_Parent
+
+    4967.1.1 = { birth = yes }
+}
+
+Oeskai_Parent = {
+    name = "Curlot"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_oeskai
+
+    father = Oeskai_Grandparent
+
+    4933.1.1 = { birth = yes }
+    4978.1.1 = { birth = yes }
+}
+
+Oeskai_Grandparent = {
+    name = "Brask"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_oeskai
+
+    4912.1.1 = { birth = yes }
+    4965.1.1 = { death = yes }
+}
+
+Zarna_Ruler = {
+    name = "Mirasandra"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_vathir_zarna
+
+    father = Zarna_Parent
+
+    4973.1.1 = { birth = yes }
+}
+
+Zarna_Sibling_1 = {
+    name = "Dantian"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_vathir_zarna
+
+    father = Zarna_Parent
+
+    4975.1.1 = { birth = yes }
+}
+
+Zarna_Sibling_2 = {
+    name = "Hallorek"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_vathir_zarna
+
+    father = Zarna_Parent
+
+    4978.1.1 = { birth = yes }
+}
+
+Zarna_Parent = {
+    name = "Abraxis"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_vathir_zarna
+
+    4954.1.1 = { birth = yes }
+    4992.1.1 = { death = yes }
+}
+
+Colworn_Ruler = {
+    name = "Tolri"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_vathir_colworn
+
+    4971.1.1 = { birth = yes }
+}
+
+Lantar_Ruler = {
+    name = "Solia"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_vathir_lantar
+
+    4967.1.1 = { birth = yes }
+}
+
+Clarn_Ruler = {
+    name = "Ruken"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_clarn
+    dna = ruken_dna
+
+    4963.1.1 = { birth = yes }
+}
+
+Shavar_Ruler = {
+    name = "Maija"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_vathir_shavar
+
+    4964.1.1 = { birth = yes }
+}

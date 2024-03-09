@@ -1,8 +1,8 @@
 ##### Sharn
 ### Central Plateau
 4 = {
-	culture = shaarati
-	faith = redtide_creed
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
@@ -11,15 +11,15 @@
 }
 ### Menthis
 6 = {
-	culture = shaarati
-	faith = redtide_creed
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 	special_building_slot = morgrave_university
 }
 ### Tavick's Landing
 7 = {
-	culture = shaarati
-	faith = redtide_creed
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 }
 8 = {
@@ -28,14 +28,14 @@
 }
 ### Northedge
 9 = {
-	culture = shaarati
-	faith = redtide_creed
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 }
 ### Dura
 10 = {
-	culture = shaarati
-	faith = redtide_creed
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 }
 11 = {
@@ -47,17 +47,17 @@
 }
 ### First Tower
 13 = {
-	culture = shaarati
-	faith = redtide_creed
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 }
 
 ##### Silln
 ### Yarkuun Draal
 14 = {
-	culture = daggerborn
-	faith = cornucopian
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 	buildings = {tribe_02}
 	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
@@ -72,8 +72,8 @@
 }
 ### Zilspar
 18 = {
-	culture = shaarati
-	faith = cornucopian
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 }
 19 = {
@@ -90,9 +90,9 @@
 }
 ### Flint Keep
 23 = {
-	culture = daggerborn
-	faith = cornucopian
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 24 = {
 	holding = none
@@ -102,9 +102,9 @@
 }
 ### Lower Silln
 26 = {
-	culture = daggerborn
-	faith = cornucopian
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 27 = {
 	holding = none
@@ -119,8 +119,8 @@
 ##### Greymoon
 ### Moonwatch
 33 = {
-	culture = daggerborn
-	faith = khaarani
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 }
 34 = {
@@ -134,8 +134,8 @@
 }
 ### Riverside
 37 = {
-	culture = daggerborn
-	faith = khaarani
+	culture = brelish
+	faith = frontier_creed
 	holding = castle_holding
 }
 38 = {
@@ -149,9 +149,9 @@
 }
 ### Ringbriar
 41 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 42 = {
 	holding = none
@@ -164,9 +164,9 @@
 }
 ### Ringwood
 45 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 46 = {
 	holding = none
@@ -175,9 +175,9 @@
 ##### Shadowlock
 ### Shadowlock
 47 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 48 = {
 	holding = none
@@ -187,9 +187,9 @@
 }
 ### Shadowlock B
 50 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 51 = {
 	holding = none
@@ -199,9 +199,9 @@
 }
 ### Grey Rakes
 53 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 54 = {
@@ -217,9 +217,9 @@
 ##### Daggerwood
 ### Torch Keep
 57 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 58 = {
 	holding = none
@@ -229,9 +229,9 @@
 }
 ### Tilorn
 60 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 61 = {
 	holding = none
@@ -244,9 +244,9 @@
 }
 ### Daggerwood A
 64 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 65 = {
 	holding = none
@@ -256,9 +256,9 @@
 }
 ### Daggerwood B
 67 = {
-	culture = daggerborn
-	faith = khaarani
-	holding = tribal_holding
+	culture = brelish
+	faith = frontier_creed
+	holding = castle_holding
 }
 68 = {
 	holding = none
