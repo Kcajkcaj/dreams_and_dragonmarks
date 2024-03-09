@@ -1,0 +1,5 @@
+k_breland = house_of_breland
+d_greymoon = dynn_hilt_tain
+d_blackcaps = dynn_oeskai
+d_dragons_crown = dynn_clarn
+c_new_cyre = dynn_wynarn

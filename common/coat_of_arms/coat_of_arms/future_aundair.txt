@@ -1,4 +1,4 @@
-dynn_thaliost_taumen = {
+house_of_aundair = {
 	pattern="pattern_horizontal_split_02.dds"
 	color1=blue_light
 	color2=blue

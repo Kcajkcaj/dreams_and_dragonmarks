@@ -7,7 +7,7 @@
 
 	character = {
 		name = "BoranelWynarn"
-		dynasty = dynn_wynarn
+		dynasty_house = house_of_breland
 		dynasty_splendor_level = 1
 		type = male
 		birth = 4939.1.1
@@ -17,9 +17,9 @@
 		religion = "frontier_creed"
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
 		history_id = Breland_Ruler
-		position = { 600 500 }
+		position = { 475 550 }
 
-		animation = chancellor
+		animation = celebrate_axe
 	}
 	character = {
 		name = "OargevWynarn"
@@ -33,7 +33,55 @@
 		religion = "frontier_creed"
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
 		history_id = Cyre_Ruler
-		position = { 600 1000 }
+		position = { 1100 400 }
+
+		animation = personality_cynical
+	}
+	character = {
+		name = "YassivOeskai"
+		dynasty = dynn_oeskai
+		dynasty_splendor_level = 1
+		type = female
+		birth = 4967.1.1
+		title = d_blackcaps
+		government = feudal_government
+		culture = brelish
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = Oeskai_Ruler_2
+		position = { 650 150 }
+
+		animation = marshal
+	}
+	character = {
+		name = "CelyriaTain"
+		dynasty = dynn_hilt_tain
+		dynasty_splendor_level = 1
+		type = female
+		birth = 4951.1.1
+		title = d_greymoon
+		government = feudal_government
+		culture = brelish
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = Tain_Ruler_2
+		position = { 250 650 }
+
+		animation = dancing
+	}
+	character = {
+		name = "RukenClarn"
+		dynasty = dynn_clarn
+		dynasty_splendor_level = 1
+		type = male
+		birth = 4963.1.1
+		title = d_dragons_crown
+		government = feudal_government
+		culture = brelish
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = Clarn_Ruler
+		position = { 900 475 }
 
 		animation = chancellor
 	}

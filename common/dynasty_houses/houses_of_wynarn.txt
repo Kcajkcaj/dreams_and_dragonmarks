@@ -1,0 +1,19 @@
+house_of_breland = {
+    name = "Wynarn"
+    dynasty = dynn_wynarn
+}
+
+house_of_aundair = {
+    name = "Wynarn"
+    dynasty = dynn_wynarn
+}
+
+house_of_thrane = {
+    name = "Wynarn"
+    dynasty = dynn_wynarn
+}
+
+house_of_karrnath = {
+    name = "Wynarn"
+    dynasty = dynn_wynarn
+}

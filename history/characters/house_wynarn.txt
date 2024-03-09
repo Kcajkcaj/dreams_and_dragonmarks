@@ -146,7 +146,7 @@ Karrnath_Ancestor_3 = {
     culture = karrn
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_karrnath
     dna = kaius_dna
 
     father = Last_Galifar_Ruler
@@ -161,7 +161,7 @@ Karrnath_Ancestor_2 = {
     culture = karrn
     faith = frontier_creed
     female = no
-    dynasty  dynn_wynarn
+    dynasty_house = house_of_karrnath
 
     father = Karrnath_Ancestor_3
 
@@ -175,7 +175,7 @@ Karrnath_Ancestor_1 = {
     culture = karrn
     faith = blood_of_vol
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_karrnath
 
     father = Karrnath_Ancestor_2
 
@@ -188,7 +188,7 @@ Karrnath_Ancestor_1_Sibling_1 = {
     culture = karrn
     faith = blood_of_vol
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_karrnath
     dna = moranna_dna
 
     father = Karrnath_Ancestor_2
@@ -202,7 +202,7 @@ Karrnath_Ruler = {
     culture = karrn
     faith = blood_of_vol
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_karrnath
     dna = kaius_dna
 
     father = Karrnath_Ancestor_1
@@ -221,7 +221,7 @@ Karrnath_Sibling_1 = {
     culture = karrn
     faith = blood_of_vol
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_karrnath
 
     father = Karrnath_Ancestor_1
     
@@ -239,7 +239,7 @@ Karrnath_Sibling_2 = {
     culture = karrn
     faith = blood_of_vol
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_karrnath
 
     father = Karrnath_Ancestor_1
 
@@ -255,7 +255,7 @@ Karrnath_Sibling_3 = {
     culture = karrn
     faith = blood_of_vol
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_karrnath
 
     father = Karrnath_Ancestor_1
 
@@ -271,7 +271,7 @@ Thrane_Ruler = {
     culture = thrane
     faith = silver_flame
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
     dna = diani_dna
 
     father = Thrane_Ancestor_1
@@ -286,7 +286,7 @@ Thrane_Ancestor_1 = {
     culture = thrane
     faith = silver_flame
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     father = Thrane_Ancestor_2
     
@@ -299,7 +299,7 @@ Thrane_Ancestor_2 = {
     culture = thrane
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     father = Thrane_Ancestor_3
 
@@ -313,7 +313,7 @@ Thrane_Ancestor_3 = {
     culture = thrane
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     father = Last_Galifar_Ruler
 
@@ -327,7 +327,7 @@ Thrane_Ancestor_1_Sibling_1 = { # Noncanon
     culture = thrane
     faith = silver_flame
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     father = Thrane_Ancestor_2
     
@@ -340,7 +340,7 @@ Thrane_Ancestor_1_Sibling_2 = { # Noncanon
     culture = thrane
     faith = silver_flame
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     father = Thrane_Ancestor_2
     
@@ -352,7 +352,7 @@ Thrane_Cousin_1 = { # Noncanon
     culture = thrane
     faith = silver_flame
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     mother = Thrane_Ancestor_1_Sibling_1
 
@@ -364,7 +364,7 @@ Thrane_Cousin_2 = { # Noncanon
     culture = thrane
     faith = silver_flame
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     mother = Thrane_Ancestor_1_Sibling_1
 
@@ -376,7 +376,7 @@ Thrane_Cousin_3 = { # Noncanon
     culture = thrane
     faith = silver_flame
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     mother = Thrane_Ancestor_1_Sibling_2
 
@@ -388,7 +388,7 @@ Thrane_Cousin_4 = { # Noncanon
     culture = thrane
     faith = silver_flame
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_thrane
 
     mother = Thrane_Ancestor_1_Sibling_2
 
@@ -400,7 +400,7 @@ Aundair_Ruler = {
     culture = aundairi
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
     dna = aurala_dna
 
     mother = Aundair_Ancestor_1
@@ -425,7 +425,7 @@ Aundair_Ancestor_1 = {
     culture = aundairi
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     father = Aundair_Ancestor_2
 
@@ -438,7 +438,7 @@ Aundair_Ancestor_2 = {
     culture = aundairi
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     mother = Aundair_Ancestor_3
     father = Cyre_Ancestor_3_Sibling_1
@@ -452,7 +452,7 @@ Aundair_Ancestor_3 = {
     culture = aundairi
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     father = Aundair_Ancestor_4
 
@@ -466,7 +466,7 @@ Aundair_Ancestor_4 = {
     culture = aundairi
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     father = Last_Galifar_Ruler
 
@@ -481,7 +481,7 @@ Aundair_Sibling_1 = {
     culture = aundairi
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     mother = Aundair_Ancestor_1
 
@@ -501,7 +501,7 @@ Aundair_Sibling_2 = {
     culture = aundairi
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     mother = Aundair_Ancestor_1
 
@@ -513,7 +513,7 @@ Aundair_Sibling_3 = {
     culture = aundairi
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     trait = twin
 
@@ -527,7 +527,7 @@ Aundair_Sibling_4 = {
     culture = aundairi
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     trait = twin
 
@@ -541,7 +541,7 @@ Aundair_Child_1 = {
     culture = aundairi
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     mother = Aundair_Ruler
 
@@ -553,7 +553,7 @@ Aundair_Child_2 = {
     culture = aundairi
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     mother = Aundair_Ruler
 
@@ -565,7 +565,7 @@ Aundair_Child_3 = {
     culture = aundairi
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     mother = Aundair_Ruler
 
@@ -577,7 +577,7 @@ Aundair_Sibling_2_Child_1 = {
     culture = aundairi
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_aundair
 
     father = Aundair_Sibling_2
 
@@ -589,7 +589,7 @@ Breland_Ruler = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
     dna = boranel_dna
 
     father = Breland_Ancestor_1
@@ -620,7 +620,7 @@ Breland_Sibling_1 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -633,7 +633,7 @@ Breland_Sibling_2 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -646,7 +646,7 @@ Breland_Sibling_3 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -658,7 +658,7 @@ Breland_Sibling_4 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -670,7 +670,7 @@ Breland_Sibling_5 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -682,7 +682,7 @@ Breland_Sibling_6 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -694,7 +694,7 @@ Breland_Sibling_7 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -706,7 +706,7 @@ Breland_Sibling_8 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -718,7 +718,7 @@ Breland_Sibling_9 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1
 
@@ -730,7 +730,7 @@ Breland_Child_1 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -743,7 +743,7 @@ Breland_Child_2 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -756,7 +756,7 @@ Breland_Child_3 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -768,7 +768,7 @@ Breland_Child_4 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -780,7 +780,7 @@ Breland_Child_5 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -792,7 +792,7 @@ Breland_Child_6 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -804,7 +804,7 @@ Breland_Child_7 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -816,7 +816,7 @@ Breland_Child_8 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -828,7 +828,7 @@ Breland_Child_9 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -840,7 +840,7 @@ Breland_Child_10 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -852,7 +852,7 @@ Breland_Child_11 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ruler
 
@@ -864,7 +864,7 @@ Breland_Sibling_7_Child_1 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Sibling_7
 
@@ -876,7 +876,7 @@ Breland_Ancestor_1 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_2
 
@@ -889,7 +889,7 @@ Breland_Ancestor_1_Sibling_1 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_2
 
@@ -902,7 +902,7 @@ Breland_Ancestor_1_Sibling_1_Child_1 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Breland_Ancestor_1_Sibling_1
 
@@ -914,7 +914,7 @@ Breland_Ancestor_2 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     mother = Breland_Ancestor_3
 
@@ -927,7 +927,7 @@ Breland_Ancestor_2_Sibling_1 = {
     culture = brelish
     faith = frontier_creed
     female = no
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     mother = Breland_Ancestor_3
 
@@ -940,7 +940,7 @@ Breland_Ancestor_3 = {
     culture = brelish
     faith = frontier_creed
     female = yes
-    dynasty = dynn_wynarn
+    dynasty_house = house_of_breland
 
     father = Last_Galifar_Ruler
 

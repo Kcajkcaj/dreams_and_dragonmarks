@@ -115,7 +115,7 @@ dynn_sigilan_talandro={
 	}
 }
 
-dynn_daskaran_askarda ={
+house_of_thrane = {
 	pattern="pattern_horizontal_split_02.dds"
 	color1=purple
 	color2=yellow
