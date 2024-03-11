@@ -13,7 +13,7 @@
 	culture = thrane
 	faith = frontier_creed
 	holding = castle_holding
-	special_building_slot = iron_mines_01
+	special_building = iron_mines_01
 }
 737 = {holding = none}
 738 = {holding = none}
@@ -32,7 +32,7 @@
 	culture = thrane
 	faith = frontier_creed
 	holding = castle_holding
-	special_building_slot = gemstone_mines_01
+	special_building = gemstone_mines_01
 }
 744 = {holding = none}
 745 = {holding = none}
@@ -76,7 +76,7 @@
 	culture = thrane
 	faith = frontier_creed
 	holding = castle_holding
-	special_building_slot = arcanix_university
+	special_building = arcanix_university
 }
 760 = {holding = city_holding}
 761 = {holding = church_holding}

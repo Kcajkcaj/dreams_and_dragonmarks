@@ -3,46 +3,55 @@
 4 = {
 	culture = brelish
 	faith = frontier_creed
-	holding = castle_holding
+	holding = city_holding
+	buildings = {city_04}
 	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 5 = {
-	holding = church_holding
+	holding = city_holding
+	buildings = {city_04}
 }
 ### Menthis
 6 = {
 	culture = brelish
 	faith = frontier_creed
-	holding = castle_holding
-	special_building_slot = morgrave_university
+	holding = city_holding
+	buildings = {city_04}
+	special_building = morgrave_university
 }
 ### Tavick's Landing
 7 = {
 	culture = brelish
 	faith = frontier_creed
-	holding = castle_holding
+	holding = city_holding
+	buildings = {city_04}
 }
 8 = {
 	holding = city_holding
+	buildings = {city_04}
 	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 ### Northedge
 9 = {
 	culture = brelish
 	faith = frontier_creed
-	holding = castle_holding
+	holding = city_holding
+	buildings = {city_04}
 }
 ### Dura
 10 = {
 	culture = brelish
 	faith = frontier_creed
-	holding = castle_holding
+	holding = city_holding
+	buildings = {city_04}
 }
 11 = {
 	holding = city_holding
+	buildings = {city_04}
 }
 12 = {
-	holding = none
+	holding = city_holding
+	buildings = {city_02}
 	1.1.1 = {effect = {add_province_modifier = dhakaani_ruin}}
 }
 ### First Tower

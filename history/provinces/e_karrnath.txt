@@ -112,7 +112,7 @@
 	culture = aturi
 	faith = blood_of_vol
 	holding = castle_holding
-	special_building_slot = gemstone_mines_01
+	special_building = gemstone_mines_01
 }
 913 = {holding = none}
 ### Ashen Spires C
@@ -425,7 +425,7 @@
 	culture = vasfolder
 	faith = blood_of_vol
 	holding = castle_holding
-	special_building_slot = iron_mines_01
+	special_building = iron_mines_01
 }
 1020 = {holding = none}
 ##### Irontown

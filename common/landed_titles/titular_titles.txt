@@ -13,3 +13,18 @@ k_thrane = {
     capital = c_flamekeep
     landless = yes
 }
+d_keeper_of_the_flame = {
+    color = {215 215 255}
+    capital = c_flamekeep
+    landless = yes
+    definite_form = yes
+	ruler_uses_title_name = no
+
+    ai_primary_priority = {
+		add = 100
+	}
+
+    destroy_if_invalid_heir = yes
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+}

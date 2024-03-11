@@ -19,6 +19,7 @@ d_korth = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 25
     }
     4910.1.1 = {
         holder = Karrnath_Ancestor_2
@@ -37,6 +38,7 @@ d_tanar = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 20
     }
     4923.1.1 = {
         holder = Tanar_Ancestor_1
@@ -52,6 +54,7 @@ d_ashen_spires = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 25
     }
     4993.1.1 = {
         holder = Atur_Ruler
@@ -65,6 +68,7 @@ d_bastion = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 15
     }
     4979.1.1 = {
         holder = Erdei_Ruler
@@ -77,6 +81,7 @@ d_loom_keep = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 20
     }
     4979.1.1 = {
         holder = Erdei_Ruler
@@ -89,6 +94,7 @@ d_rekkenmark = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 25
     }
     4993.1.1 = {
         holder = Furnau_Ruler
@@ -104,6 +110,7 @@ d_eastern_karrnwood = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 15
     }
     4910.1.1 = {
         holder = Karrnath_Ancestor_2
@@ -122,6 +129,7 @@ d_western_karrnwood = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 15
     }
     4910.1.1 = {
         holder = Karrnath_Ancestor_2
@@ -137,6 +145,7 @@ d_storm_cliffs = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 20
     }
     4923.1.1 = {
         holder = Tanar_Ancestor_1
@@ -152,6 +161,7 @@ d_ice_marshes = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 15
     }
     4972.1.1 = {
         holder = Loran_Ruler
@@ -164,6 +174,7 @@ d_iceflow = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 15
     }
     4972.1.1 = {
         holder = Loran_Ruler
@@ -176,6 +187,7 @@ d_icetop = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 20
     }
     4979.1.1 = {
         holder = Jaranus_Ruler
@@ -188,6 +200,7 @@ d_icewood = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 15
     }
     4980.1.1 = {
         holder = Zecklin_Ruler
@@ -200,6 +213,7 @@ d_irontown = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 15
     }
     4979.1.1 = {
         holder = Jaranus_Ruler
@@ -212,6 +226,7 @@ d_karrlakton = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 20
     }
     4980.1.1 = {
         holder = Mira_Ruler
@@ -224,6 +239,7 @@ d_vedykar = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 20
     }
     4968.1.1 = {
         holder = Kaser_Ruler
@@ -239,6 +255,7 @@ d_vulyar = {
     4894.1.1 = {
         de_jure_liege = k_karrnath
         liege = k_karrnath
+        change_development_level = 20
     }
     4927.1.1 = {
         holder = Shult_Ancestor_2

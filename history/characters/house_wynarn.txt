@@ -660,6 +660,7 @@ Breland_Ruler = {
     trait = coronation_pledge_expansion
 
     4939.1.1 = {birth = yes}
+    4986.1.1 = { add_spouse = Tain_Ruler_2_Sibling }
 }
 
 Breland_Sibling_1 = {
@@ -878,6 +879,7 @@ Breland_Child_9 = {
     dynasty_house = house_of_breland
 
     father = Breland_Ruler
+    mother = Tain_Ruler_2_Sibling
 
     4987.1.1 = { birth = yes }
 }
@@ -890,6 +892,7 @@ Breland_Child_10 = {
     dynasty_house = house_of_breland
 
     father = Breland_Ruler
+    mother = Tain_Ruler_2_Sibling
 
     4990.1.1 = { birth = yes }
 }
@@ -902,6 +905,7 @@ Breland_Child_11 = {
     dynasty_house = house_of_breland
 
     father = Breland_Ruler
+    mother = Tain_Ruler_2_Sibling
 
     4993.1.1 = { birth = yes }
 }

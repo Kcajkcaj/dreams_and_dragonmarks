@@ -1,0 +1,17 @@
+4894.1.1 = {
+	effect = {
+		start_struggle = {
+			struggle_type = last_war_struggle
+			start_phase = struggle_last_war_phase_open_war
+		}
+	}
+}
+
+4994.1.1 = {
+	effect = {
+		if = { 
+			limit = { exists = struggle:last_war_struggle }
+			struggle:last_war_struggle = { change_struggle_phase = struggle_last_war_phase_cold_war }
+		}
+	}
+}

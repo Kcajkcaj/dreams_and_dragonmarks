@@ -21,6 +21,8 @@ d_fairhaven = {
     }
     4894.1.1 = {
         de_jure_liege = k_aundair
+        liege = k_aundair
+        change_development_level = 25
     }
     4920.1.1 = {
         holder = Aundair_Ancestor_3
@@ -42,6 +44,7 @@ d_whisperwoods = {
     4894.1.1 = {
         de_jure_liege = k_aundair
         liege = k_aundair
+        change_development_level = 15
     }
     4959.1.1 = {
         holder = Whisperwoods_Ruler
@@ -54,6 +57,7 @@ d_silverwood = {
     4894.1.1 = {
         de_jure_liege = k_aundair
         liege = k_aundair
+        change_development_level = 20
     }
     4961.1.1 = {
         holder = Lain_Ruler
@@ -66,6 +70,7 @@ d_thaliost = {
     4894.1.1 = {
         de_jure_liege = k_aundair
         liege = k_aundair
+        change_development_level = 30
     }
     4961.1.1 = {
         holder = Lain_Ruler
@@ -81,6 +86,7 @@ d_stormhome = {
     4894.1.1 = {
         de_jure_liege = k_aundair
         liege = k_aundair
+        change_development_level = 25
     }
     4907.1.1 = {
         holder = Lyrandar_4
@@ -102,6 +108,7 @@ d_eldritch_groves = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 20
     }
     4922.1.1 = {
         liege = k_aundair
@@ -118,6 +125,7 @@ d_arcanix = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 20
     }
     4922.1.1 = {
         holder = Aundair_Ancestor_3
@@ -140,6 +148,7 @@ d_marketplace = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 20
     }
     4962.1.1 = {
         liege = k_aundair

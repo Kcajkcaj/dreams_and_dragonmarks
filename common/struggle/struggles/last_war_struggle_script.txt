@@ -1,0 +1,158 @@
+last_war_struggle = {
+    cultures = {
+        aundairi
+        brelish
+        cyran
+        karrn
+        thrane
+        aturi
+        vasfolder
+    }
+    faiths = {
+        blood_of_vol
+        frontier_creed
+        silver_flame
+    }
+    regions = {
+        world_khorvaire
+    }
+
+    involvement_prerequisite_percentage = 0.5
+
+    on_start = {
+        trigger_event = neutral_struggle.0001
+    }
+
+    transition_state_duration = { months = 6 }
+
+    on_change_phase = {
+
+    }
+    on_join = {
+
+    }
+    start_phase = struggle_last_war_phase_cold_war
+
+    phase_list = {
+        struggle_last_war_phase_cold_war = {
+            future_phases = {
+                struggle_last_war_phase_open_war = {
+                    catalysts = {
+                        catalyst_passing_of_time = medium_struggle_catalyst_gain
+                        catalyst_win_any_war_within_the_region = minor_struggle_catalyst_gain
+						catalyst_new_building_in_castle = minor_struggle_catalyst_gain
+						catalyst_becomes_rival_with_involved = minor_struggle_catalyst_gain
+                    }
+                }
+                struggle_last_war_phase_detente = {
+                    catalysts = {
+                        catalyst_passing_of_time = medium_struggle_catalyst_gain
+                        catalyst_became_friend_lover_with_character = medium_struggle_catalyst_gain
+                        catalyst_new_building_in_city = minor_struggle_catalyst_gain
+                        catalyst_sign_truce_outside_war = minor_struggle_catalyst_gain
+                    }
+                }
+            }
+
+            war_effects = {
+                name = WAR_EFFECTS_NAME
+                common_parameters = {
+                    apply_truce_when_sending_ward = yes
+                    invasion_conquest_war_cannot_be_declared = yes
+                }
+                involved_character_modifier = {
+                    men_at_arms_recruitment_cost = -0.5
+                    men_at_arms_maintenance = -0.25
+                }
+            }
+            
+            culture_effects = {
+                name = CULTURE_EFFECTS_NAME
+                involved_parameters = {
+                    involved_interrealm_marriage_requires_grand_wedding = yes
+                }
+            }
+
+            other_effects = {
+                name = OTHER_EFFECTS_NAME
+                involved_parameters = {
+                    unlocks_fabricate_hooks_for_all = yes
+					unlocks_claim_throne_for_powerful_vassals = yes
+                    unlocks_expedite_scheme_decision = yes
+					unlocks_incite_revolts_interaction = yes
+                }
+                involved_character_modifier = {
+					max_hostile_schemes_add = 1
+				}
+            }
+        }
+        struggle_last_war_phase_open_war = {
+            future_phases = {
+                struggle_last_war_phase_cold_war = {
+                    catalysts = {
+                        catalyst_passing_of_time = medium_struggle_catalyst_gain
+                        catalyst_using_a_hook_on_very_important_character = medium_struggle_catalyst_gain
+						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
+                    }
+                }
+                struggle_last_war_phase_detente = {
+                    catalysts = {
+                        catalyst_passing_of_time = medium_struggle_catalyst_gain
+                        catalyst_became_friend_lover_with_character = major_struggle_catalyst_gain
+                        catalyst_sign_truce_outside_war = minor_struggle_catalyst_gain
+                    }
+                }
+            }
+
+            war_effects = {
+                name = WAR_EFFECTS_NAME
+                involved_county_modifier = {
+                    levy_size = 0.5
+                }
+            }
+
+            culture_effects = {
+                name = CULTURE_EFFECTS_NAME
+                involved_parameters = {
+                    involved_interrealm_marriage_requires_grand_wedding = yes
+                }
+            }
+        }
+        struggle_last_war_phase_detente = {
+            future_phases = {
+                struggle_last_war_phase_cold_war = {
+                    catalysts = {
+                        catalyst_passing_of_time = medium_struggle_catalyst_gain
+                        catalyst_using_a_hook_on_very_important_character = medium_struggle_catalyst_gain
+						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
+                        catalyst_new_building_in_city = minor_struggle_catalyst_gain
+                    }
+                }
+                struggle_last_war_phase_open_war = {
+                    catalysts = {
+                        catalyst_passing_of_time = medium_struggle_catalyst_gain
+                        catalyst_win_any_war_within_the_region = minor_struggle_catalyst_gain
+						catalyst_new_building_in_castle = minor_struggle_catalyst_gain
+						catalyst_becomes_rival_with_involved = minor_struggle_catalyst_gain
+                    }
+                }
+            }
+            war_effects = {
+                name = WAR_EFFECTS_NAME
+                common_parameters = {
+                    apply_truce_when_sending_ward = yes
+                    invasion_conquest_war_cannot_be_declared = yes
+                }
+            }
+            other_effects = {
+                name = OTHER_EFFECTS_NAME
+                involved_parameters = {
+                    struggle_unlocks_befriend_schemes_for_everyone = yes
+                }
+                involved_character_modifier = {
+					max_personal_schemes_add = 1
+				}
+            }
+        }
+    }
+}

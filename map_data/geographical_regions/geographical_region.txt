@@ -20,12 +20,26 @@ world_khorvaire_cyre = {
 	regions = {
 		world_khorvaire_cyre_darguun
 		world_khorvaire_cyre_metrol
+		world_khorvaire_cyre_eston
+		world_khorvaire_cyre_valenar
 	}
 }
 
 world_khorvaire_cyre_metrol = {
 	duchies = {
 		d_metrol d_thronehold d_dollen d_crimson_water
+	}
+}
+
+world_khorvaire_cyre_eston = {
+	duchies = {
+		d_crystal_river d_eston d_making d_whitehearth d_thorn_island
+	}
+}
+
+world_khorvaire_cyre_valenar = {
+	duchies = {
+		d_dawnpeaks d_maradal d_north_blade_desert d_south_blade_desert d_ravar_orioth d_valaestas
 	}
 }
 
@@ -106,6 +120,8 @@ world_khorvaire_aundair_thaliost = {
 world_khorvaire_karrnath = {
 	regions = {
 		world_khorvaire_karrnath_empire
+		world_khorvaire_karrnath_talenta
+		world_khorvaire_karrnath_mror_holds
 	}
 }
 
@@ -115,6 +131,18 @@ world_khorvaire_karrnath_empire = {
 		d_eastern_karrnwood d_storm_cliffs d_western_karrnwood d_ice_marshes
 		d_vedykar d_karrlakton d_vulyar
 		d_icetop d_irontown d_iceflow d_icewood
+	}
+}
+
+world_khorvaire_karrnath_talenta = {
+	duchies = {
+		d_gatherhold d_hatra d_north_talenta d_south_talenta
+	}
+}
+
+world_khorvaire_karrnath_mror_holds = {
+	duchies = {
+		d_fist_of_onatar d_hoarfrost d_ironroot d_mirror_lake
 	}
 }
 

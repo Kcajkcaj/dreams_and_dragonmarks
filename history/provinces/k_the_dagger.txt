@@ -4,7 +4,7 @@
 	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
-	special_building_slot = parliament_hall
+	special_building = parliament_hall
 }
 72 = {holding = church_holding}
 73 = {holding = city_holding}
@@ -64,7 +64,7 @@
 	culture = brelish
 	faith = frontier_creed
 	holding = castle_holding
-	special_building_slot = dye_factories
+	special_building = dye_factories
 }
 95 = {holding = city_holding}
 96 = {holding = church_holding}

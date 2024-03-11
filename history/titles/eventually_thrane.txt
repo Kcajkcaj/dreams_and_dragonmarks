@@ -24,6 +24,7 @@ d_flamekeep = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 25
     }
     4914.1.1 = {
         holder = Thrane_Ancestor_2
@@ -42,10 +43,22 @@ d_flamekeep = {
         de_jure_liege = k_thrane
     }
 }
+d_keeper_of_the_flame = {
+    4903.1.1 = {
+        holder = Keeper_15
+    }
+    4937.1.1 = {
+        holder = Keeper_16
+    }
+    4993.1.1 = {
+        holder = Keeper_17
+    }
+}
 d_auxyl = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 20
     }
     4971.1.1 = {
         holder = Cardinal_Krozen
@@ -80,6 +93,7 @@ d_daskaran = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 20
     }
     4914.1.1 = {
         holder = Thrane_Ancestor_2
@@ -101,6 +115,7 @@ d_burntwood = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 20
     }
     4914.1.1 = {
         holder = Thrane_Ancestor_2
@@ -123,6 +138,7 @@ d_sigilstar = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 25
     }
     4978.1.1 = {
         holder = Cardinal_Irulan
@@ -136,6 +152,7 @@ d_rhone = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 25
     }
     4979.1.1 = {
         holder = Cardinal_Suspiria
@@ -149,6 +166,7 @@ d_arul = {
     4894.1.1 = {
         de_jure_liege = k_thrane
         liege = k_thrane
+        change_development_level = 25
     }
     4992.1.1 = {
         holder = Cardinal_Morgana

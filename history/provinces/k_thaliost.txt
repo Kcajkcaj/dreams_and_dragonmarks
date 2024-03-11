@@ -85,7 +85,7 @@
 	culture = aundairi
 	faith = frontier_creed
 	holding = castle_holding
-	special_building_slot = university_of_wynarn
+	special_building = university_of_wynarn
 }
 846 = {holding = church_holding}
 847 = {holding = city_holding}

@@ -19,6 +19,7 @@ d_wroat = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 25
     }
     4919.1.1 = {
         holder = Breland_Ancestor_2
@@ -37,6 +38,7 @@ d_sharn = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 35
     }
     4974.1.1 = {
         holder = Sharn_Ruler
@@ -45,10 +47,16 @@ d_sharn = {
         de_jure_liege = k_breland
     }
 }
+c_first_tower = {
+    4974.1.1 = {
+        holder = Sharn_Ruler
+    }
+}
 d_silln = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
     4986.1.1 = {
         holder = Silln_Ruler
@@ -61,6 +69,7 @@ d_daggerwood = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
     4878.1.1 = {
         holder = Tain_Great_Grandparent
@@ -85,6 +94,7 @@ d_greymoon = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 20
     }
     4878.1.1 = {
         holder = Tain_Great_Grandparent
@@ -106,6 +116,7 @@ d_shadowlock = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
     4878.1.1 = {
         holder = Tain_Great_Grandparent
@@ -127,6 +138,7 @@ d_skyraker = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 20
     }
     4984.1.1 = {
         holder = Skyraker_Ruler
@@ -139,6 +151,7 @@ d_bentblade = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
     4986.1.1 = {
         holder = Bentblade_Ruler
@@ -151,6 +164,7 @@ d_ardev = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
     4969.1.1 = {
         holder = Ardev_Ruler
@@ -163,6 +177,7 @@ d_whitehorn = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
     4933.1.1 = {
         holder = Oeskai_Grandparent
@@ -181,6 +196,7 @@ d_blackcaps = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_thrane
+        change_development_level = 20
     }
     4940.1.1 = {
         liege = k_breland
@@ -200,6 +216,7 @@ d_hatheril = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
     4974.1.1 = {
         holder = Zarna_Parent
@@ -215,6 +232,7 @@ d_starilaskur = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 25
     }
     4991.1.1 = {
         holder = Colworn_Ruler
@@ -227,6 +245,7 @@ d_vathirond = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 25
     }
     4987.1.1 = {
         holder = Lantar_Ruler
@@ -245,8 +264,12 @@ d_dragons_crown = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
-    4983.1.1 = {
+    4967.1.1 = {
+        holder = Clarn_Parent
+    }
+    4986.1.1 = {
         holder = Clarn_Ruler
     }
     4996.1.1 = {
@@ -257,6 +280,7 @@ d_dragonwood = {
     4894.1.1 = {
         de_jure_liege = k_breland
         liege = k_breland
+        change_development_level = 15
     }
     4984.1.1 = {
         holder = Shavar_Ruler

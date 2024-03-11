@@ -115,6 +115,18 @@ Tain_Ruler_2 = {
     4951.1.1 = { birth = yes }
 }
 
+Tain_Ruler_2_Sibling = {
+    name = "Brey"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_hilt_tain
+
+    mother = Tain_Ruler_2_Parent
+
+    4961.1.1 = { birth = yes }
+}
+
 Tain_Ruler_3 = {
     name = "Tasra"
     culture = brelish
@@ -358,6 +370,8 @@ Clarn_Ruler = {
 
     trait = education_intrigue_3
 
+    mother = Clarn_Parent
+
     diplomacy = 11
     martial = 3
     stewardship = 9
@@ -365,6 +379,67 @@ Clarn_Ruler = {
     learning = 5
 
     4963.1.1 = { birth = yes }
+}
+
+Clarn_Child_1 = {
+    name = "Albin"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_clarn
+
+    father = Clarn_Ruler
+
+    4981.1.1 = { birth = yes }
+}
+
+Clarn_Parent = {
+    name = "Gydd"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_clarn
+
+    father = Clarn_Grandparent
+
+    4931.1.1 = { birth = yes }
+    4986.1.1 = { death = yes }
+}
+
+Clarn_Uncle = {
+    name = "Brask"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_clarn
+
+    father = Clarn_Grandparent
+
+    4935.1.1 = { birth = yes }
+    4995.1.1 = { death = yes }
+}
+
+Clarn_Cousin = {
+    name = "Haftak"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_clarn
+
+    father = Clarn_Uncle
+
+    4966.1.1 = { birth = yes }
+}
+
+Clarn_Grandparent = {
+    name = "Albin"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_clarn
+
+    4902.1.1 = { birth = yes }
+    4967.1.1 = { death = yes }
 }
 
 Shavar_Ruler = {

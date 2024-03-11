@@ -1681,7 +1681,7 @@
 		desc = TRADITION_PENALTY_ISOLATIONIST
 	}
 	modifier = {
-		add = -50
+		add = -100
 		scope:recipient = {
 			not = {culture = {has_same_culture_heritage = scope:actor.culture}}
 		}
@@ -1700,6 +1700,21 @@
 					CHAR = scope:recipient
 				}
 			}
+		}
+	}
+	modifier = {
+		add = -300
+		desc = STRUGGLE_MARRIAGE_INTERREALM_REQUIRES_GRAND_WEDDING
+		scope:actor = {
+			any_character_struggle ={
+				involvement = involved
+				is_struggle_parameter_active_secondary_character_involvement_involved_trigger = {
+					PARAMETER = involved_interrealm_marriage_requires_grand_wedding
+					CHAR = scope:recipient
+				}
+			}
+			not = {top_liege = scope:recipient.top_liege}
+			not = {scope:grand_wedding_promise = yes}
 		}
 	}
 	# We add some hidden reluctance for the AI selecting/accepting marriages from outside a struggle they're involved in unless a player is taking part.
@@ -1850,7 +1865,7 @@
 	#################
 	modifier = {
 		# Being offered a Grand Wedding increases acceptance
-		add = 40
+		add = 50
 		scope:grand_wedding_promise = yes
 
 		desc = GRAND_WEDDING_PROMISE_REASON_1
@@ -1885,18 +1900,6 @@
 		add = -5000
 		scope:recipient = { is_ai = no }
 		scope:secondary_actor = { has_character_flag = player_declined_marriage }
-	}
-
-	# Don't spam the player with courtiers' marriages
-	modifier = {
-		add = -5000
-		scope:recipient = { is_ai = no }
-		scope:secondary_recipient = {
-			NOR = {
-				is_close_or_extended_family_of = scope:recipient
-				dynasty ?= scope:recipient.dynasty
-			}
-		}
 	}
 
 	# Don't spam the player with weaker offers
