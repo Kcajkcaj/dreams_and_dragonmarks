@@ -426,7 +426,7 @@ parliament_hall = {
 	county_modifier = {
 		development_growth = 0.3
 		county_opinion_add = 25
-		monthly_county_control_change_add = 1
+		monthly_county_control_growth_add = 1
 	}
 	
 	character_modifier = {

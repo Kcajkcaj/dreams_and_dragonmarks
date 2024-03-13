@@ -629,7 +629,7 @@ tradition_fierce_independence = {
 	
 	character_modifier = {
 		opinion_of_liege = -20
-		monthly_county_control_change_factor = -0.2
+		monthly_county_control_growth_factor = -0.2
 		monthly_prestige_gain_mult = 0.2
 		development_growth = 0.2
 	}
@@ -979,7 +979,7 @@ tradition_pillagers = {
 		hostile_county_attrition_raiding = -0.5
 		max_loot_mult = 1
 		raid_speed = 0.5
-		monthly_county_control_change_factor = -0.5
+		monthly_county_control_growth_factor = -0.5
 	}
 	
 	cost = {

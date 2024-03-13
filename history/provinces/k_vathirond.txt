@@ -22,10 +22,11 @@
 175 = {
 	culture = brelish
 	faith = frontier_creed
-	holding = castle_holding
+	holding = city_holding
+	buildings = {city_02}
 }
-176 = {holding = none}
-177 = {holding = none}
+176 = {holding = castle_holding}
+177 = {holding = church_holding}
 ### brelishond B
 178 = {
 	culture = brelish

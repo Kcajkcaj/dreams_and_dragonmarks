@@ -258,6 +258,7 @@ c_new_cyre = {
     4995.1.1 = {
         liege = d_vathirond
         holder = Cyre_Ruler
+        government = principality_government
     }
 }
 d_dragons_crown = {

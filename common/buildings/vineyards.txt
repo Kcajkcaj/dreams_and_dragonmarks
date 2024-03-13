@@ -344,7 +344,7 @@ vineyards_07 = {
 	county_modifier = {
 		development_growth_factor = 0.05
 		tax_mult = 0.01
-		monthly_county_control_change_add = 0.2
+		monthly_county_control_growth_add = 0.2
 	}
 	
 	next_building = vineyards_08
@@ -395,7 +395,7 @@ vineyards_08 = {
 	county_modifier = {
 		development_growth_factor = 0.05
 		tax_mult = 0.02
-		monthly_county_control_change_add = 0.2
+		monthly_county_control_growth_add = 0.2
 	}
 	
 	ai_value = {

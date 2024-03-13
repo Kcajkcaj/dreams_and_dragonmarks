@@ -40,7 +40,7 @@ common_tradeport_01 = {
 	
 	county_culture_modifier = {
 		parameter = trade_ports_give_control_growth
-		monthly_county_control_change_add = 0.1
+		monthly_county_control_growth_add = 0.1
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
@@ -160,7 +160,7 @@ common_tradeport_02 = {
 	
 	county_culture_modifier = {
 		parameter = trade_ports_give_control_growth
-		monthly_county_control_change_add = 0.1
+		monthly_county_control_growth_add = 0.1
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
@@ -233,7 +233,7 @@ common_tradeport_03 = {
 	
 	county_culture_modifier = {
 		parameter = trade_ports_give_control_growth
-		monthly_county_control_change_add = 0.15
+		monthly_county_control_growth_add = 0.15
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
@@ -298,7 +298,7 @@ common_tradeport_04 = {
 	
 	county_culture_modifier = {
 		parameter = trade_ports_give_control_growth
-		monthly_county_control_change_add = 0.15
+		monthly_county_control_growth_add = 0.15
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
@@ -363,7 +363,7 @@ common_tradeport_05 = {
 	
 	county_culture_modifier = {
 		parameter = trade_ports_give_control_growth
-		monthly_county_control_change_add = 0.2
+		monthly_county_control_growth_add = 0.2
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
@@ -428,7 +428,7 @@ common_tradeport_06 = {
 	
 	county_culture_modifier = {
 		parameter = trade_ports_give_control_growth
-		monthly_county_control_change_add = 0.2
+		monthly_county_control_growth_add = 0.2
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
@@ -493,7 +493,7 @@ common_tradeport_07 = {
 	
 	county_culture_modifier = {
 		parameter = trade_ports_give_control_growth
-		monthly_county_control_change_add = 0.25
+		monthly_county_control_growth_add = 0.25
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
@@ -558,7 +558,7 @@ common_tradeport_08 = {
 	
 	county_culture_modifier = {
 		parameter = trade_ports_give_control_growth
-		monthly_county_control_change_add = 0.25
+		monthly_county_control_growth_add = 0.25
 	}
 	province_culture_modifier = {
 		parameter = trade_ports_give_levies
