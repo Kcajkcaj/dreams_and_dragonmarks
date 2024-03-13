@@ -1,0 +1,50 @@
+k_zilargo = {
+    4960.1.1 = {
+        holder = Trolan_Ruler
+        government = principality_government
+    }
+}
+d_trolanport = {
+    4960.1.1 = {
+        holder = Trolan_Ruler
+        government = principality_government
+        change_development_level = 30
+    }
+}
+d_zolanberg = {
+    4960.1.1 = {
+        holder = Zolan_Ruler
+        liege = k_zilargo
+        government = principality_government
+        change_development_level = 30
+    }
+}
+c_deep_mine = {
+    4980.1.1 = {
+        holder = Lyrris_Ruler
+        liege = k_zilargo
+        government = principality_government
+    }
+}
+c_dragonroost = {
+    4980.1.1 = {
+        holder = Lyrris_Ruler
+        liege = k_zilargo
+        government = principality_government
+    }
+}
+c_fireflies = {
+    4980.1.1 = {
+        holder = Lyrris_Ruler
+        liege = k_zilargo
+        government = principality_government
+    }
+}
+d_korranberg = {
+    4960.1.1 = {
+        holder = Korran_Ruler
+        liege = k_zilargo
+        government = principality_government
+        change_development_level = 30
+    }
+}

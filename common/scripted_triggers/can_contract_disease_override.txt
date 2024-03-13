@@ -93,6 +93,7 @@ can_contract_disease_trigger = {
 			scope:disease_type_for_trigger = flag:ill
 			scope:disease_type_for_trigger = flag:smallpox
 			scope:disease_type_for_trigger = flag:bubonic_plague
+			scope:disease_type_for_trigger = flag:mourning_flu
 		}
 		AND = {
 			scope:disease_type_for_trigger = flag:ill
@@ -114,6 +115,7 @@ can_contract_disease_trigger = {
 		OR = {
 			scope:disease_type_for_trigger = flag:bubonic_plague
 			scope:disease_type_for_trigger = flag:smallpox
+			scope:disease_type_for_trigger = flag:mourning_flu
 		}
 		AND = {
 			scope:disease_type_for_trigger = flag:pneumonic

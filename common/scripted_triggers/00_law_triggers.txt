@@ -247,7 +247,6 @@ can_have_bishop_theocratic_succession_law_trigger = {
 	OR = {
 		is_theocratic_lessee = yes
 		government_has_flag = government_is_theocracy
-		government_has_flag = government_is_flamic_theocracy
 	}
 }
 

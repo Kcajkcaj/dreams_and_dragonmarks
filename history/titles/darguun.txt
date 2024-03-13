@@ -1,0 +1,31 @@
+k_darguun = {
+    4969.1.1 = {
+        holder = Lhesh_Haruuc
+    }
+}
+d_rhukaan_draal = {
+    4969.1.1 = {
+        holder = Lhesh_Haruuc
+        change_development_level = 15
+    }
+}
+d_gathering_stone = {
+    4969.1.1 = {
+        liege = k_darguun
+        holder = Kurmaac_Ruler
+        change_development_level = 10
+    }
+}
+d_torlaac = {
+    4969.1.1 = {
+        liege = k_darguun
+        holder = Vanon_Ruler
+        change_development_level = 10
+    }
+}
+d_khraal = {
+    4969.1.1 = {
+        holder = Khraal_Ruler
+        change_development_level = 5
+    }
+}

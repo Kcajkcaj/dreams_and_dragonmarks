@@ -1,6 +1,15 @@
 update_coa_effect = {
 	if = {
 		limit = {
+			government_has_flag = government_is_theocracy
+			not = {faith = {has_doctrine = doctrine_no_head}}
+		}
+		every_held_title = {
+			set_coa = prev.faith.religious_head_title
+		}
+	}
+	else_if = {
+		limit = {
 			any_held_title = {
 				NOR = {
 					is_holy_order = yes

@@ -1,0 +1,44 @@
+Trolan_Ruler = {
+    name = "Feralyn"
+    culture = zil
+    faith = korranberg_creed
+    female = yes
+    dynasty = dynn_trolan
+
+    4951.1.1 = { birth = yes }
+}
+
+Korran_Ruler = {
+    name = "Alina"
+    culture = zil
+    faith = korranberg_creed
+    female = yes
+    dynasty = dynn_korran
+
+    4938.1.1 = { birth = yes }
+}
+
+Zolan_Ruler = {
+    name = "Alimne"
+    culture = zil
+    faith = korranberg_creed
+    female = yes
+    dynasty = dynn_zolan
+
+    4939.1.1 = { birth = yes }
+}
+
+Lyrris_Ruler = {
+    name = "Alina"
+    culture = zil
+    faith = korranberg_creed
+    female = yes
+    dynasty = dynn_lyrris
+
+    trait = greedy
+    trait = ambitious
+    trait = diligent
+    trait = education_stewardship_5
+
+    4972.1.1 = { birth = yes }
+}

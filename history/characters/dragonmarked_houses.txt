@@ -4,6 +4,7 @@ Lyrandar_1 = {
     faith = frontier_creed
     female = yes
     dynasty = dynn_lyrandar
+    dna = esravash_dna
 
     mother = Lyrandar_2
 
@@ -14,7 +15,7 @@ Lyrandar_1 = {
     trait = diligent
     trait = greedy
     trait = arrogant
-    trait = beauty_good_1
+    trait = beauty_good_2
 
     diplomacy = 11
     learning = 9

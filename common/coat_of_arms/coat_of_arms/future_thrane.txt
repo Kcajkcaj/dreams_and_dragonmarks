@@ -156,3 +156,15 @@ dynn_daskaran_vasiraghi = {
 		}
 	}
 }
+
+d_keeper_of_the_flame = {
+	pattern="pattern_tricolor_bend_02.dds"
+	color1=blue_light
+	color2=blue
+	color3=rgb { 6 33 58 }
+	colored_emblem={
+		color1=grey
+		color2=white
+		texture="ce_fire.dds"
+	}
+}

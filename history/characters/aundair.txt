@@ -14,6 +14,7 @@ Lain_Ruler = {
     faith = frontier_creed
     female = no
     dynasty = dynn_lain
+    dna = darro_dna
 
     trait = education_martial_5
     trait = education_martial_prowess_4

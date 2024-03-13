@@ -43,6 +43,7 @@ Cardinal_Krozen = {
     culture = thrane
     faith = silver_flame
     female = no
+    dna = krozen_dna
 
     4946.1.1 = { birth = yes }
 }
@@ -52,6 +53,7 @@ Cardinal_Solgar_Darzinu = {
     culture = aundairi
     faith = silver_flame
     female = no
+    dna = darzinu_dna
 
     4931.1.1 = { birth = yes }
 }

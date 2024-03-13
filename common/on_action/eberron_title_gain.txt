@@ -2,7 +2,6 @@ on_title_gain = {
 	on_actions = {
 		eberron_on_title_gain
 		eberron_update_principalities
-		eberron_update_theocracies
 	}
 }
 
@@ -25,16 +24,5 @@ eberron_update_principalities = {
 		else = {
 			change_government = principality_government
 		}
-	}
-}
-
-eberron_update_theocracies = {
-	trigger = {
-		highest_held_title_tier >= tier_county
-		has_government = theocracy_government
-		faith = faith:silver_flame
-	}
-	effect = {
-		change_government = flamic_theocracy_government
 	}
 }

@@ -71,8 +71,10 @@ republic_government = {
 # Head of faith will always get this if possible
 theocracy_government = {
 	primary_holding = church_holding
-	valid_holdings = { castle_holding }
+	valid_holdings = { castle_holding city_holding }
 	religious = yes
+	royal_court = yes
+	legitimacy = yes
 	required_county_holdings = { church_holding castle_holding city_holding }
 
 	can_get_government = {
@@ -88,24 +90,6 @@ theocracy_government = {
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
 	flag = government_is_theocracy
 	color = hsv{ 0.00 0.00 0.78 }
-}
-
-flamic_theocracy_government = {
-	primary_holding = church_holding
-	valid_holdings = { castle_holding city_holding }
-	religious = yes
-	required_county_holdings = { church_holding castle_holding city_holding }
-	rulers_should_have_dynasty = yes
-	royal_court = yes
-	legitimacy = yes
-
-	vassal_contract = {
-		flamic_theocracy_obligations
-	}
-
-	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
-	flag = government_is_flamic_theocracy
-	color = hsv{ 0.53 0.10 0.80 }
 }
 
 clan_government = {
@@ -304,7 +288,7 @@ principality_government = {
 	character_modifier = {
 		domain_tax_mult = 0.25
 		development_growth_factor = 0.25
-		domain_limit = -2
+		domain_limit = -1
 	}
 }
 

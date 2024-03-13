@@ -3,3 +3,8 @@ d_greymoon = dynn_hilt_tain
 d_blackcaps = dynn_oeskai
 d_dragons_crown = dynn_clarn
 c_new_cyre = dynn_wynarn
+
+k_aundair = house_of_aundair
+d_arcanix = house_of_aundair
+d_stormhome = dynn_lyrandar
+d_thaliost = dynn_lain

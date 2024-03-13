@@ -17,3 +17,8 @@ dynn_sivis = {
 	name = "Sivis"
 	culture = zil
 }
+
+dynn_lyrris = {
+	name = "Lyrris"
+	culture = zil
+}

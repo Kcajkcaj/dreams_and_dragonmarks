@@ -86,3 +86,76 @@
 		animation = chancellor
 	}
 }
+
+bm_4998_aundair = {
+	start_date = 4998.1.1
+	is_playable = yes
+	group = bm_group_4998
+
+	weight = { value = 100 }
+
+	character = {
+		name = "AuralaWynarn"
+		dynasty_house = house_of_aundair
+		dynasty_splendor_level = 1
+		type = female
+		birth = 4959.1.1
+		title = k_aundair
+		government = feudal_government
+		culture = aundairi
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = Aundair_Ruler
+		position = { 650 500 }
+
+		animation = chancellor
+	}
+	character = {
+		name = "AdalWynarn"
+		dynasty_house = house_of_aundair
+		dynasty_splendor_level = 1
+		type = male
+		birth = 4961.1.1
+		title = d_arcanix
+		government = feudal_government
+		culture = aundairi
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = Aundair_Sibling_1
+		position = { 500 800 }
+
+		animation = chancellor
+	}
+	character = {
+		name = "DarroLain"
+		dynasty = dynn_lain
+		dynasty_splendor_level = 1
+		type = male
+		birth = 4945.1.1
+		title = d_thaliost
+		government = feudal_government
+		culture = aundairi
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = Lain_Ruler
+		position = { 900 350 }
+
+		animation = chancellor
+	}
+	character = {
+		name = "EsravashLyrandar"
+		dynasty = dynn_lyrandar
+		dynasty_splendor_level = 1
+		type = female
+		birth = 4969.1.1
+		title = d_stormhome
+		government = feudal_government
+		culture = aundairi
+		religion = "frontier_creed"
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = Lyrandar_1
+		position = { 1100 100 }
+
+		animation = chancellor
+	}
+}

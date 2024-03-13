@@ -1,0 +1,26 @@
+mourning_flu = {
+	diplomacy = -2
+	martial = -3
+	stewardship = -2
+	intrigue = -3
+	learning = -2
+	prowess = -10
+	health = -7
+	elderly_health = -2
+	fertility = -0.50
+
+	category = health
+	
+	dread_baseline_add = -30
+	dread_loss_mult = 1
+
+	attraction_opinion = -30
+	
+	shown_in_ruler_designer = no
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	ai_energy = -75
+}

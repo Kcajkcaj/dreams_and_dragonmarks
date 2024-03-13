@@ -1,0 +1,16 @@
+dynn_shaaratkor = {
+    name = "Shaarat'kor"
+    culture = ghaaldar
+}
+dynn_kurmaac = {
+    name = "Kurmaac"
+    culture = ghaaldar
+}
+dynn_khraal = {
+    name = "of the Khraal"
+    culture = khraali
+}
+dynn_vanon = {
+    name = "Vanon"
+    culture = khraali
+}

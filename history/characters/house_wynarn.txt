@@ -520,6 +520,7 @@ Aundair_Sibling_1 = {
     faith = frontier_creed
     female = no
     dynasty_house = house_of_aundair
+    dna = adal_dna
 
     mother = Aundair_Ancestor_1
 
