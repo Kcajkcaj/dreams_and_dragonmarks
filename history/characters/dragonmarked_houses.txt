@@ -132,3 +132,435 @@ Lyrandar_8 = {
 
     4941.1.1 = { birth = yes }
 }
+
+Orien_0 = {
+	name = Calemi
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_stewardship_2
+	trait = mark_of_passage
+	4890.7.18 = { birth = yes }
+	4942.1.24 = { death = yes }
+}
+
+Orien_1 = {
+	name = Beref
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_intrigue_3
+	trait = mark_of_passage
+	father = Orien_0
+	4909.6.15 = { birth = yes }
+	4965.7.20 = { death = yes }
+}
+
+Orien_2 = {
+	name = Sudro
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_diplomacy_4
+	trait = mark_of_passage
+	father = Orien_0
+	4915.4.3 = { birth = yes }
+	4969.6.8 = { death = yes }
+}
+
+Orien_3 = {
+	name = Nyllestra
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_diplomacy_1
+	trait = mark_of_passage
+	mother = Orien_1
+	4945.9.28 = { birth = yes }
+	4982.8.10 = { death = yes }
+}
+
+Orien_4 = {
+	name = Kwanti
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_martial_4
+	trait = mark_of_passage
+	father = Orien_2
+	4947.8.9 = { birth = yes }
+}
+
+Orien_5 = {
+	name = Urdan
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_intrigue_3
+	trait = mark_of_passage
+	mother = Orien_1
+	4948.9.25 = { birth = yes }
+}
+
+Orien_6 = {
+	name = Egen
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_stewardship_1
+	trait = mark_of_passage
+	mother = Orien_1
+	4952.1.17 = { birth = yes }
+}
+
+Orien_7 = {
+	name = Taran
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_diplomacy_4
+	trait = mark_of_passage
+	father = Orien_2
+	4955.1.13 = { birth = yes }
+}
+
+Orien_8 = {
+	name = Maradal
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_learning_2
+	trait = mark_of_passage
+	father = Orien_5
+	4964.10.14 = { birth = yes }
+}
+
+Orien_9 = {
+	name = Varikah
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_martial_2
+	trait = mark_of_passage
+	mother = Orien_3
+	4968.12.17 = { birth = yes }
+}
+
+Orien_10 = {
+	name = Coref
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_stewardship_2
+	trait = mark_of_passage
+	father = Orien_6
+	4971.2.8 = { birth = yes }
+}
+
+Orien_11 = {
+	name = Margil
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_diplomacy_3
+	trait = mark_of_passage
+	father = Orien_5
+	4974.4.12 = { birth = yes }
+}
+
+Orien_12 = {
+	name = Suthar
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_martial_1
+	trait = mark_of_passage
+	father = Orien_4
+	4975.7.18 = { birth = yes }
+}
+
+Orien_13 = {
+	name = Lukar
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_diplomacy_3
+	trait = mark_of_passage
+	mother = Orien_3
+	4979.11.13 = { birth = yes }
+}
+
+Orien_14 = {
+	name = Mizar
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_martial_2
+	trait = mark_of_passage
+	father = Orien_7
+	4981.10.26 = { birth = yes }
+}
+
+Orien_15 = {
+	name = Narvala
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_intrigue_2
+	trait = mark_of_passage
+	father = Orien_4
+	4982.7.4 = { birth = yes }
+}
+
+Orien_16 = {
+	name = Norah
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_stewardship_4
+	trait = mark_of_passage
+	father = Orien_4
+	4986.6.21 = { birth = yes }
+}
+
+Orien_17 = {
+	name = Verodin
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_martial_4
+	trait = mark_of_passage
+	father = Orien_6
+	4986.5.6 = { birth = yes }
+}
+
+Orien_18 = {
+	name = Arrun
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = no
+	trait = education_martial_1
+	trait = mark_of_passage
+	father = Orien_7
+	4989.3.16 = { birth = yes }
+}
+
+Orien_19 = {
+	name = Beref
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_martial_3
+	trait = mark_of_passage
+	mother = Orien_9
+	4990.3.12 = { birth = yes }
+}
+
+Orien_20 = {
+	name = Avaliah
+	culture = thrane
+	faith = frontier_creed
+	dynasty = dynn_orien
+	female = yes
+	trait = education_diplomacy_3
+	trait = mark_of_passage
+	father = Orien_10
+	4990.5.15 = { birth = yes }
+}
+
+Cannith_0 = {
+    name = "Merrix"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = no
+
+    trait = mark_of_making
+
+    4880.1.1 = { birth = yes }
+    4923.1.1 = { death = yes }
+}
+
+Cannith_1 = {
+    name = "Norran"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = no
+
+    father = Cannith_0
+
+    trait = mark_of_making
+
+    4903.1.1 = { birth = yes }
+    4962.1.1 = { death = yes }
+}
+
+Cannith_2 = {
+    name = "Aleisa"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = yes
+
+    father = Cannith_0
+
+    trait = mark_of_making
+
+    4906.1.1 = { birth = yes }
+    4973.1.1 = { death = yes }
+}
+
+Cannith_3 = {
+    name = "Elsabet"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = yes
+
+    mother = Cannith_2
+
+    trait = mark_of_making
+
+    4923.1.1 = { birth = yes }
+    4994.2.20 = { death = { death_reason = death_the_mourning } }
+}
+
+Cannith_4 = {
+    name = "Jorlanna"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = yes
+
+    mother = Cannith_3
+
+    trait = mark_of_making
+
+    4948.1.1 = { birth = yes }
+}
+
+Cannith_5 = {
+    name = "Xerith"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = yes
+
+    mother = Cannith_2
+
+    trait = mark_of_making
+
+    4927.1.1 = { birth = yes }
+    4983.1.1 = { death = yes }
+}
+
+Cannith_6 = {
+    name = "Starrin"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = no
+
+    father = Cannith_1
+
+    trait = mark_of_making
+
+    4928.1.1 = { birth = yes }
+    4951.1.1 = { add_spouse = Cannith_3}
+    4994.2.20 = { death = { death_reason = death_the_mourning } }
+}
+
+Cannith_7 = {
+    name = "Merrix"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = no
+
+    father = Cannith_1
+
+    trait = mark_of_making
+
+    4930.1.1 = { birth = yes }
+    4979.1.1 = { death = yes }
+}
+
+Cannith_8 = {
+    name = "Aaren"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = no
+
+    father = Cannith_7
+
+    trait = mark_of_making
+
+    4948.1.1 = { birth = yes }
+    4970.1.1 = { death = {death_reason = death_disappearance}}
+}
+
+Cannith_9 = {
+    name = "Merrix"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = no
+
+    father = Cannith_8
+
+    trait = mark_of_making
+
+    4967.1.1 = { birth = yes }
+}
+
+Cannith_10 = {
+    name = "Zorlan"
+    culture = cyran
+    faith = blood_of_vol
+    dynasty = dynn_cannith
+    female = no
+
+    father = Cannith_5
+
+    trait = mark_of_making
+
+    4949.1.1 = { birth = yes }
+}
+
+Cannith_11 = {
+    name = "Norran"
+    culture = cyran
+    faith = frontier_creed
+    dynasty = dynn_cannith
+    female = no
+
+    father = Cannith_6
+    mother = Cannith_3
+
+    trait = mark_of_making
+
+    4953.1.1 = { birth = yes }
+    4994.2.20 = { death = { death_reason = death_the_mourning } }
+}

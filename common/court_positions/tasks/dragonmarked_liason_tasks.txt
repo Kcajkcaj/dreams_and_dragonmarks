@@ -1,0 +1,75 @@
+### Mark of Making
+
+court_mage_organize_research = {
+    court_position_types = { court_mage_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+	employee_modifier = {
+		monthly_prestige = minor_court_position_task_prestige_salary
+	}
+
+	scaling_employer_modifiers = {
+		terrible = {
+		 	mage_xp_gain_mult = 0.1
+		}
+		poor = {
+		 	mage_xp_gain_mult = 0.2
+		}
+		average = {
+		 	mage_xp_gain_mult = 0.3
+		}
+		good = {
+		 	mage_xp_gain_mult = 0.4
+		}
+		excellent = {
+		 	mage_xp_gain_mult = 0.5
+		}
+	}
+
+	scaling_employer_court_modifiers = {
+		terrible = {
+		 	mage_xp_gain_mult = 0.1
+		}
+		poor = {
+		 	mage_xp_gain_mult = 0.2
+		}
+		average = {
+		 	mage_xp_gain_mult = 0.3
+		}
+		good = {
+		 	mage_xp_gain_mult = 0.4
+		}
+		excellent = {
+		 	mage_xp_gain_mult = 0.5
+		}
+	}
+
+    on_yearly = {
+        scope:councillor_liege = {
+			if = {
+				limit = {has_trait = mage}
+				study_magic_effect = yes
+			}
+			every_courtier = {
+				limit = {
+					has_trait = mage
+				}
+				study_magic_effect = yes
+			}
+		}
+    }
+
+    ai_will_do = {
+        value = 100
+    }
+}

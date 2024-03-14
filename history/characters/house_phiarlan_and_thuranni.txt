@@ -1,0 +1,1608 @@
+Phiarlan_Progenitor = {
+    name = "Ellorenthi"
+    culture = phiarlan
+    faith = frontier_creed
+    dynasty = dynn_phiarlan
+    female = yes
+    trait = mark_of_shadow
+    trait = beauty_good_2
+    trait = education_intrigue_4
+    4003.12.19 = { birth = yes }
+    4512.11.20 = { death = yes }
+}
+
+Phiarlan_0 = {
+	name = "Eliri"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_1
+    mother = Phiarlan_Progenitor
+	4179.12.11 = { birth = yes }
+	4638.5.8 = { death = yes }
+}
+
+Phiarlan_1 = {
+	name = "Taelira"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	mother = Phiarlan_0
+	4285.1.15 = { birth = yes }
+	4722.5.20 = { death = yes }
+}
+
+Phiarlan_2 = {
+	name = "Ivellios"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Phiarlan_0
+	4310.3.19 = { birth = yes }
+	4758.1.24 = { death = yes }
+}
+
+Phiarlan_3 = {
+	name = "Mialee"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_5
+	father = Phiarlan_2
+	4427.8.23 = { birth = yes }
+	4874.9.18 = { death = yes }
+}
+
+Phiarlan_4 = {
+	name = "Heladaen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_3
+	father = Phiarlan_2
+	4485.3.14 = { birth = yes }
+	4955.1.17 = { death = yes }
+}
+
+Phiarlan_5 = {
+	name = "Fallarond"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	mother = Phiarlan_1
+	4498.1.27 = { birth = yes }
+	4957.9.7 = { death = yes }
+}
+
+Phiarlan_6 = {
+	name = "Heladaen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_4
+	mother = Phiarlan_1
+	4514.11.13 = { birth = yes }
+	4961.7.2 = { death = yes }
+}
+
+Phiarlan_7 = {
+	name = "Valanthe"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	mother = Phiarlan_3
+	4534.9.8 = { birth = yes }
+	4982.6.1 = { death = yes }
+}
+
+Phiarlan_8 = {
+	name = "Heladaen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	mother = Phiarlan_3
+	4585.5.9 = { birth = yes }
+}
+
+Phiarlan_9 = {
+	name = "Ielenia"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_5
+	mother = Phiarlan_3
+	4617.5.18 = { birth = yes }
+}
+
+Phiarlan_10 = {
+	name = "Aeren"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	mother = Phiarlan_7
+	4640.12.2 = { birth = yes }
+}
+
+Phiarlan_11 = {
+	name = "Ivellios"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_1
+	father = Phiarlan_5
+	4642.5.15 = { birth = yes }
+}
+
+Phiarlan_12 = {
+	name = "Ashaelyn"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_3
+	father = Phiarlan_5
+	4655.6.13 = { birth = yes }
+}
+
+Phiarlan_13 = {
+	name = "Valanthe"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_3
+	mother = Phiarlan_3
+	4661.9.10 = { birth = yes }
+}
+
+Phiarlan_14 = {
+	name = "Minari"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_4
+	mother = Phiarlan_6
+	4760.5.10 = { birth = yes }
+}
+
+Phiarlan_15 = {
+	name = "Dayne"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_5
+	father = Phiarlan_11
+	4814.5.11 = { birth = yes }
+}
+
+Phiarlan_16 = {
+	name = "Anastrianna"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Phiarlan_12
+	4859.6.1 = { birth = yes }
+}
+
+Phiarlan_17 = {
+	name = "Anastrianna"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	father = Phiarlan_11
+	4866.9.16 = { birth = yes }
+}
+
+Phiarlan_18 = {
+	name = "Elvinor"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	father = Phiarlan_10
+	4880.12.23 = { birth = yes }
+}
+
+Phiarlan_19 = {
+	name = "Riala"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Phiarlan_14
+	4894.8.1 = { birth = yes }
+}
+
+Phiarlan_20 = {
+	name = "Eliri"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	father = Phiarlan_15
+	4931.5.13 = { birth = yes }
+}
+
+Phiarlan_21 = {
+	name = "Etrigani"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty = dynn_phiarlan
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	mother = Phiarlan_16
+	4966.5.19 = { birth = yes }
+}
+
+Tialaen_0 = {
+	name = "Zemella"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_1
+    mother = Phiarlan_Progenitor
+	4177.12.16 = { birth = yes }
+	4640.1.2 = { death = yes }
+}
+
+Tialaen_1 = {
+	name = "Elvinor"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_4
+	mother = Tialaen_0
+	4409.4.19 = { birth = yes }
+	4860.8.6 = { death = yes }
+}
+
+Tialaen_2 = {
+	name = "Soverliss"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Tialaen_0
+	4410.1.10 = { birth = yes }
+	4866.11.23 = { death = yes }
+}
+
+Tialaen_3 = {
+	name = "Xanaphia"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_3
+	mother = Tialaen_1
+	4544.9.23 = { birth = yes }
+}
+
+Tialaen_4 = {
+	name = "Zemella"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	father = Tialaen_2
+	4567.11.6 = { birth = yes }
+}
+
+Tialaen_5 = {
+	name = "Varaendyr"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_1
+	father = Tialaen_2
+	4600.3.1 = { birth = yes }
+}
+
+Tialaen_6 = {
+	name = "Dayne"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_5
+	mother = Tialaen_1
+	4659.4.21 = { birth = yes }
+}
+
+Tialaen_7 = {
+	name = "Erandis"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	mother = Tialaen_4
+	4741.10.2 = { birth = yes }
+}
+
+Tialaen_8 = {
+	name = "Drusilia"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_1
+	mother = Tialaen_3
+	4747.8.23 = { birth = yes }
+}
+
+Tialaen_9 = {
+	name = "Tazaera"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	father = Tialaen_5
+	4754.1.12 = { birth = yes }
+}
+
+Tialaen_10 = {
+	name = "Erandis"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Tialaen_4
+	4773.9.22 = { birth = yes }
+}
+
+Tialaen_11 = {
+	name = "Taelira"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Tialaen_4
+	4816.7.26 = { birth = yes }
+}
+
+Tialaen_12 = {
+	name = "Thaendyr"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	father = Tialaen_5
+	4833.4.5 = { birth = yes }
+}
+
+Tialaen_13 = {
+	name = "Felosial"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Tialaen_7
+	4877.3.20 = { birth = yes }
+}
+
+Tialaen_14 = {
+	name = "Valanthe"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	mother = Tialaen_9
+	4892.9.10 = { birth = yes }
+}
+
+Tialaen_15 = {
+	name = "Tazaera"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_3
+	mother = Tialaen_9
+	4939.4.9 = { birth = yes }
+}
+
+Tialaen_16 = {
+	name = "Helaeras"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_1
+	father = Tialaen_12
+	4942.2.7 = { birth = yes }
+}
+
+Tialaen_17 = {
+	name = "Elvinor"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_tialaen
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	father = Tialaen_6
+	4947.7.12 = { birth = yes }
+}
+
+Shol_0 = {
+	name = "Varonen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_4
+    mother = Phiarlan_Progenitor
+	4171.9.26 = { birth = yes }
+	4617.6.13 = { death = yes }
+}
+
+Shol_1 = {
+	name = "Tharivol"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_5
+	father = Shol_0
+	4330.2.2 = { birth = yes }
+	4783.7.12 = { death = yes }
+}
+
+Shol_2 = {
+	name = "Mialee"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	father = Shol_0
+	4331.4.6 = { birth = yes }
+	4789.1.22 = { death = yes }
+}
+
+Shol_3 = {
+	name = "Jhalira"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_4
+	father = Shol_1
+	4464.9.22 = { birth = yes }
+	4890.1.25 = { death = yes }
+}
+
+Shol_4 = {
+	name = "Mialee"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_1
+	father = Shol_1
+	4535.1.26 = { birth = yes }
+	4987.11.19 = { death = yes }
+}
+
+Shol_5 = {
+	name = "Tharivol"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	mother = Shol_3
+	4594.8.21 = { birth = yes }
+}
+
+Shol_6 = {
+	name = "Tazaera"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_3
+	mother = Shol_3
+	4606.3.4 = { birth = yes }
+}
+
+Shol_7 = {
+	name = "Thaendyr"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	father = Shol_1
+	4629.8.9 = { birth = yes }
+}
+
+Shol_8 = {
+	name = "Felosial"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	mother = Shol_4
+	4643.9.24 = { birth = yes }
+}
+
+Shol_9 = {
+	name = "Aeren"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_4
+	father = Shol_5
+	4705.8.19 = { birth = yes }
+}
+
+Shol_10 = {
+	name = "Antinua"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	mother = Shol_6
+	4726.9.12 = { birth = yes }
+}
+
+Shol_11 = {
+	name = "Dalaer"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_3
+	father = Shol_5
+	4795.4.15 = { birth = yes }
+}
+
+Shol_12 = {
+	name = "Varaendyr"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	mother = Shol_8
+	4799.12.2 = { birth = yes }
+}
+
+Shol_13 = {
+	name = "Erandis"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	mother = Shol_10
+	4829.4.18 = { birth = yes }
+}
+
+Shol_14 = {
+	name = "Himo"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_3
+	father = Shol_5
+	4840.10.5 = { birth = yes }
+}
+
+Shol_15 = {
+	name = "Mazareth"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_4
+	father = Shol_9
+	4840.2.4 = { birth = yes }
+}
+
+Shol_16 = {
+	name = "Himo"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_3
+	mother = Shol_10
+	4840.10.11 = { birth = yes }
+}
+
+Shol_17 = {
+	name = "Laeren"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	mother = Shol_8
+	4872.12.6 = { birth = yes }
+}
+
+Shol_18 = {
+	name = "Drusilia"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_1
+	mother = Shol_8
+	4889.8.22 = { birth = yes }
+}
+
+Shol_19 = {
+	name = "Jhalira"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	mother = Shol_10
+	4915.4.28 = { birth = yes }
+}
+
+Shol_20 = {
+	name = "Mayne"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_3
+	father = Shol_12
+	4944.4.13 = { birth = yes }
+}
+
+Shol_21 = {
+	name = "Aust"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_4
+	mother = Shol_13
+	4944.8.27 = { birth = yes }
+}
+
+Shol_22 = {
+	name = "Tharivol"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_5
+	father = Shol_16
+	4944.1.8 = { birth = yes }
+}
+
+Shol_23 = {
+	name = "Riala"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_3
+	father = Shol_12
+	4952.2.19 = { birth = yes }
+}
+
+Shol_24 = {
+	name = "Silaqui"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	father = Shol_9
+	4959.12.7 = { birth = yes }
+}
+
+Shol_25 = {
+	name = "Fallarond"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_4
+	father = Shol_11
+	4967.3.28 = { birth = yes }
+}
+
+Shol_26 = {
+	name = "Carden"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_shol
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	father = Shol_15
+	4967.7.24 = { birth = yes }
+}
+
+Elorrenthi_0 = {
+	name = "Maeran"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_1
+    mother = Phiarlan_Progenitor
+	4175.12.7 = { birth = yes }
+	4622.3.8 = { death = yes }
+}
+
+Elorrenthi_1 = {
+	name = "Xanaphia"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	father = Elorrenthi_0
+	4319.6.20 = { birth = yes }
+	4764.7.7 = { death = yes }
+}
+
+Elorrenthi_2 = {
+	name = "Laeren"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	father = Elorrenthi_0
+	4441.8.5 = { birth = yes }
+	4899.7.13 = { death = yes }
+}
+
+Elorrenthi_3 = {
+	name = "Drusilia"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	father = Elorrenthi_0
+	4467.3.8 = { birth = yes }
+	4943.11.20 = { death = yes }
+}
+
+Elorrenthi_4 = {
+	name = "Elvinor"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_3
+	mother = Elorrenthi_1
+	4557.5.13 = { birth = yes }
+}
+
+Elorrenthi_5 = {
+	name = "Varaendyr"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	mother = Elorrenthi_2
+	4591.8.2 = { birth = yes }
+}
+
+Elorrenthi_6 = {
+	name = "Mayne"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_1
+	mother = Elorrenthi_1
+	4610.11.8 = { birth = yes }
+}
+
+Elorrenthi_7 = {
+	name = "Erandis"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_3
+	mother = Elorrenthi_3
+	4652.2.26 = { birth = yes }
+}
+
+Elorrenthi_8 = {
+	name = "Carden"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	father = Elorrenthi_6
+	4724.2.19 = { birth = yes }
+}
+
+Elorrenthi_9 = {
+	name = "Ielenia"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_3
+	father = Elorrenthi_5
+	4820.2.27 = { birth = yes }
+}
+
+Elorrenthi_10 = {
+	name = "Riala"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	mother = Elorrenthi_4
+	4822.8.20 = { birth = yes }
+}
+
+Elorrenthi_11 = {
+	name = "Silaqui"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	father = Elorrenthi_8
+	4833.6.18 = { birth = yes }
+}
+
+Elorrenthi_12 = {
+	name = "Tazaera"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_5
+	father = Elorrenthi_8
+	4834.2.14 = { birth = yes }
+}
+
+Elorrenthi_13 = {
+	name = "Varonen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_4
+	mother = Elorrenthi_4
+	4835.2.11 = { birth = yes }
+}
+
+Elorrenthi_14 = {
+	name = "Jhalira"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	father = Elorrenthi_8
+	4846.6.14 = { birth = yes }
+}
+
+Elorrenthi_15 = {
+	name = "Thamior"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	mother = Elorrenthi_9
+	4964.12.3 = { birth = yes }
+}
+
+Elorrenthi_16 = {
+	name = "Laeren"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_elorrenthi
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	mother = Elorrenthi_9
+	4982.6.8 = { birth = yes }
+}
+
+Thuranni_0 = {
+	name = "Etrigani"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_5
+    mother = Phiarlan_Progenitor
+	4170.7.24 = { birth = yes }
+	4624.6.16 = { death = yes }
+}
+
+Thuranni_1 = {
+	name = "Minara"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	mother = Thuranni_0
+	4311.5.7 = { birth = yes }
+	4777.7.18 = { death = yes }
+}
+
+Thuranni_2 = {
+	name = "Heladaen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_1
+	mother = Thuranni_1
+	4496.9.14 = { birth = yes }
+	4952.6.15 = { death = yes }
+}
+
+Thuranni_3 = {
+	name = "Minara"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_4
+	mother = Thuranni_1
+	4497.5.27 = { birth = yes }
+	4942.1.22 = { death = yes }
+}
+
+Thuranni_4 = {
+	name = "Ivellios"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_3
+	mother = Thuranni_1
+	4521.9.8 = { birth = yes }
+	4969.4.5 = { death = yes }
+}
+
+Thuranni_5 = {
+	name = "Antinua"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_1
+	mother = Thuranni_3
+	4609.11.11 = { birth = yes }
+}
+
+Thuranni_6 = {
+	name = "Eliri"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_3
+	father = Thuranni_4
+	4633.9.9 = { birth = yes }
+}
+
+Thuranni_7 = {
+	name = "Elar"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	mother = Thuranni_2
+	4643.7.13 = { birth = yes }
+}
+
+Thuranni_8 = {
+	name = "Anastrianna"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Thuranni_2
+	4697.5.16 = { birth = yes }
+}
+
+Thuranni_9 = {
+	name = "Taen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_3
+	mother = Thuranni_5
+	4724.6.3 = { birth = yes }
+}
+
+Thuranni_10 = {
+	name = "Heladaen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_5
+	father = Thuranni_7
+	4775.8.11 = { birth = yes }
+}
+
+Thuranni_11 = {
+	name = "Minara"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	father = Thuranni_7
+	4779.6.18 = { birth = yes }
+}
+
+Thuranni_12 = {
+	name = "Silaqui"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Thuranni_6
+	4780.9.14 = { birth = yes }
+}
+
+Thuranni_13 = {
+	name = "Mazalira"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	mother = Thuranni_2
+	4793.12.18 = { birth = yes }
+}
+
+Thuranni_14 = {
+	name = "Luala"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	mother = Thuranni_8
+	4830.7.19 = { birth = yes }
+}
+
+Thuranni_15 = {
+	name = "Silaqui"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_3
+	mother = Thuranni_8
+	4836.3.2 = { birth = yes }
+}
+
+Thuranni_16 = {
+	name = "Vadania"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	mother = Thuranni_5
+	4866.3.19 = { birth = yes }
+}
+
+Thuranni_17 = {
+	name = "Eliri"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_4
+	father = Thuranni_9
+	4873.12.18 = { birth = yes }
+}
+
+Thuranni_18 = {
+	name = "Taen"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_4
+	mother = Thuranni_6
+	4880.3.6 = { birth = yes }
+}
+
+Thuranni_19 = {
+	name = "Mialee"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_1
+	mother = Thuranni_5
+	4891.5.20 = { birth = yes }
+}
+
+Thuranni_20 = {
+	name = "Thaera"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	mother = Thuranni_6
+	4912.9.23 = { birth = yes }
+}
+
+Thuranni_21 = {
+	name = "Taelira"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_4
+	mother = Thuranni_15
+	4959.8.14 = { birth = yes }
+}
+
+Thuranni_22 = {
+	name = "Minaera"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_4
+	mother = Thuranni_11
+	4972.9.13 = { birth = yes }
+}
+
+Thuranni_23 = {
+	name = "Aust"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_learning_2
+	mother = Thuranni_15
+	4987.10.19 = { birth = yes }
+}
+
+Thuranni_24 = {
+	name = "Minara"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_thuranni
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	mother = Thuranni_15
+	4989.11.4 = { birth = yes }
+}
+
+Paelion_0 = {
+	name = "Serandis"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+    mother = Phiarlan_Progenitor
+	4173.1.8 = { birth = yes }
+	4646.7.7 = { death = yes }
+}
+
+Paelion_1 = {
+	name = "Valanthe"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	mother = Paelion_0
+	4384.5.24 = { birth = yes }
+	4817.5.10 = { death = yes }
+}
+
+Paelion_2 = {
+	name = "Minari"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_2
+	mother = Paelion_1
+	4514.8.4 = { birth = yes }
+	4970.2.15 = { death = yes }
+}
+
+Paelion_3 = {
+	name = "Thaera"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_1
+	mother = Paelion_1
+	4555.3.9 = { birth = yes }
+    4972.6.5 = { death = {death_reason = death_murder}}
+}
+
+Paelion_4 = {
+	name = "Silaqui"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_5
+	mother = Paelion_2
+	4751.1.13 = { birth = yes }
+    4972.6.5 = { death = {death_reason = death_murder}}
+}
+
+Paelion_5 = {
+	name = "Shaeras"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_3
+	mother = Paelion_3
+	4773.6.2 = { birth = yes }
+    4972.6.5 = { death = {death_reason = death_murder}}
+}
+
+Paelion_6 = {
+	name = "Etrigani"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Paelion_2
+	4778.6.8 = { birth = yes }
+    4972.6.5 = { death = {death_reason = death_murder}}
+}
+
+Paelion_7 = {
+	name = "Irian"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_stewardship_4
+	mother = Paelion_3
+	4790.3.3 = { birth = yes }
+    4972.6.5 = { death = {death_reason = death_murder}}
+}
+
+Paelion_8 = {
+	name = "Belaereth"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_diplomacy_2
+	father = Paelion_5
+	4874.11.19 = { birth = yes }
+    4972.6.5 = { death = {death_reason = death_murder}}
+}
+
+Paelion_9 = {
+	name = "Ivellios"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = no
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_2
+	mother = Paelion_4
+	4923.5.8 = { birth = yes }
+    4972.6.5 = { death = {death_reason = death_murder}}
+}
+
+Paelion_10 = {
+	name = "Luala"
+	culture = phiarlan
+	faith = frontier_creed
+	dynasty_house = house_paelion
+	female = yes
+	trait = mark_of_shadow
+	trait = beauty_good_2
+	trait = education_intrigue_3
+	mother = Paelion_6
+	4952.7.9 = { birth = yes }
+    4972.6.5 = { death = {death_reason = death_murder}}
+}

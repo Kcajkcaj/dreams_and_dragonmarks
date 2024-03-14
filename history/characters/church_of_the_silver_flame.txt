@@ -44,6 +44,11 @@ Cardinal_Krozen = {
     faith = silver_flame
     female = no
     dna = krozen_dna
+    
+    trait = education_stewardship_4
+    trait = authoritative
+    trait = ambitious
+    trait = cynical
 
     4946.1.1 = { birth = yes }
 }
@@ -51,9 +56,14 @@ Cardinal_Krozen = {
 Cardinal_Solgar_Darzinu = {
     name = "Solgar"
     culture = aundairi
-    faith = silver_flame
+    faith = pure_flame
     female = no
     dna = darzinu_dna
+
+    trait = education_learning_3
+    trait = zealous
+    trait = vengeful
+    trait = wrathful
 
     4931.1.1 = { birth = yes }
 }

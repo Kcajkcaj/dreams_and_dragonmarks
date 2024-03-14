@@ -5,7 +5,32 @@ Sharn_Ruler = {
     female = no
     dynasty = dynn_dagger_demell
 
-    4945.1.1 = { birth = yes }
+    father = Sharn_Ancestor_1
+
+    4948.1.1 = { birth = yes }
+}
+
+Sharn_Ancestor_1 = {
+    name = "Werem"
+    culture = brelish
+    faith = frontier_creed
+    female = no
+    dynasty = dynn_dagger_demell
+
+    4922.1.1 = { birth = yes }
+    4974.1.1 = { death = yes }
+}
+
+Sharn_Sibling_1 = {
+    name = "Magdalora"
+    culture = brelish
+    faith = frontier_creed
+    female = yes
+    dynasty = dynn_dagger_demell
+
+    father = Sharn_Ancestor_1
+
+    4957.1.1 = { birth = yes }
 }
 
 Silln_Ruler = {
@@ -368,6 +393,9 @@ Clarn_Ruler = {
     trait = ambitious
     trait = authoritative
 
+    trait = shrewd
+    trait = intellect_good_1
+
     trait = education_intrigue_3
 
     mother = Clarn_Parent
@@ -379,16 +407,29 @@ Clarn_Ruler = {
     learning = 5
 
     4963.1.1 = { birth = yes }
+    4979.1.1 = { add_spouse = Sharn_Sibling_1 }
 }
 
 Clarn_Child_1 = {
-    name = "Albin"
+    name = "Alben"
     culture = brelish
     faith = frontier_creed
     female = no
     dynasty = dynn_clarn
 
+    trait = brave
+    trait = inquisitive
+    trait = gregarious
+
+    trait = education_martial_2
+    trait = education_martial_prowess_2
+    trait = lifestyle_hunter
+    trait = lifestyle_traveler
+
+    trait = intellect_good_1
+
     father = Clarn_Ruler
+    mother = Sharn_Sibling_1
 
     4981.1.1 = { birth = yes }
 }
@@ -401,6 +442,8 @@ Clarn_Parent = {
     dynasty = dynn_clarn
 
     father = Clarn_Grandparent
+
+    trait = intellect_good_1
 
     4931.1.1 = { birth = yes }
     4986.1.1 = { death = yes }
@@ -415,6 +458,8 @@ Clarn_Uncle = {
 
     father = Clarn_Grandparent
 
+    trait = intellect_good_1
+
     4935.1.1 = { birth = yes }
     4995.1.1 = { death = yes }
 }
@@ -428,15 +473,19 @@ Clarn_Cousin = {
 
     father = Clarn_Uncle
 
+    trait = intellect_good_1
+
     4966.1.1 = { birth = yes }
 }
 
 Clarn_Grandparent = {
-    name = "Albin"
+    name = "Alben"
     culture = brelish
     faith = frontier_creed
     female = no
     dynasty = dynn_clarn
+
+    trait = intellect_good_1
 
     4902.1.1 = { birth = yes }
     4967.1.1 = { death = yes }

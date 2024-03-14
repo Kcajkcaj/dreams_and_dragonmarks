@@ -40,6 +40,9 @@ d_sharn = {
         liege = k_breland
         change_development_level = 35
     }
+    4940.1.1 = {
+        holder = Sharn_Ancestor_1
+    }
     4974.1.1 = {
         holder = Sharn_Ruler
     }
@@ -275,6 +278,30 @@ d_dragons_crown = {
     }
     4996.1.1 = {
         de_jure_liege = k_breland
+    }
+}
+c_mistmarsh = {
+    4967.1.1 = {
+        holder = Clarn_Parent
+    }
+    4986.1.1 = {
+        holder = Clarn_Ruler
+    }
+    4995.1.1 = {
+        holder = Clarn_Child_1
+        liege = d_dragons_crown
+    }
+}
+c_faded_forest = {
+    4967.1.1 = {
+        holder = Clarn_Parent
+    }
+    4986.1.1 = {
+        holder = Clarn_Ruler
+    }
+    4995.1.1 = {
+        holder = Clarn_Child_1
+        liege = d_dragons_crown
     }
 }
 d_dragonwood = {

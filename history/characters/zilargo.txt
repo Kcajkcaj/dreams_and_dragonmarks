@@ -1,33 +1,3 @@
-Trolan_Ruler = {
-    name = "Feralyn"
-    culture = zil
-    faith = korranberg_creed
-    female = yes
-    dynasty = dynn_trolan
-
-    4951.1.1 = { birth = yes }
-}
-
-Korran_Ruler = {
-    name = "Alina"
-    culture = zil
-    faith = korranberg_creed
-    female = yes
-    dynasty = dynn_korran
-
-    4938.1.1 = { birth = yes }
-}
-
-Zolan_Ruler = {
-    name = "Alimne"
-    culture = zil
-    faith = korranberg_creed
-    female = yes
-    dynasty = dynn_zolan
-
-    4939.1.1 = { birth = yes }
-}
-
 Lyrris_Ruler = {
     name = "Alina"
     culture = zil
@@ -40,5 +10,901 @@ Lyrris_Ruler = {
     trait = diligent
     trait = education_stewardship_5
 
-    4972.1.1 = { birth = yes }
+    4936.1.1 = { birth = yes }
+}
+
+Korran_0 = {
+	name = Kendal
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_learning_4
+	4671.12.17 = { birth = yes }
+	4943.5.27 = { death = yes }
+}
+
+Korran_1 = {
+	name = Harkra
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_intrigue_3
+	mother = Korran_0
+	4716.6.24 = { birth = yes }
+	4969.10.20 = { death = yes }
+}
+
+Korran_2 = {
+	name = Kalva
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_diplomacy_5
+	mother = Korran_0
+	4717.9.24 = { birth = yes }
+	4975.9.28 = { death = yes }
+}
+
+Korran_3 = {
+	name = Vi
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_stewardship_4
+	mother = Korran_2
+	4767.4.28 = { birth = yes }
+}
+
+Korran_4 = {
+	name = Harlus
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_martial_4
+	mother = Korran_2
+	4788.3.28 = { birth = yes }
+}
+
+Korran_5 = {
+	name = Agraefa
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_intrigue_3
+	mother = Korran_1
+	4807.3.17 = { birth = yes }
+}
+
+Korran_6 = {
+	name = Vi
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_diplomacy_5
+	father = Korran_4
+	4830.4.21 = { birth = yes }
+}
+
+Korran_7 = {
+	name = Quinton
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_diplomacy_3
+	mother = Korran_5
+	4850.2.26 = { birth = yes }
+}
+
+Korran_8 = {
+	name = Tyrin
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_intrigue_2
+	mother = Korran_5
+	4858.7.13 = { birth = yes }
+}
+
+Korran_9 = {
+	name = Alina
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_diplomacy_3
+	mother = Korran_3
+	4865.7.15 = { birth = yes }
+}
+
+Korran_10 = {
+	name = Hasal
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_learning_1
+	mother = Korran_6
+	4891.6.7 = { birth = yes }
+}
+
+Korran_11 = {
+	name = Vanira
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_intrigue_3
+	mother = Korran_6
+	4895.7.22 = { birth = yes }
+}
+
+Korran_12 = {
+	name = Tassi
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_martial_2
+	father = Korran_7
+	4905.2.23 = { birth = yes }
+}
+
+Korran_13 = {
+	name = Rurin
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_intrigue_2
+	father = Korran_8
+	4908.7.19 = { birth = yes }
+}
+
+Korran_14 = {
+	name = Prelik
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_intrigue_5
+	mother = Korran_9
+	4914.1.15 = { birth = yes }
+}
+
+Korran_15 = {
+	name = Fara
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_martial_2
+	father = Korran_10
+	4934.10.20 = { birth = yes }
+}
+
+Korran_16 = {
+	name = Jalara
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_stewardship_2
+	mother = Korran_11
+	4936.1.4 = { birth = yes }
+}
+
+Korran_17 = {
+	name = Rurin
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_stewardship_3
+	father = Korran_8
+	4945.6.23 = { birth = yes }
+}
+
+Korran_18 = {
+	name = Valexa
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_intrigue_2
+	mother = Korran_11
+	4952.8.15 = { birth = yes }
+}
+
+Korran_19 = {
+	name = Ridara
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_intrigue_2
+	father = Korran_10
+	4955.6.28 = { birth = yes }
+}
+
+Korran_20 = {
+	name = Hasal
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_martial_4
+	father = Korran_13
+	4966.8.16 = { birth = yes }
+}
+
+Korran_21 = {
+	name = Xarshel
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = yes
+	trait = education_stewardship_4
+	mother = Korran_16
+	4987.11.10 = { birth = yes }
+}
+
+Korran_22 = {
+	name = Zander
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_korran
+	female = no
+	trait = education_stewardship_1
+	father = Korran_17
+	4987.4.26 = { birth = yes }
+}
+
+Trolan_0 = {
+	name = Xarshel
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_intrigue_5
+	4672.2.10 = { birth = yes }
+	4931.5.20 = { death = yes }
+}
+
+Trolan_1 = {
+	name = Harlus
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_martial_4
+	mother = Trolan_0
+	4725.3.21 = { birth = yes }
+	4981.8.4 = { death = yes }
+}
+
+Trolan_2 = {
+	name = Tesser
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_diplomacy_1
+	mother = Trolan_0
+	4748.10.27 = { birth = yes }
+}
+
+Trolan_3 = {
+	name = Tyrl
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_diplomacy_4
+	father = Trolan_1
+	4785.9.18 = { birth = yes }
+}
+
+Trolan_4 = {
+	name = Alimne
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_stewardship_2
+	father = Trolan_1
+	4810.4.23 = { birth = yes }
+}
+
+Trolan_5 = {
+	name = Alina
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_martial_3
+	father = Trolan_2
+	4819.5.4 = { birth = yes }
+}
+
+Trolan_6 = {
+	name = Tesser
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_learning_2
+	father = Trolan_3
+	4825.5.12 = { birth = yes }
+}
+
+Trolan_7 = {
+	name = Tala
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_learning_2
+	father = Trolan_3
+	4827.4.18 = { birth = yes }
+}
+
+Trolan_8 = {
+	name = Tyrl
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_learning_5
+	father = Trolan_2
+	4828.4.1 = { birth = yes }
+}
+
+Trolan_9 = {
+	name = Tassi
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_learning_3
+	mother = Trolan_5
+	4861.4.11 = { birth = yes }
+}
+
+Trolan_10 = {
+	name = Agraefa
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_intrigue_1
+	father = Trolan_6
+	4869.8.11 = { birth = yes }
+}
+
+Trolan_11 = {
+	name = Kidro
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_stewardship_4
+	mother = Trolan_7
+	4871.9.10 = { birth = yes }
+}
+
+Trolan_12 = {
+	name = Zellwether
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_diplomacy_2
+	mother = Trolan_4
+	4873.12.1 = { birth = yes }
+}
+
+Trolan_13 = {
+	name = Benith
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_martial_2
+	mother = Trolan_7
+	4873.5.14 = { birth = yes }
+}
+
+Trolan_14 = {
+	name = Valexa
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_learning_1
+	mother = Trolan_5
+	4883.7.23 = { birth = yes }
+}
+
+Trolan_15 = {
+	name = Rurin
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_martial_2
+	mother = Trolan_5
+	4899.5.28 = { birth = yes }
+}
+
+Trolan_16 = {
+	name = Scaramar
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_diplomacy_2
+	father = Trolan_11
+	4913.1.12 = { birth = yes }
+}
+
+Trolan_17 = {
+	name = Daca
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_stewardship_5
+	mother = Trolan_13
+	4914.2.11 = { birth = yes }
+}
+
+Trolan_18 = {
+	name = Doran
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_learning_5
+	father = Trolan_11
+	4916.9.7 = { birth = yes }
+}
+
+Trolan_19 = {
+	name = Xarshel
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_intrigue_1
+	father = Trolan_6
+	4921.9.17 = { birth = yes }
+}
+
+Trolan_20 = {
+	name = Tassi
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_martial_2
+	mother = Trolan_13
+	4927.11.21 = { birth = yes }
+}
+
+Trolan_21 = {
+	name = Josilian
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_martial_4
+	father = Trolan_11
+	4929.12.28 = { birth = yes }
+}
+
+Trolan_22 = {
+	name = Syla
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_diplomacy_3
+	mother = Trolan_10
+	4934.12.21 = { birth = yes }
+}
+
+Trolan_23 = {
+	name = Valexa
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_diplomacy_3
+	father = Trolan_12
+	4940.11.13 = { birth = yes }
+}
+
+Trolan_24 = {
+	name = Yeksir
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_learning_1
+	mother = Trolan_13
+	4945.5.9 = { birth = yes }
+}
+
+Trolan_25 = {
+	name = Tala
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_diplomacy_3
+	mother = Trolan_9
+	4948.1.9 = { birth = yes }
+}
+
+Trolan_26 = {
+	name = Jolian
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_intrigue_2
+	mother = Trolan_10
+	4963.8.18 = { birth = yes }
+}
+
+Trolan_27 = {
+	name = Vanira
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_learning_1
+	mother = Trolan_10
+	4966.6.23 = { birth = yes }
+}
+
+Trolan_28 = {
+	name = Nebik
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = no
+	trait = education_martial_2
+	father = Trolan_18
+	4982.1.14 = { birth = yes }
+}
+
+Trolan_29 = {
+	name = Vi
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_trolan
+	female = yes
+	trait = education_martial_2
+	father = Trolan_16
+	4983.10.18 = { birth = yes }
+}
+
+Zolan_0 = {
+	name = Zellwether
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_learning_1
+	4675.7.17 = { birth = yes }
+	4916.7.27 = { death = yes }
+}
+
+Zolan_1 = {
+	name = Kendal
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_learning_3
+	father = Zolan_0
+	4719.4.10 = { birth = yes }
+	4962.3.2 = { death = yes }
+}
+
+Zolan_2 = {
+	name = Solirion
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_stewardship_2
+	father = Zolan_0
+	4750.5.16 = { birth = yes }
+}
+
+Zolan_3 = {
+	name = Cassia
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_diplomacy_3
+	father = Zolan_0
+	4756.6.7 = { birth = yes }
+	4980.12.16 = { death = yes }
+}
+
+Zolan_4 = {
+	name = Alina
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_diplomacy_2
+	mother = Zolan_1
+	4765.7.16 = { birth = yes }
+}
+
+Zolan_5 = {
+	name = Yeksir
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_intrigue_2
+	mother = Zolan_1
+	4789.6.23 = { birth = yes }
+}
+
+Zolan_6 = {
+	name = Rurin
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_learning_3
+	father = Zolan_2
+	4810.8.17 = { birth = yes }
+}
+
+Zolan_7 = {
+	name = Zander
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_diplomacy_1
+	mother = Zolan_4
+	4811.11.19 = { birth = yes }
+}
+
+Zolan_8 = {
+	name = Nebik
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_martial_2
+	father = Zolan_5
+	4832.11.28 = { birth = yes }
+}
+
+Zolan_9 = {
+	name = Wernor
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_intrigue_4
+	mother = Zolan_4
+	4847.4.12 = { birth = yes }
+}
+
+Zolan_10 = {
+	name = Rurin
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_diplomacy_4
+	mother = Zolan_3
+	4855.2.26 = { birth = yes }
+}
+
+Zolan_11 = {
+	name = Jolian
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_martial_2
+	father = Zolan_7
+	4857.8.12 = { birth = yes }
+}
+
+Zolan_12 = {
+	name = Yeksir
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_learning_3
+	father = Zolan_6
+	4864.3.10 = { birth = yes }
+}
+
+Zolan_13 = {
+	name = Wernor
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_martial_2
+	father = Zolan_7
+	4874.2.27 = { birth = yes }
+}
+
+Zolan_14 = {
+	name = Tala
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_martial_4
+	father = Zolan_8
+	4874.1.26 = { birth = yes }
+}
+
+Zolan_15 = {
+	name = Illivanik
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_learning_2
+	father = Zolan_7
+	4880.8.24 = { birth = yes }
+}
+
+Zolan_16 = {
+	name = Daca
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_diplomacy_5
+	father = Zolan_8
+	4880.11.27 = { birth = yes }
+}
+
+Zolan_17 = {
+	name = Prelik
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_intrigue_2
+	father = Zolan_8
+	4894.7.9 = { birth = yes }
+}
+
+Zolan_18 = {
+	name = Vanira
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_stewardship_3
+	father = Zolan_11
+	4898.7.9 = { birth = yes }
+}
+
+Zolan_19 = {
+	name = Fara
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_learning_2
+	father = Zolan_11
+	4901.11.23 = { birth = yes }
+}
+
+Zolan_20 = {
+	name = Harlus
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_intrigue_4
+	father = Zolan_9
+	4914.11.17 = { birth = yes }
+}
+
+Zolan_21 = {
+	name = Scaramar
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_intrigue_1
+	father = Zolan_12
+	4917.3.14 = { birth = yes }
+}
+
+Zolan_22 = {
+	name = Vi
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_diplomacy_1
+	father = Zolan_13
+	4927.5.26 = { birth = yes }
+}
+
+Zolan_23 = {
+	name = Janesta
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_stewardship_5
+	father = Zolan_10
+	4935.7.14 = { birth = yes }
+}
+
+Zolan_24 = {
+	name = Wernor
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_intrigue_1
+	father = Zolan_20
+	4963.11.17 = { birth = yes }
+}
+
+Zolan_25 = {
+	name = Prelik
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_martial_3
+	mother = Zolan_19
+	4964.7.12 = { birth = yes }
+}
+
+Zolan_26 = {
+	name = Jolian
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = no
+	trait = education_martial_2
+	mother = Zolan_18
+	4965.7.18 = { birth = yes }
+}
+
+Zolan_27 = {
+	name = Vi
+	culture = zil
+	faith = korranberg_creed
+	dynasty = dynn_zolan
+	female = yes
+	trait = education_diplomacy_2
+	father = Zolan_20
+	4988.1.1 = { birth = yes }
 }

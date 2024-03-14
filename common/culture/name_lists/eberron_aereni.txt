@@ -31,5 +31,5 @@ name_list_aereni = {
 	cadet_dynasty_names = dynasty_names
 
 	male_names = { Shaeras Fallarond Aeren Aramil Aust Enialis Heian Himo Ivellios Laucian Quarion Soverliss Thamior Tharivol Belaereth Carden Dalaer Dayne Helaeras Jhalaer Jhayne Maeran Mazareth Mayne Taen Thaendyr Tolan Varaendyr Varonen Quarion }
-	female_names = { Zemella Irian Saeria Luala Minara Minari Eliri Erandis Anastrianna Antinua Drusilia Felosial Ielenia Lia Mialee Qillathe Silaqui Vadania Valanthe Xanaphia Aeren Ashaelyn Etrigani Heladaen Jhalira Laeren Mazalira Minaera Serandis Syraen Taelira Tazaera Thaera Vadallia Vaeren Riala}
+	female_names = { Elvinor Zemella Irian Saeria Luala Minara Minari Eliri Erandis Anastrianna Antinua Drusilia Felosial Ielenia Lia Mialee Qillathe Silaqui Vadania Valanthe Xanaphia Aeren Ashaelyn Etrigani Heladaen Jhalira Laeren Mazalira Minaera Serandis Syraen Taelira Tazaera Thaera Vadallia Vaeren Riala}
 }

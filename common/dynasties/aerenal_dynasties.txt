@@ -74,3 +74,6 @@ dynn_shol = {
 	name = "Shol"
 	culture = tairn
 }
+dynn_phiarlan = {
+	name = "Phiarlan"
+}

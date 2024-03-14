@@ -1,0 +1,24 @@
+house_tialaen = {
+    name = "Tialaen"
+    dynasty = dynn_phiarlan
+}
+
+house_shol = {
+    name = "Shol"
+    dynasty = dynn_phiarlan
+}
+
+house_elorrenthi = {
+    name = "Elorrenthi"
+    dynasty = dynn_phiarlan
+}
+
+house_thuranni = {
+    name = "Thuranni"
+    dynasty = dynn_phiarlan
+}
+
+house_paelion = {
+    name = "Paelion"
+    dynasty = dynn_phiarlan
+}

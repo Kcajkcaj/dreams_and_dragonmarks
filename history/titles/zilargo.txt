@@ -1,22 +1,76 @@
 k_zilargo = {
-    4960.1.1 = {
-        holder = Trolan_Ruler
+    4700.1.1 = {
+        holder = Trolan_0
         government = principality_government
+    }
+    4931.5.20 = {
+        holder = Trolan_1
+    }
+    4981.8.4 = {
+        holder = Trolan_3
     }
 }
 d_trolanport = {
-    4960.1.1 = {
-        holder = Trolan_Ruler
+    4700.1.1 = {
+        holder = Trolan_0
         government = principality_government
         change_development_level = 30
     }
+    4931.5.20 = {
+        holder = Trolan_1
+    }
+    4981.8.4 = {
+        holder = Trolan_3
+    }
+}
+c_redcliffs = {
+    4900.1.1 = {
+        liege = d_trolanport
+        holder = Trolan_11
+    }
+}
+c_shimmerwood_a = {
+    4900.1.1 = {
+        liege = d_trolanport
+        holder = Trolan_13
+    }
+}
+c_shimmerwood_b = {
+    4900.1.1 = {
+        liege = d_trolanport
+        holder = Trolan_15
+    }
+}
+c_liugwen = {
+    4900.1.1 = {
+        liege = d_trolanport
+        holder = Trolan_14
+    }
+}
+c_oskilor = {
+    4900.1.1 = {
+        liege = d_trolanport
+        holder = Trolan_16
+    }
+}
+c_tzanthus = {
+    4900.1.1 = {
+        liege = d_trolanport
+        holder = Trolan_17
+    }
 }
 d_zolanberg = {
-    4960.1.1 = {
-        holder = Zolan_Ruler
+    4700.1.1 = {
+        holder = Zolan_0
         liege = k_zilargo
         government = principality_government
         change_development_level = 30
+    }
+    4916.7.27 = {
+        holder = Zolan_1
+    }
+    4962.3.2 = {
+        holder = Zolan_4
     }
 }
 c_deep_mine = {
@@ -40,11 +94,77 @@ c_fireflies = {
         government = principality_government
     }
 }
+c_reven = {
+    4900.1.1 = {
+        liege = d_zolanberg
+        holder = Zolan_9
+    }
+}
+c_mistlake = {
+    4900.1.1 = {
+        liege = d_zolanberg
+        holder = Zolan_7
+    }
+}
+c_howlshade = {
+    4900.1.1 = {
+        liege = d_zolanberg
+        holder = Zolan_13
+    }
+}
+c_quesk = {
+    4900.1.1 = {
+        liege = d_zolanberg
+        holder = Zolan_15
+    }
+}
 d_korranberg = {
-    4960.1.1 = {
-        holder = Korran_Ruler
+    4700.1.1 = {
+        holder = Korran_0
         liege = k_zilargo
         government = principality_government
         change_development_level = 30
+    }
+    4943.5.27 = {
+        holder = Korran_1
+    }
+    4969.10.20 = {
+        holder = Korran_5
+    }
+}
+c_thurimbar = {
+    4900.1.1 = {
+        liege = d_korranberg
+        holder = Korran_3
+    }
+}
+c_tarandro = {
+    4900.1.1 = {
+        liege = d_korranberg
+        holder = Korran_3
+    }
+}
+c_thurim_bay = {
+    4900.1.1 = {
+        liege = d_korranberg
+        holder = Korran_4
+    }
+}
+c_thurim_point = {
+    4900.1.1 = {
+        liege = d_korranberg
+        holder = Korran_4
+    }
+}
+c_thurimbar = {
+    4900.1.1 = {
+        liege = d_korranberg
+        holder = Korran_3
+    }
+}
+c_tariston = {
+    4900.1.1 = {
+        liege = d_korranberg
+        holder = Korran_8
     }
 }

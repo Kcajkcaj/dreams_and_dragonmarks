@@ -1,0 +1,176 @@
+dragonmarked_liason_court_position = {
+    max_available_positions = 5
+    category = court_position_category_dragonmarked
+    skill = stewardship
+
+    opinion = {
+        value = regular_court_position_opinion
+    }
+
+    aptitude_level_breakpoints = { 20 40 60 80 }
+
+    aptitude = {
+        value = 1
+        add = {
+			value = stewardship
+			desc = court_position_skill_stewardship
+		}
+        add = {
+			value = diplomacy
+            multiply = 0.5
+			desc = court_position_skill_diplomacy
+		}
+		add = {
+			value = intrigue
+            multiply = 0.5
+			desc = court_position_skill_intrigue
+		}
+		add = {
+			value = learning
+            multiply = 0.5
+			desc = court_position_skill_learning
+		}
+        if = {
+			limit = {
+				has_trait = mage
+			}
+			add = 20
+		}
+        if = {
+            limit = {
+                house ?= {house_head = prev}
+            }
+            add = 20
+        }
+		add = court_position_aptitude_family_business_value
+    }
+
+    is_shown = {}
+    
+    valid_position = {}
+
+    is_shown_character = {
+        scope:employee = {
+			is_imprisoned = no
+            or = {
+                has_trait = mark_of_detection
+                has_trait = mark_of_finding
+                has_trait = mark_of_handling
+                has_trait = mark_of_healing
+                has_trait = mark_of_hospitality
+                has_trait = mark_of_making
+                has_trait = mark_of_passage
+                has_trait = mark_of_scribing
+                has_trait = mark_of_sentinel
+                has_trait = mark_of_shadow
+                has_trait = mark_of_storm
+                has_trait = mark_of_warding
+            }
+        }
+    }
+    valid_character = {
+    }
+
+    revoke_cost = {
+		prestige =  {
+			value = major_court_position_prestige_revoke_cost
+
+			# Set to 0 with Dynasty Perk Inner Circle
+			if = {
+				limit = {
+					exists = dynasty
+					dynasty = { has_dynasty_perk = fp2_coterie_legacy_1 }
+
+					employs_court_position = cultural_emissary_court_position
+					any_court_position_holder = {
+				        type = cultural_emissary_court_position
+						exists = dynasty
+						house = prev.house
+					}
+				}
+				multiply = 0
+			}
+			if = {
+				limit = {
+					exists = this
+					is_ai = yes
+				}
+				multiply = 0
+			}
+		}
+	}
+
+    salary = {
+		round = no
+		gold = {
+			value = major_court_position_salary
+			# Set to 0 with Dynasty Perk Inner Circle
+			if = {
+				limit = {
+					scope:liege = {
+						exists = dynasty
+						dynasty = { has_dynasty_perk = fp2_coterie_legacy_1 }
+
+						employs_court_position = court_mage_court_position
+						any_court_position_holder = {
+					        type = court_mage_court_position
+							exists = dynasty
+							house = prev.house
+						}
+					}
+				}
+				multiply = {
+					value = 0.0
+					desc = inner_circle_salary_mod
+					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+				}
+			}
+			if = {
+				limit = {
+					scope:liege = {
+						employs_court_position = court_mage_court_position
+						any_court_position_holder = {
+					        type = court_mage_court_position
+					        scope:liege = {
+								has_hook_of_type = {
+									type = obligation_hook
+									target = prev
+								}
+							}
+						}
+					}
+				}
+				multiply = {
+					value = 0.5
+					desc = obligation_hook_salary
+				}
+			}
+		}
+	}
+
+    scaling_employer_modifiers = {
+        terrible = {
+            monthly_prestige = 0.1
+        }
+        poor = {
+            monthly_prestige = 0.2
+        }
+        average = {
+            monthly_prestige = 0.3
+        }
+        good = {
+            monthly_prestige = 0.4
+        }
+        excellent = {
+            monthly_prestige = 0.5
+        }
+    }
+
+    candidate_score = {
+        value = 100
+		add = scope:base_value
+		add = court_position_candidate_score_base_value
+		add = court_position_candidate_aptitude_value
+        add = court_position_debt_considerations_value
+    }
+}
