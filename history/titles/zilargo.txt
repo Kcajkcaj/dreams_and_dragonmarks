@@ -76,21 +76,21 @@ d_zolanberg = {
 c_deep_mine = {
     4980.1.1 = {
         holder = Lyrris_Ruler
-        liege = k_zilargo
+        liege = d_zolanberg
         government = principality_government
     }
 }
 c_dragonroost = {
     4980.1.1 = {
         holder = Lyrris_Ruler
-        liege = k_zilargo
+        liege = d_zolanberg
         government = principality_government
     }
 }
 c_fireflies = {
     4980.1.1 = {
         holder = Lyrris_Ruler
-        liege = k_zilargo
+        liege = d_zolanberg
         government = principality_government
     }
 }

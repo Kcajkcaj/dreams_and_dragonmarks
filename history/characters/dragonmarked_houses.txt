@@ -98,6 +98,7 @@ Lyrandar_6 = {
     trait = arrogant
     trait = callous
     trait = diligent
+    trait = mark_of_storm
 
     stewardship = 11
     diplomacy = 9
@@ -115,6 +116,8 @@ Lyrandar_7 = {
     female = no
     dynasty = dynn_lyrandar
 
+    trait = mark_of_storm
+
     mother = Lyrandar_4
 
     4913.1.1 = { birth = yes }
@@ -127,6 +130,8 @@ Lyrandar_8 = {
     faith = frontier_creed
     female = yes
     dynasty = dynn_lyrandar
+
+    trait = mark_of_storm
 
     father = Lyrandar_7
 
@@ -563,4 +568,223 @@ Cannith_11 = {
 
     4953.1.1 = { birth = yes }
     4994.2.20 = { death = { death_reason = death_the_mourning } }
+}
+
+Medani_0 = {
+	name = "Magdalora"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_learning_1
+	4869.10.27 = { birth = yes }
+	4932.9.8 = { death = yes }
+}
+
+Medani_1 = {
+	name = "Gydd"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_stewardship_5
+	mother = Medani_0
+	4899.6.19 = { birth = yes }
+	4948.8.1 = { death = yes }
+}
+
+Medani_2 = {
+	name = "Keslo"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = no
+	trait = mark_of_finding
+	trait = education_diplomacy_2
+	mother = Medani_1
+	4919.12.7 = { birth = yes }
+	4979.5.12 = { death = yes }
+}
+
+Medani_3 = {
+	name = "Shauranna"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_martial_5
+	mother = Medani_1
+	4931.8.22 = { birth = yes }
+	4979.11.5 = { death = yes }
+}
+
+Medani_4 = {
+	name = "Saidan"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = no
+	trait = mark_of_finding
+	trait = education_diplomacy_3
+	mother = Medani_1
+	4938.3.25 = { birth = yes }
+}
+
+Medani_5 = {
+	name = "Trelib"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = no
+	trait = mark_of_finding
+	trait = education_stewardship_2
+	father = Medani_2
+	4939.2.5 = { birth = yes }
+}
+
+Medani_6 = {
+	name = "Molric"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = no
+	trait = mark_of_finding
+	trait = education_martial_2
+	father = Medani_2
+	4947.6.14 = { birth = yes }
+}
+
+Medani_7 = {
+	name = "Itlani"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_intrigue_2
+	mother = Medani_3
+	4955.4.2 = { birth = yes }
+}
+
+Medani_8 = {
+	name = "Aanna"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_stewardship_2
+	father = Medani_2
+	4957.11.21 = { birth = yes }
+}
+
+Medani_9 = {
+	name = "Jovi"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = no
+	trait = mark_of_finding
+	trait = education_intrigue_1
+	father = Medani_5
+	4962.8.25 = { birth = yes }
+}
+
+Medani_10 = {
+	name = "Teesen"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = no
+	trait = mark_of_finding
+	trait = education_diplomacy_2
+	father = Medani_5
+	4963.10.15 = { birth = yes }
+}
+
+Medani_11 = {
+	name = "Itlani"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_learning_4
+	father = Medani_6
+	4964.5.5 = { birth = yes }
+}
+
+Medani_12 = {
+	name = "Tabin"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_intrigue_2
+	mother = Medani_8
+	4975.4.4 = { birth = yes }
+}
+
+Medani_13 = {
+	name = "Magdalora"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_diplomacy_2
+	father = Medani_6
+	4977.2.27 = { birth = yes }
+}
+
+Medani_14 = {
+	name = "Riki"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_learning_1
+	father = Medani_10
+	4985.8.26 = { birth = yes }
+}
+
+Medani_15 = {
+	name = "Sava"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_martial_2
+	father = Medani_10
+	4988.4.17 = { birth = yes }
+}
+
+Medani_16 = {
+	name = "Alike"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_martial_5
+	mother = Medani_11
+	4988.4.22 = { birth = yes }
+}
+
+Medani_17 = {
+	name = "Magdalora"
+	culture = brelish
+	faith = frontier_creed
+	dynasty = dynn_medani
+	female = yes
+	trait = mark_of_finding
+	trait = education_learning_4
+	mother = Medani_11
+	4990.2.21 = { birth = yes }
 }

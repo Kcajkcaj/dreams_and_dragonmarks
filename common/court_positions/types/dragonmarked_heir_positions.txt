@@ -4,7 +4,7 @@ dragonmarked_liason_court_position = {
     skill = stewardship
 
     opinion = {
-        value = regular_court_position_opinion
+        value = 10
     }
 
     aptitude_level_breakpoints = { 20 40 60 80 }
@@ -13,21 +13,20 @@ dragonmarked_liason_court_position = {
         value = 1
         add = {
 			value = stewardship
+			multiply = 2
 			desc = court_position_skill_stewardship
 		}
         add = {
 			value = diplomacy
-            multiply = 0.5
+			multiply = 1.5
 			desc = court_position_skill_diplomacy
 		}
 		add = {
 			value = intrigue
-            multiply = 0.5
 			desc = court_position_skill_intrigue
 		}
 		add = {
 			value = learning
-            multiply = 0.5
 			desc = court_position_skill_learning
 		}
         if = {
@@ -38,9 +37,10 @@ dragonmarked_liason_court_position = {
 		}
         if = {
             limit = {
-                house ?= {house_head = prev}
+                house ?= {house_head = root}
             }
             add = 20
+            desc = court_position_head_of_house
         }
 		add = court_position_aptitude_family_business_value
     }
@@ -104,47 +104,6 @@ dragonmarked_liason_court_position = {
 		round = no
 		gold = {
 			value = major_court_position_salary
-			# Set to 0 with Dynasty Perk Inner Circle
-			if = {
-				limit = {
-					scope:liege = {
-						exists = dynasty
-						dynasty = { has_dynasty_perk = fp2_coterie_legacy_1 }
-
-						employs_court_position = court_mage_court_position
-						any_court_position_holder = {
-					        type = court_mage_court_position
-							exists = dynasty
-							house = prev.house
-						}
-					}
-				}
-				multiply = {
-					value = 0.0
-					desc = inner_circle_salary_mod
-					format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
-				}
-			}
-			if = {
-				limit = {
-					scope:liege = {
-						employs_court_position = court_mage_court_position
-						any_court_position_holder = {
-					        type = court_mage_court_position
-					        scope:liege = {
-								has_hook_of_type = {
-									type = obligation_hook
-									target = prev
-								}
-							}
-						}
-					}
-				}
-				multiply = {
-					value = 0.5
-					desc = obligation_hook_salary
-				}
-			}
 		}
 	}
 

@@ -1,73 +1,600 @@
-### Mark of Making
+### Multiple Marks
 
-court_mage_organize_research = {
-    court_position_types = { court_mage_court_position }
+dragonmarked_heir_direct_inquisitives = {
+    court_position_types = { dragonmarked_liason_court_position }
 
     cost = {
 		round = no
 		gold = {
 			add = {
-				value = monthly_court_position_task_cost
+				value = 0.5
 				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
 				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
 			}
 		}
 	}
 
-	employee_modifier = {
-		monthly_prestige = minor_court_position_task_prestige_salary
+    is_valid_showing_failures_only = {
+		or = {
+			has_trait = mark_of_detection
+			has_trait = mark_of_finding
+		}
+	}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+dragonmarked_heir_foil_plots = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+	scaling_employer_modifiers = {
+        terrible = {
+            enemy_hostile_scheme_success_chance_add = -5
+        }
+        poor = {
+            enemy_hostile_scheme_success_chance_add = -10
+        }
+        average = {
+           	enemy_hostile_scheme_success_chance_add = -20
+        }
+        good = {
+            enemy_hostile_scheme_success_chance_add = -40
+        }
+        excellent = {
+            enemy_hostile_scheme_success_chance_add = -60
+        }
+    }
+
+    is_valid_showing_failures_only = {
+		or = {
+			has_trait = mark_of_finding
+			has_trait = mark_of_sentinel
+		}
+	}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+dragonmarked_heir_hire_mercenaries = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {
+		or = {
+			has_trait = mark_of_detection
+			has_trait = mark_of_sentinel
+		}
+	}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+### Mark of Finding
+
+### Mark of Making
+
+cannith_construct_infrastructure = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_making}
+
+    scaling_employer_modifiers = {
+		terrible = {
+			build_speed = -0.05
+            build_gold_cost = -0.025
+		}
+		poor = {
+			build_speed = -0.1
+            build_gold_cost = -0.05
+		}
+		average = {
+			build_speed = -0.15
+            build_gold_cost = -0.075
+		}
+		good = {
+			build_speed = -0.2
+            build_gold_cost = -0.1
+		}
+		excellent = {
+			build_speed = -0.3
+            build_gold_cost = -0.15
+		}
+	}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+cannith_craft_artifacts = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_making}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+cannith_oversee_research = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_making}
+
+    scaling_employer_modifiers = {
+		terrible = {
+			cultural_head_fascination_mult = 0.05
+			learning_lifestyle_xp_gain_mult = 0.05
+            stewardship_lifestyle_xp_gain_mult = 0.05
+		}
+		poor = {
+			cultural_head_fascination_mult = 0.1
+			learning_lifestyle_xp_gain_mult = 0.1
+            stewardship_lifestyle_xp_gain_mult = 0.1
+		}
+		average = {
+			cultural_head_fascination_mult = 0.2
+			learning_lifestyle_xp_gain_mult = 0.2
+            stewardship_lifestyle_xp_gain_mult = 0.2
+		}
+		good = {
+			cultural_head_fascination_mult = 0.4
+			learning_lifestyle_xp_gain_mult = 0.4
+            stewardship_lifestyle_xp_gain_mult = 0.4
+		}
+		excellent = {
+			cultural_head_fascination_mult = 0.6
+			learning_lifestyle_xp_gain_mult = 0.6
+            stewardship_lifestyle_xp_gain_mult = 0.6
+		}
+	}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+### Mark of Shadow
+
+phiarlan_manage_covert_ops = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_shadow}
+
+    scaling_employer_modifiers = {
+        terrible = {
+            owned_hostile_scheme_success_chance_add = 3
+        }
+        poor = {
+            owned_hostile_scheme_success_chance_add = 5
+        }
+        average = {
+            owned_hostile_scheme_success_chance_add = 10
+        }
+        good = {
+            owned_hostile_scheme_success_chance_add = 20
+        }
+        excellent = {
+            owned_hostile_scheme_success_chance_add = 30
+        }
+    }
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+phiarlan_perform_operas = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_shadow}
+
+    scaling_employer_modifiers = {
+        terrible = {
+            court_grandeur_baseline_add = 1
+            stress_loss_mult = 0.03
+        }
+        poor = {
+            court_grandeur_baseline_add = 2
+            stress_loss_mult = 0.05
+        }
+        average = {
+            court_grandeur_baseline_add = 4
+            stress_loss_mult = 0.1
+        }
+        good = {
+            court_grandeur_baseline_add = 8
+            stress_loss_mult = 0.2
+        }
+        excellent = {
+            court_grandeur_baseline_add = 12
+            stress_loss_mult = 0.3
+        }
+    }
+
+    scaling_employer_court_modifiers = {
+        terrible = {
+            stress_loss_mult = 0
+            stress_loss_mult = 0.03
+        }
+        poor = {
+            stress_loss_mult = 0.05
+        }
+        average = {
+            stress_loss_mult = 0.1
+        }
+        terrible = {
+            stress_loss_mult = 0.2
+        }
+        terrible = {
+            stress_loss_mult = 0.3
+        }
+    }
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+phiarlan_propagandize = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_shadow}
+
+    scaling_employer_modifiers = {
+		terrible = {
+		 	owned_legend_spread_mult = 0.05
+            legitimacy_gain_mult = 0.05
+		}
+		poor = {
+		 	owned_legend_spread_mult = 0.1
+            legitimacy_gain_mult = 0.1
+            legitimacy_loss_mult = -0.05
+		}
+		average = {
+		 	owned_legend_spread_mult = 0.2
+            legitimacy_gain_mult = 0.2
+            legitimacy_loss_mult = -0.1
+		}
+		good = {
+		 	owned_legend_spread_mult = 0.4
+            legitimacy_gain_mult = 0.4
+            legitimacy_loss_mult = -0.2
+		}
+		excellent = {
+		 	owned_legend_spread_mult = 0.6
+            legitimacy_gain_mult = 0.6
+            legitimacy_loss_mult = -0.3
+		}
+	}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+### Mark of Passage
+
+orien_oversee_logistics = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
 	}
 
 	scaling_employer_modifiers = {
 		terrible = {
-		 	mage_xp_gain_mult = 0.1
+		 	movement_speed = 0.03
+			supply_duration = 0.1
 		}
 		poor = {
-		 	mage_xp_gain_mult = 0.2
+		 	movement_speed = 0.05
+			supply_duration = 0.25
 		}
 		average = {
-		 	mage_xp_gain_mult = 0.3
+		 	movement_speed = 0.1
+			supply_duration = 0.5
 		}
 		good = {
-		 	mage_xp_gain_mult = 0.4
+		 	movement_speed = 0.2
+			supply_duration = 0.75
 		}
 		excellent = {
-		 	mage_xp_gain_mult = 0.5
+		 	movement_speed = 0.3
+			supply_duration = 1
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_passage}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+orien_pilot_carriages = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_passage}
+
+	scaling_employer_modifiers = {
+		terrible = {
+		 	character_travel_speed_mult = 0.1
+			character_travel_safety_mult = 0.05
+		}
+		poor = {
+		 	character_travel_speed_mult = 0.25
+			character_travel_safety_mult = 0.1
+		}
+		average = {
+		 	character_travel_speed_mult = 0.5
+			character_travel_safety_mult = 0.2
+		}
+		good = {
+		 	character_travel_speed_mult = 0.75
+			character_travel_safety_mult = 0.4
+		}
+		excellent = {
+		 	character_travel_speed_mult = 1
+			character_travel_safety_mult = 0.6
+		}
+	}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+orien_promote_trade = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_passage}
+
+	scaling_employer_modifiers = {
+		terrible = {
+		 	development_growth_factor = 0.05
+		}
+		poor = {
+		 	development_growth_factor = 0.1
+		}
+		average = {
+		 	development_growth_factor = 0.15
+		}
+		good = {
+		 	development_growth_factor = 0.2
+		}
+		excellent = {
+		 	development_growth_factor = 0.3
+		}
+	}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+### Mark of Storm
+
+lyrandar_command_navy = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+	scaling_employer_modifiers = {
+		terrible = {
+		 	naval_movement_speed_mult = 0.05
+			coastal_advantage = 1
+		}
+		poor = {
+		 	naval_movement_speed_mult = 0.1
+			coastal_advantage = 2
+		}
+		average = {
+		 	naval_movement_speed_mult = 0.2
+			coastal_advantage = 4
+		}
+		good = {
+		 	naval_movement_speed_mult = 0.4
+			coastal_advantage = 8
+		}
+		excellent = {
+		 	naval_movement_speed_mult = 0.6
+			coastal_advantage = 12
 		}
 	}
 
 	scaling_employer_court_modifiers = {
 		terrible = {
-		 	mage_xp_gain_mult = 0.1
+		 	coastal_advantage = 1
 		}
 		poor = {
-		 	mage_xp_gain_mult = 0.2
+		 	coastal_advantage = 2
 		}
 		average = {
-		 	mage_xp_gain_mult = 0.3
+		 	coastal_advantage = 4
 		}
 		good = {
-		 	mage_xp_gain_mult = 0.4
+		 	coastal_advantage = 8
 		}
 		excellent = {
-		 	mage_xp_gain_mult = 0.5
+		 	coastal_advantage = 12
 		}
 	}
 
-    on_yearly = {
-        scope:councillor_liege = {
-			if = {
-				limit = {has_trait = mage}
-				study_magic_effect = yes
-			}
-			every_courtier = {
-				limit = {
-					has_trait = mage
-				}
-				study_magic_effect = yes
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
 			}
 		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_storm}
+
+    ai_will_do = {
+        value = 100
     }
+}
+
+lyrandar_manipulate_weather = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_storm}
+
+    ai_will_do = {
+        value = 100
+    }
+}
+
+lyrandar_supervise_shipping = {
+    court_position_types = { dragonmarked_liason_court_position }
+
+    cost = {
+		round = no
+		gold = {
+			add = {
+				value = 0.5
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+		}
+	}
+
+    is_valid_showing_failures_only = {has_trait = mark_of_storm}
 
     ai_will_do = {
         value = 100
