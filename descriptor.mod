@@ -1,4 +1,4 @@
-version="1.7"
+version="1.8"
 tags={
 	"Total Conversion"
 }
@@ -13,5 +13,5 @@ replace_path="history/provinces"
 replace_path="history/titles"
 replace_path="map_data"
 picture="thumbnail.png"
-supported_version="1.11.*"
+supported_version="1.12.*"
 path="C:/Users/jack/Documents/Paradox Interactive/Crusader Kings III/mod/dreams_and_dragonmarks"
