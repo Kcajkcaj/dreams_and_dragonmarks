@@ -1,0 +1,49 @@
+﻿##### Diplomacy Lifestyle
+
+### Foreign Affairs
+
+### Domestic Affairs
+
+### Majesty
+
+### Family
+
+##### Martial Lifestyle
+
+### Strategy
+
+### Authority
+
+### Chivalry
+
+### Reaver
+
+##### Intrigue Lifestyle
+
+### Skulduggery
+
+### Intimidation
+
+### Temptation
+
+### Rogue
+
+##### Stewardship Lifestyle
+
+### Wealth
+
+### Domain
+
+### Duty
+
+### Artifice
+
+##### Learning Lifestyle
+
+### Medicine
+
+### Scholarship
+
+### Theology
+
+### Arcana
